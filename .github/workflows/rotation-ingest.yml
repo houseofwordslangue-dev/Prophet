@@ -11,6 +11,7 @@ on:
       - 'scripts/acquire_unrestricted_library.py'
       - 'scripts/import_content.py'
       - 'scripts/sync_media.py'
+      - 'scripts/build_ingested_library.py'
       - 'content_importer.py'
       - 'media_sync.py'
   schedule:
@@ -75,12 +76,15 @@ jobs:
       - name: Advance one source rotation
         run: python scripts/rotation_ingest.py --once
 
+      - name: Build reader/search/listen/watch capability index
+        run: python scripts/build_ingested_library.py
+
       - name: Commit repository-safe ingestion state and indexes
         run: |
           git config user.name 'prophet-ingestion-bot'
           git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
-          git add scripts/rotation_ingest.py .github/workflows/rotation-ingest.yml
+          git add scripts/rotation_ingest.py scripts/build_ingested_library.py .github/workflows/rotation-ingest.yml
           if ! git diff --cached --quiet; then
             git commit -m "Advance rotating source ingestion"
             git push
