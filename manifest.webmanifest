@@ -1,0 +1,22 @@
+{
+  "name": "Prophet Muhammad ﷺ — Biography & Knowledge Library",
+  "short_name": "Muhammad ﷺ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6faf7",
+  "theme_color": "#115a42",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {"name":"References","short_name":"References","url":"./references.html"},
+    {"name":"Research","short_name":"Research","url":"./researchers.html"},
+    {"name":"Media","short_name":"Media","url":"./media.html"},
+    {"name":"Moroccan Heritage","short_name":"Heritage","url":"./moroccan-heritage.html"}
+  ]
+}
