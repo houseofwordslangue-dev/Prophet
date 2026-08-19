@@ -1,0 +1,91 @@
+name: Continuous source rotation ingestion
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      books:
+        description: Public/open books per cycle
+        required: false
+        default: '2'
+      pages:
+        description: Source pages per cycle
+        required: false
+        default: '4'
+      media:
+        description: Media sources per cycle
+        required: false
+        default: '3'
+      references:
+        description: Reference URLs per cycle
+        required: false
+        default: '25'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-rotation-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      PM_ROTATE_BOOKS: ${{ inputs.books || '2' }}
+      PM_ROTATE_PAGES: ${{ inputs.pages || '4' }}
+      PM_ROTATE_MEDIA: ${{ inputs.media || '3' }}
+      PM_ROTATE_REFERENCES: ${{ inputs.references || '25' }}
+      PM_OCR_DPI: '90'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install system readers/OCR/media tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ara ffmpeg rsync
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Advance one source rotation
+        run: python scripts/rotation_ingest.py --once
+
+      - name: Commit repository-safe ingestion state and indexes
+        run: |
+          git config user.name 'prophet-ingestion-bot'
+          git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
+          git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
+          git add scripts/rotation_ingest.py .github/workflows/rotation-ingest.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "Advance rotating source ingestion"
+            git push
+          fi
+
+      - name: Deploy updated site/library to first-party server when configured
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$PM_DEPLOY_HOST" ] || [ -z "$PM_DEPLOY_USER" ] || [ -z "$PM_DEPLOY_PATH" ] || [ -z "$PM_DEPLOY_SSH_KEY" ]; then
+            echo "Deployment secrets not configured; ingestion commit completed, site upload skipped."
+            exit 0
+          fi
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+          rsync -az --delete --exclude '.git/' --exclude 'private/deep_source_cache/' --exclude 'private/quarantine*/' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
