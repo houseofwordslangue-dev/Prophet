@@ -1,0 +1,19 @@
+# Runtime and secrets
+.env
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.pyc
+private/.rotation_ingest.lock
+private/deep_source_cache/
+private/quarantine*/
+
+# Large acquired local corpus: deployed to first-party storage, not Git history
+library/works/**/original.*
+resources/library/raw/
+resources/library/source/
+
+# Keep repository-safe derived metadata/indexes
+!resources/library/processed/
+!resources/library/processed/**
