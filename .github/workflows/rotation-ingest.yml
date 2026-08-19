@@ -1,6 +1,18 @@
 name: Continuous source rotation ingestion
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'private/acquisition_candidates.json'
+      - 'private/source_import_config.json'
+      - 'private/media_sources.json'
+      - 'scripts/rotation_ingest.py'
+      - 'scripts/acquire_unrestricted_library.py'
+      - 'scripts/import_content.py'
+      - 'scripts/sync_media.py'
+      - 'content_importer.py'
+      - 'media_sync.py'
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
@@ -31,6 +43,7 @@ concurrency:
 
 jobs:
   ingest:
+    if: github.actor != 'prophet-ingestion-bot'
     runs-on: ubuntu-latest
     timeout-minutes: 55
     env:
