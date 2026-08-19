@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>المكتبة — محمد ﷺ</title>
+<meta name="description" content="مكتبة قابلة للقراءة والبحث والاستماع والمشاهدة ضمن منصة السيرة والمعرفة.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/bookstore.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html" aria-label="الرئيسية"><span class="brand-mark">ﷺ</span><span><b>مكتبة محمد ﷺ</b><small>السيرة والمعرفة والمصادر</small></span></a>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <a href="index.html">الرئيسية</a><a class="active" href="library.html">الكتب</a><a href="references.html">المصادر والدراسات</a><a href="media.html">الوسائط</a><a href="research.html">البحث</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">مكتبة رقمية متخصصة</p>
+      <h1>الكتب والمصادر بين يديك</h1>
+      <p>تصفّح المحتوى حسب الموضوع، المؤلف، اللغة، الصيغة والقدرة المتاحة: قراءة، بحث، استماع أو مشاهدة.</p>
+    </div>
+    <form id="heroSearch" class="hero-search" role="search">
+      <label for="q">ابحث في المكتبة</label>
+      <div class="search-line"><input id="q" name="q" type="search" placeholder="عنوان، مؤلف، موضوع، كلمة مفتاحية…" autocomplete="off"><button type="submit">بحث</button></div>
+      <div class="quick-links"><button type="button" data-cap="readable">مقروء</button><button type="button" data-cap="searchable">قابل للبحث</button><button type="button" data-cap="listenable">مسموع</button><button type="button" data-cap="watchable">مرئي</button></div>
+    </form>
+  </div>
+</section>
+
+<section class="wrap explorer">
+  <aside class="filters" aria-label="مرشحات الكتب">
+    <div class="filter-block"><h2>تصفية المكتبة</h2><button id="clearFilters" class="clear">مسح المرشحات</button></div>
+    <label>الترتيب<select id="sort"><option value="title">العنوان</option><option value="author">المؤلف</option><option value="language">اللغة</option><option value="format">الصيغة</option></select></label>
+    <fieldset><legend>القدرات</legend><label><input type="checkbox" data-filter-cap="readable"> قابل للقراءة</label><label><input type="checkbox" data-filter-cap="searchable"> قابل للبحث</label><label><input type="checkbox" data-filter-cap="listenable"> قابل للاستماع</label><label><input type="checkbox" data-filter-cap="watchable"> قابل للمشاهدة</label></fieldset>
+    <fieldset><legend>اللغة</legend><div id="languageFilters" class="facet-list"></div></fieldset>
+    <fieldset><legend>الموضوع</legend><div id="subjectFilters" class="facet-list"></div></fieldset>
+  </aside>
+
+  <div class="catalog">
+    <div class="catalog-head"><div><h2>الكتب</h2><p id="resultCount" aria-live="polite">جارٍ تحميل الفهرس…</p></div><div class="view-switch"><button type="button" data-view="grid" class="active" aria-label="عرض شبكي">▦</button><button type="button" data-view="list" aria-label="عرض قائمة">☷</button></div></div>
+    <div id="activeFilters" class="active-filters"></div>
+    <div id="bookGrid" class="book-grid" aria-live="polite"></div>
+    <div id="emptyState" class="empty" hidden><h3>لا توجد نتائج مطابقة</h3><p>جرّب كلمة أخرى أو امسح بعض المرشحات.</p></div>
+  </div>
+</section>
+</main>
+
+<dialog id="bookDialog" class="book-dialog"><button class="dialog-close" value="cancel" formmethod="dialog" aria-label="إغلاق">×</button><div id="dialogBody"></div></dialog>
+<footer><div class="wrap footer-row"><span>مكتبة محمد ﷺ</span><span>فهرس محلي متكامل مع نظام الإدخال الدوري</span></div></footer>
+<script src="assets/universal-player.js"></script>
+<script src="assets/bookstore.js"></script>
+</body>
+</html>
