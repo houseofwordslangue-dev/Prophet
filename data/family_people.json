@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "policy": "Supplemental named relatives used only for explicit family categorization. Biography remains empty until verified source passages are attached.",
+  "people": [
+    {
+      "id": "abd-yaghuth-ibn-wahb",
+      "slug": "abd-yaghuth-ibn-wahb",
+      "name": {
+        "ar": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
+        "en": "Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra",
+        "fr": "Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra"
+      },
+      "category": "family",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "salma-bint-amr-al-najjariyya",
+      "slug": "salma-bint-amr-al-najjariyya",
+      "name": {
+        "ar": "سلمى بنت عمرو النجارية",
+        "en": "Salma bint Amr al-Najjariyya",
+        "fr": "Salma bint Amr al-Najjariyya"
+      },
+      "category": "family",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    }
+  ]
+}
