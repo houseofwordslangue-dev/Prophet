@@ -14,6 +14,9 @@ on:
       - 'scripts/build_ingested_library.py'
       - 'content_importer.py'
       - 'media_sync.py'
+      - 'media.html'
+      - 'assets/media-library.js'
+      - 'assets/universal-player.js'
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
@@ -53,6 +56,7 @@ jobs:
       PM_ROTATE_MEDIA: ${{ inputs.media || '3' }}
       PM_ROTATE_REFERENCES: ${{ inputs.references || '25' }}
       PM_OCR_DPI: '90'
+      PM_MEDIA_MAX_PER_SOURCE: '500'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -76,17 +80,32 @@ jobs:
       - name: Advance one source rotation
         run: python scripts/rotation_ingest.py --once
 
+      - name: Synchronize categorized media repertory
+        run: python scripts/sync_media.py
+
       - name: Build reader/search/listen/watch capability index
         run: python scripts/build_ingested_library.py
+
+      - name: Verify media catalogue volume
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('data/imported_media.json')
+          d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {'items':[]}
+          items=d.get('items',[])
+          print('media items:',len(items))
+          if len(items)<100:
+              print('WARNING: fewer than 100 items were retrievable this cycle; retained entries remain genuine source records.')
+          PY
 
       - name: Commit repository-safe ingestion state and indexes
         run: |
           git config user.name 'prophet-ingestion-bot'
           git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
-          git add scripts/rotation_ingest.py scripts/build_ingested_library.py .github/workflows/rotation-ingest.yml
+          git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py .github/workflows/rotation-ingest.yml
           if ! git diff --cached --quiet; then
-            git commit -m "Advance rotating source ingestion"
+            git commit -m "Advance rotating source ingestion and media catalogue"
             git push
           fi
 
