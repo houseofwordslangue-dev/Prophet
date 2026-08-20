@@ -2,6 +2,7 @@
 'use strict';
 const nativeFetch=window.fetch.bind(window);
 const MANIFEST='data/catalogue/manifest.json';
+const ATTRIBUTIONS_DEFAULT='data/catalogue/disputed_attributions.json';
 const OLD_SCHEMA=['id','entryNumber','category','titleAr','title','authorAr','author','kind','rightsStatus','verificationStatus','availabilityStatus','modesCsv','verifiedSource','editionNoteAr','ingestionStatus','century','language','publicationYear'];
 const FALLBACK_CATEGORY={research:'البحث والدراسات'};
 const csv=v=>String(v||'').split(',').map(s=>s.trim()).filter(Boolean);
@@ -32,11 +33,32 @@ async function gunzipBase64(text){
  const clean=String(text||'').replace(/\s+/g,'');const binary=atob(clean);const bytes=new Uint8Array(binary.length);for(let i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
  const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));return JSON.parse(await new Response(stream).text());
 }
+async function loadAttributionPolicy(path){
+ try{const r=await nativeFetch(path||ATTRIBUTIONS_DEFAULT,{cache:'no-store'});if(!r.ok)throw new Error('attribution policy unavailable');const j=await r.json();return j&&Array.isArray(j.records)?j:{policy:{},records:[]};}
+ catch(err){console.warn('[catalogue-attribution] policy unavailable:',err);return {policy:{},records:[]};}
+}
+function applyAttributionOverrides(items,registry){
+ const map=new Map((registry.records||[]).map(r=>[String(r.id),r]));let applied=0;
+ const out=items.map(item=>{
+  const o=map.get(String(item.id));if(!o)return item;applied++;
+  const note=[item.publicationNoteAr,o.attributionNoteAr].map(v=>String(v||'').trim()).filter(Boolean).join(' — ');
+  const missing=(item.identityMissing||[]).filter(v=>!['author','authorAr','authorRomanized'].includes(String(v)));
+  return {...item,
+   authorAr:o.authorAr||item.authorAr,author:o.authorAr||o.authorRomanized||item.author,authorRomanized:o.authorRomanized||item.authorRomanized,
+   attributionStatus:o.attributionStatus||'disputed',authorVariants:o.authorVariants||[],attributionEvidence:o.evidence||[],attributionNoteAr:o.attributionNoteAr||'',
+   publicationStatus:o.publicationStatus||'published-disputed-attribution',publicationLabelAr:o.publicationLabelAr||'منشور — نسبة المؤلف محل خلاف',publicationNoteAr:note,
+   identityMissing:missing,disputedAttributionPublished:true,
+   capabilities:item.capabilities||{readable:false,searchable:false,listenable:false,watchable:false}
+  };
+ });
+ return {items:out,applied};
+}
 async function loadRestored(){
  const mr=await nativeFetch(MANIFEST,{cache:'no-store'});if(!mr.ok)throw new Error('catalogue manifest unavailable');const manifest=await mr.json();const categories=new Map((manifest.categories||[]).map(x=>[x.id,x]));let items,mode='professional';
  try{const r=await nativeFetch(manifest.compressedPayload,{cache:'no-store'});if(!r.ok)throw new Error('professional payload unavailable');const payload=await gunzipBase64(await r.text());const schema=payload.schema||manifest.schema||[];if((payload.items||[]).length!==Number(manifest.baselineCount))throw new Error('professional catalogue count mismatch');items=(payload.items||[]).map(row=>unpackProfessional(row,schema,categories));}
  catch(err){console.warn('[catalogue-restore] professional payload fallback:',err);mode='legacy-fallback';const chunks=manifest.fallbackChunks||manifest.chunks||[];const groups=await Promise.all(chunks.map(async c=>{const r=await nativeFetch(c.path,{cache:'no-store'});if(!r.ok)throw new Error('fallback unavailable');return (await r.json()).items||[]}));items=groups.flat().map(row=>unpackLegacy(row,categories));}
- const ids=new Set(items.map(x=>x.id));window.__restoredLibraryMeta={...manifest,loadedCount:items.length,uniqueBaselineIds:ids.size,loadMode:mode};return items;
+ const registry=await loadAttributionPolicy(manifest.attributionPolicy||ATTRIBUTIONS_DEFAULT);const applied=applyAttributionOverrides(items,registry);items=applied.items;
+ const ids=new Set(items.map(x=>x.id));window.__restoredLibraryMeta={...manifest,loadedCount:items.length,uniqueBaselineIds:ids.size,loadMode:mode,disputedAttributionPolicy:registry.policy||{},disputedAttributionCount:applied.applied};return items;
 }
 function mergeLive(restored,live){
  const byWork=new Map(restored.map(x=>[String(x.workId||x.id),{...x}]));const extras=[];
@@ -51,7 +73,7 @@ window.fetch=async function(input,init){
    const restored=await window.__restoredLibraryPromise;let live=[];
    try{const rr=await nativeFetch(input,init);if(rr.ok){const j=await rr.json();live=j.items||[]}}catch(_){live=[]}
    const items=mergeLive(restored,live);window.__restoredLibraryMeta={...(window.__restoredLibraryMeta||{}),liveIngestedCount:live.length,combinedCount:items.length};
-   return new Response(JSON.stringify({version:'professional-enrichment-v2+live-ingestion',count:items.length,liveIngestedCount:live.length,items}),{status:200,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});
+   return new Response(JSON.stringify({version:'professional-enrichment-v2+disputed-attributions+live-ingestion',count:items.length,liveIngestedCount:live.length,items}),{status:200,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});
   }catch(err){console.error('[catalogue-restore]',err);return nativeFetch(input,init)}
  }
  return nativeFetch(input,init);
