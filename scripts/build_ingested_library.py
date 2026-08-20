@@ -3,7 +3,20 @@ from pathlib import Path
 import json,datetime
 ROOT=Path(__file__).resolve().parents[1]
 STORE=ROOT/'library'/'works'; OUT=ROOT/'data'/'ingested_library.json'
-items=[]
+
+# GitHub Actions runners are ephemeral. Keep previously published entries from the
+# committed index and overlay the files acquired in the current runner.
+previous={}
+if OUT.exists():
+    try:
+        old=json.loads(OUT.read_text(encoding='utf-8'))
+        for x in old.get('items',[]):
+            key=str(x.get('id') or f"{x.get('workId','')}:{x.get('editionId','')}")
+            if key and key!=':': previous[key]=x
+    except Exception:
+        previous={}
+
+current={}
 if STORE.exists():
     for meta_path in sorted(STORE.glob('*/editions/*/metadata.json')):
         try: m=json.loads(meta_path.read_text(encoding='utf-8'))
@@ -18,8 +31,9 @@ if STORE.exists():
         searchable=fmt in {'txt','html'} or bool(m.get('searchable'))
         listenable=fmt in {'txt','html'} or bool(m.get('listenable'))
         watchable=fmt in {'mp4','webm','mkv'} or bool(m.get('watchable'))
-        items.append({
-            'id': f"{m.get('workId','')}:{m.get('editionId','')}",
+        key=f"{m.get('workId','')}:{m.get('editionId','')}"
+        current[key]={
+            'id': key,
             'workId': m.get('workId'), 'editionId': m.get('editionId'),
             'titleOriginal': m.get('titleOriginal'), 'titleAr': m.get('titleAr'),
             'titleEn': m.get('titleEn'), 'titleFr': m.get('titleFr'),
@@ -30,8 +44,12 @@ if STORE.exists():
             'capabilities': {'readable':readable,'searchable':searchable,'listenable':listenable,'watchable':watchable},
             'searchMode': 'fulltext-browser' if searchable else ('ocr-index' if fmt=='pdf' else 'none'),
             'listenMode': 'browser-tts' if listenable and fmt in {'txt','html'} else ('native-audio' if fmt in {'mp3','m4a','ogg','wav'} else 'none'),
-            'watchMode': 'native-video' if watchable else 'none'
-        })
+            'watchMode': 'native-video' if watchable else 'none',
+            'publishedAsset': True
+        }
+
+merged={**previous,**current}
+items=sorted(merged.values(), key=lambda x:(str(x.get('titleAr') or x.get('titleOriginal') or ''),str(x.get('id') or '')))
 OUT.parent.mkdir(parents=True,exist_ok=True)
-OUT.write_text(json.dumps({'schema':'ingested-library-v1','generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'count':len(items),'items':items},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(json.dumps({'count':len(items),'output':str(OUT.relative_to(ROOT))},ensure_ascii=False))
+OUT.write_text(json.dumps({'schema':'ingested-library-v2','generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'count':len(items),'currentBatchCount':len(current),'items':items},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'count':len(items),'currentBatchCount':len(current),'previousCount':len(previous),'output':str(OUT.relative_to(ROOT))},ensure_ascii=False))
