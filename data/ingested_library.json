@@ -1,8 +1,8 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T10:29:54.114543+00:00",
-  "count": 11,
-  "currentBatchCount": 10,
+  "generatedAt": "2026-08-20T10:54:08.011423+00:00",
+  "count": 15,
+  "currentBatchCount": 4,
   "items": [
     {
       "id": "gutenberg-20927:ed-0c963b739d22",
@@ -98,6 +98,40 @@
       "sha256": "cb8ea3b959bc3caa028e6ea9a6a598575748cc8b63175991fbcab25aea4b6c82",
       "localUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
       "readerUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "draycott-mahomet:ed-edfbd755fe22",
+      "workId": "draycott-mahomet",
+      "editionId": "ed-edfbd755fe22",
+      "titleOriginal": "Mahomet, Founder of Islam",
+      "titleAr": null,
+      "titleEn": "Mahomet, Founder of Islam",
+      "titleFr": null,
+      "author": "Gladys M. Draycott",
+      "language": "en",
+      "subjects": [
+        "السيرة النبوية",
+        "التاريخ"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 445953,
+      "sha256": "edfbd755fe2280eea2cb0d3cd2476cdb91e288f63ecd87343e0d75a571c40d55",
+      "localUrl": "/library/works/draycott-mahomet/editions/ed-edfbd755fe22/original.txt",
+      "readerUrl": "/library/works/draycott-mahomet/editions/ed-edfbd755fe22/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -219,6 +253,77 @@
       "publishedAsset": true
     },
     {
+      "id": "rodwell-koran:ed-d85544696f37",
+      "workId": "rodwell-koran",
+      "editionId": "ed-d85544696f37",
+      "titleOriginal": "The Koran (Al-Qur'an)",
+      "titleAr": null,
+      "titleEn": "The Koran (Al-Qur'an)",
+      "titleFr": null,
+      "author": "J. M. Rodwell (translator)",
+      "language": "en",
+      "subjects": [
+        "القرآن وعلومه",
+        "ترجمة تاريخية"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 1155672,
+      "sha256": "d85544696f37b96b2cc2e334546b372686380ea2176b904baca9427db71d209f",
+      "localUrl": "/library/works/rodwell-koran/editions/ed-d85544696f37/original.txt",
+      "readerUrl": "/library/works/rodwell-koran/editions/ed-d85544696f37/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "dinet-life-mohammad:ed-86284e2849a8",
+      "workId": "dinet-life-mohammad",
+      "editionId": "ed-86284e2849a8",
+      "titleOriginal": "The Life of Mohammad, the Prophet of Allah",
+      "titleAr": null,
+      "titleEn": "The Life of Mohammad, the Prophet of Allah",
+      "titleFr": null,
+      "author": "Etienne Dinet; Sliman Ben Ibrahim",
+      "language": "en",
+      "subjects": [
+        "السيرة النبوية",
+        "حياة النبي ﷺ"
+      ],
+      "siteSections": [
+        "النبي",
+        "الرسول",
+        "الإنسان",
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 660794,
+      "sha256": "86284e2849a87a6b9bf69e5908bb9f2333b78bb69fb81a5bba50dbbd8c93c140",
+      "localUrl": "/library/works/dinet-life-mohammad/editions/ed-86284e2849a8/original.txt",
+      "readerUrl": "/library/works/dinet-life-mohammad/editions/ed-86284e2849a8/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "gutenberg-67388:ed-272b5a7dc532",
       "workId": "gutenberg-67388",
       "editionId": "ed-272b5a7dc532",
@@ -277,6 +382,43 @@
       "sha256": "7cc0823a559a5719b3ce8cf4e8f329c58a03fb5a92b59b2c5f5a2167c31d6706",
       "localUrl": "/library/works/gutenberg-66960/editions/ed-7cc0823a559a/original.txt",
       "readerUrl": "/library/works/gutenberg-66960/editions/ed-7cc0823a559a/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "lane-poole-table-talk:ed-c88c26968f88",
+      "workId": "lane-poole-table-talk",
+      "editionId": "ed-c88c26968f88",
+      "titleOriginal": "The Speeches & Table-Talk of the Prophet Mohammad",
+      "titleAr": null,
+      "titleEn": "The Speeches & Table-Talk of the Prophet Mohammad",
+      "titleFr": null,
+      "author": "Stanley Lane-Poole (editor)",
+      "language": "en",
+      "subjects": [
+        "الحديث",
+        "أقوال النبي ﷺ",
+        "الأخلاق والآداب"
+      ],
+      "siteSections": [
+        "النبي",
+        "الإنسان",
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 314752,
+      "sha256": "c88c26968f8850b43b018de1bd0cee6ae0f87dc40f678ce12e5c7e2e56374d9f",
+      "localUrl": "/library/works/lane-poole-table-talk/editions/ed-c88c26968f88/original.txt",
+      "readerUrl": "/library/works/lane-poole-table-talk/editions/ed-c88c26968f88/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,

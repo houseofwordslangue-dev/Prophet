@@ -1,7 +1,7 @@
 {
   "schema": "strict-acquisition-v4",
-  "updatedAt": "2026-08-20T10:29:45Z",
-  "publishedWorkIdsKnown": 1,
+  "updatedAt": "2026-08-20T10:53:19Z",
+  "publishedWorkIdsKnown": 11,
   "items": [
     {
       "workId": "dinet-life-mohammad",
@@ -26,9 +26,14 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T10:53:19Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+      "transportMirror": "GITenberg",
+      "localPath": "library/works/dinet-life-mohammad/editions/ed-86284e2849a8/original.txt",
+      "sha256": "86284e2849a87a6b9bf69e5908bb9f2333b78bb69fb81a5bba50dbbd8c93c140",
+      "editionId": "ed-86284e2849a8",
+      "error": ""
     },
     {
       "workId": "lane-poole-table-talk",
@@ -53,9 +58,14 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T10:53:19Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Speeches-Table-Talk-of-the-Prophet-Mohammad_58426/master/58426-0.txt",
+      "transportMirror": "GITenberg",
+      "localPath": "library/works/lane-poole-table-talk/editions/ed-c88c26968f88/original.txt",
+      "sha256": "c88c26968f8850b43b018de1bd0cee6ae0f87dc40f678ce12e5c7e2e56374d9f",
+      "editionId": "ed-c88c26968f88",
+      "error": ""
     },
     {
       "workId": "rodwell-koran",
@@ -77,9 +87,14 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T10:53:19Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Koran-Al-Qur-an_3434/master/3434.txt",
+      "transportMirror": "GITenberg",
+      "localPath": "library/works/rodwell-koran/editions/ed-d85544696f37/original.txt",
+      "sha256": "d85544696f37b96b2cc2e334546b372686380ea2176b904baca9427db71d209f",
+      "editionId": "ed-d85544696f37",
+      "error": ""
     },
     {
       "workId": "draycott-mahomet",
@@ -101,9 +116,14 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T10:53:19Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/Mahomet-Founder-of-Islam_10738/master/10738.txt",
+      "transportMirror": "GITenberg",
+      "localPath": "library/works/draycott-mahomet/editions/ed-edfbd755fe22/original.txt",
+      "sha256": "edfbd755fe2280eea2cb0d3cd2476cdb91e288f63ecd87343e0d75a571c40d55",
+      "editionId": "ed-edfbd755fe22",
+      "error": ""
     },
     {
       "workId": "hayes-mohammed-prophet-islam",
