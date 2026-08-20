@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T20:52:20.605734+00:00",
-  "count": 52,
+  "generatedAt": "2026-08-20T21:59:18.235033+00:00",
+  "count": 56,
   "currentBatchCount": 4,
   "items": [
     {
@@ -202,6 +202,74 @@
       "sha256": "2d66492fb277fe14857570bdac290af0f04460ecae91f426c3a2aca9f96cf967",
       "localUrl": "/library/works/gutenberg-11198/editions/ed-2d66492fb277/original.txt",
       "readerUrl": "/library/works/gutenberg-11198/editions/ed-2d66492fb277/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-15262:ed-dff30c44b5a5",
+      "workId": "gutenberg-15262",
+      "editionId": "ed-dff30c44b5a5",
+      "titleOriginal": "Christianity and Islam in Spain, A.D. 756-1031",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 395147,
+      "sha256": "dff30c44b5a580382ffe31cf2d4fc067cc693b6a4eabf4c74e2d9b02d3c7d475",
+      "localUrl": "/library/works/gutenberg-15262/editions/ed-dff30c44b5a5/original.txt",
+      "readerUrl": "/library/works/gutenberg-15262/editions/ed-dff30c44b5a5/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-20394:ed-22206538e8bd",
+      "workId": "gutenberg-20394",
+      "editionId": "ed-22206538e8bd",
+      "titleOriginal": "Correspondence Relating to Executions in Turkey for Apostacy from Islamism",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "-",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 157397,
+      "sha256": "22206538e8bdd706d07376ec9f3c92ca48ba6c4fcd387de4faaf016c17dbf4b6",
+      "localUrl": "/library/works/gutenberg-20394/editions/ed-22206538e8bd/original.txt",
+      "readerUrl": "/library/works/gutenberg-20394/editions/ed-22206538e8bd/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -742,6 +810,40 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-26473:ed-a7cc99fb37d1",
+      "workId": "gutenberg-26473",
+      "editionId": "ed-a7cc99fb37d1",
+      "titleOriginal": "The Arts of Persia & Other Countries of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 56977,
+      "sha256": "a7cc99fb37d1b220a3954fd05438079ce8d60a33fd1c3d5517e9719cf159ffe2",
+      "localUrl": "/library/works/gutenberg-26473/editions/ed-a7cc99fb37d1/original.txt",
+      "readerUrl": "/library/works/gutenberg-26473/editions/ed-a7cc99fb37d1/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "gutenberg-34572:ed-8b4fcb7efe26",
       "workId": "gutenberg-34572",
       "editionId": "ed-8b4fcb7efe26",
@@ -901,6 +1003,40 @@
       "sha256": "7395eab567bc18253045f2cbb50dbbb6ec64eb76959c28e1ec1e00af8c998ee6",
       "localUrl": "/library/works/gutenberg-17213/editions/ed-7395eab567bc/original.txt",
       "readerUrl": "/library/works/gutenberg-17213/editions/ed-7395eab567bc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-66566:ed-cfcae86d8f9d",
+      "workId": "gutenberg-66566",
+      "editionId": "ed-cfcae86d8f9d",
+      "titleOriginal": "The History of Philosophy in Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 400450,
+      "sha256": "cfcae86d8f9d4fde0cb22cb70185b0d7c0f8edb30dab4afcbb09c327bc51a0e8",
+      "localUrl": "/library/works/gutenberg-66566/editions/ed-cfcae86d8f9d/original.txt",
+      "readerUrl": "/library/works/gutenberg-66566/editions/ed-cfcae86d8f9d/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
