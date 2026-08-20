@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "record_count": 54,
+  "source_registry": {
+    "IH": {"work": "السيرة النبوية لابن هشام", "scope": "النسب والأسرة وأزواج النبي ﷺ وأولاده"},
+    "IS": {"work": "الطبقات الكبرى لابن سعد", "scope": "التراجم والأنساب ونساء البيت والذرية"},
+    "AN": {"work": "كتب الأنساب والتراجم", "scope": "استكمال الروابط النسبية عند الحاجة؛ لا ينشأ عنها سرد بلا نص مصدر"}
+  },
+  "records": [
+    {"id":"khadija-bint-khuwaylid","name_ar":"خديجة بنت خويلد","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"sawda-bint-zama","name_ar":"سودة بنت زمعة","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"aisha-bint-abi-bakr","name_ar":"عائشة بنت أبي بكر","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"hafsa-bint-umar","name_ar":"حفصة بنت عمر","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"zaynab-bint-khuzayma","name_ar":"زينب بنت خزيمة","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"umm-salama","name_ar":"أم سلمة هند بنت أبي أمية","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"zaynab-bint-jahsh","name_ar":"زينب بنت جحش","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"juwayriya-bint-al-harith","name_ar":"جويرية بنت الحارث","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"umm-habiba","name_ar":"أم حبيبة رملة بنت أبي سفيان","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"safiyya-bint-huyayy","name_ar":"صفية بنت حيي","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+    {"id":"maymuna-bint-al-harith","name_ar":"ميمونة بنت الحارث","category":"mothers_of_believers","relationship":"زوجة النبي ﷺ — من أمهات المؤمنين","source_ids":["IH","IS"]},
+
+    {"id":"maria-al-qibtiyya","name_ar":"مارية القبطية","category":"distinct_household_status","relationship":"من نساء بيت النبي ﷺ ذات وضع تاريخي متميز","historical_note":"لا تُدرج آلياً ضمن أمهات المؤمنين؛ يعرض الموقع توصيف المصدر واختلاف التصنيف عند وجوده.","source_ids":["IS","AN"]},
+    {"id":"rayhana-bint-zayd","name_ar":"ريحانة بنت زيد","category":"distinct_household_status","relationship":"من نساء بيت النبي ﷺ ذات وضع تاريخي متميز","historical_note":"لا تُدرج آلياً ضمن أمهات المؤمنين؛ يعرض الموقع توصيف المصدر واختلاف التصنيف عند وجوده.","source_ids":["IH","IS"]},
+
+    {"id":"al-qasim","name_ar":"القاسم بن محمد","category":"children","relationship":"ابن النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"zaynab-daughter","name_ar":"زينب بنت محمد","category":"children","relationship":"ابنة النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"ruqayya","name_ar":"رقية بنت محمد","category":"children","relationship":"ابنة النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"umm-kulthum-daughter","name_ar":"أم كلثوم بنت محمد","category":"children","relationship":"ابنة النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"fatima-al-zahra","name_ar":"فاطمة الزهراء بنت محمد","category":"children","relationship":"ابنة النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"abdullah-son","name_ar":"عبد الله بن محمد","category":"children","relationship":"ابن النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"ibrahim-son","name_ar":"إبراهيم بن محمد","category":"children","relationship":"ابن النبي ﷺ","source_ids":["IH","IS"]},
+
+    {"id":"ali-ibn-abi-al-as","name_ar":"علي بن أبي العاص بن الربيع","category":"grandchildren","relationship":"سبط النبي ﷺ من ابنته زينب","source_ids":["IS","AN"]},
+    {"id":"umama-bint-abi-al-as","name_ar":"أمامة بنت أبي العاص بن الربيع","category":"grandchildren","relationship":"سبطة النبي ﷺ من ابنته زينب","source_ids":["IS","AN"]},
+    {"id":"abdullah-ibn-uthman","name_ar":"عبد الله بن عثمان بن عفان","category":"grandchildren","relationship":"سبط النبي ﷺ من ابنته رقية","source_ids":["IS","AN"]},
+    {"id":"al-hasan","name_ar":"الحسن بن علي بن أبي طالب","category":"grandchildren","relationship":"سبط النبي ﷺ من ابنته فاطمة","source_ids":["IS","AN"]},
+    {"id":"al-husayn","name_ar":"الحسين بن علي بن أبي طالب","category":"grandchildren","relationship":"سبط النبي ﷺ من ابنته فاطمة","source_ids":["IS","AN"]},
+    {"id":"zaynab-bint-ali","name_ar":"زينب بنت علي بن أبي طالب","category":"grandchildren","relationship":"سبطة النبي ﷺ من ابنته فاطمة","source_ids":["IS","AN"]},
+    {"id":"umm-kulthum-bint-ali","name_ar":"أم كلثوم بنت علي بن أبي طالب","category":"grandchildren","relationship":"سبطة النبي ﷺ من ابنته فاطمة","source_ids":["IS","AN"]},
+
+    {"id":"abdullah-ibn-abd-al-muttalib","name_ar":"عبد الله بن عبد المطلب","category":"parents","relationship":"والد النبي ﷺ","source_ids":["IH","IS"]},
+    {"id":"amina-bint-wahb","name_ar":"آمنة بنت وهب","category":"parents","relationship":"والدة النبي ﷺ","source_ids":["IH","IS"]},
+
+    {"id":"abd-al-muttalib","name_ar":"عبد المطلب شيبة بن هاشم","category":"direct_grandparents","relationship":"جد النبي ﷺ لأبيه","source_ids":["IH","IS"]},
+    {"id":"fatima-bint-amr","name_ar":"فاطمة بنت عمرو بن عائذ","category":"direct_grandparents","relationship":"جدة النبي ﷺ لأبيه","source_ids":["IH","IS"]},
+    {"id":"wahb-ibn-abd-manaf-zuhra","name_ar":"وهب بن عبد مناف بن زهرة","category":"direct_grandparents","relationship":"جد النبي ﷺ لأمه","source_ids":["IH","IS"]},
+    {"id":"barra-bint-abd-al-uzza","name_ar":"برة بنت عبد العزى","category":"direct_grandparents","relationship":"جدة النبي ﷺ لأمه","source_ids":["IH","IS"]},
+
+    {"id":"hashim","name_ar":"هاشم عمرو بن عبد مناف","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"abd-manaf","name_ar":"عبد مناف المغيرة بن قصي","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"qusayy","name_ar":"قصي زيد بن كلاب","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"kilab","name_ar":"كلاب بن مرة","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"murra","name_ar":"مرة بن كعب","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"kab","name_ar":"كعب بن لؤي","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"luayy","name_ar":"لؤي بن غالب","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"ghalib","name_ar":"غالب بن فهر","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"fihr","name_ar":"فهر بن مالك","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"malik","name_ar":"مالك بن النضر","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"al-nadr","name_ar":"النضر بن كنانة","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"kinana","name_ar":"كنانة بن خزيمة","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"khuzayma","name_ar":"خزيمة بن مدركة","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"mudrika","name_ar":"مدركة عامر بن إلياس","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"ilyas","name_ar":"إلياس بن مضر","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"mudar","name_ar":"مضر بن نزار","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"nizar","name_ar":"نزار بن معد","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"maadd","name_ar":"معد بن عدنان","category":"ancestor_to_adnan","relationship":"جد أعلى في عمود النسب الأبوي","source_ids":["IH"]},
+    {"id":"adnan","name_ar":"عدنان","category":"ancestor_to_adnan","relationship":"ينتهي إليه عمود النسب المعتمد هنا","source_ids":["IH"]},
+    {"id":"abd-manaf-ibn-zuhra","name_ar":"عبد مناف بن زهرة","category":"ancestor_to_adnan","relationship":"من عمود نسب آمنة بنت وهب","source_ids":["IH","AN"]},
+    {"id":"zuhra-ibn-kilab","name_ar":"زهرة بن كلاب","category":"ancestor_to_adnan","relationship":"من عمود نسب آمنة بنت وهب ويلتقي عند كلاب","source_ids":["IH","AN"]}
+  ]
+}
