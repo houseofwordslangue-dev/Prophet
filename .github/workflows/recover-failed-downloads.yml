@@ -1,0 +1,41 @@
+name: Recover failed library downloads
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - recover-failed-downloads-20260820
+    paths:
+      - 'data/recovery/direct_downloads.json'
+      - 'scripts/recover_failed_downloads.py'
+      - '.github/workflows/recover-failed-downloads.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download verified resources and rebuild index
+        run: python scripts/recover_failed_downloads.py
+      - name: Commit recovered assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-library-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -- data/ingested_library.json data/recovery/last_recovery_report.json library/works/gutenberg-39523 library/works/gutenberg-58426 library/works/gutenberg-3434 library/works/gutenberg-10738
+          if git diff --cached --quiet; then
+            echo 'No recovery changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Recover 4 verified Gutenberg resources'
+          git push origin HEAD:${{ github.ref_name }}
