@@ -25,7 +25,7 @@ on:
       books:
         description: Public/open books per cycle
         required: false
-        default: '2'
+        default: '4'
       pages:
         description: Source pages per cycle
         required: false
@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 55
     env:
-      PM_ROTATE_BOOKS: ${{ inputs.books || '2' }}
+      PM_ROTATE_BOOKS: ${{ inputs.books || '4' }}
       PM_ROTATE_PAGES: ${{ inputs.pages || '4' }}
       PM_ROTATE_MEDIA: ${{ inputs.media || '3' }}
       PM_ROTATE_REFERENCES: ${{ inputs.references || '25' }}
