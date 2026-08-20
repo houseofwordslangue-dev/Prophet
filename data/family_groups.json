@@ -1,82 +1,96 @@
 {
-  "version": "1.2.0",
-  "policy": "Only explicitly established family relations are assigned. Distinct kinship types are never mixed in the same published group.",
+  "version": "2.0.0",
+  "policy": "Expanded kinship tree. Distinct relationship types remain separate. Registry-only people receive dedicated pages but no biography text until verified source material is attached.",
+  "registry": [
+    {"id":"fatima-bint-amr","name":{"ar":"فاطمة بنت عمرو","en":"Fatima bint Amr","fr":"Fatima bint Amr"},"category":"family","sourcePassages":[]},
+    {"id":"wahb-ibn-abd-manaf-zuhra","name":{"ar":"وهب بن عبد مناف بن زهرة","en":"Wahb ibn Abd Manaf ibn Zuhra","fr":"Wahb ibn Abd Manaf ibn Zuhra"},"category":"family","sourcePassages":[]},
+    {"id":"burra-bint-abd-al-uzza","name":{"ar":"برة بنت عبد العزى","en":"Burra bint Abd al-Uzza","fr":"Burra bint Abd al-Uzza"},"category":"family","sourcePassages":[]},
+    {"id":"safiyya-bint-abd-al-muttalib","name":{"ar":"صفية بنت عبد المطلب","en":"Safiyya bint Abd al-Muttalib","fr":"Safiyya bint Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"atika-bint-abd-al-muttalib","name":{"ar":"عاتكة بنت عبد المطلب","en":"Atika bint Abd al-Muttalib","fr":"Atika bint Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"arwa-bint-abd-al-muttalib","name":{"ar":"أروى بنت عبد المطلب","en":"Arwa bint Abd al-Muttalib","fr":"Arwa bint Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"umayma-bint-abd-al-muttalib","name":{"ar":"أميمة بنت عبد المطلب","en":"Umayma bint Abd al-Muttalib","fr":"Umayma bint Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"barra-bint-abd-al-muttalib","name":{"ar":"برة بنت عبد المطلب","en":"Barra bint Abd al-Muttalib","fr":"Barra bint Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"umm-hakim-al-bayda-bint-abd-al-muttalib","name":{"ar":"أم حكيم البيضاء بنت عبد المطلب","en":"Umm Hakim al-Bayda bint Abd al-Muttalib","fr":"Umm Hakim al-Bayda bint Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"abu-al-as-ibn-al-rabi","name":{"ar":"أبو العاص بن الربيع","en":"Abu al-As ibn al-Rabi","fr":"Abu al-As ibn al-Rabi"},"category":"family","sourcePassages":[]},
+    {"id":"uthman-ibn-affan","name":{"ar":"عثمان بن عفان","en":"Uthman ibn Affan","fr":"Uthman ibn Affan"},"category":"companion","sourcePassages":[]},
+    {"id":"ali-ibn-abi-al-as","name":{"ar":"علي بن أبي العاص","en":"Ali ibn Abi al-As","fr":"Ali ibn Abi al-As"},"category":"family","sourcePassages":[]},
+    {"id":"umama-bint-abi-al-as","name":{"ar":"أمامة بنت أبي العاص","en":"Umama bint Abi al-As","fr":"Umama bint Abi al-As"},"category":"family","sourcePassages":[]},
+    {"id":"abdullah-ibn-uthman","name":{"ar":"عبد الله بن عثمان","en":"Abd Allah ibn Uthman","fr":"Abd Allah ibn Uthman"},"category":"family","sourcePassages":[]},
+    {"id":"zaynab-bint-ali","name":{"ar":"زينب بنت علي","en":"Zaynab bint Ali","fr":"Zaynab bint Ali"},"category":"family","sourcePassages":[]},
+    {"id":"umm-kulthum-bint-ali","name":{"ar":"أم كلثوم بنت علي","en":"Umm Kulthum bint Ali","fr":"Umm Kulthum bint Ali"},"category":"family","sourcePassages":[]},
+    {"id":"muhsin-ibn-ali","name":{"ar":"محسن بن علي","en":"Muhsin ibn Ali","fr":"Muhsin ibn Ali"},"category":"family","sourcePassages":[]},
+    {"id":"al-hasan-al-muthanna","name":{"ar":"الحسن المثنى","en":"Al-Hasan al-Muthanna","fr":"Al-Hasan al-Muthanna"},"category":"family","sourcePassages":[]},
+    {"id":"zayd-ibn-al-hasan","name":{"ar":"زيد بن الحسن","en":"Zayd ibn al-Hasan","fr":"Zayd ibn al-Hasan"},"category":"family","sourcePassages":[]},
+    {"id":"amr-ibn-al-hasan","name":{"ar":"عمرو بن الحسن","en":"Amr ibn al-Hasan","fr":"Amr ibn al-Hasan"},"category":"family","sourcePassages":[]},
+    {"id":"al-qasim-ibn-al-hasan","name":{"ar":"القاسم بن الحسن","en":"Al-Qasim ibn al-Hasan","fr":"Al-Qasim ibn al-Hasan"},"category":"family","sourcePassages":[]},
+    {"id":"abdullah-ibn-al-hasan","name":{"ar":"عبد الله بن الحسن","en":"Abd Allah ibn al-Hasan","fr":"Abd Allah ibn al-Hasan"},"category":"family","sourcePassages":[]},
+    {"id":"abu-bakr-ibn-al-hasan","name":{"ar":"أبو بكر بن الحسن","en":"Abu Bakr ibn al-Hasan","fr":"Abu Bakr ibn al-Hasan"},"category":"family","sourcePassages":[]},
+    {"id":"ali-al-akbar-ibn-al-husayn","name":{"ar":"علي الأكبر بن الحسين","en":"Ali al-Akbar ibn al-Husayn","fr":"Ali al-Akbar ibn al-Husayn"},"category":"family","sourcePassages":[]},
+    {"id":"ali-zayn-al-abidin","name":{"ar":"علي زين العابدين بن الحسين","en":"Ali Zayn al-Abidin ibn al-Husayn","fr":"Ali Zayn al-Abidin ibn al-Husayn"},"category":"family","sourcePassages":[]},
+    {"id":"abdullah-ibn-al-husayn","name":{"ar":"عبد الله بن الحسين","en":"Abd Allah ibn al-Husayn","fr":"Abd Allah ibn al-Husayn"},"category":"family","sourcePassages":[]},
+    {"id":"jafar-ibn-al-husayn","name":{"ar":"جعفر بن الحسين","en":"Jafar ibn al-Husayn","fr":"Jafar ibn al-Husayn"},"category":"family","sourcePassages":[]},
+    {"id":"fatima-bint-al-husayn","name":{"ar":"فاطمة بنت الحسين","en":"Fatima bint al-Husayn","fr":"Fatima bint al-Husayn"},"category":"family","sourcePassages":[]},
+    {"id":"sukayna-bint-al-husayn","name":{"ar":"سكينة بنت الحسين","en":"Sukayna bint al-Husayn","fr":"Sukayna bint al-Husayn"},"category":"family","sourcePassages":[]},
+    {"id":"talib-ibn-abi-talib","name":{"ar":"طالب بن أبي طالب","en":"Talib ibn Abi Talib","fr":"Talib ibn Abi Talib"},"category":"family","sourcePassages":[]},
+    {"id":"aqil-ibn-abi-talib","name":{"ar":"عقيل بن أبي طالب","en":"Aqil ibn Abi Talib","fr":"Aqil ibn Abi Talib"},"category":"family","sourcePassages":[]},
+    {"id":"jafar-ibn-abi-talib","name":{"ar":"جعفر بن أبي طالب","en":"Jafar ibn Abi Talib","fr":"Jafar ibn Abi Talib"},"category":"companion","sourcePassages":[]},
+    {"id":"al-fadl-ibn-al-abbas","name":{"ar":"الفضل بن العباس","en":"Al-Fadl ibn al-Abbas","fr":"Al-Fadl ibn al-Abbas"},"category":"family","sourcePassages":[]},
+    {"id":"ubaydullah-ibn-al-abbas","name":{"ar":"عبيد الله بن العباس","en":"Ubayd Allah ibn al-Abbas","fr":"Ubayd Allah ibn al-Abbas"},"category":"family","sourcePassages":[]},
+    {"id":"qutham-ibn-al-abbas","name":{"ar":"قثم بن العباس","en":"Qutham ibn al-Abbas","fr":"Qutham ibn al-Abbas"},"category":"family","sourcePassages":[]},
+    {"id":"mabad-ibn-al-abbas","name":{"ar":"معبد بن العباس","en":"Mabad ibn al-Abbas","fr":"Mabad ibn al-Abbas"},"category":"family","sourcePassages":[]},
+    {"id":"abd-al-rahman-ibn-al-abbas","name":{"ar":"عبد الرحمن بن العباس","en":"Abd al-Rahman ibn al-Abbas","fr":"Abd al-Rahman ibn al-Abbas"},"category":"family","sourcePassages":[]},
+    {"id":"tamam-ibn-al-abbas","name":{"ar":"تمام بن العباس","en":"Tamam ibn al-Abbas","fr":"Tamam ibn al-Abbas"},"category":"family","sourcePassages":[]},
+    {"id":"abu-sufyan-ibn-al-harith","name":{"ar":"أبو سفيان بن الحارث","en":"Abu Sufyan ibn al-Harith","fr":"Abu Sufyan ibn al-Harith"},"category":"family","sourcePassages":[]},
+    {"id":"nawfal-ibn-al-harith","name":{"ar":"نوفل بن الحارث","en":"Nawfal ibn al-Harith","fr":"Nawfal ibn al-Harith"},"category":"family","sourcePassages":[]},
+    {"id":"rabia-ibn-al-harith","name":{"ar":"ربيعة بن الحارث","en":"Rabia ibn al-Harith","fr":"Rabia ibn al-Harith"},"category":"family","sourcePassages":[]},
+    {"id":"abdullah-ibn-al-harith","name":{"ar":"عبد الله بن الحارث","en":"Abd Allah ibn al-Harith","fr":"Abd Allah ibn al-Harith"},"category":"family","sourcePassages":[]},
+    {"id":"abdullah-ibn-al-zubayr-abd-al-muttalib","name":{"ar":"عبد الله بن الزبير بن عبد المطلب","en":"Abd Allah ibn al-Zubayr ibn Abd al-Muttalib","fr":"Abd Allah ibn al-Zubayr ibn Abd al-Muttalib"},"category":"family","sourcePassages":[]},
+    {"id":"dubaa-bint-al-zubayr","name":{"ar":"ضباعة بنت الزبير","en":"Dubaa bint al-Zubayr","fr":"Dubaa bint al-Zubayr"},"category":"family","sourcePassages":[]},
+    {"id":"umm-al-hakam-bint-al-zubayr","name":{"ar":"أم الحكم بنت الزبير","en":"Umm al-Hakam bint al-Zubayr","fr":"Umm al-Hakam bint al-Zubayr"},"category":"family","sourcePassages":[]},
+    {"id":"al-zubayr-ibn-al-awwam","name":{"ar":"الزبير بن العوام","en":"Al-Zubayr ibn al-Awwam","fr":"Al-Zubayr ibn al-Awwam"},"category":"companion","sourcePassages":[]},
+    {"id":"abdullah-ibn-al-zubayr","name":{"ar":"عبد الله بن الزبير","en":"Abd Allah ibn al-Zubayr","fr":"Abd Allah ibn al-Zubayr"},"category":"family","sourcePassages":[]},
+    {"id":"urwa-ibn-al-zubayr","name":{"ar":"عروة بن الزبير","en":"Urwa ibn al-Zubayr","fr":"Urwa ibn al-Zubayr"},"category":"family","sourcePassages":[]},
+    {"id":"musab-ibn-al-zubayr","name":{"ar":"مصعب بن الزبير","en":"Musab ibn al-Zubayr","fr":"Musab ibn al-Zubayr"},"category":"family","sourcePassages":[]},
+    {"id":"abdullah-ibn-jahsh","name":{"ar":"عبد الله بن جحش","en":"Abd Allah ibn Jahsh","fr":"Abd Allah ibn Jahsh"},"category":"family","sourcePassages":[]},
+    {"id":"ubaydullah-ibn-jahsh","name":{"ar":"عبيد الله بن جحش","en":"Ubayd Allah ibn Jahsh","fr":"Ubayd Allah ibn Jahsh"},"category":"family","sourcePassages":[]},
+    {"id":"abu-ahmad-ibn-jahsh","name":{"ar":"أبو أحمد بن جحش","en":"Abu Ahmad ibn Jahsh","fr":"Abu Ahmad ibn Jahsh"},"category":"family","sourcePassages":[]},
+    {"id":"hamna-bint-jahsh","name":{"ar":"حمنة بنت جحش","en":"Hamna bint Jahsh","fr":"Hamna bint Jahsh"},"category":"family","sourcePassages":[]},
+    {"id":"thuwayba","name":{"ar":"ثويبة مولاة أبي لهب","en":"Thuwayba","fr":"Thuwayba"},"category":"family","sourcePassages":[]},
+    {"id":"halima-al-sadiyya","name":{"ar":"حليمة السعدية","en":"Halima al-Sadiyya","fr":"Halima al-Sadiyya"},"category":"family","sourcePassages":[]},
+    {"id":"anisa-bint-al-harith","name":{"ar":"أنيسة بنت الحارث","en":"Anisa bint al-Harith","fr":"Anisa bint al-Harith"},"category":"family","sourcePassages":[]},
+    {"id":"al-shayma-bint-al-harith","name":{"ar":"الشيماء بنت الحارث","en":"Al-Shayma bint al-Harith","fr":"Al-Shayma bint al-Harith"},"category":"family","sourcePassages":[]},
+    {"id":"abu-salama-abdullah-ibn-abd-al-asad","name":{"ar":"أبو سلمة عبد الله بن عبد الأسد","en":"Abu Salama Abd Allah ibn Abd al-Asad","fr":"Abu Salama Abd Allah ibn Abd al-Asad"},"category":"family","sourcePassages":[]},
+    {"id":"al-harith-ibn-abd-al-uzza-al-sadi","name":{"ar":"الحارث بن عبد العزى السعدي","en":"Al-Harith ibn Abd al-Uzza al-Sadi","fr":"Al-Harith ibn Abd al-Uzza al-Sadi"},"category":"family","sourcePassages":[]}
+  ],
   "groups": [
-    {
-      "id": "wives",
-      "labels": {"ar": "الزوجات أمهات المؤمنين", "en": "Wives — Mothers of the Believers", "fr": "Épouses — Mères des croyants"},
-      "people": ["khadija-bint-khuwaylid","sawda-bint-zama","aisha-bint-abi-bakr","hafsa-bint-umar","zaynab-bint-khuzayma","umm-salama","zaynab-bint-jahsh","juwayriya-bint-al-harith","umm-habiba","safiyya-bint-huyayy","maymuna-bint-al-harith"]
-    },
-    {
-      "id": "mariya",
-      "labels": {"ar": "مارية القبطية", "en": "Mariya al-Qibtiyya", "fr": "Mariya al-Qibtiyya"},
-      "notes": {
-        "ar": "تُعرض في قسم مستقل حتى لا تُخلط بطاقة مارية القبطية آليًا مع تصنيف الزوجات أمهات المؤمنين.",
-        "en": "Shown in a separate section so Mariya al-Qibtiyya is not automatically mixed into the Wives — Mothers of the Believers classification.",
-        "fr": "Affichée dans une section distincte afin de ne pas mélanger automatiquement Mariya al-Qibtiyya avec la catégorie des épouses — Mères des croyants."
-      },
-      "people": ["mariya-al-qibtiyya"]
-    },
-    {
-      "id": "children",
-      "labels": {"ar": "الأبناء والبنات", "en": "Sons and daughters", "fr": "Fils et filles"},
-      "people": ["al-qasim-ibn-muhammad","zaynab-bint-muhammad","ruqayya-bint-muhammad","umm-kulthum-bint-muhammad","fatima-al-zahra","abdullah-ibn-muhammad","ibrahim-ibn-muhammad"]
-    },
-    {
-      "id": "grandchildren",
-      "labels": {"ar": "الأحفاد", "en": "Grandchildren", "fr": "Petits-enfants"},
-      "people": ["al-hasan-ibn-ali","al-husayn-ibn-ali"]
-    },
-    {
-      "id": "parents",
-      "labels": {"ar": "الوالدان", "en": "Parents", "fr": "Parents"},
-      "people": ["abdullah-ibn-abd-al-muttalib","amina-bint-wahb"]
-    },
-    {
-      "id": "maternal-zuhra",
-      "labels": {"ar": "أخواله من جهة آمنة بنت وهب — بنو زهرة", "en": "Maternal kin through Amina bint Wahb — Banu Zuhra", "fr": "Parenté maternelle par Amina bint Wahb — Banū Zuhra"},
-      "notes": {
-        "ar": "أخوال النبي ﷺ من جهة أمه آمنة بنت وهب هم بنو زهرة بن كلاب. ويُذكر عبد يغوث بن وهب بن عبد مناف بن زهرة ضمن إخوة آمنة، كما كان سعد بن أبي وقاص الزهري يُنسب إلى بني زهرة.",
-        "en": "The Prophet's maternal kin through his mother Amina bint Wahb are Banu Zuhra ibn Kilab. Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra is listed among Amina's brothers, while Saad ibn Abi Waqqas belonged to Banu Zuhra.",
-        "fr": "La parenté maternelle du Prophète par sa mère Amina bint Wahb relève des Banū Zuhra ibn Kilāb. Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra est cité parmi les frères d'Amina, tandis que Saad ibn Abi Waqqas appartenait aux Banū Zuhra."
-      },
-      "people": ["abd-yaghuth-ibn-wahb","saad-ibn-abi-waqqas"]
-    },
-    {
-      "id": "paternal-uncles",
-      "labels": {"ar": "الأعمام — أبناء عبد المطلب بن هاشم", "en": "Paternal uncles — sons of Abd al-Muttalib ibn Hashim", "fr": "Oncles paternels — fils de Abd al-Muttalib ibn Hashim"},
-      "people": [
-        "al-harith-ibn-abd-al-muttalib",
-        "al-zubayr-ibn-abd-al-muttalib",
-        "abu-talib-ibn-abd-al-muttalib",
-        "hamza-ibn-abd-al-muttalib",
-        "al-abbas-ibn-abd-al-muttalib",
-        "abu-lahab-ibn-abd-al-muttalib",
-        "dirar-ibn-abd-al-muttalib",
-        "al-muqawwim-ibn-abd-al-muttalib",
-        "hajl-al-mughira-ibn-abd-al-muttalib",
-        "qutham-ibn-abd-al-muttalib"
-      ]
-    },
-    {
-      "id": "paternal-cousins",
-      "labels": {"ar": "أبناء الأعمام", "en": "Paternal cousins", "fr": "Cousins paternels"},
-      "people": ["ali-ibn-abi-talib","abdullah-ibn-abbas"]
-    },
-    {
-      "id": "banu-najjar",
-      "labels": {"ar": "بنو النجار — أخواله من جهة نسب عبد المطلب", "en": "Banu al-Najjar — kin through Abd al-Muttalib", "fr": "Banū al-Najjār — parenté par Abd al-Muttalib"},
-      "notes": {
-        "ar": "كان بنو النجار يُسمَّون أخواله ﷺ من جهة نسب جده عبد المطلب، لأن أم عبد المطلب سلمى بنت عمرو النجارية كانت منهم.",
-        "en": "Banu al-Najjar were described as his maternal kin through the lineage of his grandfather Abd al-Muttalib, whose mother Salma bint Amr al-Najjariyya belonged to them.",
-        "fr": "Les Banū al-Najjār étaient considérés comme sa parenté maternelle par la lignée de son grand-père Abd al-Muttalib, dont la mère Salma bint Amr al-Najjariyya appartenait à ce groupe."
-      },
-      "people": ["salma-bint-amr-al-najjariyya"]
-    },
-    {
-      "id": "ancestors",
-      "labels": {"ar": "الأجداد والأصول", "en": "Ancestors", "fr": "Ancêtres"},
-      "people": ["abd-al-muttalib","hashim-ibn-abd-manaf","abd-manaf-ibn-qusayy","qusayy-ibn-kilab","kilab-ibn-murra","murra-ibn-kab","kab-ibn-luayy","luayy-ibn-ghalib","ghalib-ibn-fihr","fihr-ibn-malik","malik-ibn-al-nadr","al-nadr-ibn-kinana","kinana-ibn-khuzayma","khuzayma-ibn-mudrika","mudrika-ibn-ilyas","ilyas-ibn-mudar","mudar-ibn-nizar","nizar-ibn-maadd","maadd-ibn-adnan","adnan"]
-    }
+    {"id":"upper-lineage","labels":{"ar":"النسب الأعلى إلى عدنان","en":"Higher lineage to Adnan","fr":"Lignée ascendante jusqu’à Adnan"},"people":["abd-al-muttalib","hashim-ibn-abd-manaf","abd-manaf-ibn-qusayy","qusayy-ibn-kilab","kilab-ibn-murra","murra-ibn-kab","kab-ibn-luayy","luayy-ibn-ghalib","ghalib-ibn-fihr","fihr-ibn-malik","malik-ibn-al-nadr","al-nadr-ibn-kinana","kinana-ibn-khuzayma","khuzayma-ibn-mudrika","mudrika-ibn-ilyas","ilyas-ibn-mudar","mudar-ibn-nizar","nizar-ibn-maadd","maadd-ibn-adnan","adnan"]},
+    {"id":"parents","labels":{"ar":"الوالدان","en":"Parents","fr":"Parents"},"people":["abdullah-ibn-abd-al-muttalib","amina-bint-wahb"]},
+    {"id":"direct-grandparents","labels":{"ar":"الأجداد والجدات المباشرون","en":"Immediate grandparents","fr":"Grands-parents directs"},"people":["abd-al-muttalib","fatima-bint-amr","wahb-ibn-abd-manaf-zuhra","burra-bint-abd-al-uzza"]},
+    {"id":"paternal-uncles","labels":{"ar":"الأعمام — أبناء عبد المطلب","en":"Paternal uncles — sons of Abd al-Muttalib","fr":"Oncles paternels — fils d’Abd al-Muttalib"},"notes":{"ar":"تختلف بعض كتب الأنساب في عدّ بعض أبناء عبد المطلب وأسمائهم.","en":"Genealogical works differ in the enumeration and naming of some sons of Abd al-Muttalib.","fr":"Les ouvrages généalogiques divergent sur le nombre et certains noms des fils d’Abd al-Muttalib."},"people":["al-harith-ibn-abd-al-muttalib","al-zubayr-ibn-abd-al-muttalib","abu-talib-ibn-abd-al-muttalib","hamza-ibn-abd-al-muttalib","al-abbas-ibn-abd-al-muttalib","abu-lahab-ibn-abd-al-muttalib","dirar-ibn-abd-al-muttalib","al-muqawwim-ibn-abd-al-muttalib","hajl-al-mughira-ibn-abd-al-muttalib","qutham-ibn-abd-al-muttalib"]},
+    {"id":"paternal-aunts","labels":{"ar":"العمات","en":"Paternal aunts","fr":"Tantes paternelles"},"people":["safiyya-bint-abd-al-muttalib","atika-bint-abd-al-muttalib","arwa-bint-abd-al-muttalib","umayma-bint-abd-al-muttalib","barra-bint-abd-al-muttalib","umm-hakim-al-bayda-bint-abd-al-muttalib"]},
+    {"id":"maternal-zuhra","labels":{"ar":"الأخوال من جهة الأم — بنو زهرة","en":"Maternal kin — Banu Zuhra","fr":"Parenté maternelle — Banū Zuhra"},"notes":{"ar":"قوم آمنة بنت وهب من بني زهرة بن كلاب. يفصل هذا القسم بين القرابة القبلية الأوسع وبين الإخوة المباشرين للأم عند توثيقهم.","en":"The clan of Amina bint Wahb was Banu Zuhra ibn Kilab. This group distinguishes wider clan kinship from specifically documented maternal siblings.","fr":"Le clan d’Amina bint Wahb était les Banū Zuhra ibn Kilāb. Cette catégorie distingue la parenté clanique large des frères et sœurs maternels directement documentés."},"people":["abd-yaghuth-ibn-wahb","saad-ibn-abi-waqqas"]},
+    {"id":"banu-najjar","labels":{"ar":"بنو النجار — أخواله من جهة نسب عبد المطلب","en":"Banu al-Najjar — kin through Abd al-Muttalib","fr":"Banū al-Najjār — parenté par Abd al-Muttalib"},"notes":{"ar":"صلة النسب عبر سلمى بنت عمرو النجارية، أم عبد المطلب.","en":"Kinship through Salma bint Amr al-Najjariyya, mother of Abd al-Muttalib.","fr":"Parenté par Salma bint Amr al-Najjariyya, mère d’Abd al-Muttalib."},"people":["salma-bint-amr-al-najjariyya"]},
+    {"id":"wives","labels":{"ar":"الزوجات — أمهات المؤمنين","en":"Wives — Mothers of the Believers","fr":"Épouses — Mères des croyants"},"people":["khadija-bint-khuwaylid","sawda-bint-zama","aisha-bint-abi-bakr","hafsa-bint-umar","zaynab-bint-khuzayma","umm-salama","zaynab-bint-jahsh","juwayriya-bint-al-harith","umm-habiba","safiyya-bint-huyayy","maymuna-bint-al-harith"]},
+    {"id":"mariya","labels":{"ar":"مارية القبطية وأمومة إبراهيم","en":"Mariya al-Qibtiyya and Ibrahim","fr":"Mariya al-Qibtiyya et Ibrahim"},"people":["mariya-al-qibtiyya","ibrahim-ibn-muhammad"]},
+    {"id":"sons","labels":{"ar":"الأبناء","en":"Sons","fr":"Fils"},"people":["al-qasim-ibn-muhammad","abdullah-ibn-muhammad","ibrahim-ibn-muhammad"]},
+    {"id":"daughters","labels":{"ar":"البنات","en":"Daughters","fr":"Filles"},"people":["zaynab-bint-muhammad","ruqayya-bint-muhammad","umm-kulthum-bint-muhammad","fatima-al-zahra"]},
+    {"id":"sons-in-law","labels":{"ar":"الأصهار — أزواج البنات","en":"Sons-in-law — husbands of the daughters","fr":"Gendres — époux des filles"},"people":["abu-al-as-ibn-al-rabi","uthman-ibn-affan","ali-ibn-abi-talib"]},
+    {"id":"grandchildren-zaynab","labels":{"ar":"أحفاده من زينب","en":"Grandchildren through Zaynab","fr":"Petits-enfants par Zaynab"},"people":["ali-ibn-abi-al-as","umama-bint-abi-al-as"]},
+    {"id":"grandchildren-ruqayya","labels":{"ar":"أحفاده من رقية","en":"Grandchildren through Ruqayya","fr":"Petits-enfants par Ruqayya"},"people":["abdullah-ibn-uthman"]},
+    {"id":"grandchildren-umm-kulthum","labels":{"ar":"أحفاده من أم كلثوم","en":"Grandchildren through Umm Kulthum","fr":"Petits-enfants par Umm Kulthum"},"notes":{"ar":"لم يُدرج ولد في هذا القسم حتى يثبت من المصادر.","en":"No child is listed here unless established by the sources.","fr":"Aucun enfant n’est inscrit ici sans attestation des sources."},"people":[]},
+    {"id":"grandchildren-fatima","labels":{"ar":"أحفاده من فاطمة الزهراء","en":"Grandchildren through Fatima al-Zahra","fr":"Petits-enfants par Fatima al-Zahra"},"notes":{"ar":"يُعرض محسن بن علي مع إبقاء اختلاف الروايات في شأنه للتوثيق داخل صفحته.","en":"Muhsin ibn Ali is indexed while differing reports about him are reserved for source documentation on his page.","fr":"Muhsin ibn Ali est indexé; les divergences à son sujet sont réservées à la documentation de sa page."},"people":["al-hasan-ibn-ali","al-husayn-ibn-ali","zaynab-bint-ali","umm-kulthum-bint-ali","muhsin-ibn-ali"]},
+    {"id":"hasan-descendants","labels":{"ar":"أشهر ذرية الحسن بن علي","en":"Notable descendants of al-Hasan ibn Ali","fr":"Descendance notable d’al-Hasan ibn Ali"},"people":["al-hasan-al-muthanna","zayd-ibn-al-hasan","amr-ibn-al-hasan","al-qasim-ibn-al-hasan","abdullah-ibn-al-hasan","abu-bakr-ibn-al-hasan"]},
+    {"id":"husayn-descendants","labels":{"ar":"أشهر ذرية الحسين بن علي","en":"Notable descendants of al-Husayn ibn Ali","fr":"Descendance notable d’al-Husayn ibn Ali"},"people":["ali-al-akbar-ibn-al-husayn","ali-zayn-al-abidin","abdullah-ibn-al-husayn","jafar-ibn-al-husayn","fatima-bint-al-husayn","sukayna-bint-al-husayn"]},
+    {"id":"abu-talib-children","labels":{"ar":"أبناء أبي طالب","en":"Children of Abu Talib","fr":"Enfants d’Abu Talib"},"people":["talib-ibn-abi-talib","aqil-ibn-abi-talib","jafar-ibn-abi-talib","ali-ibn-abi-talib"]},
+    {"id":"abbas-children","labels":{"ar":"أبناء العباس بن عبد المطلب","en":"Children of al-Abbas ibn Abd al-Muttalib","fr":"Enfants d’al-Abbas ibn Abd al-Muttalib"},"people":["al-fadl-ibn-al-abbas","abdullah-ibn-abbas","ubaydullah-ibn-al-abbas","qutham-ibn-al-abbas","mabad-ibn-al-abbas","abd-al-rahman-ibn-al-abbas","tamam-ibn-al-abbas"]},
+    {"id":"harith-children","labels":{"ar":"أبناء الحارث بن عبد المطلب","en":"Children of al-Harith ibn Abd al-Muttalib","fr":"Enfants d’al-Harith ibn Abd al-Muttalib"},"people":["abu-sufyan-ibn-al-harith","nawfal-ibn-al-harith","rabia-ibn-al-harith","abdullah-ibn-al-harith"]},
+    {"id":"zubayr-children","labels":{"ar":"ذرية الزبير بن عبد المطلب","en":"Descendants of al-Zubayr ibn Abd al-Muttalib","fr":"Descendance d’al-Zubayr ibn Abd al-Muttalib"},"people":["abdullah-ibn-al-zubayr-abd-al-muttalib","dubaa-bint-al-zubayr","umm-al-hakam-bint-al-zubayr"]},
+    {"id":"aunts-children","labels":{"ar":"أبناء العمات وبناتهن","en":"Children of the paternal aunts","fr":"Enfants des tantes paternelles"},"people":["al-zubayr-ibn-al-awwam","abdullah-ibn-jahsh","ubaydullah-ibn-jahsh","abu-ahmad-ibn-jahsh","zaynab-bint-jahsh","hamna-bint-jahsh"]},
+    {"id":"zubayr-awwam-children","labels":{"ar":"من أشهر أولاد الزبير بن العوام","en":"Notable children of al-Zubayr ibn al-Awwam","fr":"Enfants notables d’al-Zubayr ibn al-Awwam"},"people":["abdullah-ibn-al-zubayr","urwa-ibn-al-zubayr","musab-ibn-al-zubayr"]},
+    {"id":"foster-mothers","labels":{"ar":"الأمهات من الرضاعة","en":"Foster mothers","fr":"Mères de lait"},"people":["thuwayba","halima-al-sadiyya"]},
+    {"id":"foster-siblings","labels":{"ar":"الإخوة والأخوات من الرضاعة","en":"Foster siblings","fr":"Frères et sœurs de lait"},"people":["abdullah-ibn-al-harith","anisa-bint-al-harith","al-shayma-bint-al-harith","hamza-ibn-abd-al-muttalib","abu-salama-abdullah-ibn-abd-al-asad"]},
+    {"id":"halima-family","labels":{"ar":"أسرة حليمة السعدية","en":"Family of Halima al-Sadiyya","fr":"Famille de Halima al-Sadiyya"},"people":["al-harith-ibn-abd-al-uzza-al-sadi","halima-al-sadiyya","abdullah-ibn-al-harith","anisa-bint-al-harith","al-shayma-bint-al-harith"]},
+    {"id":"khadija-children","labels":{"ar":"أولاد خديجة من النبي ﷺ","en":"Children of Khadija with the Prophet ﷺ","fr":"Enfants de Khadija avec le Prophète ﷺ"},"people":["al-qasim-ibn-muhammad","zaynab-bint-muhammad","ruqayya-bint-muhammad","umm-kulthum-bint-muhammad","fatima-al-zahra","abdullah-ibn-muhammad"]},
+    {"id":"continuing-line","labels":{"ar":"السلسلة الرئيسية للذرية المستمرة","en":"Principal continuing line of descendants","fr":"Principale lignée descendante continue"},"notes":{"ar":"محمد ﷺ ← فاطمة الزهراء ← الحسن بن علي والذرية الحسنية؛ والحسين بن علي ← علي زين العابدين والذرية الحسينية.","en":"Muhammad ﷺ → Fatima al-Zahra → al-Hasan ibn Ali and the Hasanid line; and al-Husayn ibn Ali → Ali Zayn al-Abidin and the Husaynid line.","fr":"Muhammad ﷺ → Fatima al-Zahra → al-Hasan ibn Ali et la lignée hassanide; et al-Husayn ibn Ali → Ali Zayn al-Abidin et la lignée husaynide."},"people":["fatima-al-zahra","al-hasan-ibn-ali","al-husayn-ibn-ali","ali-zayn-al-abidin"]}
   ]
 }
