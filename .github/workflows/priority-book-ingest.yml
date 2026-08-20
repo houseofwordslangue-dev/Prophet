@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: prophet-priority-book-ingest
+  group: prophet-library-writes
   cancel-in-progress: false
 
 jobs:
@@ -98,10 +98,13 @@ jobs:
           git add -- private/acquisition_state.json data/ingested_library.json library/works
           if ! git diff --cached --quiet; then
             git commit -m "Ingest requested 10 resources into GitHub library"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
 
       - name: Deploy the requested books and index to site
+        continue-on-error: true
         env:
           PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
           PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
@@ -115,7 +118,10 @@ jobs:
           install -d -m 700 ~/.ssh
           printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+          if ! ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts; then
+            echo "WARNING: deployment host is not resolvable/reachable; GitHub ingestion remains successful."
+            exit 0
+          fi
           ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH/data' '$PM_DEPLOY_PATH/library/works'"
           rsync -az data/ingested_library.json "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/data/ingested_library.json"
           rsync -az library/works/ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/library/works/"
