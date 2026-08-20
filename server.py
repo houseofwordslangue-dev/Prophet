@@ -5,6 +5,8 @@ import json
 import mimetypes
 import os
 import re
+import subprocess
+import sys
 import threading
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -14,11 +16,13 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "imported_media.json"
+EPUB_INDEX = ROOT / "data" / "generated_epubs.json"
 CACHE = ROOT / "media-cache"
 CACHE.mkdir(parents=True, exist_ok=True)
 HOST = os.getenv("PM_HOST", "127.0.0.1")
 PORT = int(os.getenv("PM_PORT", "8080"))
 SYNC_ON_START = os.getenv("PM_MEDIA_SYNC_ON_START", "1") == "1"
+EPUB_ON_START = os.getenv("PM_EPUB_CONVERT_ON_START", "1") == "1"
 MAX_SYNC = int(os.getenv("PM_MEDIA_MAX_PER_SOURCE", "350"))
 CACHE_ENABLED = os.getenv("PM_MEDIA_CACHE", "1") == "1"
 
@@ -48,6 +52,35 @@ def _sync_catalogue() -> None:
     except Exception as exc:
         print("media sync warning:", exc)
     _load_catalogue()
+
+
+def _publish_epubs() -> None:
+    if not EPUB_ON_START:
+        return
+    script = ROOT / "scripts" / "convert_all_epub.py"
+    if not script.exists():
+        return
+    try:
+        cp = subprocess.run([sys.executable, str(script)], cwd=str(ROOT), text=True, capture_output=True, timeout=3600)
+        if cp.stdout:
+            print(cp.stdout[-20000:])
+        if cp.returncode and cp.stderr:
+            print("EPUB publication warning:", cp.stderr[-12000:])
+    except Exception as exc:
+        print("EPUB publication warning:", exc)
+
+
+def _start_epub_publication() -> None:
+    if EPUB_ON_START:
+        threading.Thread(target=_publish_epubs, daemon=True, name="epub-publisher").start()
+
+
+def _epub_status() -> dict:
+    try:
+        d = json.loads(EPUB_INDEX.read_text(encoding="utf-8"))
+        return {"ok": True, "count": int(d.get("count") or 0), "processedThisRun": int(d.get("processedThisRun") or 0), "failedThisRun": d.get("failedThisRun") or [], "generatedAt": d.get("generatedAt")}
+    except Exception as exc:
+        return {"ok": False, "count": 0, "error": str(exc)}
 
 
 def _safe_id(value: str) -> str:
@@ -154,7 +187,9 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         parsed = urlparse(self.path)
         if parsed.path == "/api/ready":
-            return self._json({"ok": True, "mediaItems": len(_MEDIA_BY_ID)})
+            return self._json({"ok": True, "mediaItems": len(_MEDIA_BY_ID), "epubs": _epub_status().get("count", 0)})
+        if parsed.path == "/api/epub/status":
+            return self._json(_epub_status())
         if parsed.path == "/api/media/status":
             counts = {k: 0 for k in ("video", "lecture", "podcast", "research", "documentary", "audio")}
             with _MEDIA_LOCK:
@@ -249,8 +284,10 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main() -> None:
     _sync_catalogue()
+    _start_epub_publication()
     print(f"Prophet site: http://{HOST}:{PORT}/")
     print(f"Media player: http://{HOST}:{PORT}/media.html")
+    print("EPUB publisher: enabled" if EPUB_ON_START else "EPUB publisher: disabled")
     ThreadingHTTPServer((HOST, PORT), Handler).serve_forever()
 
 
