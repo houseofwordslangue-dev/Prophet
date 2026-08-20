@@ -1,0 +1,15 @@
+{
+  "policyApplied": true,
+  "policyVersion": "1.0.0",
+  "coverageWindowHours": 24,
+  "cycleFrequencyHours": 1,
+  "status": "UNASSESSED",
+  "reason": "Initial state. The recurring coverage agent must discover the currently active editorial sections/subsections and run the first genuine-source coverage cycle before PASS/FAIL is assigned.",
+  "integrity": {
+    "substantiveAiGenerationAllowed": false,
+    "requiredSourceCoveragePercent": 100,
+    "unsupportedFactualParagraphsAllowed": 0,
+    "unverifiedQuotationsAllowed": 0
+  },
+  "reportRecipient": "houseofwords.langue@gmail.com"
+}
