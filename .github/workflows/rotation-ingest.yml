@@ -76,6 +76,30 @@ jobs:
           python-version: '3.12'
           cache: pip
 
+      - name: Build source-only individual-page registry first
+        run: python scripts/build_people.py
+
+      - name: Validate and publish people registry independently
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('data/people.json')
+          if not p.exists(): raise SystemExit('FAIL: people registry missing')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          policy=d.get('policy',{})
+          if int(policy.get('aiSubstantiveContent',-1)) != 0 or int(policy.get('aiComments',-1)) != 0: raise SystemExit('FAIL: AI-content policy violation')
+          if set(policy.get('locales',[])) != {'ar','en','fr'}: raise SystemExit('FAIL: ar/en/fr localization policy missing')
+          if int(d.get('count',0)) < 1: raise SystemExit('FAIL: no individual pages indexed')
+          print('PASS: source-only people registry:',d.get('count'))
+          PY
+          git config user.name 'prophet-ingestion-bot'
+          git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
+          git add data/people.json scripts/build_people.py people.html person.html assets/people.js assets/people.css
+          if ! git diff --cached --quiet; then
+            git commit -m "Build source-only localized individual registry"
+            git push
+          fi
+
       - name: Install system readers/OCR/media tools
         run: |
           sudo apt-get update
@@ -98,25 +122,8 @@ jobs:
       - name: Build reader/search/listen/watch capability index
         run: python scripts/build_ingested_library.py
 
-      - name: Build source-only individual-page registry
+      - name: Rebuild people registry after new source ingestion
         run: python scripts/build_people.py
-
-      - name: Validate individual-page policy and locale isolation
-        run: |
-          python - <<'PY'
-          import json, pathlib
-          p=pathlib.Path('data/people.json')
-          if not p.exists(): raise SystemExit('FAIL: people registry missing')
-          d=json.loads(p.read_text(encoding='utf-8'))
-          policy=d.get('policy',{})
-          if int(policy.get('aiSubstantiveContent',-1)) != 0 or int(policy.get('aiComments',-1)) != 0:
-              raise SystemExit('FAIL: AI-content policy violation')
-          if set(policy.get('locales',[])) != {'ar','en','fr'}:
-              raise SystemExit('FAIL: ar/en/fr localization policy missing')
-          if int(d.get('count',0)) < 1:
-              raise SystemExit('FAIL: no individual pages indexed')
-          print('PASS: source-only people registry:',d.get('count'))
-          PY
 
       - name: Commit repository-safe ingestion state and indexes
         run: |
@@ -125,7 +132,7 @@ jobs:
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
           git add scripts/rotation_ingest.py scripts/acquire_unrestricted_library.py scripts/promote_verified_catalogue_candidates.py scripts/build_ingested_library.py scripts/build_people.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml people.html person.html assets/people.js assets/people.css
           if ! git diff --cached --quiet; then
-            git commit -m "Build source-only localized individual pages"
+            git commit -m "Advance source ingestion and refresh individual pages"
             git push
           fi
 
@@ -151,19 +158,15 @@ jobs:
           python - <<'PY'
           import json, pathlib, sys
           p=pathlib.Path('data/imported_media.json')
-          if not p.exists():
-              raise SystemExit('FAIL: data/imported_media.json missing')
+          if not p.exists(): raise SystemExit('FAIL: data/imported_media.json missing')
           d=json.loads(p.read_text(encoding='utf-8'))
           items=d.get('items',[])
           cats=d.get('categoryCounts',{})
           target=int(d.get('targetPerCategory') or 300)
           required=('video','lecture','podcast','research','documentary','audio')
           missing={k:int(cats.get(k,0)) for k in required if int(cats.get(k,0))<target}
-          print('media items:',len(items))
-          print('media categories:',cats)
-          print('required per category:',target)
+          print('media items:',len(items));print('media categories:',cats);print('required per category:',target)
           if missing:
-              print('FAIL: categories below target:',missing)
-              sys.exit(2)
+              print('FAIL: categories below target:',missing);sys.exit(2)
           print('PASS: all six categories contain at least',target,'genuine indexed items; total target >=',target*len(required))
           PY
