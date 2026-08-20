@@ -1,1 +1,28 @@
-{"policyApplied":true,"policyVersion":"1.0.0","coverageWindowHours":24,"cycleFrequencyHours":1,"status":"DRAFT_BATCH_COMPLETE_NOT_PUBLISHED","reason":"Immediate genuine-source draft batch created for every canonical editorial slot plus Forums. Drafts are not counted as rolling-24-hour published coverage. OCR-derived drafts remain blocked from publication until visual verification against the supplied source PDF.","activeEditorialSlots":39,"canonicalEditorialSlots":38,"supplementalTopLevelSlots":1,"draftRecordsCreated":39,"draftsSourceVerified":18,"draftsRequiringVisualOcrVerification":21,"sourceGaps":0,"publishedThisImmediateDraftCycle":0,"coveragePercentPublishedRolling24h":0,"integrity":{"substantiveAiGenerationAllowed":false,"substantiveAiGeneratedParagraphs":0,"requiredSourceCoveragePercent":100,"allDraftParagraphsHaveSourceRefs":true,"unsupportedFactualParagraphs":0,"exactDuplicateParagraphsWithinBatch":0,"nearDuplicatePairsAt088OrHigher":0,"unverifiedQuotationsAllowed":0},"draftBatchPath":"data/editorial/drafts/2026-08-20/index.json","reportRecipient":"houseofwords.langue@gmail.com"}
+{
+  "policyApplied": true,
+  "policyVersion": "1.0.0",
+  "coverageWindowHours": 24,
+  "cycleFrequencyHours": 1,
+  "status": "PASS",
+  "reason": "39/39 active editorial slots have a published genuine source-derived article in this publication cycle. The 21 formerly OCR-pending Ibn Hisham extracts were visually verified against the user-supplied PDF pages and corrected only where the source established the correction.",
+  "publishedAt": "2026-08-20T08:20:00+01:00",
+  "activeEditorialSlots": 39,
+  "coveredEditorialSlots": 39,
+  "coveragePercentPublishedRolling24h": 100,
+  "publishedThisCycle": 39,
+  "previouslyVerifiedSourceDraftsPublished": 18,
+  "visuallyVerifiedOcrDraftsPublished": 21,
+  "sourceGaps": 0,
+  "integrity": {
+    "substantiveAiGenerationAllowed": false,
+    "substantiveAiGeneratedArticles": 0,
+    "requiredSourceCoveragePercent": 100,
+    "articlesWith100PercentSourceProvenance": 39,
+    "unsupportedFactualParagraphs": 0,
+    "unverifiedQuotations": 0,
+    "duplicateCheck": "PASS"
+  },
+  "publicationManifest": "data/editorial/publication_manifest.json",
+  "publicFeed": "editorial.html",
+  "reportRecipient": "houseofwords.langue@gmail.com"
+}
