@@ -1,0 +1,104 @@
+name: Dedicated rotating book ingestion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/book-ingest.yml'
+      - 'private/acquisition_candidates.json'
+      - 'scripts/acquire_unrestricted_library.py'
+      - 'scripts/promote_verified_catalogue_candidates.py'
+      - 'scripts/discover_gutenberg_resources.py'
+      - 'scripts/build_ingested_library.py'
+      - 'data/catalogue/**'
+  schedule:
+    - cron: '4,19,34,49 * * * *'
+  workflow_dispatch:
+    inputs:
+      books:
+        description: Books to acquire per cycle
+        required: false
+        default: '4'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-dedicated-book-ingest
+  cancel-in-progress: false
+
+jobs:
+  books:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PM_BOOK_BATCH: ${{ inputs.books || '4' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Discover additional official Gutenberg resources
+        continue-on-error: true
+        run: python scripts/discover_gutenberg_resources.py --limit 12
+
+      - name: Promote rights-cleared exact catalogue sources
+        continue-on-error: true
+        run: python scripts/promote_verified_catalogue_candidates.py --limit 25
+
+      - name: Acquire next unpublished book batch on GitHub runner
+        run: python scripts/acquire_unrestricted_library.py --limit "$PM_BOOK_BATCH"
+
+      - name: Build cumulative reader/search/listen index
+        run: python scripts/build_ingested_library.py
+
+      - name: Validate acquisition outputs
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          state=pathlib.Path('private/acquisition_state.json')
+          index=pathlib.Path('data/ingested_library.json')
+          if not state.exists(): raise SystemExit('FAIL: acquisition state missing')
+          if not index.exists(): raise SystemExit('FAIL: ingested library index missing')
+          s=json.loads(state.read_text(encoding='utf-8'))
+          d=json.loads(index.read_text(encoding='utf-8'))
+          print('state records:',len(s.get('items',[])))
+          print('published index:',d.get('count',0))
+          print('current batch:',d.get('currentBatchCount',0))
+          PY
+
+      - name: Commit cumulative queue, state and public index
+        run: |
+          git config user.name 'prophet-ingestion-bot'
+          git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
+          git add -- private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Acquire next verified book rotation"
+            git push
+          fi
+
+      - name: Deploy new books and cumulative index to site
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$PM_DEPLOY_HOST" ] || [ -z "$PM_DEPLOY_USER" ] || [ -z "$PM_DEPLOY_PATH" ] || [ -z "$PM_DEPLOY_SSH_KEY" ]; then
+            echo "Deployment secrets not configured; GitHub acquisition/index commit completed, site upload skipped."
+            exit 0
+          fi
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+          ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH/data' '$PM_DEPLOY_PATH/library/works'"
+          rsync -az data/ingested_library.json "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/data/ingested_library.json"
+          if [ -d library/works ]; then
+            rsync -az library/works/ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/library/works/"
+          fi
