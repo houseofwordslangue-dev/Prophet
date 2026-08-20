@@ -1,0 +1,2871 @@
+{
+  "version": "2026-08-20-source-only-people-v1",
+  "policy": {
+    "aiSubstantiveContent": 0,
+    "aiComments": 0,
+    "biographyRule": "Only verified source passages or explicit source metadata may populate biography/sayings. No generated narrative.",
+    "locales": [
+      "ar",
+      "en",
+      "fr"
+    ]
+  },
+  "count": 123,
+  "people": [
+    {
+      "id": "person-4c7fe50bc447",
+      "slug": "person-4c7fe50bc447",
+      "name": {
+        "ar": "Michael Sells",
+        "en": "Michael Sells",
+        "fr": "Michael Sells"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [
+          {
+            "text": "At the way stations stay. Grieve over the ruins. Ask the meadow grounds, now desolate, this question.",
+            "language": "en",
+            "articleId": "20260820-media-podcasts",
+            "articleTitle": "ترجمان الأشواق في مادة صوتية وبحثية موثقة",
+            "sources": [
+              {
+                "ref": "media-podcast-bewildered",
+                "title": "Bewildered – A New Translation of Ibn Arabi’s Tarjuman Poems",
+                "author": "Michael Sells",
+                "originalUrl": "https://ibnarabisociety.org/translation-of-desires-poem-18-michael-sells/",
+                "resourceId": "mias-bewildered",
+                "verifiedAgainstOriginal": true,
+                "verificationBasis": "exact short extract from approved source page"
+              }
+            ],
+            "relation": "authored-saying"
+          }
+        ],
+        "fr": []
+      },
+      "sourcePassages": [
+        {
+          "text": "At the way stations stay. Grieve over the ruins. Ask the meadow grounds, now desolate, this question.",
+          "language": "en",
+          "articleId": "20260820-media-podcasts",
+          "articleTitle": "ترجمان الأشواق في مادة صوتية وبحثية موثقة",
+          "sources": [
+            {
+              "ref": "media-podcast-bewildered",
+              "title": "Bewildered – A New Translation of Ibn Arabi’s Tarjuman Poems",
+              "author": "Michael Sells",
+              "originalUrl": "https://ibnarabisociety.org/translation-of-desires-poem-18-michael-sells/",
+              "resourceId": "mias-bewildered",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "exact short extract from approved source page"
+            }
+          ],
+          "relation": "authored-saying"
+        }
+      ],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-8365c67f7e7c",
+      "slug": "person-8365c67f7e7c",
+      "name": {
+        "ar": "abd-al-muttalib",
+        "en": "abd-al-muttalib",
+        "fr": "abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-facd06c50592",
+      "slug": "person-facd06c50592",
+      "name": {
+        "ar": "abd-manaf-ibn-qusayy",
+        "en": "abd-manaf-ibn-qusayy",
+        "fr": "abd-manaf-ibn-qusayy"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e59d18e68796",
+      "slug": "person-e59d18e68796",
+      "name": {
+        "ar": "abdullah-ibn-abbas",
+        "en": "abdullah-ibn-abbas",
+        "fr": "abdullah-ibn-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-006fd158c464",
+      "slug": "person-006fd158c464",
+      "name": {
+        "ar": "abdullah-ibn-abd-al-muttalib",
+        "en": "abdullah-ibn-abd-al-muttalib",
+        "fr": "abdullah-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-50737456ace2",
+      "slug": "person-50737456ace2",
+      "name": {
+        "ar": "abdullah-ibn-muhammad",
+        "en": "abdullah-ibn-muhammad",
+        "fr": "abdullah-ibn-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-77982ed9d8d5",
+      "slug": "person-77982ed9d8d5",
+      "name": {
+        "ar": "aisha-bint-abi-bakr",
+        "en": "aisha-bint-abi-bakr",
+        "fr": "aisha-bint-abi-bakr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-d3f51877a09f",
+      "slug": "person-d3f51877a09f",
+      "name": {
+        "ar": "al-abbas-ibn-abd-al-muttalib",
+        "en": "al-abbas-ibn-abd-al-muttalib",
+        "fr": "al-abbas-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-8af0983aab9c",
+      "slug": "person-8af0983aab9c",
+      "name": {
+        "ar": "al-hasan-ibn-ali",
+        "en": "al-hasan-ibn-ali",
+        "fr": "al-hasan-ibn-ali"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-051301ccb5bf",
+      "slug": "person-051301ccb5bf",
+      "name": {
+        "ar": "al-husayn-ibn-ali",
+        "en": "al-husayn-ibn-ali",
+        "fr": "al-husayn-ibn-ali"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-c8e327497264",
+      "slug": "person-c8e327497264",
+      "name": {
+        "ar": "al-nadr-ibn-kinana",
+        "en": "al-nadr-ibn-kinana",
+        "fr": "al-nadr-ibn-kinana"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-da06e27a85e4",
+      "slug": "person-da06e27a85e4",
+      "name": {
+        "ar": "al-qasim-ibn-muhammad",
+        "en": "al-qasim-ibn-muhammad",
+        "fr": "al-qasim-ibn-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4ac75455dc72",
+      "slug": "person-4ac75455dc72",
+      "name": {
+        "ar": "ali-ibn-abi-talib",
+        "en": "ali-ibn-abi-talib",
+        "fr": "ali-ibn-abi-talib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b758f13b7aca",
+      "slug": "person-b758f13b7aca",
+      "name": {
+        "ar": "amina-bint-wahb",
+        "en": "amina-bint-wahb",
+        "fr": "amina-bint-wahb"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-7f0f346662e7",
+      "slug": "person-7f0f346662e7",
+      "name": {
+        "ar": "fatima-al-zahra",
+        "en": "fatima-al-zahra",
+        "fr": "fatima-al-zahra"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-14301a19d094",
+      "slug": "person-14301a19d094",
+      "name": {
+        "ar": "fihr-ibn-malik",
+        "en": "fihr-ibn-malik",
+        "fr": "fihr-ibn-malik"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-09381934754c",
+      "slug": "person-09381934754c",
+      "name": {
+        "ar": "ghalib-ibn-fihr",
+        "en": "ghalib-ibn-fihr",
+        "fr": "ghalib-ibn-fihr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-69bc01fbc242",
+      "slug": "person-69bc01fbc242",
+      "name": {
+        "ar": "hafsa-bint-umar",
+        "en": "hafsa-bint-umar",
+        "fr": "hafsa-bint-umar"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-f54b80d2d221",
+      "slug": "person-f54b80d2d221",
+      "name": {
+        "ar": "hamza-ibn-abd-al-muttalib",
+        "en": "hamza-ibn-abd-al-muttalib",
+        "fr": "hamza-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-99149c5c072c",
+      "slug": "person-99149c5c072c",
+      "name": {
+        "ar": "hashim-ibn-abd-manaf",
+        "en": "hashim-ibn-abd-manaf",
+        "fr": "hashim-ibn-abd-manaf"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6800f90aa7c8",
+      "slug": "person-6800f90aa7c8",
+      "name": {
+        "ar": "ibrahim-ibn-muhammad",
+        "en": "ibrahim-ibn-muhammad",
+        "fr": "ibrahim-ibn-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-117ca7ce1c07",
+      "slug": "person-117ca7ce1c07",
+      "name": {
+        "ar": "ilyas-ibn-mudar",
+        "en": "ilyas-ibn-mudar",
+        "fr": "ilyas-ibn-mudar"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-da8e2ffd90a2",
+      "slug": "person-da8e2ffd90a2",
+      "name": {
+        "ar": "juwayriya-bint-al-harith",
+        "en": "juwayriya-bint-al-harith",
+        "fr": "juwayriya-bint-al-harith"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e8a4a2468176",
+      "slug": "person-e8a4a2468176",
+      "name": {
+        "ar": "kab-ibn-luayy",
+        "en": "kab-ibn-luayy",
+        "fr": "kab-ibn-luayy"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-f95ed2a0a66a",
+      "slug": "person-f95ed2a0a66a",
+      "name": {
+        "ar": "khadija-bint-khuwaylid",
+        "en": "khadija-bint-khuwaylid",
+        "fr": "khadija-bint-khuwaylid"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-7060e68d653d",
+      "slug": "person-7060e68d653d",
+      "name": {
+        "ar": "khuzayma-ibn-mudrika",
+        "en": "khuzayma-ibn-mudrika",
+        "fr": "khuzayma-ibn-mudrika"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-62fc96ff1e57",
+      "slug": "person-62fc96ff1e57",
+      "name": {
+        "ar": "kilab-ibn-murra",
+        "en": "kilab-ibn-murra",
+        "fr": "kilab-ibn-murra"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-177f75bd083c",
+      "slug": "person-177f75bd083c",
+      "name": {
+        "ar": "kinana-ibn-khuzayma",
+        "en": "kinana-ibn-khuzayma",
+        "fr": "kinana-ibn-khuzayma"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-224da2bd3aec",
+      "slug": "person-224da2bd3aec",
+      "name": {
+        "ar": "luayy-ibn-ghalib",
+        "en": "luayy-ibn-ghalib",
+        "fr": "luayy-ibn-ghalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-74cc7918c881",
+      "slug": "person-74cc7918c881",
+      "name": {
+        "ar": "maadd-ibn-adnan",
+        "en": "maadd-ibn-adnan",
+        "fr": "maadd-ibn-adnan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-54c4ff5148a3",
+      "slug": "person-54c4ff5148a3",
+      "name": {
+        "ar": "malik-ibn-al-nadr",
+        "en": "malik-ibn-al-nadr",
+        "fr": "malik-ibn-al-nadr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6a31a9a8cd4d",
+      "slug": "person-6a31a9a8cd4d",
+      "name": {
+        "ar": "mariya-al-qibtiyya",
+        "en": "mariya-al-qibtiyya",
+        "fr": "mariya-al-qibtiyya"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0f1c7cf0bc88",
+      "slug": "person-0f1c7cf0bc88",
+      "name": {
+        "ar": "maymuna-bint-al-harith",
+        "en": "maymuna-bint-al-harith",
+        "fr": "maymuna-bint-al-harith"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-040170814f57",
+      "slug": "person-040170814f57",
+      "name": {
+        "ar": "mudar-ibn-nizar",
+        "en": "mudar-ibn-nizar",
+        "fr": "mudar-ibn-nizar"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-7752e2dfa848",
+      "slug": "person-7752e2dfa848",
+      "name": {
+        "ar": "mudrika-ibn-ilyas",
+        "en": "mudrika-ibn-ilyas",
+        "fr": "mudrika-ibn-ilyas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1a26b914289b",
+      "slug": "person-1a26b914289b",
+      "name": {
+        "ar": "murra-ibn-kab",
+        "en": "murra-ibn-kab",
+        "fr": "murra-ibn-kab"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e757d74ff462",
+      "slug": "person-e757d74ff462",
+      "name": {
+        "ar": "nizar-ibn-maadd",
+        "en": "nizar-ibn-maadd",
+        "fr": "nizar-ibn-maadd"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-bd9f4f9ec113",
+      "slug": "person-bd9f4f9ec113",
+      "name": {
+        "ar": "qusayy-ibn-kilab",
+        "en": "qusayy-ibn-kilab",
+        "fr": "qusayy-ibn-kilab"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-ee9533da8a95",
+      "slug": "person-ee9533da8a95",
+      "name": {
+        "ar": "ruqayya-bint-muhammad",
+        "en": "ruqayya-bint-muhammad",
+        "fr": "ruqayya-bint-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b90d97e3a5a2",
+      "slug": "person-b90d97e3a5a2",
+      "name": {
+        "ar": "safiyya-bint-huyayy",
+        "en": "safiyya-bint-huyayy",
+        "fr": "safiyya-bint-huyayy"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-27040d99eb01",
+      "slug": "person-27040d99eb01",
+      "name": {
+        "ar": "sawda-bint-zama",
+        "en": "sawda-bint-zama",
+        "fr": "sawda-bint-zama"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-04c5aa88d621",
+      "slug": "person-04c5aa88d621",
+      "name": {
+        "ar": "umm-habiba",
+        "en": "umm-habiba",
+        "fr": "umm-habiba"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-dd9b45c017ac",
+      "slug": "person-dd9b45c017ac",
+      "name": {
+        "ar": "umm-kulthum-bint-muhammad",
+        "en": "umm-kulthum-bint-muhammad",
+        "fr": "umm-kulthum-bint-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6f9bc4267d74",
+      "slug": "person-6f9bc4267d74",
+      "name": {
+        "ar": "umm-salama",
+        "en": "umm-salama",
+        "fr": "umm-salama"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e60283d67ffd",
+      "slug": "person-e60283d67ffd",
+      "name": {
+        "ar": "zaynab-bint-jahsh",
+        "en": "zaynab-bint-jahsh",
+        "fr": "zaynab-bint-jahsh"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4126a82c34ee",
+      "slug": "person-4126a82c34ee",
+      "name": {
+        "ar": "zaynab-bint-khuzayma",
+        "en": "zaynab-bint-khuzayma",
+        "fr": "zaynab-bint-khuzayma"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-ae42105e09d0",
+      "slug": "person-ae42105e09d0",
+      "name": {
+        "ar": "zaynab-bint-muhammad",
+        "en": "zaynab-bint-muhammad",
+        "fr": "zaynab-bint-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "amina-bint-wahb",
+      "slug": "amina-bint-wahb",
+      "name": {
+        "ar": "آمنة بنت وهب",
+        "en": "Amina bint Wahb",
+        "fr": "Amina bint Wahb"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a43b4587691d",
+      "slug": "person-a43b4587691d",
+      "name": {
+        "ar": "أبو الفداء إسماعيل بن كثير",
+        "en": "أبو الفداء إسماعيل بن كثير",
+        "fr": "أبو الفداء إسماعيل بن كثير"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-8c13ceaa6b49",
+      "slug": "person-8c13ceaa6b49",
+      "name": {
+        "ar": "أبو الفرج عبد الرحمن بن علي ابن الجوزي",
+        "en": "أبو الفرج عبد الرحمن بن علي ابن الجوزي",
+        "fr": "أبو الفرج عبد الرحمن بن علي ابن الجوزي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abu-bakr",
+      "slug": "abu-bakr",
+      "name": {
+        "ar": "أبو بكر الصديق",
+        "en": "Abu Bakr al-Siddiq",
+        "fr": "Abu Bakr al-Siddiq"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abu-ubayda-ibn-al-jarrah",
+      "slug": "abu-ubayda-ibn-al-jarrah",
+      "name": {
+        "ar": "أبو عبيدة بن الجراح",
+        "en": "Abu Ubayda ibn al-Jarrah",
+        "fr": "Abu Ubayda ibn al-Jarrah"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abu-hurayra",
+      "slug": "abu-hurayra",
+      "name": {
+        "ar": "أبو هريرة",
+        "en": "Abu Hurayra",
+        "fr": "Abu Hurayra"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "usama-ibn-zaid",
+      "slug": "usama-ibn-zaid",
+      "name": {
+        "ar": "أسامة بن زيد",
+        "en": "Usama ibn Zayd",
+        "fr": "Usama ibn Zayd"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "umm-habiba",
+      "slug": "umm-habiba",
+      "name": {
+        "ar": "أم حبيبة رملة بنت أبي سفيان",
+        "en": "Umm Habiba Ramla bint Abi Sufyan",
+        "fr": "Umm Habiba Ramla bint Abi Sufyan"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "umm-salama",
+      "slug": "umm-salama",
+      "name": {
+        "ar": "أم سلمة هند بنت أبي أمية",
+        "en": "Umm Salama Hind bint Abi Umayya",
+        "fr": "Umm Salama Hind bint Abi Umayya"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "umm-kulthum-bint-muhammad",
+      "slug": "umm-kulthum-bint-muhammad",
+      "name": {
+        "ar": "أم كلثوم بنت محمد",
+        "en": "Umm Kulthum bint Muhammad",
+        "fr": "Umm Kulthum bint Muhammad"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "anas-ibn-malik",
+      "slug": "anas-ibn-malik",
+      "name": {
+        "ar": "أنس بن مالك",
+        "en": "Anas ibn Malik",
+        "fr": "Anas ibn Malik"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "ibrahim-ibn-muhammad",
+      "slug": "ibrahim-ibn-muhammad",
+      "name": {
+        "ar": "إبراهيم بن محمد",
+        "en": "Ibrahim ibn Muhammad",
+        "fr": "Ibrahim ibn Muhammad"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "ilyas-ibn-mudar",
+      "slug": "ilyas-ibn-mudar",
+      "name": {
+        "ar": "إلياس بن مضر",
+        "en": "Ilyas ibn Mudar",
+        "fr": "Ilyas ibn Mudar"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "al-hasan-ibn-ali",
+      "slug": "al-hasan-ibn-ali",
+      "name": {
+        "ar": "الحسن بن علي",
+        "en": "Al-Hasan ibn Ali",
+        "fr": "Al-Hasan ibn Ali"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "al-husayn-ibn-ali",
+      "slug": "al-husayn-ibn-ali",
+      "name": {
+        "ar": "الحسين بن علي",
+        "en": "Al-Husayn ibn Ali",
+        "fr": "Al-Husayn ibn Ali"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "al-zubayr-ibn-al-awwam",
+      "slug": "al-zubayr-ibn-al-awwam",
+      "name": {
+        "ar": "الزبير بن العوام",
+        "en": "Al-Zubayr ibn al-Awwam",
+        "fr": "Al-Zubayr ibn al-Awwam"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "al-abbas-ibn-abd-al-muttalib",
+      "slug": "al-abbas-ibn-abd-al-muttalib",
+      "name": {
+        "ar": "العباس بن عبد المطلب",
+        "en": "Al-Abbas ibn Abd al-Muttalib",
+        "fr": "Al-Abbas ibn Abd al-Muttalib"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "al-qasim-ibn-muhammad",
+      "slug": "al-qasim-ibn-muhammad",
+      "name": {
+        "ar": "القاسم بن محمد",
+        "en": "Al-Qasim ibn Muhammad",
+        "fr": "Al-Qasim ibn Muhammad"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "al-nadr-ibn-kinana",
+      "slug": "al-nadr-ibn-kinana",
+      "name": {
+        "ar": "النضر بن كنانة",
+        "en": "Al-Nadr ibn Kinana",
+        "fr": "Al-Nadr ibn Kinana"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "bilal-ibn-rabah",
+      "slug": "bilal-ibn-rabah",
+      "name": {
+        "ar": "بلال بن رباح",
+        "en": "Bilal ibn Rabah",
+        "fr": "Bilal ibn Rabah"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "jabir-ibn-abdullah",
+      "slug": "jabir-ibn-abdullah",
+      "name": {
+        "ar": "جابر بن عبد الله",
+        "en": "Jabir ibn Abdullah",
+        "fr": "Jabir ibn Abdallah"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "juwayriya-bint-al-harith",
+      "slug": "juwayriya-bint-al-harith",
+      "name": {
+        "ar": "جويرية بنت الحارث",
+        "en": "Juwayriya bint al-Harith",
+        "fr": "Juwayriya bint al-Harith"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "hafsa-bint-umar",
+      "slug": "hafsa-bint-umar",
+      "name": {
+        "ar": "حفصة بنت عمر",
+        "en": "Hafsa bint Umar",
+        "fr": "Hafsa bint Umar"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "hamza-ibn-abd-al-muttalib",
+      "slug": "hamza-ibn-abd-al-muttalib",
+      "name": {
+        "ar": "حمزة بن عبد المطلب",
+        "en": "Hamza ibn Abd al-Muttalib",
+        "fr": "Hamza ibn Abd al-Muttalib"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "khalid-ibn-al-walid",
+      "slug": "khalid-ibn-al-walid",
+      "name": {
+        "ar": "خالد بن الوليد",
+        "en": "Khalid ibn al-Walid",
+        "fr": "Khalid ibn al-Walid"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "khadija-bint-khuwaylid",
+      "slug": "khadija-bint-khuwaylid",
+      "name": {
+        "ar": "خديجة بنت خويلد",
+        "en": "Khadija bint Khuwaylid",
+        "fr": "Khadija bint Khuwaylid"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "khuzayma-ibn-mudrika",
+      "slug": "khuzayma-ibn-mudrika",
+      "name": {
+        "ar": "خزيمة بن مدركة",
+        "en": "Khuzayma ibn Mudrika",
+        "fr": "Khuzayma ibn Mudrika"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "ruqayya-bint-muhammad",
+      "slug": "ruqayya-bint-muhammad",
+      "name": {
+        "ar": "رقية بنت محمد",
+        "en": "Ruqayya bint Muhammad",
+        "fr": "Ruqayya bint Muhammad"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "zaid-ibn-thabit",
+      "slug": "zaid-ibn-thabit",
+      "name": {
+        "ar": "زيد بن ثابت",
+        "en": "Zayd ibn Thabit",
+        "fr": "Zayd ibn Thabit"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "zaid-ibn-haritha",
+      "slug": "zaid-ibn-haritha",
+      "name": {
+        "ar": "زيد بن حارثة",
+        "en": "Zayd ibn Haritha",
+        "fr": "Zayd ibn Haritha"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "zaynab-bint-jahsh",
+      "slug": "zaynab-bint-jahsh",
+      "name": {
+        "ar": "زينب بنت جحش",
+        "en": "Zaynab bint Jahsh",
+        "fr": "Zaynab bint Jahsh"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "zaynab-bint-khuzayma",
+      "slug": "zaynab-bint-khuzayma",
+      "name": {
+        "ar": "زينب بنت خزيمة",
+        "en": "Zaynab bint Khuzayma",
+        "fr": "Zaynab bint Khuzayma"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "zaynab-bint-muhammad",
+      "slug": "zaynab-bint-muhammad",
+      "name": {
+        "ar": "زينب بنت محمد",
+        "en": "Zaynab bint Muhammad",
+        "fr": "Zaynab bint Muhammad"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "saad-ibn-abi-waqqas",
+      "slug": "saad-ibn-abi-waqqas",
+      "name": {
+        "ar": "سعد بن أبي وقاص",
+        "en": "Saad ibn Abi Waqqas",
+        "fr": "Saad ibn Abi Waqqas"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "saeed-ibn-zayd",
+      "slug": "saeed-ibn-zayd",
+      "name": {
+        "ar": "سعيد بن زيد",
+        "en": "Saeed ibn Zayd",
+        "fr": "Saeed ibn Zayd"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "salman-al-farisi",
+      "slug": "salman-al-farisi",
+      "name": {
+        "ar": "سلمان الفارسي",
+        "en": "Salman al-Farisi",
+        "fr": "Salman al-Farisi"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "sawda-bint-zama",
+      "slug": "sawda-bint-zama",
+      "name": {
+        "ar": "سودة بنت زمعة",
+        "en": "Sawda bint Zamaa",
+        "fr": "Sawda bint Zamaa"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "safiyya-bint-huyayy",
+      "slug": "safiyya-bint-huyayy",
+      "name": {
+        "ar": "صفية بنت حيي",
+        "en": "Safiyya bint Huyayy",
+        "fr": "Safiyya bint Huyayy"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "talha-ibn-ubaydullah",
+      "slug": "talha-ibn-ubaydullah",
+      "name": {
+        "ar": "طلحة بن عبيد الله",
+        "en": "Talha ibn Ubaydullah",
+        "fr": "Talha ibn Ubaydullah"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "aisha-bint-abi-bakr",
+      "slug": "aisha-bint-abi-bakr",
+      "name": {
+        "ar": "عائشة بنت أبي بكر",
+        "en": "Aisha bint Abi Bakr",
+        "fr": "Aicha bint Abi Bakr"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-c0e0a70563a1",
+      "slug": "person-c0e0a70563a1",
+      "name": {
+        "ar": "عبد القادر الجيلاني",
+        "en": "عبد القادر الجيلاني",
+        "fr": "عبد القادر الجيلاني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [
+          {
+            "text": "يا قوم لا تهتوسوا، أنتم هوس. هذا العلم لا ينفعكم بلا عمل. تحتاجون أن تعملوا بهذا السواد على البياض، وهو حكم الله عزَّ وجلَّ.",
+            "language": "ar",
+            "articleId": "20260820-forums-community-work",
+            "articleTitle": "العلم والعمل في موعظة موثقة",
+            "sources": [
+              {
+                "ref": "forum-work-jilani-03",
+                "title": "الفتح الرباني والفيض الرحماني: المجلس الثالث",
+                "author": "عبد القادر الجيلاني",
+                "originalUrl": "https://www.aljamaa.net/posts/الفتح-الرباني-والفيض-الرحماني-المجلس-2",
+                "resourceId": "jilani-fath-rabbani-council-3",
+                "verifiedAgainstOriginal": true,
+                "verificationBasis": "Exact passage visually/textually verified against the public source page, paragraph beginning يا قوم لا تهتوسوا"
+              }
+            ],
+            "relation": "authored-saying"
+          }
+        ],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [
+        {
+          "text": "يا قوم لا تهتوسوا، أنتم هوس. هذا العلم لا ينفعكم بلا عمل. تحتاجون أن تعملوا بهذا السواد على البياض، وهو حكم الله عزَّ وجلَّ.",
+          "language": "ar",
+          "articleId": "20260820-forums-community-work",
+          "articleTitle": "العلم والعمل في موعظة موثقة",
+          "sources": [
+            {
+              "ref": "forum-work-jilani-03",
+              "title": "الفتح الرباني والفيض الرحماني: المجلس الثالث",
+              "author": "عبد القادر الجيلاني",
+              "originalUrl": "https://www.aljamaa.net/posts/الفتح-الرباني-والفيض-الرحماني-المجلس-2",
+              "resourceId": "jilani-fath-rabbani-council-3",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually/textually verified against the public source page, paragraph beginning يا قوم لا تهتوسوا"
+            }
+          ],
+          "relation": "authored-saying"
+        }
+      ],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abdullah-ibn-abbas",
+      "slug": "abdullah-ibn-abbas",
+      "name": {
+        "ar": "عبد الله بن عباس",
+        "en": "Abdullah ibn Abbas",
+        "fr": "Abdallah ibn Abbas"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abdullah-ibn-abd-al-muttalib",
+      "slug": "abdullah-ibn-abd-al-muttalib",
+      "name": {
+        "ar": "عبد الله بن عبد المطلب",
+        "en": "Abdullah ibn Abd al-Muttalib",
+        "fr": "Abdallah ibn Abd al-Muttalib"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abdullah-ibn-umar",
+      "slug": "abdullah-ibn-umar",
+      "name": {
+        "ar": "عبد الله بن عمر",
+        "en": "Abdullah ibn Umar",
+        "fr": "Abdallah ibn Umar"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abdullah-ibn-muhammad",
+      "slug": "abdullah-ibn-muhammad",
+      "name": {
+        "ar": "عبد الله بن محمد",
+        "en": "Abdullah ibn Muhammad",
+        "fr": "Abdallah ibn Muhammad"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abd-al-muttalib",
+      "slug": "abd-al-muttalib",
+      "name": {
+        "ar": "عبد المطلب بن هاشم",
+        "en": "Abd al-Muttalib ibn Hashim",
+        "fr": "Abd al-Muttalib ibn Hashim"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-f974ed62e10c",
+      "slug": "person-f974ed62e10c",
+      "name": {
+        "ar": "عبد الملك بن هشام",
+        "en": "عبد الملك بن هشام",
+        "fr": "عبد الملك بن هشام"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-3d4354988ba1",
+      "slug": "person-3d4354988ba1",
+      "name": {
+        "ar": "عبد الوهاب بن أحمد الشعراني",
+        "en": "عبد الوهاب بن أحمد الشعراني",
+        "fr": "عبد الوهاب بن أحمد الشعراني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "abd-manaf-ibn-qusayy",
+      "slug": "abd-manaf-ibn-qusayy",
+      "name": {
+        "ar": "عبد مناف بن قصي",
+        "en": "Abd Manaf ibn Qusayy",
+        "fr": "Abd Manaf ibn Qusayy"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "uthman-ibn-affan",
+      "slug": "uthman-ibn-affan",
+      "name": {
+        "ar": "عثمان بن عفان",
+        "en": "Uthman ibn Affan",
+        "fr": "Uthman ibn Affan"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "adnan",
+      "slug": "adnan",
+      "name": {
+        "ar": "عدنان",
+        "en": "Adnan",
+        "fr": "Adnan"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "ali-ibn-abi-talib",
+      "slug": "ali-ibn-abi-talib",
+      "name": {
+        "ar": "علي بن أبي طالب",
+        "en": "Ali ibn Abi Talib",
+        "fr": "Ali ibn Abi Talib"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "umar-ibn-al-khattab",
+      "slug": "umar-ibn-al-khattab",
+      "name": {
+        "ar": "عمر بن الخطاب",
+        "en": "Umar ibn al-Khattab",
+        "fr": "Umar ibn al-Khattab"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "ghalib-ibn-fihr",
+      "slug": "ghalib-ibn-fihr",
+      "name": {
+        "ar": "غالب بن فهر",
+        "en": "Ghalib ibn Fihr",
+        "fr": "Ghalib ibn Fihr"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "fatima-al-zahra",
+      "slug": "fatima-al-zahra",
+      "name": {
+        "ar": "فاطمة الزهراء",
+        "en": "Fatima al-Zahra",
+        "fr": "Fatima al-Zahra"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "fihr-ibn-malik",
+      "slug": "fihr-ibn-malik",
+      "name": {
+        "ar": "فهر بن مالك",
+        "en": "Fihr ibn Malik",
+        "fr": "Fihr ibn Malik"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "qusayy-ibn-kilab",
+      "slug": "qusayy-ibn-kilab",
+      "name": {
+        "ar": "قصي بن كلاب",
+        "en": "Qusayy ibn Kilab",
+        "fr": "Qusayy ibn Kilab"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "kab-ibn-luayy",
+      "slug": "kab-ibn-luayy",
+      "name": {
+        "ar": "كعب بن لؤي",
+        "en": "Kaab ibn Luayy",
+        "fr": "Kaab ibn Luayy"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "kilab-ibn-murra",
+      "slug": "kilab-ibn-murra",
+      "name": {
+        "ar": "كلاب بن مرة",
+        "en": "Kilab ibn Murra",
+        "fr": "Kilab ibn Murra"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "kinana-ibn-khuzayma",
+      "slug": "kinana-ibn-khuzayma",
+      "name": {
+        "ar": "كنانة بن خزيمة",
+        "en": "Kinana ibn Khuzayma",
+        "fr": "Kinana ibn Khuzayma"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "luayy-ibn-ghalib",
+      "slug": "luayy-ibn-ghalib",
+      "name": {
+        "ar": "لؤي بن غالب",
+        "en": "Luayy ibn Ghalib",
+        "fr": "Luayy ibn Ghalib"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "mariya-al-qibtiyya",
+      "slug": "mariya-al-qibtiyya",
+      "name": {
+        "ar": "مارية القبطية",
+        "en": "Mariya al-Qibtiyya",
+        "fr": "Mariya al-Qibtiyya"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "malik-ibn-al-nadr",
+      "slug": "malik-ibn-al-nadr",
+      "name": {
+        "ar": "مالك بن النضر",
+        "en": "Malik ibn al-Nadr",
+        "fr": "Malik ibn al-Nadr"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-9f11225bb49e",
+      "slug": "person-9f11225bb49e",
+      "name": {
+        "ar": "محمد بن سليمان بن عبد الرحمن الجزولي",
+        "en": "محمد بن سليمان بن عبد الرحمن الجزولي",
+        "fr": "محمد بن سليمان بن عبد الرحمن الجزولي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-07d1e01c910b",
+      "slug": "person-07d1e01c910b",
+      "name": {
+        "ar": "محمد بن عيسى الترمذي",
+        "en": "محمد بن عيسى الترمذي",
+        "fr": "محمد بن عيسى الترمذي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0adcb4db1e7c",
+      "slug": "person-0adcb4db1e7c",
+      "name": {
+        "ar": "محمد متولي الشعراوي",
+        "en": "محمد متولي الشعراوي",
+        "fr": "محمد متولي الشعراوي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "prophet-muhammad",
+      "slug": "prophet-muhammad",
+      "name": {
+        "ar": "محمد ﷺ",
+        "en": "Muhammad",
+        "fr": "Muhammad"
+      },
+      "category": "prophet",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [
+        {
+          "text": "May God bless our master and lord Muhammad, his family and his companions, and greet them with peace.",
+          "language": "en",
+          "articleId": "20260820-light-righteous",
+          "articleTitle": "نص موثق في الصلاة على النبي",
+          "sources": [
+            {
+              "ref": "x-light-prayer-en",
+              "title": "ibn-arabi-prayer-research",
+              "author": "",
+              "originalUrl": "https://ibnarabisociety.org/prayer-of-blessing-beneito-hirtenstein-part-2/",
+              "resourceId": "ibn-arabi-prayer-research",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "existing strict imported exact-passage record"
+            }
+          ],
+          "relation": "documented-mention"
+        },
+        {
+          "text": "There is then a long explanation on the notion of the Muhammadan Reality.",
+          "language": "en",
+          "articleId": "20260820-light-research",
+          "articleTitle": "الحقيقة المحمدية في بحثين موثقين",
+          "sources": [
+            {
+              "ref": "strict-light-mias-haqiqa-01",
+              "title": "ibn-arabi-muhammadan",
+              "author": "",
+              "originalUrl": "https://ibnarabisociety.org/muhammad-character-two-bows-length-claude-addas/",
+              "resourceId": "ibn-arabi-muhammadan",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "existing strict imported exact-passage record"
+            },
+            {
+              "ref": "strict-light-mias-haqiqa-02",
+              "title": "ibn-arabi-prayer-research",
+              "author": "",
+              "originalUrl": "https://ibnarabisociety.org/prayer-of-blessing-beneito-hirtenstein-part-2/",
+              "resourceId": "ibn-arabi-prayer-research",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "existing strict imported exact-passage record"
+            }
+          ],
+          "relation": "documented-mention"
+        },
+        {
+          "text": "Corresponding to these three ontological degrees are three aspects of the Muhammadian Reality: innermost meaning (sirr), revelation (maẓhar) and concealment (khizāna).",
+          "language": "en",
+          "articleId": "20260820-light-research",
+          "articleTitle": "الحقيقة المحمدية في بحثين موثقين",
+          "sources": [
+            {
+              "ref": "strict-light-mias-haqiqa-01",
+              "title": "ibn-arabi-muhammadan",
+              "author": "",
+              "originalUrl": "https://ibnarabisociety.org/muhammad-character-two-bows-length-claude-addas/",
+              "resourceId": "ibn-arabi-muhammadan",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "existing strict imported exact-passage record"
+            },
+            {
+              "ref": "strict-light-mias-haqiqa-02",
+              "title": "ibn-arabi-prayer-research",
+              "author": "",
+              "originalUrl": "https://ibnarabisociety.org/prayer-of-blessing-beneito-hirtenstein-part-2/",
+              "resourceId": "ibn-arabi-prayer-research",
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "existing strict imported exact-passage record"
+            }
+          ],
+          "relation": "documented-mention"
+        }
+      ],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0b7f7e3f99f5",
+      "slug": "person-0b7f7e3f99f5",
+      "name": {
+        "ar": "محيي الدين ابن عربي",
+        "en": "محيي الدين ابن عربي",
+        "fr": "محيي الدين ابن عربي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "mudrika-ibn-ilyas",
+      "slug": "mudrika-ibn-ilyas",
+      "name": {
+        "ar": "مدركة بن إلياس",
+        "en": "Mudrika ibn Ilyas",
+        "fr": "Mudrika ibn Ilyas"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "murra-ibn-kab",
+      "slug": "murra-ibn-kab",
+      "name": {
+        "ar": "مرة بن كعب",
+        "en": "Murra ibn Kaab",
+        "fr": "Murra ibn Kaab"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "mudar-ibn-nizar",
+      "slug": "mudar-ibn-nizar",
+      "name": {
+        "ar": "مضر بن نزار",
+        "en": "Mudar ibn Nizar",
+        "fr": "Mudar ibn Nizar"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "muadh-ibn-jabal",
+      "slug": "muadh-ibn-jabal",
+      "name": {
+        "ar": "معاذ بن جبل",
+        "en": "Muadh ibn Jabal",
+        "fr": "Muadh ibn Jabal"
+      },
+      "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "maadd-ibn-adnan",
+      "slug": "maadd-ibn-adnan",
+      "name": {
+        "ar": "معد بن عدنان",
+        "en": "Maadd ibn Adnan",
+        "fr": "Maadd ibn Adnan"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "maymuna-bint-al-harith",
+      "slug": "maymuna-bint-al-harith",
+      "name": {
+        "ar": "ميمونة بنت الحارث",
+        "en": "Maymuna bint al-Harith",
+        "fr": "Maymuna bint al-Harith"
+      },
+      "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "nizar-ibn-maadd",
+      "slug": "nizar-ibn-maadd",
+      "name": {
+        "ar": "نزار بن معد",
+        "en": "Nizar ibn Maadd",
+        "fr": "Nizar ibn Maadd"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "hashim-ibn-abd-manaf",
+      "slug": "hashim-ibn-abd-manaf",
+      "name": {
+        "ar": "هاشم بن عبد مناف",
+        "en": "Hashim ibn Abd Manaf",
+        "fr": "Hashim ibn Abd Manaf"
+      },
+      "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    }
+  ]
+}
