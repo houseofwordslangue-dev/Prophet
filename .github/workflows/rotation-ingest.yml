@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/rotation-ingest.yml'
       - 'private/acquisition_candidates.json'
       - 'private/source_import_config.json'
       - 'private/media_sources.json'
@@ -88,6 +89,34 @@ jobs:
       - name: Build reader/search/listen/watch capability index
         run: python scripts/build_ingested_library.py
 
+      - name: Commit repository-safe ingestion state and indexes
+        run: |
+          git config user.name 'prophet-ingestion-bot'
+          git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
+          git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
+          git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml
+          if ! git diff --cached --quiet; then
+            git commit -m "Advance rotating source ingestion and media catalogue"
+            git push
+          fi
+
+      - name: Deploy updated site/library to first-party server when configured
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$PM_DEPLOY_HOST" ] || [ -z "$PM_DEPLOY_USER" ] || [ -z "$PM_DEPLOY_PATH" ] || [ -z "$PM_DEPLOY_SSH_KEY" ]; then
+            echo "Deployment secrets not configured; ingestion commit completed, site upload skipped."
+            exit 0
+          fi
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+          rsync -az --delete --exclude '.git/' --exclude 'media-cache/' --exclude 'private/deep_source_cache/' --exclude 'private/quarantine*/' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
+
       - name: Enforce hundreds-per-category media gate
         run: |
           python - <<'PY'
@@ -109,31 +138,3 @@ jobs:
               sys.exit(2)
           print('PASS: all six categories contain at least',target,'genuine indexed items; total target >=',target*len(required))
           PY
-
-      - name: Commit repository-safe ingestion state and indexes
-        run: |
-          git config user.name 'prophet-ingestion-bot'
-          git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
-          git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
-          git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml
-          if ! git diff --cached --quiet; then
-            git commit -m "Fill all media categories with hundreds of genuine items"
-            git push
-          fi
-
-      - name: Deploy updated site/library to first-party server when configured
-        env:
-          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
-          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
-          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
-          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
-        run: |
-          if [ -z "$PM_DEPLOY_HOST" ] || [ -z "$PM_DEPLOY_USER" ] || [ -z "$PM_DEPLOY_PATH" ] || [ -z "$PM_DEPLOY_SSH_KEY" ]; then
-            echo "Deployment secrets not configured; ingestion commit completed, site upload skipped."
-            exit 0
-          fi
-          install -d -m 700 ~/.ssh
-          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
-          rsync -az --delete --exclude '.git/' --exclude 'media-cache/' --exclude 'private/deep_source_cache/' --exclude 'private/quarantine*/' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
