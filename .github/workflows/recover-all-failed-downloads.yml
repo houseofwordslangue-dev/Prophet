@@ -1,0 +1,76 @@
+name: Recover all failed downloads
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/recover_all_failed_downloads.py'
+      - 'data/recovery/direct_downloads.json'
+      - '.github/workflows/recover-all-failed-downloads.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recover-all-failed-downloads
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      RECOVERY_MAX_FILE_BYTES: '99614720'
+      RECOVERY_MAX_DOWNLOADS: '2000'
+      RECOVERY_HTTP_TIMEOUT: '45'
+      RECOVERY_YOUTUBE_PLAYLIST_END: '1000'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install media metadata resolver
+        run: python -m pip install --disable-pip-version-check --no-cache-dir yt-dlp
+      - name: Resolve and download public resources
+        run: python scripts/recover_all_failed_downloads.py
+      - name: Commit recovered resources in bounded batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-library-bot'
+          git config user.email 'actions@users.noreply.github.com'
+
+          # The recovery script never creates an asset >= GitHub's 100 MB hard limit.
+          # Commit metadata/index first, then library payloads in batches to keep commits reviewable.
+          git add -- data/recovery/all_recovery_queue.json data/recovery/all_recovery_report.json data/recovery/media_metadata data/ingested_library.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update full failed-download recovery state'
+          fi
+
+          mapfile -t files < <(git ls-files --others --modified --exclude-standard library/works | sort)
+          batch=()
+          n=0
+          for f in "${files[@]}"; do
+            batch+=("$f")
+            n=$((n+1))
+            if [ "$n" -ge 40 ]; then
+              git add -- "${batch[@]}"
+              git commit -m 'Recover public library assets (batch)' || true
+              batch=()
+              n=0
+            fi
+          done
+          if [ "${#batch[@]}" -gt 0 ]; then
+            git add -- "${batch[@]}"
+            git commit -m 'Recover public library assets (batch)' || true
+          fi
+
+          if [ "$(git rev-list --count origin/main..HEAD)" -gt 0 ]; then
+            git push origin HEAD:main
+          else
+            echo 'No recovery changes to push.'
+          fi
