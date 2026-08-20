@@ -48,7 +48,7 @@ permissions:
 
 concurrency:
   group: prophet-rotation-ingest
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.actor != 'prophet-ingestion-bot' }}
 
 jobs:
   ingest:
