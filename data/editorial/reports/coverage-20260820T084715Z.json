@@ -1,9 +1,6 @@
 {
   "subject": "24-Hour Genuine Editorial Coverage Report",
-  "reportingPeriod": {
-    "start": "2026-08-19T09:47:15+01:00",
-    "end": "2026-08-20T09:47:15+01:00"
-  },
+  "reportingPeriod": {"start": "2026-08-19T09:47:15+01:00", "end": "2026-08-20T09:47:15+01:00"},
   "finalStatus": "FAIL",
   "activeSectionsSubsectionsScanned": {
     "count": 39,
@@ -29,30 +26,8 @@
   "alreadyCoveredAtCycleStart": 36,
   "requiringArticlesAtCycleStart": ["family/parents","family/ancestors","media/documentaries"],
   "articlesActuallyPublishedThisCycle": [
-    {
-      "id": "20260820-family-parents",
-      "title": "والدا رسول الله ﷺ في سجل النسب",
-      "assignedSectionSubsection": "family/parents",
-      "sourceType": "EXTRACTED BOOK MATERIAL",
-      "principalSources": ["السيرة النبوية — عبد الملك بن هشام — resource life-seerah-002"],
-      "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
-      "pagesTimestamps": "volume 1, printed page 127; OCR text marker 126; no media timestamps",
-      "articleUrl": "feature.html?id=20260820-family-parents",
-      "publicationRecord": "data/editorial/publication_supplement.json",
-      "verification": "Exact source passages visually verified against the ingested PDF and cross-checked against ingested text."
-    },
-    {
-      "id": "20260820-family-ancestors",
-      "title": "عدنان في سلسلة النسب إلى ولد إسماعيل",
-      "assignedSectionSubsection": "family/ancestors",
-      "sourceType": "EXTRACTED BOOK MATERIAL",
-      "principalSources": ["السيرة النبوية — عبد الملك بن هشام — resource life-seerah-002"],
-      "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
-      "pagesTimestamps": "volume 1, printed page 23; OCR text marker 22; no media timestamps",
-      "articleUrl": "feature.html?id=20260820-family-ancestors",
-      "publicationRecord": "data/editorial/publication_supplement.json",
-      "verification": "Exact source passages visually verified against the ingested PDF and cross-checked against ingested text."
-    }
+    {"id":"20260820-family-parents","title":"والدا رسول الله ﷺ في سجل النسب","assignedSectionSubsection":"family/parents","sourceType":"EXTRACTED BOOK MATERIAL","principalSources":["السيرة النبوية — عبد الملك بن هشام — resource life-seerah-002"],"edition":"الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م","pagesTimestamps":"volume 1, printed page 127; OCR text marker 126; no media timestamps","articleUrl":"feature.html?id=20260820-family-parents","publicationRecord":"data/editorial/publication_supplement.json","verification":"Exact source passages visually verified against the ingested PDF and cross-checked against ingested text."},
+    {"id":"20260820-family-ancestors","title":"عدنان في سلسلة النسب إلى ولد إسماعيل","assignedSectionSubsection":"family/ancestors","sourceType":"EXTRACTED BOOK MATERIAL","principalSources":["السيرة النبوية — عبد الملك بن هشام — resource life-seerah-002"],"edition":"الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م","pagesTimestamps":"volume 1, printed page 23; OCR text marker 22; no media timestamps","articleUrl":"feature.html?id=20260820-family-ancestors","publicationRecord":"data/editorial/publication_supplement.json","verification":"Exact source passages visually verified against the ingested PDF and cross-checked against ingested text."}
   ],
   "ocrAsrWarnings": [
     "The ingested Ibn Hisham text is OCR-derived. OCR was used only to locate candidate passages; the published quotations were visually checked against the original volume-1 PDF.",
@@ -61,29 +36,10 @@
   ],
   "rejectedDrafts": [],
   "duplicateExclusions": [],
-  "sourceGaps": [
-    {
-      "section": "media/documentaries",
-      "status": "SOURCE GAP — NO GENUINE ARTICLE PUBLISHED",
-      "reason": "A documentary category and approved search source exist in project configuration, but no concrete approved ingested documentary transcript or other verified substantive documentary text was present in the repository or connected Prophet-Library-Ingestion library. A Drive search for documentary-seerah material returned no matching ingested resource, and data/imported_media.json is not present on main."
-    }
-  ],
+  "sourceGaps": [{"section":"media/documentaries","status":"SOURCE GAP — NO GENUINE ARTICLE PUBLISHED","reason":"A documentary category and approved search source exist in project configuration, but no concrete approved ingested documentary transcript or other verified substantive documentary text was present in the repository or connected Prophet-Library-Ingestion library. A Drive search for documentary-seerah material returned no matching ingested resource, and data/imported_media.json is not present on main."}],
   "remainingUncoveredSections": ["media/documentaries"],
-  "coverage": {
-    "covered": 38,
-    "active": 39,
-    "rolling24HourPercent": 97.44
-  },
-  "mandatoryMetrics": {
-    "Articles published": 2,
-    "Genuine source-derived articles": 2,
-    "AI-generated substantive articles": 0,
-    "Articles with 100% source provenance": 2,
-    "Unsupported factual paragraphs": 0,
-    "Unverified quotations": 0
-  },
-  "publicationNotes": {
-    "baseDeploymentUrl": "not configured in repository; actual site routes are recorded as site-relative feature.html?id=... paths",
-    "sourceLibrary": "Google Drive / Prophet-Library-Ingestion / life-seerah-002"
-  }
+  "coverage": {"covered": 38, "active": 39, "rolling24HourPercent": 97.44},
+  "mandatoryMetrics": {"Articles published":2,"Genuine source-derived articles":2,"AI-generated substantive articles":0,"Articles with 100% source provenance":2,"Unsupported factual paragraphs":0,"Unverified quotations":0},
+  "publicationNotes": {"baseDeploymentUrl":"not configured in repository; actual site routes are recorded as site-relative feature.html?id=... paths","sourceLibrary":"Google Drive / Prophet-Library-Ingestion / life-seerah-002"},
+  "emailDelivery": {"recipient":"houseofwords.langue@gmail.com","subject":"24-Hour Genuine Editorial Coverage Report","sent":false,"blocker":"Gmail send action returned: User input required but current turn is running in a non-interactive mode. The report was not claimed as sent."}
 }
