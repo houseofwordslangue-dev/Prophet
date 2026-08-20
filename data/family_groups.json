@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "policy": "Only explicitly established family relations are assigned. Distinct kinship types are never mixed in the same published group.",
   "groups": [
     {
@@ -44,8 +44,19 @@
     },
     {
       "id": "paternal-uncles",
-      "labels": {"ar": "الأعمام", "en": "Paternal uncles", "fr": "Oncles paternels"},
-      "people": ["hamza-ibn-abd-al-muttalib","al-abbas-ibn-abd-al-muttalib"]
+      "labels": {"ar": "الأعمام — أبناء عبد المطلب بن هاشم", "en": "Paternal uncles — sons of Abd al-Muttalib ibn Hashim", "fr": "Oncles paternels — fils de Abd al-Muttalib ibn Hashim"},
+      "people": [
+        "al-harith-ibn-abd-al-muttalib",
+        "al-zubayr-ibn-abd-al-muttalib",
+        "abu-talib-ibn-abd-al-muttalib",
+        "hamza-ibn-abd-al-muttalib",
+        "al-abbas-ibn-abd-al-muttalib",
+        "abu-lahab-ibn-abd-al-muttalib",
+        "dirar-ibn-abd-al-muttalib",
+        "al-muqawwim-ibn-abd-al-muttalib",
+        "hajl-al-mughira-ibn-abd-al-muttalib",
+        "qutham-ibn-abd-al-muttalib"
+      ]
     },
     {
       "id": "paternal-cousins",
