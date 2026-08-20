@@ -10,6 +10,7 @@ on:
       - 'private/media_sources.json'
       - 'scripts/rotation_ingest.py'
       - 'scripts/acquire_unrestricted_library.py'
+      - 'scripts/promote_verified_catalogue_candidates.py'
       - 'scripts/import_content.py'
       - 'scripts/sync_media.py'
       - 'scripts/build_ingested_library.py'
@@ -80,6 +81,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Promote verified public-domain catalogue sources
+        run: python scripts/promote_verified_catalogue_candidates.py --limit 25
+
       - name: Advance one source rotation
         run: python scripts/rotation_ingest.py --once
 
@@ -94,7 +98,7 @@ jobs:
           git config user.name 'prophet-ingestion-bot'
           git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
-          git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml
+          git add scripts/rotation_ingest.py scripts/acquire_unrestricted_library.py scripts/promote_verified_catalogue_candidates.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml
           if ! git diff --cached --quiet; then
             git commit -m "Advance rotating source ingestion and media catalogue"
             git push
