@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - recover-failed-downloads-20260820
     paths:
       - 'data/recovery/direct_downloads.json'
       - 'scripts/recover_failed_downloads.py'
@@ -14,13 +13,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: prophet-library-writes
+  cancel-in-progress: false
+
 jobs:
   recover:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: main
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -38,5 +41,7 @@ jobs:
             echo 'No recovery changes to commit.'
             exit 0
           fi
-          git commit -m 'Recover 4 verified Gutenberg resources'
-          git push origin HEAD:${{ github.ref_name }}
+          git commit -m 'Recover verified Gutenberg resources'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
