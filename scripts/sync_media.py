@@ -24,7 +24,7 @@ def _medium(row):
 def run_expanded_sync(max_per_source=0):
     max_per_source=int(max_per_source or os.getenv("PM_MEDIA_MAX_PER_SOURCE","350") or 350)
     target=int(os.getenv("PM_MEDIA_TARGET_PER_CATEGORY","200") or 200)
-    report=sync_all(max_per_source)
+    report=sync_all(min(max_per_source,80))
     current=load(OUT,{"version":"6.0.0","generated":now(),"taxonomy":[],"items":[]})
     by={x.get("id"):x for x in current.get("items",[]) if x.get("id")}
     counts={k:0 for k in TARGET_CATEGORIES}
