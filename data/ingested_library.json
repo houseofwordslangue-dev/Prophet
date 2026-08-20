@@ -1,8 +1,8 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T11:00:01.749925+00:00",
-  "count": 27,
-  "currentBatchCount": 13,
+  "generatedAt": "2026-08-20T11:21:00.855885+00:00",
+  "count": 28,
+  "currentBatchCount": 1,
   "items": [
     {
       "id": "gutenberg-20927:ed-0c963b739d22",
@@ -928,6 +928,39 @@
       "watchMode": "none",
       "publishedAsset": true,
       "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "quran-meaning-013:ed-cd62732bd803",
+      "workId": "quran-meaning-013",
+      "editionId": "ed-cd62732bd803",
+      "titleOriginal": "Mafātīḥ al-Ghayb",
+      "author": "al-Razi",
+      "language": "",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 4226159,
+      "sha256": "fd87b6a3c4aded0e092399484a2edc68910ccec7fb7aa98f770e46af39c2ab83",
+      "localUrl": "/library/works/quran-meaning-013/editions/ed-cd62732bd803/original.txt",
+      "readerUrl": "/library/works/quran-meaning-013/editions/ed-cd62732bd803/original.txt",
+      "sourceUrl": "https://archive.org/download/mafatihalghayb06raziuoft/mafatihalghayb06raziuoft_djvu.txt",
+      "archiveIdentifier": "mafatihalghayb06raziuoft",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveredAt": "2026-08-20T11:20:18.146539+00:00"
     }
   ]
 }

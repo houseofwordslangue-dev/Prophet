@@ -1,0 +1,926 @@
+{
+  "generatedAt": "2026-08-20T11:21:00.856838+00:00",
+  "target": 50,
+  "downloaded": 1,
+  "attempted": 114,
+  "items": [
+    {
+      "row": 9,
+      "workId": "life-seerah-094",
+      "title": "Al-Anwār al-Qudsiyya",
+      "author": "عبد الوهاب الشعراني",
+      "searchUrl": "https://archive.org/search?query=Al-Anw%C4%81r%20al-Qudsiyya%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 10,
+      "workId": "character-shamail-035",
+      "title": "Al-Anwār al-Qudsiyya fī Sharḥ al-Hamziyya",
+      "author": "أحمد ابن عجيبة",
+      "searchUrl": "https://archive.org/search?query=Al-Anw%C4%81r%20al-Qudsiyya%20f%C4%AB%20Shar%E1%B8%A5%20al-Hamziyya%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%AC%D9%8A%D8%A8%D8%A9",
+      "status": "unresolved"
+    },
+    {
+      "row": 11,
+      "workId": "life-seerah-063",
+      "title": "Al-Anwār al-Qudsiyya fī Sharḥ al-Qaṣīda al-Hamziyya",
+      "author": "أحمد ابن عجيبة",
+      "searchUrl": "https://archive.org/search?query=Al-Anw%C4%81r%20al-Qudsiyya%20f%C4%AB%20Shar%E1%B8%A5%20al-Qa%E1%B9%A3%C4%ABda%20al-Hamziyya%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%AC%D9%8A%D8%A8%D8%A9",
+      "status": "unresolved"
+    },
+    {
+      "row": 12,
+      "workId": "life-seerah-027",
+      "title": "Al-Bahja al-Saniyya fī al-Asmāʾ al-Nabawiyya",
+      "author": "prophetic-name literature",
+      "searchUrl": "https://archive.org/search?query=Al-Bahja%20al-Saniyya%20f%C4%AB%20al-Asm%C4%81%CA%BE%20al-Nabawiyya%20prophetic-name%20literature",
+      "status": "unresolved"
+    },
+    {
+      "row": 14,
+      "workId": "character-shamail-082",
+      "title": "Al-Dhahab al-Ibrīz",
+      "author": "Dabbagh tradition",
+      "searchUrl": "https://archive.org/search?query=Al-Dhahab%20al-Ibr%C4%ABz%20Dabbagh%20tradition",
+      "status": "unresolved"
+    },
+    {
+      "row": 15,
+      "workId": "family-companions-077",
+      "title": "Al-Durr al-Manthūr",
+      "author": "al-Suyuti, especially verses concerning Ahl al-Bayt",
+      "searchUrl": "https://archive.org/search?query=Al-Durr%20al-Manth%C5%ABr%20al-Suyuti%2C%20especially%20verses%20concerning%20Ahl%20al-Bayt",
+      "status": "unresolved"
+    },
+    {
+      "row": 16,
+      "workId": "character-shamail-005",
+      "title": "Al-Fawāʾid al-Jalīla al-Bahiyya ʿalā al-Shamāʾil al-Muḥammadiyya",
+      "author": "Muhammad ibn Qasim Jassus al-Fasi",
+      "searchUrl": "https://archive.org/search?query=Al-Faw%C4%81%CA%BEid%20al-Jal%C4%ABla%20al-Bahiyya%20%CA%BFal%C4%81%20al-Sham%C4%81%CA%BEil%20al-Mu%E1%B8%A5ammadiyya%20Muhammad%20ibn%20Qasim%20Jassus%20al-Fasi",
+      "status": "already-present"
+    },
+    {
+      "row": 17,
+      "workId": "teachings-wisdom-014",
+      "title": "Al-Futūḥāt al-Rabbāniyya",
+      "author": "ابن علان الصديقي",
+      "searchUrl": "https://archive.org/search?query=Al-Fut%C5%AB%E1%B8%A5%C4%81t%20al-Rabb%C4%81niyya%20%D8%A7%D8%A8%D9%86%20%D8%B9%D9%84%D8%A7%D9%86%20%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 18,
+      "workId": "life-seerah-061",
+      "title": "Al-Hamziyya",
+      "author": "محمد بن سعيد البوصيري",
+      "searchUrl": "https://archive.org/search?query=Al-Hamziyya%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%B3%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A8%D9%88%D8%B5%D9%8A%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 19,
+      "workId": "teachings-wisdom-060",
+      "title": "Al-Ibrīz min Kalām Sayyidī ʿAbd al-ʿAzīz al-Dabbāgh",
+      "author": "Ahmad ibn al-Mubarak al-Lamati",
+      "searchUrl": "https://archive.org/search?query=Al-Ibr%C4%ABz%20min%20Kal%C4%81m%20Sayyid%C4%AB%20%CA%BFAbd%20al-%CA%BFAz%C4%ABz%20al-Dabb%C4%81gh%20Ahmad%20ibn%20al-Mubarak%20al-Lamati",
+      "status": "unresolved"
+    },
+    {
+      "row": 21,
+      "workId": "life-seerah-029",
+      "title": "Al-Iʿlām bi-Fatāwā Aʾimmat al-Islām Ḥawla Mawlidihi ʿalayhi al-Ṣalāt wa-l-Salām",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Al-I%CA%BFl%C4%81m%20bi-Fat%C4%81w%C4%81%20A%CA%BEimmat%20al-Isl%C4%81m%20%E1%B8%A4awla%20Mawlidihi%20%CA%BFalayhi%20al-%E1%B9%A2al%C4%81t%20wa-l-Sal%C4%81m",
+      "status": "unresolved"
+    },
+    {
+      "row": 22,
+      "workId": "character-shamail-030",
+      "title": "Al-Kawākib al-Durriyya",
+      "author": "محمد بن سعيد البوصيري",
+      "searchUrl": "https://archive.org/search?query=Al-Kaw%C4%81kib%20al-Durriyya%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%B3%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A8%D9%88%D8%B5%D9%8A%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 23,
+      "workId": "life-seerah-089",
+      "title": "Al-Kawākib al-Durriyya wa-l-Mawāhib al-Ṣamadiyya fī Madḥ al-Nabī wa-Ālihi wa-Ṣaḥbihi",
+      "author": "Muhammad ibn Muhammad al-Basri al-Miknasi",
+      "searchUrl": "https://archive.org/search?query=Al-Kaw%C4%81kib%20al-Durriyya%20wa-l-Maw%C4%81hib%20al-%E1%B9%A2amadiyya%20f%C4%AB%20Mad%E1%B8%A5%20al-Nab%C4%AB%20wa-%C4%80lihi%20wa-%E1%B9%A2a%E1%B8%A5bihi%20Muhammad%20ibn%20Muhammad%20al-Basri%20al-Miknasi",
+      "status": "unresolved"
+    },
+    {
+      "row": 24,
+      "workId": "life-seerah-092",
+      "title": "Al-Madkhal",
+      "author": "Ibn al-Hajj, relevant discussions of Mawlid practice",
+      "searchUrl": "https://archive.org/search?query=Al-Madkhal%20Ibn%20al-Hajj%2C%20relevant%20discussions%20of%20Mawlid%20practice",
+      "status": "unresolved"
+    },
+    {
+      "row": 25,
+      "workId": "family-companions-096",
+      "title": "Al-Majālī al-Saniyya fī Manāqib al-Sāda al-Ḥusayniyya",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Al-Maj%C4%81l%C4%AB%20al-Saniyya%20f%C4%AB%20Man%C4%81qib%20al-S%C4%81da%20al-%E1%B8%A4usayniyya",
+      "status": "unresolved"
+    },
+    {
+      "row": 26,
+      "workId": "quran-meaning-065",
+      "title": "Al-Maqṣad al-Asnā",
+      "author": "أبو حامد الغزالي",
+      "searchUrl": "https://archive.org/search?query=Al-Maq%E1%B9%A3ad%20al-Asn%C4%81%20%D8%A3%D8%A8%D9%88%20%D8%AD%D8%A7%D9%85%D8%AF%20%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 27,
+      "workId": "teachings-wisdom-041",
+      "title": "Al-Maqṣad al-Asnā fī Asmāʾ Allāh al-Ḥusnā",
+      "author": "al-Ghazali, theological basis for understanding prophetic perfection",
+      "searchUrl": "https://archive.org/search?query=Al-Maq%E1%B9%A3ad%20al-Asn%C4%81%20f%C4%AB%20Asm%C4%81%CA%BE%20All%C4%81h%20al-%E1%B8%A4usn%C4%81%20al-Ghazali%2C%20theological%20basis%20for%20understanding%20prophetic%20perfection",
+      "status": "unresolved"
+    },
+    {
+      "row": 28,
+      "workId": "character-shamail-091",
+      "title": "Al-Mathnawī",
+      "author": "Rumi, especially passages concerning Prophetic love and imitation",
+      "searchUrl": "https://archive.org/search?query=Al-Mathnaw%C4%AB%20Rumi%2C%20especially%20passages%20concerning%20Prophetic%20love%20and%20imitation",
+      "status": "unresolved"
+    },
+    {
+      "row": 30,
+      "workId": "life-seerah-024",
+      "title": "Al-Mawrid al-Hanī",
+      "author": "زين الدين العراقي",
+      "searchUrl": "https://archive.org/search?query=Al-Mawrid%20al-Han%C4%AB%20%D8%B2%D9%8A%D9%86%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 31,
+      "workId": "life-seerah-072",
+      "title": "Al-Mawrid al-Hanī fī al-Mawlid al-Sanī",
+      "author": "زين الدين العراقي",
+      "searchUrl": "https://archive.org/search?query=Al-Mawrid%20al-Han%C4%AB%20f%C4%AB%20al-Mawlid%20al-San%C4%AB%20%D8%B2%D9%8A%D9%86%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 32,
+      "workId": "life-seerah-028",
+      "title": "Al-Mawrid al-Rawī",
+      "author": "علي القاري",
+      "searchUrl": "https://archive.org/search?query=Al-Mawrid%20al-Raw%C4%AB%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 33,
+      "workId": "life-seerah-074",
+      "title": "Al-Mawrid al-Rawī fī Mawlid al-Nabī",
+      "author": "علي القاري",
+      "searchUrl": "https://archive.org/search?query=Al-Mawrid%20al-Raw%C4%AB%20f%C4%AB%20Mawlid%20al-Nab%C4%AB%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 34,
+      "workId": "moroccan-heritage-024",
+      "title": "Al-Minaḥ al-Mawlawiyya bi-Sharḥ al-Arbaʿīn al-Nawawiyya",
+      "author": "Muhammad al-Sibaʿi al-Marrakushi",
+      "searchUrl": "https://archive.org/search?query=Al-Mina%E1%B8%A5%20al-Mawlawiyya%20bi-Shar%E1%B8%A5%20al-Arba%CA%BF%C4%ABn%20al-Nawawiyya%20Muhammad%20al-Siba%CA%BFi%20al-Marrakushi",
+      "status": "unresolved"
+    },
+    {
+      "row": 35,
+      "workId": "hadith-commentary-013",
+      "title": "Al-Muwaṭṭaʾ",
+      "author": "Imam Malik",
+      "searchUrl": "https://archive.org/search?query=Al-Muwa%E1%B9%AD%E1%B9%ADa%CA%BE%20Imam%20Malik",
+      "status": "unresolved"
+    },
+    {
+      "row": 36,
+      "workId": "hadith-commentary-019",
+      "title": "Al-Muʿjam al-Awsaṭ",
+      "author": "الطبراني",
+      "searchUrl": "https://archive.org/search?query=Al-Mu%CA%BFjam%20al-Awsa%E1%B9%AD%20%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 37,
+      "workId": "hadith-commentary-018",
+      "title": "Al-Muʿjam al-Kabīr",
+      "author": "الطبراني",
+      "searchUrl": "https://archive.org/search?query=Al-Mu%CA%BFjam%20al-Kab%C4%ABr%20%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 38,
+      "workId": "character-shamail-079",
+      "title": "Al-Nafāʾis al-ʿUlwiyya",
+      "author": "sayings/counsels of al-Haddad",
+      "searchUrl": "https://archive.org/search?query=Al-Naf%C4%81%CA%BEis%20al-%CA%BFUlwiyya%20sayings/counsels%20of%20al-Haddad",
+      "status": "unresolved"
+    },
+    {
+      "row": 40,
+      "workId": "life-seerah-064",
+      "title": "Al-Niʿmat al-Kubrā ʿalā al-ʿĀlam",
+      "author": "ابن حجر الهيتمي",
+      "searchUrl": "https://archive.org/search?query=Al-Ni%CA%BFmat%20al-Kubr%C4%81%20%CA%BFal%C4%81%20al-%CA%BF%C4%80lam%20%D8%A7%D8%A8%D9%86%20%D8%AD%D8%AC%D8%B1%20%D8%A7%D9%84%D9%87%D9%8A%D8%AA%D9%85%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 41,
+      "workId": "life-seerah-078",
+      "title": "Al-Niʿmat al-Kubrā ʿalā al-ʿĀlam fī Mawlid Sayyid Walad Ādam",
+      "author": "ابن حجر الهيتمي",
+      "searchUrl": "https://archive.org/search?query=Al-Ni%CA%BFmat%20al-Kubr%C4%81%20%CA%BFal%C4%81%20al-%CA%BF%C4%80lam%20f%C4%AB%20Mawlid%20Sayyid%20Walad%20%C4%80dam%20%D8%A7%D8%A8%D9%86%20%D8%AD%D8%AC%D8%B1%20%D8%A7%D9%84%D9%87%D9%8A%D8%AA%D9%85%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 42,
+      "workId": "life-seerah-037",
+      "title": "Al-Nūr al-Mubīn fī Sīrat Sayyid al-Mursalīn",
+      "author": "محمد الخضري",
+      "searchUrl": "https://archive.org/search?query=Al-N%C5%ABr%20al-Mub%C4%ABn%20f%C4%AB%20S%C4%ABrat%20Sayyid%20al-Mursal%C4%ABn%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 43,
+      "workId": "life-seerah-030",
+      "title": "Al-Qawl al-Munīf fī al-Mawlid al-Sharīf",
+      "author": "traditional scholarship",
+      "searchUrl": "https://archive.org/search?query=Al-Qawl%20al-Mun%C4%ABf%20f%C4%AB%20al-Mawlid%20al-Shar%C4%ABf%20traditional%20scholarship",
+      "status": "unresolved"
+    },
+    {
+      "row": 44,
+      "workId": "character-shamail-032",
+      "title": "Al-Qaṣīda al-Hamziyya",
+      "author": "محمد بن سعيد البوصيري",
+      "searchUrl": "https://archive.org/search?query=Al-Qa%E1%B9%A3%C4%ABda%20al-Hamziyya%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%B3%D8%B9%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A8%D9%88%D8%B5%D9%8A%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 45,
+      "workId": "hadith-commentary-062",
+      "title": "Al-Risāla al-Mustaṭrafa li-Bayān Mashhūr Kutub al-Ḥadīth al-Muṣannafa",
+      "author": "محمد بن جعفر الكتاني",
+      "searchUrl": "https://archive.org/search?query=Al-Ris%C4%81la%20al-Musta%E1%B9%ADrafa%20li-Bay%C4%81n%20Mashh%C5%ABr%20Kutub%20al-%E1%B8%A4ad%C4%ABth%20al-Mu%E1%B9%A3annafa%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%B9%D9%81%D8%B1%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 46,
+      "workId": "teachings-wisdom-051",
+      "title": "Al-Riʿāya li-Ḥuqūq Allāh",
+      "author": "al-Harith al-Muhasibi",
+      "searchUrl": "https://archive.org/search?query=Al-Ri%CA%BF%C4%81ya%20li-%E1%B8%A4uq%C5%ABq%20All%C4%81h%20al-Harith%20al-Muhasibi",
+      "status": "unresolved"
+    },
+    {
+      "row": 47,
+      "workId": "character-shamail-002",
+      "title": "Al-Shamāʾil",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Al-Sham%C4%81%CA%BEil",
+      "status": "unresolved"
+    },
+    {
+      "row": 50,
+      "workId": "life-seerah-004",
+      "title": "Al-Sīra al-Nabawiyya wa-Akhbār al-Khulafāʾ",
+      "author": "Ibn Hibban",
+      "searchUrl": "https://archive.org/search?query=Al-S%C4%ABra%20al-Nabawiyya%20wa-Akhb%C4%81r%20al-Khulaf%C4%81%CA%BE%20Ibn%20Hibban",
+      "status": "unresolved"
+    },
+    {
+      "row": 51,
+      "workId": "life-seerah-022",
+      "title": "Al-Tanwīr fī Mawlid al-Sirāj al-Munīr",
+      "author": "ابن دحية",
+      "searchUrl": "https://archive.org/search?query=Al-Tanw%C4%ABr%20f%C4%AB%20Mawlid%20al-Sir%C4%81j%20al-Mun%C4%ABr%20%D8%A7%D8%A8%D9%86%20%D8%AF%D8%AD%D9%8A%D8%A9",
+      "status": "unresolved"
+    },
+    {
+      "row": 52,
+      "workId": "moroccan-heritage-026",
+      "title": "Al-Tarātīb al-Idāriyya / Niẓām al-Ḥukūma al-Nabawiyya",
+      "author": "عبد الحي الكتاني",
+      "searchUrl": "https://archive.org/search?query=Al-Tar%C4%81t%C4%ABb%20al-Id%C4%81riyya%20/%20Ni%E1%BA%93%C4%81m%20al-%E1%B8%A4uk%C5%ABma%20al-Nabawiyya%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 53,
+      "workId": "life-seerah-088",
+      "title": "Al-Taʿrīf wa-l-Iʿlām",
+      "author": "supplementary tradition around al-Suhayli",
+      "searchUrl": "https://archive.org/search?query=Al-Ta%CA%BFr%C4%ABf%20wa-l-I%CA%BFl%C4%81m%20supplementary%20tradition%20around%20al-Suhayli",
+      "status": "unresolved"
+    },
+    {
+      "row": 54,
+      "workId": "teachings-wisdom-050",
+      "title": "Al-Waṣāyā",
+      "author": "الحارث المحاسبي",
+      "searchUrl": "https://archive.org/search?query=Al-Wa%E1%B9%A3%C4%81y%C4%81%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 55,
+      "workId": "life-seerah-033",
+      "title": "Al-Zahr al-Bāsim fī Sīrat Abī al-Qāsim",
+      "author": "مغلطاي",
+      "searchUrl": "https://archive.org/search?query=Al-Zahr%20al-B%C4%81sim%20f%C4%AB%20S%C4%ABrat%20Ab%C4%AB%20al-Q%C4%81sim%20%D9%85%D8%BA%D9%84%D8%B7%D8%A7%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 56,
+      "workId": "hadith-commentary-017",
+      "title": "Al-Āḥād wa-l-Mathānī",
+      "author": "Ibn Abi ʿAsim",
+      "searchUrl": "https://archive.org/search?query=Al-%C4%80%E1%B8%A5%C4%81d%20wa-l-Math%C4%81n%C4%AB%20Ibn%20Abi%20%CA%BFAsim",
+      "status": "unresolved"
+    },
+    {
+      "row": 58,
+      "workId": "teachings-wisdom-054",
+      "title": "Al-Ḥikam",
+      "author": "ابن عطاء الله السكندري",
+      "searchUrl": "https://archive.org/search?query=Al-%E1%B8%A4ikam%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%B7%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 59,
+      "workId": "teachings-wisdom-063",
+      "title": "Al-Ḥizb al-Aʿẓam",
+      "author": "علي القاري",
+      "searchUrl": "https://archive.org/search?query=Al-%E1%B8%A4izb%20al-A%CA%BF%E1%BA%93am%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 60,
+      "workId": "life-seerah-087",
+      "title": "Al-Ḥāwī li-l-Fatāwī",
+      "author": "al-Suyuti, including Mawlid discussions",
+      "searchUrl": "https://archive.org/search?query=Al-%E1%B8%A4%C4%81w%C4%AB%20li-l-Fat%C4%81w%C4%AB%20al-Suyuti%2C%20including%20Mawlid%20discussions",
+      "status": "unresolved"
+    },
+    {
+      "row": 61,
+      "workId": "family-companions-032",
+      "title": "Ansāb al-Ashrāf",
+      "author": "al-Baladhuri",
+      "searchUrl": "https://archive.org/search?query=Ans%C4%81b%20al-Ashr%C4%81f%20al-Baladhuri",
+      "status": "unresolved"
+    },
+    {
+      "row": 62,
+      "workId": "family-companions-050",
+      "title": "Ansāb al-Ṭālibiyyīn",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Ans%C4%81b%20al-%E1%B9%AC%C4%81libiyy%C4%ABn",
+      "status": "unresolved"
+    },
+    {
+      "row": 64,
+      "workId": "teachings-wisdom-043",
+      "title": "Ayyuhā al-Walad",
+      "author": "أبو حامد الغزالي",
+      "searchUrl": "https://archive.org/search?query=Ayyuh%C4%81%20al-Walad%20%D8%A3%D8%A8%D9%88%20%D8%AD%D8%A7%D9%85%D8%AF%20%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 65,
+      "workId": "moroccan-heritage-022",
+      "title": "Bayān al-Wahm wa-l-Īhām al-Wāqiʿayn fī Kitāb al-Aḥkām",
+      "author": "Ibn al-Qattan al-Fasi",
+      "searchUrl": "https://archive.org/search?query=Bay%C4%81n%20al-Wahm%20wa-l-%C4%A complicated%20Ibn%20al-Qattan%20al-Fasi",
+      "status": "unresolved"
+    },
+    {
+      "row": 66,
+      "workId": "teachings-wisdom-047",
+      "title": "Bidāyat al-Hidāya",
+      "author": "أبو حامد الغزالي",
+      "searchUrl": "https://archive.org/search?query=Bid%C4%81yat%20al-Hid%C4%81ya%20%D8%A3%D8%A8%D9%88%20%D8%AD%D8%A7%D9%85%D8%AF%20%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 67,
+      "workId": "teachings-wisdom-066",
+      "title": "Dalālāt al-Wāḍiḥāt",
+      "author": "يوسف النبهاني",
+      "searchUrl": "https://archive.org/search?query=Dal%C4%81l%C4%81t%20al-W%C4%81%E1%B8%8Di%E1%B8%A5%C4%81t%20%D9%8A%D9%88%D8%B3%D9%81%20%D8%A7%D9%84%D9%86%D8%A8%D9%87%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 68,
+      "workId": "moroccan-heritage-012",
+      "title": "Dalālāt al-Wāḍiḥāt ʿalā Dalāʾil al-Khayrāt",
+      "author": "يوسف النبهاني",
+      "searchUrl": "https://archive.org/search?query=Dal%C4%81l%C4%81t%20al-W%C4%81%E1%B8%8Di%E1%B8%A5%C4%81t%20%CA%BFal%C4%81%20Dal%C4%81%CA%BEil%20al-Khayr%C4%81t%20%D9%8A%D9%88%D8%B3%D9%81%20%D8%A7%D9%84%D9%86%D8%A8%D9%87%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 69,
+      "workId": "teachings-wisdom-015",
+      "title": "Dalīl al-Fāliḥīn",
+      "author": "ابن علان الصديقي",
+      "searchUrl": "https://archive.org/search?query=Dal%C4%ABl%20al-F%C4%81li%E1%B8%A5%C4%ABn%20%D8%A7%D8%A8%D9%86%20%D8%B9%D9%84%D8%A7%D9%86%20%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 71,
+      "workId": "teachings-wisdom-049",
+      "title": "Dhamm al-Hawā",
+      "author": "ابن الجوزي",
+      "searchUrl": "https://archive.org/search?query=Dhamm%20al-Haw%C4%81%20%D8%A7%D8%A8%D9%86%20%D8%A7%D9%84%D8%AC%D9%88%D8%B2%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 72,
+      "workId": "quran-meaning-083",
+      "title": "Dīwān-i Shams",
+      "author": "جلال الدين الرومي",
+      "searchUrl": "https://archive.org/search?query=D%C4%ABw%C4%81n-i%20Shams%20%D8%AC%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B1%D9%88%D9%85%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 73,
+      "workId": "family-companions-098",
+      "title": "Fatima al-Zahra, Ali, al-Hasan, al-Husayn and their descendants",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Fatima%20al-Zahra%2C%20Ali%2C%20al-Hasan%2C%20al-Husayn%20and%20their%20descendants",
+      "status": "unresolved"
+    },
+    {
+      "row": 74,
+      "workId": "family-companions-012",
+      "title": "Faḍāʾil Fāṭima",
+      "author": "Sunni hadith compilations",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20F%C4%81%E1%B9%ADima%20Sunni%20hadith%20compilations",
+      "status": "unresolved"
+    },
+    {
+      "row": 75,
+      "workId": "family-companions-015",
+      "title": "Faḍāʾil Jaʿfar ibn Abī Ṭālib",
+      "author": "Sunni hadith compilations",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20Ja%CA%BFfar%20ibn%20Ab%C4%AB%20%E1%B9%AC%C4%81lib%20Sunni%20hadith%20compilations",
+      "status": "unresolved"
+    },
+    {
+      "row": 76,
+      "workId": "family-companions-014",
+      "title": "Faḍāʾil al-ʿAbbās",
+      "author": "Sunni hadith compilations",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20al-%CA%BFAbb%C4%81s%20Sunni%20hadith%20compilations",
+      "status": "unresolved"
+    },
+    {
+      "row": 77,
+      "workId": "family-companions-010",
+      "title": "Faḍāʾil al-Ḥasan",
+      "author": "Sunni hadith compilations",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20al-%E1%B8%A4asan%20Sunni%20hadith%20compilations",
+      "status": "unresolved"
+    },
+    {
+      "row": 78,
+      "workId": "family-companions-011",
+      "title": "Faḍāʾil al-Ḥusayn",
+      "author": "Sunni hadith compilations",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20al-%E1%B8%A4usayn%20Sunni%20hadith%20compilations",
+      "status": "unresolved"
+    },
+    {
+      "row": 79,
+      "workId": "family-companions-019",
+      "title": "Faḍāʾil al-Ṣaḥāba",
+      "author": "أحمد بن حنبل",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20al-%E1%B9%A2a%E1%B8%A5%C4%81ba%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AD%D9%86%D8%A8%D9%84",
+      "status": "unresolved"
+    },
+    {
+      "row": 80,
+      "workId": "family-companions-008",
+      "title": "Faḍāʾil ʿAlī",
+      "author": "traditions collected by Sunni hadith scholars",
+      "searchUrl": "https://archive.org/search?query=Fa%E1%B8%8D%C4%81%CA%BEil%20%CA%BFAl%C4%AB%20traditions%20collected%20by%20Sunni%20hadith%20scholars",
+      "status": "unresolved"
+    },
+    {
+      "row": 81,
+      "workId": "moroccan-heritage-020",
+      "title": "Fihris al-Fahāris wa-l-Athbāt",
+      "author": "عبد الحي الكتاني",
+      "searchUrl": "https://archive.org/search?query=Fihris%20al-Fah%C4%81ris%20wa-l-Athb%C4%81t%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%AD%D9%8A%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 90,
+      "workId": "moroccan-heritage-029",
+      "title": "Ibrahim ibn al-Siddiq al-Ghumari",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Ibrahim%20ibn%20al-Siddiq%20al-Ghumari",
+      "status": "unresolved"
+    },
+    {
+      "row": 91,
+      "workId": "family-companions-031",
+      "title": "Jamharat Ansāb al-ʿArab",
+      "author": "ابن حزم",
+      "searchUrl": "https://archive.org/search?query=Jamharat%20Ans%C4%81b%20al-%CA%BFArab%20%D8%A7%D8%A8%D9%86%20%D8%AD%D8%B2%D9%85",
+      "status": "unresolved"
+    },
+    {
+      "row": 92,
+      "workId": "character-shamail-025",
+      "title": "Jamʿ al-Wasāʾil",
+      "author": "علي القاري",
+      "searchUrl": "https://archive.org/search?query=Jam%CA%BF%20al-Was%C4%81%CA%BEil%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 93,
+      "workId": "hadith-commentary-006",
+      "title": "Jāmiʿ al-Tirmidhī",
+      "author": "محمد بن عيسى الترمذي",
+      "searchUrl": "https://archive.org/search?query=J%C4%81mi%CA%BF%20al-Tirmidh%C4%AB%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%B9%D9%8A%D8%B3%D9%89%20%D8%A7%D9%84%D8%AA%D8%B1%D9%85%D8%B0%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 94,
+      "workId": "hadith-commentary-060",
+      "title": "Jāmiʿ al-Uṣūl",
+      "author": "ابن الأثير",
+      "searchUrl": "https://archive.org/search?query=J%C4%81mi%CA%BF%20al-U%E1%B9%A3%C5%ABl%20%D8%A7%D8%A8%D9%86%20%D8%A7%D9%84%D8%A3%D8%AB%D9%8A%D8%B1",
+      "status": "unresolved"
+    },
+    {
+      "row": 95,
+      "workId": "teachings-wisdom-065",
+      "title": "Jāmiʿ al-Ṣalawāt",
+      "author": "يوسف النبهاني",
+      "searchUrl": "https://archive.org/search?query=J%C4%81mi%CA%BF%20al-%E1%B9%A2alaw%C4%81t%20%D9%8A%D9%88%D8%B3%D9%81%20%D8%A7%D9%84%D9%86%D8%A8%D9%87%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 97,
+      "workId": "family-companions-020",
+      "title": "Kitāb al-Faḍāʾil",
+      "author": "Sunan and Musnad traditions",
+      "searchUrl": "https://archive.org/search?query=Kit%C4%81b%20al-Fa%E1%B8%8D%C4%81%CA%BEil%20Sunan%20and%20Musnad%20traditions",
+      "status": "unresolved"
+    },
+    {
+      "row": 98,
+      "workId": "character-shamail-070",
+      "title": "Kitāb Ādāb al-Maʿīsha wa-Akhlāq al-Nubuwwa",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Kit%C4%81b%20%C4%80d%C4%81b%20al-Ma%CA%BF%C4%ABsha%20wa-Akhl%C4%81q%20al-Nubuwwa",
+      "status": "unresolved"
+    },
+    {
+      "row": 99,
+      "workId": "teachings-wisdom-058",
+      "title": "Lawāqiḥ al-Anwār al-Qudsiyya",
+      "author": "عبد الوهاب الشعراني",
+      "searchUrl": "https://archive.org/search?query=Law%C4%81qi%E1%B8%A5%20al-Anw%C4%81r%20al-Qudsiyya%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8%20%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 100,
+      "workId": "quran-meaning-013",
+      "title": "Mafātīḥ al-Ghayb",
+      "author": "al-Razi",
+      "searchUrl": "https://archive.org/search?query=Maf%C4%81t%C4%AB%E1%B8%A5%20al-Ghayb%20al-Razi",
+      "status": "downloaded",
+      "archiveIdentifier": "mafatihalghayb06raziuoft",
+      "matchedTitle": "Mafatih al-ghayb",
+      "score": 0.96,
+      "size": 4226159,
+      "sha256": "fd87b6a3c4aded0e092399484a2edc68910ccec7fb7aa98f770e46af39c2ab83",
+      "localUrl": "/library/works/quran-meaning-013/editions/ed-cd62732bd803/original.txt"
+    },
+    {
+      "row": 101,
+      "workId": "quran-meaning-096",
+      "title": "Majālis-i Sabʿa",
+      "author": "جلال الدين الرومي",
+      "searchUrl": "https://archive.org/search?query=Maj%C4%81lis-i%20Sab%CA%BFa%20%D8%AC%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B1%D9%88%D9%85%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 102,
+      "workId": "moroccan-heritage-006",
+      "title": "Mashāriq al-Anwār ʿalā Ṣiḥāḥ al-Āthār",
+      "author": "القاضي عياض",
+      "searchUrl": "https://archive.org/search?query=Mash%C4%81riq%20al-Anw%C4%81r%20%CA%BFal%C4%81%20%E1%B9%A2i%E1%B8%A5%C4%81%E1%B8%A5%20al-%C4%80th%C4%81r%20%D8%A7%D9%84%D9%82%D8%A7%D8%B6%D9%8A%20%D8%B9%D9%8A%D8%A7%D8%B6",
+      "status": "unresolved"
+    },
+    {
+      "row": 103,
+      "workId": "character-shamail-029",
+      "title": "Matāliʿ al-Masarrāt",
+      "author": "al-Fasi",
+      "searchUrl": "https://archive.org/search?query=Mat%C4%81li%CA%BF%20al-Masarr%C4%81t%20al-Fasi",
+      "status": "unresolved"
+    },
+    {
+      "row": 104,
+      "workId": "life-seerah-076",
+      "title": "Maurid al-Ṣādī fī Mawlid al-Hādī",
+      "author": "traditional mawlid literature",
+      "searchUrl": "https://archive.org/search?query=Maurid%20al-%E1%B9%A2%C4%81d%C4%AB%20f%C4%AB%20Mawlid%20al-H%C4%81d%C4%AB%20traditional%20mawlid%20literature",
+      "status": "unresolved"
+    },
+    {
+      "row": 105,
+      "workId": "life-seerah-070",
+      "title": "Mawlid Sharaf al-Anām",
+      "author": "traditional Sunni devotional Seerah",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20Sharaf%20al-An%C4%81m%20traditional%20Sunni%20devotional%20Seerah",
+      "status": "unresolved"
+    },
+    {
+      "row": 107,
+      "workId": "character-shamail-036",
+      "title": "Mawlid al-Barzanji",
+      "author": "جعفر البرزنجي",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20al-Barzanji%20%D8%AC%D8%B9%D9%81%D8%B1%20%D8%A7%D9%84%D8%A8%D8%B1%D8%B2%D9%86%D8%AC%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 108,
+      "workId": "life-seerah-069",
+      "title": "Mawlid al-Barzanji / ʿIqd al-Jawhar fī Mawlid al-Nabī al-Azhar",
+      "author": "جعفر البرزنجي",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20al-Barzanji%20/%20%CA%BFIqd%20al-Jawhar%20f%C4%AB%20Mawlid%20al-Nab%C4%AB%20al-Azhar%20%D8%AC%D8%B9%D9%81%D8%B1%20%D8%A7%D9%84%D8%A8%D8%B1%D8%B2%D9%86%D8%AC%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 109,
+      "workId": "life-seerah-071",
+      "title": "Mawlid al-Dibaʿi",
+      "author": "عبد الرحمن الديبع",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20al-Diba%CA%BFi%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%20%D8%A7%D9%84%D8%AF%D9%8A%D8%A8%D8%B9",
+      "status": "unresolved"
+    },
+    {
+      "row": 110,
+      "workId": "character-shamail-037",
+      "title": "Mawlid al-Dibaʿi",
+      "author": "Ibn al-Dibaʿ",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20al-Diba%CA%BFi%20Ibn%20al-Diba%CA%BF",
+      "status": "unresolved"
+    },
+    {
+      "row": 111,
+      "workId": "life-seerah-081",
+      "title": "Mawlid al-ʿArūs",
+      "author": "attributed in the Ibn al-Jawzi tradition",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20al-%CA%BFAr%C5%ABs%20attributed%20in%20the%20Ibn%20al-Jawzi%20tradition",
+      "status": "unresolved"
+    },
+    {
+      "row": 112,
+      "workId": "life-seerah-073",
+      "title": "Mawlid al-ʿAzab",
+      "author": "traditional Yemeni Seerah/Mawlid literature",
+      "searchUrl": "https://archive.org/search?query=Mawlid%20al-%CA%BFAzab%20traditional%20Yemeni%20Seerah/Mawlid%20literature",
+      "status": "unresolved"
+    },
+    {
+      "row": 114,
+      "workId": "family-companions-034",
+      "title": "Maʿrifat al-Ṣaḥāba",
+      "author": "أبو نعيم الأصبهاني",
+      "searchUrl": "https://archive.org/search?query=Ma%CA%BFrifat%20al-%E1%B9%A2a%E1%B8%A5%C4%81ba%20%D8%A3%D8%A8%D9%88%20%D9%86%D8%B9%D9%8A%D9%85%20%D8%A7%D9%84%D8%A3%D8%B5%D8%A8%D9%87%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 115,
+      "workId": "quran-meaning-103",
+      "title": "Maʿārif al-Qurʾān",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Ma%CA%BF%C4%81rif%20al-Qur%CA%BE%C4%81n",
+      "status": "unresolved"
+    },
+    {
+      "row": 116,
+      "workId": "teachings-wisdom-055",
+      "title": "Miftāḥ al-Falāḥ",
+      "author": "ابن عطاء الله السكندري",
+      "searchUrl": "https://archive.org/search?query=Mift%C4%81%E1%B8%A5%20al-Fal%C4%81%E1%B8%A5%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%B7%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 117,
+      "workId": "hadith-commentary-051",
+      "title": "Mirqāt al-Mafātīḥ",
+      "author": "علي القاري",
+      "searchUrl": "https://archive.org/search?query=Mirq%C4%81t%20al-Maf%C4%81t%C4%AB%E1%B8%A5%20%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 118,
+      "workId": "hadith-commentary-052",
+      "title": "Mishkāt al-Maṣābīḥ",
+      "author": "al-Tabrizi",
+      "searchUrl": "https://archive.org/search?query=Mishk%C4%81t%20al-Ma%E1%B9%A3%C4%81b%C4%AB%E1%B8%A5%20al-Tabrizi",
+      "status": "unresolved"
+    },
+    {
+      "row": 119,
+      "workId": "quran-meaning-079",
+      "title": "Miʿrāj al-Tashawwuf",
+      "author": "أحمد ابن عجيبة",
+      "searchUrl": "https://archive.org/search?query=Mi%CA%BFr%C4%81j%20al-Tashawwuf%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%AC%D9%8A%D8%A8%D8%A9",
+      "status": "unresolved"
+    },
+    {
+      "row": 130,
+      "workId": "teachings-wisdom-044",
+      "title": "Mīzān al-ʿAmal",
+      "author": "أبو حامد الغزالي",
+      "searchUrl": "https://archive.org/search?query=M%C4%ABz%C4%81n%20al-%CA%BFAmal%20%D8%A3%D8%A8%D9%88%20%D8%AD%D8%A7%D9%85%D8%AF%20%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 132,
+      "workId": "moroccan-heritage-023",
+      "title": "Naẓm al-Mutanāthir min al-Ḥadīth al-Mutawātir",
+      "author": "محمد بن جعفر الكتاني",
+      "searchUrl": "https://archive.org/search?query=Na%E1%BA%93m%20al-Mutan%C4%81thir%20min%20al-%E1%B8%A4ad%C4%ABth%20al-Mutaw%C4%81tir%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%B9%D9%81%D8%B1%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 133,
+      "workId": "life-seerah-036",
+      "title": "Nūr al-Yaqīn fī Sīrat Sayyid al-Mursalīn",
+      "author": "محمد الخضري",
+      "searchUrl": "https://archive.org/search?query=N%C5%ABr%20al-Yaq%C4%ABn%20f%C4%AB%20S%C4%ABrat%20Sayyid%20al-Mursal%C4%ABn%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 137,
+      "workId": "site-ref-burda-overview",
+      "title": "Qasida Al Burda — The Poem of the Mantle",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=Qasida%20Al%20Burda%20%E2%80%94%20The%20Poem%20of%20the%20Mantle",
+      "status": "unresolved"
+    },
+    {
+      "row": 138,
+      "workId": "teachings-wisdom-052",
+      "title": "Risālat al-Mustarshidīn",
+      "author": "الحارث المحاسبي",
+      "searchUrl": "https://archive.org/search?query=Ris%C4%81lat%20al-Mustarshid%C4%ABn%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 139,
+      "workId": "character-shamail-078",
+      "title": "Sabīl al-Iddikār",
+      "author": "عبد الله بن علوي الحداد",
+      "searchUrl": "https://archive.org/search?query=Sab%C4%ABl%20al-Iddik%C4%81r%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%88%D9%8A%20%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF",
+      "status": "unresolved"
+    },
+    {
+      "row": 141,
+      "workId": "family-companions-042",
+      "title": "Sharḥ al-Mawāhib",
+      "author": "al-Zurqani",
+      "searchUrl": "https://archive.org/search?query=Shar%E1%B8%A5%20al-Maw%C4%81hib%20al-Zurqani",
+      "status": "unresolved"
+    },
+    {
+      "row": 142,
+      "workId": "life-seerah-068",
+      "title": "Simṭ al-Durar",
+      "author": "علي بن محمد الحبشي",
+      "searchUrl": "https://archive.org/search?query=Sim%E1%B9%AD%20al-Durar%20%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%AD%D8%A8%D8%B4%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 143,
+      "workId": "life-seerah-042",
+      "title": "Sirat-un-Nabi",
+      "author": "Shibli Nuʿmani and Sulayman Nadwi",
+      "searchUrl": "https://archive.org/search?query=Sirat-un-Nabi%20Shibli%20Nu%CA%BFmani%20and%20Sulayman%20Nadwi",
+      "status": "unresolved"
+    },
+    {
+      "row": 145,
+      "workId": "teachings-wisdom-010",
+      "title": "Sunan al-Dārimī",
+      "author": "al-Darimi",
+      "searchUrl": "https://archive.org/search?query=Sunan%20al-D%C4%81rim%C4%AB%20al-Darimi",
+      "status": "unresolved"
+    },
+    {
+      "row": 146,
+      "workId": "family-companions-047",
+      "title": "Tadhkirat al-Khawāṣṣ",
+      "author": "Sibt Ibn al-Jawzi; use with source-critical notes",
+      "searchUrl": "https://archive.org/search?query=Tadhkirat%20al-Khaw%C4%81%E1%B9%A3%E1%B9%A3%20Sibt%20Ibn%20al-Jawzi",
+      "status": "unresolved"
+    },
+    {
+      "row": 148,
+      "workId": "character-shamail-080",
+      "title": "Tathbīt al-Fuʾād",
+      "author": "councils of Imam al-Haddad",
+      "searchUrl": "https://archive.org/search?query=Tathb%C4%ABt%20al-Fu%CA%BE%C4%81d%20Imam%20al-Haddad",
+      "status": "unresolved"
+    },
+    {
+      "row": 161,
+      "workId": "teachings-wisdom-056",
+      "title": "Tāj al-ʿArūs",
+      "author": "ابن عطاء الله السكندري",
+      "searchUrl": "https://archive.org/search?query=T%C4%81j%20al-%CA%BFAr%C5%ABs%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%B7%D8%A7%D8%A1%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A7%D9%84%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 162,
+      "workId": "character-shamail-027",
+      "title": "Wasāʾil al-Wuṣūl",
+      "author": "يوسف النبهاني",
+      "searchUrl": "https://archive.org/search?query=Was%C4%81%CA%BEil%20al-Wu%E1%B9%A3%C5%ABl%20%D9%8A%D9%88%D8%B3%D9%81%20%D8%A7%D9%84%D9%86%D8%A8%D9%87%D8%A7%D9%86%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 169,
+      "workId": "character-shamail-071",
+      "title": "prophetic names, attributes, virtues and descriptions",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=prophetic%20names%2C%20attributes%2C%20virtues%20and%20descriptions",
+      "status": "unresolved"
+    },
+    {
+      "row": 170,
+      "workId": "moroccan-heritage-035",
+      "title": "prophetic-biography writings of Sheikh Ma al-ʿAynayn",
+      "author": "",
+      "searchUrl": "https://archive.org/search?query=prophetic-biography%20writings%20of%20Sheikh%20Ma%20al-%CA%BFAynayn",
+      "status": "unresolved"
+    },
+    {
+      "row": 175,
+      "workId": "teachings-wisdom-053",
+      "title": "Ādāb al-Nufūs",
+      "author": "الحارث المحاسبي",
+      "searchUrl": "https://archive.org/search?query=%C4%80d%C4%81b%20al-Nuf%C5%ABs%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 176,
+      "workId": "quran-meaning-078",
+      "title": "Īqāẓ al-Himam",
+      "author": "أحمد ابن عجيبة",
+      "searchUrl": "https://archive.org/search?query=%C4%AAq%C4%81%E1%BA%93%20al-Himam%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%AC%D9%8A%D8%A8%D8%A9",
+      "status": "unresolved"
+    },
+    {
+      "row": 177,
+      "workId": "life-seerah-084",
+      "title": "ʿArf al-Taʿrīf bi-l-Mawlid al-Sharīf",
+      "author": "mawlid scholarship",
+      "searchUrl": "https://archive.org/search?query=%CA%BFArf%20al-Ta%CA%BFr%C4%ABf%20bi-l-Mawlid%20al-Shar%C4%ABf%20mawlid%20scholarship",
+      "status": "unresolved"
+    },
+    {
+      "row": 178,
+      "workId": "quran-meaning-005",
+      "title": "ʿArāʾis al-Bayān",
+      "author": "روزبهان البقلي",
+      "searchUrl": "https://archive.org/search?query=%CA%BFAr%C4%81%CA%BEis%20al-Bay%C4%81n%20%D8%B1%D9%88%D8%B2%D8%A8%D9%87%D8%A7%D9%86%20%D8%A7%D9%84%D8%A8%D9%82%D9%84%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 179,
+      "workId": "quran-meaning-041",
+      "title": "أسباب النزول",
+      "author": "الواحدي",
+      "searchUrl": "https://archive.org/search?query=%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8%20%D8%A7%D9%84%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%AF%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 180,
+      "workId": "quran-meaning-030",
+      "title": "أسرار ترتيب القرآن",
+      "author": "جلال الدين السيوطي",
+      "searchUrl": "https://archive.org/search?query=%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%D8%AC%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D8%A7%D9%84%D8%B3%D9%8A%D9%88%D8%B7%D9%8A",
+      "status": "unresolved"
+    },
+    {
+      "row": 181,
+      "workId": "character-shamail-008",
+      "title": "أشرف الوسائل إلى فهم الشمائل",
+      "author": "أحمد ابن حجر الهيتمي",
+      "searchUrl": "https://archive.org/search?query=%D8%A3%D8%B4%D8%B1%D9%81%20%D8%A7%D9%84%D9%88%D8%B3%D8%A7%D8%A6%D9%84%20%D8%A5%D9%84%D9%89%20%D9%81%D9%87%D9%85%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D8%A6%D9%84%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A7%D8%A8%D9%86%20%D8%AD%D8%AC%D8%B1%20%D8%A7%D9%84%D9%87%D9%8A%D8%AA%D9%85%D9%8A",
+      "status": "unresolved"
+    }
+  ]
+}
