@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "updated": "2026-08-20",
   "publication_policy": {
     "source_only": true,
@@ -29,9 +29,11 @@
     },
     "source_total": 115735,
     "companions": {"count": 10880, "status": "source_manifest_verified"},
-    "tabiin": {"count": null, "tabaqa_orders": [2,3,4,5,6], "status": "awaiting_reproducible_scan"},
-    "atba_al_tabiin": {"count": null, "tabaqa_orders": [7,8,9], "status": "awaiting_reproducible_scan"},
-    "post_atba": {"count": null, "tabaqa_orders": [10,11,12], "status": "awaiting_reproducible_scan"},
+    "tabiin": {"count": 4959, "tabaqa_orders": [2,3,4,5,6], "status": "verified_explicit_source_scan"},
+    "atba_al_tabiin": {"count": 2629, "tabaqa_orders": [7,8,9], "status": "verified_explicit_source_scan"},
+    "post_atba": {"count": 1818, "tabaqa_orders": [10,11,12], "status": "verified_explicit_source_scan"},
+    "unclassified": {"count": 105996, "status": "retained_in_general_narrator_corpus"},
+    "generation_conflicts": {"count": 549, "status": "quarantined_from_generation_sections"},
     "audit_output": "rijal-audit.json",
     "index_output": "rijal-index.json"
   },
