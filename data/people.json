@@ -10,7 +10,7 @@
       "fr"
     ]
   },
-  "count": 221,
+  "count": 234,
   "people": [
     {
       "id": "person-eb5591d002e8",
@@ -277,6 +277,28 @@
         "ar": "Samuel Marinus Zwemer",
         "en": "Samuel Marinus Zwemer",
         "fr": "Samuel Marinus Zwemer"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1f376d826cca",
+      "slug": "person-1f376d826cca",
+      "name": {
+        "ar": "Stanley Lane-Poole (editor)",
+        "en": "Stanley Lane-Poole (editor)",
+        "fr": "Stanley Lane-Poole (editor)"
       },
       "category": "source-person",
       "biography": {
@@ -3090,6 +3112,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-65c58c1c5087",
+      "slug": "person-65c58c1c5087",
+      "name": {
+        "ar": "أبو حامد الغزالي",
+        "en": "أبو حامد الغزالي",
+        "fr": "أبو حامد الغزالي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-e18e64936084",
       "slug": "person-e18e64936084",
       "name": {
@@ -3142,6 +3186,50 @@
         "fr": "Abu Hurayra"
       },
       "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-5dad76e8ac3a",
+      "slug": "person-5dad76e8ac3a",
+      "name": {
+        "ar": "أحمد ابن حجر الهيتمي",
+        "en": "أحمد ابن حجر الهيتمي",
+        "fr": "أحمد ابن حجر الهيتمي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e03e97656dec",
+      "slug": "person-e03e97656dec",
+      "name": {
+        "ar": "أحمد القسطلاني",
+        "en": "أحمد القسطلاني",
+        "fr": "أحمد القسطلاني"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -3631,6 +3719,28 @@
         "fr": "Al-Qasim ibn Muhammad"
       },
       "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-919ef631490f",
+      "slug": "person-919ef631490f",
+      "name": {
+        "ar": "القاضي عياض",
+        "en": "القاضي عياض",
+        "fr": "القاضي عياض"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -4211,6 +4321,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-a5e59b399abf",
+      "slug": "person-a5e59b399abf",
+      "name": {
+        "ar": "عبد الكريم القشيري",
+        "en": "عبد الكريم القشيري",
+        "fr": "عبد الكريم القشيري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "abdullah-ibn-abbas",
       "slug": "abdullah-ibn-abbas",
       "name": {
@@ -4784,6 +4916,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-8886a07bd085",
+      "slug": "person-8886a07bd085",
+      "name": {
+        "ar": "فخر الدين الرازي",
+        "en": "فخر الدين الرازي",
+        "fr": "فخر الدين الرازي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "fihr-ibn-malik",
       "slug": "fihr-ibn-malik",
       "name": {
@@ -4938,6 +5092,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-eec2b7f83c29",
+      "slug": "person-eec2b7f83c29",
+      "name": {
+        "ar": "مؤمن الشبلنجي",
+        "en": "مؤمن الشبلنجي",
+        "fr": "مؤمن الشبلنجي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "mariya-al-qibtiyya",
       "slug": "mariya-al-qibtiyya",
       "name": {
@@ -4982,6 +5158,72 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-5cfce66e8914",
+      "slug": "person-5cfce66e8914",
+      "name": {
+        "ar": "محب الدين الطبري",
+        "en": "محب الدين الطبري",
+        "fr": "محب الدين الطبري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-16123c5eb12a",
+      "slug": "person-16123c5eb12a",
+      "name": {
+        "ar": "محمد بن أحمد القرطبي",
+        "en": "محمد بن أحمد القرطبي",
+        "fr": "محمد بن أحمد القرطبي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4970fb596979",
+      "slug": "person-4970fb596979",
+      "name": {
+        "ar": "محمد بن جرير الطبري",
+        "en": "محمد بن جرير الطبري",
+        "fr": "محمد بن جرير الطبري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-9f11225bb49e",
       "slug": "person-9f11225bb49e",
       "name": {
@@ -5010,6 +5252,28 @@
         "ar": "محمد بن عيسى الترمذي",
         "en": "محمد بن عيسى الترمذي",
         "fr": "محمد بن عيسى الترمذي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-786870b1fbc8",
+      "slug": "person-786870b1fbc8",
+      "name": {
+        "ar": "محمد بن قاسم جسوس",
+        "en": "محمد بن قاسم جسوس",
+        "fr": "محمد بن قاسم جسوس"
       },
       "category": "source-person",
       "biography": {
@@ -5352,6 +5616,28 @@
         "fr": "Hashim ibn Abd Manaf"
       },
       "category": "ancestor",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-7f6e18811365",
+      "slug": "person-7f6e18811365",
+      "name": {
+        "ar": "يوسف النبهاني",
+        "en": "يوسف النبهاني",
+        "fr": "يوسف النبهاني"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
