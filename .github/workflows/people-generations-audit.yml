@@ -1,0 +1,59 @@
+name: People generations audit
+
+on:
+  push:
+    branches:
+      - codex/people-generations-layer
+    paths:
+      - 'people.html'
+      - 'assets/people.js'
+      - 'assets/people.css'
+      - 'data/people/**'
+      - 'scripts/audit_rijal_generations.py'
+      - '.github/workflows/people-generations-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/people-generations-layer
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate public people files
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          p=json.load(open('data/people/family-core.json',encoding='utf-8'))
+          assert p['record_count']==54==len(p['records'])
+          c=Counter(x['category'] for x in p['records'])
+          assert c==Counter({'ancestor_to_adnan':21,'mothers_of_believers':11,'children':7,'grandchildren':7,'direct_grandparents':4,'distinct_household_status':2,'parents':2}), c
+          ids=[x['id'] for x in p['records']]
+          assert len(ids)==len(set(ids))
+          maria=next(x for x in p['records'] if x['id']=='maria-al-qibtiyya')
+          rayhana=next(x for x in p['records'] if x['id']=='rayhana-bint-zayd')
+          assert maria['category']==rayhana['category']=='distinct_household_status'
+          print('family corpus: PASS', c)
+          PY
+          node --check assets/people.js
+      - name: Scan live rijal source and build compact index
+        run: python scripts/audit_rijal_generations.py
+      - name: Publish reproducible audit artifacts to branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/people/rijal-audit.json data/people/rijal-index.json
+          if git diff --cached --quiet; then
+            echo 'Audit artifacts unchanged.'
+          else
+            git commit -m 'Publish verified rijal generation audit [skip ci]'
+            git push origin HEAD:codex/people-generations-layer
+          fi
