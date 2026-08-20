@@ -1,5 +1,5 @@
 {
-  "version": "professional-enrichment-v2",
+  "version": "professional-enrichment-v2-disputed-attributions",
   "audit": {
     "records": 689,
     "bibliographicStatus": {"COMPLETE":641,"RESEARCH_PENDING":48},
@@ -9,7 +9,8 @@
     "titleAr": 689,
     "identityResearchPending": 48,
     "exactOrLocalSource": 53,
-    "discoveryOrBetter": 658
+    "discoveryOrBetter": 658,
+    "disputedAttributionRecordsPublished": 6
   },
-  "policy": "Professional work-level bibliographic model. No bibliographic fact is invented. Work identity is separated from edition/manifestation metadata and from access/source resolution. Unknown facts remain explicitly research-pending. Current uploaded records override matching historical IDs."
+  "policy": "Professional work-level bibliographic model. No bibliographic fact is invented. Disputed or traditional author attribution is not a publication blocker: all attested variants are preserved with evidence and visible qualifiers, and suppression requires an explicit user instruction. Work identity remains separated from manifestation and access metadata."
 }
