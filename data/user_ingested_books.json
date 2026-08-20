@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "generated": 1787198098,
+  "source": "user-upload",
+  "books": [
+    {
+      "id": "character-shamail-001",
+      "aliases": [
+        "hadith-commentary-079",
+        "life-seerah-083",
+        "teachings-wisdom-012",
+        "tirmidhi-shamail"
+      ],
+      "titleAr": "الشمائل المحمدية",
+      "authorAr": "محمد بن عيسى الترمذي",
+      "editorAr": "عزت عبيد الدعاس",
+      "publisherAr": "دار الحديث للطباعة والنشر والتوزيع، بيروت",
+      "editionAr": "الطبعة الثالثة",
+      "yearHijri": 1408,
+      "yearGregorian": 1988,
+      "pages": 216,
+      "drivePath": "Prophet-Library-Ingestion/books/character-shamail-001/complete.pdf",
+      "status": "READY_SCAN_OCR_QUEUED",
+      "sha256": "7a25ed533a964ff4ee3ee4df8469a3c4ee487cd1f08d165e873d15b19439803a"
+    },
+    {
+      "id": "life-seerah-056",
+      "titleAr": "دلائل الخيرات وشوارق الأنوار في ذكر الصلاة على النبي المختار",
+      "authorAr": "محمد بن سليمان بن عبد الرحمن الجزولي",
+      "sourceType": "manuscript-scan",
+      "holdingInstitutionAr": "مكتبة جامعة الملك سعود",
+      "pages": 68,
+      "drivePath": "Prophet-Library-Ingestion/books/life-seerah-056/manuscript-ksu.pdf",
+      "status": "SUPPLEMENTAL_MANUSCRIPT_OCR_QUEUED",
+      "sha256": "de96f0cd9c3f0b1f50354a9e7e44fe1a9d407e159e8d8d176f07fe9a6206f2eb"
+    }
+  ]
+}
