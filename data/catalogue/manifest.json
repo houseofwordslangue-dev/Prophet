@@ -1,5 +1,5 @@
 {
-  "version": "professional-enrichment-v2",
+  "version": "professional-enrichment-v2-disputed-attributions",
   "baselineCount": 689,
   "currentUploadedOverlayCount": 12,
   "overlapCount": 5,
@@ -7,50 +7,173 @@
   "compressedPayload": "data/catalogue/professional_catalogue.json.gz.b64",
   "compression": "gzip-base64",
   "schema": [
-    "id","entryNumber","category","categoryAr","categoryEn","categoryFr",
-    "titleAr","originalTitle","titleRomanized","authorAr","authorRomanized","authorDates",
-    "description","kind","language","workDate","century","edition","editor","publisher",
-    "publicationYear","volume","page","isbn","doi","institution","manuscriptShelfmark",
-    "rightsStatus","verificationStatus","availabilityStatus","provenanceGroup","provenanceLabel",
-    "publicNotes","confidenceLevel","sourceType","ingestionStatus","blockerAr",
-    "eligibleForFullTextCopy","exactSourceUrl","sourceDiscoveryUrl","archiveIdentifier",
-    "localAssetStatus","heritageScope","moroccanHeritage","retrievalDate",
-    "recordLevel","bibliographicStatus","accessResolutionStatus","manifestationStatus",
-    "identityMissingCsv","manifestationMissingCsv"
+    "id",
+    "entryNumber",
+    "category",
+    "categoryAr",
+    "categoryEn",
+    "categoryFr",
+    "titleAr",
+    "originalTitle",
+    "titleRomanized",
+    "authorAr",
+    "authorRomanized",
+    "authorDates",
+    "description",
+    "kind",
+    "language",
+    "workDate",
+    "century",
+    "edition",
+    "editor",
+    "publisher",
+    "publicationYear",
+    "volume",
+    "page",
+    "isbn",
+    "doi",
+    "institution",
+    "manuscriptShelfmark",
+    "rightsStatus",
+    "verificationStatus",
+    "availabilityStatus",
+    "provenanceGroup",
+    "provenanceLabel",
+    "publicNotes",
+    "confidenceLevel",
+    "sourceType",
+    "ingestionStatus",
+    "blockerAr",
+    "eligibleForFullTextCopy",
+    "exactSourceUrl",
+    "sourceDiscoveryUrl",
+    "archiveIdentifier",
+    "localAssetStatus",
+    "heritageScope",
+    "moroccanHeritage",
+    "retrievalDate",
+    "recordLevel",
+    "bibliographicStatus",
+    "accessResolutionStatus",
+    "manifestationStatus",
+    "identityMissingCsv",
+    "manifestationMissingCsv"
   ],
   "categories": [
-    {"id":"quran-meaning","en":"Qur'an & Meaning","ar":"القرآن والمعنى","fr":"Coran et sens"},
-    {"id":"hadith-commentary","en":"Hadith & Commentary","ar":"الحديث وشروحه","fr":"Hadith et commentaires"},
-    {"id":"life-seerah","en":"Life of Muhammad ﷺ","ar":"حياة النبي ﷺ والسيرة","fr":"Vie du Prophète ﷺ et Sîra"},
-    {"id":"character-shamail","en":"Character & Appearance","ar":"الشمائل والصفات","fr":"Caractère et description"},
-    {"id":"family-companions","en":"Family & Companions","ar":"الأسرة والصحابة","fr":"Famille et Compagnons"},
-    {"id":"teachings-wisdom","en":"Teachings & Wisdom","ar":"التعاليم والحكمة","fr":"Enseignements et sagesse"},
-    {"id":"moroccan-heritage","en":"Moroccan Heritage","ar":"التراث المغربي","fr":"Patrimoine marocain"},
-    {"id":"moroccan-institutions","en":"Moroccan Institutions & Repositories","ar":"المؤسسات والخزانات المغربية","fr":"Institutions et dépôts marocains"},
-    {"id":"contemporary-lectures","en":"Lectures & Contemporary Scholarship","ar":"المحاضرات والدروس المعاصرة","fr":"Conférences et enseignements contemporains"},
-    {"id":"algerian-heritage","en":"Algerian Heritage & Scholarship","ar":"التراث الجزائري والدراسات","fr":"Patrimoine et études algériens"},
-    {"id":"research","en":"Research & Source Studies","ar":"البحث والدراسات المصدرية","fr":"Recherche et études de sources"}
+    {
+      "id": "quran-meaning",
+      "en": "Qur'an & Meaning",
+      "ar": "القرآن والمعنى",
+      "fr": "Coran et sens"
+    },
+    {
+      "id": "hadith-commentary",
+      "en": "Hadith & Commentary",
+      "ar": "الحديث وشروحه",
+      "fr": "Hadith et commentaires"
+    },
+    {
+      "id": "life-seerah",
+      "en": "Life of Muhammad ﷺ",
+      "ar": "حياة النبي ﷺ والسيرة",
+      "fr": "Vie du Prophète ﷺ et Sîra"
+    },
+    {
+      "id": "character-shamail",
+      "en": "Character & Appearance",
+      "ar": "الشمائل والصفات",
+      "fr": "Caractère et description"
+    },
+    {
+      "id": "family-companions",
+      "en": "Family & Companions",
+      "ar": "الأسرة والصحابة",
+      "fr": "Famille et Compagnons"
+    },
+    {
+      "id": "teachings-wisdom",
+      "en": "Teachings & Wisdom",
+      "ar": "التعاليم والحكمة",
+      "fr": "Enseignements et sagesse"
+    },
+    {
+      "id": "moroccan-heritage",
+      "en": "Moroccan Heritage",
+      "ar": "التراث المغربي",
+      "fr": "Patrimoine marocain"
+    },
+    {
+      "id": "moroccan-institutions",
+      "en": "Moroccan Institutions & Repositories",
+      "ar": "المؤسسات والخزانات المغربية",
+      "fr": "Institutions et dépôts marocains"
+    },
+    {
+      "id": "contemporary-lectures",
+      "en": "Lectures & Contemporary Scholarship",
+      "ar": "المحاضرات والدروس المعاصرة",
+      "fr": "Conférences et enseignements contemporains"
+    },
+    {
+      "id": "algerian-heritage",
+      "en": "Algerian Heritage & Scholarship",
+      "ar": "التراث الجزائري والدراسات",
+      "fr": "Patrimoine et études algériens"
+    },
+    {
+      "id": "research",
+      "en": "Research & Source Studies",
+      "ar": "البحث والدراسات المصدرية",
+      "fr": "Recherche et études de sources"
+    }
   ],
-  "enrichmentPolicy": "Professional work-level bibliographic model. No bibliographic fact is invented. Work identity is separated from edition/manifestation metadata and from access/source resolution. Unknown facts remain explicitly research-pending. Current uploaded records override matching historical IDs.",
+  "enrichmentPolicy": "Professional work-level bibliographic model. No bibliographic fact is invented. Work identity is separated from edition/manifestation metadata and from access/source resolution. Disputed or traditional author attributions do not block catalogue publication: attested names are displayed with explicit qualification and competing attributions remain preserved with evidence unless the user explicitly instructs suppression. Unknown non-attribution facts remain research-pending. Current uploaded records override matching historical IDs.",
   "audit": {
     "records": 689,
-    "bibliographicStatus": {"COMPLETE":641,"RESEARCH_PENDING":48},
-    "recordLevels": {"work+manifestation":45,"work":597,"collection":7,"institution":10,"media-resource":11,"web-resource":19},
-    "accessResolution": {"EXACT_SOURCE_REGISTERED":34,"DISCOVERY_SOURCE_REGISTERED":605,"LOCAL_ASSET_REGISTERED":19,"SOURCE_RESEARCH_PENDING":31},
-    "manifestationStatus": {"PARTIAL":45,"NOT_APPLICABLE":644},
+    "bibliographicStatus": {
+      "COMPLETE": 641,
+      "RESEARCH_PENDING": 48
+    },
+    "recordLevels": {
+      "work+manifestation": 45,
+      "work": 597,
+      "collection": 7,
+      "institution": 10,
+      "media-resource": 11,
+      "web-resource": 19
+    },
+    "accessResolution": {
+      "EXACT_SOURCE_REGISTERED": 34,
+      "DISCOVERY_SOURCE_REGISTERED": 605,
+      "LOCAL_ASSET_REGISTERED": 19,
+      "SOURCE_RESEARCH_PENDING": 31
+    },
+    "manifestationStatus": {
+      "PARTIAL": 45,
+      "NOT_APPLICABLE": 644
+    },
     "titleAr": 689,
     "identityResearchPending": 48,
     "exactOrLocalSource": 53,
-    "discoveryOrBetter": 658
+    "discoveryOrBetter": 658,
+    "disputedAttributionRecordsPublished": 6
   },
   "fallbackChunks": [
-    {"path":"data/catalogue/chunk-01.json","count":50},{"path":"data/catalogue/chunk-02.json","count":50},
-    {"path":"data/catalogue/chunk-03.json","count":50},{"path":"data/catalogue/chunk-04.json","count":50},
-    {"path":"data/catalogue/chunk-05.json","count":50},{"path":"data/catalogue/chunk-06.json","count":50},
-    {"path":"data/catalogue/chunk-07.json","count":50},{"path":"data/catalogue/chunk-08.json","count":50},
-    {"path":"data/catalogue/chunk-09.json","count":50},{"path":"data/catalogue/chunk-10.json","count":50},
-    {"path":"data/catalogue/chunk-11.json","count":50},{"path":"data/catalogue/chunk-12.json","count":50},
-    {"path":"data/catalogue/chunk-13.json","count":50},{"path":"data/catalogue/chunk-14.json","count":39}
+    {"path": "data/catalogue/chunk-01.json", "count": 50},
+    {"path": "data/catalogue/chunk-02.json", "count": 50},
+    {"path": "data/catalogue/chunk-03.json", "count": 50},
+    {"path": "data/catalogue/chunk-04.json", "count": 50},
+    {"path": "data/catalogue/chunk-05.json", "count": 50},
+    {"path": "data/catalogue/chunk-06.json", "count": 50},
+    {"path": "data/catalogue/chunk-07.json", "count": 50},
+    {"path": "data/catalogue/chunk-08.json", "count": 50},
+    {"path": "data/catalogue/chunk-09.json", "count": 50},
+    {"path": "data/catalogue/chunk-10.json", "count": 50},
+    {"path": "data/catalogue/chunk-11.json", "count": 50},
+    {"path": "data/catalogue/chunk-12.json", "count": 50},
+    {"path": "data/catalogue/chunk-13.json", "count": 50},
+    {"path": "data/catalogue/chunk-14.json", "count": 39}
   ],
-  "publicCapabilityPolicy": "Historical catalogue enrichment is bibliographic. Read/search/listen/watch buttons remain disabled unless a current real public/same-origin asset is attached by the current uploaded-record overlay."
+  "publicCapabilityPolicy": "Historical catalogue enrichment is bibliographic. Read/search/listen/watch buttons remain disabled unless a current real public/same-origin asset is attached by the current uploaded-record overlay.",
+  "attributionPolicy": "data/catalogue/disputed_attributions.json"
 }
