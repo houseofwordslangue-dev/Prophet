@@ -1,13 +1,20 @@
 {
-  "version": "2026-08-20-publication-supplement-v1",
-  "publishedAt": "2026-08-20T09:30:00+01:00",
-  "draftBatchPaths": ["data/editorial/drafts/2026-08-20/batch-09.json"],
-  "publishedIds": ["20260820-forums-community-work"],
+  "version": "2026-08-20-publication-supplement-v2",
+  "publishedAt": "2026-08-20T09:47:15+01:00",
+  "draftBatchPaths": [
+    "data/editorial/drafts/2026-08-20/batch-09.json",
+    "data/editorial/drafts/2026-08-20/batch-10.json"
+  ],
+  "publishedIds": [
+    "20260820-forums-community-work",
+    "20260820-family-parents",
+    "20260820-family-ancestors"
+  ],
   "integrity": {
-    "articlesPublished": 1,
-    "genuineSourceDerivedArticles": 1,
+    "articlesPublished": 3,
+    "genuineSourceDerivedArticles": 3,
     "aiGeneratedSubstantiveArticles": 0,
-    "articlesWith100PercentSourceProvenance": 1,
+    "articlesWith100PercentSourceProvenance": 3,
     "unsupportedFactualParagraphs": 0,
     "unverifiedQuotations": 0
   }
