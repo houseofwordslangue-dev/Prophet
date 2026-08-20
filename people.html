@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b4c38">
+<title>الأشخاص والطبقات — محمد ﷺ</title>
+<meta name="description" content="دليل موحد للأسرة والنسب والصحابة والتابعين وأتباع التابعين والرواة، مع صفحات مصدرية فردية وتصنيف طبقات لا يعتمد على التخمين.">
+<link rel="stylesheet" href="assets/tarjma-fonts.css">
+<link rel="stylesheet" href="assets/people.css">
+</head>
+<body>
+<a class="skip-link" href="#peopleContent">انتقل إلى المحتوى</a>
+<header class="people-head">
+  <div class="ornament" aria-hidden="true"></div>
+  <div class="wrap head-row">
+    <a class="brand" href="library.html"><span class="brand-mark">ﷺ</span><span><b>دليل الأشخاص والطبقات</b><small>السيرة · الأسرة · الرجال · الأسانيد</small></span></a>
+    <div class="head-links"><a href="library.html">المكتبة</a><a href="references.html">المصادر والدراسات</a></div>
+  </div>
+</header>
+
+<main id="peopleContent">
+  <section class="people-hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">دليل بحثي موحّد</p>
+        <h1>الأشخاص والأنساب والطبقات</h1>
+        <p>صفحات فردية موحّدة تستند إلى السجل المصدر. لا تُستكمل الخانات الناقصة بسرد إنشائي، ولا يُنسب راوٍ إلى طبقة إلا بوجود دليل صريح في حقول المصدر.</p>
+      </div>
+      <div class="integrity-card">
+        <strong>قاعدة النزاهة</strong>
+        <p>التابعون: الطبقات 2–6 فقط عند وجود تصنيف صريح. أتباع التابعين: 7–9 فقط. السجلات الملتبسة تبقى في corpus الرواة العام.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap stats" aria-label="حالة corpus">
+    <div><strong id="familyCount">54</strong><span>ملف أسرة ونسب موثق</span></div>
+    <div><strong id="companionCount">10,880</strong><span>سجل صحابي في المصدر</span></div>
+    <div><strong id="tabiinCount">—</strong><span>تابعون — مسح صريح</span></div>
+    <div><strong id="atbaCount">—</strong><span>أتباع التابعين — مسح صريح</span></div>
+    <div><strong id="rijalCount">115,735</strong><span>إجمالي سجلات الرجال</span></div>
+  </section>
+
+  <section class="wrap controls">
+    <form id="peopleSearch" role="search">
+      <label for="q">بحث بالاسم أو الكنية أو النسبة أو المدينة</label>
+      <div class="search-row"><input id="q" type="search" autocomplete="off" placeholder="اكتب اسماً…"><button type="submit">بحث</button></div>
+    </form>
+    <div id="categoryBar" class="category-bar" aria-label="أقسام الدليل"></div>
+  </section>
+
+  <section class="wrap status-panel" id="statusPanel" hidden></section>
+
+  <section class="wrap results-shell">
+    <div class="results-head">
+      <div><p class="section-kicker">السجل المنشور</p><h2 id="resultTitle">الأسرة والنسب</h2></div>
+      <p id="resultCount" aria-live="polite">جارٍ التحميل…</p>
+    </div>
+    <div id="peopleGrid" class="people-grid"></div>
+    <div id="loading" class="loading" hidden>جارٍ تحميل الفهرس المصدر…</div>
+    <div id="empty" class="empty" hidden>لا توجد سجلات مطابقة.</div>
+  </section>
+</main>
+
+<dialog id="personDialog" class="person-dialog">
+  <button class="dialog-close" type="button" aria-label="إغلاق">×</button>
+  <div id="personBody"></div>
+</dialog>
+
+<footer><div class="wrap"><strong>محمد ﷺ — دليل الأشخاص والطبقات</strong><small>الخانات غير الموجودة في المصدر لا تُنشأ آلياً.</small></div></footer>
+<script src="assets/people.js"></script>
+</body>
+</html>
