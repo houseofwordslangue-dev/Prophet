@@ -1,0 +1,15 @@
+{
+  "schema": "arabic-recovery-topup-v2",
+  "targetSuccessful": 49,
+  "exactSeeds": [
+    {"workId":"life-seerah-002","title":"السيرة النبوية","author":"عبد الملك بن هشام","archiveIdentifier":"AssiraAnnabawiyaIbnHicham"},
+    {"workId":"site-source-qadi-iyad-tartib","title":"ترتيب المدارك وتقريب المسالك","author":"القاضي عياض","archiveIdentifier":"tartbalmadrikwat01iyib"},
+    {"workId":"hadith-commentary-085","title":"شرح الشفا","author":"علي القاري","archiveIdentifier":"SharhShifaQari"},
+    {"workId":"site-source-qadi-iyad-mashariq","title":"مشارق الأنوار على صحاح الآثار","author":"القاضي عياض","archiveIdentifier":"MashariqAlanwar"},
+    {"workId":"quran-meaning-002","title":"البحر المديد في تفسير القرآن المجيد","author":"أحمد ابن عجيبة","archiveIdentifier":"ba7r-madid"},
+    {"workId":"quran-meaning-006","title":"تفسير التستري","author":"سهل التستري","archiveIdentifier":"20200705_20200705_0646"},
+    {"workId":"quran-meaning-004","title":"حقائق التفسير","author":"أبو عبد الرحمن السلمي","archiveIdentifier":"hqaeqtfsir"},
+    {"workId":"quran-meaning-005","title":"عرائس البيان في حقائق القرآن","author":"روزبهان البقلي","archiveIdentifier":"araesbayan"},
+    {"workId":"quran-meaning-007","title":"كشف الأسرار وعدة الأبرار","author":"رشيد الدين الميبدي","archiveIdentifier":"abuarialkurdy_gmail_11_201512"}
+  ]
+}
