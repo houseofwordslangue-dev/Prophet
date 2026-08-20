@@ -1,4 +1,5 @@
-const CACHE='prophet-biography-v6-8-7-genuine-editorial';
+const CACHE='prophet-biography-v6-8-8-restored-696-library';
+const CATALOGUE_CHUNKS=Array.from({length:14},(_,i)=>`./data/catalogue/chunk-${String(i+1).padStart(2,'0')}.json`);
 const PRECACHE=[
   './library.html',
   './reader.html',
@@ -11,6 +12,7 @@ const PRECACHE=[
   './assets/tarjma-fonts.css',
   './assets/prophet-bookreader.css',
   './assets/editorial-public.css',
+  './assets/catalogue-restore.js',
   './assets/bookstore.js',
   './assets/library-extended.js',
   './assets/reader-route.js',
@@ -22,6 +24,8 @@ const PRECACHE=[
   './data/published_user_books.json',
   './data/user_ingested_books.json',
   './data/generated_epubs.json',
+  './data/catalogue/manifest.json',
+  ...CATALOGUE_CHUNKS,
   './data/editorial/publication_manifest.json',
   './data/editorial_sections.json',
   './private/acquisition_candidates.json'
@@ -34,19 +38,20 @@ self.addEventListener('activate',event=>{
 });
 const NETWORK_FIRST=new Set([
   '/library.html','/reader.html','/editorial.html','/feature.html',
-  '/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css',
+  '/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css','/assets/catalogue-restore.js',
   '/assets/library-extended.js','/assets/library-extended.css','/assets/tarjma-fonts.css',
   '/assets/reader-route.js','/assets/prophet-bookreader.js','/assets/prophet-bookreader.css',
   '/assets/editorial-public.js','/assets/editorial-public.css',
   '/data/reader_config.json','/data/published_user_books.json','/data/user_ingested_books.json','/data/generated_epubs.json',
-  '/data/editorial/publication_manifest.json','/data/editorial_sections.json'
+  '/data/catalogue/manifest.json','/data/editorial/publication_manifest.json','/data/editorial_sections.json'
 ]);
 self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
   const url=new URL(event.request.url);
   if(url.origin!==self.location.origin||url.pathname.startsWith('/api/'))return;
   const editorialBatch=/^\/data\/editorial\/drafts\/\d{4}-\d{2}-\d{2}\/batch-\d+\.json$/.test(url.pathname);
-  if(NETWORK_FIRST.has(url.pathname)||editorialBatch){
+  const catalogueChunk=/^\/data\/catalogue\/chunk-\d{2}\.json$/.test(url.pathname);
+  if(NETWORK_FIRST.has(url.pathname)||editorialBatch||catalogueChunk){
     event.respondWith(fetch(event.request,{cache:'no-store'}).then(response=>{
       if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));}
       return response;
