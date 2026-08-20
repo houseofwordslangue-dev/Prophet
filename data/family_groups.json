@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "policy": "Only explicitly established family relations are assigned. Unknown or ambiguous kinship is not guessed.",
+  "groups": [
+    {
+      "id": "spouses",
+      "labels": {"ar": "الزوجات أمهات المؤمنين", "en": "Wives — Mothers of the Believers", "fr": "Épouses — Mères des croyants"},
+      "people": ["khadija-bint-khuwaylid","sawda-bint-zama","aisha-bint-abi-bakr","hafsa-bint-umar","zaynab-bint-khuzayma","umm-salama","zaynab-bint-jahsh","juwayriya-bint-al-harith","umm-habiba","safiyya-bint-huyayy","maymuna-bint-al-harith","mariya-al-qibtiyya"]
+    },
+    {
+      "id": "children",
+      "labels": {"ar": "الأبناء والبنات", "en": "Sons and daughters", "fr": "Fils et filles"},
+      "people": ["al-qasim-ibn-muhammad","zaynab-bint-muhammad","ruqayya-bint-muhammad","umm-kulthum-bint-muhammad","fatima-al-zahra","abdullah-ibn-muhammad","ibrahim-ibn-muhammad"]
+    },
+    {
+      "id": "grandchildren",
+      "labels": {"ar": "الأحفاد", "en": "Grandchildren", "fr": "Petits-enfants"},
+      "people": ["al-hasan-ibn-ali","al-husayn-ibn-ali"]
+    },
+    {
+      "id": "parents",
+      "labels": {"ar": "الوالدان", "en": "Parents", "fr": "Parents"},
+      "people": ["abdullah-ibn-abd-al-muttalib","amina-bint-wahb"]
+    },
+    {
+      "id": "paternal-uncles",
+      "labels": {"ar": "الأعمام", "en": "Paternal uncles", "fr": "Oncles paternels"},
+      "people": ["hamza-ibn-abd-al-muttalib","al-abbas-ibn-abd-al-muttalib"]
+    },
+    {
+      "id": "paternal-cousins",
+      "labels": {"ar": "أبناء الأعمام", "en": "Paternal cousins", "fr": "Cousins paternels"},
+      "people": ["ali-ibn-abi-talib","abdullah-ibn-abbas"]
+    },
+    {
+      "id": "ancestors",
+      "labels": {"ar": "الأجداد والأصول", "en": "Ancestors", "fr": "Ancêtres"},
+      "people": ["abd-al-muttalib","hashim-ibn-abd-manaf","abd-manaf-ibn-qusayy","qusayy-ibn-kilab","kilab-ibn-murra","murra-ibn-kab","kab-ibn-luayy","luayy-ibn-ghalib","ghalib-ibn-fihr","fihr-ibn-malik","malik-ibn-al-nadr","al-nadr-ibn-kinana","kinana-ibn-khuzayma","khuzayma-ibn-mudrika","mudrika-ibn-ilyas","ilyas-ibn-mudar","mudar-ibn-nizar","nizar-ibn-maadd","maadd-ibn-adnan","adnan"]
+    }
+  ]
+}
