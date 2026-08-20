@@ -1,16 +1,11 @@
 {
-  "version": 2,
-  "generated": 1787198540,
+  "version": 3,
+  "generated": 1787199200,
   "source": "user-upload",
   "books": [
     {
       "id": "character-shamail-001",
-      "aliases": [
-        "hadith-commentary-079",
-        "life-seerah-083",
-        "teachings-wisdom-012",
-        "tirmidhi-shamail"
-      ],
+      "aliases": ["hadith-commentary-079", "life-seerah-083", "teachings-wisdom-012", "tirmidhi-shamail"],
       "titleAr": "الشمائل المحمدية",
       "authorAr": "محمد بن عيسى الترمذي",
       "editorAr": "عزت عبيد الدعاس",
@@ -80,6 +75,79 @@
       "rights": "modern-rights-reserved-user-private-ingest",
       "publicBinary": false,
       "sha256": "4d2236f6514d96023917ddf16d6211ce8fea6b0fc46d27e456f5be24dbe8000f"
+    },
+    {
+      "id": "quran-meaning-093",
+      "titleAr": "الفتوحات المكية",
+      "authorAr": "محيي الدين ابن عربي",
+      "sourceType": "cover-only",
+      "pages": 1,
+      "drivePath": "Prophet-Library-Ingestion/books/quran-meaning-093/cover-user.pdf",
+      "status": "COVER_ONLY_NOT_FULL_TEXT",
+      "publicBinary": false,
+      "sha256": "f79b0f276254bf445f63186a87a89b4819e275eebe6e0309dc08245dfb27c269"
+    },
+    {
+      "id": "quran-meaning-096",
+      "titleAr": "كتاب الإسراء",
+      "editionTitleAr": "الإسراء إلى المقام الأسرى أو كتاب المعراج",
+      "authorAr": "محيي الدين ابن عربي",
+      "editorAr": "سعاد الحكيم",
+      "publisherAr": "دندرة للطباعة والنشر",
+      "editionAr": "الطبعة الأولى",
+      "yearHijri": 1408,
+      "yearGregorian": 1988,
+      "pages": 238,
+      "drivePath": "Prophet-Library-Ingestion/books/quran-meaning-096/complete.pdf",
+      "status": "READY_SCAN_OCR_QUEUED",
+      "rights": "classical-work-public-domain; supplied-1988-edition-rights-reserved",
+      "publicBinary": false,
+      "sha256": "48a871363f2111f02c83625dc82c291c1538d4872bb8a8fd3cefbffdfc222f79"
+    },
+    {
+      "id": "quran-meaning-102",
+      "titleAr": "رسائل ابن عربي: شرح مبتدأ الطوفان ورسائل أخرى",
+      "authorAr": "محيي الدين ابن عربي",
+      "editorsAr": ["قاسم محمد عباس", "حسين محمد عجيل"],
+      "publisherAr": "منشورات المجمع الثقافي، أبو ظبي",
+      "editionAr": "الطبعة الأولى",
+      "yearGregorian": 1998,
+      "pages": 350,
+      "drivePath": "Prophet-Library-Ingestion/books/quran-meaning-102/complete.pdf",
+      "status": "READY_SCAN_OCR_QUEUED",
+      "rights": "classical-works-public-domain; supplied-1998-edition-rights-reserved",
+      "publicBinary": false,
+      "sha256": "266b7e2836a6394a80e1d433f5daba7ccceef0f13cfdcfd447006c85ea7fb487"
+    },
+    {
+      "id": "quran-meaning-103",
+      "titleAr": "الكبريت الأحمر في بيان علوم الشيخ الأكبر",
+      "authorAr": "عبد الوهاب بن أحمد الشعراني",
+      "editorAr": "عبد الله محمود محمد عمر",
+      "publisherAr": "دار الكتب العلمية، بيروت",
+      "editionAr": "الطبعة الأولى",
+      "yearHijri": 1418,
+      "yearGregorian": 1998,
+      "isbn": "2-7451-0051-3",
+      "pages": 263,
+      "drivePath": "Prophet-Library-Ingestion/books/quran-meaning-103/complete.pdf",
+      "status": "READY_SCAN_OCR_QUEUED",
+      "rights": "classical-work-public-domain; supplied-1998-edition-rights-reserved",
+      "publicBinary": false,
+      "sha256": "3d90896b59f16f96b9ea97b9d065e0d283ffd293fa04cccda972f41eb117b923"
+    },
+    {
+      "id": "quran-meaning-104",
+      "titleAr": "كتاب مشاهد الأسرار القدسية ومطالع الأنوار الإلهية",
+      "authorAr": "محيي الدين ابن عربي",
+      "sourceContextAr": "ملف الصوفية",
+      "printedPageRange": "211-231",
+      "pages": 21,
+      "drivePath": "Prophet-Library-Ingestion/books/quran-meaning-104/complete.pdf",
+      "status": "READY_REPRINT_OCR_QUEUED",
+      "rights": "classical-work-public-domain; supplied-reprint-edition-rights-unverified",
+      "publicBinary": false,
+      "sha256": "0e425156f8a56830fb2307cd547b80a86470892a3439c87e41e7661c58438012"
     }
   ]
 }
