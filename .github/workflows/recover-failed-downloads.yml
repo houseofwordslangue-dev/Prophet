@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - main
       - recover-failed-downloads-20260820
     paths:
       - 'data/recovery/direct_downloads.json'
