@@ -1,8 +1,7 @@
 {
-  "schema": "strict-unrestricted-candidates-v1",
-  "rotationEnabled": true,
-  "resumeRequestedAt": "2026-08-20T08:34:00Z",
-  "expandedAt": "2026-08-20T08:55:00Z",
+  "schema": "strict-acquisition-v3",
+  "updatedAt": "2026-08-20T09:08:07Z",
+  "publishedWorkIdsKnown": 0,
   "items": [
     {
       "workId": "dinet-life-mohammad",
@@ -26,7 +25,10 @@
         "الرسول",
         "الإنسان",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "lane-poole-table-talk",
@@ -50,7 +52,10 @@
         "النبي",
         "الإنسان",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "rodwell-koran",
@@ -71,7 +76,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "draycott-mahomet",
@@ -92,7 +100,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "hayes-mohammed-prophet-islam",
@@ -113,7 +124,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "dibble-mohammed",
@@ -137,7 +151,10 @@
         "النبي",
         "الرسول",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "khuda-bukhsh-islam-mohamed",
@@ -161,7 +178,10 @@
         "النبي",
         "الإنسان",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "sell-faith-of-islam",
@@ -183,7 +203,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "ahmed-hussain-notes-islam",
@@ -206,7 +229,10 @@
       "siteSections": [
         "الإنسان",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "leonard-islam-moral-spiritual",
@@ -230,7 +256,10 @@
         "الإنسان",
         "الرحمة العظمى",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "carra-de-vaux-doctrine-islam",
@@ -252,7 +281,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "ameer-ali-islam",
@@ -275,7 +307,10 @@
       "siteSections": [
         "الإنسان",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "hurgronje-mohammedanism",
@@ -297,7 +332,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "lunt-story-islam",
@@ -321,7 +359,10 @@
         "النبي",
         "الرسول",
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "zwemer-arabia-cradle-islam",
@@ -343,7 +384,10 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "FAILED",
+      "error": "download:HTTPError"
     },
     {
       "workId": "quran-meaning-003",
@@ -364,7 +408,14 @@
       ],
       "siteSections": [
         "المصادر والدراسات"
-      ]
+      ],
+      "checkedAt": "2026-08-20T09:08:07Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://dn760003.eu.archive.org/0/items/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%204_text.pdf",
+      "localPath": "library/works/quran-meaning-003/editions/ed-f2065f52cf85/original.pdf",
+      "sha256": "f2065f52cf8557dac7f07fbb96c8999e200ab14ca1bf2cd33e751010eaff982d",
+      "editionId": "ed-f2065f52cf85",
+      "error": ""
     }
   ]
 }

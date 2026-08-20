@@ -1,0 +1,41 @@
+{
+  "schema": "ingested-library-v2",
+  "generatedAt": "2026-08-20T09:08:18.106654+00:00",
+  "count": 1,
+  "currentBatchCount": 1,
+  "items": [
+    {
+      "id": "quran-meaning-003:ed-f2065f52cf85",
+      "workId": "quran-meaning-003",
+      "editionId": "ed-f2065f52cf85",
+      "titleOriginal": "Rūḥ al-Bayān fī Tafsīr al-Qurʾān",
+      "titleAr": "روح البيان في تفسير القرآن",
+      "titleEn": null,
+      "titleFr": null,
+      "author": "إسماعيل حقي البروسوي",
+      "language": "ar",
+      "subjects": [
+        "quran-meaning"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 9860185,
+      "sha256": "f2065f52cf8557dac7f07fbb96c8999e200ab14ca1bf2cd33e751010eaff982d",
+      "localUrl": "/library/works/quran-meaning-003/editions/ed-f2065f52cf85/original.pdf",
+      "readerUrl": "/library/works/quran-meaning-003/editions/ed-f2065f52cf85/original.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": false,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "ocr-index",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true
+    }
+  ]
+}
