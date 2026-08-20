@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+html[lang="ar"] body,html[lang="ar"] button,html[lang="ar"] input,html[lang="ar"] select,html[lang="ar"] textarea{font-family:'Cairo',Tahoma,Arial,sans-serif}
+.brand-copy,.library-nav,.hero-copy,.section-head,.filters,.book-info,.dialog-layout,.mode-intro,.browse-index,.discovery-card,.keyword-cloud,.footer-grid{font-family:'Cairo',Tahoma,Arial,sans-serif}
+.meta,.badge,.book-status,.stat-grid strong,.deep-count,.pagination-summary,.library-pagination button,.series-summary,.utility-tags,.head-actions small,.brand-copy small{font-family:'Poppins','Cairo',Arial,sans-serif}
+:lang(en),:lang(fr){font-family:'Poppins','Cairo',Arial,sans-serif}
