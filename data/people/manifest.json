@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "updated": "2026-08-20",
+  "publication_policy": {
+    "source_only": true,
+    "missing_fields": "remain_absent",
+    "generation_inference": "forbidden",
+    "generation_evidence": ["generation", "tabaqa_order", "tabaqat"],
+    "conflicts": "leave_in_general_narrator_corpus"
+  },
+  "family": {
+    "verified_total": 54,
+    "data": "family-core.json",
+    "categories": [
+      {"id": "mothers_of_believers", "label_ar": "زوجات النبي ﷺ — أمهات المؤمنين", "count": 11, "verified": true},
+      {"id": "distinct_household_status", "label_ar": "نساء البيت ذوات الوضع التاريخي المتميز", "count": 2, "verified": true},
+      {"id": "children", "label_ar": "أولاد النبي ﷺ", "count": 7, "verified": true},
+      {"id": "grandchildren", "label_ar": "أحفاد النبي ﷺ", "count": 7, "verified": true},
+      {"id": "parents", "label_ar": "والدا النبي ﷺ", "count": 2, "verified": true},
+      {"id": "direct_grandparents", "label_ar": "الأجداد المباشرون", "count": 4, "verified": true},
+      {"id": "ancestor_to_adnan", "label_ar": "النسب إلى عدنان", "count": 21, "verified": true}
+    ]
+  },
+  "rijal": {
+    "source": {
+      "repository": "R3GENESI5/Itqan",
+      "manifest": "https://raw.githubusercontent.com/R3GENESI5/Itqan/master/app/data/rijal/manifest.json",
+      "version_seen": "1.20"
+    },
+    "source_total": 115735,
+    "companions": {"count": 10880, "status": "source_manifest_verified"},
+    "tabiin": {"count": null, "tabaqa_orders": [2,3,4,5,6], "status": "awaiting_reproducible_scan"},
+    "atba_al_tabiin": {"count": null, "tabaqa_orders": [7,8,9], "status": "awaiting_reproducible_scan"},
+    "post_atba": {"count": null, "tabaqa_orders": [10,11,12], "status": "awaiting_reproducible_scan"},
+    "audit_output": "rijal-audit.json",
+    "index_output": "rijal-index.json"
+  },
+  "profile_sections": [
+    "identity_and_name_variants",
+    "genealogy_and_nisba",
+    "generation_and_tabaqa",
+    "chronology",
+    "biography_source_text",
+    "teachers",
+    "students",
+    "transmitted_evaluations",
+    "relationships",
+    "sources_and_bibliography"
+  ]
+}
