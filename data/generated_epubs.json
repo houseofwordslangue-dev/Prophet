@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-20T05:42:00+01:00",
+  "count": 12,
+  "items": [
+    {
+      "id": "life-seerah-002",
+      "titleAr": "السيرة النبوية لابن هشام",
+      "epubPath": "Prophet-Library-Ingestion/books/life-seerah-002/complete.epub",
+      "mode": "merged-reflowable",
+      "sizeBytes": 1131378,
+      "sha256": "4a43ab8c37b35da36c3f123936f0fb4511fdb84da854f622b652f52ee1dfcd08",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "character-shamail-001",
+      "titleAr": "الشمائل المحمدية",
+      "epubPath": "Prophet-Library-Ingestion/books/character-shamail-001/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 15458332,
+      "sha256": "8514c3d91a28b3548228ec7ab3d1076f4ad207cd4a3a8aad29c1722725ae3718",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "life-seerah-056",
+      "titleAr": "دلائل الخيرات وشوارق الأنوار في ذكر الصلاة على النبي المختار",
+      "epubPath": "Prophet-Library-Ingestion/books/life-seerah-056/complete.epub",
+      "mode": "page-preserving-color",
+      "sizeBytes": 10886337,
+      "sha256": "dd704e3c687e70583bed977421adad5ff21464eeb64490584cb13f27e8a93066",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "teachings-wisdom-101",
+      "titleAr": "الأذكياء",
+      "epubPath": "Prophet-Library-Ingestion/books/teachings-wisdom-101/complete.epub",
+      "mode": "reflowable-text",
+      "sizeBytes": 190215,
+      "sha256": "251683c9fa8abc4bbfa0b3da6840f11cea3b5882896f9f19133530419c773970",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "quran-meaning-101",
+      "titleAr": "قصص الأنبياء",
+      "epubPath": "Prophet-Library-Ingestion/books/quran-meaning-101/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 77058974,
+      "sha256": "fc8f09ed15cee63eea02102bbedaeea4d15bea6f962bd79d560c59c6ce09c102",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "teachings-wisdom-102",
+      "titleAr": "بر الوالدين",
+      "epubPath": "Prophet-Library-Ingestion/books/teachings-wisdom-102/complete.epub",
+      "mode": "reflowable-text",
+      "sizeBytes": 24926,
+      "sha256": "d7d1e89b583b5fda1ac2b675b3c245032758b331099714362a38f61af0f87f3e",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "life-seerah-101",
+      "titleAr": "الإسراء والمعراج",
+      "epubPath": "Prophet-Library-Ingestion/books/life-seerah-101/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 8388356,
+      "sha256": "af29f89c40b333422dad1e48c19579e8a72790c07c06d0154c52f854bbdf8f62",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "quran-meaning-093",
+      "titleAr": "الفتوحات المكية",
+      "epubPath": "Prophet-Library-Ingestion/books/quran-meaning-093/cover-only.epub",
+      "mode": "cover-only",
+      "sizeBytes": 375599,
+      "sha256": "7bdc7abea5f97da88e970c4dc6a25f3f4661824567a3b54a5018fd73d4ec5fc3",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "quran-meaning-096",
+      "titleAr": "الإسراء إلى المقام الأسرى أو كتاب المعراج",
+      "epubPath": "Prophet-Library-Ingestion/books/quran-meaning-096/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 18975528,
+      "sha256": "cc568c89dbc740cdf49504cfce274f746b2b8827429a35b404dc7b1b1cfafccb",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "quran-meaning-102",
+      "titleAr": "رسائل ابن عربي: شرح مبتدأ الطوفان ورسائل أخرى",
+      "epubPath": "Prophet-Library-Ingestion/books/quran-meaning-102/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 50351407,
+      "sha256": "1e32eed400e4d892b616bd566d2979653dced37e28540c52c1a58d5bbb38ae5d",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "quran-meaning-103",
+      "titleAr": "الكبريت الأحمر في بيان علوم الشيخ الأكبر",
+      "epubPath": "Prophet-Library-Ingestion/books/quran-meaning-103/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 38346580,
+      "sha256": "69954ce53ff6cd4cdff5dd980b7e14c715962c722bc72e48b7d006a1624f6dc6",
+      "status": "READY_EPUB"
+    },
+    {
+      "id": "quran-meaning-104",
+      "titleAr": "كتاب مشاهد الأسرار القدسية ومطالع الأنوار الإلهية",
+      "epubPath": "Prophet-Library-Ingestion/books/quran-meaning-104/complete.epub",
+      "mode": "page-preserving",
+      "sizeBytes": 3775539,
+      "sha256": "8cd0813d09b46f1fd8ce557014c8fa8604f9283b9601c90ae6ceb13a15d7f83b",
+      "status": "READY_EPUB"
+    }
+  ]
+}
