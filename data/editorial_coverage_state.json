@@ -7,7 +7,7 @@
   "coverageWindowHours": 24,
   "cycleFrequencyHours": 1,
   "status": "FAIL",
-  "reason": "Dynamic discovery confirms 39 active editorial slots. Thirty-eight have qualifying genuine source-derived publication within the rolling 24-hour window. media/documentaries remains uncovered. Repository media configuration exposes only a documentary taxonomy/search repertory entry; the connected Prophet-Library-Ingestion Drive search returned no approved ingested documentary or documentary transcript, and the approved source import configuration contains no documentary source. No article was fabricated or published for this gap.",
+  "reason": "Dynamic discovery confirms 39 active editorial slots. Thirty-eight have qualifying genuine source-derived publication within the rolling 24-hour window. media/documentaries remains uncovered. Repository media configuration exposes only a documentary taxonomy/search repertory entry; the connected Prophet-Library-Ingestion Drive search returned no approved ingested documentary or documentary transcript, and the approved source import configuration contains no documentary source. No article was fabricated or published for this gap. Required Gmail report delivery was attempted but blocked because the Gmail connector requires user input in this non-interactive run.",
   "activeEditorialSlots": 39,
   "coveredEditorialSlots": 38,
   "requiringArticlesAtCycleStart": 1,
@@ -54,10 +54,16 @@
     "provider": "Google Drive",
     "folder": "Prophet-Library-Ingestion",
     "folderId": "1AQhIfoWxzWcHvm4SgILEh_VbkgbKBhbZ",
-    "documentarySearches": ["وثائقي", "documentary", "documentary transcript seerah"],
+    "documentarySearches": ["وثائقي", "documentary", "documentary transcript seerah", "تفريغ السيرة"],
     "documentarySearchResult": "no approved ingested documentary source found",
     "approvedSourceConfigChecked": "manifests/source_import_config.json",
     "approvedSourceConfigDocumentaryEntries": 0
   },
-  "reportRecipient": "houseofwords.langue@gmail.com"
+  "report": {
+    "recipient": "houseofwords.langue@gmail.com",
+    "subject": "24-Hour Genuine Editorial Coverage Report",
+    "sendAttempted": true,
+    "sent": false,
+    "blocker": "Gmail connector returned: User input required but current turn is running in a non-interactive mode."
+  }
 }
