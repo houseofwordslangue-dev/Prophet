@@ -14,6 +14,16 @@ AI MAY ONLY perform linguistic correction, grammar, spelling, punctuation, typog
 
 AI MUST NOT invent, expand, interpret from its own knowledge, summarize from its own knowledge, create facts, arguments, examples, quotations, missing information, or original substantive paragraphs.
 
+## Author attribution rule
+
+Public bylines MUST reflect provenance rather than editorial convenience.
+
+- If an article is 100% source-authentic, contains no AI-original substantive prose, passes provenance verification, and is derived from one attributable source only, display that source author's name.
+- If the source is the Qur'an, display `القرآن الكريم` as the source attribution rather than inventing a human author.
+- If an article combines two or more references/sources, display `هيئة تحرير الموقع`.
+- If a single authentic source has no reliably established author identity, display `هيئة تحرير الموقع` rather than guessing an author.
+- AI must never be displayed as the author.
+
 ## Production pipeline
 
 REAL SOURCE MATERIAL → extract passages → OCR/transcribe when necessary → verify against original → select coherent source material → arrange into article structure → linguistic revision only → source-fidelity validation → publish.

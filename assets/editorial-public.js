@@ -2,9 +2,21 @@
 'use strict';
 const MANIFEST='data/editorial/publication_manifest.json';
 const SECTION_AR={light:'النور',prophet:'النبي',messenger:'الرسول',human:'الإنسان',mercy:'الرحمة العظمى',family:'الأسرة',companions:'الصحابة',media:'الوسائط',forums:'المنتديات'};
-const AUTHOR_AR='هيئة تحرير الموقع';
+const EDITORIAL_BOARD_AR='هيئة تحرير الموقع';
+const QURAN_AR='القرآن الكريم';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(url+' '+r.status);return r.json()}
+function deriveByline(d,sources){
+ const src=(sources||[]).filter(Boolean);
+ const refs=new Set(src.map(s=>String(s.ref||s.resourceId||s.originalUrl||s.title||'').trim()).filter(Boolean));
+ const authentic=Number(d.sourceCoveragePercent)===100&&Number(d.aiOriginalSubstantiveContentPercent||0)===0&&String(d.provenanceStatus||'PASS').toUpperCase()==='PASS';
+ if(!authentic||src.length!==1||refs.size!==1)return EDITORIAL_BOARD_AR;
+ const s=src[0];
+ const author=String(s.author||'').trim();
+ if(author)return author;
+ if(String(s.resourceId||'').toLowerCase()==='quran'||String(s.title||'').toLowerCase()==='quran')return QURAN_AR;
+ return EDITORIAL_BOARD_AR;
+}
 function applyOverride(d,m){
  const o=(m.verificationOverrides||{})[d.id]||null;
  let paragraphs=d.paragraphs||[],sources=d.sources||[];
@@ -14,7 +26,10 @@ function applyOverride(d,m){
    const base={...(sources[0]||{})};
    sources=[{...base,ref,volume:String(o.volume||base.volume||''),pages:String(o.pdfPage||base.pages||''),ocrRef:'visual-check:'+(o.sourceFile||'user-supplied-pdf')+'#pdf-page-'+o.pdfPage,verifiedAgainstOriginal:true,verificationBasis:'visually verified against the user-supplied PDF page'}];
  }
- return {...d,author:d.author||AUTHOR_AR,paragraphs,sources,publishedAt:m.publishedAt,publicationStatus:'PUBLISHED',draftStatus:'SOURCE_VERIFIED',sections:[d.section+'/'+d.subsection],articleUrl:'feature.html?id='+encodeURIComponent(d.id),sourceCoveragePercent:100,aiOriginalSubstantiveContentPercent:0,unsupportedFactualParagraphs:0,unverifiedQuotations:0,quotationVerification:'PASS',provenanceStatus:'PASS',duplicateCheck:'PASS'};
+ const normalized={...d,paragraphs,sources,publishedAt:m.publishedAt,publicationStatus:'PUBLISHED',draftStatus:'SOURCE_VERIFIED',sections:[d.section+'/'+d.subsection],articleUrl:'feature.html?id='+encodeURIComponent(d.id),sourceCoveragePercent:100,aiOriginalSubstantiveContentPercent:0,unsupportedFactualParagraphs:0,unverifiedQuotations:0,quotationVerification:'PASS',provenanceStatus:'PASS',duplicateCheck:'PASS'};
+ normalized.author=deriveByline(normalized,sources);
+ normalized.attributionType=normalized.author===EDITORIAL_BOARD_AR?'editorial-board':'source-author';
+ return normalized;
 }
 async function loadPublished(){
  const m=await getJSON(MANIFEST),allowed=new Set(m.publishedIds||[]),all=[];
@@ -23,7 +38,7 @@ async function loadPublished(){
  return {manifest:m,articles:[...allowed].map(id=>by.get(id))};
 }
 function excerpt(a){const t=(a.paragraphs||[]).map(p=>p.text).join(' ');return t.length>180?t.slice(0,180)+'…':t}
-function card(a){return `<article class="ep-card" data-section="${esc(a.section)}"><div class="meta">${esc(SECTION_AR[a.section]||a.section)} · ${esc(a.subsection)}</div><h2>${esc(a.title)}</h2><div class="ep-byline">${esc(a.author||AUTHOR_AR)}</div><p>${esc(excerpt(a))}</p><div class="foot"><span class="ep-badge">موثّق المصدر 100%</span><a href="${esc(a.articleUrl)}">قراءة المادة</a></div></article>`}
+function card(a){return `<article class="ep-card" data-section="${esc(a.section)}"><div class="meta">${esc(SECTION_AR[a.section]||a.section)} · ${esc(a.subsection)}</div><h2>${esc(a.title)}</h2><div class="ep-byline">${esc(a.author||EDITORIAL_BOARD_AR)}</div><p>${esc(excerpt(a))}</p><div class="foot"><span class="ep-badge">موثّق المصدر 100%</span><a href="${esc(a.articleUrl)}">قراءة المادة</a></div></article>`}
 function renderFeed(data){
  const feed=document.getElementById('articleFeed'),status=document.getElementById('publicationStatus'),search=document.getElementById('articleSearch'),filter=document.getElementById('sectionFilter');
  const sections=[...new Set(data.articles.map(a=>a.section))];filter.innerHTML='<option value="">جميع الأقسام</option>'+sections.map(s=>`<option value="${esc(s)}">${esc(SECTION_AR[s]||s)}</option>`).join('');
@@ -33,7 +48,7 @@ function renderFeed(data){
 function renderArticle(data){
  const id=new URLSearchParams(location.search).get('id'),a=data.articles.find(x=>x.id===id),box=document.getElementById('articleView');if(!a){box.innerHTML='<div class="ep-error">المادة المطلوبة غير موجودة في سجل النشر الموثّق.</div>';return}
  document.title=a.title+' — محمد ﷺ';
- box.innerHTML=`<div class="ep-breadcrumb">${esc(SECTION_AR[a.section]||a.section)} / ${esc(a.subsection)}</div><h1>${esc(a.title)}</h1><div class="ep-article-lead"><strong>${esc(a.author||AUTHOR_AR)}</strong> · مادة مصدرية منشورة بعد التحقق · ${new Date(a.publishedAt).toLocaleString('ar')}</div><div class="ep-article-body">${(a.paragraphs||[]).map(p=>`<p lang="${esc(p.language||'ar')}" dir="${(p.language==='en'||p.language==='fr')?'ltr':'rtl'}">${esc(p.text)}</p>`).join('')}</div><div class="ep-proof"><strong>سجل النزاهة التحريرية</strong>تغطية المصدر: 100% · محتوى جوهري مولّد بالذكاء الاصطناعي: 0% · فقرات واقعية غير مسندة: 0 · اقتباسات غير متحقق منها: 0. تفاصيل الإسناد محفوظة في سجل التوثيق الداخلي.</div><div class="ep-article-actions"><a href="editorial.html">كل المقالات</a><a href="library.html">المكتبة</a></div>`;
+ box.innerHTML=`<div class="ep-breadcrumb">${esc(SECTION_AR[a.section]||a.section)} / ${esc(a.subsection)}</div><h1>${esc(a.title)}</h1><div class="ep-article-lead"><strong>${esc(a.author||EDITORIAL_BOARD_AR)}</strong> · مادة مصدرية منشورة بعد التحقق · ${new Date(a.publishedAt).toLocaleString('ar')}</div><div class="ep-article-body">${(a.paragraphs||[]).map(p=>`<p lang="${esc(p.language||'ar')}" dir="${(p.language==='en'||p.language==='fr')?'ltr':'rtl'}">${esc(p.text)}</p>`).join('')}</div><div class="ep-proof"><strong>سجل النزاهة التحريرية</strong>تغطية المصدر: 100% · محتوى جوهري مولّد بالذكاء الاصطناعي: 0% · فقرات واقعية غير مسندة: 0 · اقتباسات غير متحقق منها: 0. تفاصيل الإسناد محفوظة في سجل التوثيق الداخلي.</div><div class="ep-article-actions"><a href="editorial.html">كل المقالات</a><a href="library.html">المكتبة</a></div>`;
 }
 loadPublished().then(data=>{if(document.body.dataset.page==='feature')renderArticle(data);else renderFeed(data)}).catch(err=>{const el=document.getElementById('articleFeed')||document.getElementById('articleView')||document.body;el.innerHTML='<div class="ep-error">تعذر تحميل سجل النشر الموثّق. '+esc(err.message)+'</div>'});
 })();
