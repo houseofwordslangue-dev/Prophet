@@ -21,6 +21,7 @@ on:
       - 'people.html'
       - 'person.html'
       - 'server.py'
+      - 'assets/catalogue-restore.js'
       - 'assets/media-library.js'
       - 'assets/universal-player.js'
       - 'assets/people.js'
@@ -114,6 +115,7 @@ jobs:
         run: python scripts/promote_verified_catalogue_candidates.py --limit 25
 
       - name: Advance one source rotation
+        continue-on-error: true
         run: python scripts/rotation_ingest.py --once
 
       - name: Fill all six categorized media sections
@@ -130,7 +132,7 @@ jobs:
           git config user.name 'prophet-ingestion-bot'
           git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
-          git add scripts/rotation_ingest.py scripts/acquire_unrestricted_library.py scripts/promote_verified_catalogue_candidates.py scripts/build_ingested_library.py scripts/build_people.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml people.html person.html assets/people.js assets/people.css
+          git add scripts/rotation_ingest.py scripts/acquire_unrestricted_library.py scripts/promote_verified_catalogue_candidates.py scripts/build_ingested_library.py scripts/build_people.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml people.html person.html assets/catalogue-restore.js assets/people.js assets/people.css
           if ! git diff --cached --quiet; then
             git commit -m "Advance source ingestion and refresh individual pages"
             git push
@@ -151,7 +153,16 @@ jobs:
           printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
-          rsync -az --delete --exclude '.git/' --exclude 'media-cache/' --exclude 'private/deep_source_cache/' --exclude 'private/quarantine*/' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
+          rsync -az --delete \
+            --exclude '.git/' \
+            --exclude 'media-cache/' \
+            --exclude 'private/deep_source_cache/' \
+            --exclude 'private/quarantine*/' \
+            --exclude 'library/works/' \
+            ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
+          if [ -d library/works ]; then
+            rsync -az library/works/ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/library/works/"
+          fi
 
       - name: Enforce hundreds-per-category media gate
         run: |
