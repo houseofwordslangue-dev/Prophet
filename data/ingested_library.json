@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T19:18:30.915327+00:00",
-  "count": 48,
+  "generatedAt": "2026-08-20T20:52:20.605734+00:00",
+  "count": 52,
   "currentBatchCount": 4,
   "items": [
     {
@@ -168,6 +168,40 @@
       "sha256": "9b590d396ecae23ac6e44e0ec6d25211197bbe26928d17690634e7212c275462",
       "localUrl": "/library/works/zwemer-arabia-cradle-islam/editions/ed-9b590d396eca/original.txt",
       "readerUrl": "/library/works/zwemer-arabia-cradle-islam/editions/ed-9b590d396eca/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-11198:ed-2d66492fb277",
+      "workId": "gutenberg-11198",
+      "editionId": "ed-2d66492fb277",
+      "titleOriginal": "Christianity and Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 130047,
+      "sha256": "2d66492fb277fe14857570bdac290af0f04460ecae91f426c3a2aca9f96cf967",
+      "localUrl": "/library/works/gutenberg-11198/editions/ed-2d66492fb277/original.txt",
+      "readerUrl": "/library/works/gutenberg-11198/editions/ed-2d66492fb277/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -495,6 +529,41 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-24314:ed-5280167b8fcc",
+      "workId": "gutenberg-24314",
+      "editionId": "ed-5280167b8fcc",
+      "titleOriginal": "Mystics and Saints of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "التصوف والأخلاق",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 362626,
+      "sha256": "5280167b8fccb3455bf788d150fd6c877fb71578da6a16c229fb0a5168dfdf18",
+      "localUrl": "/library/works/gutenberg-24314/editions/ed-5280167b8fcc/original.txt",
+      "readerUrl": "/library/works/gutenberg-24314/editions/ed-5280167b8fcc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "ahmed-hussain-notes-islam:ed-859139d09118",
       "workId": "ahmed-hussain-notes-islam",
       "editionId": "ed-859139d09118",
@@ -810,6 +879,40 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-17213:ed-7395eab567bc",
+      "workId": "gutenberg-17213",
+      "editionId": "ed-7395eab567bc",
+      "titleOriginal": "The Future of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 297734,
+      "sha256": "7395eab567bc18253045f2cbb50dbbb6ec64eb76959c28e1ec1e00af8c998ee6",
+      "localUrl": "/library/works/gutenberg-17213/editions/ed-7395eab567bc/original.txt",
+      "readerUrl": "/library/works/gutenberg-17213/editions/ed-7395eab567bc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "gutenberg-63654:ed-76d15dc5b58e",
       "workId": "gutenberg-63654",
       "editionId": "ed-76d15dc5b58e",
@@ -1010,6 +1113,40 @@
       "sha256": "272b5a7dc5327a4ae3768839a3ae76e0a2ed36fe629b54c1a9a2ad91c155d690",
       "localUrl": "/library/works/gutenberg-67388/editions/ed-272b5a7dc532/original.txt",
       "readerUrl": "/library/works/gutenberg-67388/editions/ed-272b5a7dc532/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-24107:ed-e0d3acbdaf31",
+      "workId": "gutenberg-24107",
+      "editionId": "ed-e0d3acbdaf31",
+      "titleOriginal": "The New World of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 655134,
+      "sha256": "e0d3acbdaf31b33506fcf83ca197c69e2e8ea51363b2c0f731ff300aadca504d",
+      "localUrl": "/library/works/gutenberg-24107/editions/ed-e0d3acbdaf31/original.txt",
+      "readerUrl": "/library/works/gutenberg-24107/editions/ed-e0d3acbdaf31/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
