@@ -58,7 +58,7 @@ jobs:
       PM_ROTATE_REFERENCES: ${{ inputs.references || '25' }}
       PM_OCR_DPI: '90'
       PM_MEDIA_MAX_PER_SOURCE: '350'
-      PM_MEDIA_TARGET_PER_CATEGORY: '200'
+      PM_MEDIA_TARGET_PER_CATEGORY: '300'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -82,28 +82,32 @@ jobs:
       - name: Advance one source rotation
         run: python scripts/rotation_ingest.py --once
 
-      - name: Synchronize categorized media repertory
+      - name: Fill all six categorized media sections
         run: python scripts/sync_media.py
 
       - name: Build reader/search/listen/watch capability index
         run: python scripts/build_ingested_library.py
 
-      - name: Verify media catalogue volume
+      - name: Enforce hundreds-per-category media gate
         run: |
           python - <<'PY'
-          import json, pathlib
+          import json, pathlib, sys
           p=pathlib.Path('data/imported_media.json')
-          d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {'items':[]}
+          if not p.exists():
+              raise SystemExit('FAIL: data/imported_media.json missing')
+          d=json.loads(p.read_text(encoding='utf-8'))
           items=d.get('items',[])
           cats=d.get('categoryCounts',{})
-          target=int(d.get('targetPerCategory') or 200)
+          target=int(d.get('targetPerCategory') or 300)
+          required=('video','lecture','podcast','research','documentary','audio')
+          missing={k:int(cats.get(k,0)) for k in required if int(cats.get(k,0))<target}
           print('media items:',len(items))
           print('media categories:',cats)
-          missing={k:v for k,v in cats.items() if v<target}
+          print('required per category:',target)
           if missing:
-              print('WARNING: sources returned fewer than target in:',missing)
-          else:
-              print('PASS: every media category has at least',target,'genuine indexed items')
+              print('FAIL: categories below target:',missing)
+              sys.exit(2)
+          print('PASS: all six categories contain at least',target,'genuine indexed items; total target >=',target*len(required))
           PY
 
       - name: Commit repository-safe ingestion state and indexes
@@ -113,7 +117,7 @@ jobs:
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
           git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml
           if ! git diff --cached --quiet; then
-            git commit -m "Advance rotating source ingestion and media catalogue"
+            git commit -m "Fill all media categories with hundreds of genuine items"
             git push
           fi
 
