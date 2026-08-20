@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "generated_at_utc": "2026-08-20T07:26:37.243612+00:00",
+  "method": "explicit_source_generation_fields_with_conflict_quarantine",
+  "source": {
+    "repository": "R3GENESI5/Itqan",
+    "base_url": "https://raw.githubusercontent.com/R3GENESI5/Itqan/master/app/data/rijal",
+    "manifest_version": "1.20",
+    "manifest_total": 115735,
+    "manifest_companions": 10880
+  },
+  "rules": {
+    "companions": [
+      1
+    ],
+    "tabiin": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atba_al_tabiin": [
+      7,
+      8,
+      9
+    ],
+    "post_atba": [
+      10,
+      11,
+      12
+    ],
+    "no_heuristic_inference": true,
+    "conflicting_explicit_evidence": "unclassified",
+    "companion_chunk_vs_later_tabaqa_conflict": "unclassified",
+    "non_companion_chunk_vs_layer_1_conflict": "unclassified"
+  },
+  "counts": {
+    "all_profiles": 115735,
+    "companions_manifest": 10880,
+    "companions_explicit_layer_nonconflicting": 333,
+    "tabiin": 4959,
+    "atba_al_tabiin": 2629,
+    "post_atba": 1818,
+    "unclassified": 105996,
+    "without_explicit_layer": 105645,
+    "generation_conflicts": 549,
+    "field_generation_conflicts": 198,
+    "source_status_conflicts": 351
+  },
+  "layer_counts_raw_before_conflict_quarantine": {
+    "1": 433,
+    "2": 342,
+    "3": 1787,
+    "4": 879,
+    "5": 622,
+    "6": 1553,
+    "7": 1345,
+    "8": 638,
+    "9": 665,
+    "10": 1061,
+    "11": 765
+  },
+  "evidence_field_counts": {
+    "generation": 1205,
+    "tabaqat": 9765
+  },
+  "source_files": {
+    "profiles_companion.json": {
+      "source_grade": "companion",
+      "manifest_count": 10880,
+      "observed_count": 10880,
+      "count_matches_manifest": true,
+      "classifications": {
+        "companions_explicit_layer": 333,
+        "unclassified": 10547
+      }
+    },
+    "profiles_reliable.json": {
+      "source_grade": "reliable",
+      "manifest_count": 26467,
+      "observed_count": 26467,
+      "count_matches_manifest": true,
+      "classifications": {
+        "atba_al_tabiin": 776,
+        "post_atba": 818,
+        "tabiin": 2187,
+        "unclassified": 22686
+      }
+    },
+    "profiles_mostly_reliable.json": {
+      "source_grade": "mostly_reliable",
+      "manifest_count": 21800,
+      "observed_count": 21800,
+      "count_matches_manifest": true,
+      "classifications": {
+        "atba_al_tabiin": 1200,
+        "post_atba": 871,
+        "tabiin": 1952,
+        "unclassified": 17777
+      }
+    },
+    "profiles_weak.json": {
+      "source_grade": "weak",
+      "manifest_count": 21413,
+      "observed_count": 21413,
+      "count_matches_manifest": true,
+      "classifications": {
+        "atba_al_tabiin": 395,
+        "post_atba": 75,
+        "tabiin": 413,
+        "unclassified": 20530
+      }
+    },
+    "profiles_abandoned.json": {
+      "source_grade": "abandoned",
+      "manifest_count": 1386,
+      "observed_count": 1386,
+      "count_matches_manifest": true,
+      "classifications": {
+        "atba_al_tabiin": 67,
+        "post_atba": 11,
+        "tabiin": 22,
+        "unclassified": 1286
+      }
+    },
+    "profiles_fabricator.json": {
+      "source_grade": "fabricator",
+      "manifest_count": 2094,
+      "observed_count": 2094,
+      "count_matches_manifest": true,
+      "classifications": {
+        "atba_al_tabiin": 54,
+        "post_atba": 8,
+        "tabiin": 13,
+        "unclassified": 2019
+      }
+    },
+    "profiles_unknown.json": {
+      "source_grade": "unknown",
+      "manifest_count": 31695,
+      "observed_count": 31695,
+      "count_matches_manifest": true,
+      "classifications": {
+        "atba_al_tabiin": 137,
+        "post_atba": 35,
+        "tabiin": 372,
+        "unclassified": 31151
+      }
+    }
+  },
+  "checks": {
+    "total_matches_expected": true,
+    "total_matches_source_manifest": true,
+    "companion_manifest_matches_expected": true,
+    "all_chunk_counts_match_manifest": true,
+    "classification_partition_matches_total": true,
+    "companion_chunk_not_counted_as_later_generation": true
+  },
+  "complete": true
+}

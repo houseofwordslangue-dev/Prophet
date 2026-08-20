@@ -1,23 +1,29 @@
-const CACHE='prophet-biography-v6-8-6-bookreader-v5';
+const CACHE='prophet-biography-v6-8-7-people-v1';
 const PRECACHE=[
   './library.html',
   './reader.html',
+  './people.html',
   './manifest.webmanifest',
   './assets/bookstore.css',
   './assets/bookstore-published.css',
   './assets/library-extended.css',
   './assets/tarjma-fonts.css',
   './assets/prophet-bookreader.css',
+  './assets/people.css',
   './assets/bookstore.js',
   './assets/library-extended.js',
   './assets/reader-route.js',
   './assets/prophet-bookreader.js',
   './assets/universal-player.js',
   './assets/api.js',
+  './assets/people.js',
   './data/reader_config.json',
   './data/published_user_books.json',
   './data/user_ingested_books.json',
   './data/generated_epubs.json',
+  './data/people/manifest.json',
+  './data/people/family-core.json',
+  './data/people/rijal-audit.json',
   './private/acquisition_candidates.json'
 ];
 self.addEventListener('install',event=>{
@@ -27,10 +33,11 @@ self.addEventListener('activate',event=>{
   event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));
 });
 const NETWORK_FIRST=new Set([
-  '/library.html','/reader.html','/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css',
+  '/library.html','/reader.html','/people.html','/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css',
   '/assets/library-extended.js','/assets/library-extended.css','/assets/tarjma-fonts.css',
-  '/assets/reader-route.js','/assets/prophet-bookreader.js','/assets/prophet-bookreader.css','/data/reader_config.json',
-  '/data/published_user_books.json','/data/user_ingested_books.json','/data/generated_epubs.json'
+  '/assets/reader-route.js','/assets/prophet-bookreader.js','/assets/prophet-bookreader.css','/assets/people.js','/assets/people.css',
+  '/data/reader_config.json','/data/published_user_books.json','/data/user_ingested_books.json','/data/generated_epubs.json',
+  '/data/people/manifest.json','/data/people/family-core.json','/data/people/rijal-audit.json','/data/people/rijal-index.json'
 ]);
 self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
