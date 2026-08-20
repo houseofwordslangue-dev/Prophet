@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T15:58:19.007698+00:00",
-  "count": 40,
+  "generatedAt": "2026-08-20T17:15:44.220359+00:00",
+  "count": 44,
   "currentBatchCount": 4,
   "items": [
     {
@@ -570,6 +570,74 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-58977:ed-807ce1ee163e",
+      "workId": "gutenberg-58977",
+      "editionId": "ed-807ce1ee163e",
+      "titleOriginal": "The Confessions of Al Ghazzali",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 103512,
+      "sha256": "807ce1ee163e40c201fa97880ac8e2080815465b4c510ba685eafbd17bb13e3b",
+      "localUrl": "/library/works/gutenberg-58977/editions/ed-807ce1ee163e/original.txt",
+      "readerUrl": "/library/works/gutenberg-58977/editions/ed-807ce1ee163e/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-41707:ed-e1fc7e9f9618",
+      "workId": "gutenberg-41707",
+      "editionId": "ed-e1fc7e9f9618",
+      "titleOriginal": "The Development of Metaphysics in Persia",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 258129,
+      "sha256": "e1fc7e9f9618ce2b8fd0842392cfa150088afbe43cb4fa73e111d74bc2802b47",
+      "localUrl": "/library/works/gutenberg-41707/editions/ed-e1fc7e9f9618/original.txt",
+      "readerUrl": "/library/works/gutenberg-41707/editions/ed-e1fc7e9f9618/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "sell-faith-of-islam:ed-f3574b70004d",
       "workId": "sell-faith-of-islam",
       "editionId": "ed-f3574b70004d",
@@ -628,6 +696,40 @@
       "sha256": "76d15dc5b58e2796444dda922ff55a83b79e2c39f471d4e2151dabd0bfa642cb",
       "localUrl": "/library/works/gutenberg-63654/editions/ed-76d15dc5b58e/original.txt",
       "readerUrl": "/library/works/gutenberg-63654/editions/ed-76d15dc5b58e/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-16831:ed-5363e655b49f",
+      "workId": "gutenberg-16831",
+      "editionId": "ed-5363e655b49f",
+      "titleOriginal": "The Improvement of Human Reason",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 283665,
+      "sha256": "5363e655b49f0c8a031ed9e1d8a0899fac026a06d3536273d9f5c166de3a82ba",
+      "localUrl": "/library/works/gutenberg-16831/editions/ed-5363e655b49f/original.txt",
+      "readerUrl": "/library/works/gutenberg-16831/editions/ed-5363e655b49f/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -915,6 +1017,40 @@
       "sha256": "69be595590dd420020562416656abe013b5f5bf37d59a853148cec41a6b110f5",
       "localUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
       "readerUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-16996:ed-d9cafd8fe33c",
+      "workId": "gutenberg-16996",
+      "editionId": "ed-d9cafd8fe33c",
+      "titleOriginal": "Two Old Faiths",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 212251,
+      "sha256": "d9cafd8fe33c05e4b58a85ec5842297304832178efc6558baa3ff3206dfd3931",
+      "localUrl": "/library/works/gutenberg-16996/editions/ed-d9cafd8fe33c/original.txt",
+      "readerUrl": "/library/works/gutenberg-16996/editions/ed-d9cafd8fe33c/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
