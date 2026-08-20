@@ -436,30 +436,6 @@
       "discoveredBy": "gitenberg-github-public-domain-metadata"
     },
     {
-      "workId": "gutenberg-69275",
-      "titleOriginal": "Haririus latinus: sive Mohammedis Alcasemi, filius Alii, filius Mohammedis,",
-      "author": "",
-      "language": "la",
-      "format": "txt",
-      "sourceRepository": "Project Gutenberg",
-      "sourceIdentifier": "69275",
-      "sourceUrl": "https://www.gutenberg.org/ebooks/69275",
-      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Haririus-latinus-sive-Mohammedis-Alcasemi-filius-Alii-filius-Mohammedis-filius-Otmani-Hariri-__69275/master/69275-0.txt",
-      "rightsEvidence": "Public domain in the USA.",
-      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Haririus-latinus-sive-Mohammedis-Alcasemi-filius-Alii-filius-Mohammedis-filius-Otmani-Hariri-__69275/master/metadata.yaml",
-      "subjects": [
-        "السيرة النبوية",
-        "الدراسات الإسلامية",
-        "المصادر والدراسات"
-      ],
-      "siteSections": [
-        "المصادر والدراسات"
-      ],
-      "transportMirror": "GITenberg",
-      "mirrorRepository": "GITenberg/Haririus-latinus-sive-Mohammedis-Alcasemi-filius-Alii-filius-Mohammedis-filius-Otmani-Hariri-__69275",
-      "discoveredBy": "gitenberg-github-public-domain-metadata"
-    },
-    {
       "workId": "gutenberg-58977",
       "titleOriginal": "The Confessions of Al Ghazzali",
       "author": "",
@@ -503,54 +479,6 @@
       ],
       "transportMirror": "GITenberg",
       "mirrorRepository": "GITenberg/Two-Old-FaithsEssays-on-the-Religions-of-the-Hindus-and-the-Mohammedans_16996",
-      "discoveredBy": "gitenberg-github-public-domain-metadata"
-    },
-    {
-      "workId": "gutenberg-35873",
-      "titleOriginal": "Henry Martyn, Saint and Scholar\\r\\nFirst Modern Missionary to the Mohammedans,\\",
-      "author": "",
-      "language": "en",
-      "format": "txt",
-      "sourceRepository": "Project Gutenberg",
-      "sourceIdentifier": "35873",
-      "sourceUrl": "https://www.gutenberg.org/ebooks/35873",
-      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Henry-Martyn-Saint-and-ScholarFirst-Modern-Missionary-to-the-Mohammedans-1781-1812_35873/master/35873.txt",
-      "rightsEvidence": "Public domain in the USA.",
-      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Henry-Martyn-Saint-and-ScholarFirst-Modern-Missionary-to-the-Mohammedans-1781-1812_35873/master/metadata.yaml",
-      "subjects": [
-        "السيرة النبوية",
-        "الدراسات الإسلامية",
-        "المصادر والدراسات"
-      ],
-      "siteSections": [
-        "المصادر والدراسات"
-      ],
-      "transportMirror": "GITenberg",
-      "mirrorRepository": "GITenberg/Henry-Martyn-Saint-and-ScholarFirst-Modern-Missionary-to-the-Mohammedans-1781-1812_35873",
-      "discoveredBy": "gitenberg-github-public-domain-metadata"
-    },
-    {
-      "workId": "gutenberg-34172",
-      "titleOriginal": "Peter's Rock in Mohammed's Flood, from St. Gregory the Great to St. Leo III",
-      "author": "",
-      "language": "en",
-      "format": "txt",
-      "sourceRepository": "Project Gutenberg",
-      "sourceIdentifier": "34172",
-      "sourceUrl": "https://www.gutenberg.org/ebooks/34172",
-      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Peter-s-Rock-in-Mohammed-s-Flood-from-St.-Gregory-the-Great-to-St.-Leo-III_34172/master/34172.txt",
-      "rightsEvidence": "Public domain in the USA.",
-      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Peter-s-Rock-in-Mohammed-s-Flood-from-St.-Gregory-the-Great-to-St.-Leo-III_34172/master/metadata.yaml",
-      "subjects": [
-        "السيرة النبوية",
-        "الدراسات الإسلامية",
-        "المصادر والدراسات"
-      ],
-      "siteSections": [
-        "المصادر والدراسات"
-      ],
-      "transportMirror": "GITenberg",
-      "mirrorRepository": "GITenberg/Peter-s-Rock-in-Mohammed-s-Flood-from-St.-Gregory-the-Great-to-St.-Leo-III_34172",
       "discoveredBy": "gitenberg-github-public-domain-metadata"
     },
     {
@@ -645,7 +573,340 @@
       "transportMirror": "GITenberg",
       "mirrorRepository": "GITenberg/Pages-d-Islam_66853",
       "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-11198",
+      "titleOriginal": "Christianity and Islam",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "11198",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/11198",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Christianity-and-Islam_11198/master/11198.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Christianity-and-Islam_11198/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Christianity-and-Islam_11198",
+      "sourceSubjects": [
+        "Christianity and other religions -- Islam",
+        "Islam -- Relations -- Christianity"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-17213",
+      "titleOriginal": "The Future of Islam",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "17213",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/17213",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Future-of-Islam_17213/master/17213.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Future-of-Islam_17213/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Future-of-Islam_17213",
+      "sourceSubjects": [
+        "Middle East -- History -- 1517-",
+        "Islam"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-24107",
+      "titleOriginal": "The New World of Islam",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "24107",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24107",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-New-World-of-Islam_24107/master/24107.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-New-World-of-Islam_24107/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-New-World-of-Islam_24107",
+      "sourceSubjects": [
+        "Eastern question",
+        "Islam",
+        "Orient"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-24314",
+      "titleOriginal": "Mystics and Saints of Islam",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "24314",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24314",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Mystics-and-Saints-of-Islam_24314/master/24314.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Mystics-and-Saints-of-Islam_24314/master/metadata.yaml",
+      "subjects": [
+        "التصوف والأخلاق",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Mystics-and-Saints-of-Islam_24314",
+      "sourceSubjects": [
+        "Muslim saints",
+        "Sufism",
+        "Mysticism -- Islam"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-66566",
+      "titleOriginal": "The History of Philosophy in Islam",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "66566",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/66566",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-History-of-Philosophy-in-Islam_66566/master/66566-0.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-History-of-Philosophy-in-Islam_66566/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-History-of-Philosophy-in-Islam_66566",
+      "sourceSubjects": [
+        "Islamic philosophy -- History"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-15262",
+      "titleOriginal": "Christianity and Islam in Spain, A.D. 756-1031",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "15262",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15262",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Christianity-and-Islam-in-Spain-A.D.-756-1031_15262/master/15262.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Christianity-and-Islam-in-Spain-A.D.-756-1031_15262/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Christianity-and-Islam-in-Spain-A.D.-756-1031_15262",
+      "sourceSubjects": [
+        "Christianity -- Spain",
+        "Islam -- Spain",
+        "Christian martyrs -- Spain"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-26473",
+      "titleOriginal": "The Arts of Persia & Other Countries of Islam",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "26473",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/26473",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Arts-of-Persia-amp--Other-Countries-of-Islam_26473/master/26473.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Arts-of-Persia-amp--Other-Countries-of-Islam_26473/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Arts-of-Persia-amp--Other-Countries-of-Islam_26473",
+      "sourceSubjects": [
+        "Art objects -- Exhibitions",
+        "Art, Islamic",
+        "Art, Iranian",
+        "Illumination of books and manuscripts -- Iran"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-20394",
+      "titleOriginal": "Correspondence Relating to Executions in Turkey for Apostacy from Islamism",
+      "author": "",
+      "language": "-",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "20394",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/20394",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Correspondence-Relating-to-Executions-in-Turkey-for-Apostacy-from-Islamism_20394/master/20394-8.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Correspondence-Relating-to-Executions-in-Turkey-for-Apostacy-from-Islamism_20394/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Correspondence-Relating-to-Executions-in-Turkey-for-Apostacy-from-Islamism_20394",
+      "sourceSubjects": [
+        "Executions (Islamic law)",
+        "Apostasy -- Islam"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-2800",
+      "titleOriginal": "The Koran (Al-Qur'an)",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "2800",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2800",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Koran-Al-Qur-an_2800/master/2800.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Koran-Al-Qur-an_2800/master/metadata.yaml",
+      "subjects": [
+        "القرآن وعلومه",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Koran-Al-Qur-an_2800",
+      "sourceSubjects": [
+        "Qur''an"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-7440",
+      "titleOriginal": "The Koran (Al-Qur'an)",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "7440",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7440",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Koran-Al-Qur-an_7440/master/7440.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Koran-Al-Qur-an_7440/master/metadata.yaml",
+      "subjects": [
+        "القرآن وعلومه",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Koran-Al-Qur-an_7440",
+      "sourceSubjects": [
+        "Qur''an"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-19786",
+      "titleOriginal": "De Koran\\r\\nVoorafgegaan door het leven van Mahomed, eene inleiding\\r\\nomtrent\\",
+      "author": "",
+      "language": "nl",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "19786",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/19786",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/De-Koran--13-omtrent-de-Godsdienstgebruiken-der-Mahomedanen-enz._19786/master/19786-8.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/De-Koran--13-omtrent-de-Godsdienstgebruiken-der-Mahomedanen-enz._19786/master/metadata.yaml",
+      "subjects": [
+        "القرآن وعلومه",
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/De-Koran--13-omtrent-de-Godsdienstgebruiken-der-Mahomedanen-enz._19786",
+      "sourceSubjects": [
+        "Islam",
+        "Qur''an",
+        "Muhammad, Prophet, -632"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-16955",
+      "titleOriginal": "Three Translations of The Koran (Al-Qur'an) side by side",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "16955",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/16955",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/Three-Translations-of-The-Koran--Al-Qur-an--side-by-side_16955/master/16955.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Three-Translations-of-The-Koran--Al-Qur-an--side-by-side_16955/master/metadata.yaml",
+      "subjects": [
+        "القرآن وعلومه",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Three-Translations-of-The-Koran--Al-Qur-an--side-by-side_16955",
+      "sourceSubjects": [
+        "Qur''an"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
     }
   ],
-  "lastGITenbergDiscoveryAt": "2026-08-20T09:16:07Z"
+  "lastGITenbergDiscoveryAt": "2026-08-20T09:19:26Z",
+  "lastDiscoveryCleanupRemoved": 3
 }
