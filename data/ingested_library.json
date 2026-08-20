@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T21:59:18.235033+00:00",
-  "count": 56,
+  "generatedAt": "2026-08-20T23:01:43.665228+00:00",
+  "count": 60,
   "currentBatchCount": 4,
   "items": [
     {
@@ -270,6 +270,42 @@
       "sha256": "22206538e8bdd706d07376ec9f3c92ca48ba6c4fcd387de4faaf016c17dbf4b6",
       "localUrl": "/library/works/gutenberg-20394/editions/ed-22206538e8bd/original.txt",
       "readerUrl": "/library/works/gutenberg-20394/editions/ed-22206538e8bd/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-19786:ed-45bc2b56d3e0",
+      "workId": "gutenberg-19786",
+      "editionId": "ed-45bc2b56d3e0",
+      "titleOriginal": "De Koran\\r\\nVoorafgegaan door het leven van Mahomed, eene inleiding\\r\\nomtrent\\",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "nl",
+      "subjects": [
+        "القرآن وعلومه",
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 2209108,
+      "sha256": "45bc2b56d3e072526fd3384b5a3a6509c8b82e479f1bfa86c1b5da20f06e2f1a",
+      "localUrl": "/library/works/gutenberg-19786/editions/ed-45bc2b56d3e0/original.txt",
+      "readerUrl": "/library/works/gutenberg-19786/editions/ed-45bc2b56d3e0/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -1155,6 +1191,76 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-2800:ed-f7035e29d5c7",
+      "workId": "gutenberg-2800",
+      "editionId": "ed-f7035e29d5c7",
+      "titleOriginal": "The Koran (Al-Qur'an)",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "القرآن وعلومه",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 1153446,
+      "sha256": "f7035e29d5c7b916f659ae46c047d632802996e5edbb2a0b4f45c55458d0d32d",
+      "localUrl": "/library/works/gutenberg-2800/editions/ed-f7035e29d5c7/original.txt",
+      "readerUrl": "/library/works/gutenberg-2800/editions/ed-f7035e29d5c7/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-7440:ed-842ec0e4d3b0",
+      "workId": "gutenberg-7440",
+      "editionId": "ed-842ec0e4d3b0",
+      "titleOriginal": "The Koran (Al-Qur'an)",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "القرآن وعلومه",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 2447533,
+      "sha256": "842ec0e4d3b0ae737d437cec51d3bfd4d81964525dbfdc98bbeb874514c977de",
+      "localUrl": "/library/works/gutenberg-7440/editions/ed-842ec0e4d3b0/original.txt",
+      "readerUrl": "/library/works/gutenberg-7440/editions/ed-842ec0e4d3b0/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "rodwell-koran:ed-d85544696f37",
       "workId": "rodwell-koran",
       "editionId": "ed-d85544696f37",
@@ -1427,6 +1533,41 @@
       "sha256": "69be595590dd420020562416656abe013b5f5bf37d59a853148cec41a6b110f5",
       "localUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
       "readerUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-16955:ed-26d9e1a36f07",
+      "workId": "gutenberg-16955",
+      "editionId": "ed-26d9e1a36f07",
+      "titleOriginal": "Three Translations of The Koran (Al-Qur'an) side by side",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "القرآن وعلومه",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 2833433,
+      "sha256": "26d9e1a36f076749a281eb7b9e0725f11e1336379afb3dbae5e0220d216f835d",
+      "localUrl": "/library/works/gutenberg-16955/editions/ed-26d9e1a36f07/original.txt",
+      "readerUrl": "/library/works/gutenberg-16955/editions/ed-26d9e1a36f07/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
