@@ -1,6 +1,7 @@
 {
   "schema": "priority-ingest-v1",
   "requestedAt": "2026-08-20T09:43:00Z",
+  "trigger": "second-explicit-run",
   "limit": 10,
   "workIds": [
     "gutenberg-20927",
