@@ -27,8 +27,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Resolve and ingest fifty public-domain books
+        continue-on-error: true
         run: python scripts/ingest_50_more.py
-      - name: Commit ingestion result
+      - name: Commit every successful ingestion result
         shell: bash
         run: |
           set -euo pipefail
@@ -39,5 +40,5 @@ jobs:
             echo 'No new assets.'
             exit 0
           fi
-          git commit -m 'Ingest 50 additional public-domain books'
+          git commit -m 'Ingest additional public-domain books toward batch of 50'
           git push origin HEAD:main
