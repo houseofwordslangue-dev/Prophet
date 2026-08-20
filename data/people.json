@@ -10,8 +10,96 @@
       "fr"
     ]
   },
-  "count": 136,
+  "count": 162,
   "people": [
+    {
+      "id": "person-eb5591d002e8",
+      "slug": "person-eb5591d002e8",
+      "name": {
+        "ar": "Etienne Dinet; Sliman Ben Ibrahim",
+        "en": "Etienne Dinet; Sliman Ben Ibrahim",
+        "fr": "Etienne Dinet; Sliman Ben Ibrahim"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-76a31e49044e",
+      "slug": "person-76a31e49044e",
+      "name": {
+        "ar": "Gladys M. Draycott",
+        "en": "Gladys M. Draycott",
+        "fr": "Gladys M. Draycott"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-d9028df96d00",
+      "slug": "person-d9028df96d00",
+      "name": {
+        "ar": "J. M. Rodwell (translator)",
+        "en": "J. M. Rodwell (translator)",
+        "fr": "J. M. Rodwell (translator)"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-933505e3bc5b",
+      "slug": "person-933505e3bc5b",
+      "name": {
+        "ar": "Marmaduke William Pickthall",
+        "en": "Marmaduke William Pickthall",
+        "fr": "Marmaduke William Pickthall"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
     {
       "id": "person-4c7fe50bc447",
       "slug": "person-4c7fe50bc447",
@@ -70,6 +158,182 @@
           "relation": "authored-saying"
         }
       ],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-067ca8ae48d1",
+      "slug": "person-067ca8ae48d1",
+      "name": {
+        "ar": "Omar Khayyam",
+        "en": "Omar Khayyam",
+        "fr": "Omar Khayyam"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-85710f169008",
+      "slug": "person-85710f169008",
+      "name": {
+        "ar": "Paul Marty",
+        "en": "Paul Marty",
+        "fr": "Paul Marty"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-46a650211ca9",
+      "slug": "person-46a650211ca9",
+      "name": {
+        "ar": "Prophet Muhammad; Stanley Lane-Poole (editor)",
+        "en": "Prophet Muhammad; Stanley Lane-Poole (editor)",
+        "fr": "Prophet Muhammad; Stanley Lane-Poole (editor)"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-660752c54bbb",
+      "slug": "person-660752c54bbb",
+      "name": {
+        "ar": "Reynold Alleyne Nicholson",
+        "en": "Reynold Alleyne Nicholson",
+        "fr": "Reynold Alleyne Nicholson"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1b0d04da31c5",
+      "slug": "person-1b0d04da31c5",
+      "name": {
+        "ar": "Richard Francis Burton",
+        "en": "Richard Francis Burton",
+        "fr": "Richard Francis Burton"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-676cc4e05ab1",
+      "slug": "person-676cc4e05ab1",
+      "name": {
+        "ar": "Samuel Marinus Zwemer",
+        "en": "Samuel Marinus Zwemer",
+        "fr": "Samuel Marinus Zwemer"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b56032f32663",
+      "slug": "person-b56032f32663",
+      "name": {
+        "ar": "T. W. Arnold",
+        "en": "T. W. Arnold",
+        "fr": "T. W. Arnold"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-bbfa75f54701",
+      "slug": "person-bbfa75f54701",
+      "name": {
+        "ar": "Thomas Patrick Hughes",
+        "en": "Thomas Patrick Hughes",
+        "fr": "Thomas Patrick Hughes"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
       "provenance": "source-only"
     },
     {
@@ -205,6 +469,50 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-052f28b35cf9",
+      "slug": "person-052f28b35cf9",
+      "name": {
+        "ar": "abu-lahab-ibn-abd-al-muttalib",
+        "en": "abu-lahab-ibn-abd-al-muttalib",
+        "fr": "abu-lahab-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-950261ac6f78",
+      "slug": "person-950261ac6f78",
+      "name": {
+        "ar": "abu-talib-ibn-abd-al-muttalib",
+        "en": "abu-talib-ibn-abd-al-muttalib",
+        "fr": "abu-talib-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-77982ed9d8d5",
       "slug": "person-77982ed9d8d5",
       "name": {
@@ -233,6 +541,28 @@
         "ar": "al-abbas-ibn-abd-al-muttalib",
         "en": "al-abbas-ibn-abd-al-muttalib",
         "fr": "al-abbas-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-844bcf88aff0",
+      "slug": "person-844bcf88aff0",
+      "name": {
+        "ar": "al-harith-ibn-abd-al-muttalib",
+        "en": "al-harith-ibn-abd-al-muttalib",
+        "fr": "al-harith-ibn-abd-al-muttalib"
       },
       "category": "source-person",
       "biography": {
@@ -293,6 +623,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-8a8258289287",
+      "slug": "person-8a8258289287",
+      "name": {
+        "ar": "al-muqawwim-ibn-abd-al-muttalib",
+        "en": "al-muqawwim-ibn-abd-al-muttalib",
+        "fr": "al-muqawwim-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-c8e327497264",
       "slug": "person-c8e327497264",
       "name": {
@@ -321,6 +673,28 @@
         "ar": "al-qasim-ibn-muhammad",
         "en": "al-qasim-ibn-muhammad",
         "fr": "al-qasim-ibn-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-359034d29335",
+      "slug": "person-359034d29335",
+      "name": {
+        "ar": "al-zubayr-ibn-abd-al-muttalib",
+        "en": "al-zubayr-ibn-abd-al-muttalib",
+        "fr": "al-zubayr-ibn-abd-al-muttalib"
       },
       "category": "source-person",
       "biography": {
@@ -387,6 +761,28 @@
         "ar": "biographies",
         "en": "biographies",
         "fr": "biographies"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a0b900526d5c",
+      "slug": "person-a0b900526d5c",
+      "name": {
+        "ar": "dirar-ibn-abd-al-muttalib",
+        "en": "dirar-ibn-abd-al-muttalib",
+        "fr": "dirar-ibn-abd-al-muttalib"
       },
       "category": "source-person",
       "biography": {
@@ -475,6 +871,28 @@
         "ar": "hafsa-bint-umar",
         "en": "hafsa-bint-umar",
         "fr": "hafsa-bint-umar"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e72a89df3f2d",
+      "slug": "person-e72a89df3f2d",
+      "name": {
+        "ar": "hajl-al-mughira-ibn-abd-al-muttalib",
+        "en": "hajl-al-mughira-ibn-abd-al-muttalib",
+        "fr": "hajl-al-mughira-ibn-abd-al-muttalib"
       },
       "category": "source-person",
       "biography": {
@@ -915,6 +1333,28 @@
         "ar": "qusayy-ibn-kilab",
         "en": "qusayy-ibn-kilab",
         "fr": "qusayy-ibn-kilab"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-c4c3e71eb9ee",
+      "slug": "person-c4c3e71eb9ee",
+      "name": {
+        "ar": "qutham-ibn-abd-al-muttalib",
+        "en": "qutham-ibn-abd-al-muttalib",
+        "fr": "qutham-ibn-abd-al-muttalib"
       },
       "category": "source-person",
       "biography": {
@@ -1616,6 +2056,165 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-2c5e6ee6995a",
+      "slug": "person-2c5e6ee6995a",
+      "name": {
+        "ar": "ابن حجر العسقلاني",
+        "en": "ابن حجر العسقلاني",
+        "fr": "ابن حجر العسقلاني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-9e5b72e62f72",
+      "slug": "person-9e5b72e62f72",
+      "name": {
+        "ar": "ابن حزم الأندلسي",
+        "en": "ابن حزم الأندلسي",
+        "fr": "ابن حزم الأندلسي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e096df1cc9ad",
+      "slug": "person-e096df1cc9ad",
+      "name": {
+        "ar": "ابن كثير",
+        "en": "ابن كثير",
+        "fr": "ابن كثير"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-00a9c504ca70",
+      "slug": "person-00a9c504ca70",
+      "name": {
+        "ar": "ابن هشام",
+        "en": "ابن هشام",
+        "fr": "ابن هشام"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [
+        {
+          "text": "قال ابن هشام: فولد عبدالله بن عبدالمطلب: رسول الله ﷺ - سيد ولد آدم، محمد بن عبدالله بن عبدالمطلب، صلوات الله وسلامه ورحمته وبركاته عليه وعلى آله.",
+          "language": "ar",
+          "articleId": "20260820-family-parents",
+          "articleTitle": "والدا رسول الله ﷺ في سجل النسب",
+          "sources": [
+            {
+              "ref": "family-parents-v1-p127",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 127 (PDF page 127); OCR text marker 126",
+              "chapterSection": "أم رسول الله ﷺ وأمهاتها",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-126; visual-check:volume-1.pdf#pdf-page-127",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 127 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "documented-mention"
+        },
+        {
+          "text": "قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان.",
+          "language": "ar",
+          "articleId": "20260820-family-ancestors",
+          "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+          "sources": [
+            {
+              "ref": "family-ancestors-v1-p23",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+              "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "documented-mention"
+        }
+      ],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-c90046a44f73",
+      "slug": "person-c90046a44f73",
+      "name": {
+        "ar": "البلاذري",
+        "en": "البلاذري",
+        "fr": "البلاذري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "al-hasan-ibn-ali",
       "slug": "al-hasan-ibn-ali",
       "name": {
@@ -1646,6 +2245,28 @@
         "fr": "Al-Husayn ibn Ali"
       },
       "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4c80649dd63b",
+      "slug": "person-4c80649dd63b",
+      "name": {
+        "ar": "الذهبي",
+        "en": "الذهبي",
+        "fr": "الذهبي"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
