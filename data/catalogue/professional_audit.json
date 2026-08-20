@@ -1,0 +1,15 @@
+{
+  "version": "professional-enrichment-v2",
+  "audit": {
+    "records": 689,
+    "bibliographicStatus": {"COMPLETE":641,"RESEARCH_PENDING":48},
+    "recordLevels": {"work+manifestation":45,"work":597,"collection":7,"institution":10,"media-resource":11,"web-resource":19},
+    "accessResolution": {"EXACT_SOURCE_REGISTERED":34,"DISCOVERY_SOURCE_REGISTERED":605,"LOCAL_ASSET_REGISTERED":19,"SOURCE_RESEARCH_PENDING":31},
+    "manifestationStatus": {"PARTIAL":45,"NOT_APPLICABLE":644},
+    "titleAr": 689,
+    "identityResearchPending": 48,
+    "exactOrLocalSource": 53,
+    "discoveryOrBetter": 658
+  },
+  "policy": "Professional work-level bibliographic model. No bibliographic fact is invented. Work identity is separated from edition/manifestation metadata and from access/source resolution. Unknown facts remain explicitly research-pending. Current uploaded records override matching historical IDs."
+}
