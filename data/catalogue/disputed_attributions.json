@@ -1,0 +1,137 @@
+{
+  "version": "2026-08-20-disputed-attribution-policy-v1",
+  "updatedAt": "2026-08-20T10:00:00+01:00",
+  "policy": {
+    "defaultPublication": "ALLOW",
+    "suppressOnDispute": false,
+    "explicitUserOverrideRequiredToSuppress": true,
+    "displayRuleAr": "تُنشر الأعمال ذات النسبة المختلف فيها، وتظهر النسبة أو النسب الموثقة مع وصف صريح لدرجة الثبوت. لا تُحوَّل النسبة المختلف فيها إلى نسبة قطعية، ولا يُحجب السجل بسبب الخلاف إلا بتعليمات صريحة.",
+    "displayRuleEn": "Works with disputed or traditional attributions remain published. Attested attributions are displayed with an explicit qualification; disagreement is preserved rather than converted into certainty.",
+    "capabilityRule": "Attribution publication is bibliographic only and never enables read/search/listen/watch/download capabilities without a real eligible asset."
+  },
+  "records": [
+    {
+      "id": "life-seerah-070",
+      "workKey": "mawlid-sharaf-al-anam",
+      "titleAr": "مولد شرف الأنام",
+      "authorAr": "شهاب الدين أحمد بن علي بن قاسم المالكي البخاري الأندلسي المرسي اللخمي، المعروف بالحريري (نسبة موثقة في مصادر متأخرة ومحل خلاف)",
+      "authorRomanized": "Shihab al-Din Ahmad ibn Ali ibn Qasim al-Maliki al-Bukhari al-Andalusi al-Mursi al-Lakhmi, known as al-Hariri (attested but disputed attribution)",
+      "attributionStatus": "disputed-multiple",
+      "publicationStatus": "published-disputed-attribution",
+      "publicationLabelAr": "منشور — نسبة المؤلف محل خلاف",
+      "attributionNoteAr": "تُثبت نسبة الحريري في العرض مع حفظ النسب الأخرى: فهرس قطري يثبت أحمد بن قاسم البخاري، وبعض الفهارس تسجل العمل بلا مؤلف، كما عُرف تاريخياً إسناده إلى ابن الجوزي. الخلاف محفوظ ولا تُعرض أي نسبة بوصفها يقينية.",
+      "authorVariants": [
+        {"nameAr": "شهاب الدين أحمد بن علي بن قاسم المالكي البخاري الأندلسي المرسي اللخمي، المعروف بالحريري", "status": "reported-attribution"},
+        {"nameAr": "أحمد بن قاسم البخاري", "status": "catalogued-attribution"},
+        {"nameAr": "عبد الرحمن بن علي ابن الجوزي", "status": "historical-contested-attribution"},
+        {"nameAr": "غير مذكور / مجهول في بعض الفهارس", "status": "anonymous-cataloguing"}
+      ],
+      "evidence": [
+        {"type": "library-catalogue", "label": "Qatar National Library — QNL:00023035", "url": "https://ediscovery.qnl.qa/ar/islandora/object/QNL%3A00023035", "supports": "أحمد بن قاسم البخاري"},
+        {"type": "academic-study", "label": "Marion Holmes Katz, The Birth of the Prophet Muhammad", "url": "https://www.kamela.info/download.php?id=55", "supports": "نسبة الحريري مع توثيق تاريخ الخلاف ونسبة ابن الجوزي"},
+        {"type": "manuscript-catalogue", "label": "British Library — Or 16873", "url": "https://searcharchives.bl.uk/catalog/032-003392402", "supports": "وجود شاهد مخطوط مع عدم حسم المؤلف في الفهرس"}
+      ]
+    },
+    {
+      "id": "character-shamail-040",
+      "workKey": "mawlid-sharaf-al-anam",
+      "titleAr": "مولد شرف الأنام",
+      "authorAr": "شهاب الدين أحمد بن علي بن قاسم المالكي البخاري الأندلسي المرسي اللخمي، المعروف بالحريري (نسبة موثقة في مصادر متأخرة ومحل خلاف)",
+      "authorRomanized": "Shihab al-Din Ahmad ibn Ali ibn Qasim al-Maliki al-Bukhari al-Andalusi al-Mursi al-Lakhmi, known as al-Hariri (attested but disputed attribution)",
+      "attributionStatus": "disputed-multiple",
+      "publicationStatus": "published-disputed-attribution",
+      "publicationLabelAr": "منشور — نسبة المؤلف محل خلاف",
+      "attributionNoteAr": "هذا سجل تصنيفي ثانٍ للعمل نفسه ضمن الشمائل. تُعرض نسبة الحريري مع حفظ نسبة أحمد بن قاسم البخاري، والنسبة التاريخية إلى ابن الجوزي، والفهرسة المجهلة للمؤلف في بعض الشواهد.",
+      "authorVariants": [
+        {"nameAr": "شهاب الدين أحمد بن علي بن قاسم المالكي البخاري الأندلسي المرسي اللخمي، المعروف بالحريري", "status": "reported-attribution"},
+        {"nameAr": "أحمد بن قاسم البخاري", "status": "catalogued-attribution"},
+        {"nameAr": "عبد الرحمن بن علي ابن الجوزي", "status": "historical-contested-attribution"},
+        {"nameAr": "غير مذكور / مجهول في بعض الفهارس", "status": "anonymous-cataloguing"}
+      ],
+      "evidence": [
+        {"type": "library-catalogue", "label": "Qatar National Library — QNL:00023035", "url": "https://ediscovery.qnl.qa/ar/islandora/object/QNL%3A00023035", "supports": "أحمد بن قاسم البخاري"},
+        {"type": "academic-study", "label": "Marion Holmes Katz, The Birth of the Prophet Muhammad", "url": "https://www.kamela.info/download.php?id=55", "supports": "نسبة الحريري وتاريخ الخلاف"},
+        {"type": "manuscript-catalogue", "label": "British Library — Or 16873", "url": "https://searcharchives.bl.uk/catalog/032-003392402", "supports": "شاهد مخطوط بلا حسم للمؤلف"}
+      ]
+    },
+    {
+      "id": "quran-meaning-067",
+      "workKey": "minhaj-al-abidin",
+      "titleAr": "منهاج العابدين",
+      "authorAr": "أبو حامد محمد الغزالي (النسبة المشهورة محل خلاف)؛ ونسبه ابن عربي إلى أبي الحسن علي بن خليل المسفّر السبتي",
+      "authorRomanized": "Abu Hamid al-Ghazali (traditional attribution, disputed); Ibn Arabi attributed the work to Abu al-Hasan Ali ibn Khalil al-Musaffir al-Sabti",
+      "attributionStatus": "disputed-multiple",
+      "publicationStatus": "published-disputed-attribution",
+      "publicationLabelAr": "منشور — نسبة المؤلف محل خلاف",
+      "attributionNoteAr": "تُحفظ النسبة المشهورة إلى الغزالي ولا تُحذف، مع إظهار نسبة أبي الحسن علي المسفّر السبتي التي نقلها ابن عربي. لا تُعامل أي من النسبتين بوصفها محسومة في الفهرس.",
+      "authorVariants": [
+        {"nameAr": "أبو حامد محمد الغزالي", "status": "traditional-and-modern-edition-attribution"},
+        {"nameAr": "أبو الحسن علي بن خليل المسفّر السبتي", "status": "attribution-reported-by-ibn-arabi"}
+      ],
+      "evidence": [
+        {"type": "publisher-catalogue", "label": "Dar al-Minhaj — منهاج العابدين", "url": "https://alminhaj.com/ar/BWZvDr", "supports": "النسبة المطبوعة الحديثة إلى الغزالي"},
+        {"type": "manuscript-catalogue", "label": "Islam Archive manuscript catalogue", "url": "https://islamarchive.cc/manuscript/2461146", "supports": "نقل نسبة ابن عربي إلى علي المسفّر السبتي"},
+        {"type": "specialist-bibliography", "label": "Ghazali.org — Sufism and Ethics", "url": "https://www.ghazali.org/se/", "supports": "توثيق الخلاف في صحة النسبة إلى الغزالي"},
+        {"type": "biographical-study", "label": "الرابطة المحمدية للعلماء — أبو الحسن المسفّر السبتي", "url": "https://www.mithaqarrabita.ma/%D8%A3%D8%A8%D9%88-%D8%A7%D9%84%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D9%85%D8%B3%D9%8E%D9%81%D9%91%D9%90%D8%B1-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA%D9%8A", "supports": "نسبة الكتاب إلى المسفّر ونقل قول ابن عربي"}
+      ]
+    },
+    {
+      "id": "teachings-wisdom-042",
+      "workKey": "minhaj-al-abidin",
+      "titleAr": "منهاج العابدين",
+      "authorAr": "أبو حامد محمد الغزالي (النسبة المشهورة محل خلاف)؛ ونسبه ابن عربي إلى أبي الحسن علي بن خليل المسفّر السبتي",
+      "authorRomanized": "Abu Hamid al-Ghazali (traditional attribution, disputed); Ibn Arabi attributed the work to Abu al-Hasan Ali ibn Khalil al-Musaffir al-Sabti",
+      "attributionStatus": "disputed-multiple",
+      "publicationStatus": "published-disputed-attribution",
+      "publicationLabelAr": "منشور — نسبة المؤلف محل خلاف",
+      "attributionNoteAr": "هذا سجل تصنيفي ثانٍ للعمل نفسه ضمن التعاليم والحكمة. تُنشر النسبة المشهورة إلى الغزالي مع نسبة ابن عربي إلى أبي الحسن علي المسفّر السبتي.",
+      "authorVariants": [
+        {"nameAr": "أبو حامد محمد الغزالي", "status": "traditional-and-modern-edition-attribution"},
+        {"nameAr": "أبو الحسن علي بن خليل المسفّر السبتي", "status": "attribution-reported-by-ibn-arabi"}
+      ],
+      "evidence": [
+        {"type": "publisher-catalogue", "label": "Dar al-Minhaj — منهاج العابدين", "url": "https://alminhaj.com/ar/BWZvDr", "supports": "النسبة المطبوعة الحديثة إلى الغزالي"},
+        {"type": "manuscript-catalogue", "label": "Islam Archive manuscript catalogue", "url": "https://islamarchive.cc/manuscript/2461146", "supports": "نقل نسبة ابن عربي إلى علي المسفّر السبتي"},
+        {"type": "specialist-bibliography", "label": "Ghazali.org — Sufism and Ethics", "url": "https://www.ghazali.org/se/", "supports": "توثيق الخلاف"}
+      ]
+    },
+    {
+      "id": "life-seerah-071",
+      "workKey": "mawlid-al-arus",
+      "titleAr": "مولد العروس",
+      "authorAr": "شهاب الدين أحمد بن علي بن قاسم المالكي البخاري الأندلسي، المعروف بالحريري؛ ونُسب تاريخياً إلى عبد الرحمن بن علي ابن الجوزي (الخلاف في النسبة)",
+      "authorRomanized": "Shihab al-Din Ahmad ibn Ali ibn Qasim al-Maliki al-Bukhari al-Andalusi al-Hariri; historically also attributed to Ibn al-Jawzi (disputed attribution)",
+      "attributionStatus": "disputed-multiple",
+      "publicationStatus": "published-disputed-attribution",
+      "publicationLabelAr": "منشور — نسبة المؤلف محل خلاف",
+      "attributionNoteAr": "تُنشر نسبتا الحريري وابن الجوزي مع بيان الخلاف. بعض الدراسات الحديثة تصف المؤلف الحقيقي بأنه ظل غامضاً، بينما توجد تقاليد مخطوطة ومطبوعة تنسبه إلى ابن الجوزي، وشاهد مفهرس لدى كريستيز ينسبه إلى الحريري ويعد نسبة ابن الجوزي خاطئة.",
+      "authorVariants": [
+        {"nameAr": "شهاب الدين أحمد بن علي بن قاسم المالكي البخاري الأندلسي، المعروف بالحريري", "status": "catalogued-manuscript-attribution"},
+        {"nameAr": "عبد الرحمن بن علي ابن الجوزي", "status": "historical-and-print-tradition-attribution-contested"},
+        {"nameAr": "مؤلف غير محسوم", "status": "modern-scholarly-caution"}
+      ],
+      "evidence": [
+        {"type": "auction-manuscript-catalogue", "label": "Christie's — Mawlid al-'Arus manuscript", "url": "https://www.christies.com.cn/zh-cn/lot/lot-5671592", "supports": "نسبة الحريري ووصف نسبة ابن الجوزي بأنها خاطئة"},
+        {"type": "academic-study", "label": "Marion Holmes Katz, The Birth of the Prophet Muhammad", "url": "https://www.kamela.info/download.php?id=55", "supports": "قدم الخلاف وغموض المؤلف"},
+        {"type": "print-tradition", "label": "Maktabah Mujaddidiyah — Ibn al-Jawzi catalogue", "url": "https://www.maktabah.org/aa/ibnjawzi", "supports": "التقليد الفهرسي الذي ينسب مولد العروس إلى ابن الجوزي"}
+      ]
+    },
+    {
+      "id": "site-source-jilani-fath-rabbani",
+      "workKey": "fath-al-rabbani",
+      "titleAr": "الفتح الرباني والفيض الرحماني",
+      "authorAr": "عبد القادر الجيلاني (منسوب إليه)",
+      "authorRomanized": "Abd al-Qadir al-Jilani (traditionally attributed)",
+      "attributionStatus": "traditional-attribution",
+      "publicationStatus": "published-attributed",
+      "publicationLabelAr": "منشور — منسوب إلى المؤلف",
+      "attributionNoteAr": "تظل نسبة الكتاب إلى عبد القادر الجيلاني منشورة بصيغة «منسوب إليه» ولا تُحجب بسبب عدم القطع في الإسناد. يوثق الفهرس أيضاً تقليد الطباعة المتداول للكتاب باسمه.",
+      "authorVariants": [
+        {"nameAr": "عبد القادر الجيلاني", "status": "traditional-attribution"}
+      ],
+      "evidence": [
+        {"type": "bibliographic-discussion", "label": "Islamweb — الفتح الرباني والفيض الرحماني", "url": "https://www.islamweb.net/ar/fatwa/306022/", "supports": "التداول الببليوغرافي للكتاب باسم عبد القادر الجيلاني وبيانات 62 مجلساً/375 صفحة"}
+      ]
+    }
+  ]
+}
