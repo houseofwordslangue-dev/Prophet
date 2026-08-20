@@ -1,9 +1,363 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T09:08:18.106654+00:00",
-  "count": 1,
-  "currentBatchCount": 1,
+  "generatedAt": "2026-08-20T09:46:51.001418+00:00",
+  "count": 11,
+  "currentBatchCount": 10,
   "items": [
+    {
+      "id": "gutenberg-20927:ed-0c963b739d22",
+      "workId": "gutenberg-20927",
+      "editionId": "ed-0c963b739d22",
+      "titleOriginal": "A Critical Exposition of the Popular ''Jihád",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 636990,
+      "sha256": "0c963b739d22a7ebb803bacbc1ab9f5435fe6cac30110331fca5421c23535d48",
+      "localUrl": "/library/works/gutenberg-20927/editions/ed-0c963b739d22/original.txt",
+      "readerUrl": "/library/works/gutenberg-20927/editions/ed-0c963b739d22/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-61526:ed-dc7aedc76fb1",
+      "workId": "gutenberg-61526",
+      "editionId": "ed-dc7aedc76fb1",
+      "titleOriginal": "A Dictionary of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Thomas Patrick Hughes",
+      "language": "en",
+      "subjects": [
+        "المعاجم والموسوعات",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 28795,
+      "sha256": "dc7aedc76fb1d4b2c04c05b60f574f5adc5d17e01203451f79d0444809e5cad9",
+      "localUrl": "/library/works/gutenberg-61526/editions/ed-dc7aedc76fb1/original.txt",
+      "readerUrl": "/library/works/gutenberg-61526/editions/ed-dc7aedc76fb1/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-74846:ed-cb8ea3b959bc",
+      "workId": "gutenberg-74846",
+      "editionId": "ed-cb8ea3b959bc",
+      "titleOriginal": "A Moslem Seeker after God: The Life and Teaching of al-Ghazali",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Samuel Marinus Zwemer",
+      "language": "en",
+      "subjects": [
+        "الغزالي",
+        "التصوف والأخلاق",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 402376,
+      "sha256": "cb8ea3b959bc3caa028e6ea9a6a598575748cc8b63175991fbcab25aea4b6c82",
+      "localUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
+      "readerUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-4657:ed-df825d6defe6",
+      "workId": "gutenberg-4657",
+      "editionId": "ed-df825d6defe6",
+      "titleOriginal": "Personal Narrative of a Pilgrimage to Al-Madinah & Meccah — Volume 1",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Richard Francis Burton",
+      "language": "en",
+      "subjects": [
+        "المدينة المنورة",
+        "مكة المكرمة",
+        "الحج",
+        "التاريخ والرحلات",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 927047,
+      "sha256": "df825d6defe623fe9c9cda092a6b101aaa147fe3cc1d512fab2f6d536b235beb",
+      "localUrl": "/library/works/gutenberg-4657/editions/ed-df825d6defe6/original.txt",
+      "readerUrl": "/library/works/gutenberg-4657/editions/ed-df825d6defe6/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-4658:ed-586931ef4669",
+      "workId": "gutenberg-4658",
+      "editionId": "ed-586931ef4669",
+      "titleOriginal": "Personal Narrative of a Pilgrimage to Al-Madinah & Meccah — Volume 2",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Richard Francis Burton",
+      "language": "en",
+      "subjects": [
+        "المدينة المنورة",
+        "مكة المكرمة",
+        "الحج",
+        "التاريخ والرحلات",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 1009961,
+      "sha256": "586931ef46690c49097eb89b668838589de87fc529567ed2037d3d37947eb636",
+      "localUrl": "/library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
+      "readerUrl": "/library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-63654:ed-76d15dc5b58e",
+      "workId": "gutenberg-63654",
+      "editionId": "ed-76d15dc5b58e",
+      "titleOriginal": "The House of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Marmaduke William Pickthall",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "الأدب الإسلامي",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 388643,
+      "sha256": "76d15dc5b58e2796444dda922ff55a83b79e2c39f471d4e2151dabd0bfa642cb",
+      "localUrl": "/library/works/gutenberg-63654/editions/ed-76d15dc5b58e/original.txt",
+      "readerUrl": "/library/works/gutenberg-63654/editions/ed-76d15dc5b58e/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-67388:ed-272b5a7dc532",
+      "workId": "gutenberg-67388",
+      "editionId": "ed-272b5a7dc532",
+      "titleOriginal": "The Mystics of Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Reynold Alleyne Nicholson",
+      "language": "en",
+      "subjects": [
+        "التصوف والأخلاق",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 269397,
+      "sha256": "272b5a7dc5327a4ae3768839a3ae76e0a2ed36fe629b54c1a9a2ad91c155d690",
+      "localUrl": "/library/works/gutenberg-67388/editions/ed-272b5a7dc532/original.txt",
+      "readerUrl": "/library/works/gutenberg-67388/editions/ed-272b5a7dc532/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-66960:ed-7cc0823a559a",
+      "workId": "gutenberg-66960",
+      "editionId": "ed-7cc0823a559a",
+      "titleOriginal": "The Preaching of Islam: A History of the Propagation of the Muslim Faith",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "T. W. Arnold",
+      "language": "en",
+      "subjects": [
+        "التاريخ الإسلامي",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 1136126,
+      "sha256": "7cc0823a559a5719b3ce8cf4e8f329c58a03fb5a92b59b2c5f5a2167c31d6706",
+      "localUrl": "/library/works/gutenberg-66960/editions/ed-7cc0823a559a/original.txt",
+      "readerUrl": "/library/works/gutenberg-66960/editions/ed-7cc0823a559a/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-50619:ed-69be595590dd",
+      "workId": "gutenberg-50619",
+      "editionId": "ed-69be595590dd",
+      "titleOriginal": "The Sufism of the Rubáiyát, or, the Secret of the Great Paradox",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Omar Khayyam",
+      "language": "en",
+      "subjects": [
+        "التصوف والأخلاق",
+        "الأدب الروحي",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 83395,
+      "sha256": "69be595590dd420020562416656abe013b5f5bf37d59a853148cec41a6b110f5",
+      "localUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
+      "readerUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-44488:ed-0ded397c47e5",
+      "workId": "gutenberg-44488",
+      "editionId": "ed-0ded397c47e5",
+      "titleOriginal": "Études sur l'Islam et les tribus Maures: Les Brakna",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Paul Marty",
+      "language": "fr",
+      "subjects": [
+        "études islamiques",
+        "histoire sociale",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 710174,
+      "sha256": "0ded397c47e596c093229a7abc4a559b3e6e1a89c874008fc8eb08bfee2745b5",
+      "localUrl": "/library/works/gutenberg-44488/editions/ed-0ded397c47e5/original.txt",
+      "readerUrl": "/library/works/gutenberg-44488/editions/ed-0ded397c47e5/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
     {
       "id": "quran-meaning-003:ed-f2065f52cf85",
       "workId": "quran-meaning-003",

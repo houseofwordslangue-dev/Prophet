@@ -1,7 +1,7 @@
 {
-  "schema": "strict-acquisition-v3",
-  "updatedAt": "2026-08-20T09:08:07Z",
-  "publishedWorkIdsKnown": 0,
+  "schema": "strict-acquisition-v4",
+  "updatedAt": "2026-08-20T09:45:06Z",
+  "publishedWorkIdsKnown": 1,
   "items": [
     {
       "workId": "dinet-life-mohammad",
@@ -415,6 +415,326 @@
       "localPath": "library/works/quran-meaning-003/editions/ed-f2065f52cf85/original.pdf",
       "sha256": "f2065f52cf8557dac7f07fbb96c8999e200ab14ca1bf2cd33e751010eaff982d",
       "editionId": "ed-f2065f52cf85",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-20927",
+      "titleOriginal": "A Critical Exposition of the Popular ''Jihád",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "20927",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/20927",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927/master/20927.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927",
+      "sourceSubjects": [
+        "Islam -- Apologetic works",
+        "War -- Religious aspects -- Islam",
+        "Jihad",
+        "Islam -- Relations"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927/master/20927.txt",
+      "localPath": "library/works/gutenberg-20927/editions/ed-0c963b739d22/original.txt",
+      "sha256": "0c963b739d22a7ebb803bacbc1ab9f5435fe6cac30110331fca5421c23535d48",
+      "editionId": "ed-0c963b739d22",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-66960",
+      "titleOriginal": "The Preaching of Islam: A History of the Propagation of the Muslim Faith",
+      "author": "T. W. Arnold",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "66960",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/66960",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Preaching-of-Islam-A-History-of-the-Propagation-of-the-Muslim-Faith_66960/master/metadata.yaml",
+      "subjects": [
+        "التاريخ الإسلامي",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Preaching-of-Islam-A-History-of-the-Propagation-of-the-Muslim-Faith_66960",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Preaching-of-Islam-A-History-of-the-Propagation-of-the-Muslim-Faith_66960/master/66960-0.txt",
+      "localPath": "library/works/gutenberg-66960/editions/ed-7cc0823a559a/original.txt",
+      "sha256": "7cc0823a559a5719b3ce8cf4e8f329c58a03fb5a92b59b2c5f5a2167c31d6706",
+      "editionId": "ed-7cc0823a559a",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-67388",
+      "titleOriginal": "The Mystics of Islam",
+      "author": "Reynold Alleyne Nicholson",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "67388",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/67388",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Mystics-of-Islam_67388/master/metadata.yaml",
+      "subjects": [
+        "التصوف والأخلاق",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Mystics-of-Islam_67388",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Mystics-of-Islam_67388/master/67388-0.txt",
+      "localPath": "library/works/gutenberg-67388/editions/ed-272b5a7dc532/original.txt",
+      "sha256": "272b5a7dc5327a4ae3768839a3ae76e0a2ed36fe629b54c1a9a2ad91c155d690",
+      "editionId": "ed-272b5a7dc532",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-61526",
+      "titleOriginal": "A Dictionary of Islam",
+      "author": "Thomas Patrick Hughes",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "61526",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/61526",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/A-Dictionary-of-Islam-Being-a-cyclopedia-of-the-doctrines-rites-ceremonies-and-customs-togeth__61526/master/metadata.yaml",
+      "subjects": [
+        "المعاجم والموسوعات",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/A-Dictionary-of-Islam-Being-a-cyclopedia-of-the-doctrines-rites-ceremonies-and-customs-togeth__61526",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/A-Dictionary-of-Islam-Being-a-cyclopedia-of-the-doctrines-rites-ceremonies-and-customs-togeth__61526/master/61526.txt",
+      "localPath": "library/works/gutenberg-61526/editions/ed-dc7aedc76fb1/original.txt",
+      "sha256": "dc7aedc76fb1d4b2c04c05b60f574f5adc5d17e01203451f79d0444809e5cad9",
+      "editionId": "ed-dc7aedc76fb1",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-74846",
+      "titleOriginal": "A Moslem Seeker after God: The Life and Teaching of al-Ghazali",
+      "author": "Samuel Marinus Zwemer",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "74846",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/74846",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/A-Moslem-seeker-after-God-b-showing-Islam-at-its-best-in-the-life-and-teaching-of-al-Ghazali-__74846/master/metadata.yaml",
+      "subjects": [
+        "الغزالي",
+        "التصوف والأخلاق",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/A-Moslem-seeker-after-God-b-showing-Islam-at-its-best-in-the-life-and-teaching-of-al-Ghazali-__74846",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/A-Moslem-seeker-after-God-b-showing-Islam-at-its-best-in-the-life-and-teaching-of-al-Ghazali-__74846/master/74846-0.txt",
+      "localPath": "library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
+      "sha256": "cb8ea3b959bc3caa028e6ea9a6a598575748cc8b63175991fbcab25aea4b6c82",
+      "editionId": "ed-cb8ea3b959bc",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-63654",
+      "titleOriginal": "The House of Islam",
+      "author": "Marmaduke William Pickthall",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "63654",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/63654",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-House-of-Islam_63654/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "الأدب الإسلامي",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-House-of-Islam_63654",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-House-of-Islam_63654/master/63654-0.txt",
+      "localPath": "library/works/gutenberg-63654/editions/ed-76d15dc5b58e/original.txt",
+      "sha256": "76d15dc5b58e2796444dda922ff55a83b79e2c39f471d4e2151dabd0bfa642cb",
+      "editionId": "ed-76d15dc5b58e",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-50619",
+      "titleOriginal": "The Sufism of the Rubáiyát, or, the Secret of the Great Paradox",
+      "author": "Omar Khayyam",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "50619",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/50619",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/The-Sufism-of-the-Rubaiyat-or-the-Secret-of-the-Great-Paradox_50619/master/metadata.yaml",
+      "subjects": [
+        "التصوف والأخلاق",
+        "الأدب الروحي",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/The-Sufism-of-the-Rubaiyat-or-the-Secret-of-the-Great-Paradox_50619",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Sufism-of-the-Rubaiyat-or-the-Secret-of-the-Great-Paradox_50619/master/50619-0.txt",
+      "localPath": "library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
+      "sha256": "69be595590dd420020562416656abe013b5f5bf37d59a853148cec41a6b110f5",
+      "editionId": "ed-69be595590dd",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-44488",
+      "titleOriginal": "Études sur l'Islam et les tribus Maures: Les Brakna",
+      "author": "Paul Marty",
+      "language": "fr",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "44488",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/44488",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/-tudes-sur-L-Islam-et-les-tribus-MauresLes-Brakna_44488/master/metadata.yaml",
+      "subjects": [
+        "études islamiques",
+        "histoire sociale",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/-tudes-sur-L-Islam-et-les-tribus-MauresLes-Brakna_44488",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/-tudes-sur-L-Islam-et-les-tribus-MauresLes-Brakna_44488/master/44488-8.txt",
+      "localPath": "library/works/gutenberg-44488/editions/ed-0ded397c47e5/original.txt",
+      "sha256": "0ded397c47e596c093229a7abc4a559b3e6e1a89c874008fc8eb08bfee2745b5",
+      "editionId": "ed-0ded397c47e5",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-4657",
+      "titleOriginal": "Personal Narrative of a Pilgrimage to Al-Madinah & Meccah — Volume 1",
+      "author": "Richard Francis Burton",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "4657",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/4657",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-1_4657/master/metadata.yaml",
+      "subjects": [
+        "المدينة المنورة",
+        "مكة المكرمة",
+        "الحج",
+        "التاريخ والرحلات",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-1_4657",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-1_4657/master/4657.txt",
+      "localPath": "library/works/gutenberg-4657/editions/ed-df825d6defe6/original.txt",
+      "sha256": "df825d6defe623fe9c9cda092a6b101aaa147fe3cc1d512fab2f6d536b235beb",
+      "editionId": "ed-df825d6defe6",
+      "error": ""
+    },
+    {
+      "workId": "gutenberg-4658",
+      "titleOriginal": "Personal Narrative of a Pilgrimage to Al-Madinah & Meccah — Volume 2",
+      "author": "Richard Francis Burton",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "4658",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/4658",
+      "downloadUrl": "",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-2_4658/master/metadata.yaml",
+      "subjects": [
+        "المدينة المنورة",
+        "مكة المكرمة",
+        "الحج",
+        "التاريخ والرحلات",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-2_4658",
+      "discoveredBy": "curated-gitenberg-public-domain-metadata",
+      "checkedAt": "2026-08-20T09:45:06Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-2_4658/master/4658-8.txt",
+      "localPath": "library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
+      "sha256": "586931ef46690c49097eb89b668838589de87fc529567ed2037d3d37947eb636",
+      "editionId": "ed-586931ef4669",
       "error": ""
     }
   ]
