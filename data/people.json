@@ -10,7 +10,7 @@
       "fr"
     ]
   },
-  "count": 306,
+  "count": 312,
   "people": [
     {
       "id": "person-1010e90bd3ea",
@@ -19,6 +19,72 @@
         "ar": "Ahmad ibn al-Mubarak al-Lamati",
         "en": "Ahmad ibn al-Mubarak al-Lamati",
         "fr": "Ahmad ibn al-Mubarak al-Lamati"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b1ae024eae93",
+      "slug": "person-b1ae024eae93",
+      "name": {
+        "ar": "Arthur Glyn Leonard",
+        "en": "Arthur Glyn Leonard",
+        "fr": "Arthur Glyn Leonard"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a6fb499cb017",
+      "slug": "person-a6fb499cb017",
+      "name": {
+        "ar": "Bernard Carra de Vaux",
+        "en": "Bernard Carra de Vaux",
+        "fr": "Bernard Carra de Vaux"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1328eba3c05e",
+      "slug": "person-1328eba3c05e",
+      "name": {
+        "ar": "C. Snouck Hurgronje",
+        "en": "C. Snouck Hurgronje",
+        "fr": "C. Snouck Hurgronje"
       },
       "category": "source-person",
       "biography": {
@@ -689,6 +755,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-cbdc7b5c1650",
+      "slug": "person-cbdc7b5c1650",
+      "name": {
+        "ar": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
+        "en": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
+        "fr": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-1f376d826cca",
       "slug": "person-1f376d826cca",
       "name": {
@@ -755,12 +843,56 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-5fa90258506c",
+      "slug": "person-5fa90258506c",
+      "name": {
+        "ar": "Syed Ameer Ali",
+        "en": "Syed Ameer Ali",
+        "fr": "Syed Ameer Ali"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-b56032f32663",
       "slug": "person-b56032f32663",
       "name": {
         "ar": "T. W. Arnold",
         "en": "T. W. Arnold",
         "fr": "T. W. Arnold"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-3c78dd611e4f",
+      "slug": "person-3c78dd611e4f",
+      "name": {
+        "ar": "Theodore R. W. Lunt",
+        "en": "Theodore R. W. Lunt",
+        "fr": "Theodore R. W. Lunt"
       },
       "category": "source-person",
       "biography": {
