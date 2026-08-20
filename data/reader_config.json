@@ -1,0 +1,13 @@
+{
+  "engine": "Internet Archive BookReader",
+  "version": "5.0.0-116",
+  "fallbackVersion": "5.0.0-87",
+  "license": "AGPL-3.0",
+  "cdn": "https://cdn.jsdelivr.net/npm/@internetarchive/bookreader@{version}/BookReader/",
+  "upstreamSource": "https://github.com/internetarchive/bookreader",
+  "upstreamLicense": "https://github.com/internetarchive/bookreader/blob/master/LICENSE",
+  "integrationSource": "https://github.com/houseofwordslangue-dev/Prophet",
+  "modes": ["iiif", "archive-org", "page-manifest", "pdf", "text"],
+  "rtl": true,
+  "theme": "prophet-green-zellige"
+}
