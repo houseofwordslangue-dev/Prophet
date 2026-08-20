@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T12:02:04.188595+00:00",
-  "count": 32,
+  "generatedAt": "2026-08-20T14:10:38.676619+00:00",
+  "count": 36,
   "currentBatchCount": 4,
   "items": [
     {
@@ -98,6 +98,114 @@
       "sha256": "cb8ea3b959bc3caa028e6ea9a6a598575748cc8b63175991fbcab25aea4b6c82",
       "localUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
       "readerUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "leonard-islam-moral-spiritual:ed-eaf8b06c0cb2",
+      "workId": "leonard-islam-moral-spiritual",
+      "editionId": "ed-eaf8b06c0cb2",
+      "titleOriginal": "Islam, Her Moral And Spiritual Value: A Rational And Psychological Study",
+      "titleAr": null,
+      "titleEn": "Islam, Her Moral And Spiritual Value: A Rational And Psychological Study",
+      "titleFr": null,
+      "author": "Arthur Glyn Leonard",
+      "language": "en",
+      "subjects": [
+        "الأخلاق",
+        "القيم الروحية",
+        "الدراسات الإسلامية"
+      ],
+      "siteSections": [
+        "الإنسان",
+        "الرحمة العظمى",
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 226785,
+      "sha256": "eaf8b06c0cb244e70aeddf37834e556b18d27ec8dde5512885b65a88da972d28",
+      "localUrl": "/library/works/leonard-islam-moral-spiritual/editions/ed-eaf8b06c0cb2/original.txt",
+      "readerUrl": "/library/works/leonard-islam-moral-spiritual/editions/ed-eaf8b06c0cb2/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "ameer-ali-islam:ed-45a81f977a3d",
+      "workId": "ameer-ali-islam",
+      "editionId": "ed-45a81f977a3d",
+      "titleOriginal": "Islâm",
+      "titleAr": null,
+      "titleEn": "Islâm",
+      "titleFr": null,
+      "author": "Syed Ameer Ali",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "التاريخ",
+        "الأخلاق"
+      ],
+      "siteSections": [
+        "الإنسان",
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 122539,
+      "sha256": "45a81f977a3d28824ec4ca6df0a700f1d381f4a4709d8b99b57128723b896e85",
+      "localUrl": "/library/works/ameer-ali-islam/editions/ed-45a81f977a3d/original.txt",
+      "readerUrl": "/library/works/ameer-ali-islam/editions/ed-45a81f977a3d/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "carra-de-vaux-doctrine-islam:ed-7f47f3443ecf",
+      "workId": "carra-de-vaux-doctrine-islam",
+      "editionId": "ed-7f47f3443ecf",
+      "titleOriginal": "La doctrine de l'Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": "La doctrine de l'Islam",
+      "author": "Bernard Carra de Vaux",
+      "language": "fr",
+      "subjects": [
+        "études islamiques",
+        "doctrine",
+        "histoire des idées"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 443618,
+      "sha256": "7f47f3443ecf58b6f813b5721c9c1111fa24b154de2a3d242b403dd54347c4d4",
+      "localUrl": "/library/works/carra-de-vaux-doctrine-islam/editions/ed-7f47f3443ecf/original.txt",
+      "readerUrl": "/library/works/carra-de-vaux-doctrine-islam/editions/ed-7f47f3443ecf/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -236,6 +344,42 @@
       "sha256": "324a31983b2fea2c424fa4de755be3bfb56891e4d739d1bddbf492e45d87edd7",
       "localUrl": "/library/works/hayes-mohammed-prophet-islam/editions/ed-324a31983b2f/original.txt",
       "readerUrl": "/library/works/hayes-mohammed-prophet-islam/editions/ed-324a31983b2f/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "ahmed-hussain-notes-islam:ed-859139d09118",
+      "workId": "ahmed-hussain-notes-islam",
+      "editionId": "ed-859139d09118",
+      "titleOriginal": "Notes on Islam",
+      "titleAr": null,
+      "titleEn": "Notes on Islam",
+      "titleFr": null,
+      "author": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "الأخلاق",
+        "الفكر"
+      ],
+      "siteSections": [
+        "الإنسان",
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 146682,
+      "sha256": "859139d0911856d09c5232e485e5e7816107f710f071711a87133d5301a457ac",
+      "localUrl": "/library/works/ahmed-hussain-notes-islam/editions/ed-859139d09118/original.txt",
+      "readerUrl": "/library/works/ahmed-hussain-notes-islam/editions/ed-859139d09118/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,

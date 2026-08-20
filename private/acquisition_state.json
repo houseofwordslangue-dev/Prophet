@@ -1,7 +1,7 @@
 {
   "schema": "strict-acquisition-v4",
-  "updatedAt": "2026-08-20T12:00:15Z",
-  "publishedWorkIdsKnown": 28,
+  "updatedAt": "2026-08-20T14:10:34Z",
+  "publishedWorkIdsKnown": 32,
   "items": [
     {
       "workId": "dinet-life-mohammad",
@@ -26,7 +26,7 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
+      "checkedAt": "2026-08-20T14:10:34Z",
       "status": "ALREADY_PUBLISHED",
       "error": ""
     },
@@ -53,7 +53,7 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
+      "checkedAt": "2026-08-20T14:10:34Z",
       "status": "ALREADY_PUBLISHED",
       "error": ""
     },
@@ -77,7 +77,7 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
+      "checkedAt": "2026-08-20T14:10:34Z",
       "status": "ALREADY_PUBLISHED",
       "error": ""
     },
@@ -101,7 +101,7 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
+      "checkedAt": "2026-08-20T14:10:34Z",
       "status": "ALREADY_PUBLISHED",
       "error": ""
     },
@@ -125,13 +125,8 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
-      "status": "DOWNLOADED",
-      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/Mohammed-The-Prophet-of-Islam_14064/master/14064.txt",
-      "transportMirror": "GITenberg",
-      "localPath": "library/works/hayes-mohammed-prophet-islam/editions/ed-324a31983b2f/original.txt",
-      "sha256": "324a31983b2fea2c424fa4de755be3bfb56891e4d739d1bddbf492e45d87edd7",
-      "editionId": "ed-324a31983b2f",
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "ALREADY_PUBLISHED",
       "error": ""
     },
     {
@@ -157,13 +152,8 @@
         "الرسول",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
-      "status": "DOWNLOADED",
-      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/Mohammed_73644/master/73644-0.txt",
-      "transportMirror": "GITenberg",
-      "localPath": "library/works/dibble-mohammed/editions/ed-df500c90a208/original.txt",
-      "sha256": "df500c90a208009f6ddfb056fb8a89c5cfec99ad4afa0681800ae0a9aedefe31",
-      "editionId": "ed-df500c90a208",
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "ALREADY_PUBLISHED",
       "error": ""
     },
     {
@@ -189,13 +179,8 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
-      "status": "DOWNLOADED",
-      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Islam-of-Mohamed_58424/master/58424-0.txt",
-      "transportMirror": "GITenberg",
-      "localPath": "library/works/khuda-bukhsh-islam-mohamed/editions/ed-0e40169cc555/original.txt",
-      "sha256": "0e40169cc55574cc06760288a0dd2c4d820fcc55116187badbcbfa671201d728",
-      "editionId": "ed-0e40169cc555",
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "ALREADY_PUBLISHED",
       "error": ""
     },
     {
@@ -219,13 +204,8 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T12:00:15Z",
-      "status": "DOWNLOADED",
-      "resolvedDownloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Faith-of-Islam_20660/master/20660.txt",
-      "transportMirror": "GITenberg",
-      "localPath": "library/works/sell-faith-of-islam/editions/ed-f3574b70004d/original.txt",
-      "sha256": "f3574b70004dbd6eae0362ede9862e74135638f0385ec090ee9c0f3b3174b68c",
-      "editionId": "ed-f3574b70004d",
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "ALREADY_PUBLISHED",
       "error": ""
     },
     {
@@ -250,9 +230,14 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://www.gutenberg.org/cache/epub/25254/pg25254.txt",
+      "transportMirror": "",
+      "localPath": "library/works/ahmed-hussain-notes-islam/editions/ed-859139d09118/original.txt",
+      "sha256": "859139d0911856d09c5232e485e5e7816107f710f071711a87133d5301a457ac",
+      "editionId": "ed-859139d09118",
+      "error": ""
     },
     {
       "workId": "leonard-islam-moral-spiritual",
@@ -277,9 +262,14 @@
         "الرحمة العظمى",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://www.gutenberg.org/cache/epub/38114/pg38114.txt",
+      "transportMirror": "",
+      "localPath": "library/works/leonard-islam-moral-spiritual/editions/ed-eaf8b06c0cb2/original.txt",
+      "sha256": "eaf8b06c0cb244e70aeddf37834e556b18d27ec8dde5512885b65a88da972d28",
+      "editionId": "ed-eaf8b06c0cb2",
+      "error": ""
     },
     {
       "workId": "carra-de-vaux-doctrine-islam",
@@ -302,9 +292,14 @@
       "siteSections": [
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://www.gutenberg.org/cache/epub/47963/pg47963.txt",
+      "transportMirror": "",
+      "localPath": "library/works/carra-de-vaux-doctrine-islam/editions/ed-7f47f3443ecf/original.txt",
+      "sha256": "7f47f3443ecf58b6f813b5721c9c1111fa24b154de2a3d242b403dd54347c4d4",
+      "editionId": "ed-7f47f3443ecf",
+      "error": ""
     },
     {
       "workId": "ameer-ali-islam",
@@ -328,9 +323,14 @@
         "الإنسان",
         "المصادر والدراسات"
       ],
-      "checkedAt": "2026-08-20T09:08:07Z",
-      "status": "FAILED",
-      "error": "download:HTTPError"
+      "checkedAt": "2026-08-20T14:10:34Z",
+      "status": "DOWNLOADED",
+      "resolvedDownloadUrl": "https://www.gutenberg.org/cache/epub/70136/pg70136.txt",
+      "transportMirror": "",
+      "localPath": "library/works/ameer-ali-islam/editions/ed-45a81f977a3d/original.txt",
+      "sha256": "45a81f977a3d28824ec4ca6df0a700f1d381f4a4709d8b99b57128723b896e85",
+      "editionId": "ed-45a81f977a3d",
+      "error": ""
     },
     {
       "workId": "hurgronje-mohammedanism",

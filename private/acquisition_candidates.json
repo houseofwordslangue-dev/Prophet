@@ -1155,6 +1155,136 @@
       "transportMirror": "GITenberg",
       "mirrorRepository": "GITenberg/Personal-Narrative-of-a-Pilgrimage-to-Al-Madinah-Meccah-Volume-2_4658",
       "discoveredBy": "curated-gitenberg-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-21512",
+      "titleOriginal": "Modern Persia",
+      "author": "Mooshie G. Daniel",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "21512",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/21512",
+      "downloadUrl": "https://www.gutenberg.org/ebooks/21512.txt.utf-8",
+      "rightsEvidence": "Public domain in the USA",
+      "rightsEvidenceUrl": "https://www.gutenberg.org/ebooks/21512",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "discoveredBy": "official-gutenberg-relevant-subjects"
+    },
+    {
+      "workId": "gutenberg-57208",
+      "titleOriginal": "The Jew, The Gypsy and El Islam",
+      "author": "Sir Richard Francis Burton",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "57208",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57208",
+      "downloadUrl": "https://www.gutenberg.org/ebooks/57208.txt.utf-8",
+      "rightsEvidence": "Public domain in the USA",
+      "rightsEvidenceUrl": "https://www.gutenberg.org/ebooks/57208",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "discoveredBy": "official-gutenberg-relevant-subjects"
+    },
+    {
+      "workId": "gutenberg-54782",
+      "titleOriginal": "Sketches from Eastern History",
+      "author": "Theodor Nöldeke",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "54782",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/54782",
+      "downloadUrl": "https://www.gutenberg.org/ebooks/54782.txt.utf-8",
+      "rightsEvidence": "Public domain in the USA",
+      "rightsEvidenceUrl": "https://www.gutenberg.org/ebooks/54782",
+      "subjects": [
+        "القرآن وعلومه",
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "discoveredBy": "official-gutenberg-relevant-subjects"
+    },
+    {
+      "workId": "gutenberg-22337",
+      "titleOriginal": "History of the Moors of Spain",
+      "author": "Florian",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "22337",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/22337",
+      "downloadUrl": "https://www.gutenberg.org/ebooks/22337.txt.utf-8",
+      "rightsEvidence": "Public domain in the USA",
+      "rightsEvidenceUrl": "https://www.gutenberg.org/ebooks/22337",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "discoveredBy": "official-gutenberg-relevant-subjects"
+    },
+    {
+      "workId": "gutenberg-70744",
+      "titleOriginal": "The revolt in Arabia",
+      "author": "C. Snouck Hurgronje",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "70744",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/70744",
+      "downloadUrl": "https://www.gutenberg.org/ebooks/70744.txt.utf-8",
+      "rightsEvidence": "Public domain in the USA",
+      "rightsEvidenceUrl": "https://www.gutenberg.org/ebooks/70744",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "discoveredBy": "official-gutenberg-relevant-subjects"
+    },
+    {
+      "workId": "gutenberg-44515",
+      "titleOriginal": "Selections from the Kur-an",
+      "author": "Edward William Lane and Stanley Lane-Poole",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "44515",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/44515",
+      "downloadUrl": "https://www.gutenberg.org/ebooks/44515.txt.utf-8",
+      "rightsEvidence": "Public domain in the USA",
+      "rightsEvidenceUrl": "https://www.gutenberg.org/ebooks/44515",
+      "subjects": [
+        "القرآن وعلومه",
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "discoveredBy": "official-gutenberg-relevant-subjects"
     }
   ],
   "lastGITenbergDiscoveryAt": "2026-08-20T09:39:01Z",
@@ -1206,5 +1336,6 @@
       "sourceIdentifier": "4658",
       "title": "Personal Narrative of a Pilgrimage to Al-Madinah & Meccah — Volume 2"
     }
-  ]
+  ],
+  "lastDiscoveryAt": "2026-08-20T14:10:33Z"
 }
