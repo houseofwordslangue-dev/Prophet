@@ -11,6 +11,7 @@ EDITORIAL = ROOT / "data" / "editorial"
 DRAFTS = EDITORIAL / "drafts"
 MANIFEST = EDITORIAL / "publication_manifest.json"
 SECTIONS = ROOT / "data" / "editorial_sections.json"
+TARGET_VERSION = "genuine-source-autopublish-v2"
 
 
 def load(path: Path, default=None):
@@ -56,7 +57,7 @@ def strict_verified(d: dict, overrides: dict) -> tuple[bool, str]:
             return False, "paragraph has no sourceRefs"
 
     # A visual/manual verification override is authoritative only when it contains
-    # replacement source text. This supports the already-reviewed Ibn Hisham OCR cases.
+    # replacement source text. This supports the already-reviewed OCR cases.
     if did in overrides:
         ov = overrides.get(did) or {}
         if not (ov.get("paragraphs") or []):
@@ -102,8 +103,6 @@ def main() -> int:
         else:
             rejected.append({"id": did, "reason": reason})
 
-    # Never silently drop a previously published item. A previously published item
-    # missing from today's draft corpus is treated as a hard failure instead.
     missing_current = [x for x in current if x not in by_id]
     if missing_current:
         raise SystemExit("FAIL: published IDs missing from draft corpus: " + ", ".join(missing_current))
@@ -147,14 +146,20 @@ def main() -> int:
     print("rejected/pending verification:", len(rejected))
     print("active slots covered:", integrity["activeEditorialSlotsCovered"], "/", integrity["activeEditorialSlotsTotal"])
 
-    if args.check or not newly_published:
+    if args.check:
         return 0
 
+    activation_needed = not bool((manifest.get("automation") or {}).get("enabled")) or manifest.get("version") != TARGET_VERSION
+    if not newly_published and not activation_needed:
+        print("No publication-state change required.")
+        return 0
+
+    stamp = iso_now()
     manifest.update({
-        "version": "genuine-source-autopublish-v2",
+        "version": TARGET_VERSION,
         "status": "PUBLISHED",
         "policy": "genuine-source-only / zero AI substantive content / automatic publication after strict provenance verification",
-        "publishedAt": iso_now(),
+        "publishedAt": stamp if newly_published else (manifest.get("publishedAt") or stamp),
         "publicFeed": manifest.get("publicFeed") or "editorial.html",
         "articleRoute": manifest.get("articleRoute") or "feature.html?id={id}",
         "draftBatchPaths": batch_paths,
@@ -163,13 +168,18 @@ def main() -> int:
         "automation": {
             "enabled": True,
             "mode": "strict-source-autopublish",
+            "schedule": "hourly plus source/draft pushes",
             "rule": "Only 100% source-provenance records with zero AI substantive content and verified quotations/originals are published.",
-            "lastPublicationAt": iso_now(),
+            "activatedAt": (manifest.get("automation") or {}).get("activatedAt") or stamp,
+            "lastPublicationAt": stamp if newly_published else (manifest.get("automation") or {}).get("lastPublicationAt"),
             "newlyPublishedThisRun": len(newly_published),
         },
     })
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    print("PUBLISHED NEW IDS:", ", ".join(newly_published))
+    if newly_published:
+        print("PUBLISHED NEW IDS:", ", ".join(newly_published))
+    else:
+        print("AUTOPUBLISHER ACTIVATED; existing publication set preserved.")
     return 0
 
 
