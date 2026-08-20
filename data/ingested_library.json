@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T14:10:38.676619+00:00",
-  "count": 36,
+  "generatedAt": "2026-08-20T15:58:19.007698+00:00",
+  "count": 40,
   "currentBatchCount": 4,
   "items": [
     {
@@ -98,6 +98,41 @@
       "sha256": "cb8ea3b959bc3caa028e6ea9a6a598575748cc8b63175991fbcab25aea4b6c82",
       "localUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
       "readerUrl": "/library/works/gutenberg-74846/editions/ed-cb8ea3b959bc/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "zwemer-arabia-cradle-islam:ed-9b590d396eca",
+      "workId": "zwemer-arabia-cradle-islam",
+      "editionId": "ed-9b590d396eca",
+      "titleOriginal": "Arabia: The Cradle of Islam",
+      "titleAr": null,
+      "titleEn": "Arabia: The Cradle of Islam",
+      "titleFr": null,
+      "author": "Samuel Marinus Zwemer",
+      "language": "en",
+      "subjects": [
+        "الجزيرة العربية",
+        "مكة والمدينة",
+        "دراسات تاريخية"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 901491,
+      "sha256": "9b590d396ecae23ac6e44e0ec6d25211197bbe26928d17690634e7212c275462",
+      "localUrl": "/library/works/zwemer-arabia-cradle-islam/editions/ed-9b590d396eca/original.txt",
+      "readerUrl": "/library/works/zwemer-arabia-cradle-islam/editions/ed-9b590d396eca/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -356,6 +391,41 @@
       "publishedAsset": true
     },
     {
+      "id": "hurgronje-mohammedanism:ed-9b49d5edd658",
+      "workId": "hurgronje-mohammedanism",
+      "editionId": "ed-9b49d5edd658",
+      "titleOriginal": "Mohammedanism: Lectures on Its Origin, Its Religious and Political Growth, and Its Present State",
+      "titleAr": null,
+      "titleEn": "Mohammedanism",
+      "titleFr": null,
+      "author": "C. Snouck Hurgronje",
+      "language": "en",
+      "subjects": [
+        "التاريخ الإسلامي",
+        "دراسات تاريخية",
+        "نشأة الإسلام"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 227909,
+      "sha256": "9b49d5edd6588f51df3ed36201b7db9c75de54f969e61e8440495981367a90ba",
+      "localUrl": "/library/works/hurgronje-mohammedanism/editions/ed-9b49d5edd658/original.txt",
+      "readerUrl": "/library/works/hurgronje-mohammedanism/editions/ed-9b49d5edd658/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "ahmed-hussain-notes-islam:ed-859139d09118",
       "workId": "ahmed-hussain-notes-islam",
       "editionId": "ed-859139d09118",
@@ -454,6 +524,40 @@
       "sha256": "586931ef46690c49097eb89b668838589de87fc529567ed2037d3d37947eb636",
       "localUrl": "/library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
       "readerUrl": "/library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-34572:ed-8b4fcb7efe26",
+      "workId": "gutenberg-34572",
+      "editionId": "ed-8b4fcb7efe26",
+      "titleOriginal": "The Awakening of the Soul",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "application/octet-stream",
+      "size": 146179,
+      "sha256": "8b4fcb7efe267ffcefce9adc398e5c665ef3c26d99bac31d7e926ca1dd5ad143",
+      "localUrl": "/library/works/gutenberg-34572/editions/ed-8b4fcb7efe26/original.txt",
+      "readerUrl": "/library/works/gutenberg-34572/editions/ed-8b4fcb7efe26/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -739,6 +843,43 @@
       "sha256": "c88c26968f8850b43b018de1bd0cee6ae0f87dc40f678ce12e5c7e2e56374d9f",
       "localUrl": "/library/works/lane-poole-table-talk/editions/ed-c88c26968f88/original.txt",
       "readerUrl": "/library/works/lane-poole-table-talk/editions/ed-c88c26968f88/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "lunt-story-islam:ed-d28363b866b4",
+      "workId": "lunt-story-islam",
+      "editionId": "ed-d28363b866b4",
+      "titleOriginal": "The Story of Islam",
+      "titleAr": null,
+      "titleEn": "The Story of Islam",
+      "titleFr": null,
+      "author": "Theodore R. W. Lunt",
+      "language": "en",
+      "subjects": [
+        "السيرة النبوية",
+        "التاريخ الإسلامي",
+        "الجزيرة العربية"
+      ],
+      "siteSections": [
+        "النبي",
+        "الرسول",
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 279646,
+      "sha256": "d28363b866b4bfe512f9b4f55338c640a28e478fee18bf46e1a4e9c9172a7571",
+      "localUrl": "/library/works/lunt-story-islam/editions/ed-d28363b866b4/original.txt",
+      "readerUrl": "/library/works/lunt-story-islam/editions/ed-d28363b866b4/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
