@@ -1,11 +1,21 @@
 {
-  "version": "1.0.1",
-  "policy": "Only explicitly established family relations are assigned. Unknown or ambiguous kinship is not guessed.",
+  "version": "1.1.0",
+  "policy": "Only explicitly established family relations are assigned. Distinct kinship types are never mixed in the same published group.",
   "groups": [
     {
       "id": "wives",
       "labels": {"ar": "الزوجات أمهات المؤمنين", "en": "Wives — Mothers of the Believers", "fr": "Épouses — Mères des croyants"},
-      "people": ["khadija-bint-khuwaylid","sawda-bint-zama","aisha-bint-abi-bakr","hafsa-bint-umar","zaynab-bint-khuzayma","umm-salama","zaynab-bint-jahsh","juwayriya-bint-al-harith","umm-habiba","safiyya-bint-huyayy","maymuna-bint-al-harith","mariya-al-qibtiyya"]
+      "people": ["khadija-bint-khuwaylid","sawda-bint-zama","aisha-bint-abi-bakr","hafsa-bint-umar","zaynab-bint-khuzayma","umm-salama","zaynab-bint-jahsh","juwayriya-bint-al-harith","umm-habiba","safiyya-bint-huyayy","maymuna-bint-al-harith"]
+    },
+    {
+      "id": "mariya",
+      "labels": {"ar": "مارية القبطية", "en": "Mariya al-Qibtiyya", "fr": "Mariya al-Qibtiyya"},
+      "notes": {
+        "ar": "تُعرض في قسم مستقل حتى لا تُخلط بطاقة مارية القبطية آليًا مع تصنيف الزوجات أمهات المؤمنين.",
+        "en": "Shown in a separate section so Mariya al-Qibtiyya is not automatically mixed into the Wives — Mothers of the Believers classification.",
+        "fr": "Affichée dans une section distincte afin de ne pas mélanger automatiquement Mariya al-Qibtiyya avec la catégorie des épouses — Mères des croyants."
+      },
+      "people": ["mariya-al-qibtiyya"]
     },
     {
       "id": "children",
@@ -23,6 +33,16 @@
       "people": ["abdullah-ibn-abd-al-muttalib","amina-bint-wahb"]
     },
     {
+      "id": "maternal-zuhra",
+      "labels": {"ar": "أخواله من جهة آمنة بنت وهب — بنو زهرة", "en": "Maternal kin through Amina bint Wahb — Banu Zuhra", "fr": "Parenté maternelle par Amina bint Wahb — Banū Zuhra"},
+      "notes": {
+        "ar": "أخوال النبي ﷺ من جهة أمه آمنة بنت وهب هم بنو زهرة بن كلاب. ويُذكر عبد يغوث بن وهب بن عبد مناف بن زهرة ضمن إخوة آمنة، كما كان سعد بن أبي وقاص الزهري يُنسب إلى بني زهرة.",
+        "en": "The Prophet's maternal kin through his mother Amina bint Wahb are Banu Zuhra ibn Kilab. Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra is listed among Amina's brothers, while Saad ibn Abi Waqqas belonged to Banu Zuhra.",
+        "fr": "La parenté maternelle du Prophète par sa mère Amina bint Wahb relève des Banū Zuhra ibn Kilāb. Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra est cité parmi les frères d'Amina, tandis que Saad ibn Abi Waqqas appartenait aux Banū Zuhra."
+      },
+      "people": ["abd-yaghuth-ibn-wahb","saad-ibn-abi-waqqas"]
+    },
+    {
       "id": "paternal-uncles",
       "labels": {"ar": "الأعمام", "en": "Paternal uncles", "fr": "Oncles paternels"},
       "people": ["hamza-ibn-abd-al-muttalib","al-abbas-ibn-abd-al-muttalib"]
@@ -31,6 +51,16 @@
       "id": "paternal-cousins",
       "labels": {"ar": "أبناء الأعمام", "en": "Paternal cousins", "fr": "Cousins paternels"},
       "people": ["ali-ibn-abi-talib","abdullah-ibn-abbas"]
+    },
+    {
+      "id": "banu-najjar",
+      "labels": {"ar": "بنو النجار — أخواله من جهة نسب عبد المطلب", "en": "Banu al-Najjar — kin through Abd al-Muttalib", "fr": "Banū al-Najjār — parenté par Abd al-Muttalib"},
+      "notes": {
+        "ar": "كان بنو النجار يُسمَّون أخواله ﷺ من جهة نسب جده عبد المطلب، لأن أم عبد المطلب سلمى بنت عمرو النجارية كانت منهم.",
+        "en": "Banu al-Najjar were described as his maternal kin through the lineage of his grandfather Abd al-Muttalib, whose mother Salma bint Amr al-Najjariyya belonged to them.",
+        "fr": "Les Banū al-Najjār étaient considérés comme sa parenté maternelle par la lignée de son grand-père Abd al-Muttalib, dont la mère Salma bint Amr al-Najjariyya appartenait à ce groupe."
+      },
+      "people": ["salma-bint-amr-al-najjariyya"]
     },
     {
       "id": "ancestors",
