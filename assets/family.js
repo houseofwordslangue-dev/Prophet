@@ -3,18 +3,18 @@
 const PEOPLE='data/people.json', EXTRA='data/family_people.json', GROUPS='data/family_groups.json';
 const P=new URLSearchParams(location.search);let lang=P.get('lang')||localStorage.getItem('pm-lang')||'ar';if(!['ar','en','fr'].includes(lang))lang='ar';localStorage.setItem('pm-lang',lang);
 const UI={
- ar:{dir:'rtl',title:'آل البيت والأسرة',intro:'الأقارب مصنفون بحسب صلة القرابة المثبتة. لا تُخلط صلات القرابة المختلفة في مجموعة واحدة، وكل اسم يفتح صفحته المستقلة.',search:'ابحث في أفراد الأسرة…',all:'كل الأقسام',empty:'لا توجد أسماء مطابقة.',person:'فتح السيرة',verified:'مقطع موثّق'},
- en:{dir:'ltr',title:'Household and Family',intro:'Relatives are grouped by established kinship. Different kinship types are not mixed in one group, and every name opens a dedicated page.',search:'Search family members…',all:'All groups',empty:'No matching individuals.',person:'Open biography',verified:'verified passage(s)'},
- fr:{dir:'ltr',title:'Maison et famille',intro:'Les proches sont classés selon un lien de parenté établi. Les différents liens ne sont pas mélangés dans une même catégorie et chaque nom ouvre une page dédiée.',search:'Rechercher un membre de la famille…',all:'Toutes les catégories',empty:'Aucune personne correspondante.',person:'Ouvrir la biographie',verified:'passage(s) vérifié(s)'}
+ ar:{dir:'rtl',title:'آل البيت والأسرة',intro:'الأقارب مصنفون بحسب صلة القرابة. لا تُخلط صلات القرابة المختلفة في مجموعة واحدة، وكل اسم يفتح صفحته المستقلة.',search:'ابحث في أفراد الأسرة…',all:'كل الأقسام',empty:'لا توجد أسماء مطابقة.',person:'فتح السيرة',verified:'مقطع موثّق'},
+ en:{dir:'ltr',title:'Household and Family',intro:'Relatives are grouped by kinship type. Different relationships are kept in separate groups and every name opens a dedicated page.',search:'Search family members…',all:'All groups',empty:'No matching individuals.',person:'Open biography',verified:'verified passage(s)'},
+ fr:{dir:'ltr',title:'Maison et famille',intro:'Les proches sont classés par type de parenté. Les liens différents restent séparés et chaque nom ouvre une page dédiée.',search:'Rechercher un membre de la famille…',all:'Toutes les catégories',empty:'Aucune personne correspondante.',person:'Ouvrir la biographie',verified:'passage(s) vérifié(s)'}
 };
 const t=UI[lang];document.documentElement.lang=lang;document.documentElement.dir=t.dir;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function n(p){return p?.name?.[lang]||p?.name?.ar||p?.id||''}
 function passageCount(p){return (p?.sourcePassages||[]).filter(x=>(x.language||'ar')===lang).length}
 function getJson(url,fallback){return fetch(url,{cache:'no-store'}).then(r=>r.ok?r.json():fallback).catch(()=>fallback)}
-Promise.all([getJson(PEOPLE,{people:[]}),getJson(EXTRA,{people:[]}),getJson(GROUPS,{groups:[]})]).then(([pd,xd,gd])=>{
- const allPeople=[...(pd.people||[]),...(xd.people||[])];
- const by=new Map(allPeople.map(p=>[p.id,p]));
+Promise.all([getJson(PEOPLE,{people:[]}),getJson(EXTRA,{people:[]}),getJson(GROUPS,{groups:[],registry:[]})]).then(([pd,xd,gd])=>{
+ const allPeople=[...(pd.people||[]),...(xd.people||[]),...(gd.registry||[])];
+ const by=new Map();allPeople.forEach(p=>{if(!by.has(p.id)||((p.sourcePassages||[]).length>(by.get(p.id)?.sourcePassages||[]).length))by.set(p.id,p)});
  const title=document.getElementById('familyTitle'),intro=document.getElementById('familyIntro'),search=document.getElementById('familySearch'),filter=document.getElementById('familyFilter'),grid=document.getElementById('familyGrid');
  title.textContent=t.title;intro.textContent=t.intro;search.placeholder=t.search;document.title=t.title+' — Muhammad';
  filter.innerHTML=`<option value="">${esc(t.all)}</option>`+(gd.groups||[]).map(g=>`<option value="${esc(g.id)}">${esc(g.labels?.[lang]||g.labels?.ar||g.id)}</option>`).join('');
