@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "policy": "Only explicitly established family relations are assigned. Unknown or ambiguous kinship is not guessed.",
   "groups": [
     {
-      "id": "spouses",
+      "id": "wives",
       "labels": {"ar": "الزوجات أمهات المؤمنين", "en": "Wives — Mothers of the Believers", "fr": "Épouses — Mères des croyants"},
       "people": ["khadija-bint-khuwaylid","sawda-bint-zama","aisha-bint-abi-bakr","hafsa-bint-umar","zaynab-bint-khuzayma","umm-salama","zaynab-bint-jahsh","juwayriya-bint-al-harith","umm-habiba","safiyya-bint-huyayy","maymuna-bint-al-harith","mariya-al-qibtiyya"]
     },
