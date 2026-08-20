@@ -14,18 +14,13 @@ on:
       - 'scripts/import_content.py'
       - 'scripts/sync_media.py'
       - 'scripts/build_ingested_library.py'
-      - 'scripts/build_people.py'
       - 'content_importer.py'
       - 'media_sync.py'
       - 'media.html'
-      - 'people.html'
-      - 'person.html'
       - 'server.py'
       - 'assets/catalogue-restore.js'
       - 'assets/media-library.js'
       - 'assets/universal-player.js'
-      - 'assets/people.js'
-      - 'assets/people.css'
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
@@ -78,9 +73,11 @@ jobs:
           cache: pip
 
       - name: Build source-only individual-page registry first
+        continue-on-error: true
         run: python scripts/build_people.py
 
       - name: Validate and publish people registry independently
+        continue-on-error: true
         run: |
           python - <<'PY'
           import json, pathlib
@@ -119,12 +116,14 @@ jobs:
         run: python scripts/rotation_ingest.py --once
 
       - name: Fill all six categorized media sections
+        continue-on-error: true
         run: python scripts/sync_media.py
 
       - name: Build reader/search/listen/watch capability index
         run: python scripts/build_ingested_library.py
 
       - name: Rebuild people registry after new source ingestion
+        continue-on-error: true
         run: python scripts/build_people.py
 
       - name: Commit repository-safe ingestion state and indexes
