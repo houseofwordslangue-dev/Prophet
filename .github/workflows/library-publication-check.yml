@@ -5,19 +5,27 @@ on:
     branches: [main]
     paths:
       - 'library.html'
+      - 'service-worker.js'
       - 'assets/bookstore.js'
+      - 'assets/catalogue-restore.js'
       - 'assets/bookstore*.css'
+      - 'data/catalogue/**'
       - 'data/published_user_books.json'
       - 'data/user_ingested_books.json'
       - 'scripts/check_published_library.py'
+      - 'scripts/check_restored_catalogue.py'
   pull_request:
     paths:
       - 'library.html'
+      - 'service-worker.js'
       - 'assets/bookstore.js'
+      - 'assets/catalogue-restore.js'
       - 'assets/bookstore*.css'
+      - 'data/catalogue/**'
       - 'data/published_user_books.json'
       - 'data/user_ingested_books.json'
       - 'scripts/check_published_library.py'
+      - 'scripts/check_restored_catalogue.py'
 
 permissions:
   contents: read
@@ -32,7 +40,11 @@ jobs:
           python-version: '3.12'
       - name: Validate published library
         run: python scripts/check_published_library.py
+      - name: Validate restored master catalogue
+        run: python scripts/check_restored_catalogue.py
       - name: Validate JSON syntax
         run: |
           python -m json.tool data/published_user_books.json >/dev/null
           python -m json.tool data/user_ingested_books.json >/dev/null
+          python -m json.tool data/catalogue/manifest.json >/dev/null
+          for f in data/catalogue/chunk-*.json; do python -m json.tool "$f" >/dev/null; done
