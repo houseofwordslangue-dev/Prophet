@@ -45,5 +45,11 @@
     "AI-generated substantive articles": 0,
     "Unsupported factual paragraphs": 0,
     "Unverified quotations": 0
+  },
+  "emailReport": {
+    "recipient": "houseofwords.langue@gmail.com",
+    "subject": "24-Hour Genuine Editorial Coverage Report",
+    "sent": false,
+    "blocker": "Gmail connector requires interactive user authorization; this non-interactive run cannot complete that authorization. No email-send success was fabricated."
   }
 }
