@@ -15,6 +15,7 @@ on:
       - 'scripts/check_published_library.py'
       - 'scripts/check_restored_catalogue.py'
       - 'scripts/check_professional_catalogue.py'
+      - 'scripts/check_disputed_attributions.py'
   pull_request:
     paths:
       - 'library.html'
@@ -28,6 +29,7 @@ on:
       - 'scripts/check_published_library.py'
       - 'scripts/check_restored_catalogue.py'
       - 'scripts/check_professional_catalogue.py'
+      - 'scripts/check_disputed_attributions.py'
 
 permissions:
   contents: read
@@ -46,10 +48,13 @@ jobs:
         run: python scripts/check_restored_catalogue.py
       - name: Validate professional bibliographic catalogue
         run: python scripts/check_professional_catalogue.py
+      - name: Validate disputed author publications
+        run: python scripts/check_disputed_attributions.py
       - name: Validate JSON syntax
         run: |
           python -m json.tool data/published_user_books.json >/dev/null
           python -m json.tool data/user_ingested_books.json >/dev/null
           python -m json.tool data/catalogue/manifest.json >/dev/null
           python -m json.tool data/catalogue/professional_audit.json >/dev/null
+          python -m json.tool data/catalogue/disputed_attributions.json >/dev/null
           for f in data/catalogue/chunk-*.json; do python -m json.tool "$f" >/dev/null; done
