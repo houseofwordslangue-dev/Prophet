@@ -905,8 +905,37 @@
         "Qur''an"
       ],
       "discoveredBy": "gitenberg-github-public-domain-metadata"
+    },
+    {
+      "workId": "gutenberg-20927",
+      "titleOriginal": "A Critical Exposition of the Popular ''Jihád",
+      "author": "",
+      "language": "en",
+      "format": "txt",
+      "sourceRepository": "Project Gutenberg",
+      "sourceIdentifier": "20927",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/20927",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927/master/20927.txt",
+      "rightsEvidence": "Public domain in the USA.",
+      "rightsEvidenceUrl": "https://raw.githubusercontent.com/GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927/master/metadata.yaml",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "transportMirror": "GITenberg",
+      "mirrorRepository": "GITenberg/A-Critical-Exposition-of-the-Popular-Jih-d-Allowed-in-The-Koran---1885_20927",
+      "sourceSubjects": [
+        "Islam -- Apologetic works",
+        "War -- Religious aspects -- Islam",
+        "Jihad",
+        "Islam -- Relations"
+      ],
+      "discoveredBy": "gitenberg-github-public-domain-metadata"
     }
   ],
-  "lastGITenbergDiscoveryAt": "2026-08-20T09:19:26Z",
-  "lastDiscoveryCleanupRemoved": 3
+  "lastGITenbergDiscoveryAt": "2026-08-20T09:39:01Z",
+  "lastDiscoveryCleanupRemoved": 0
 }
