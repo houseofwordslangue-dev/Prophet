@@ -15,6 +15,7 @@ on:
       - 'content_importer.py'
       - 'media_sync.py'
       - 'media.html'
+      - 'server.py'
       - 'assets/media-library.js'
       - 'assets/universal-player.js'
   schedule:
@@ -56,7 +57,8 @@ jobs:
       PM_ROTATE_MEDIA: ${{ inputs.media || '3' }}
       PM_ROTATE_REFERENCES: ${{ inputs.references || '25' }}
       PM_OCR_DPI: '90'
-      PM_MEDIA_MAX_PER_SOURCE: '500'
+      PM_MEDIA_MAX_PER_SOURCE: '350'
+      PM_MEDIA_TARGET_PER_CATEGORY: '200'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -93,9 +95,15 @@ jobs:
           p=pathlib.Path('data/imported_media.json')
           d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {'items':[]}
           items=d.get('items',[])
+          cats=d.get('categoryCounts',{})
+          target=int(d.get('targetPerCategory') or 200)
           print('media items:',len(items))
-          if len(items)<100:
-              print('WARNING: fewer than 100 items were retrievable this cycle; retained entries remain genuine source records.')
+          print('media categories:',cats)
+          missing={k:v for k,v in cats.items() if v<target}
+          if missing:
+              print('WARNING: sources returned fewer than target in:',missing)
+          else:
+              print('PASS: every media category has at least',target,'genuine indexed items')
           PY
 
       - name: Commit repository-safe ingestion state and indexes
@@ -103,7 +111,7 @@ jobs:
           git config user.name 'prophet-ingestion-bot'
           git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
           git add data private/*.json reports/ CONTENT_MANIFEST.json resources/library/processed/ 2>/dev/null || true
-          git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py .github/workflows/rotation-ingest.yml
+          git add scripts/rotation_ingest.py scripts/build_ingested_library.py scripts/sync_media.py media_sync.py server.py .github/workflows/rotation-ingest.yml
           if ! git diff --cached --quiet; then
             git commit -m "Advance rotating source ingestion and media catalogue"
             git push
@@ -124,4 +132,4 @@ jobs:
           printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
-          rsync -az --delete --exclude '.git/' --exclude 'private/deep_source_cache/' --exclude 'private/quarantine*/' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
+          rsync -az --delete --exclude '.git/' --exclude 'media-cache/' --exclude 'private/deep_source_cache/' --exclude 'private/quarantine*/' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"

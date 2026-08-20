@@ -8,6 +8,7 @@ __pycache__/
 private/.rotation_ingest.lock
 private/deep_source_cache/
 private/quarantine*/
+media-cache/
 
 # Large acquired local corpus: deployed to first-party storage, not Git history
 library/works/**/original.*
