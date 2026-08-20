@@ -10,7 +10,7 @@
       "fr"
     ]
   },
-  "count": 123,
+  "count": 129,
   "people": [
     {
       "id": "person-4c7fe50bc447",
@@ -101,6 +101,28 @@
         "ar": "abd-manaf-ibn-qusayy",
         "en": "abd-manaf-ibn-qusayy",
         "fr": "abd-manaf-ibn-qusayy"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-23cac69f0784",
+      "slug": "person-23cac69f0784",
+      "name": {
+        "ar": "abd-yaghuth-ibn-wahb",
+        "en": "abd-yaghuth-ibn-wahb",
+        "fr": "abd-yaghuth-ibn-wahb"
       },
       "category": "source-person",
       "biography": {
@@ -343,6 +365,28 @@
         "ar": "amina-bint-wahb",
         "en": "amina-bint-wahb",
         "fr": "amina-bint-wahb"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-adbde611157a",
+      "slug": "person-adbde611157a",
+      "name": {
+        "ar": "biographies",
+        "en": "biographies",
+        "fr": "biographies"
       },
       "category": "source-person",
       "biography": {
@@ -909,6 +953,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-f8216ef01954",
+      "slug": "person-f8216ef01954",
+      "name": {
+        "ar": "saad-ibn-abi-waqqas",
+        "en": "saad-ibn-abi-waqqas",
+        "fr": "saad-ibn-abi-waqqas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-b90d97e3a5a2",
       "slug": "person-b90d97e3a5a2",
       "name": {
@@ -931,12 +997,78 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-27ff11fdc44f",
+      "slug": "person-27ff11fdc44f",
+      "name": {
+        "ar": "salma-bint-amr-al-najjariyya",
+        "en": "salma-bint-amr-al-najjariyya",
+        "fr": "salma-bint-amr-al-najjariyya"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-27040d99eb01",
       "slug": "person-27040d99eb01",
       "name": {
         "ar": "sawda-bint-zama",
         "en": "sawda-bint-zama",
         "fr": "sawda-bint-zama"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-cb74d5b34b30",
+      "slug": "person-cb74d5b34b30",
+      "name": {
+        "ar": "sayings",
+        "en": "sayings",
+        "fr": "sayings"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e53922df741b",
+      "slug": "person-e53922df741b",
+      "name": {
+        "ar": "stories",
+        "en": "stories",
+        "fr": "stories"
       },
       "category": "source-person",
       "biography": {
@@ -1103,7 +1235,32 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
+      "sourcePassages": [
+        {
+          "text": "وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر.",
+          "language": "ar",
+          "articleId": "20260820-family-parents",
+          "articleTitle": "والدا رسول الله ﷺ في سجل النسب",
+          "sources": [
+            {
+              "ref": "family-parents-v1-p127",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 127 (PDF page 127); OCR text marker 126",
+              "chapterSection": "أم رسول الله ﷺ وأمهاتها",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-126; visual-check:volume-1.pdf#pdf-page-127",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 127 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "documented-mention"
+        }
+      ],
       "provenance": "source-only"
     },
     {
@@ -2149,11 +2306,205 @@
         "fr": []
       },
       "sayings": {
-        "ar": [],
+        "ar": [
+          {
+            "text": "قال ابن هشام: فولد عبدالله بن عبدالمطلب: رسول الله ﷺ - سيد ولد آدم، محمد بن عبدالله بن عبدالمطلب، صلوات الله وسلامه ورحمته وبركاته عليه وعلى آله.",
+            "language": "ar",
+            "articleId": "20260820-family-parents",
+            "articleTitle": "والدا رسول الله ﷺ في سجل النسب",
+            "sources": [
+              {
+                "ref": "family-parents-v1-p127",
+                "title": "السيرة النبوية",
+                "author": "عبد الملك بن هشام",
+                "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+                "volume": "1",
+                "pages": "printed page 127 (PDF page 127); OCR text marker 126",
+                "chapterSection": "أم رسول الله ﷺ وأمهاتها",
+                "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+                "resourceId": "life-seerah-002",
+                "ocrRef": "life-seerah-002/text.txt#volume-1-page-126; visual-check:volume-1.pdf#pdf-page-127",
+                "translationSource": null,
+                "verifiedAgainstOriginal": true,
+                "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 127 and cross-checked against the ingested text extraction."
+              }
+            ],
+            "relation": "authored-saying"
+          },
+          {
+            "text": "وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر.",
+            "language": "ar",
+            "articleId": "20260820-family-parents",
+            "articleTitle": "والدا رسول الله ﷺ في سجل النسب",
+            "sources": [
+              {
+                "ref": "family-parents-v1-p127",
+                "title": "السيرة النبوية",
+                "author": "عبد الملك بن هشام",
+                "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+                "volume": "1",
+                "pages": "printed page 127 (PDF page 127); OCR text marker 126",
+                "chapterSection": "أم رسول الله ﷺ وأمهاتها",
+                "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+                "resourceId": "life-seerah-002",
+                "ocrRef": "life-seerah-002/text.txt#volume-1-page-126; visual-check:volume-1.pdf#pdf-page-127",
+                "translationSource": null,
+                "verifiedAgainstOriginal": true,
+                "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 127 and cross-checked against the ingested text extraction."
+              }
+            ],
+            "relation": "authored-saying"
+          },
+          {
+            "text": "قال ابن إسحاق: عاد بن عوص، بن إرم، بن سام، بن نوح، وثمود وجديس ابنا عابر، بن إرم، بن سام، بن نوح، وطسم وعملاق وأميم بنو لاوذ، بن سام بن نوح، عرب كلهم. فولد نابت بن إسماعيل: يشجب بن نابت، فولد يشجب: يعرب بن يشجب، فولد يعرب: تيرح بن يعرب، فولد تيرح: ناحور بن تيرح، فولد ناحور: مقوم بن ناحور، فولد مقوم أدد بن مقوم، فولد أدد: عدنان بن أدد.",
+            "language": "ar",
+            "articleId": "20260820-family-ancestors",
+            "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+            "sources": [
+              {
+                "ref": "family-ancestors-v1-p23",
+                "title": "السيرة النبوية",
+                "author": "عبد الملك بن هشام",
+                "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+                "volume": "1",
+                "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+                "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+                "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+                "resourceId": "life-seerah-002",
+                "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+                "translationSource": null,
+                "verifiedAgainstOriginal": true,
+                "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+              }
+            ],
+            "relation": "authored-saying"
+          },
+          {
+            "text": "قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان.",
+            "language": "ar",
+            "articleId": "20260820-family-ancestors",
+            "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+            "sources": [
+              {
+                "ref": "family-ancestors-v1-p23",
+                "title": "السيرة النبوية",
+                "author": "عبد الملك بن هشام",
+                "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+                "volume": "1",
+                "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+                "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+                "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+                "resourceId": "life-seerah-002",
+                "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+                "translationSource": null,
+                "verifiedAgainstOriginal": true,
+                "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+              }
+            ],
+            "relation": "authored-saying"
+          }
+        ],
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
+      "sourcePassages": [
+        {
+          "text": "قال ابن هشام: فولد عبدالله بن عبدالمطلب: رسول الله ﷺ - سيد ولد آدم، محمد بن عبدالله بن عبدالمطلب، صلوات الله وسلامه ورحمته وبركاته عليه وعلى آله.",
+          "language": "ar",
+          "articleId": "20260820-family-parents",
+          "articleTitle": "والدا رسول الله ﷺ في سجل النسب",
+          "sources": [
+            {
+              "ref": "family-parents-v1-p127",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 127 (PDF page 127); OCR text marker 126",
+              "chapterSection": "أم رسول الله ﷺ وأمهاتها",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-126; visual-check:volume-1.pdf#pdf-page-127",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 127 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "authored-saying"
+        },
+        {
+          "text": "وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر.",
+          "language": "ar",
+          "articleId": "20260820-family-parents",
+          "articleTitle": "والدا رسول الله ﷺ في سجل النسب",
+          "sources": [
+            {
+              "ref": "family-parents-v1-p127",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 127 (PDF page 127); OCR text marker 126",
+              "chapterSection": "أم رسول الله ﷺ وأمهاتها",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-126; visual-check:volume-1.pdf#pdf-page-127",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 127 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "authored-saying"
+        },
+        {
+          "text": "قال ابن إسحاق: عاد بن عوص، بن إرم، بن سام، بن نوح، وثمود وجديس ابنا عابر، بن إرم، بن سام، بن نوح، وطسم وعملاق وأميم بنو لاوذ، بن سام بن نوح، عرب كلهم. فولد نابت بن إسماعيل: يشجب بن نابت، فولد يشجب: يعرب بن يشجب، فولد يعرب: تيرح بن يعرب، فولد تيرح: ناحور بن تيرح، فولد ناحور: مقوم بن ناحور، فولد مقوم أدد بن مقوم، فولد أدد: عدنان بن أدد.",
+          "language": "ar",
+          "articleId": "20260820-family-ancestors",
+          "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+          "sources": [
+            {
+              "ref": "family-ancestors-v1-p23",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+              "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "authored-saying"
+        },
+        {
+          "text": "قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان.",
+          "language": "ar",
+          "articleId": "20260820-family-ancestors",
+          "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+          "sources": [
+            {
+              "ref": "family-ancestors-v1-p23",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+              "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "authored-saying"
+        }
+      ],
       "provenance": "source-only"
     },
     {
@@ -2241,7 +2592,56 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
+      "sourcePassages": [
+        {
+          "text": "قال ابن إسحاق: عاد بن عوص، بن إرم، بن سام، بن نوح، وثمود وجديس ابنا عابر، بن إرم، بن سام، بن نوح، وطسم وعملاق وأميم بنو لاوذ، بن سام بن نوح، عرب كلهم. فولد نابت بن إسماعيل: يشجب بن نابت، فولد يشجب: يعرب بن يشجب، فولد يعرب: تيرح بن يعرب، فولد تيرح: ناحور بن تيرح، فولد ناحور: مقوم بن ناحور، فولد مقوم أدد بن مقوم، فولد أدد: عدنان بن أدد.",
+          "language": "ar",
+          "articleId": "20260820-family-ancestors",
+          "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+          "sources": [
+            {
+              "ref": "family-ancestors-v1-p23",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+              "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "documented-mention"
+        },
+        {
+          "text": "قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان.",
+          "language": "ar",
+          "articleId": "20260820-family-ancestors",
+          "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+          "sources": [
+            {
+              "ref": "family-ancestors-v1-p23",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+              "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "documented-mention"
+        }
+      ],
       "provenance": "source-only"
     },
     {
@@ -2798,7 +3198,32 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
+      "sourcePassages": [
+        {
+          "text": "قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان.",
+          "language": "ar",
+          "articleId": "20260820-family-ancestors",
+          "articleTitle": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+          "sources": [
+            {
+              "ref": "family-ancestors-v1-p23",
+              "title": "السيرة النبوية",
+              "author": "عبد الملك بن هشام",
+              "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+              "volume": "1",
+              "pages": "printed page 23 (PDF page 23); OCR text marker 22",
+              "chapterSection": "أصل العرب وما يتصل بنسب عدنان",
+              "originalUrl": "https://drive.google.com/file/d/1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX/view",
+              "resourceId": "life-seerah-002",
+              "ocrRef": "life-seerah-002/text.txt#volume-1-page-22; visual-check:volume-1.pdf#pdf-page-23",
+              "translationSource": null,
+              "verifiedAgainstOriginal": true,
+              "verificationBasis": "Exact passage visually verified against the ingested volume-1 PDF page 23 and cross-checked against the ingested text extraction."
+            }
+          ],
+          "relation": "documented-mention"
+        }
+      ],
       "provenance": "source-only"
     },
     {
