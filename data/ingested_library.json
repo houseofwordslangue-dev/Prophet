@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T17:15:44.220359+00:00",
-  "count": 44,
+  "generatedAt": "2026-08-20T19:18:30.915327+00:00",
+  "count": 48,
   "currentBatchCount": 4,
   "items": [
     {
@@ -110,6 +110,41 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-72386:ed-e87d7128c829",
+      "workId": "gutenberg-72386",
+      "editionId": "ed-e87d7128c829",
+      "titleOriginal": "Annals of the Early Caliphate : $b From the Death of Mahomet to the Omeyyad",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 1097804,
+      "sha256": "e87d7128c829695e47e9f2644a6ebc1f2429a3c203928147c07dd2405da9ebf0",
+      "localUrl": "/library/works/gutenberg-72386/editions/ed-e87d7128c829/original.txt",
+      "readerUrl": "/library/works/gutenberg-72386/editions/ed-e87d7128c829/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "zwemer-arabia-cradle-islam:ed-9b590d396eca",
       "workId": "zwemer-arabia-cradle-islam",
       "editionId": "ed-9b590d396eca",
@@ -133,6 +168,40 @@
       "sha256": "9b590d396ecae23ac6e44e0ec6d25211197bbe26928d17690634e7212c275462",
       "localUrl": "/library/works/zwemer-arabia-cradle-islam/editions/ed-9b590d396eca/original.txt",
       "readerUrl": "/library/works/zwemer-arabia-cradle-islam/editions/ed-9b590d396eca/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-62990:ed-3ae59db54650",
+      "workId": "gutenberg-62990",
+      "editionId": "ed-3ae59db54650",
+      "titleOriginal": "Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 77591,
+      "sha256": "3ae59db546501276ff9501af7e48fce4662ea2987af631c91488867e5d0ad859",
+      "localUrl": "/library/works/gutenberg-62990/editions/ed-3ae59db54650/original.txt",
+      "readerUrl": "/library/works/gutenberg-62990/editions/ed-3ae59db54650/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -450,6 +519,74 @@
       "sha256": "859139d0911856d09c5232e485e5e7816107f710f071711a87133d5301a457ac",
       "localUrl": "/library/works/ahmed-hussain-notes-islam/editions/ed-859139d09118/original.txt",
       "readerUrl": "/library/works/ahmed-hussain-notes-islam/editions/ed-859139d09118/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-66853:ed-384d8ea967a3",
+      "workId": "gutenberg-66853",
+      "editionId": "ed-384d8ea967a3",
+      "titleOriginal": "Pages d'Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "fr",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 394690,
+      "sha256": "384d8ea967a35d9f77a10d5c55dab1d6ec76f509a577cb7c5315e8e6212adf27",
+      "localUrl": "/library/works/gutenberg-66853/editions/ed-384d8ea967a3/original.txt",
+      "readerUrl": "/library/works/gutenberg-66853/editions/ed-384d8ea967a3/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-26981:ed-b5545f51f7de",
+      "workId": "gutenberg-26981",
+      "editionId": "ed-b5545f51f7de",
+      "titleOriginal": "Pan-Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 282002,
+      "sha256": "b5545f51f7dee532735c943fde0b86091e8aadc8f87fdbd530c202f53aa88228",
+      "localUrl": "/library/works/gutenberg-26981/editions/ed-b5545f51f7de/original.txt",
+      "readerUrl": "/library/works/gutenberg-26981/editions/ed-b5545f51f7de/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
