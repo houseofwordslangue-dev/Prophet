@@ -1,10 +1,12 @@
-const CACHE='prophet-biography-v6-8-3-waqfeya-library';
+const CACHE='prophet-biography-v6-8-4-deep-library';
 const PRECACHE=[
   './library.html',
   './manifest.webmanifest',
   './assets/bookstore.css',
   './assets/bookstore-published.css',
+  './assets/library-extended.css',
   './assets/bookstore.js',
+  './assets/library-extended.js',
   './assets/universal-player.js',
   './assets/api.js',
   './data/published_user_books.json',
@@ -20,6 +22,7 @@ self.addEventListener('activate',event=>{
 });
 const NETWORK_FIRST=new Set([
   '/library.html','/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css',
+  '/assets/library-extended.js','/assets/library-extended.css',
   '/data/published_user_books.json','/data/user_ingested_books.json','/data/generated_epubs.json'
 ]);
 self.addEventListener('fetch',event=>{
