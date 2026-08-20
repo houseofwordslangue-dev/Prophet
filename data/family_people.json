@@ -1,15 +1,11 @@
 {
-  "version": "1.0.0",
-  "policy": "Supplemental named relatives used only for explicit family categorization. Biography remains empty until verified source passages are attached.",
+  "version": "1.1.0",
+  "policy": "Supplemental named relatives used only for explicit family categorization. Biography remains empty until verified source passages are attached; no generated biography text is permitted.",
   "people": [
     {
       "id": "abd-yaghuth-ibn-wahb",
       "slug": "abd-yaghuth-ibn-wahb",
-      "name": {
-        "ar": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
-        "en": "Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra",
-        "fr": "Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra"
-      },
+      "name": {"ar": "عبد يغوث بن وهب بن عبد مناف بن زهرة", "en": "Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra", "fr": "Abd Yaghuth ibn Wahb ibn Abd Manaf ibn Zuhra"},
       "category": "family",
       "biography": {"ar": [], "en": [], "fr": []},
       "sayings": {"ar": [], "en": [], "fr": []},
@@ -19,12 +15,96 @@
     {
       "id": "salma-bint-amr-al-najjariyya",
       "slug": "salma-bint-amr-al-najjariyya",
-      "name": {
-        "ar": "سلمى بنت عمرو النجارية",
-        "en": "Salma bint Amr al-Najjariyya",
-        "fr": "Salma bint Amr al-Najjariyya"
-      },
+      "name": {"ar": "سلمى بنت عمرو النجارية", "en": "Salma bint Amr al-Najjariyya", "fr": "Salma bint Amr al-Najjariyya"},
       "category": "family",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "al-harith-ibn-abd-al-muttalib",
+      "slug": "al-harith-ibn-abd-al-muttalib",
+      "name": {"ar": "الحارث بن عبد المطلب", "en": "Al-Harith ibn Abd al-Muttalib", "fr": "Al-Harith ibn Abd al-Muttalib"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "al-zubayr-ibn-abd-al-muttalib",
+      "slug": "al-zubayr-ibn-abd-al-muttalib",
+      "name": {"ar": "الزبير بن عبد المطلب", "en": "Al-Zubayr ibn Abd al-Muttalib", "fr": "Al-Zubayr ibn Abd al-Muttalib"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "abu-talib-ibn-abd-al-muttalib",
+      "slug": "abu-talib-ibn-abd-al-muttalib",
+      "name": {"ar": "أبو طالب بن عبد المطلب (عبد مناف)", "en": "Abu Talib ibn Abd al-Muttalib (Abd Manaf)", "fr": "Abu Talib ibn Abd al-Muttalib (Abd Manaf)"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "abu-lahab-ibn-abd-al-muttalib",
+      "slug": "abu-lahab-ibn-abd-al-muttalib",
+      "name": {"ar": "أبو لهب بن عبد المطلب (عبد العزى)", "en": "Abu Lahab ibn Abd al-Muttalib (Abd al-Uzza)", "fr": "Abu Lahab ibn Abd al-Muttalib (Abd al-Uzza)"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "dirar-ibn-abd-al-muttalib",
+      "slug": "dirar-ibn-abd-al-muttalib",
+      "name": {"ar": "ضرار بن عبد المطلب", "en": "Dirar ibn Abd al-Muttalib", "fr": "Dirar ibn Abd al-Muttalib"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "al-muqawwim-ibn-abd-al-muttalib",
+      "slug": "al-muqawwim-ibn-abd-al-muttalib",
+      "name": {"ar": "المقوّم بن عبد المطلب", "en": "Al-Muqawwim ibn Abd al-Muttalib", "fr": "Al-Muqawwim ibn Abd al-Muttalib"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "slug": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "name": {"ar": "حَجْل بن عبد المطلب (المغيرة)", "en": "Hajl ibn Abd al-Muttalib (al-Mughira)", "fr": "Hajl ibn Abd al-Muttalib (al-Mughira)"},
+      "category": "family",
+      "relationship": "paternal-uncle",
+      "biography": {"ar": [], "en": [], "fr": []},
+      "sayings": {"ar": [], "en": [], "fr": []},
+      "sourcePassages": [],
+      "provenance": "pending-source-passages"
+    },
+    {
+      "id": "qutham-ibn-abd-al-muttalib",
+      "slug": "qutham-ibn-abd-al-muttalib",
+      "name": {"ar": "قُثَم بن عبد المطلب", "en": "Qutham ibn Abd al-Muttalib", "fr": "Qutham ibn Abd al-Muttalib"},
+      "category": "family",
+      "relationship": "paternal-uncle",
       "biography": {"ar": [], "en": [], "fr": []},
       "sayings": {"ar": [], "en": [], "fr": []},
       "sourcePassages": [],
