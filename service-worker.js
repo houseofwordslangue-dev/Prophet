@@ -1,11 +1,10 @@
-const CACHE='prophet-biography-v6-8-2-epub-library';
+const CACHE='prophet-biography-v6-8-3-waqfeya-library';
 const PRECACHE=[
   './library.html',
   './manifest.webmanifest',
   './assets/bookstore.css',
   './assets/bookstore-published.css',
   './assets/bookstore.js',
-  './assets/epub-status.js',
   './assets/universal-player.js',
   './assets/api.js',
   './data/published_user_books.json',
@@ -20,7 +19,7 @@ self.addEventListener('activate',event=>{
   event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));
 });
 const NETWORK_FIRST=new Set([
-  '/library.html','/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css','/assets/epub-status.js',
+  '/library.html','/assets/bookstore.js','/assets/bookstore.css','/assets/bookstore-published.css',
   '/data/published_user_books.json','/data/user_ingested_books.json','/data/generated_epubs.json'
 ]);
 self.addEventListener('fetch',event=>{
