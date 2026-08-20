@@ -10,7 +10,7 @@
       "fr"
     ]
   },
-  "count": 302,
+  "count": 306,
   "people": [
     {
       "id": "person-1010e90bd3ea",
@@ -57,6 +57,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-c7e768de4e3c",
+      "slug": "person-c7e768de4e3c",
+      "name": {
+        "ar": "Edward Sell",
+        "en": "Edward Sell",
+        "fr": "Edward Sell"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-eb5591d002e8",
       "slug": "person-eb5591d002e8",
       "name": {
@@ -85,6 +107,28 @@
         "ar": "Gladys M. Draycott",
         "en": "Gladys M. Draycott",
         "fr": "Gladys M. Draycott"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1e10028e1b70",
+      "slug": "person-1e10028e1b70",
+      "name": {
+        "ar": "Herbert E. E. Hayes",
+        "en": "Herbert E. E. Hayes",
+        "fr": "Herbert E. E. Hayes"
       },
       "category": "source-person",
       "biography": {
@@ -513,12 +557,56 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-dbcd649a2ade",
+      "slug": "person-dbcd649a2ade",
+      "name": {
+        "ar": "Roy F. Dibble",
+        "en": "Roy F. Dibble",
+        "fr": "Roy F. Dibble"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-f1016b29563a",
       "slug": "person-f1016b29563a",
       "name": {
         "ar": "Rumi, especially passages concerning Prophetic love and imitation",
         "en": "Rumi, especially passages concerning Prophetic love and imitation",
         "fr": "Rumi, especially passages concerning Prophetic love and imitation"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-cd930e66e935",
+      "slug": "person-cd930e66e935",
+      "name": {
+        "ar": "S. Khuda Bukhsh",
+        "en": "S. Khuda Bukhsh",
+        "fr": "S. Khuda Bukhsh"
       },
       "category": "source-person",
       "biography": {
