@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "generated": 1787198098,
+  "version": 2,
+  "generated": 1787198540,
   "source": "user-upload",
   "books": [
     {
@@ -33,6 +33,53 @@
       "drivePath": "Prophet-Library-Ingestion/books/life-seerah-056/manuscript-ksu.pdf",
       "status": "SUPPLEMENTAL_MANUSCRIPT_OCR_QUEUED",
       "sha256": "de96f0cd9c3f0b1f50354a9e7e44fe1a9d407e159e8d8d176f07fe9a6206f2eb"
+    },
+    {
+      "id": "teachings-wisdom-101",
+      "titleAr": "الأذكياء",
+      "authorAr": "أبو الفرج عبد الرحمن بن علي ابن الجوزي",
+      "pages": 159,
+      "drivePath": "Prophet-Library-Ingestion/books/teachings-wisdom-101/complete.pdf",
+      "textPath": "Prophet-Library-Ingestion/books/teachings-wisdom-101/text.txt",
+      "status": "READY_TEXT",
+      "sha256": "f231bc60cc0fdef7802a56560231cb90649ab655611052e0489e018cb55d62f6"
+    },
+    {
+      "id": "quran-meaning-101",
+      "titleAr": "قصص الأنبياء",
+      "authorAr": "أبو الفداء إسماعيل بن كثير",
+      "editorAr": "سيد أحمد",
+      "presenterAr": "عبد المنعم الجردي",
+      "publisherAr": "منشورات دار مكتبة الحياة",
+      "editionAr": "طبعة جديدة",
+      "pages": 652,
+      "drivePath": "Prophet-Library-Ingestion/books/quran-meaning-101/complete.pdf",
+      "status": "READY_SCAN_OCR_QUEUED",
+      "sha256": "fd67f7855fb69aa11d3c7b4d24f55f032294ebca7d66d236105560f5aa5ca08c"
+    },
+    {
+      "id": "teachings-wisdom-102",
+      "titleAr": "بر الوالدين",
+      "authorAr": "أبو الفرج عبد الرحمن بن علي ابن الجوزي",
+      "pages": 22,
+      "drivePath": "Prophet-Library-Ingestion/books/teachings-wisdom-102/complete.pdf",
+      "textPath": "Prophet-Library-Ingestion/books/teachings-wisdom-102/text.txt",
+      "status": "READY_TEXT",
+      "sha256": "81d57577a3e0e9aecc57db483907c55a1cd5fd38a04644a604d2f62c9de6deb7"
+    },
+    {
+      "id": "life-seerah-101",
+      "titleAr": "الإسراء والمعراج",
+      "authorAr": "محمد متولي الشعراوي",
+      "publisherAr": "دار الجيل، بيروت؛ مكتبة التراث الإسلامي، القاهرة",
+      "yearHijri": 1424,
+      "yearGregorian": 2003,
+      "pages": 108,
+      "drivePath": "Prophet-Library-Ingestion/books/life-seerah-101/complete.pdf",
+      "status": "READY_SCAN_OCR_QUEUED",
+      "rights": "modern-rights-reserved-user-private-ingest",
+      "publicBinary": false,
+      "sha256": "4d2236f6514d96023917ddf16d6211ce8fea6b0fc46d27e456f5be24dbe8000f"
     }
   ]
 }
