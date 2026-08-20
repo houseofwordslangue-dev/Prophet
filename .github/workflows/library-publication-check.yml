@@ -1,0 +1,38 @@
+name: Library publication check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'library.html'
+      - 'assets/bookstore.js'
+      - 'assets/bookstore*.css'
+      - 'data/published_user_books.json'
+      - 'data/user_ingested_books.json'
+      - 'scripts/check_published_library.py'
+  pull_request:
+    paths:
+      - 'library.html'
+      - 'assets/bookstore.js'
+      - 'assets/bookstore*.css'
+      - 'data/published_user_books.json'
+      - 'data/user_ingested_books.json'
+      - 'scripts/check_published_library.py'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate published library
+        run: python scripts/check_published_library.py
+      - name: Validate JSON syntax
+        run: |
+          python -m json.tool data/published_user_books.json >/dev/null
+          python -m json.tool data/user_ingested_books.json >/dev/null
