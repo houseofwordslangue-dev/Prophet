@@ -4,13 +4,27 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from media_sync import sync_all,_ydl_extract,load,dump,OUT,now
 
 TARGET_CATEGORIES=("video","lecture","podcast","research","documentary","audio")
+TARGET_PER_CATEGORY=int(os.getenv("PM_MEDIA_TARGET_PER_CATEGORY","300") or 300)
+
 EXPANSION_SOURCES=[
- {"id":"expand-video","kind":"youtube-search","query":"السيرة النبوية النبي محمد الشمائل فيديو","label":"Prophetic video repertory","category":"video","topics":["seerah","prophet","video"],"language":"ar"},
- {"id":"expand-lecture","kind":"youtube-search","query":"محاضرات السيرة النبوية الشمائل النبي محمد","label":"Prophetic lectures repertory","category":"lecture","topics":["seerah","lecture","shamail"],"language":"ar"},
- {"id":"expand-podcast","kind":"youtube-search","query":"بودكاست السيرة النبوية حياة النبي محمد الشمائل","label":"Prophetic podcasts repertory","category":"podcast","topics":["seerah","podcast","prophet"],"language":"ar"},
- {"id":"expand-research","kind":"youtube-search","query":"بحث أكاديمي السيرة النبوية الشمائل مؤتمر جامعة","label":"Prophetic research repertory","category":"research","topics":["seerah","research","academic"],"language":"ar"},
- {"id":"expand-documentary","kind":"youtube-search","query":"وثائقي السيرة النبوية حياة النبي محمد كامل","label":"Prophetic documentaries repertory","category":"documentary","topics":["seerah","documentary","prophet"],"language":"ar"},
- {"id":"expand-audio","kind":"youtube-search","query":"السيرة النبوية صوتي كاملة محاضرات مديح النبي","label":"Prophetic audio repertory","category":"audio","topics":["seerah","audio","prophet"],"language":"ar"},
+ {"id":"video-seerah","query":"السيرة النبوية النبي محمد فيديو","category":"video","topics":["seerah","prophet","video"]},
+ {"id":"video-shamail","query":"الشمائل المحمدية النبي محمد فيديو","category":"video","topics":["shamail","prophet","video"]},
+ {"id":"video-biography","query":"حياة النبي محمد السيرة فيديو","category":"video","topics":["biography","prophet","video"]},
+ {"id":"lecture-seerah","query":"محاضرات السيرة النبوية النبي محمد","category":"lecture","topics":["seerah","lecture"]},
+ {"id":"lecture-shamail","query":"محاضرات الشمائل المحمدية","category":"lecture","topics":["shamail","lecture"]},
+ {"id":"lecture-mercy","query":"محاضرة رحمة النبي محمد أخلاقه","category":"lecture","topics":["mercy","ethics","lecture"]},
+ {"id":"podcast-seerah","query":"بودكاست السيرة النبوية النبي محمد","category":"podcast","topics":["seerah","podcast"]},
+ {"id":"podcast-shamail","query":"بودكاست الشمائل المحمدية","category":"podcast","topics":["shamail","podcast"]},
+ {"id":"podcast-history","query":"بودكاست تاريخ السيرة النبوية","category":"podcast","topics":["history","podcast"]},
+ {"id":"research-seerah","query":"بحث أكاديمي السيرة النبوية مؤتمر جامعة","category":"research","topics":["seerah","research","academic"]},
+ {"id":"research-shamail","query":"دراسة أكاديمية الشمائل المحمدية مؤتمر","category":"research","topics":["shamail","research","academic"]},
+ {"id":"research-prophetic","query":"ندوة علمية دراسات السيرة النبوية","category":"research","topics":["seerah","research","conference"]},
+ {"id":"documentary-seerah","query":"وثائقي السيرة النبوية حياة النبي محمد كامل","category":"documentary","topics":["seerah","documentary"]},
+ {"id":"documentary-makkah","query":"وثائقي مكة المدينة السيرة النبوية","category":"documentary","topics":["makkah","madinah","documentary"]},
+ {"id":"documentary-history","query":"وثائقي تاريخ الإسلام السيرة النبوية النبي محمد","category":"documentary","topics":["history","documentary"]},
+ {"id":"audio-seerah","query":"السيرة النبوية صوتي كاملة","category":"audio","topics":["seerah","audio"]},
+ {"id":"audio-shamail","query":"الشمائل المحمدية صوتي","category":"audio","topics":["shamail","audio"]},
+ {"id":"audio-praise","query":"مديح النبي محمد صوتي بردة دلائل الخيرات","category":"audio","topics":["praise","audio"]},
 ]
 
 def _medium(row):
@@ -23,39 +37,51 @@ def _medium(row):
 
 def run_expanded_sync(max_per_source=0):
     max_per_source=int(max_per_source or os.getenv("PM_MEDIA_MAX_PER_SOURCE","350") or 350)
-    target=int(os.getenv("PM_MEDIA_TARGET_PER_CATEGORY","200") or 200)
-    report=sync_all(min(max_per_source,80))
+    target=int(os.getenv("PM_MEDIA_TARGET_PER_CATEGORY",str(TARGET_PER_CATEGORY)) or TARGET_PER_CATEGORY)
+    report=sync_all(min(max_per_source,100))
     current=load(OUT,{"version":"6.0.0","generated":now(),"taxonomy":[],"items":[]})
     by={x.get("id"):x for x in current.get("items",[]) if x.get("id")}
     counts={k:0 for k in TARGET_CATEGORIES}
     for x in by.values():
         x["medium"]=_medium(x)
         if x["medium"] in counts:counts[x["medium"]]+=1
+
     expansion=[]
     for src in EXPANSION_SOURCES:
         cat=src["category"]
         if counts.get(cat,0)>=target:continue
-        need=max(1,min(max_per_source,target-counts.get(cat,0)+50))
-        rows,err=_ydl_extract(f"ytsearch{need}:{src['query']}",src,need,False)
+        remaining=target-counts.get(cat,0)
+        need=max(25,min(max_per_source,remaining+75))
+        source={"id":src["id"],"kind":"youtube-search","query":src["query"],"label":src["id"],"category":cat,"topics":src["topics"],"language":"ar"}
+        rows,err=_ydl_extract(f"ytsearch{need}:{src['query']}",source,need,False)
         if err:report.setdefault("errors",[]).append({"source":src["id"],"error":err})
-        added=0
+        new=0
         for x in rows:
             x["medium"]=cat
-            x["catalogTier"]="repertory-search"
+            x["catalogTier"]="categorized-repertory"
             x["catalogSourceId"]=src["id"]
-            if x.get("id") not in by:added+=1
-            by[x.get("id")]=x
-        expansion.append({"source":src["id"],"category":cat,"addedOrUpdated":len(rows),"new":added})
+            if x.get("id") and x.get("id") not in by:new+=1
+            if x.get("id"):by[x["id"]]=x
+        counts={k:0 for k in TARGET_CATEGORIES}
+        for x in by.values():
+            x["medium"]=_medium(x)
+            if x["medium"] in counts:counts[x["medium"]]+=1
+        expansion.append({"source":src["id"],"category":cat,"retrieved":len(rows),"new":new,"categoryCount":counts.get(cat,0)})
+
     items=list(by.values())
     for x in items:x["medium"]=_medium(x)
-    items.sort(key=lambda x:(x.get("medium",""),str(x.get("published","")),int(x.get("viewCount") or 0),str(x.get("titleEn",""))),reverse=True)
+    items.sort(key=lambda x:(x.get("medium",""),str(x.get("published","")),int(x.get("viewCount") or 0),str(x.get("titleAr") or x.get("titleEn") or "")),reverse=True)
     counts={k:0 for k in TARGET_CATEGORIES}
     for x in items:
         if x.get("medium") in counts:counts[x["medium"]]+=1
-    current.update({"version":"7.0.0","generated":now(),"items":items,"mediaCategories":list(TARGET_CATEGORIES),"categoryCounts":counts,"targetPerCategory":target})
+    missing={k:v for k,v in counts.items() if v<target}
+    current.update({"version":"8.0.0","generated":now(),"items":items,"mediaCategories":list(TARGET_CATEGORIES),"categoryCounts":counts,"targetPerCategory":target,"minimumTotalTarget":target*len(TARGET_CATEGORIES),"complete":not missing})
     dump(OUT,current)
-    report.update({"total":len(items),"categories":counts,"targetPerCategory":target,"expansion":expansion,"ok":all(v>=min(target,1) for v in counts.values())})
+    report.update({"total":len(items),"categories":counts,"targetPerCategory":target,"minimumTotalTarget":target*len(TARGET_CATEGORIES),"missing":missing,"expansion":expansion,"ok":not missing})
     return report
 
 if __name__=="__main__":
-    print(json.dumps(run_expanded_sync(),ensure_ascii=False,indent=2))
+    result=run_expanded_sync()
+    print(json.dumps(result,ensure_ascii=False,indent=2))
+    if result.get("missing"):
+        raise SystemExit(2)
