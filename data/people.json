@@ -10,7 +10,7 @@
       "fr"
     ]
   },
-  "count": 162,
+  "count": 221,
   "people": [
     {
       "id": "person-eb5591d002e8",
@@ -359,6 +359,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-9030f2f1722c",
+      "slug": "person-9030f2f1722c",
+      "name": {
+        "ar": "abd-al-rahman-ibn-al-abbas",
+        "en": "abd-al-rahman-ibn-al-abbas",
+        "fr": "abd-al-rahman-ibn-al-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-facd06c50592",
       "slug": "person-facd06c50592",
       "name": {
@@ -447,6 +469,138 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-d84a6d5e98e2",
+      "slug": "person-d84a6d5e98e2",
+      "name": {
+        "ar": "abdullah-ibn-al-harith",
+        "en": "abdullah-ibn-al-harith",
+        "fr": "abdullah-ibn-al-harith"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-14012c5b0c0d",
+      "slug": "person-14012c5b0c0d",
+      "name": {
+        "ar": "abdullah-ibn-al-hasan",
+        "en": "abdullah-ibn-al-hasan",
+        "fr": "abdullah-ibn-al-hasan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b77d9c2729c5",
+      "slug": "person-b77d9c2729c5",
+      "name": {
+        "ar": "abdullah-ibn-al-husayn",
+        "en": "abdullah-ibn-al-husayn",
+        "fr": "abdullah-ibn-al-husayn"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-872432cece41",
+      "slug": "person-872432cece41",
+      "name": {
+        "ar": "abdullah-ibn-al-zubayr",
+        "en": "abdullah-ibn-al-zubayr",
+        "fr": "abdullah-ibn-al-zubayr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-934d4c5ae390",
+      "slug": "person-934d4c5ae390",
+      "name": {
+        "ar": "abdullah-ibn-al-zubayr-abd-al-muttalib",
+        "en": "abdullah-ibn-al-zubayr-abd-al-muttalib",
+        "fr": "abdullah-ibn-al-zubayr-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b045b9599049",
+      "slug": "person-b045b9599049",
+      "name": {
+        "ar": "abdullah-ibn-jahsh",
+        "en": "abdullah-ibn-jahsh",
+        "fr": "abdullah-ibn-jahsh"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-50737456ace2",
       "slug": "person-50737456ace2",
       "name": {
@@ -469,12 +623,144 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-07a0b39e40ea",
+      "slug": "person-07a0b39e40ea",
+      "name": {
+        "ar": "abdullah-ibn-uthman",
+        "en": "abdullah-ibn-uthman",
+        "fr": "abdullah-ibn-uthman"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-7b6fbbad7591",
+      "slug": "person-7b6fbbad7591",
+      "name": {
+        "ar": "abu-ahmad-ibn-jahsh",
+        "en": "abu-ahmad-ibn-jahsh",
+        "fr": "abu-ahmad-ibn-jahsh"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-2204d32f7044",
+      "slug": "person-2204d32f7044",
+      "name": {
+        "ar": "abu-al-as-ibn-al-rabi",
+        "en": "abu-al-as-ibn-al-rabi",
+        "fr": "abu-al-as-ibn-al-rabi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-fe841d654665",
+      "slug": "person-fe841d654665",
+      "name": {
+        "ar": "abu-bakr-ibn-al-hasan",
+        "en": "abu-bakr-ibn-al-hasan",
+        "fr": "abu-bakr-ibn-al-hasan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-052f28b35cf9",
       "slug": "person-052f28b35cf9",
       "name": {
         "ar": "abu-lahab-ibn-abd-al-muttalib",
         "en": "abu-lahab-ibn-abd-al-muttalib",
         "fr": "abu-lahab-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-3b1c8fb6a9a5",
+      "slug": "person-3b1c8fb6a9a5",
+      "name": {
+        "ar": "abu-salama-abdullah-ibn-abd-al-asad",
+        "en": "abu-salama-abdullah-ibn-abd-al-asad",
+        "fr": "abu-salama-abdullah-ibn-abd-al-asad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-3afd4bc4b4e8",
+      "slug": "person-3afd4bc4b4e8",
+      "name": {
+        "ar": "abu-sufyan-ibn-al-harith",
+        "en": "abu-sufyan-ibn-al-harith",
+        "fr": "abu-sufyan-ibn-al-harith"
       },
       "category": "source-person",
       "biography": {
@@ -557,12 +843,78 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-ac314fbc9c50",
+      "slug": "person-ac314fbc9c50",
+      "name": {
+        "ar": "al-fadl-ibn-al-abbas",
+        "en": "al-fadl-ibn-al-abbas",
+        "fr": "al-fadl-ibn-al-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-844bcf88aff0",
       "slug": "person-844bcf88aff0",
       "name": {
         "ar": "al-harith-ibn-abd-al-muttalib",
         "en": "al-harith-ibn-abd-al-muttalib",
         "fr": "al-harith-ibn-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-3dede3bf2dc6",
+      "slug": "person-3dede3bf2dc6",
+      "name": {
+        "ar": "al-harith-ibn-abd-al-uzza-al-sadi",
+        "en": "al-harith-ibn-abd-al-uzza-al-sadi",
+        "fr": "al-harith-ibn-abd-al-uzza-al-sadi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a186c392d1f5",
+      "slug": "person-a186c392d1f5",
+      "name": {
+        "ar": "al-hasan-al-muthanna",
+        "en": "al-hasan-al-muthanna",
+        "fr": "al-hasan-al-muthanna"
       },
       "category": "source-person",
       "biography": {
@@ -667,12 +1019,56 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-1c404da1a824",
+      "slug": "person-1c404da1a824",
+      "name": {
+        "ar": "al-qasim-ibn-al-hasan",
+        "en": "al-qasim-ibn-al-hasan",
+        "fr": "al-qasim-ibn-al-hasan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-da06e27a85e4",
       "slug": "person-da06e27a85e4",
       "name": {
         "ar": "al-qasim-ibn-muhammad",
         "en": "al-qasim-ibn-muhammad",
         "fr": "al-qasim-ibn-muhammad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-8cc3da213ec5",
+      "slug": "person-8cc3da213ec5",
+      "name": {
+        "ar": "al-shayma-bint-al-harith",
+        "en": "al-shayma-bint-al-harith",
+        "fr": "al-shayma-bint-al-harith"
       },
       "category": "source-person",
       "biography": {
@@ -711,12 +1107,100 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-59487b80ae9d",
+      "slug": "person-59487b80ae9d",
+      "name": {
+        "ar": "al-zubayr-ibn-al-awwam",
+        "en": "al-zubayr-ibn-al-awwam",
+        "fr": "al-zubayr-ibn-al-awwam"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-02b4389a4dab",
+      "slug": "person-02b4389a4dab",
+      "name": {
+        "ar": "ali-al-akbar-ibn-al-husayn",
+        "en": "ali-al-akbar-ibn-al-husayn",
+        "fr": "ali-al-akbar-ibn-al-husayn"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-8e178668f4e6",
+      "slug": "person-8e178668f4e6",
+      "name": {
+        "ar": "ali-ibn-abi-al-as",
+        "en": "ali-ibn-abi-al-as",
+        "fr": "ali-ibn-abi-al-as"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-4ac75455dc72",
       "slug": "person-4ac75455dc72",
       "name": {
         "ar": "ali-ibn-abi-talib",
         "en": "ali-ibn-abi-talib",
         "fr": "ali-ibn-abi-talib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-d8f537ceafdd",
+      "slug": "person-d8f537ceafdd",
+      "name": {
+        "ar": "ali-zayn-al-abidin",
+        "en": "ali-zayn-al-abidin",
+        "fr": "ali-zayn-al-abidin"
       },
       "category": "source-person",
       "biography": {
@@ -755,12 +1239,166 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-fbae8cebf367",
+      "slug": "person-fbae8cebf367",
+      "name": {
+        "ar": "amr-ibn-al-hasan",
+        "en": "amr-ibn-al-hasan",
+        "fr": "amr-ibn-al-hasan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4966196992e5",
+      "slug": "person-4966196992e5",
+      "name": {
+        "ar": "anisa-bint-al-harith",
+        "en": "anisa-bint-al-harith",
+        "fr": "anisa-bint-al-harith"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-95aa67be1d14",
+      "slug": "person-95aa67be1d14",
+      "name": {
+        "ar": "aqil-ibn-abi-talib",
+        "en": "aqil-ibn-abi-talib",
+        "fr": "aqil-ibn-abi-talib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-14eb40ab2054",
+      "slug": "person-14eb40ab2054",
+      "name": {
+        "ar": "arwa-bint-abd-al-muttalib",
+        "en": "arwa-bint-abd-al-muttalib",
+        "fr": "arwa-bint-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-763766a4c305",
+      "slug": "person-763766a4c305",
+      "name": {
+        "ar": "atika-bint-abd-al-muttalib",
+        "en": "atika-bint-abd-al-muttalib",
+        "fr": "atika-bint-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e463a9fc7970",
+      "slug": "person-e463a9fc7970",
+      "name": {
+        "ar": "barra-bint-abd-al-muttalib",
+        "en": "barra-bint-abd-al-muttalib",
+        "fr": "barra-bint-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-adbde611157a",
       "slug": "person-adbde611157a",
       "name": {
         "ar": "biographies",
         "en": "biographies",
         "fr": "biographies"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-861bff3c6f17",
+      "slug": "person-861bff3c6f17",
+      "name": {
+        "ar": "burra-bint-abd-al-uzza",
+        "en": "burra-bint-abd-al-uzza",
+        "fr": "burra-bint-abd-al-uzza"
       },
       "category": "source-person",
       "biography": {
@@ -799,12 +1437,78 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-6716c3570ffe",
+      "slug": "person-6716c3570ffe",
+      "name": {
+        "ar": "dubaa-bint-al-zubayr",
+        "en": "dubaa-bint-al-zubayr",
+        "fr": "dubaa-bint-al-zubayr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-7f0f346662e7",
       "slug": "person-7f0f346662e7",
       "name": {
         "ar": "fatima-al-zahra",
         "en": "fatima-al-zahra",
         "fr": "fatima-al-zahra"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-691061ac93a5",
+      "slug": "person-691061ac93a5",
+      "name": {
+        "ar": "fatima-bint-al-husayn",
+        "en": "fatima-bint-al-husayn",
+        "fr": "fatima-bint-al-husayn"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-dc73d447031d",
+      "slug": "person-dc73d447031d",
+      "name": {
+        "ar": "fatima-bint-amr",
+        "en": "fatima-bint-amr",
+        "fr": "fatima-bint-amr"
       },
       "category": "source-person",
       "biography": {
@@ -909,6 +1613,50 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-1194707df3c0",
+      "slug": "person-1194707df3c0",
+      "name": {
+        "ar": "halima-al-sadiyya",
+        "en": "halima-al-sadiyya",
+        "fr": "halima-al-sadiyya"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-88b5877e73df",
+      "slug": "person-88b5877e73df",
+      "name": {
+        "ar": "hamna-bint-jahsh",
+        "en": "hamna-bint-jahsh",
+        "fr": "hamna-bint-jahsh"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-f54b80d2d221",
       "slug": "person-f54b80d2d221",
       "name": {
@@ -981,6 +1729,50 @@
         "ar": "ilyas-ibn-mudar",
         "en": "ilyas-ibn-mudar",
         "fr": "ilyas-ibn-mudar"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0632526f4f61",
+      "slug": "person-0632526f4f61",
+      "name": {
+        "ar": "jafar-ibn-abi-talib",
+        "en": "jafar-ibn-abi-talib",
+        "fr": "jafar-ibn-abi-talib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6502aac967a6",
+      "slug": "person-6502aac967a6",
+      "name": {
+        "ar": "jafar-ibn-al-husayn",
+        "en": "jafar-ibn-al-husayn",
+        "fr": "jafar-ibn-al-husayn"
       },
       "category": "source-person",
       "biography": {
@@ -1173,6 +1965,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-b43b087d34f4",
+      "slug": "person-b43b087d34f4",
+      "name": {
+        "ar": "mabad-ibn-al-abbas",
+        "en": "mabad-ibn-al-abbas",
+        "fr": "mabad-ibn-al-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-54c4ff5148a3",
       "slug": "person-54c4ff5148a3",
       "name": {
@@ -1283,12 +2097,78 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-9e1bfc879954",
+      "slug": "person-9e1bfc879954",
+      "name": {
+        "ar": "muhsin-ibn-ali",
+        "en": "muhsin-ibn-ali",
+        "fr": "muhsin-ibn-ali"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-1a26b914289b",
       "slug": "person-1a26b914289b",
       "name": {
         "ar": "murra-ibn-kab",
         "en": "murra-ibn-kab",
         "fr": "murra-ibn-kab"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-80a82c553008",
+      "slug": "person-80a82c553008",
+      "name": {
+        "ar": "musab-ibn-al-zubayr",
+        "en": "musab-ibn-al-zubayr",
+        "fr": "musab-ibn-al-zubayr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-32892c663d87",
+      "slug": "person-32892c663d87",
+      "name": {
+        "ar": "nawfal-ibn-al-harith",
+        "en": "nawfal-ibn-al-harith",
+        "fr": "nawfal-ibn-al-harith"
       },
       "category": "source-person",
       "biography": {
@@ -1371,6 +2251,50 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-daa015e39f20",
+      "slug": "person-daa015e39f20",
+      "name": {
+        "ar": "qutham-ibn-al-abbas",
+        "en": "qutham-ibn-al-abbas",
+        "fr": "qutham-ibn-al-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-f74b84253e4b",
+      "slug": "person-f74b84253e4b",
+      "name": {
+        "ar": "rabia-ibn-al-harith",
+        "en": "rabia-ibn-al-harith",
+        "fr": "rabia-ibn-al-harith"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-ee9533da8a95",
       "slug": "person-ee9533da8a95",
       "name": {
@@ -1399,6 +2323,28 @@
         "ar": "saad-ibn-abi-waqqas",
         "en": "saad-ibn-abi-waqqas",
         "fr": "saad-ibn-abi-waqqas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-248fde5641d4",
+      "slug": "person-248fde5641d4",
+      "name": {
+        "ar": "safiyya-bint-abd-al-muttalib",
+        "en": "safiyya-bint-abd-al-muttalib",
+        "fr": "safiyya-bint-abd-al-muttalib"
       },
       "category": "source-person",
       "biography": {
@@ -1525,12 +2471,254 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-3e9fa77b169c",
+      "slug": "person-3e9fa77b169c",
+      "name": {
+        "ar": "sukayna-bint-al-husayn",
+        "en": "sukayna-bint-al-husayn",
+        "fr": "sukayna-bint-al-husayn"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-5bf9bfa93e63",
+      "slug": "person-5bf9bfa93e63",
+      "name": {
+        "ar": "talib-ibn-abi-talib",
+        "en": "talib-ibn-abi-talib",
+        "fr": "talib-ibn-abi-talib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-faa3642614c7",
+      "slug": "person-faa3642614c7",
+      "name": {
+        "ar": "tamam-ibn-al-abbas",
+        "en": "tamam-ibn-al-abbas",
+        "fr": "tamam-ibn-al-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-811aa1739b23",
+      "slug": "person-811aa1739b23",
+      "name": {
+        "ar": "thuwayba",
+        "en": "thuwayba",
+        "fr": "thuwayba"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-915c567a5cf7",
+      "slug": "person-915c567a5cf7",
+      "name": {
+        "ar": "ubaydullah-ibn-al-abbas",
+        "en": "ubaydullah-ibn-al-abbas",
+        "fr": "ubaydullah-ibn-al-abbas"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e2fe99cdb8cd",
+      "slug": "person-e2fe99cdb8cd",
+      "name": {
+        "ar": "ubaydullah-ibn-jahsh",
+        "en": "ubaydullah-ibn-jahsh",
+        "fr": "ubaydullah-ibn-jahsh"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a9e1922c3561",
+      "slug": "person-a9e1922c3561",
+      "name": {
+        "ar": "umama-bint-abi-al-as",
+        "en": "umama-bint-abi-al-as",
+        "fr": "umama-bint-abi-al-as"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-fbee51f1401c",
+      "slug": "person-fbee51f1401c",
+      "name": {
+        "ar": "umayma-bint-abd-al-muttalib",
+        "en": "umayma-bint-abd-al-muttalib",
+        "fr": "umayma-bint-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a3bde46b676f",
+      "slug": "person-a3bde46b676f",
+      "name": {
+        "ar": "umm-al-hakam-bint-al-zubayr",
+        "en": "umm-al-hakam-bint-al-zubayr",
+        "fr": "umm-al-hakam-bint-al-zubayr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-04c5aa88d621",
       "slug": "person-04c5aa88d621",
       "name": {
         "ar": "umm-habiba",
         "en": "umm-habiba",
         "fr": "umm-habiba"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-d0266deef0c7",
+      "slug": "person-d0266deef0c7",
+      "name": {
+        "ar": "umm-hakim-al-bayda-bint-abd-al-muttalib",
+        "en": "umm-hakim-al-bayda-bint-abd-al-muttalib",
+        "fr": "umm-hakim-al-bayda-bint-abd-al-muttalib"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-aeac823cb26f",
+      "slug": "person-aeac823cb26f",
+      "name": {
+        "ar": "umm-kulthum-bint-ali",
+        "en": "umm-kulthum-bint-ali",
+        "fr": "umm-kulthum-bint-ali"
       },
       "category": "source-person",
       "biography": {
@@ -1575,6 +2763,116 @@
         "ar": "umm-salama",
         "en": "umm-salama",
         "fr": "umm-salama"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1a613275126e",
+      "slug": "person-1a613275126e",
+      "name": {
+        "ar": "urwa-ibn-al-zubayr",
+        "en": "urwa-ibn-al-zubayr",
+        "fr": "urwa-ibn-al-zubayr"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0cc8963df4cd",
+      "slug": "person-0cc8963df4cd",
+      "name": {
+        "ar": "uthman-ibn-affan",
+        "en": "uthman-ibn-affan",
+        "fr": "uthman-ibn-affan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-31d79fc1c191",
+      "slug": "person-31d79fc1c191",
+      "name": {
+        "ar": "wahb-ibn-abd-manaf-zuhra",
+        "en": "wahb-ibn-abd-manaf-zuhra",
+        "fr": "wahb-ibn-abd-manaf-zuhra"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1dc89c11702b",
+      "slug": "person-1dc89c11702b",
+      "name": {
+        "ar": "zayd-ibn-al-hasan",
+        "en": "zayd-ibn-al-hasan",
+        "fr": "zayd-ibn-al-hasan"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-c759e8bf046b",
+      "slug": "person-c759e8bf046b",
+      "name": {
+        "ar": "zaynab-bint-ali",
+        "en": "zaynab-bint-ali",
+        "fr": "zaynab-bint-ali"
       },
       "category": "source-person",
       "biography": {
