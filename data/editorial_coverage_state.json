@@ -1,37 +1,81 @@
 {
-  "generatedAt": "2026-08-20T08:44:28+01:00",
-  "windowStart": "2026-08-19T08:44:28+01:00",
-  "windowEnd": "2026-08-20T08:44:28+01:00",
+  "generatedAt": "2026-08-20T09:47:15+01:00",
+  "windowStart": "2026-08-19T09:47:15+01:00",
+  "windowEnd": "2026-08-20T09:47:15+01:00",
   "policyApplied": true,
   "policyVersion": "1.0.0",
   "coverageWindowHours": 24,
   "cycleFrequencyHours": 1,
-  "status": "PASS",
-  "reason": "All 39 currently active editorial section/subsection slots discovered from data/editorial_sections.json have a qualifying genuine source-derived article published at 2026-08-20T08:20:00+01:00, within the preceding rolling 24-hour window. No additional article was required in this cycle.",
+  "status": "FAIL",
+  "reason": "Dynamic discovery detected current family/parents and family/ancestors slots and the current media/documentaries category. Two source-verified Ibn Hisham articles were published for the new family slots. No approved ingested documentary transcript or other substantive documentary source was available, so media/documentaries remains uncovered with SOURCE GAP — NO GENUINE ARTICLE PUBLISHED.",
   "activeEditorialSlots": 39,
-  "coveredEditorialSlots": 39,
-  "requiringArticles": 0,
-  "coveragePercentPublishedRolling24h": 100,
-  "qualifyingArticlesPublishedWithinWindow": 39,
-  "publishedThisCycle": 0,
-  "previouslyVerifiedSourceDraftsPublishedWithinWindow": 18,
-  "visuallyVerifiedOcrDraftsPublishedWithinWindow": 21,
-  "sourceGaps": 0,
+  "coveredEditorialSlots": 38,
+  "requiringArticlesAtCycleStart": 3,
+  "coveragePercentPublishedRolling24h": 97.44,
+  "qualifyingArticlesPublishedWithinWindow": 42,
+  "publishedThisCycle": 2,
+  "sourceGaps": 1,
+  "sourceGapRecords": [
+    {
+      "section": "media/documentaries",
+      "status": "SOURCE GAP — NO GENUINE ARTICLE PUBLISHED",
+      "reason": "The current media configuration contains a documentary taxonomy/search source, but no concrete approved ingested documentary transcript or verified substantive documentary text was available in the repository or connected Prophet-Library-Ingestion library during this cycle."
+    }
+  ],
   "rejectedDraftsThisCycle": 0,
   "duplicateExclusionsThisCycle": 0,
-  "remainingUncoveredSections": [],
+  "remainingUncoveredSections": ["media/documentaries"],
+  "dynamicDiscovery": {
+    "baseConfig": "data/editorial_sections.json",
+    "familyConfig": "data/family_groups.json",
+    "mediaConfig": ["scripts/sync_media.py", "private/media_sources.json"],
+    "staleSlotsRemoved": ["family/maternal-uncles", "family/maternal-cousins", "family/relatives"],
+    "activeSlotsAdded": ["family/parents", "family/ancestors", "media/documentaries"],
+    "configSynchronized": true
+  },
+  "publishedArticlesThisCycle": [
+    {
+      "id": "20260820-family-parents",
+      "title": "والدا رسول الله ﷺ في سجل النسب",
+      "section": "family/parents",
+      "sourceType": "EXTRACTED BOOK MATERIAL",
+      "principalSource": "السيرة النبوية — عبد الملك بن هشام",
+      "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+      "volume": "1",
+      "pages": "printed page 127; OCR marker 126",
+      "resourceId": "life-seerah-002",
+      "articleUrl": "feature.html?id=20260820-family-parents",
+      "publishedAt": "2026-08-20T09:47:15+01:00",
+      "verification": "visual PDF verification plus cross-check against ingested text"
+    },
+    {
+      "id": "20260820-family-ancestors",
+      "title": "عدنان في سلسلة النسب إلى ولد إسماعيل",
+      "section": "family/ancestors",
+      "sourceType": "EXTRACTED BOOK MATERIAL",
+      "principalSource": "السيرة النبوية — عبد الملك بن هشام",
+      "edition": "الطبعة الثالثة؛ تحقيق محمد عبد السلام تدمري؛ دار الكتاب العربي؛ بيروت؛ 1410 هـ / 1990 م",
+      "volume": "1",
+      "pages": "printed page 23; OCR marker 22",
+      "resourceId": "life-seerah-002",
+      "articleUrl": "feature.html?id=20260820-family-ancestors",
+      "publishedAt": "2026-08-20T09:47:15+01:00",
+      "verification": "visual PDF verification plus cross-check against ingested text"
+    }
+  ],
   "integrity": {
     "substantiveAiGenerationAllowed": false,
-    "substantiveAiGeneratedArticles": 0,
+    "substantiveAiGeneratedArticlesThisCycle": 0,
     "requiredSourceCoveragePercent": 100,
-    "articlesWith100PercentSourceProvenance": 39,
-    "unsupportedFactualParagraphs": 0,
-    "unverifiedQuotations": 0,
+    "articlesWith100PercentSourceProvenanceThisCycle": 2,
+    "unsupportedFactualParagraphsThisCycle": 0,
+    "unverifiedQuotationsThisCycle": 0,
     "quotationVerification": "PASS",
     "provenance": "PASS",
     "duplicateCheck": "PASS"
   },
   "publicationManifest": "data/editorial/publication_manifest.json",
+  "publicationSupplement": "data/editorial/publication_supplement.json",
   "publicFeed": "editorial.html",
   "articleRoute": "feature.html?id={id}",
   "sourceLibrary": {
@@ -40,7 +84,7 @@
     "folderId": "1AQhIfoWxzWcHvm4SgILEh_VbkgbKBhbZ",
     "ibnHishamResource": "life-seerah-002",
     "ibnHishamResourceFolderId": "1zkqT_6FMh0WkaxzSniCN0vjFsk-k1gvk",
-    "verifiedFilesObserved": ["complete.pdf", "volume-1.pdf", "volume-2.pdf", "volume-3.pdf", "volume-4.pdf", "text.txt"]
+    "verifiedFilesObserved": ["complete.epub", "complete.pdf", "volume-1.pdf", "text.txt", "metadata.json"]
   },
   "reportRecipient": "houseofwords.langue@gmail.com"
 }
