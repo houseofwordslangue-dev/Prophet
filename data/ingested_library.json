@@ -1,7 +1,7 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T23:01:43.665228+00:00",
-  "count": 60,
+  "generatedAt": "2026-08-20T23:56:02.558684+00:00",
+  "count": 64,
   "currentBatchCount": 4,
   "items": [
     {
@@ -318,6 +318,40 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-22337:ed-1f45fa8dd0d3",
+      "workId": "gutenberg-22337",
+      "editionId": "ed-1f45fa8dd0d3",
+      "titleOriginal": "History of the Moors of Spain",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Florian",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 387646,
+      "sha256": "1f45fa8dd0d3a1286b95dd630fdb7c62a087b19f7da5851b166c2c6b4e56a92e",
+      "localUrl": "/library/works/gutenberg-22337/editions/ed-1f45fa8dd0d3/original.txt",
+      "readerUrl": "/library/works/gutenberg-22337/editions/ed-1f45fa8dd0d3/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "gutenberg-62990:ed-3ae59db54650",
       "workId": "gutenberg-62990",
       "editionId": "ed-3ae59db54650",
@@ -515,6 +549,40 @@
       "sha256": "edfbd755fe2280eea2cb0d3cd2476cdb91e288f63ecd87343e0d75a571c40d55",
       "localUrl": "/library/works/draycott-mahomet/editions/ed-edfbd755fe22/original.txt",
       "readerUrl": "/library/works/draycott-mahomet/editions/ed-edfbd755fe22/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-21512:ed-c786d99ec714",
+      "workId": "gutenberg-21512",
+      "editionId": "ed-c786d99ec714",
+      "titleOriginal": "Modern Persia",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Mooshie G. Daniel",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 282009,
+      "sha256": "c786d99ec7147629542cc7c59c7140d6276360d15c108112f0229fcf939e2d2d",
+      "localUrl": "/library/works/gutenberg-21512/editions/ed-c786d99ec714/original.txt",
+      "readerUrl": "/library/works/gutenberg-21512/editions/ed-c786d99ec714/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -834,6 +902,42 @@
       "sha256": "586931ef46690c49097eb89b668838589de87fc529567ed2037d3d37947eb636",
       "localUrl": "/library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
       "readerUrl": "/library/works/gutenberg-4658/editions/ed-586931ef4669/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-54782:ed-6a0c9e1352e2",
+      "workId": "gutenberg-54782",
+      "editionId": "ed-6a0c9e1352e2",
+      "titleOriginal": "Sketches from Eastern History",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Theodor Nöldeke",
+      "language": "en",
+      "subjects": [
+        "القرآن وعلومه",
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 582311,
+      "sha256": "6a0c9e1352e298862f6f4040b025e84a3908aa94799d522d970e7ed4c290e335",
+      "localUrl": "/library/works/gutenberg-54782/editions/ed-6a0c9e1352e2/original.txt",
+      "readerUrl": "/library/works/gutenberg-54782/editions/ed-6a0c9e1352e2/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
@@ -1179,6 +1283,40 @@
       "sha256": "0e40169cc55574cc06760288a0dd2c4d820fcc55116187badbcbfa671201d728",
       "localUrl": "/library/works/khuda-bukhsh-islam-mohamed/editions/ed-0e40169cc555/original.txt",
       "readerUrl": "/library/works/khuda-bukhsh-islam-mohamed/editions/ed-0e40169cc555/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-57208:ed-6fd54b65b3d9",
+      "workId": "gutenberg-57208",
+      "editionId": "ed-6fd54b65b3d9",
+      "titleOriginal": "The Jew, The Gypsy and El Islam",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Sir Richard Francis Burton",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 555341,
+      "sha256": "6fd54b65b3d9656deb5a8fb8afcebdf4df4960b73d40fff3863ec4803a550540",
+      "localUrl": "/library/works/gutenberg-57208/editions/ed-6fd54b65b3d9/original.txt",
+      "readerUrl": "/library/works/gutenberg-57208/editions/ed-6fd54b65b3d9/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
