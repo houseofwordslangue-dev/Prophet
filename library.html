@@ -7,6 +7,7 @@
 <meta name="description" content="مكتبة قابلة للقراءة والبحث والاستماع والمشاهدة ضمن منصة السيرة والمعرفة.">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/bookstore.css">
+<link rel="stylesheet" href="assets/bookstore-published.css">
 </head>
 <body>
 <header class="site-head">
@@ -17,14 +18,13 @@
     </nav>
   </div>
 </header>
-
 <main>
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
       <p class="eyebrow">مكتبة رقمية متخصصة</p>
       <h1>الكتب والمصادر بين يديك</h1>
-      <p>تصفّح المحتوى حسب الموضوع، المؤلف، اللغة، الصيغة والقدرة المتاحة: قراءة، بحث، استماع أو مشاهدة.</p>
+      <p>تصفّح المحتوى حسب الموضوع، المؤلف، اللغة، الصيغة والقدرة المتاحة. جميع الكتب التي أضيفت إلى مكتبة المشروع تظهر في الفهرس، ولا يُعرض زر قراءة أو بحث أو استماع إلا عندما تكون له مادة فعلية متاحة.</p>
     </div>
     <form id="heroSearch" class="hero-search" role="search">
       <label for="q">ابحث في المكتبة</label>
@@ -33,7 +33,6 @@
     </form>
   </div>
 </section>
-
 <section class="wrap explorer">
   <aside class="filters" aria-label="مرشحات الكتب">
     <div class="filter-block"><h2>تصفية المكتبة</h2><button id="clearFilters" class="clear">مسح المرشحات</button></div>
@@ -42,7 +41,6 @@
     <fieldset><legend>اللغة</legend><div id="languageFilters" class="facet-list"></div></fieldset>
     <fieldset><legend>الموضوع</legend><div id="subjectFilters" class="facet-list"></div></fieldset>
   </aside>
-
   <div class="catalog">
     <div class="catalog-head"><div><h2>الكتب</h2><p id="resultCount" aria-live="polite">جارٍ تحميل الفهرس…</p></div><div class="view-switch"><button type="button" data-view="grid" class="active" aria-label="عرض شبكي">▦</button><button type="button" data-view="list" aria-label="عرض قائمة">☷</button></div></div>
     <div id="activeFilters" class="active-filters"></div>
@@ -51,7 +49,6 @@
   </div>
 </section>
 </main>
-
 <dialog id="bookDialog" class="book-dialog"><button class="dialog-close" value="cancel" formmethod="dialog" aria-label="إغلاق">×</button><div id="dialogBody"></div></dialog>
 <footer><div class="wrap footer-row"><span>مكتبة محمد ﷺ</span><span>فهرس محلي متكامل مع نظام الإدخال الدوري</span></div></footer>
 <script src="assets/universal-player.js"></script>
