@@ -3,16 +3,17 @@
 
 Discovery is intentionally narrow:
 - only official gutenberg.org pages;
-- only the Project Gutenberg Islam subject catalogue;
+- only Project Gutenberg subject catalogues relevant to Islam, the Prophet, teachings, history, and Qur'an;
 - each candidate page must explicitly state "Public domain in the USA";
 - obvious fiction is rejected;
-- only items exposing the predictable UTF-8 text endpoint are queued;
+- the actual UTF-8 plain-text download link must be present on the item page;
 - existing source identifiers and work IDs are never duplicated.
 """
 from __future__ import annotations
 
 from html import unescape
 from pathlib import Path
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 import argparse
 import json
@@ -22,7 +23,11 @@ import time
 ROOT = Path(__file__).resolve().parents[1]
 QUEUE = ROOT / "private" / "acquisition_candidates.json"
 SUBJECT_URLS = [
-    "https://www.gutenberg.org/ebooks/subject/4438",  # Islam
+    "https://www.gutenberg.org/ebooks/subject/4438",   # Islam
+    "https://www.gutenberg.org/ebooks/subject/37228",  # Islam -- History
+    "https://www.gutenberg.org/ebooks/subject/1080",   # Qur'an
+    "https://www.gutenberg.org/ebooks/subject/12613",  # Muhammad, Prophet, -632
+    "https://www.gutenberg.org/ebooks/subject/33023",  # Muhammad -- Teachings
 ]
 UA = "ProphetBiographyLibrary/6.8 GutenbergDiscovery"
 
@@ -55,12 +60,27 @@ def subject_ids(html: str):
         yield ebook_id, clean_html(m.group(2))
 
 
+def plain_text_url(ebook_id: str, html: str) -> str:
+    patterns = [
+        r'href=["\']([^"\']*?/ebooks/' + re.escape(ebook_id) + r'\.txt\.utf-8)["\']',
+        r'href=["\']([^"\']*?/cache/epub/' + re.escape(ebook_id) + r'/pg' + re.escape(ebook_id) + r'\.txt)["\']',
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, html, re.I)
+        if m:
+            return urljoin(f"https://www.gutenberg.org/ebooks/{ebook_id}", unescape(m.group(1)))
+    return ""
+
+
 def metadata_from_page(ebook_id: str, html: str):
     text = clean_html(html)
     if "Public domain in the USA" not in text and "Copyright Status Public domain in the USA" not in text:
         return None
     lowered = text.lower()
-    if "-- fiction" in lowered or "category fiction" in lowered:
+    if "-- fiction" in lowered or "category fiction" in lowered or "subject fiction" in lowered:
+        return None
+    download_url = plain_text_url(ebook_id, html)
+    if not download_url:
         return None
     h1m = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.I | re.S)
     heading = clean_html(h1m.group(1)) if h1m else f"Project Gutenberg eBook {ebook_id}"
@@ -74,6 +94,8 @@ def metadata_from_page(ebook_id: str, html: str):
     subjects = ["الدراسات الإسلامية", "المصادر والدراسات"]
     if re.search(r"Muhammad|Mohammed|Mahomet|Prophet", text, re.I):
         subjects.insert(0, "السيرة النبوية")
+    if re.search(r"Qur.?an|Koran|Kur-an", text, re.I):
+        subjects.insert(0, "القرآن وعلومه")
     return {
         "workId": f"gutenberg-{ebook_id}",
         "titleOriginal": title,
@@ -83,12 +105,12 @@ def metadata_from_page(ebook_id: str, html: str):
         "sourceRepository": "Project Gutenberg",
         "sourceIdentifier": ebook_id,
         "sourceUrl": f"https://www.gutenberg.org/ebooks/{ebook_id}",
-        "downloadUrl": f"https://www.gutenberg.org/ebooks/{ebook_id}.txt.utf-8",
+        "downloadUrl": download_url,
         "rightsEvidence": "Public domain in the USA",
         "rightsEvidenceUrl": f"https://www.gutenberg.org/ebooks/{ebook_id}",
         "subjects": subjects,
         "siteSections": ["المصادر والدراسات"],
-        "discoveredBy": "official-gutenberg-islam-subject",
+        "discoveredBy": "official-gutenberg-relevant-subjects",
     }
 
 
