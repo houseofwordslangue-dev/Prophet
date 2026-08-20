@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "policy": "genuine-source-only",
+  "coverageWindowHours": 24,
+  "cycleFrequencyHours": 1,
+  "discoverActiveSectionsDynamically": true,
+  "substantiveAiGenerationAllowed": false,
+  "aiRole": [
+    "linguistic-correction",
+    "grammar",
+    "spelling",
+    "punctuation",
+    "typography",
+    "readability-without-new-substance",
+    "remove-obvious-repetition",
+    "heading-organization",
+    "source-established-ocr-asr-correction",
+    "faithful-translation"
+  ],
+  "approvedContentTypes": [
+    "SOURCE ARTICLE",
+    "EXTRACTED BOOK MATERIAL",
+    "TRANSCRIBED LECTURE",
+    "TRANSLATED SOURCE",
+    "EDITORIALLY COMPILED SOURCE ARTICLE"
+  ],
+  "publicationGates": {
+    "sourceCoveragePercent": 100,
+    "aiOriginalSubstantiveContentPercent": 0,
+    "quotationVerification": "PASS",
+    "provenance": "PASS",
+    "unsupportedFactualParagraphs": 0,
+    "unverifiedQuotations": 0,
+    "duplicateCheck": "PASS"
+  },
+  "sourceGapStatus": "SOURCE GAP — NO GENUINE ARTICLE PUBLISHED",
+  "report": {
+    "recipient": "houseofwords.langue@gmail.com",
+    "subject": "24-Hour Genuine Editorial Coverage Report",
+    "sendAfterEveryCycle": true
+  }
+}
