@@ -10,8 +10,52 @@
       "fr"
     ]
   },
-  "count": 234,
+  "count": 302,
   "people": [
+    {
+      "id": "person-1010e90bd3ea",
+      "slug": "person-1010e90bd3ea",
+      "name": {
+        "ar": "Ahmad ibn al-Mubarak al-Lamati",
+        "en": "Ahmad ibn al-Mubarak al-Lamati",
+        "fr": "Ahmad ibn al-Mubarak al-Lamati"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-571b761eff72",
+      "slug": "person-571b761eff72",
+      "name": {
+        "ar": "Dabbagh tradition",
+        "en": "Dabbagh tradition",
+        "fr": "Dabbagh tradition"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
     {
       "id": "person-eb5591d002e8",
       "slug": "person-eb5591d002e8",
@@ -41,6 +85,138 @@
         "ar": "Gladys M. Draycott",
         "en": "Gladys M. Draycott",
         "fr": "Gladys M. Draycott"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-230f261ef5b4",
+      "slug": "person-230f261ef5b4",
+      "name": {
+        "ar": "Ibn Abi ʿAsim",
+        "en": "Ibn Abi ʿAsim",
+        "fr": "Ibn Abi ʿAsim"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-21099c986427",
+      "slug": "person-21099c986427",
+      "name": {
+        "ar": "Ibn Hibban",
+        "en": "Ibn Hibban",
+        "fr": "Ibn Hibban"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-df9870d23dd4",
+      "slug": "person-df9870d23dd4",
+      "name": {
+        "ar": "Ibn al-Dibaʿ",
+        "en": "Ibn al-Dibaʿ",
+        "fr": "Ibn al-Dibaʿ"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-7bf0cc08a810",
+      "slug": "person-7bf0cc08a810",
+      "name": {
+        "ar": "Ibn al-Hajj, relevant discussions of Mawlid practice",
+        "en": "Ibn al-Hajj, relevant discussions of Mawlid practice",
+        "fr": "Ibn al-Hajj, relevant discussions of Mawlid practice"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-f8e34f0835c0",
+      "slug": "person-f8e34f0835c0",
+      "name": {
+        "ar": "Ibn al-Qattan al-Fasi",
+        "en": "Ibn al-Qattan al-Fasi",
+        "fr": "Ibn al-Qattan al-Fasi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e74f63f2faac",
+      "slug": "person-e74f63f2faac",
+      "name": {
+        "ar": "Imam Malik",
+        "en": "Imam Malik",
+        "fr": "Imam Malik"
       },
       "category": "source-person",
       "biography": {
@@ -161,6 +337,72 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-17e283c6df81",
+      "slug": "person-17e283c6df81",
+      "name": {
+        "ar": "Muhammad al-Sibaʿi al-Marrakushi",
+        "en": "Muhammad al-Sibaʿi al-Marrakushi",
+        "fr": "Muhammad al-Sibaʿi al-Marrakushi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-82944daa4ac3",
+      "slug": "person-82944daa4ac3",
+      "name": {
+        "ar": "Muhammad ibn Muhammad al-Basri al-Miknasi",
+        "en": "Muhammad ibn Muhammad al-Basri al-Miknasi",
+        "fr": "Muhammad ibn Muhammad al-Basri al-Miknasi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0a354d1fa9aa",
+      "slug": "person-0a354d1fa9aa",
+      "name": {
+        "ar": "Muhammad ibn Qasim Jassus al-Fasi",
+        "en": "Muhammad ibn Qasim Jassus al-Fasi",
+        "fr": "Muhammad ibn Qasim Jassus al-Fasi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-067ca8ae48d1",
       "slug": "person-067ca8ae48d1",
       "name": {
@@ -271,6 +513,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-f1016b29563a",
+      "slug": "person-f1016b29563a",
+      "name": {
+        "ar": "Rumi, especially passages concerning Prophetic love and imitation",
+        "en": "Rumi, especially passages concerning Prophetic love and imitation",
+        "fr": "Rumi, especially passages concerning Prophetic love and imitation"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-676cc4e05ab1",
       "slug": "person-676cc4e05ab1",
       "name": {
@@ -293,12 +557,100 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-7fa9a6a78510",
+      "slug": "person-7fa9a6a78510",
+      "name": {
+        "ar": "Shibli Nuʿmani and Sulayman Nadwi",
+        "en": "Shibli Nuʿmani and Sulayman Nadwi",
+        "fr": "Shibli Nuʿmani and Sulayman Nadwi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-0e0a4d95cc7b",
+      "slug": "person-0e0a4d95cc7b",
+      "name": {
+        "ar": "Sibt Ibn al-Jawzi; use with source-critical notes",
+        "en": "Sibt Ibn al-Jawzi; use with source-critical notes",
+        "fr": "Sibt Ibn al-Jawzi; use with source-critical notes"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-1f376d826cca",
       "slug": "person-1f376d826cca",
       "name": {
         "ar": "Stanley Lane-Poole (editor)",
         "en": "Stanley Lane-Poole (editor)",
         "fr": "Stanley Lane-Poole (editor)"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-17d1ec48ee96",
+      "slug": "person-17d1ec48ee96",
+      "name": {
+        "ar": "Sunan and Musnad traditions",
+        "en": "Sunan and Musnad traditions",
+        "fr": "Sunan and Musnad traditions"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-fb5e1bf60415",
+      "slug": "person-fb5e1bf60415",
+      "name": {
+        "ar": "Sunni hadith compilations",
+        "en": "Sunni hadith compilations",
+        "fr": "Sunni hadith compilations"
       },
       "category": "source-person",
       "biography": {
@@ -843,6 +1195,226 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-85bf007d8aa7",
+      "slug": "person-85bf007d8aa7",
+      "name": {
+        "ar": "al-Baladhuri",
+        "en": "al-Baladhuri",
+        "fr": "al-Baladhuri"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b2e0e59ca2d5",
+      "slug": "person-b2e0e59ca2d5",
+      "name": {
+        "ar": "al-Darimi",
+        "en": "al-Darimi",
+        "fr": "al-Darimi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4012ffaed8d9",
+      "slug": "person-4012ffaed8d9",
+      "name": {
+        "ar": "al-Fasi",
+        "en": "al-Fasi",
+        "fr": "al-Fasi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4a5072973b07",
+      "slug": "person-4a5072973b07",
+      "name": {
+        "ar": "al-Ghazali, theological basis for understanding prophetic perfection",
+        "en": "al-Ghazali, theological basis for understanding prophetic perfection",
+        "fr": "al-Ghazali, theological basis for understanding prophetic perfection"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-dd0f80536552",
+      "slug": "person-dd0f80536552",
+      "name": {
+        "ar": "al-Harith al-Muhasibi",
+        "en": "al-Harith al-Muhasibi",
+        "fr": "al-Harith al-Muhasibi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-661f1067fe00",
+      "slug": "person-661f1067fe00",
+      "name": {
+        "ar": "al-Razi",
+        "en": "al-Razi",
+        "fr": "al-Razi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-bcfb029afdac",
+      "slug": "person-bcfb029afdac",
+      "name": {
+        "ar": "al-Suyuti, especially verses concerning Ahl al-Bayt",
+        "en": "al-Suyuti, especially verses concerning Ahl al-Bayt",
+        "fr": "al-Suyuti, especially verses concerning Ahl al-Bayt"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-a968a3a37f0a",
+      "slug": "person-a968a3a37f0a",
+      "name": {
+        "ar": "al-Suyuti, including Mawlid discussions",
+        "en": "al-Suyuti, including Mawlid discussions",
+        "fr": "al-Suyuti, including Mawlid discussions"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-c941009dd1b1",
+      "slug": "person-c941009dd1b1",
+      "name": {
+        "ar": "al-Tabrizi",
+        "en": "al-Tabrizi",
+        "fr": "al-Tabrizi"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-11b83394b891",
+      "slug": "person-11b83394b891",
+      "name": {
+        "ar": "al-Zurqani",
+        "en": "al-Zurqani",
+        "fr": "al-Zurqani"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-d3f51877a09f",
       "slug": "person-d3f51877a09f",
       "name": {
@@ -1371,6 +1943,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-62887674c6fa",
+      "slug": "person-62887674c6fa",
+      "name": {
+        "ar": "attributed in the Ibn al-Jawzi tradition",
+        "en": "attributed in the Ibn al-Jawzi tradition",
+        "fr": "attributed in the Ibn al-Jawzi tradition"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-e463a9fc7970",
       "slug": "person-e463a9fc7970",
       "name": {
@@ -1421,6 +2015,28 @@
         "ar": "burra-bint-abd-al-uzza",
         "en": "burra-bint-abd-al-uzza",
         "fr": "burra-bint-abd-al-uzza"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-977132eddfdb",
+      "slug": "person-977132eddfdb",
+      "name": {
+        "ar": "councils of Imam al-Haddad",
+        "en": "councils of Imam al-Haddad",
+        "fr": "councils of Imam al-Haddad"
       },
       "category": "source-person",
       "biography": {
@@ -2053,6 +2669,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-4aec839c57c4",
+      "slug": "person-4aec839c57c4",
+      "name": {
+        "ar": "mawlid scholarship",
+        "en": "mawlid scholarship",
+        "fr": "mawlid scholarship"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-0f1c7cf0bc88",
       "slug": "person-0f1c7cf0bc88",
       "name": {
@@ -2213,6 +2851,28 @@
         "ar": "nizar-ibn-maadd",
         "en": "nizar-ibn-maadd",
         "fr": "nizar-ibn-maadd"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-5ce725d212ff",
+      "slug": "person-5ce725d212ff",
+      "name": {
+        "ar": "prophetic-name literature",
+        "en": "prophetic-name literature",
+        "fr": "prophetic-name literature"
       },
       "category": "source-person",
       "biography": {
@@ -2471,6 +3131,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-6d7855bad715",
+      "slug": "person-6d7855bad715",
+      "name": {
+        "ar": "sayings/counsels of al-Haddad",
+        "en": "sayings/counsels of al-Haddad",
+        "fr": "sayings/counsels of al-Haddad"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-e53922df741b",
       "slug": "person-e53922df741b",
       "name": {
@@ -2499,6 +3181,28 @@
         "ar": "sukayna-bint-al-husayn",
         "en": "sukayna-bint-al-husayn",
         "fr": "sukayna-bint-al-husayn"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-729ad2f4f28d",
+      "slug": "person-729ad2f4f28d",
+      "name": {
+        "ar": "supplementary tradition around al-Suhayli",
+        "en": "supplementary tradition around al-Suhayli",
+        "fr": "supplementary tradition around al-Suhayli"
       },
       "category": "source-person",
       "biography": {
@@ -2565,6 +3269,116 @@
         "ar": "thuwayba",
         "en": "thuwayba",
         "fr": "thuwayba"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-9aa1d179564d",
+      "slug": "person-9aa1d179564d",
+      "name": {
+        "ar": "traditional Sunni devotional Seerah",
+        "en": "traditional Sunni devotional Seerah",
+        "fr": "traditional Sunni devotional Seerah"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-90fab59851fb",
+      "slug": "person-90fab59851fb",
+      "name": {
+        "ar": "traditional Yemeni Seerah/Mawlid literature",
+        "en": "traditional Yemeni Seerah/Mawlid literature",
+        "fr": "traditional Yemeni Seerah/Mawlid literature"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-dceef162f644",
+      "slug": "person-dceef162f644",
+      "name": {
+        "ar": "traditional mawlid literature",
+        "en": "traditional mawlid literature",
+        "fr": "traditional mawlid literature"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-2b7b4eb4f7c6",
+      "slug": "person-2b7b4eb4f7c6",
+      "name": {
+        "ar": "traditional scholarship",
+        "en": "traditional scholarship",
+        "fr": "traditional scholarship"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-b7646245ab3f",
+      "slug": "person-b7646245ab3f",
+      "name": {
+        "ar": "traditions collected by Sunni hadith scholars",
+        "en": "traditions collected by Sunni hadith scholars",
+        "fr": "traditions collected by Sunni hadith scholars"
       },
       "category": "source-person",
       "biography": {
@@ -3156,6 +3970,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-3bcb0d0f9465",
+      "slug": "person-3bcb0d0f9465",
+      "name": {
+        "ar": "أبو عبد الرحمن السلمي",
+        "en": "أبو عبد الرحمن السلمي",
+        "fr": "أبو عبد الرحمن السلمي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "abu-ubayda-ibn-al-jarrah",
       "slug": "abu-ubayda-ibn-al-jarrah",
       "name": {
@@ -3164,6 +4000,28 @@
         "fr": "Abu Ubayda ibn al-Jarrah"
       },
       "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6c232a477c16",
+      "slug": "person-6c232a477c16",
+      "name": {
+        "ar": "أبو نعيم الأصبهاني",
+        "en": "أبو نعيم الأصبهاني",
+        "fr": "أبو نعيم الأصبهاني"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -3222,12 +4080,56 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-22d0813a70ca",
+      "slug": "person-22d0813a70ca",
+      "name": {
+        "ar": "أحمد ابن عجيبة",
+        "en": "أحمد ابن عجيبة",
+        "fr": "أحمد ابن عجيبة"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-e03e97656dec",
       "slug": "person-e03e97656dec",
       "name": {
         "ar": "أحمد القسطلاني",
         "en": "أحمد القسطلاني",
         "fr": "أحمد القسطلاني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-505ff3c05d4b",
+      "slug": "person-505ff3c05d4b",
+      "name": {
+        "ar": "أحمد بن حنبل",
+        "en": "أحمد بن حنبل",
+        "fr": "أحمد بن حنبل"
       },
       "category": "source-person",
       "biography": {
@@ -3442,6 +4344,50 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-67d2e5495d8a",
+      "slug": "person-67d2e5495d8a",
+      "name": {
+        "ar": "ابن الأثير",
+        "en": "ابن الأثير",
+        "fr": "ابن الأثير"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-9f306fc0aaba",
+      "slug": "person-9f306fc0aaba",
+      "name": {
+        "ar": "ابن الجوزي",
+        "en": "ابن الجوزي",
+        "fr": "ابن الجوزي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-2c5e6ee6995a",
       "slug": "person-2c5e6ee6995a",
       "name": {
@@ -3464,12 +4410,122 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-dbf3b8a9f2de",
+      "slug": "person-dbf3b8a9f2de",
+      "name": {
+        "ar": "ابن حجر الهيتمي",
+        "en": "ابن حجر الهيتمي",
+        "fr": "ابن حجر الهيتمي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4965ee4b4a2e",
+      "slug": "person-4965ee4b4a2e",
+      "name": {
+        "ar": "ابن حزم",
+        "en": "ابن حزم",
+        "fr": "ابن حزم"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-9e5b72e62f72",
       "slug": "person-9e5b72e62f72",
       "name": {
         "ar": "ابن حزم الأندلسي",
         "en": "ابن حزم الأندلسي",
         "fr": "ابن حزم الأندلسي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-02b9ea4b736a",
+      "slug": "person-02b9ea4b736a",
+      "name": {
+        "ar": "ابن دحية",
+        "en": "ابن دحية",
+        "fr": "ابن دحية"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-4600a94b5047",
+      "slug": "person-4600a94b5047",
+      "name": {
+        "ar": "ابن عطاء الله السكندري",
+        "en": "ابن عطاء الله السكندري",
+        "fr": "ابن عطاء الله السكندري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6378b4e18412",
+      "slug": "person-6378b4e18412",
+      "name": {
+        "ar": "ابن علان الصديقي",
+        "en": "ابن علان الصديقي",
+        "fr": "ابن علان الصديقي"
       },
       "category": "source-person",
       "biography": {
@@ -3601,6 +4657,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-1887897a1661",
+      "slug": "person-1887897a1661",
+      "name": {
+        "ar": "الحارث المحاسبي",
+        "en": "الحارث المحاسبي",
+        "fr": "الحارث المحاسبي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "al-hasan-ibn-ali",
       "slug": "al-hasan-ibn-ali",
       "name": {
@@ -3675,6 +4753,28 @@
         "fr": "Al-Zubayr ibn al-Awwam"
       },
       "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-e2f3b87898f9",
+      "slug": "person-e2f3b87898f9",
+      "name": {
+        "ar": "الطبراني",
+        "en": "الطبراني",
+        "fr": "الطبراني"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -3777,6 +4877,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-dc0f587e3dc2",
+      "slug": "person-dc0f587e3dc2",
+      "name": {
+        "ar": "الواحدي",
+        "en": "الواحدي",
+        "fr": "الواحدي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "bilal-ibn-rabah",
       "slug": "bilal-ibn-rabah",
       "name": {
@@ -3807,6 +4929,72 @@
         "fr": "Jabir ibn Abdallah"
       },
       "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-80e620e0e338",
+      "slug": "person-80e620e0e338",
+      "name": {
+        "ar": "جعفر البرزنجي",
+        "en": "جعفر البرزنجي",
+        "fr": "جعفر البرزنجي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-57678ce6684a",
+      "slug": "person-57678ce6684a",
+      "name": {
+        "ar": "جلال الدين الرومي",
+        "en": "جلال الدين الرومي",
+        "fr": "جلال الدين الرومي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-55e9499722ba",
+      "slug": "person-55e9499722ba",
+      "name": {
+        "ar": "جلال الدين السيوطي",
+        "en": "جلال الدين السيوطي",
+        "fr": "جلال الدين السيوطي"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -3953,6 +5141,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-c3b2d03973de",
+      "slug": "person-c3b2d03973de",
+      "name": {
+        "ar": "رشيد الدين الميبدي",
+        "en": "رشيد الدين الميبدي",
+        "fr": "رشيد الدين الميبدي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "ruqayya-bint-muhammad",
       "slug": "ruqayya-bint-muhammad",
       "name": {
@@ -3961,6 +5171,28 @@
         "fr": "Ruqayya bint Muhammad"
       },
       "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-06395667d06a",
+      "slug": "person-06395667d06a",
+      "name": {
+        "ar": "روزبهان البقلي",
+        "en": "روزبهان البقلي",
+        "fr": "روزبهان البقلي"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -4005,6 +5237,28 @@
         "fr": "Zayd ibn Haritha"
       },
       "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-d7fb32a15dcd",
+      "slug": "person-d7fb32a15dcd",
+      "name": {
+        "ar": "زين الدين العراقي",
+        "en": "زين الدين العراقي",
+        "fr": "زين الدين العراقي"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -4151,6 +5405,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-355807c0957a",
+      "slug": "person-355807c0957a",
+      "name": {
+        "ar": "سهل التستري",
+        "en": "سهل التستري",
+        "fr": "سهل التستري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "sawda-bint-zama",
       "slug": "sawda-bint-zama",
       "name": {
@@ -4225,6 +5501,50 @@
         "fr": "Aicha bint Abi Bakr"
       },
       "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-fe2e22ec110a",
+      "slug": "person-fe2e22ec110a",
+      "name": {
+        "ar": "عبد الحي الكتاني",
+        "en": "عبد الحي الكتاني",
+        "fr": "عبد الحي الكتاني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-455c52fecad3",
+      "slug": "person-455c52fecad3",
+      "name": {
+        "ar": "عبد الرحمن الديبع",
+        "en": "عبد الرحمن الديبع",
+        "fr": "عبد الرحمن الديبع"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -4373,6 +5693,28 @@
         "fr": "Abdallah ibn Abd al-Muttalib"
       },
       "category": "family",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-1a9174be20e0",
+      "slug": "person-1a9174be20e0",
+      "name": {
+        "ar": "عبد الله بن علوي الحداد",
+        "en": "عبد الله بن علوي الحداد",
+        "fr": "عبد الله بن علوي الحداد"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -4669,6 +6011,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-42363f863a52",
+      "slug": "person-42363f863a52",
+      "name": {
+        "ar": "عبد الوهاب الشعراني",
+        "en": "عبد الوهاب الشعراني",
+        "fr": "عبد الوهاب الشعراني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-3d4354988ba1",
       "slug": "person-3d4354988ba1",
       "name": {
@@ -4806,6 +6170,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-35fe83b608f9",
+      "slug": "person-35fe83b608f9",
+      "name": {
+        "ar": "علي القاري",
+        "en": "علي القاري",
+        "fr": "علي القاري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "ali-ibn-abi-talib",
       "slug": "ali-ibn-abi-talib",
       "name": {
@@ -4814,6 +6200,28 @@
         "fr": "Ali ibn Abi Talib"
       },
       "category": "companion",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-53f4613557d0",
+      "slug": "person-53f4613557d0",
+      "name": {
+        "ar": "علي بن محمد الحبشي",
+        "en": "علي بن محمد الحبشي",
+        "fr": "علي بن محمد الحبشي"
+      },
+      "category": "source-person",
       "biography": {
         "ar": [],
         "en": [],
@@ -5180,6 +6588,28 @@
       "provenance": "source-only"
     },
     {
+      "id": "person-a0f03dd7e445",
+      "slug": "person-a0f03dd7e445",
+      "name": {
+        "ar": "محمد الخضري",
+        "en": "محمد الخضري",
+        "fr": "محمد الخضري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
       "id": "person-16123c5eb12a",
       "slug": "person-16123c5eb12a",
       "name": {
@@ -5208,6 +6638,50 @@
         "ar": "محمد بن جرير الطبري",
         "en": "محمد بن جرير الطبري",
         "fr": "محمد بن جرير الطبري"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-bbcfbdc8aad3",
+      "slug": "person-bbcfbdc8aad3",
+      "name": {
+        "ar": "محمد بن جعفر الكتاني",
+        "en": "محمد بن جعفر الكتاني",
+        "fr": "محمد بن جعفر الكتاني"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-ba9aa4959497",
+      "slug": "person-ba9aa4959497",
+      "name": {
+        "ar": "محمد بن سعيد البوصيري",
+        "en": "محمد بن سعيد البوصيري",
+        "fr": "محمد بن سعيد البوصيري"
       },
       "category": "source-person",
       "biography": {
@@ -5561,6 +7035,28 @@
           "relation": "documented-mention"
         }
       ],
+      "provenance": "source-only"
+    },
+    {
+      "id": "person-6dd9beba77d4",
+      "slug": "person-6dd9beba77d4",
+      "name": {
+        "ar": "مغلطاي",
+        "en": "مغلطاي",
+        "fr": "مغلطاي"
+      },
+      "category": "source-person",
+      "biography": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sayings": {
+        "ar": [],
+        "en": [],
+        "fr": []
+      },
+      "sourcePassages": [],
       "provenance": "source-only"
     },
     {
