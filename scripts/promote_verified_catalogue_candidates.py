@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Promote explicitly public-domain records from the restored catalogue into the acquisition queue.
+"""Promote rights-cleared exact catalogue sources into the acquisition queue.
 
-This script does not guess rights. A catalogue row is eligible only when its own
-rights/edition evidence explicitly says public domain (English or Arabic) and it
-contains a concrete Internet Archive or Project Gutenberg source URL.
+The professional 689-record catalogue separates work identity, access resolution,
+and full-text eligibility. This promoter respects those fields and never promotes a
+record merely because a title or discovery page exists.
 """
 from __future__ import annotations
 
@@ -11,6 +11,8 @@ from pathlib import Path
 from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 import argparse
+import base64
+import gzip
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +20,12 @@ MANIFEST = ROOT / "data" / "catalogue" / "manifest.json"
 QUEUE = ROOT / "private" / "acquisition_candidates.json"
 UA = "ProphetBiographyLibrary/6.7 catalogue-promoter"
 MAX_BYTES = 400 * 1024 * 1024
+
+LEGACY_SCHEMA = [
+    "id","entryNumber","category","titleAr","title","authorAr","author","kind",
+    "rightsStatus","verificationStatus","availabilityStatus","modesCsv","verifiedSource",
+    "editionNoteAr","ingestionStatus","century","language","publicationYear"
+]
 
 
 def read_json(path: Path, default):
@@ -27,9 +35,21 @@ def read_json(path: Path, default):
         return default
 
 
+def truthy(v) -> bool:
+    if isinstance(v, bool):
+        return v
+    return str(v or "").strip().lower() in {"1", "true", "yes", "y", "eligible", "allowed"}
+
+
 def explicit_public_domain(row: dict) -> bool:
-    text = " ".join(str(row.get(k) or "") for k in ("rightsStatus", "editionNoteAr")).lower()
-    return any(token in text for token in ("public domain", "public-domain", "الملك العام"))
+    if "eligibleForFullTextCopy" in row and not truthy(row.get("eligibleForFullTextCopy")):
+        return False
+    text = " ".join(str(row.get(k) or "") for k in (
+        "rightsStatus", "publicNotes", "editionNoteAr", "blockerAr"
+    )).lower()
+    return any(token in text for token in (
+        "public domain", "public-domain", "public_domain", "cc0", "unrestricted", "الملك العام"
+    ))
 
 
 def archive_identifier(url: str) -> str:
@@ -37,9 +57,7 @@ def archive_identifier(url: str) -> str:
     if p.hostname not in {"archive.org", "www.archive.org"}:
         return ""
     parts = [x for x in p.path.split("/") if x]
-    if len(parts) >= 2 and parts[0] == "details":
-        return parts[1]
-    if len(parts) >= 2 and parts[0] == "download":
+    if len(parts) >= 2 and parts[0] in {"details", "download"}:
         return parts[1]
     return ""
 
@@ -103,17 +121,47 @@ def gutenberg_download(url: str):
     }
 
 
+def professional_records(manifest: dict):
+    payload_path = manifest.get("compressedPayload")
+    if not payload_path:
+        return None
+    path = ROOT / str(payload_path)
+    raw = base64.b64decode(path.read_text(encoding="utf-8").strip())
+    payload = json.loads(gzip.decompress(raw).decode("utf-8"))
+    schema = payload.get("schema", [])
+    return [{k: (raw_row[i] if i < len(raw_row) else "") for i, k in enumerate(schema)}
+            for raw_row in payload.get("items", [])]
+
+
 def iter_catalogue():
     manifest = read_json(MANIFEST, {})
-    schema = manifest.get("schema", [])
-    for chunk in manifest.get("chunks", []):
+    try:
+        records = professional_records(manifest)
+    except Exception:
+        records = None
+    if records is not None:
+        yield from records
+        return
+
+    chunks = manifest.get("chunks") or manifest.get("fallbackChunks") or []
+    for chunk in chunks:
         path = ROOT / str(chunk.get("path") or "")
         doc = read_json(path, {})
         for raw in doc.get("items", []):
             if isinstance(raw, list):
-                yield {k: (raw[i] if i < len(raw) else "") for i, k in enumerate(schema)}
+                yield {k: (raw[i] if i < len(raw) else "") for i, k in enumerate(LEGACY_SCHEMA)}
             elif isinstance(raw, dict):
                 yield raw
+
+
+def source_for(row: dict):
+    exact = str(row.get("exactSourceUrl") or row.get("verifiedSource") or "").strip()
+    archive_id = str(row.get("archiveIdentifier") or "").strip()
+    if exact:
+        return exact, archive_identifier(exact) or archive_id
+    if archive_id:
+        return f"https://archive.org/details/{archive_id}", archive_id
+    return "", ""
 
 
 def promote(limit: int):
@@ -126,16 +174,17 @@ def promote(limit: int):
 
     for row in iter_catalogue():
         scanned += 1
-        source = str(row.get("verifiedSource") or "").strip()
-        if not source or not explicit_public_domain(row):
+        if not explicit_public_domain(row):
+            continue
+        source, archive_id = source_for(row)
+        if not source:
             continue
         eligible += 1
         resolved = None
         repo = ""
         try:
-            identifier = archive_identifier(source)
-            if identifier:
-                resolved = choose_archive_file(identifier)
+            if archive_id:
+                resolved = choose_archive_file(archive_id)
                 repo = "Internet Archive"
             else:
                 resolved = gutenberg_download(source)
@@ -152,8 +201,8 @@ def promote(limit: int):
             continue
 
         title_ar = str(row.get("titleAr") or "")
-        title = str(row.get("title") or title_ar or work_id)
-        author = str(row.get("authorAr") or row.get("author") or "")
+        title = str(row.get("originalTitle") or row.get("title") or title_ar or work_id)
+        author = str(row.get("authorAr") or row.get("authorRomanized") or row.get("author") or "")
         language = str(row.get("language") or ("ar" if title_ar else "en"))
         item = {
             "workId": work_id,
@@ -167,9 +216,9 @@ def promote(limit: int):
             "sourceIdentifier": resolved["sourceIdentifier"],
             "sourceUrl": source,
             "downloadUrl": resolved["downloadUrl"],
-            "rightsEvidence": "Public domain — explicit evidence retained in restored catalogue",
+            "rightsEvidence": "Public domain — professional catalogue marks full-text copy eligible",
             "rightsEvidenceUrl": source,
-            "subjects": [str(row.get("category") or "المصادر")],
+            "subjects": [str(row.get("categoryAr") or row.get("category") or "المصادر")],
             "siteSections": ["المصادر والدراسات"],
         }
         items.append(item)
