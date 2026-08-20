@@ -1,8 +1,8 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T10:54:08.011423+00:00",
-  "count": 15,
-  "currentBatchCount": 4,
+  "generatedAt": "2026-08-20T11:00:01.749925+00:00",
+  "count": 27,
+  "currentBatchCount": 13,
   "items": [
     {
       "id": "gutenberg-20927:ed-0c963b739d22",
@@ -501,37 +501,433 @@
       "publishedAsset": true
     },
     {
-      "id": "quran-meaning-003:ed-f2065f52cf85",
+      "id": "quran-meaning-003:ed-668cc6c1f1b1",
       "workId": "quran-meaning-003",
-      "editionId": "ed-f2065f52cf85",
-      "titleOriginal": "Rūḥ al-Bayān fī Tafsīr al-Qurʾān",
-      "titleAr": "روح البيان في تفسير القرآن",
-      "titleEn": null,
-      "titleFr": null,
+      "editionId": "ed-668cc6c1f1b1",
+      "titleOriginal": "روح البيان في تفسير القرآن",
       "author": "إسماعيل حقي البروسوي",
       "language": "ar",
       "subjects": [
-        "quran-meaning"
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 2062874,
+      "sha256": "668cc6c1f1b14135fee135a730c903fc83a08eb9092881a434ef346205739414",
+      "localUrl": "/library/works/quran-meaning-003/editions/ed-f793cb70aa03/original.txt",
+      "readerUrl": "/library/works/quran-meaning-003/editions/ed-f793cb70aa03/original.txt",
+      "sourceUrl": "https://archive.org/details/2_20230615_20230615_2028",
+      "resolvedDownloadUrl": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%204_djvu.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "quran-meaning-063:ed-a12f0c71b179",
+      "workId": "quran-meaning-063",
+      "editionId": "ed-a12f0c71b179",
+      "titleOriginal": "إحياء علوم الدين",
+      "author": "أبو حامد الغزالي",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
       ],
       "siteSections": [
         "المصادر والدراسات"
       ],
       "format": "pdf",
       "mimeType": "application/pdf",
-      "size": 9860185,
-      "sha256": "f2065f52cf8557dac7f07fbb96c8999e200ab14ca1bf2cd33e751010eaff982d",
-      "localUrl": "/library/works/quran-meaning-003/editions/ed-f2065f52cf85/original.pdf",
-      "readerUrl": "/library/works/quran-meaning-003/editions/ed-f2065f52cf85/original.pdf",
+      "size": 50889649,
+      "sha256": "a12f0c71b179432223383efdfb30e811e8bc4e4e7b4e8757cc18ff182792dd2d",
+      "localUrl": "/library/works/quran-meaning-063/editions/ed-3c51c9932f12/original.pdf",
+      "readerUrl": "/library/works/quran-meaning-063/editions/ed-3c51c9932f12/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/nyu_aco000895/nyu_aco000895_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/nyu_aco000895/nyu_aco000895_lo.pdf",
       "capabilities": {
         "readable": true,
-        "searchable": false,
+        "searchable": true,
         "listenable": false,
         "watchable": false
       },
-      "searchMode": "ocr-index",
+      "searchMode": "reader-search",
       "listenMode": "none",
       "watchMode": "none",
-      "publishedAsset": true
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "hadith-commentary-003:ed-5fe4a4208a95",
+      "workId": "hadith-commentary-003",
+      "editionId": "ed-5fe4a4208a95",
+      "titleOriginal": "إرشاد الساري لشرح صحيح البخاري",
+      "author": "أحمد القسطلاني",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 96967656,
+      "sha256": "5fe4a4208a956e0cbcd85f7e8fe885b8d0efcc032ba2430e865dbcc607f451c0",
+      "localUrl": "/library/works/hadith-commentary-003/editions/ed-0e54aa932c14/original.pdf",
+      "readerUrl": "/library/works/hadith-commentary-003/editions/ed-0e54aa932c14/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/nyu_aco000182/nyu_aco000182_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/nyu_aco000182/nyu_aco000182_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "life-seerah-049:ed-3aec0d01c359",
+      "workId": "life-seerah-049",
+      "editionId": "ed-3aec0d01c359",
+      "titleOriginal": "الأنوار المحمدية من المواهب اللدنية",
+      "author": "يوسف النبهاني",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 64688958,
+      "sha256": "3aec0d01c359a304a31cc9f0b835eb8e78ca6f6b3215b70975bf33185d4ee1ca",
+      "localUrl": "/library/works/life-seerah-049/editions/ed-1dbee6a7ab93/original.pdf",
+      "readerUrl": "/library/works/life-seerah-049/editions/ed-1dbee6a7ab93/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/nyu_aco000625/nyu_aco000625_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/nyu_aco000625/nyu_aco000625_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "quran-meaning-017:ed-13b54232f382",
+      "workId": "quran-meaning-017",
+      "editionId": "ed-13b54232f382",
+      "titleOriginal": "الجامع لأحكام القرآن",
+      "author": "محمد بن أحمد القرطبي",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 39526724,
+      "sha256": "13b54232f382fcb4c40eb31ce423125c3ce89090fac1d39f5522863c0007daaa",
+      "localUrl": "/library/works/quran-meaning-017/editions/ed-39695fea97bc/original.pdf",
+      "readerUrl": "/library/works/quran-meaning-017/editions/ed-39695fea97bc/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/columbia_aco001653/columbia_aco001653_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/columbia_aco001653/columbia_aco001653_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "quran-meaning-069:ed-806cb83476a8",
+      "workId": "quran-meaning-069",
+      "editionId": "ed-806cb83476a8",
+      "titleOriginal": "الرسالة القشيرية",
+      "author": "عبد الكريم القشيري",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 43591474,
+      "sha256": "806cb83476a8fd0c9c7869edbd22e1454081b2736f3cd68e731144e9421ba63d",
+      "localUrl": "/library/works/quran-meaning-069/editions/ed-e16d42aac1dd/original.pdf",
+      "readerUrl": "/library/works/quran-meaning-069/editions/ed-e16d42aac1dd/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/princeton_aco001236/princeton_aco001236_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/princeton_aco001236/princeton_aco001236_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "family-companions-006:ed-33163bdf19e2",
+      "workId": "family-companions-006",
+      "editionId": "ed-33163bdf19e2",
+      "titleOriginal": "الرياض النضرة في مناقب العشرة",
+      "author": "محب الدين الطبري",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 67428913,
+      "sha256": "33163bdf19e2416af8bb449b06f0a9ceac211ec1b91cf57acd1e01d7c2f1c3bb",
+      "localUrl": "/library/works/family-companions-006/editions/ed-bb0517ff5ae2/original.pdf",
+      "readerUrl": "/library/works/family-companions-006/editions/ed-bb0517ff5ae2/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/princeton_aco000734/princeton_aco000734_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/princeton_aco000734/princeton_aco000734_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "life-seerah-013:ed-72f915e5f1bc",
+      "workId": "life-seerah-013",
+      "editionId": "ed-72f915e5f1bc",
+      "titleOriginal": "الشفا بتعريف حقوق المصطفى",
+      "author": "القاضي عياض",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 27477809,
+      "sha256": "72f915e5f1bc4b21695b6167c20796103c93d297084737e4250af90bb84b8ee5",
+      "localUrl": "/library/works/life-seerah-013/editions/ed-3061205dd3c4/original.pdf",
+      "readerUrl": "/library/works/life-seerah-013/editions/ed-3061205dd3c4/original.pdf",
+      "sourceUrl": "https://upload.wikimedia.org/wikisource/ar/2/24/%D8%A7%D9%84%D8%B4%D9%81%D8%A7_%D8%A8%D8%AA%D8%B9%D8%B1%D9%8A%D9%81_%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D9%85%D8%B5%D8%B7%D9%81%D9%89.pdf",
+      "resolvedDownloadUrl": "https://upload.wikimedia.org/wikisource/ar/2/24/%D8%A7%D9%84%D8%B4%D9%81%D8%A7_%D8%A8%D8%AA%D8%B9%D8%B1%D9%8A%D9%81_%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D9%85%D8%B5%D8%B7%D9%81%D9%89.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "family-companions-004:ed-1238043f5826",
+      "workId": "family-companions-004",
+      "editionId": "ed-1238043f5826",
+      "titleOriginal": "الصواعق المحرقة",
+      "author": "أحمد ابن حجر الهيتمي",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 56332849,
+      "sha256": "1238043f58260082f392e7e2ad602350c4c8264036bbdc3f942acbbefc9bbf56",
+      "localUrl": "/library/works/family-companions-004/editions/ed-78315f289537/original.pdf",
+      "readerUrl": "/library/works/family-companions-004/editions/ed-78315f289537/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco002269/aub_aco002269_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco002269/aub_aco002269_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "character-shamail-005:ed-dc311d7348b1",
+      "workId": "character-shamail-005",
+      "editionId": "ed-dc311d7348b1",
+      "titleOriginal": "الفوائد الجليلة البهية على الشمائل المحمدية",
+      "author": "محمد بن قاسم جسوس",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 64425344,
+      "sha256": "dc311d7348b12a131911ac5c52afc7c7463f31f4f27b34d3c10d0b9a18957c12",
+      "localUrl": "/library/works/character-shamail-005/editions/ed-0868536eb7c4/original.pdf",
+      "readerUrl": "/library/works/character-shamail-005/editions/ed-0868536eb7c4/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/columbia_aco000919/columbia_aco000919_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/columbia_aco000919/columbia_aco000919_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "quran-meaning-015:ed-e6b9b2f1fc88",
+      "workId": "quran-meaning-015",
+      "editionId": "ed-e6b9b2f1fc88",
+      "titleOriginal": "جامع البيان عن تأويل آي القرآن",
+      "author": "محمد بن جرير الطبري",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 72136439,
+      "sha256": "e6b9b2f1fc881bcbfb19b6af584835eb823c0f25803593a8afae540a987f74ce",
+      "localUrl": "/library/works/quran-meaning-015/editions/ed-4179a2fa1ec4/original.pdf",
+      "readerUrl": "/library/works/quran-meaning-015/editions/ed-4179a2fa1ec4/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco002427/aub_aco002427_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco002427/aub_aco002427_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "family-companions-009:ed-f6c6138130b7",
+      "workId": "family-companions-009",
+      "editionId": "ed-f6c6138130b7",
+      "titleOriginal": "نور الأبصار في مناقب آل بيت النبي المختار",
+      "author": "مؤمن الشبلنجي",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "pdf",
+      "mimeType": "application/pdf",
+      "size": 62845758,
+      "sha256": "f6c6138130b79d3029a51f293da4ad39572888293bfcb9215785e8c273a88c88",
+      "localUrl": "/library/works/family-companions-009/editions/ed-bf98b93a274a/original.pdf",
+      "readerUrl": "/library/works/family-companions-009/editions/ed-bf98b93a274a/original.pdf",
+      "sourceUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco002680/aub_aco002680_lo.pdf",
+      "resolvedDownloadUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco002680/aub_aco002680_lo.pdf",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": false,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "none",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
+    },
+    {
+      "id": "quran-meaning-001:ed-6ec67b907e6f",
+      "workId": "quran-meaning-001",
+      "editionId": "ed-6ec67b907e6f",
+      "titleOriginal": "لطائف الإشارات",
+      "author": "عبد الكريم القشيري",
+      "language": "ar",
+      "subjects": [
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 1137160,
+      "sha256": "6ec67b907e6f7ec707d2a7d2a17e24b29db886889fa7222699a3844170de9896",
+      "localUrl": "/library/works/quran-meaning-001/editions/ed-1a08df1aedff/original.txt",
+      "readerUrl": "/library/works/quran-meaning-001/editions/ed-1a08df1aedff/original.txt",
+      "sourceUrl": "https://archive.org/details/tafsirquchayri",
+      "resolvedDownloadUrl": "https://archive.org/download/tafsirquchayri/lataef3_djvu.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "reader-search",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true,
+      "recoveryStatus": "retained-source-batch-2"
     }
   ]
 }

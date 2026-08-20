@@ -1,0 +1,118 @@
+{
+  "generatedAt": "2026-08-20T11:00:01.750886+00:00",
+  "requested": 14,
+  "downloaded": 13,
+  "failed": 1,
+  "items": [
+    {
+      "workId": "quran-meaning-063",
+      "title": "إحياء علوم الدين",
+      "status": "downloaded",
+      "size": 50889649,
+      "sha256": "a12f0c71b179432223383efdfb30e811e8bc4e4e7b4e8757cc18ff182792dd2d",
+      "localUrl": "/library/works/quran-meaning-063/editions/ed-3c51c9932f12/original.pdf"
+    },
+    {
+      "workId": "hadith-commentary-003",
+      "title": "إرشاد الساري لشرح صحيح البخاري",
+      "status": "downloaded",
+      "size": 96967656,
+      "sha256": "5fe4a4208a956e0cbcd85f7e8fe885b8d0efcc032ba2430e865dbcc607f451c0",
+      "localUrl": "/library/works/hadith-commentary-003/editions/ed-0e54aa932c14/original.pdf"
+    },
+    {
+      "workId": "life-seerah-049",
+      "title": "الأنوار المحمدية من المواهب اللدنية",
+      "status": "downloaded",
+      "size": 64688958,
+      "sha256": "3aec0d01c359a304a31cc9f0b835eb8e78ca6f6b3215b70975bf33185d4ee1ca",
+      "localUrl": "/library/works/life-seerah-049/editions/ed-1dbee6a7ab93/original.pdf"
+    },
+    {
+      "workId": "quran-meaning-017",
+      "title": "الجامع لأحكام القرآن",
+      "status": "downloaded",
+      "size": 39526724,
+      "sha256": "13b54232f382fcb4c40eb31ce423125c3ce89090fac1d39f5522863c0007daaa",
+      "localUrl": "/library/works/quran-meaning-017/editions/ed-39695fea97bc/original.pdf"
+    },
+    {
+      "workId": "quran-meaning-069",
+      "title": "الرسالة القشيرية",
+      "status": "downloaded",
+      "size": 43591474,
+      "sha256": "806cb83476a8fd0c9c7869edbd22e1454081b2736f3cd68e731144e9421ba63d",
+      "localUrl": "/library/works/quran-meaning-069/editions/ed-e16d42aac1dd/original.pdf"
+    },
+    {
+      "workId": "family-companions-006",
+      "title": "الرياض النضرة في مناقب العشرة",
+      "status": "downloaded",
+      "size": 67428913,
+      "sha256": "33163bdf19e2416af8bb449b06f0a9ceac211ec1b91cf57acd1e01d7c2f1c3bb",
+      "localUrl": "/library/works/family-companions-006/editions/ed-bb0517ff5ae2/original.pdf"
+    },
+    {
+      "workId": "life-seerah-013",
+      "title": "الشفا بتعريف حقوق المصطفى",
+      "status": "downloaded",
+      "size": 27477809,
+      "sha256": "72f915e5f1bc4b21695b6167c20796103c93d297084737e4250af90bb84b8ee5",
+      "localUrl": "/library/works/life-seerah-013/editions/ed-3061205dd3c4/original.pdf"
+    },
+    {
+      "workId": "family-companions-004",
+      "title": "الصواعق المحرقة",
+      "status": "downloaded",
+      "size": 56332849,
+      "sha256": "1238043f58260082f392e7e2ad602350c4c8264036bbdc3f942acbbefc9bbf56",
+      "localUrl": "/library/works/family-companions-004/editions/ed-78315f289537/original.pdf"
+    },
+    {
+      "workId": "character-shamail-005",
+      "title": "الفوائد الجليلة البهية على الشمائل المحمدية",
+      "status": "downloaded",
+      "size": 64425344,
+      "sha256": "dc311d7348b12a131911ac5c52afc7c7463f31f4f27b34d3c10d0b9a18957c12",
+      "localUrl": "/library/works/character-shamail-005/editions/ed-0868536eb7c4/original.pdf"
+    },
+    {
+      "workId": "quran-meaning-015",
+      "title": "جامع البيان عن تأويل آي القرآن",
+      "status": "downloaded",
+      "size": 72136439,
+      "sha256": "e6b9b2f1fc881bcbfb19b6af584835eb823c0f25803593a8afae540a987f74ce",
+      "localUrl": "/library/works/quran-meaning-015/editions/ed-4179a2fa1ec4/original.pdf"
+    },
+    {
+      "workId": "quran-meaning-013",
+      "title": "مفاتيح الغيب المشتهر بالتفسير الكبير",
+      "status": "failed",
+      "error": "oversized"
+    },
+    {
+      "workId": "family-companions-009",
+      "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+      "status": "downloaded",
+      "size": 62845758,
+      "sha256": "f6c6138130b79d3029a51f293da4ad39572888293bfcb9215785e8c273a88c88",
+      "localUrl": "/library/works/family-companions-009/editions/ed-bf98b93a274a/original.pdf"
+    },
+    {
+      "workId": "quran-meaning-003",
+      "title": "روح البيان في تفسير القرآن",
+      "status": "downloaded",
+      "size": 2062874,
+      "sha256": "668cc6c1f1b14135fee135a730c903fc83a08eb9092881a434ef346205739414",
+      "localUrl": "/library/works/quran-meaning-003/editions/ed-f793cb70aa03/original.txt"
+    },
+    {
+      "workId": "quran-meaning-001",
+      "title": "لطائف الإشارات",
+      "status": "downloaded",
+      "size": 1137160,
+      "sha256": "6ec67b907e6f7ec707d2a7d2a17e24b29db886889fa7222699a3844170de9896",
+      "localUrl": "/library/works/quran-meaning-001/editions/ed-1a08df1aedff/original.txt"
+    }
+  ]
+}
