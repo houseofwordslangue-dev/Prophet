@@ -1,0 +1,5 @@
+(function(){'use strict';
+const excluded=new Set(['الأسرة','الأجداد','الصحابة','Family','Ancestors','Companions','Famille','Ancêtres','Compagnons']);
+function filter(){const grid=document.getElementById('peopleGrid');if(!grid)return;grid.querySelectorAll('.person-card').forEach(card=>{const meta=card.querySelector('.meta')?.textContent.trim()||'';if(excluded.has(meta))card.remove()});const st=document.getElementById('peopleStatus');if(st){const n=grid.querySelectorAll('.person-card').length;st.textContent=(document.documentElement.lang==='ar'?`${n} ترجمة غير مصنفة ضمن الأقسام الرئيسية`:document.documentElement.lang==='fr'?`${n} biographies hors rubriques principales`:`${n} biographies outside primary sections`)}}
+const mo=new MutationObserver(filter);mo.observe(document.documentElement,{subtree:true,childList:true});document.addEventListener('DOMContentLoaded',filter);setTimeout(()=>{filter();mo.disconnect()},30000);
+})();
