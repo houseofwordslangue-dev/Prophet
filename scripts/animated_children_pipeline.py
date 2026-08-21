@@ -6,6 +6,7 @@ import animated_children_quality_revision as revision
 import animated_children_story_writer as story_writer
 import animated_children_story_diversifier as diversifier
 import animated_children_subplots as subplots
+import animated_children_targeted_distinctions as targeted
 import animated_children_source_inspiration as source_inspiration
 
 _ORIGINAL_SVG=base.svg_art
@@ -77,6 +78,7 @@ def build()->None:
             s=story_writer.rewrite_story(s,i)
             s=diversifier.diversify(s,i)
             s=subplots.apply(s,i)
+            s=targeted.apply(s,i)
             s=source_inspiration.apply(s)
             batch.append(s)
         _structural_batch_gate(batch,batch_no)
