@@ -1,0 +1,44 @@
+name: Complete required canonical biographies
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/people.json'
+      - 'data/family_people.json'
+      - 'data/family_groups.json'
+      - 'data/family_biographies.json'
+      - 'data/family_biographies_all.*.b64'
+      - 'data/editorial/drafts/**'
+      - 'data/editorial/canonical_biographies.json'
+      - 'scripts/complete_required_biographies.py'
+      - '.github/workflows/complete-required-biographies.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build required biography registry
+        run: |
+          set +e
+          python scripts/complete_required_biographies.py
+          status=$?
+          # Always commit the audit/registry so missing people are explicit.
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/editorial/required_biographies.json data/editorial/required_biographies_audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Audit all required canonical biographies'
+            git push
+          fi
+          exit $status
