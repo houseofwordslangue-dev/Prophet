@@ -10,7 +10,7 @@ def local_pdf(x):
  for k in ('localUrl','readerUrl','downloadUrl','pdfUrl','sourceUrl'):
   v=x.get(k)
   if isinstance(v,str) and v.lower().split('?')[0].endswith('.pdf') and (v.startswith('/') or not v.startswith('http')):
-   p=ROOT/v.lstrip('/');
+   p=ROOT/v.lstrip('/')
    if p.exists():return p
  return None
 
@@ -28,16 +28,15 @@ def items():
 def extract(mid,pdf):
  try:import fitz
  except ImportError:raise RuntimeError('PyMuPDF is required: pip install pymupdf')
- doc=fitz.open(pdf); pages=[]; total=0
+ doc=fitz.open(pdf);pages=[];total=0
  for n,page in enumerate(doc):
-  blocks=[]
+  pw,ph=float(page.rect.width or 1),float(page.rect.height or 1);blocks=[]
   for b in page.get_text('words'):
-   x0,y0,x1,y1,text,*rest=b
-   text=str(text).strip()
+   x0,y0,x1,y1,text,*rest=b;text=str(text).strip()
    if not text:continue
-   blocks.append({'text':text,'x':round(x0,2),'y':round(y0,2),'w':round(x1-x0,2),'h':round(y1-y0,2)});total+=1
-  pages.append({'page':n+1,'width':round(page.rect.width,2),'height':round(page.rect.height,2),'words':blocks})
- out={'id':mid,'source':str(pdf.relative_to(ROOT)),'generatedAt':int(time.time()),'method':'embedded-pdf-text-coordinates','pages':pages,'wordBoxes':total,'ocrRequired':total==0};(OUT/(safe(mid)+'.json')).write_text(json.dumps(out,ensure_ascii=False,separators=(',',':')),encoding='utf-8');return total
+   blocks.append({'text':text,'x':round(x0/pw*100,4),'y':round(y0/ph*100,4),'w':round((x1-x0)/pw*100,4),'h':round((y1-y0)/ph*100,4)});total+=1
+  pages.append({'page':n+1,'width':round(pw,2),'height':round(ph,2),'coordinateUnit':'percent','words':blocks})
+ out={'id':mid,'source':str(pdf.relative_to(ROOT)),'generatedAt':int(time.time()),'method':'embedded-pdf-text-coordinates','coordinateUnit':'percent','pages':pages,'wordBoxes':total,'ocrRequired':total==0};(OUT/(safe(mid)+'.json')).write_text(json.dumps(out,ensure_ascii=False,separators=(',',':')),encoding='utf-8');return total
 
 def main():
  report={'processed':0,'generated':0,'needsOCR':[],'missingLocalPdf':[],'failed':[]}
