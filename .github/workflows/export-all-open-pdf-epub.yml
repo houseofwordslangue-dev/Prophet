@@ -1,0 +1,79 @@
+name: Export all open-source PDF EPUB manifestations
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/export_all_open_pdf_epub.py'
+      - '.github/workflows/export-all-open-pdf-epub.yml'
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: '1'
+  TRANSFER_MAX_BYTES: '450887680'
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    outputs:
+      shards: ${{ steps.matrix.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: matrix
+        name: Build transfer-safe shard matrix
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          print('shards='+json.dumps(list(range(174)),separators=(',',':')))
+          PY
+      - name: Publish run locator
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data/recovery
+          cat > data/recovery/all_open_pdf_epub_export_run.json <<EOF
+          {"runId":${{ github.run_id }},"runAttempt":${{ github.run_attempt }},"sha":"${{ github.sha }}","shards":174,"startedAt":"$(date -u +%Y-%m-%dT%H:%M:%SZ)"}
+          EOF
+          git config user.name 'prophet-library-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/recovery/all_open_pdf_epub_export_run.json
+          git commit -m 'Record complete open-source PDF EPUB export run' || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+  export:
+    needs: init
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ${{ fromJSON(needs.init.outputs.shards) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install resolver dependencies
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Resolve and download open/public-domain manifestations
+        run: |
+          python scripts/export_all_open_pdf_epub.py \
+            --shard ${{ matrix.shard }} \
+            --shard-count 174 \
+            --out export/open-${{ matrix.shard }}
+      - name: Upload transfer-safe artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: open-source-${{ matrix.shard }}
+          path: export/open-${{ matrix.shard }}
+          if-no-files-found: warn
+          compression-level: 0
+          retention-days: 1
