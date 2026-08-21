@@ -1,19 +1,22 @@
 {
-  "version": "2026-08-21-platform-v1",
+  "version": "2026-08-21-platform-v2",
   "software": {
     "serverSideSearch": "IMPLEMENTED",
     "arabicNormalizationAndRanking": "IMPLEMENTED",
     "persistentMiniPlayerStateAcrossNavigation": "IMPLEMENTED",
     "offlineLibraryManager": "IMPLEMENTED",
     "crossDeviceAccountSyncBackend": "IMPLEMENTED",
-    "performanceTelemetryDashboard": "IMPLEMENTED",
-    "regressionTestSuite": "IMPLEMENTED",
+    "performanceTelemetryDashboard": "IMPLEMENTED_WITH_STARTUP_BUFFER_SEARCH_AND_CACHE_METRICS",
+    "regressionTestSuite": "IMPLEMENTED_WITH_GITHUB_ACTIONS_WORKFLOW",
     "adaptiveHlsPipeline": "IMPLEMENTED",
+    "adaptiveDashPipeline": "IMPLEMENTED",
     "conditional2160pPipeline": "IMPLEMENTED_NO_UPSCALING",
     "ocrCoordinatePipeline": "IMPLEMENTED_WITH_PDF_TEXT_AND_TESSERACT_FALLBACK",
     "wordTimedTranscriptPipeline": "IMPLEMENTED_WITH_FASTER_WHISPER",
+    "generatedSourceLanguageWebVtt": "IMPLEMENTED",
     "verifiedMirrorAudit": "IMPLEMENTED",
-    "fiveOriginReplicationPipeline": "IMPLEMENTED_REQUIRES_REAL_CREDENTIALLED_ORIGINS"
+    "fiveOriginReplicationPipeline": "IMPLEMENTED_REQUIRES_REAL_CREDENTIALLED_ORIGINS",
+    "transparentMirrorFailover": "IMPLEMENTED_IN_MEDIA_SELECTION_AND_SERVICE_WORKER"
   },
   "runtimeEndpoints": [
     "/api/search",
@@ -29,10 +32,10 @@
   ],
   "realAssetGates": {
     "fiveIndependentMirrorsPerAsset": "PENDING_UNTIL_5_REAL_S3_COMPATIBLE_ORIGINS_ARE_CONFIGURED_AND_UPLOADS_SUCCEED",
-    "ocrBoxesForEveryScan": "PIPELINE_READY; OUTPUT EXISTS ONLY FOR LOCALLY AVAILABLE PDF PAGES THAT CAN BE TEXT-EXTRACTED_OR_OCRD",
+    "ocrBoxesForEveryScan": "PIPELINE_READY; OUTPUT EXISTS ONLY FOR LOCALLY_AVAILABLE_PDF_PAGES_THAT_CAN_BE_TEXT_EXTRACTED_OR_OCRD",
     "wordTimedTranscriptForEveryMediaItem": "PIPELINE_READY; REQUIRES_LOCAL_MEDIA_AND_FASTER_WHISPER",
-    "genuineArEnFrSubtitles": "SOURCE_LANGUAGE_VTT_CAN_BE_GENERATED; TRANSLATED TRACKS_REQUIRE_GENUINE_TRANSLATION_FILES",
-    "adaptiveRenditions": "PIPELINE_READY; REQUIRES_LOCAL_VIDEO_AND_FFMPEG",
+    "genuineArEnFrSubtitles": "SOURCE_LANGUAGE_VTT_CAN_BE_GENERATED; TRANSLATED_TRACKS_REQUIRE_GENUINE_TRANSLATION_FILES",
+    "adaptiveRenditions": "HLS_AND_MPEG_DASH_PIPELINES_READY; REQUIRE_LOCAL_VIDEO_AND_FFMPEG",
     "genuine4k": "GENERATED_ONLY_WHEN_SOURCE_HEIGHT_IS_AT_LEAST_2160; NEVER_UPSCALED"
   },
   "mirrorConfiguration": "Set PM_MIRROR_1_JSON through PM_MIRROR_5_JSON to five real S3-compatible origins, then run scripts/replicate_assets.py and scripts/build_mirror_manifest.py.",
