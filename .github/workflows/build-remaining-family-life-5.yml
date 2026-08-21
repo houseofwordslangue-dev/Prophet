@@ -1,0 +1,73 @@
+name: Draft five life articles per remaining family member
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_remaining_family_life_5_each.py'
+      - '.github/workflows/build-remaining-family-life-5.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: remaining-family-life-five
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebase source state
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      - name: Build five source-derived life drafts per remaining member
+        run: python scripts/build_remaining_family_life_5_each.py
+      - name: Validate draft gate
+        run: |
+          python - <<'PY'
+          import glob,json
+          a=json.load(open('data/editorial/remaining_family_life_5_audit.json',encoding='utf-8'))
+          assert a['draftsGenerated']==a['remainingMembersWithFiveDrafts']*5
+          assert a['articlesAtOrBelow500Words']==0
+          assert a['prophetOnlySectionsUsed']==0
+          assert a['sourceCoveragePercent']==100 or a['draftsGenerated']==0
+          assert a['aiOriginalSubstantiveContentPercent']==0
+          rows=[]
+          for f in sorted(glob.glob('data/editorial/drafts/2026-08-21/family-life-five-batch-*.json')):
+              rows.extend(json.load(open(f,encoding='utf-8'))['drafts'])
+          assert len(rows)==a['draftsGenerated']
+          assert len({x['id'] for x in rows})==len(rows)
+          assert len({x['bodyFingerprint'] for x in rows})==len(rows)
+          assert all(x['publicationStatus']=='DRAFT' for x in rows)
+          assert all(x['wordCount']>500 for x in rows)
+          assert all(x['articleKind']=='life-article-not-research' for x in rows)
+          assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in rows)
+          print('PASS',a['remainingMembersWithFiveDrafts'],'members',a['draftsGenerated'],'drafts','gaps',a['sourceGapMembers'])
+          PY
+      - name: Commit drafts and audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/remaining_family_life_5_audit.json data/editorial/drafts/2026-08-21/family-life-five-batch-*.json
+          if git diff --cached --quiet; then echo 'No new family life drafts.'; exit 0; fi
+          git commit -m 'Draft five life articles per remaining family member'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
