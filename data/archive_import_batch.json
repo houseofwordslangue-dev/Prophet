@@ -1,0 +1,21 @@
+{
+  "policy": {
+    "preferred_format": "epub",
+    "fallback_format": "pdf",
+    "validate_downloads": true,
+    "skip_valid_existing": true,
+    "respect_restricted_items": true
+  },
+  "items": [
+    {"catalogue_id":"family-companions-029","archive_id":"fp5294_202505","title":"الاستيعاب في معرفة الأصحاب — ابن عبد البر"},
+    {"catalogue_id":"family-companions-031","archive_id":"fp37408_202504","title":"معرفة الصحابة — أبو نعيم الأصبهاني"},
+    {"catalogue_id":"family-companions-010","archive_id":"FP26057","title":"خصائص أمير المؤمنين علي بن أبي طالب — النسائي"},
+    {"catalogue_id":"family-companions-006","archive_id":"FP17105","title":"الرياض النضرة في مناقب العشرة — محب الدين الطبري"},
+    {"catalogue_id":"life-seerah-009","archive_id":"FP100511","title":"دلائل النبوة ومعرفة أحوال صاحب الشريعة — البيهقي"},
+    {"catalogue_id":"teachings-wisdom-012","archive_id":"3840waq","title":"الشمائل المحمدية — الترمذي"},
+    {"catalogue_id":"life-seerah-018","archive_id":"FPoafmssoafmss","title":"عيون الأثر في فنون المغازي والشمائل والسير — ابن سيد الناس"},
+    {"catalogue_id":"life-seerah-020","archive_id":"fp9583_202507","title":"الوفا بأحوال المصطفى — ابن الجوزي"},
+    {"catalogue_id":"life-seerah-024","archive_id":"waq9670","title":"الخصائص الكبرى — السيوطي"},
+    {"catalogue_id":"life-seerah-033","archive_id":"fp37672_202501","title":"زاد المعاد في هدي خير العباد — ابن قيم الجوزية"}
+  ]
+}
