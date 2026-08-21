@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'scripts/audit_and_enrich_canonical_biographies.py'
+      - 'scripts/filter_canonical_biography_extensions.py'
       - 'scripts/relocate_person_life_articles.py'
       - 'assets/people-source-extensions.js'
       - 'assets/people-life-chapters.js'
@@ -20,6 +21,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/audit_and_enrich_canonical_biographies.py'
+      - 'scripts/filter_canonical_biography_extensions.py'
       - 'scripts/relocate_person_life_articles.py'
       - 'assets/people-source-extensions.js'
       - 'assets/people-life-chapters.js'
@@ -50,6 +52,8 @@ jobs:
         run: python scripts/relocate_person_life_articles.py
       - name: Audit placement and extract biography extensions
         run: python scripts/audit_and_enrich_canonical_biographies.py
+      - name: Reject incidental name-match extensions
+        run: python scripts/filter_canonical_biography_extensions.py
       - name: Validate canonical placement and extensions
         run: |
           python - <<'PY'
@@ -58,6 +62,10 @@ jobs:
           i=json.load(open('data/editorial/canonical_biography_extensions.json',encoding='utf-8'))
           assert a['completePlacementForExplicitPeople'] is True
           assert a['misplacedBiographyLifeRecordCount']==0
+          assert a['strictExtensionOwnershipComplete'] is True
+          assert a['biographyExtensionOwnershipPolicy']=='explicit-person-link-only'
+          assert i['policy']['explicitPersonOwnershipRequired'] is True
+          assert i['policy']['incidentalNameMatchesRejected'] is True
           assert i['peopleExtended']>0
           assert i['passageCount']>0
           assert i['wordCount']>0
@@ -68,7 +76,10 @@ jobs:
               assert d['personId']==pid
               assert d['passageCount']==len(d['passages'])
               assert all(str(x.get('text','')).strip() for x in d['passages'])
-          print('PASS', a['indexedPeople'], i['peopleExtended'], i['passageCount'], i['wordCount'])
+              for x in d['passages']:
+                  s=x.get('source') or {}
+                  assert s.get('recordId') and s.get('repositoryPath')
+          print('PASS', a['indexedPeople'], i['peopleExtended'], i['passageCount'], i['wordCount'], 'rejected', a['incidentalNameMatchPassagesRejected'])
           PY
       - name: Upload biography audit
         if: github.event_name == 'pull_request'
@@ -86,7 +97,7 @@ jobs:
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
           git add -- data/editorial/drafts data/editorial/canonical-life data/editorial/canonical_life_chapters.json data/editorial/person_life_relocation_audit.json data/editorial/biography-extensions data/editorial/canonical_biography_extensions.json data/editorial/global_biography_placement_audit.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Materialize source-derived canonical biography extensions'
+          git commit -m 'Materialize strictly owned biography source extensions'
           for attempt in 1 2 3 4; do
             if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
             git rebase --abort 2>/dev/null || true
