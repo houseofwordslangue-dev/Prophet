@@ -1,55 +1,9 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0b4c38">
-<title>للأطفال — قراءات مصوّرة موثّقة — محمد ﷺ</title>
-<meta name="description" content="500 قراءة خفيفة مصوّرة للصغار، مختارة من مواد مصدرية موثّقة دون إنشاء محتوى جوهري جديد.">
-<link rel="stylesheet" href="assets/tarjma-fonts.css">
-<link rel="stylesheet" href="assets/editorial-public.css">
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b4c38"><title>للأطفال — قراءات مصوّرة موثّقة — محمد ﷺ</title><meta name="description" content="500 قراءة خفيفة مصوّرة للصغار، مختارة من مواد مصدرية موثّقة دون إنشاء محتوى جوهري جديد."><link rel="stylesheet" href="assets/tarjma-fonts.css"><link rel="stylesheet" href="assets/editorial-public.css"></head>
 <body data-page="children">
-<header class="ep-head">
-  <div class="ep-ornament"></div>
-  <div class="ep-wrap ep-nav">
-    <a class="ep-brand" href="children.html"><span>✦</span><b>للأطفال</b></a>
-    <nav><a href="library.html">المكتبة</a><a href="people.html?lang=ar">الأشخاص</a><a class="active" href="children.html">للأطفال</a><a href="editorial.html">المقالات</a></nav>
-  </div>
-</header>
-<main>
-<section class="ep-hero">
-  <div class="ep-wrap ep-hero-grid">
-    <div>
-      <p class="ep-kicker">قراءة خفيفة · مصدر محفوظ · رسم غير تشخيصي</p>
-      <h1>500 قراءة مصوّرة للصغار</h1>
-      <p>مقاطع قصيرة مختارة من مواد موثّقة، مصنّفة موضوعيًا للصغار، مع رسوم هندسية وطبيعية لا تصوّر النبي ﷺ ولا أشخاصًا محددين.</p>
-    </div>
-    <div class="ep-integrity">
-      <span>المحتوى الجوهري المولّد</span><strong>0%</strong>
-      <small>النصوص من المصادر المنشورة؛ الاختيار والتصنيف والرسم التوضيحي فقط.</small>
-    </div>
-  </div>
-</section>
-<section class="ep-wrap ep-tools">
-  <label class="ep-search"><span>⌕</span><input id="articleSearch" type="search" placeholder="ابحث في قراءات الأطفال…"></label>
-  <select id="sectionFilter" aria-label="القسم"><option value="children">للأطفال</option></select>
-</section>
-<section class="ep-wrap ep-status" id="publicationStatus">جارٍ تحميل قراءات الأطفال الموثّقة…</section>
-<section class="ep-wrap ep-feed" id="articleFeed"></section>
-</main>
+<header class="ep-head"><div class="ep-ornament"></div><div class="ep-wrap ep-nav"><a class="ep-brand" href="children.html"><span>✦</span><b>للأطفال</b></a><nav><a href="library.html">المكتبة</a><a href="people.html?lang=ar">الأشخاص</a><a class="active" href="children.html">للأطفال</a><a href="editorial.html">المقالات</a></nav></div></header>
+<main><section class="ep-hero"><div class="ep-wrap ep-hero-grid"><div><p class="ep-kicker">قراءة خفيفة · مصدر محفوظ · رسم غير تشخيصي</p><h1>500 قراءة مصوّرة للصغار</h1><p>مقاطع قصيرة مختارة من مواد موثّقة، مصنّفة موضوعيًا للصغار، مع رسوم هندسية وطبيعية لا تصوّر النبي ﷺ ولا أشخاصًا محددين.</p></div><div class="ep-integrity"><span>المحتوى الجوهري المولّد</span><strong>0%</strong><small>النصوص من المصادر المنشورة؛ الاختيار والتصنيف والرسم التوضيحي فقط.</small></div></div></section><section class="ep-wrap ep-tools"><label class="ep-search"><span>⌕</span><input id="articleSearch" type="search" placeholder="ابحث في قراءات الأطفال…"></label><select id="sectionFilter" aria-label="القسم"><option value="children">للأطفال</option></select></section><section class="ep-wrap ep-status" id="publicationStatus">جارٍ تحميل قراءات الأطفال الموثّقة…</section><section class="ep-wrap ep-feed" id="articleFeed"></section></main>
 <footer class="ep-foot"><div class="ep-wrap"><strong>نص مصدر محفوظ، ورسوم غير تشخيصية.</strong><a href="editorial.html">كل المقالات</a></div></footer>
-<script src="assets/editorial-public.js"></script>
-<script>
-(function(){
- let tries=0;
- const timer=setInterval(function(){
-   const f=document.getElementById('sectionFilter');
-   if(f&&Array.from(f.options).some(o=>o.value==='children')){
-     f.value='children';f.dispatchEvent(new Event('change'));clearInterval(timer);
-   }else if(++tries>200){clearInterval(timer)}
- },50);
-})();
-</script>
-</body>
-</html>
+<script src="assets/editorial-public.js"></script><script src="assets/editorial-localize.js"></script><script>(function(){let tries=0;const timer=setInterval(function(){const f=document.getElementById('sectionFilter');if(f&&Array.from(f.options).some(o=>o.value==='children')){f.value='children';f.dispatchEvent(new Event('change'));clearInterval(timer)}else if(++tries>200){clearInterval(timer)}},50)})();</script>
+</body></html>
