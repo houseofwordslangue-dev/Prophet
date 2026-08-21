@@ -1,9 +1,52 @@
 {
-  "version": "2026-08-21-publication-supplement-v3-100-source-extracts",
-  "publishedAt": "2026-08-21T01:34:56+00:00",
-  "draftBatchPaths": [
-    "data/editorial/drafts/2026-08-20/batch-09.json",
-    "data/editorial/drafts/2026-08-20/batch-10.json",
+  "version": "2026-08-21-source-extract-100-audit-v1",
+  "generatedAt": "2026-08-21T01:34:56+00:00",
+  "requestedArticles": 100,
+  "publishedArticles": 100,
+  "targetWordsPerArticle": 500,
+  "acceptedWordRange": [
+    450,
+    560
+  ],
+  "totalSourceWordsPublished": 50010,
+  "sourceCoveragePercent": 100,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "unsupportedFactualParagraphs": 0,
+  "unverifiedQuotations": 0,
+  "duplicateSourceBodies": 0,
+  "sourceOnly": true,
+  "contentType": "EXTRACTED BOOK MATERIAL",
+  "sourcesUsed": {
+    "dinet-life-mohammad": 82,
+    "lane-poole-table-talk": 18
+  },
+  "sectionDistribution": {
+    "companions/biographies": 4,
+    "family/wives": 12,
+    "human/research": 1,
+    "light/research": 1,
+    "mercy/mercy-stories": 1,
+    "messenger/research": 3,
+    "prophet/research": 78
+  },
+  "fetchedSourceAudit": [
+    {
+      "workId": "dinet-life-mohammad",
+      "title": "The Life of Mohammad, the Prophet of Allah",
+      "author": "Etienne Dinet; Sliman Ben Ibrahim",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+      "candidateExtracts": 176
+    },
+    {
+      "workId": "lane-poole-table-talk",
+      "title": "The Speeches & Table-Talk of the Prophet Mohammad",
+      "author": "Stanley Lane-Poole (editor)",
+      "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Speeches-Table-Talk-of-the-Prophet-Mohammad_58426/master/58426-0.txt",
+      "candidateExtracts": 46
+    }
+  ],
+  "sourceDownloadFailuresIgnoredAfterSufficientVerifiedPool": [],
+  "publicationBatchPaths": [
     "data/editorial/drafts/2026-08-21/batch-11.json",
     "data/editorial/drafts/2026-08-21/batch-12.json",
     "data/editorial/drafts/2026-08-21/batch-13.json",
@@ -15,10 +58,7 @@
     "data/editorial/drafts/2026-08-21/batch-19.json",
     "data/editorial/drafts/2026-08-21/batch-20.json"
   ],
-  "publishedIds": [
-    "20260820-forums-community-work",
-    "20260820-family-parents",
-    "20260820-family-ancestors",
+  "articleIds": [
     "20260821-source-extract-001",
     "20260821-source-extract-002",
     "20260821-source-extract-003",
@@ -120,14 +160,12 @@
     "20260821-source-extract-099",
     "20260821-source-extract-100"
   ],
-  "integrity": {
-    "articlesPublishedInSupplement": 103,
-    "newArticlesPublishedThisBatch": 100,
-    "genuineSourceDerivedArticlesThisBatch": 100,
-    "aiGeneratedSubstantiveArticlesThisBatch": 0,
-    "articlesWith100PercentSourceProvenanceThisBatch": 100,
-    "unsupportedFactualParagraphsThisBatch": 0,
-    "unverifiedQuotationsThisBatch": 0,
-    "duplicateSourceBodiesThisBatch": 0
-  }
+  "rules": [
+    "substantive article text is copied from registered public-domain source text",
+    "Project Gutenberg boilerplate and non-content illustration/footnote markers excluded",
+    "whitespace normalized only; no model-authored substantive prose",
+    "source paragraph boundaries preserved",
+    "exact duplicate source bodies rejected",
+    "each article mapped deterministically to an active site section/subsection"
+  ]
 }

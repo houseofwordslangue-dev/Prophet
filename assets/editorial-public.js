@@ -28,7 +28,7 @@ function applyOverride(d,m){
    const base={...(sources[0]||{})};
    sources=[{...base,ref,volume:String(o.volume||base.volume||''),pages:String(o.pdfPage||base.pages||''),ocrRef:'visual-check:'+(o.sourceFile||'user-supplied-pdf')+'#pdf-page-'+o.pdfPage,verifiedAgainstOriginal:true,verificationBasis:'visually verified against the user-supplied PDF page'}];
  }
- const normalized={...d,paragraphs,sources,publishedAt:m.publishedAt||d.publishedAt||new Date().toISOString(),publicationStatus:'PUBLISHED',draftStatus:'SOURCE_VERIFIED',sections:[d.section+'/'+d.subsection],articleUrl:'feature.html?id='+encodeURIComponent(d.id),sourceCoveragePercent:100,aiOriginalSubstantiveContentPercent:0,unsupportedFactualParagraphs:0,unverifiedQuotations:0,quotationVerification:'PASS',provenanceStatus:'PASS',duplicateCheck:'PASS'};
+ const normalized={...d,paragraphs,sources,publishedAt:d.publishedAt||m.publishedAt||new Date().toISOString(),publicationStatus:'PUBLISHED',draftStatus:'SOURCE_VERIFIED',sections:[d.section+'/'+d.subsection],articleUrl:'feature.html?id='+encodeURIComponent(d.id),sourceCoveragePercent:100,aiOriginalSubstantiveContentPercent:0,unsupportedFactualParagraphs:0,unverifiedQuotations:0,quotationVerification:'PASS',provenanceStatus:'PASS',duplicateCheck:'PASS'};
  normalized.author=deriveByline(normalized,sources);
  normalized.attributionType=normalized.author===EDITORIAL_BOARD_AR?'editorial-board':'source-author';
  return normalized;

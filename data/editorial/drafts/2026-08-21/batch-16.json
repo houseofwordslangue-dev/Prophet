@@ -1,0 +1,1196 @@
+{
+  "version": "2026-08-21-source-extract-100-batch-16",
+  "draftedAt": "2026-08-21T01:34:56+00:00",
+  "publicationStatus": "PUBLISHED",
+  "chunk": 16,
+  "drafts": [
+    {
+      "id": "20260821-source-extract-051",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST HOSTILITIES — 051",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-051-p01",
+          "text": "Arraigned before the tribunal of their own conscience, the citizens assembled were forced to acknowledge the rigorous truth of this last remark. All of them, more or less, had felt the words springing from the ecstatic soul of Allah's Apostle go home to them. All of them had ofttimes been about to give way to the fascination caused by his accents, ringing with the inspiration of superhuman faith. The Quraish men were only restrained by the importance of their material interests and the violence of their earthly passions, thus seriously threatened by his pure doctrine.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-051-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-051-p02",
+          "text": "Nevertheless, they were bound to come to a decision at once, so as to prevent, at all costs, the Arabs belonging to distant tribes from undergoing the same ordeal. Therefore, they agreed to say that Mohammad possessed potent spells by which he stirred up strife in families, estranging a brother from his brother, a son from his father, and a husband from a wife.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-051-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-051-p03",
+          "text": "When the pilgrims began to pour in, Walid and his accomplices were on the watch, posted on all the roads leading to Makkah. Not a single Arab passed along these highways without being warned against Mohammad by the conspirators in ambush. But although a few pilgrims were alarmed at these warnings and feared the spells that they were informed were threatening them, the majority felt their curiosity increasing with regard to this extraordinary man, whose utterances gave rise to such great apprehension among the lords of the city. Thus it came to pass that when the travellers returned to their tribes, they told what they had seen; so that it plainly resulted that the campaign, organised against Mohammad by his enemies, only achieved the purpose of spreading his renown all over Arabia.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-051-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-051-p04",
+          "text": "In order to add fresh fuel to the fire of their rage, increasing as the Prophet's reputation became established--a result partly due to their involuntary efforts--the idol-worshippers sought every opportunity to heap insults on him. Being all together, one day, in the precincts of the Temple, they worked each other up. 'No! never have we endured from anybody what this man hath made us endure,' they cried out in chorus. At that very moment, Mohammad came on the scene and began to perform the ritual circuits round the Ka'bah. They rushed at him, all at one bound. 'Art thou the man who dareth to insult the gods of our fathers?' they shouted. 'Aye, I am that man!' he replied, undisturbed.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-051-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-051-p05",
+          "text": "One of the enraged citizens caught hold of the collar of his mantle, and twisting it roughly, tried to strangle him. Abu Bakr, who chanced to be standing near, interfered. 'How now? Would ye kill a man who proclaimeth that Allah is his God?' he said sadly, and freed the Prophet, not without suffering ill-treatment himself, for a portion of his beard was plucked out by Mohammad's assailant.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-051-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-051-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE FIRST HOSTILITIES",
+          "sourceSequence": 33,
+          "sourceFingerprint": "1dfdef67f1b3af5ce3f8d27ebac036fcac38b33b8a6f4add44eec92a2a87dc99",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 481,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-052",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST HOSTILITIES — 052",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-052-p01",
+          "text": "The danger he had risked in these circumstances did not prevent the Prophet from returning to the Ka'bah to perform his devotions, without letting the furious glances of his assembled adversaries trouble him. Acting under the orders of Abu Jahal, a man fetched some sheeps' entrails from the slaughter-house. He chose those of an animal that had been killed several days before, and while the Prophet was prostrate as he prayed, the rascal covered the nape of his neck and his shoulders with the offal. All those present were seized with such outrageous fits of mirth that they fell seated on the ground, rolling one against the other. As for Allah's Elect, he seemed not even to have noticed the affront offered to him, and continued to pray. It was his daughter Fatimah who, arriving a few moments later, threw the filth far from her father, and railed at the wretches who had belittled themselves by the infliction of such a repulsive insult.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-052-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-052-p02",
+          "text": "On a par with Abu Jahal, ranking with those who are branded eternally in history's pages on account of their atrocious treatment of the Prophet, was one of his uncles, a son of Abu Muttalib, surnamed Abu Lahab, \"The Man Vowed to Hell-fire.\" Mohammad was preaching one day on the hill of Safa, in the midst of a crowd of inhabitants of that region, when Abu Lahab interrupted him rudely. 'Mayst thou be annihilated!' he bawled; 'thou who hast called us together to listen to such nonsense!' To this insult the following surah of the Qur'an (CXI) replies: \"_Let the hands of Abu Lahab perish, and let himself perish! * His wealth and his gains shall avail him not. * Burned shall he be at the fiery flame, * And his wife laden with the fire-wood, * On her neck a rope of twisted palm-fibre._\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-052-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-052-p03",
+          "text": "This Surah, quickly becoming renowned, increased Abu Lahab's resentment and probably had even more effect on that of his wife, Umm Jemil, who found herself attacked therein in a way that was as annoying as it was deserved. To be nicknamed \"carrier of fire-wood\" was past endurance; but had she not, on one occasion, strewn the path of Mohammad with thorny branches; had not her tongue lit up the fires of hatred with the faggots of calumny that she hawked about everywhere? The odious couple resorted shamelessly to the vilest acts, daily throwing heaps of filth on the terrace of Mohammad's house or in front of his door, for he was their neighbour.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-052-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-052-p04",
+          "text": "Worked up or terrorised by these fanatics, most of the dwellers in Makkah repulsed the Prophet or avoided him. Children and wastrels pursued him with their jibes in the street. He was perfectly indifferent to such provocations. What was it all to him? Nothing more than a passing breeze. He never even seemed to notice the persons who acted thus; he only looked at those he hoped to convert.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-052-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-052-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE FIRST HOSTILITIES",
+          "sourceSequence": 34,
+          "sourceFingerprint": "9353ec24efe0382c7815a00a615f667c887c8669858972ad52b35d6ff6d0fe89",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 487,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-053",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS — 053",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-053-p01",
+          "text": "As for Hamzah, the blessing of Allah was upon him in his outburst of rage and ennobled him by Islam of which he became one of the most devoted and formidable defenders.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-053-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-053-p02",
+          "text": "Utbah ibn Rabiyah, one of the most noted idol-worshippers, was greatly shocked when his young son, Huzaifah, became a convert to Islam and drew away from his father. Hoping to put an end to the discord established by Mohammad's doctrines, not only in the Quraish tribe, but even in the bosom of families, he planned to come forward as mediator. Seeing Allah's Apostle seated, quite alone, near the Temple, Utbah said to his partisans: 'Will ye authorise me to speak to him, and discuss one or two proposals in your name? Perhaps he may accept them and so leave us in peace.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-053-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-053-p03",
+          "text": "Under the influence of the consternation they felt at the conversion of such an important personage as Hamzah--a conversion that had led others to follow suit--and well knowing that it would be best to come to some agreement, they replied: 'Aye, go to him and speak in our name.' Thereupon, Utbah left them and went to sit by the side of the Prophet. 'O son of my friend!' said Utbah in most affectionate tones; 'thou dost belong to us, although by insulting our religion and the traditions of our fathers, thou hast embroiled us. Therefore I come to thee to put an end to this great misfortune. Give an ear to my proposals. Maybe they will find grace in thy sight.'--'Speak! I am listening.'--'O son of my friend! If thou dost hope that thy undertaking will make thee wealthy, each of us is willing to sacrifice a part of his fortune, in order that thou shalt become the richest man among us. If thou seekest honours, we will set thee up as lord over us all and come to no decision without consulting thee. Dost dream of royal privileges? We will make thee our king. If, on the contrary, the thoughts that inspire thee arise from some malady which thou art powerless to resist, we will have fetched at any cost and from any country the most celebrated doctors, so that thou mayst be cured. Choose therefore!'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-053-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-053-p04",
+          "text": "The Prophet had listened unmoved. 'Hast thou no more to say?' he answered Utbah. 'Now 'tis thy turn to hearken to my words.' He then recited the Surah of \"The Made Plain,\" in which Unbelievers are menaced with the eternal torments of hell, and Believers comforted by the promise of the inconceivable felicity of Paradise (THE QUR'AN, XLI). Utbah, his hands clasped behind his back, stood hearkening to the sentences, now imperative and then compassionate, that fell upon his ears in rhythm and cadence totally new to him. Stupefied, he remained stock-still, his attitude unchanged, although the Prophet had ceased speaking some little time. Mohammad, after having prostrated himself, his brow touching the earth, rose up and turned to Utbah, saying: 'Thou hast heard me, O Utbah? Now, 'tis for thee to choose.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-053-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-053-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS",
+          "sourceSequence": 35,
+          "sourceFingerprint": "eb1c2527030392c5b455e3f551b54076c7a0f471a7c49002872a3a0446c30d46",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 508,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-054",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS — 054",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-054-p01",
+          "text": "Nevertheless, Utbah's opinion impressed the idolaters. Next day, after sunset, they foregathered, according to custom, in the precincts of the Temple, and decided to speak to Mohammad in person. They sent for him, and he came, hoping that their eyes were open to the light. But they only wanted to renew the proposals of the day before. He refused just as scornfully. 'Since thou dost set thyself up as a Prophet,' they said, changing their arguments, 'take pity on thy country. There is no land more hemmed-in by mountains, or more poor in its water-supply; more difficult to live in. Therefore, ask Allah to put aside the girdle of mountains, make the soil easier to till, and give us rivers resembling those of Syria and Iraq. Or else, ask Him to resuscitate one of our ancestors, Qusaiyy ibn Kilab, for instance, who was a wise and truthful man, so that we may consult him concerning thy pretensions and let us know if they are veracious or false. If he giveth thee right and thou dost satisfy our demands, then will we believe thee and have faith in thy mission as Allah's Apostle.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-054-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-054-p02",
+          "text": "'I have not been sent to thee for this,' was all the Prophet cared to reply. 'I have told you what I was charged to do; and I tell you once more that if you accept, your happiness is assured in this life and the next. Should ye refuse, then I bow down to the decrees of Allah who shall judge between us.'--'Since thou wilt ask nothing for us,' they returned; 'crave a favour for thyself. Ask Allah to send one of his angels to convince us; ask Him to lavish on thee all the pleasures of this world that thy heart can desire, such as delicious gardens, marvellous palaces, or treasures of gold and silver. Instead of which, we see thee as one who \"_eateth food and walketh the marts_\" (THE QUR'AN, XXV, 8), exactly the same as the most humble among us! If thou art really a Prophet, let Allah give us proofs of the power with which He hath endowed thee, and of the dignity to which He hath raised thee.'--'I am not one of those who make such demands of Allah, and to you I renew my adjuration.'--'Ask Allah to \"_make the Heaven to fall in pieces on us, as thou hast given out_,\" (THE QUR'AN, XVII, 94), if He hath power to do so, according to what thou dost maintain. If not, thy word deserveth no credit.'--'Nothing could be easier for the Almighty. If He shall decide to act as ye say, He will accomplish the task. Ye ask Him for miracles? The miracles are to be found in all He hath created and ye do not understand! See how death springeth from life and life from death! Of a surety, He can, by a miracle, undo the prodigies of the order of Nature he hath created. Thus did He for my predecessors, but in vain. Therefore, admire His unceasing miracles in Nature and crave no others.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-054-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-054-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS",
+          "sourceSequence": 36,
+          "sourceFingerprint": "0e00d2be037d4250c0aad9f1c58eb7d2d041e813a50ff5e3529e6570fe059deb",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 518,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-055",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS — 055",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-055-p01",
+          "text": "Unable to catch the Prophet tripping, the idol-worshippers, to check him, brought forward Nazir ibn Haris who, having been a great traveller, had garnered many fine stories. As soon as Mohammad began to preach, Nazir took his stand quite near him, trying to get his hearers away by reciting the wonderful exploits of Rustam and Isfandyar. 'See now, I lavish on my audience fine tales,' Nazir was bold enough to add, 'that will bear comparison with those sent down by Allah to His Prophet.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-055-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-055-p02",
+          "text": "The Quraish men also sent a delegation to the learned Jews of Yasrib and to the Prince Halib ibn Malik, illustrious above all men by reason of his wisdom, science and power, in order to ask that some means should be found to prove that Mohammad was an impostor. But all these efforts were useless, and there was no need to believe in the legend of a miracle based on these words of the Qur'an: \"_The hour hath approached and the moon hath been cleft._\" (LIV, 1).",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-055-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-055-p03",
+          "text": "Some writers assert that Habib having asked the Prophet to perform a miracle, in order to prove the veracity of his mission, Mohammad gave an order to the moon which incontinently split into two equal parts; one ascending towards the East and the other to the West. According to the opinion of the most trustworthy doctors of Islam, such as Al Baidawi and Zamakhshri, this verse really means: \"The hour (of the Day of Resurrection) approacheth and (to announce it) the moon will be cleft.\" The truth of this assertion is proved by the verses that follow almost immediately: \"_Turn away then from them (The Unbelievers)! On the day when the summoner shall summon to a horrible affair, * With downcast eyes shall they come forth from their graves, as if they were scattered locusts._\" (THE QUR'AN, LIV, 6 AND 7.)",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-055-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-055-p04",
+          "text": "Besides, this supposed miracle is so flagrantly contradicted by numerous verses of the Qur'an that it is not possible to admit it. \"_Nothing hindered Us from sending thee (Mohammad) with the power of working miracles, except that the people of old treated them as lies._\" (THE QUR'AN, XVII, 61.)",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-055-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-055-p05",
+          "text": "There was such slight efficacity in miracles! The Israelites bowed down to the Golden Calf immediately after the miracle wrought by Moses to save them from the waves of the Red Sea and Pharaoh's hosts. The idolaters of Makkah would not have been more greatly impressed by the sight of the most astonishing miracle. \"_With their most binding oath have they sworn by Allah, that if a sign come unto them, they will certainly believe it; Say: Signs are in the power of Allah alone: and what shall make ye to understand that if they were wrought these men would not believe it * And though We had sent down the Angels to them, and the dead had spoken to them, and We had gathered all things about them in hosts, they had not believed, unless Allah willed it._\" (THE QUR'AN, VI, 109, 111.)",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-055-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-055-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS",
+          "sourceSequence": 37,
+          "sourceFingerprint": "44ed35f7b0774ba879887c4a5a91cbfcb9140dbe91c9e5d1dee838bf123e5a82",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 507,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-056",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MIRACLE OF THE QUR'AN — 056",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-056-p01",
+          "text": "Nevertheless there was one miracle, the only one placed to Mohammad's credit, and which was the cause of great anxiety among the Quraish idolaters: the miracle of the \"Ayates,\" a word generally rendered by \"Verses,\" but really meaning: \"miraculous signs\" of the Qur'an.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-056-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-056-p02",
+          "text": "The miracles wrought by earlier Prophets had been transient, so to say, and for that very reason, rapidly forgotten, while that of the Verses may be called \"The Permanent Miracle.\" Its activity was unceasing. Everywhere and at all hours, each Believer, by reciting the Verses, helped to realise the miracle, and in this can be found the explanation of many sudden conversions, incomprehensible for the European who knows nothing of the Qur'an, or judges it by cold and inaccurate translations.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-056-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-056-p03",
+          "text": "The wonderful charm of this Book, resembling no other masterpiece of the literature of mankind, needs not to be explained to us Moslems, because we consider it emanates from the words of Allah Himself, sent down through the mouth of His Prophet. In this connection, we think it will be interesting to quote the opinion of two Orientalists, justly celebrated.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-056-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-056-p04",
+          "text": "This is the conception of Savary, the first to translate the Qur'an into French: \"Mohammad was learned in the study of his language, the richest and the most harmonious in the world, and which, by the composition of its verses, permits thoughts as they soar to be correctly described. By the harmony of its sounds, it imitates the cries of animals, murmuring waters, thunder and the breeze. Mohammad, I repeat, being past master of a language that so many poets have embellished and which exists since the beginning of the world, took great pains to add every charm of elocution to his precepts of morality. Poets were greatly looked up to in Arabia. Labid ibn Rabyah, an illustrious poet, nailed one of his poems on the door of the Temple of Makkah. His reputation and the value of his works kept all competitors away. None came forward to compete for the prize.... The second chapter of the Qur'an--some writers say the 55th--was then placed by the side of the poem. Labid, although a worshipper of graven images, was seized with a fit of admiration after reading the first verses and confessed himself vanquished.\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-056-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-056-p05",
+          "text": "He became a convert very soon after and one day, his admirers being desirous of gathering together his complete works, questioned him on this subject. 'I have no recollection of any of my poetry,' he replied, 'for my entire memory hath been absorbed by the verses of the Book of Revelation.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-056-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-056-p06",
+          "text": "We will now give the opinion of Stanley Lane Poole: \"The style (of the Surahs) is haughty in every part and full of passion. The words are those of a man who tries with all his heart to convince his readers. Even nowadays, they give an impression of the vehemence and fire with which they were originally hurled forth at Mohammad's hearers surrounding him. These are the broken utterances of a human heart totally incapable of hypocrisy; the heart of a man who has exercised extraordinary influence over mankind.\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-056-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-056-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE MIRACLE OF THE QUR'AN",
+          "sourceSequence": 38,
+          "sourceFingerprint": "10d41b7b82da6b10fa854f518e92236f641926378afe106f52edd96db56cc779",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 518,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-057",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MIRACLE OF THE QUR'AN — 057",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "messenger",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-057-p01",
+          "text": "If the magic of the style and the thoughts of the Qur'an produced this effect on learned men, who were neither Arabs nor Moslems, how great then was the enthusiasm created among the Arabs of the Hijaz, especially as the verses were couched in their own poetical language? You only, travellers who have had an opportunity of seeing the emotion that overcomes the audience of an Imam reciting the Sacred Verses, can have a slight idea of this feeling. You may have seen poor caravaneers, still powdered all over by the sand of their desert, where they have just endured the greatest fatigue, rushing towards the Mosque, instead of seeking refreshing repose; drawn thither, as if hypnotised by the Imam's voice. Sometimes even, in the time of Ramadhan, Moslems, after having fasted all day, pass the whole of the night in ecstasy, as they listen to the Divine Word.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-057-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-057-p02",
+          "text": "It is certain that the illiterate Bedouins of our day do not always understand the real meaning of the words recited by the Imam, but the rhythm, the cadence, the harmony of the assonances animating the wonderful verses, echoing in their breasts to the beatings of their hearts, convey to them an explanation, vague perhaps, but truly in accordance with the spirit of the text, and above all, full of incomparable suggestion. On the other hand, how vapid would seem to them the explanation, more literal but less emotional, of a \"Talib\" pedant or a frigid grammarian.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-057-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-057-p03",
+          "text": "As for the Arab of the Hijaz, comprehending the most subtle hints of the language of the Qur'an--his own language--and who welcomed the Surahs as they issued from the lips of his fellow-countryman: the genial, inspired Messenger of Allah, that listener was overwhelmed by such sudden surprise that he remained as if petrified. Could this supernatural language come from Mohammad, known to be completely illiterate and possessing no other knowledge than that due to nature and intuition? This seemed perfectly impossible. The Arab was therefore forced to admit that Mohammad's words were dictated by the Almighty. Besides, it was following no ingenious falsehood that the Prophet attributed the verses of the Qur'an to Allah. He was absolutely convinced of their divine origin. The terrible crises by which the Revelation manifested itself, bringing him the solution of unknown problems in language so new to him; so different to his own; even upbraiding him when he made mistakes and commanding him to recite these verses, despite any resistance he might make, left him without the slightest doubt on that head.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-057-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-057-p04",
+          "text": "Consequently, it was with the most perfect faith that he felt boundless admiration for the Qur'an; that is to say for the Words of Allah. Had not Allah revealed to him these verses: \"_Say: Then bring ten Surahs like it of your devising, and call whom ye can to your aid beside Allah, if ye are men of truth._\" (THE QUR'AN, XI, 16). Convinced of their powerlessness, \"The Unlettered Prophet\", (THE QUR'AN, VII, 156), challenged the most celebrated poets, giving them the right to call him a cheat, if they could compose ten Surahs resembling his.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-057-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-057-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE MIRACLE OF THE QUR'AN",
+          "sourceSequence": 39,
+          "sourceFingerprint": "06a9521deba875ebdaa58125715be0276dfaefcd60f04ae31a0c2101df20ed2b",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 523,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-058",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW IT WAS FORBIDDEN TO LISTEN TO THE QUR'AN — 058",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-058-p01",
+          "text": "By threats, the tribesmen frightened those who tried to approach the Prophet, when as was his wont, he recited, on the threshold of the Ka'bah, a few passages of the Revealed Book. So as not to hear him, they put their fingers in their ears; or else, to drown his voice, they whistled, clapped their hands, or bawled, as loudly as they could, scraps of doggerel composed by idolater-poets. The unexpected result was that the very men who had made it a crime to listen to the celebrated verses, were moved by that unconquerable curiosity which attracts weak mortals towards forbidden things.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-058-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-058-p02",
+          "text": "One night, Abu Sufyan, Abu Jahal and Al-Akhnas went out of their houses, bending their steps, each unknown to the other, towards the dwelling of the Prophet. Once there, their ears glued to the wall, they tried to overhear the recital of some of the Divine Surahs. In the darkness of the night, they did not see one another. But when day dawned, they came face to face on their homeward road, and blamed each other mutually: 'What would our partisans think, if they had caught us doing this thing?' And they took a solemn oath never to be so imprudent again.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-058-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-058-p03",
+          "text": "But the next night and the night after that, the same thing occurred, followed by the same exchange of reproaches.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-058-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-058-p04",
+          "text": "Quoth the Prophet: \"Allah created Paradise for the man who obeyeth Him, even if only a black Abyssinian slave; and Hell for the man rebelling against Him, even if he be a nobleman of the Quraish.\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-058-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-058-p05",
+          "text": "Islam, tending towards the perfect equality of castes and races, naturally attracted all the poor and downtrodden of the city. With increasing vexation, the idolatrous masters saw their slaves, in eager crowds, converted to the new faith. But as these wretched folks were in the tyrants' power, they glutted their vengeance on them, not daring to attack disciples of the Prophet occupying higher rank.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-058-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-058-p06",
+          "text": "Oummayatah ibn Khalaf, having become aware of the conversion of his black slave, Bilal ibn Hammah, was engrossed with but a single thought: that of torturing him with the most dastardly refinements. Placing his neck in a noose made from a rough rope of palm-fibre, he gave him into the hands of boys knowing no pity. They dragged him along behind them, like a beast of burden, just for amusement. The rope, pulled this way and that by the juvenile wrongdoers, ploughed a sanguinary furrow in Bilal's flesh. Nevertheless, he seemed insensible to pain. Thereupon his master deprived him of food and drink, and led him from the town at noonday, in the middle of summer, throwing him out in the \"Ramda,\" a sandy plain, so torrid that a slice of meat, thrown on the ground, cooked itself immediately. He made his slave lie down, stretched out on his back, an enormous stone on his breast. 'Thou shalt stop there,' he ordered, 'until thou dost abjure Mohammad's doctrines, and worship Lat and Uzza.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-058-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-058-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "HOW IT WAS FORBIDDEN TO LISTEN TO THE QUR'AN",
+          "sourceSequence": 40,
+          "sourceFingerprint": "e9e46d48cad0123a191603d95ab15cedcec293b7b9687f919625b81775ba5f39",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 497,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-059",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PERSECUTION — 059",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-059-p01",
+          "text": "But the stoical Moslem did nothing more than lift the forefinger of his right hand, saying again and again: 'Ahad! Ahad! Allah is one! Allah is one!' thus testifying the scorn he felt for his master who dared to couple wooden or stone associates with the Master of the Worlds. The affirmation of the slave produced insensibility to pain, because the ineffable joy of the sacrifice for his faith mingled with and mastered the bitterness of torture.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-059-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-059-p02",
+          "text": "Passing one day near the Ramda, Abu Bakr witnessed this cruel sight. 'Fearest thou not the justice of Allah, the Most High, O Oummayatah! when thou dost inflict such torment on that wretched man?' he cried indignantly.--'Thou didst corrupt him; therefore 'tis thy duty to save him,' was the cynical reply.--'Willingly! I possess a young black slave, stronger and a better worker than thine. Moreover, he is entirely devoted to thy idols. I offer him to thee in exchange.' Oummayatah accepted and turned Bilal over to Abu Bakr who granted him his freedom straightway. Besides, this generous man (may Allah make him welcome in His Grace!) purchased six other slaves, men and women, all Islamic converts, merely to set them free, and deliver them out of the hands of their idolatrous masters.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-059-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-059-p03",
+          "text": "These persecutions continued notwithstanding, becoming more and more barbarous. The Banu Makhzum tribe took Ammar, with Yaser, his father, and Summayy, his mother, out on the Ramda, in order to make them suffer all the tortures prompted by diabolical ferocity. Ammar was enclosed in an iron breastplate that held him down on the ground, exposed to the blazing rays of the sun at its zenith. His flesh crackled as if in contact with molten metal. But the same thing happened as with Bilal; the idolaters were unable to drag from Ammar or his parents, tortured in like fashion, one blasphemous word. It was then that, blinded by rage, Abu Jahal drove his spear through Summayy's heart, mocking the dying woman by telling her: 'If thou dost believe in Mohammad, 'tis because thou art in love with his beauty!'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-059-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-059-p04",
+          "text": "Summayy was the first martyr to Islam, but such constancy was not to be found in all. A few Believers, enfeebled by privation and torture to such an extent that they could not stand upright, finished by letting fall from their lips, despite themselves, the blasphemous utterances ensuring release. For such as these, crushed by shame and shedding tears of repentance, the following Surah of consolation has come down: \"_Whoso after he hath believed in God, denieth Him, if he were forced to it and if his heart remain steadfast in the faith (shall be guiltless:) * But whoso openeth his breast to infidelity--on them in that case shall be wrath from God, and a severe punishment awaiteth them._\" (THE QUR'AN, XVI, 108).",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-059-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-059-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "PERSECUTION",
+          "sourceSequence": 41,
+          "sourceFingerprint": "e42f29a13e462d4a86b77a5c7d9a011ccb88d2ffc0d8b90b98808b62eae47f69",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 473,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-060",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE EMIGRATION TO ABYSSINIA (_A.D. 615_ — 060",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-060-p01",
+          "text": "The Najashi had already seen that the contrary was the case. By their honesty and virtue, the fugitives had gained the esteem and sympathy of his subjects, so that he did not feel inclined to favour the request of the ambassadors, despite their valuable gifts. They then thought it would be as well to touch upon the religious susceptibilities of the Christian monarch, and put him on his guard against the danger of Islam. 'Know then what these impostors seek to attain,' said they to him. 'They have set foot in thine empire in order to turn thy subjects away from the religion of Jesus, even as they sought to lead the Quraish astray from the religion of their ancestors. Shouldst thou wish to put our veracity to the test, question them concerning their opinions with regard to Jesus, thy God.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-060-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-060-p02",
+          "text": "The Najashi followed this piece of advice. He interrogated the most learned among the emigrants and elicited the following reply from Jafar, Mohammad's cousin, son of Abu Talib: 'These are the Verses revealed to the Prophet: \"_The Messiah Isa (Jesus), son of Maryam (Mary), is only an apostle of Allah, and His Word which He conveyed into Maryam..._\" (THE QUR'AN, IV, 169.)",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-060-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-060-p03",
+          "text": "This answer was not at all displeasing to the Najashi. If it did not acknowledge the divinity of Jesus, it showed, at least, the deep veneration in which He was held by the Moslems, and the Abyssinian monarch was fully reassured as to the fugitives' intentions. So he sent the ambassadors away, without accepting any of their presents or giving them the slightest satisfaction.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-060-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-060-p04",
+          "text": "The Unbelievers had succeeded in making fierce Umar think that he would save his country by ridding it of Mohammad. So Umar, having buckled on his sword, and his eyes flashing fire, bent his steps in the direction of the Safa district, where he fancied he might fall across the Prophet. Umar, on his way, met Na'im, who had gone over to Islam unbeknown to his fellow-tribesmen. 'Wither goest thou, O Umar?' queried the convert.--'To seek out this fellow Mohammad who hath stirred up strife in the midst of the Quraish. Oh, by our Gods! I must kill him!'--'By Allah! thy soul leadeth thee to do a mad act, O Umar! Dost thou think that the Abd-i-Manaf will leave thee in peace on the face of the earth, if thou dost put to death their relative, Mohammad?' he added, trying to deter him from carrying out his abominable plan. 'Would it not be far better to get certain members of thine own household to explain their doings?'--'Who are these persons under my roof?'--'Thy sister Fatimah and thy brother-in-law Said ibn Zayd. They, too, are Moslems.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-060-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-060-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE EMIGRATION TO ABYSSINIA (_A.D. 615_)",
+          "sourceSequence": 42,
+          "sourceFingerprint": "668ec304e4ac7c430adca5c44290abc6057e53b30c1803ca923d490dbcfac98f",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 459,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    }
+  ]
+}

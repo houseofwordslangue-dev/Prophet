@@ -1,0 +1,1655 @@
+{
+  "version": "2026-08-21-source-extract-100-batch-11",
+  "draftedAt": "2026-08-21T01:34:56+00:00",
+  "publicationStatus": "PUBLISHED",
+  "chunk": 11,
+  "drafts": [
+    {
+      "id": "20260821-source-extract-001",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PREFACE — 001",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-001-p01",
+          "text": "_An existence, so full of stirring events as that of the Prophet Mohammad, cannot be described by us in all its details. As there are limits to all books, we have had to rest content with a selection of the most important episodes, so that each might be developed as we deemed necessary. Thus we present to the reader a series of pictures and not a complete history._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-001-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-001-p02",
+          "text": "_Our scaffolding and sketches are borrowed from very ancient authors such as Ibn Hisham, Ibn Sad, etc., without forgetting a more modern writer, Ali Borhan id-Din Al-Halabi who, in his book known by the title of \"Es Sirat'al Halabia,\" gathered together different versions from all the best-known historians. An incontestable proof of their veracity, in our opinion, is that these narratives, some dating as far back as twelve centuries, fit in perfectly with the manners, customs, hopes and language of the Moslems of the desert; those who at the present day, by their mode of living, are more akin to the Arabs of the Hijaz among whom Mohammad accomplished his Mission._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-001-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-001-p03",
+          "text": "_These remarks will serve to warn the reader that in this work will be found none of those learned paradoxes destined to destroy traditions, such sophisms delighting modern Orientalists by reason of their love of novelty._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-001-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-001-p04",
+          "text": "_The study of innovations introduced in this way into the Prophet's history has caused us to note that they were often prompted by feelings inimical to Islam which were not only out of place in scientific research, but were also unworthy of our epoch. As displayed by their authors, they generally denoted strange ignorance of Arab customs, notwithstanding that these commentaries were accompanied by considerable erudition, although too bookish. In order to refute such new-fangled assertions, it was enough to check each in turn. Being so contradictory, one killed the other. Their extreme improbabilities, from the standpoint of Oriental psychology, only served to enhance with still greater clarity the perfect likelihood of those traditions sanctioned in the world of Islam._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-001-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-001-p05",
+          "text": "_We have been guided by them. We have been satisfied to choose those that seemed most characteristic, setting each in its proper place, thanks to information gleaned in long interviews with pilgrims visiting the Holy Cities of the Hijaz, while reviewing these episodes in the light of our experience of Moslem life, in the Great Desert of Sahara, where one of us two had lived from birth and the other for the last thirty years and more._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-001-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-001-p06",
+          "text": "_In strict agreement with the Qur'an, the only indisputable book according to the Moslem Doctors of the earliest times and those imbued with the modern liberal spirit, such as the celebrated Shaikh Abdu, we have put aside all the posthumous miracles attributed to the Arab Prophet and which only serve to blur his true physiognomy._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-001-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-001-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "PREFACE",
+          "sourceSequence": 1,
+          "sourceFingerprint": "fb5f797bd546b3effd15e29c8cd5b52df38a712c3f9158038a18f90488faecb5",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 473,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-002",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PREFACE — 002",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-002-p01",
+          "text": "_Among all the Prophets founders of religions, Mohammad is the only one who, relying solely on the evidence shown by his Mission and the divine eloquence of the Qur'an, was able to do without the assistance of miracles, thus performing the greatest of all--the one which Ernest Renan, forgetting his example, declared to be utterly impossible. \"The greatest miracle,\" said he, speaking of Jesus Christ, \"would have been if he had wrought not any. Never would the laws of history and popular psychology have been more violently infringed.\"_",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-002-p02",
+          "text": "_On the other hand, we have taken care not to turn a deaf ear to tales in legendary shape. A legend, and above all, an Oriental legend, is an incomparable means of expression. It serves to paint mere facts in lasting colours and make them stand out in bold relief, far removed from the icy and so-called impartial account of an up-to-date reporter._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-002-p03",
+          "text": "_Our readers, enlightened by the foregoing warning, must therefore not let themselves be the victims of the numerous errors committed by Hellenism, Latinism and Scholasticism, when interpreting \"literally\" the sacred books of the East, while beneath seeming magic allegories scattered here and there in this narrative, will easily be discerned realities, poetically transposed, but not at all disfigured by the imagination of the Arabs._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-002-p04",
+          "text": "_With still more reason, the Qur'an should be read in the same way, for is it not written:_ \"God setteth forth these similitudes to men that haply they may be admonished.\" (THE QUR'AN, XIV, 30.)",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-002-p05",
+          "text": "_It may also seem strange that in the illustrations accompanying the text, no portrait of the Prophet will be found, nor any picturing of events in which he figured as the hero._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-002-p06",
+          "text": "_And this is why: being sincere Moslems, we do not want to run counter to the true principles of Islam, far less hostile than is supposed to the portrayal of mortals' faces, but strictly forbidding the image of the Divinity, considered to be rank blasphemy leading to idolatry more or less disguised. To represent the likenesses of the Prophets is to belittle them inevitably and sacrilegiously._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-002-p07",
+          "text": "_And after all, in the eyes of the Believer, what does the prim effigy of one of God's messengers on earth, however marvellously painted, look like in comparison with the sublime idea that the mind of the Faithful creates, under the influence of fervid faith? This has been so well understood by certain Persian painters of miniatures, that, having to sketch Mohammad in the varied phases of his nocturnal ascension, they veiled his face entirely, because they found themselves powerless to picture it, and feared also to impair features so revered. There is no greater proof of their intention than the meticulous care with which in the same pictures all other faces are treated, including that of Buraq, the winged steed with the head of a human being; and also the lineaments of the angels in the celestial procession._",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-002-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-002-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "PREFACE",
+          "sourceSequence": 2,
+          "sourceFingerprint": "842503c4166d05929e32ac942000c263fabf6599477f37f5b521671c59a5285a",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 496,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-003",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MOSLEM PRAYER — 003",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-003-p01",
+          "text": "A rosy ray lit up the horizon; the stars paled, and a voice cried out in cadence, in the silence of dawn:",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p02",
+          "text": "\"_Allah is the greatest! There is no God but Allah, and Mohammad is the Prophet of Allah! Come and pray! Come to Salvation!_\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p03",
+          "text": "High up above the flat housetops and the palm-trees of the oasis, the last notes of the Muazzin's call, wafted from the balcony of the slender minaret, died away in the infinite space of the Desert....",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p04",
+          "text": "Mohammedans who were still slumbering, enwrapped in the white folds of their shroud-like mantles, sprung to their feet with a start, like dead men coming to life. They hurried to fountains where they performed their ablutions; and then, with clean skins and pure thoughts, they gathered together in long processions, elbow to elbow, all turned in one direction: that of the Holy Ka'bah of Makkah (Mecca).",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p05",
+          "text": "Standing erect, heads slightly bent, eyes downcast, perfectly still in the long folds of their garments, they seemed as if metamorphosed into a crowd of statues. Following the example of the Imam, in front of them, but in the same direction, and announcing each phase of the prayer by the Takbir: \"_Allah is the greatest!_\" they all lifted their open hands on a level with their foreheads, to bear witness to their ecstasy in the presence of the Almighty power of the Master of the Worlds. Then, every man made the same movement, bending their backs and bowing low before the throne of His Supreme Majesty.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p06",
+          "text": "But this did not suffice to express all the humility of their souls, so they dropped to the ground and prostrated themselves, piously pressing their faces against the earth. For a few moments they remained in this supplicating posture, as if crushed by the weight of the entire firmament which might have been prostrated with them.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p07",
+          "text": "They held up their heads at last and rose to a sitting posture, both knees on the ground, their heads bowed under the burden of their fervour. The prayer terminated by salutation, accompanied by the face being turned first to the right, then to the left, addressed to the two recording angels who unceasingly attend every true Believer.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p08",
+          "text": "Generally, however, the Faithful who ask nothing from Allah, not even their daily bread, remain a little longer on their knees, and placing, breast-high, their open palms under their eyes, as if reading a book, they implore Divine Mercy for the salvation of their souls, for their relatives, and for Islam.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p09",
+          "text": "Only a few parts of the Prayer: the Takbir, the Fatihah and the final salutation are loudly intoned by the Imam. The congregation pray inwardly; the Takbir alone is murmured in whispers that are barely audible.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-003-p10",
+          "text": "Such half-silence enhances the grandeur of their gestures, so expressive and simple, in which dignity is closely allied to humility; and being totally devoid of affectation, constitutes the most poignant display of adoration imaginable.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-003-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-003-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE MOSLEM PRAYER",
+          "sourceSequence": 3,
+          "sourceFingerprint": "4e75792b406eef55de8374ade07623d9fa0e67bee18893a1ec71bbff155d59e0",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 490,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-004",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: DESCRIPTION OF MAKKAH (_Mecca_ — 004",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-004-p01",
+          "text": "This mysterious town, upon which the aspirations of so many human beings close in, was almost unknown in ancient times. What is it like?",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-004-p02",
+          "text": "Is it one of those cities, picturesquely situated, where ostentatious kings built splendid palaces, accumulating therein all the treasures of creation? Is it one of those vast commercial boroughs dominating land and sea routes to which the riches and produce of the universe came in abundance? Or was it an extensive imperial capital whose valiant warriors bent neighbouring peoples beneath their yoke?",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-004-p03",
+          "text": "Makkah has nothing in common with all this, being established in one of the most arid and forsaken spots on earth; and in olden times its only commerce consisted in desert caravan traffic, so that it was neither rich nor powerful. Nevertheless, many opulent towns are jealous of its glory, for it shelters in its midst the Holy Temple of the Ka'bah, besides being the birthplace of Our Lord Mohammad, the Prince of Prophets!",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-004-p04",
+          "text": "In our own times, despite gifts brought from the furthermost corners of the world by the hundred thousand pilgrims who come each year to prostrate themselves in its temple, Makkah, \"The Mother of Cities,\" by the splendour of its palaces and mosques, cannot vie with any great capital. In the eyes of the True Believers, its treasures are radiant with incomparable brilliancy, but which is not terrestrial.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-004-p05",
+          "text": "As a matter of fact, the aspect of Makkah--\"Allah's Delight\"--is no different from other Arab desert centres. There are more numerous and loftier dwellings, better decorated than in general, but its characteristics, on the whole, are unchanged.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-004-p06",
+          "text": "From the top of the Jabal Abi-Kubeis which dominates it on the eastern side, it can be viewed stretching from north to south in a narrow valley. At first, it seems to form part of the earth on which it stands, because the bare and rocky mountains surrounding it are not separated from these heights by any oasis or verdant strip, and the terrace-roofs of the houses do not stand out from the heaps of stony fragments that have rolled down from the crags. The spectator's eyes gradually get used to the landscape and pick out architectural lines; mysterious entrances to dwellings; lace-work of tall, straight minarets; and then, astonished at the sudden apparition of a big town that he never thought was there, he sees it, as in a kind of mirage, increasing excessively. Now it is the turn of the rocks to look as if changed into houses; hills becoming immense suburbs extending boundlessly.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-004-p07",
+          "text": "If, in this chaos of sharply-outlined shapes, it is difficult for the eye to distinguish dwellings from steep rocks; one cannot fail to be startled at once by the strange aspect of a great cube of masonry, built up in the middle of a spacious quadrangular courtyard and veiled by black silk, shining in violent contrast to the dull tints of the entire sun-scorched landscape.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-004-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-004-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "DESCRIPTION OF MAKKAH (_Mecca_)",
+          "sourceSequence": 4,
+          "sourceFingerprint": "bc2370777d82c796abbca59c422cfa22ccf0525488f8e3b1952c7587bb40a5ac",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 487,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-005",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE TEMPLE OF THE KA'BAH AND THE BLACK STONE — 005",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "family",
+      "subsection": "wives",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-005-p01",
+          "text": "The two functions of \"Siqayah,\" (Management of Water Supply), and of \"Hajaba,\" (Superintendence of the Ka'bah) were posts greatly sought after on account of their prerogatives. At the epoch at which our story begins, they were both united in the hands of Abdul Muttalib bin Hashem, of the Quraish tribe, the grandfather of the future Prophet.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-005-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-005-p02",
+          "text": "One day, Abdul Muttalib, custodian of the Ka'bah, set forth from the Sanctuary, his favourite son, Abdullah, holding his hand.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-005-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-005-p03",
+          "text": "On the threshold of the temple was seated Quotila, a woman of the Bani Asad tribe. On catching sight of the lad, she started to her feet, evincing sudden surprise. She stared at him with strange persistence, because she was fascinated by a supernatural light that radiated from his brow. 'Whither art thou going?' she called to him.--'To where my father leadeth me.'--'Stop and listen to me. I offer thee a hundred camels, being as many as thy father was bound to sacrifice to save thy life, if thou wilt consent to throw thyself upon me, now at once.'--'I am in my father's company and cannot disobey him, nor leave him,' replied Abdullah, petrified at such shamelessness, especially in the presence of such a respectable person as Abdul Muttalib.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-005-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-005-p04",
+          "text": "The young man turned away, filled with confusion, and rejoined Abdul Muttalib who took him to the house of Wahb ibn Abdi Manaf, whose daughter the Superintendent of the Well thought would make a good wife for his boy.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-005-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-005-p05",
+          "text": "Wahb was one of the chieftains of the Bani Zahrah tribe and Abdul Muttalib being numbered among the princes of the Quraish, a most noble tribe, an alliance between two such authentically aristocratic families would be easily brought about and so the marriage of Abdullah, with Aminah, daughter of Wahb, took place without further loss of time.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-005-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-005-p06",
+          "text": "Abdullah went off with his bride to the dwelling of Abu Talib, his uncle. There the marriage was consummated during the young couple's sojourn of three days and three nights. When the newly-married young man went out of the house, he came face to face again with Quotila, the woman who had previously hailed him with such lack of decency and he was surprised at her complete indifference as she saw him pass by. Abdullah was considered to be the handsomest youth in Makkah. His manly bearing had aroused the sensual passions of most of the women of the city to such an extent that, when his marriage was announced, they fell ill by dint of jealousy and disappointment. Quotila, however, was not a victim to vulgar lust, being the sister of Waraqah ibn Taufal, the learned man renowned throughout Arabia for his knowledge of the Sacred Books. From him she had learnt how, in that part of the country, a Prophet was about to come into the world, whose father would be known by rays of light illuminating his face with a pearly or starry sheen. This sign she had detected on the brow of Abdullah, and was haunted by the ambitious desire of becoming the mother of the coming Apostle. Her hopes dashed to the ground, she no longer heeded Abdullah, notwithstanding his good looks.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-005-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-005-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE TEMPLE OF THE KA'BAH AND THE BLACK STONE",
+          "sourceSequence": 5,
+          "sourceFingerprint": "4c190a3f9b53cee63a11c077d5e79773035f2f2f9fcb0c407aec5f1734251de8",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 531,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-006",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MARRIAGE OF ABDULLAH, FATHER OF THE PROPHET — 006",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "family",
+      "subsection": "wives",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-006-p01",
+          "text": "Knowing nothing of all this, he felt hurt at her indifference, following so quickly on her great ardour. 'How comes it that thou dost not ask me again for what thou hungered for but a little while ago?' he asked Quotila.--'Who art thou?' she replied.--'I am Abdullah bin Abdul Muttalib.'--'Art thou the stripling whose brow seemed to me to be surrounded with a luminous aureola which has now disappeared? What hath befell thee, since we first met?'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-006-p02",
+          "text": "He apprised her of his marriage, and Quotila guessed that the radiance surrounding the future Prophet had passed away from the forehead of Abdullah into the womb of Aminah, his wife.--'By Allah, I made no mistake!' she told him. 'On thy brow I discovered the pure light that I would have dearly liked to possess in the depths of my body. But now it belongeth to another who will be delivered of \"The Best Among Created Beings,\" and there remaineth naught of thee that I care for.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-006-p03",
+          "text": "Thus it came about that Abdullah, by the words that fell from the lips of this learned woman, got to hear of his wife's pregnancy and the future in store for his son. Abdullah did not live long enough to have the happiness of knowing his offspring, for Mohammad's father died at Yasrib two months before Aminah was delivered.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-006-p04",
+          "text": "Aminah, mother of Allah's Chosen One, spoke thus:",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-006-p05",
+          "text": "\"Since the day I carried my son in my womb, until I brought him forth, I never suffered the least pain. I never even felt his weight and should not have known the state I was in, if it had not been that after I conceived and was about to fall asleep, an angel appeared to me, saying: 'Dost thou not see that thou art pregnant with the Lord of thy Nation; the Prophet of all thy people? Know it full well.' At the same instant, a streak of light, darting out of my body, went up northwards--yea, even unto the land of Syria.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-006-p06",
+          "text": "\"When the day of my deliverance came due, the angel appeared to me again and gave me a warning: 'When thou shalt bring forth thy child into the world, thou must utter these words: 'For him I implore the protection of Allah, the Only One, against the wickedness of the envious,' and thou shalt call him by the name of Mohammad which means The Lauded, as he is announced in the Taurat and the Injil, for he will be lauded by all the inhabitants of Heaven and Earth.'\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-006-p07",
+          "text": "When the planet Al-Moushtari passed, a line of light darted for the second time from Aminah's body in the direction of faraway Syria and it illuminated the palace of the town of Busra. At the same time, other prodigies astonished the world: the Lake Sowa suddenly dried up; a violent earthquake made the palace of Chosroes the Great tremble, and shattered fourteen of its towers; the Sacred Fire, kept alight for more than a thousand years, went out, in spite of the exertions of its Persian worshippers, and all the idols of the universe were found with their heads bowed down in great shame.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-006-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-006-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "THE MARRIAGE OF ABDULLAH, FATHER OF THE PROPHET",
+          "sourceSequence": 6,
+          "sourceFingerprint": "9ce44d52a02cbea264b4fad94c84f5a7db11c2aa02d4c914b5ddb73fc470fc77",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 532,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-007",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD'S CHILDHOOD WITH THE BANI SAD TRIBE IN THEIR BADYA LAND — 007",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-007-p01",
+          "text": "Quoth Halimah bint Zuib: \"It was a barren year, and both my husband, Haris bin Abdul Ozza and myself, were plunged in dire distress. We made up our minds to go to Makkah where I purposed to seek a foster-child whose grateful parents would help us out of our miserable plight. We joined a caravan where there were many women of our tribe, bound likewise on the same errand.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p02",
+          "text": "\"The she-ass I was riding was so thin and exhausted by privation that she came nigh upon breaking down on the road and we did not get a wink of sleep all night by reason of our poor child being tortured by the pangs of hunger. Neither in my breasts, nor in the udder of a female camel driven by my husband, did there remain one drop of milk to relieve my baby's pain.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p03",
+          "text": "\"All sleepless as I was, I fell a prey to despair. In my parlous state, could I hope to take charge of a suckling?",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p04",
+          "text": "\"Lagging far behind the caravan, we arrived in Makkah at last, but all the new-born babes had already been allotted to the other women, except one child and that was Mohammad.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p05",
+          "text": "\"His father being dead and his family far from rich, despite the high rank it held in Makkah, none of the wet-nurses cared to take charge of the baby boy.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p06",
+          "text": "\"We likewise turned away from him at first, but I was full of shame at thinking I should have to journey back empty-handed, for I feared the mockery of my friends luckier than I. Besides, my feelings were deeply stirred when I gazed upon that fine infant, bound to wither away in the unwholesome air of the town.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p07",
+          "text": "\"My heart became filled with compassion; I felt my milk welling up miraculously in my breasts, so I said to my husband: 'I swear by Allah that I have a good mind to adopt that orphan boy, notwithstanding that we have but slight hopes of ever earning anything worth talking about by so doing.'--'I cannot say thou art wrong,' he replied. 'Perhaps with him, the blessing of Allah may once more favour our tent.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-007-p08",
+          "text": "\"Scarcely listening, I could no longer restrain myself and rushed towards the handsome baby fast asleep. I placed my hand on its pretty little breast; he smiled and opened his eyes sparkling with light. I kissed his brow between them. Holding him tightly in my embrace, I made my way back to where our caravan was encamped. Once there, I offered him my right breast so that he should enjoy such nourishment as Allah chose to grant him. To my extreme astonishment, he found enough milk to satisfy his hunger. I proffered my left breast, but he refused it, leaving it to his foster-brother, and he always behaved in like fashion.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-007-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-007-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "MOHAMMAD'S CHILDHOOD WITH THE BANI SAD TRIBE IN THEIR BADYA LAND",
+          "sourceSequence": 7,
+          "sourceFingerprint": "08e457cad7396998260e71ca599e90063404c657cecd4a28d323d4daea7723c2",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 472,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-008",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD'S CHILDHOOD WITH THE BANI SAD TRIBE IN THEIR BADYA LAND — 008",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-008-p01",
+          "text": "\"A greater marvel still was when from our she-camel's teats, dried-up that morning, my husband drew enough milk to appease the hunger that gnawed my entrails, and for the first time for many a month, the shades of night brought us refreshing sleep. 'By Allah, O Halimah!' exclaimed my husband, next day, on awaking, 'thou hast adopted a child that is verily blessed!'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-008-p02",
+          "text": "\"With the little boy, I mounted my she-ass who started off at a rapid pace. She was not long in coming up with my surprised companions and even trotted in front of them. Thereupon they cried out: 'O Halimah! pull up thy ass, in order that we may journey home all together. Is that the same animal you bestrode when we departed?'--'Aye; 'tis she and no other.'--'Then she is under some spell that we cannot unravel!'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-008-p03",
+          "text": "\"We reached our tents of the Bani Sad. I know no more arid soil than ours and our flocks had been mowed down by famine. But we marvelled at finding them in more thriving condition than during the most prosperous seasons, and the swollen teats of our ewes yielded more milk than we knew what to do with.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-008-p04",
+          "text": "\"Our neighbour's flocks, on the contrary, were in a grievous state and their masters threw the blame on their shepherds. 'Woe to ye all, stupid serving-men!' cried the sheep-owners. 'Lead our lambs to graze with those of Halimah!'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-008-p05",
+          "text": "\"The men obeyed, but all in vain: the sweet grass that seemed to spring up out of the earth offering its tender sprigs to our sheep, withered immediately they were gone on their way.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-008-p06",
+          "text": "\"Prosperity and blessings remained in our tent unceasingly. Mohammad attained his second year and it was then I weaned him. His disposition was truly uncommon. At the age of nine months, he talked in a charming way with accents that touched all hearts. He was never dirty; nor did he ever sob or scream, except peradventure when his nakedness chanced to be seen. If he was uneasy at nights and refused to close his eyes, I would bring him out of the tent, when he would fix his gaze immediately with admiration on the stars. He showed great joy, and when his glances were sated with the sight, he let his eyelids droop and allowed slumber to claim him.\"",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-008-p07",
+          "text": "But when he was weaned, Halimah was obliged to take Mohammad back to his mother who was eager to have him with her. What grief therefore for the poor wet-nurse! She could not resign herself to such cruel separation. As soon as she got to Makkah, she threw herself at Aminah's feet and burst out supplicating as she kissed them. 'See how the bracing air of the Badya hath profited thy child. Think that those breezes will do him still greater good now that he is beginning to walk. Fear the pestilential air of the city! Thou wouldst see him waste away before thine eyes and remember my words when it was too late.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-008-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-008-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "MOHAMMAD'S CHILDHOOD WITH THE BANI SAD TRIBE IN THEIR BADYA LAND",
+          "sourceSequence": 8,
+          "sourceFingerprint": "571848e91b031644b981b7166ed75ad4d894e936d62f30455706dd361a8ca622",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 505,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-009",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD AND THE TWO ANGELS — 009",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-009-p01",
+          "text": "He went out, one morning, with his foster-brother leading the flocks of his foster-father to the pasturage.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-009-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-009-p02",
+          "text": "All of a sudden, about the middle of the day, Mohammad's young companion went back alone. 'Come hither quickly!' he shouted to his father and mother, his voice hoarse with affright. 'My brother, the Quraish, having slipped away from us, according to his wont, two men, clothed all in white, seized hold of him, threw him on the ground and split his chest open.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-009-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-009-p03",
+          "text": "In mad fear, poor Halimah, followed by her husband, ran as fast as her legs would carry her, following the road pointed out by the youthful shepherd. Mohammad was found seated on the top of a hill. He was perfectly calm, but his face had taken on the sinister tint of the dust and ashes to which we must all return. They fondled him gently and put question after question to him. 'What ails thee, O child of ours? What hath befell thee?'--'While I was intent upon looking after the grazing sheep,' he replied, 'I saw two white forms appear. At first, I took them to be two great birds, but as they drew nearer, I saw my mistake: they were two men clad in tunics of dazzling whiteness.'--'Is that the boy?' said one of them to his companion, pointing to me. 'Yea! 'Tis he!' As I stood stupefied with fear, they seized me; threw me down and cut my breast open. They drew out of my heart a black clot of blood which they cast far away; and then closing up my chest, they disappeared like phantoms.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-009-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-009-p04",
+          "text": "The words of Allah, in the Qur'an, seem to allude to this incident: \"_Have we not opened thy breast for thee? * And taken off from thee thy burden. * Which galled thy back?_\" (THE QUR'AN, XCIV. 1, 2, 3).",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-009-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-009-p05",
+          "text": "This story, together with many others to be met with in the pages of this work, must be taken to be a parable, which, in this case, signifies that Allah opened Mohammad's breast when quite young, so that the joy of monotheistic truth should penetrate therein and permeate his being, relieving him of the heavy burden of idol-worship.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-009-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-009-p06",
+          "text": "Mohammad's foster-parents continued to live in a state of bewilderment and Haris said to his wife: 'I fear the boy is a prey to falling sickness, evidently due to spells cast by neighbours, jealous of the prosperity and the Blessing that the child hath brought into our tent. But whether possessed by the Evil One who conjured up this hallucination; or because, on the contrary, the boy's vision is a true one and pointeth to a glorious future, our responsibility is none the less heavy. Let us give him back to his family, before his disease becometh more violent.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-009-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-009-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "MOHAMMAD AND THE TWO ANGELS",
+          "sourceSequence": 9,
+          "sourceFingerprint": "df021595f8bcc71a23cc9b4150dfda07b82552794d5f7410f4408829ff097ae4",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 467,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    },
+    {
+      "id": "20260821-source-extract-010",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD AND THE TWO ANGELS — 010",
+      "language": "source-language-preserved",
+      "contentType": "EXTRACTED BOOK MATERIAL",
+      "section": "prophet",
+      "subsection": "research",
+      "canonicalEditorialSlot": false,
+      "draftStatus": "DRAFT_SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "publishedAt": "2026-08-21T01:34:56+00:00",
+      "paragraphs": [
+        {
+          "id": "20260821-source-extract-010-p01",
+          "text": "Halimah was regretfully obliged to agree with such wise arguments and, taking Mohammad with her, she turned in the direction of Makkah.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-010-p02",
+          "text": "The boy, now four years of age, walked by her side, and, on the outskirts of the town, they found themselves in the midst of a great crowd wending their way to the market or the Temple pilgrimage. Night had come on. Hustled in the dense throng, Halimah was soon separated from her foster-son and was unable to find him in the dark, despite her active search and desperate shouts. Without losing time, she hurried to apprise Abdul Muttalib, whose high social position made it easy for him to send out clever men on the track of his grandson, while he rode on horseback to head the searchers.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-010-p03",
+          "text": "In the Tihamah water-course, one of the trackers soon found a child seated among some shrubs. He was amusing himself by pulling the branches. 'Who art thou, child?' he was asked. 'I am Mohammad, son of Abdullah bin Abdul Muttalib.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-010-p04",
+          "text": "Well pleased at having found the boy he was looking for, the man lifted up the child and carried him to the arms of his grandfather following behind. Abdul Muttalib embraced Mohammad affectionately, sat him on the pommel of his saddle in front of him and brought him back to Makkah. To show his joy, the old man slaughtered some sheep and distributed their flesh to the poor of the city. Then, taking his grandson astride on his shoulder, he performed the ritual circuits round the Ka'bah in token of gratitude.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-010-p05",
+          "text": "Accompanied by poor Halimah, now recovered from her anguish, he led Mohammad into the presence of Aminah, his mother. After she had given way to the effusive joy of a loving mother, she turned to Halimah: 'What doth this signify? O nurse, thou wast so desirous of keeping my son by thy side, and now thou dost bring him back to me, all of a sudden?'--'I considered that he had reached an age when I could do no more for him than I have done; and fearing unlucky accidents, I bring him back to thee, knowing how thou wert longing to set eyes on him again.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-010-p06",
+          "text": "Nevertheless, perplexity and sadness were only too clearly to be read on the kind nurse's features. Not being deceived by her explanations, Aminah continued: 'Thou dost hide from me the true motive of thy return. I wait to hear thee tell the whole truth.'",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        },
+        {
+          "id": "20260821-source-extract-010-p07",
+          "text": "Halimah then thought it best to repeat what her husband had said, and Aminah's maternal pride was sorely wounded. 'Can it be that thou art afraid lest my son should fall a victim to the devil?' she quickly retorted.--'I confess that such is my fear.'--'Know then that the demon's wiles are powerless to do him harm, for a glorious destiny is in store for him.' Aminah made the nurse acquainted with the marvellous events that had happened during her pregnancy and lying-in. After having thanked and rewarded Halimah for her devotion, Aminah kept her child with her, and his health, fortified by life in the open air, had now nothing to fear from unhealthy conditions of town life.",
+          "language": "en",
+          "sourceRefs": [
+            "20260821-source-extract-010-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "whitespace-normalization",
+            "boilerplate-exclusion",
+            "source-paragraph-preservation"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-source-extract-010-source",
+          "title": "The Life of Mohammad, the Prophet of Allah",
+          "author": "Etienne Dinet; Sliman Ben Ibrahim",
+          "originalUrl": "https://www.gutenberg.org/ebooks/39523",
+          "downloadUrl": "https://raw.githubusercontent.com/GITenberg/The-Life-of-MohammadThe-Prophet-of-Allah_39523/master/39523.txt",
+          "resourceId": "dinet-life-mohammad",
+          "sourceRepository": "Project Gutenberg",
+          "sourceIdentifier": "39523",
+          "rightsEvidence": "Public domain in the USA",
+          "sourceHeading": "MOHAMMAD AND THE TWO ANGELS",
+          "sourceSequence": 10,
+          "sourceFingerprint": "300a8be1e2f8f8c507d00f52f245bfb266a8ace220c9449321002a776028710a",
+          "retrievalProvenance": "curated-public-domain-fallback",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "Exact digital source text extracted from the registered public-domain Project Gutenberg/GITenberg source; boilerplate removed and whitespace normalized only."
+        }
+      ],
+      "sourceWordCount": 532,
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": [
+        "Source-only extract. No model-authored substantive sentence or paragraph."
+      ]
+    }
+  ]
+}
