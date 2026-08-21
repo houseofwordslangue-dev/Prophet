@@ -43,13 +43,14 @@ jobs:
           assert a['target']==1000 and a['extracted']==1000 and a['complete'] is True, a
           files=glob.glob('data/editorial/drafts/2026-08-21/khadija-batch-*.json')
           rows=[]
-          for f in files: rows += json.load(open(f,encoding='utf-8'))['items']
+          for f in files: rows += json.load(open(f,encoding='utf-8'))['drafts']
           assert len(rows)==1000
           assert len({x['id'] for x in rows})==1000
           assert all(x['sourceCoveragePercent']==100 for x in rows)
           assert all(x['aiOriginalSubstantiveContentPercent']==0 for x in rows)
           assert all(x['duplicateCheck']=='PASS' and x['provenanceStatus']=='PASS' for x in rows)
-          assert all(any(k in p['text'].lower() for k in ('خديجة','خديجه','khadija','khadijah','khadidja','khadeeja','khadîdja','bint khuwaylid','bint khuwailid')) for x in rows for p in x['paragraphs'])
+          aliases=('خديجة','خديجه','khadija','khadijah','khadidja','khadeeja','khadîdja','bint khuwaylid','bint khuwailid')
+          assert all(any(k in p['text'].lower() for k in aliases) for x in rows for p in x['paragraphs'])
           print('PASS: 1000 source-only Khadija articles')
           PY
       - name: Commit extracted publication
