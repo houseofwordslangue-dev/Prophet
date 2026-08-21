@@ -79,13 +79,6 @@ function mountMobileDock(){
  if(document.querySelector('.pm-mobile-dock'))return;
  const dock=document.createElement('nav');dock.className='pm-mobile-dock';dock.setAttribute('aria-label','وصول سريع');dock.innerHTML='<a href="editorial.html"><span>⌂</span><small>الرئيسية</small></a><button type="button" data-open-command><span>⌕</span><small>بحث</small></button><a href="library.html"><span>▤</span><small>المكتبة</small></a><a href="media.html"><span>▷</span><small>الوسائط</small></a>';document.body.appendChild(dock);
 }
-function rememberVisit(){
- try{
-   const title=(document.querySelector('h1')||{}).textContent||document.title;if(!title)return;
-   const current={title:title.trim().slice(0,100),url:location.pathname+location.search,ts:Date.now()};
-   const old=JSON.parse(localStorage.getItem('pm-recent')||'[]').filter(x=>x&&x.url!==current.url).slice(0,5);localStorage.setItem('pm-recent',JSON.stringify([current,...old]));
- }catch(e){}
-}
 function relabel(){
  document.querySelectorAll('#sectionFilter option').forEach(o=>{if(LABELS[o.value])o.textContent=LABELS[o.value]});
  document.querySelectorAll('.ep-card .meta,.ep-article .meta').forEach(el=>{for(const [k,v] of Object.entries(LABELS)){if(el.textContent.startsWith(k+' ·'))el.textContent=v+el.textContent.slice(k.length)}});
@@ -109,5 +102,5 @@ function applyQuery(){
  const type=q.get('type');if(type&&document.getElementById('mediaFilter')){const f=document.getElementById('mediaFilter');if([...f.options].some(o=>o.value===type)){f.value=type;f.dispatchEvent(new Event('change'))}}
 }
 function observe(){relabel();sourceOnlyPublicView();const mo=new MutationObserver(()=>{relabel();sourceOnlyPublicView()});mo.observe(document.documentElement,{subtree:true,childList:true,characterData:true});setTimeout(()=>mo.disconnect(),30000)}
-document.addEventListener('DOMContentLoaded',()=>{mount();mountCommand();mountReadingProgress();mountMobileDock();rememberVisit();applyQuery();observe()});
+document.addEventListener('DOMContentLoaded',()=>{mount();mountCommand();mountReadingProgress();mountMobileDock();applyQuery();observe()});
 })();
