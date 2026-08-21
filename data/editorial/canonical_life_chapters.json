@@ -1,13 +1,14 @@
 {
-  "schema": "canonical-life-chapters-index-v2",
-  "generatedAt": "2026-08-21T22:21:29.309015Z",
+  "schema": "canonical-life-chapters-index-v3",
+  "generatedAt": "2026-08-21T22:24:22.318085Z",
   "policy": {
     "onePersonOneBiography": true,
     "lifeBiographyArticlesLiveOnlyOnPersonPage": true,
     "thematicArticlesRemainInSections": true,
     "sourceProvenancePreserved": true,
     "localizedDisplayOnly": true,
-    "perPersonLazyLoading": true
+    "perPersonLazyLoading": true,
+    "nonEmptyBodiesRequired": true
   },
   "personCount": 116,
   "chapterCount": 1575,

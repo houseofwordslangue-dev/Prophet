@@ -1,6 +1,6 @@
 {
-  "schema": "person-life-relocation-audit-v2",
-  "generatedAt": "2026-08-21T22:21:29.343596Z",
+  "schema": "person-life-relocation-audit-v3",
+  "generatedAt": "2026-08-21T22:24:22.351643Z",
   "recordsScanned": 5197,
   "peopleAffected": 116,
   "lifeRecordsRelocated": 1575,
@@ -8,10 +8,7 @@
   "languageCounts": {
     "ar": 1575
   },
-  "previousSectionCounts": {
-    "prophetic-family": 435,
-    "prophetic-household": 1140
-  },
+  "previousSectionCounts": {},
   "unresolvedLifeRecords": [
     {
       "path": "data/editorial/drafts/2026-08-20/batch-02.json",
@@ -879,6 +876,7 @@
       "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 13"
     }
   ],
+  "emptyRelocatedBodies": [],
   "remainingLifeRecordsOutsidePersonPages": [],
   "missingPerPersonFiles": [],
   "complete": true
