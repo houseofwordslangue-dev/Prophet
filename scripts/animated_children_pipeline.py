@@ -7,6 +7,7 @@ import animated_children_story_writer as story_writer
 import animated_children_story_diversifier as diversifier
 import animated_children_subplots as subplots
 import animated_children_targeted_distinctions as targeted
+import animated_children_french_polish as french_polish
 import animated_children_source_inspiration as source_inspiration
 
 _ORIGINAL_SVG=base.svg_art
@@ -51,8 +52,10 @@ def _editorial_gate(s:dict)->None:
             normalized=[re.sub(r'[^\w\u0600-\u06ff]+','',x.lower()) for x in sentences]
             if normalized and len(set(normalized))/len(normalized)<0.92:
                 raise SystemExit(f'{sid}: repeated-sentence padding in {lang} scene {block.get("sceneNumber")}')
-    fr=' '.join([s.get('synopsisFr',''),s.get('moralFr','')] + [x.get('text','') for x in s.get('storyFr') or []])
+    fr=' '.join([s.get('titleFr',''),s.get('synopsisFr',''),s.get('moralFr','')] + [x.get('text','') for x in s.get('storyFr') or []])
     if re.search(r'[\u0600-\u06ff]',fr): raise SystemExit(f'{sid}: Arabic leakage into French narrative')
+    if 'lorsque un ' in fr or 'lorsque une ' in fr or 'devient réelle' in s.get('moralFr','') and s.get('category') in {'courage','nature','forgiveness'}:
+        raise SystemExit(f'{sid}: recurrent French grammar defect')
     titles=[x.get('sceneTitle','') for x in s.get('scenes') or []]
     if len(titles)!=10 or len(set(titles))!=10: raise SystemExit(f'{sid}: expected ten distinct narrative beats')
     if not all(x.get('storySpecificMethod') and x.get('storySpecificConstraint') and x.get('storySpecificOutcome') and x.get('subplotBeat') for x in s.get('scenes') or []):
@@ -79,6 +82,7 @@ def build()->None:
             s=diversifier.diversify(s,i)
             s=subplots.apply(s,i)
             s=targeted.apply(s,i)
+            s=french_polish.apply(s,i)
             s=source_inspiration.apply(s)
             batch.append(s)
         _structural_batch_gate(batch,batch_no)
@@ -88,7 +92,7 @@ def build()->None:
     if errors:
         print('\n'.join(errors[:100])); raise SystemExit(1)
     base.write_outputs(stories)
-    print('PASS: 100 resource-inspired fictional stories; unique events and subplots; no repetition padding; AR/EN/FR; similarity<=0.70')
+    print('PASS: 100 resource-inspired fictional stories; unique events/subplots; French polished; no repetition padding; AR/EN/FR; similarity<=0.70')
 
 def validate_only()->None:
     stories=[]
@@ -99,7 +103,7 @@ def validate_only()->None:
     if errors:
         print('\n'.join(errors[:100])); raise SystemExit(1)
     for batch_no,start in enumerate(range(0,100,20),1): _structural_batch_gate(stories[start:start+20],batch_no)
-    print('PASS: 100 editorially revised stories; resource-inspired motifs; distinct events/subplots; no repetition padding')
+    print('PASS: 100 editorially revised stories; resource-inspired motifs; distinct events/subplots; French polished; no repetition padding')
 
 def main()->None:
     ap=argparse.ArgumentParser(); ap.add_argument('--validate-only',action='store_true'); args=ap.parse_args()
