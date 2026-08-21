@@ -37,3 +37,4 @@ jobs:
             data/editorial/empty_biographies_audit.json
             data/editorial/person_biography_repairs_raw.json
             data/editorial/empty_biography_source_candidates.json
+          if-no-files-found: error
