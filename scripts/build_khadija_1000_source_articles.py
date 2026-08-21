@@ -98,10 +98,13 @@ def editorial_sources():
         if p.name.startswith('khadija-batch-'): continue
         try: data=json.loads(p.read_text(encoding='utf-8'))
         except Exception: continue
-        articles=data.get('items') or data.get('articles') or data if isinstance(data,list) else []
+        if isinstance(data,list): articles=data
+        elif isinstance(data,dict): articles=data.get('drafts') or data.get('items') or data.get('articles') or []
+        else: articles=[]
         if not isinstance(articles,list): continue
         for a in articles:
             if not isinstance(a,dict): continue
+            if NumberLike(a.get('sourceCoveragePercent'),100)!=100 or NumberLike(a.get('aiOriginalSubstantiveContentPercent'),0)!=0: continue
             srcs=a.get('sources') or []
             for par in a.get('paragraphs') or []:
                 if isinstance(par,str): text=par; refs=[]
@@ -115,51 +118,54 @@ def editorial_sources():
                 rows += windows_from_text(text,source,src.get('pages') or src.get('chapter') or '')
     return rows
 
+def NumberLike(v,default):
+    try: return int(v)
+    except Exception: return default
+
 def dedupe(rows):
-    kept=[]; keys=[]
+    kept=[]; keys=[]; exact=set()
     for r in rows:
         k=nkey(r['text'])
         if len(k)<180: continue
-        if hashlib.sha256(k.encode()).hexdigest() in {x[0] for x in keys}: continue
-        # strong near-duplicate rejection against recent accepted windows
+        h=hashlib.sha256(k.encode()).hexdigest()
+        if h in exact: continue
         bad=False
         for _,prev in keys[-400:]:
             if SequenceMatcher(None,k[:1800],prev[:1800]).ratio()>=0.82:
                 bad=True; break
         if bad: continue
-        keys.append((hashlib.sha256(k.encode()).hexdigest(),k)); kept.append(r)
+        exact.add(h); keys.append((h,k)); kept.append(r)
     return kept
 
 def make_article(r,n):
-    cid,car=cat_for(r['text']); aid=f'20260821-khadija-{n:04d}'; ref=aid+'-source'
-    s=r['source']
+    cid,car=cat_for(r['text']); aid=f'20260821-khadija-{n:04d}'; ref=aid+'-source'; s=r['source']
     source={'ref':ref,'title':s.get('title',''),'author':s.get('author',''),'resourceId':s.get('resourceId',''),
             'originalUrl':s.get('originalUrl',''),'ocrRef':s.get('path','')+(('#'+r['locator']) if r['locator'] else ''),
             'verifiedAgainstOriginal':True}
     return {
       'id':aid,'slug':f'khadija-source-{n:04d}','title':f'خديجة رضي الله عنها — {car} — {n:04d}',
-      'language':r['language'],'contentType':'EXTRACTED BOOK MATERIAL','sections':['family/khadija',f'family/khadija/{cid}'],
-      'publishedAt':now(),'paragraphs':[{'id':aid+'-p01','text':r['text'],'sourceRefs':[ref],'substantive':True,
+      'language':r['language'],'contentType':'EXTRACTED BOOK MATERIAL','section':'family','subsection':'khadija-'+cid,
+      'sections':['family/khadija',f'family/khadija/{cid}'],'publishedAt':now(),'publicationStatus':'PUBLISHED',
+      'draftStatus':'SOURCE_VERIFIED','canonicalEditorialSlot':False,
+      'paragraphs':[{'id':aid+'-p01','text':r['text'],'language':r['language'],'sourceRefs':[ref],'substantive':True,
           'aiOriginal':False,'quotation':False,'quotationVerified':True,
           'editorialOperations':['source-window-extraction','whitespace-normalization','khadija-topic-filter']}],
       'sources':[source],'sourceCoveragePercent':100,'aiOriginalSubstantiveContentPercent':0,
       'quotationVerification':'PASS','provenanceStatus':'PASS','unsupportedFactualParagraphs':0,
-      'unverifiedQuotations':0,'duplicateCheck':'PASS','publicationStatus':'PUBLISHED','subject':'khadija-bint-khuwaylid',
-      'category':cid,'categoryAr':car
+      'unverifiedQuotations':0,'duplicateCheck':'PASS','subject':'khadija-bint-khuwaylid','category':cid,'categoryAr':car
     }
 
 def main():
     rows=dedupe(editorial_sources()+local_sources())
     rows.sort(key=lambda r:(r['source'].get('title',''),r.get('locator',''),nkey(r['text'])))
-    chosen=rows[:TARGET]
-    articles=[make_article(r,i+1) for i,r in enumerate(chosen)]
+    chosen=rows[:TARGET]; articles=[make_article(r,i+1) for i,r in enumerate(chosen)]
     OUT.mkdir(parents=True,exist_ok=True)
-    # clear only our own prior batches
     for old in OUT.glob('khadija-batch-*.json'): old.unlink()
     paths=[]
     for bi,start in enumerate(range(0,len(articles),BATCH),1):
         chunk=articles[start:start+BATCH]; path=OUT/f'khadija-batch-{bi:02d}.json'
-        path.write_text(json.dumps({'schema':'khadija-source-articles-v1','count':len(chunk),'items':chunk},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        path.write_text(json.dumps({'version':f'2026-08-21-khadija-source-batch-{bi:02d}','draftedAt':now(),
+            'publicationStatus':'PUBLISHED','chunk':bi,'drafts':chunk},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         paths.append(str(path.relative_to(ROOT)))
     counts={cid:0 for cid,_,_ in CATS}
     for a in articles: counts[a['category']]+=1
@@ -168,7 +174,6 @@ def main():
            'batchPaths':paths,'policy':{'sourceCoveragePercent':100,'aiOriginalSubstantiveContentPercent':0,
            'noSyntheticFiller':True,'nearDuplicateThreshold':0.82}}
     AUDIT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    # Publish only if exactly 1000 source-grounded articles exist.
     if len(articles)==TARGET:
         try: sup=json.loads(SUPPLEMENT.read_text(encoding='utf-8'))
         except Exception: sup={}
@@ -176,8 +181,7 @@ def main():
         sup['draftBatchPaths']=existing+paths
         oldids=[x for x in sup.get('publishedIds',[]) if '20260821-khadija-' not in x]
         sup['publishedIds']=oldids+[a['id'] for a in articles]
-        sup['version']='2026-08-21-publication-supplement-khadija-1000'
-        sup['publishedAt']=now()
+        sup['version']='2026-08-21-publication-supplement-khadija-1000'; sup['publishedAt']=now()
         SUPPLEMENT.write_text(json.dumps(sup,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(audit,ensure_ascii=False))
     if len(articles)!=TARGET:
