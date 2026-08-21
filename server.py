@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
 import json
 import mimetypes
 import os
@@ -8,6 +9,7 @@ import re
 import subprocess
 import sys
 import threading
+import time
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -18,6 +20,7 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data" / "imported_media.json"
 EPUB_INDEX = ROOT / "data" / "generated_epubs.json"
 CACHE = ROOT / "media-cache"
+TELEMETRY = ROOT / "data" / "runtime_telemetry.ndjson"
 CACHE.mkdir(parents=True, exist_ok=True)
 HOST = os.getenv("PM_HOST", "127.0.0.1")
 PORT = int(os.getenv("PM_PORT", "8080"))
@@ -114,13 +117,7 @@ def _yt_info(item: dict) -> dict:
         raise RuntimeError("media source URL missing")
     audio_only = _medium(item) in {"audio", "podcast"}
     fmt = "bestaudio/best" if audio_only else "best[ext=mp4][protocol^=http]/best[protocol^=http]/best"
-    opts = {
-        "quiet": True,
-        "skip_download": True,
-        "noplaylist": True,
-        "format": fmt,
-        "socket_timeout": 30,
-    }
+    opts = {"quiet": True, "skip_download": True, "noplaylist": True, "format": fmt, "socket_timeout": 30}
     with yt_dlp.YoutubeDL(opts) as ydl:
         info = ydl.extract_info(url, download=False)
     if not info:
@@ -153,16 +150,7 @@ def _cache_item(item: dict) -> None:
         import yt_dlp
         audio_only = _medium(item) in {"audio", "podcast"}
         stem = str(CACHE / _safe_id(item_id))
-        opts = {
-            "quiet": True,
-            "noplaylist": True,
-            "outtmpl": stem + ".%(ext)s",
-            "socket_timeout": 30,
-            "retries": 3,
-            "fragment_retries": 3,
-            "format": "bestaudio/best" if audio_only else "bestvideo[height<=720]+bestaudio/best[height<=720]/best",
-            "merge_output_format": "mp4" if not audio_only else None,
-        }
+        opts = {"quiet": True, "noplaylist": True, "outtmpl": stem + ".%(ext)s", "socket_timeout": 30, "retries": 3, "fragment_retries": 3, "format": "bestaudio/best" if audio_only else "bestvideo[height<=720]+bestaudio/best[height<=720]/best", "merge_output_format": "mp4" if not audio_only else None}
         with yt_dlp.YoutubeDL(opts) as ydl:
             ydl.download([str(item.get("url") or item.get("embed") or "")])
     except Exception as exc:
@@ -174,6 +162,44 @@ def _cache_item(item: dict) -> None:
 
 def _start_cache(item: dict) -> None:
     threading.Thread(target=_cache_item, args=(item,), daemon=True, name="media-cache").start()
+
+
+def _mirror_candidates(item: dict) -> list[str]:
+    vals = [item.get("localUrl"), item.get("cachedUrl"), item.get("video"), item.get("audio"), item.get("url"), item.get("sourceUrl")]
+    vals.extend(item.get("sourceCandidates") or [])
+    vals.extend(item.get("mirrors") or [])
+    out = []
+    for v in vals:
+        if isinstance(v, dict):
+            v = v.get("url")
+        if v and str(v) not in out:
+            out.append(str(v))
+    return out
+
+
+def _probe(url: str) -> dict:
+    if url.startswith("/"):
+        p = ROOT / url.lstrip("/")
+        return {"url": url, "ok": p.exists(), "latencyMs": 0, "local": True}
+    started = time.perf_counter()
+    try:
+        req = Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(req, timeout=4) as r:
+            ok = 200 <= getattr(r, "status", 200) < 500
+        return {"url": url, "ok": ok, "latencyMs": round((time.perf_counter() - started) * 1000)}
+    except Exception as exc:
+        return {"url": url, "ok": False, "latencyMs": round((time.perf_counter() - started) * 1000), "error": str(exc)[:180]}
+
+
+def _sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        while True:
+            chunk = f.read(1024 * 1024)
+            if not chunk:
+                break
+            h.update(chunk)
+    return h.hexdigest()
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -199,10 +225,41 @@ class Handler(SimpleHTTPRequestHandler):
                 if m in counts:
                     counts[m] += 1
             return self._json({"ok": True, "total": len(items), "categories": counts})
+        if parsed.path == "/api/media/mirrors":
+            item_id = (parse_qs(parsed.query).get("id") or [""])[0]
+            with _MEDIA_LOCK:
+                item = _MEDIA_BY_ID.get(item_id)
+            if not item:
+                return self._json({"ok": False, "error": "unknown media id"}, 404)
+            rows = [_probe(u) for u in _mirror_candidates(item)[:12]]
+            rows.sort(key=lambda x: (not x.get("ok"), x.get("latencyMs", 999999)))
+            return self._json({"ok": True, "mirrors": rows})
+        if parsed.path == "/api/media/integrity":
+            item_id = (parse_qs(parsed.query).get("id") or [""])[0]
+            cached = _cached_file(item_id)
+            if not cached:
+                return self._json({"ok": False, "error": "cached asset unavailable"}, 404)
+            return self._json({"ok": True, "id": item_id, "file": cached.name, "sha256": _sha256(cached), "bytes": cached.stat().st_size})
         if parsed.path == "/api/media/stream":
             item_id = (parse_qs(parsed.query).get("id") or [""])[0]
             return self._media_stream(item_id)
         return super().do_GET()
+
+    def do_POST(self):
+        parsed = urlparse(self.path)
+        if parsed.path == "/api/telemetry":
+            try:
+                n = min(int(self.headers.get("Content-Length") or 0), 65536)
+                raw = self.rfile.read(n).decode("utf-8", "replace")
+                data = json.loads(raw or "{}")
+                data["serverTs"] = int(time.time() * 1000)
+                TELEMETRY.parent.mkdir(parents=True, exist_ok=True)
+                with TELEMETRY.open("a", encoding="utf-8") as f:
+                    f.write(json.dumps(data, ensure_ascii=False) + "\n")
+                return self._json({"ok": True})
+            except Exception as exc:
+                return self._json({"ok": False, "error": str(exc)}, 400)
+        return self._json({"ok": False, "error": "unknown endpoint"}, 404)
 
     def _json(self, data: dict, status: int = 200):
         payload = json.dumps(data, ensure_ascii=False).encode("utf-8")
