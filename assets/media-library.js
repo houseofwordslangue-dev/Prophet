@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const DATA='data/imported_media.json',CHILD_SOURCES='data/children_media_sources.json';
+const DATA='data/imported_media.json',CHILD_SOURCES='data/children/media-sources.json';
 const labels={video:'فيديوهات',lecture:'محاضرات',podcast:'بودكاست',research:'أبحاث',documentary:'وثائقيات',audio:'صوتيات'};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\u064B-\u065F\u0670]/g,'').replace(/[إأآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه');
