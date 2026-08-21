@@ -22,23 +22,26 @@ API = "https://ar.wikisource.org/w/api.php"
 PREFIX = "سير أعلام النبلاء/"
 SOURCE_TITLE = "سير أعلام النبلاء"
 SOURCE_AUTHOR = "الذهبي"
-USER_AGENT = "ProphetBiographySourceIndexer/1.0 (+https://github.com/houseofwordslangue-dev/Prophet)"
+USER_AGENT = "ProphetBiographySourceIndexer/1.1 (+https://github.com/houseofwordslangue-dev/Prophet)"
 
 AR_DIACRITICS = re.compile(r"[\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06edـ]")
 BAD_SUFFIX = re.compile(r"^(?:الجزء|المقدمة|مقدمة|فهرس|باب|كتاب|صفحة|ملحق|تصنيف)")
 
 
-def get_json(params: dict, retries: int = 4):
+def get_json(params: dict, retries: int = 5):
     qs = urllib.parse.urlencode(params)
-    req = urllib.request.Request(API + "?" + qs, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(
+        API + "?" + qs,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+    )
     last = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=35) as r:
+            with urllib.request.urlopen(req, timeout=45) as r:
                 return json.load(r)
         except Exception as e:
             last = e
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(2 * (attempt + 1))
     raise RuntimeError(f"MediaWiki API failed: {last}")
 
 
@@ -55,8 +58,28 @@ def words(text: str):
     return [x for x in re.split(r"\s+", text.strip()) if x]
 
 
-def clean_extract(text: str, name: str) -> str:
+def strip_wikitext(text: str) -> str:
     text = html.unescape(text or "")
+    text = re.sub(r"<!--.*?-->", " ", text, flags=re.S)
+    text = re.sub(r"<ref\b[^>]*>.*?</ref>|<ref\b[^>]*/>", " ", text, flags=re.S | re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    # Remove templates conservatively, including common nested template remnants.
+    for _ in range(6):
+        new = re.sub(r"\{\{[^{}]*\}\}", " ", text, flags=re.S)
+        if new == text:
+            break
+        text = new
+    text = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", text)
+    text = re.sub(r"\[(?:https?://\S+)\s*([^\]]*)\]", r"\1", text)
+    text = re.sub(r"^\s*[|!].*$", " ", text, flags=re.M)
+    text = re.sub(r"\{\||\|\}", " ", text)
+    text = re.sub(r"={2,}\s*(.*?)\s*={2,}", r"\1", text)
+    text = text.replace("'''", "").replace("''", "")
+    return text
+
+
+def clean_extract(text: str, name: str) -> str:
+    text = strip_wikitext(text)
     lines = []
     for raw in text.splitlines():
         line = re.sub(r"\s+", " ", raw).strip()
@@ -130,11 +153,13 @@ def list_titles(limit: int = 5000):
 
 
 def fetch_extracts(titles: list[str]):
+    # Use core revisions/wikitext API rather than the optional TextExtracts
+    # extension, which is not consistently enabled on Wikisource projects.
     data = get_json({
         "action": "query",
-        "prop": "extracts",
-        "explaintext": 1,
-        "exsectionformat": "plain",
+        "prop": "revisions",
+        "rvprop": "content",
+        "rvslots": "main",
         "redirects": 1,
         "titles": "|".join(titles),
         "format": "json",
@@ -143,7 +168,13 @@ def fetch_extracts(titles: list[str]):
     found = {}
     for p in data.get("query", {}).get("pages", []):
         title = p.get("title") or ""
-        found[title] = p.get("extract") or ""
+        revs = p.get("revisions") or []
+        content = ""
+        if revs:
+            slots = revs[0].get("slots") or {}
+            main = slots.get("main") or {}
+            content = main.get("content") or main.get("*") or revs[0].get("*") or ""
+        found[title] = content
     return found
 
 
@@ -160,13 +191,17 @@ def main():
     current_names = {norm_ar((v or {}).get("nameAr") or "") for v in current_people.values()}
     current_ids = set(current_people.keys())
     existing_name_map = {}
+    existing_ids = set()
     for idx, row in enumerate(people):
         nm = norm_ar(name_ar(row))
+        pid0 = str(row.get("id") or row.get("slug") or "").strip()
+        if pid0:
+            existing_ids.add(pid0)
         if nm and nm not in existing_name_map:
             existing_name_map[nm] = idx
 
     titles = list_titles()
-    # Deterministic broad sampling rather than alphabetically clustering on one initial letter.
+    print(f"Wikisource candidate titles: {len(titles)}")
     titles = sorted(set(titles), key=lambda x: hashlib.sha256(x.encode("utf-8")).hexdigest())
 
     chosen = []
@@ -192,6 +227,9 @@ def main():
                 pid = "siyar-" + hashlib.sha1(title.encode("utf-8")).hexdigest()[:14]
             if not pid or pid in used_ids:
                 continue
+            # A generated new ID must not collide with any existing person ID.
+            if existing_idx is None and pid in existing_ids:
+                continue
             chosen.append((pid, suffix, title, text, wc, existing_idx))
             used_names.add(nn)
             used_ids.add(pid)
@@ -202,7 +240,7 @@ def main():
         time.sleep(0.08)
 
     if len(chosen) != TARGET:
-        raise SystemExit(f"Could only source {len(chosen)}/{TARGET} new distinct biographies")
+        raise SystemExit(f"Could only source {len(chosen)}/{TARGET} new distinct biographies from {len(titles)} candidate titles")
 
     new_ids = []
     for pid, nm, title, text, wc, existing_idx in chosen:
@@ -240,7 +278,6 @@ def main():
             old = people[existing_idx]
             merged = dict(old)
             merged.update(entry)
-            # Preserve richer translations if already present.
             old_name = old.get("name") or {}
             if isinstance(old_name, dict):
                 merged["name"] = {
@@ -252,6 +289,7 @@ def main():
         else:
             people.append(entry)
             existing_name_map[norm_ar(nm)] = len(people) - 1
+            existing_ids.add(pid)
         new_ids.append(pid)
 
     people_doc["people"] = people
@@ -266,22 +304,29 @@ def main():
 
     counts = [x[4] for x in chosen]
     audit = {
-        "schema": "expanded-biographies-135-audit-v1",
+        "schema": "expanded-biographies-135-audit-v2",
         "target": TARGET,
         "added": len(chosen),
         "previousCanonicalRequired": len(current_people),
         "projectedCanonicalTotal": len(current_people) + len(chosen),
+        "candidateTitleCount": len(titles),
         "duplicateAgainstPreviousIds": len(set(new_ids) & current_ids),
         "duplicateWithinNewIds": len(new_ids) - len(set(new_ids)),
         "duplicateWithinNewNames": len(chosen) - len(used_names),
         "minimumSourceWords": min(counts),
         "maximumSourceWords": max(counts),
         "requiredMinimumWords": MIN_WORDS,
-        "source": {"title": SOURCE_TITLE, "author": SOURCE_AUTHOR, "mirror": "Arabic Wikisource"},
+        "source": {"title": SOURCE_TITLE, "author": SOURCE_AUTHOR, "mirror": "Arabic Wikisource", "api": "core-revisions"},
         "aiOriginalSubstantiveContentPercent": 0,
         "sourceCoveragePercent": 100,
         "newIds": new_ids,
-        "complete": len(chosen) == TARGET and not (set(new_ids) & current_ids) and len(new_ids) == len(set(new_ids)),
+        "complete": (
+            len(chosen) == TARGET
+            and not (set(new_ids) & current_ids)
+            and len(new_ids) == len(set(new_ids))
+            and len(chosen) == len(used_names)
+            and min(counts) >= MIN_WORDS
+        ),
     }
     AUDIT.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(audit, ensure_ascii=False))
