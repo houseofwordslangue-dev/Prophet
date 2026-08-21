@@ -27,11 +27,24 @@ def person_of(r):
 def title_of(r):
  t=r.get('title') or r.get('headline') or ''
  return ' '.join(str(x) for x in t.values()) if isinstance(t,dict) else str(t)
+def flatten_text(v):
+ if isinstance(v,str):return v.strip()
+ if isinstance(v,list):
+  parts=[]
+  for x in v:
+   if isinstance(x,str) and x.strip():parts.append(x.strip())
+   elif isinstance(x,dict):
+    for k in ('text','body','content','paragraph'):
+     if isinstance(x.get(k),str) and x[k].strip():parts.append(x[k].strip());break
+  return '\n\n'.join(parts)
+ if isinstance(v,dict):
+  for k in ('text','body','content'):
+   if isinstance(v.get(k),str) and v[k].strip():return v[k].strip()
+ return ''
 def body_of(r):
- for k in ('body','content','text','articleBody','bodyAr'):
-  v=r.get(k)
-  if isinstance(v,str) and v.strip():return v.strip()
-  if isinstance(v,list) and v:return '\n\n'.join(str(x) for x in v if str(x).strip())
+ for k in ('body','content','text','articleBody','bodyAr','paragraphs'):
+  text=flatten_text(r.get(k))
+  if text:return text
  return ''
 def language_of(r,body):
  x=str(r.get('language') or r.get('lang') or '').lower().strip()
@@ -62,29 +75,33 @@ def main():
    person=person_of(r)
    if not person:unresolved.append({'path':str(path.relative_to(ROOT)),'id':r.get('id'),'title':title_of(r)});continue
    groups[person[0]].append((path,r,person[1]))
- changed=set();people={};old_sections=Counter();total_words=0;lang_counts=Counter();total_chapters=0
+ changed=set();people={};old_sections=Counter();total_words=0;lang_counts=Counter();total_chapters=0;empty_bodies=[]
  if PER_DIR.exists():shutil.rmtree(PER_DIR)
  PER_DIR.mkdir(parents=True,exist_ok=True)
  for pid,items in sorted(groups.items()):
   names=Counter(n for _,_,n in items);name=names.most_common(1)[0][0] if names else pid;curl=canonical_url(pid,name);ids=[];paths=set();words=0;chapters=[];person_langs=Counter()
   for path,r,_ in items:
    prev={'section':r.get('section'),'sections':r.get('sections'),'subsection':r.get('subsection'),'editorialCategory':r.get('editorialCategory'),'articleKind':r.get('articleKind'),'publicRole':r.get('publicRole')}
-   if r.get('section'):old_sections[str(r['section'])]+=1
-   body=body_of(r);wc=int(r.get('wordCount') or len(body.split()));lang=language_of(r,body);lang_counts[lang]+=1;person_langs[lang]+=1;words+=wc;total_words+=wc;total_chapters+=1
-   chapters.append({'id':r.get('id'),'language':lang,'title':r.get('title'),'body':body,'wordCount':wc,'sources':r.get('sources') or r.get('sourceRefs') or r.get('references') or [],'provenance':r.get('provenance') or r.get('source') or {},'sourcePath':str(path.relative_to(ROOT)),'previousPlacement':prev});ids.append(r.get('id'));paths.add(str(path.relative_to(ROOT)))
-   r['previousPlacement']=prev;r['section']='canonical-person-biography';r['sections']=[];r['subsection']='life-chapters';r['articleKind']='canonical-biography-chapter';r['editorialCategory']='canonical-biography';r['publicRole']='canonical-biography-chapter';r['biographyPlacement']=True;r['canonicalEditorialSlot']=True;r['publicListing']=False;r['relocatedToCanonicalBiography']=True;r['relocatedAt']=now();r['canonicalPersonId']=pid;r['canonicalPersonName']=name;r['canonicalPersonUrl']=curl
+   if r.get('section') and r.get('section')!='canonical-person-biography':old_sections[str(r['section'])]+=1
+   body=body_of(r);wc=len(body.split()) if body else 0
+   declared=int(r.get('wordCount') or 0)
+   if not body:empty_bodies.append({'path':str(path.relative_to(ROOT)),'id':r.get('id'),'title':title_of(r),'declaredWordCount':declared})
+   lang=language_of(r,body);lang_counts[lang]+=1;person_langs[lang]+=1;words+=wc;total_words+=wc;total_chapters+=1
+   chapters.append({'id':r.get('id'),'language':lang,'title':r.get('title'),'body':body,'wordCount':wc,'declaredWordCount':declared,'sources':r.get('sources') or r.get('sourceRefs') or r.get('references') or [],'provenance':r.get('provenance') or r.get('source') or {},'sourcePath':str(path.relative_to(ROOT)),'previousPlacement':r.get('previousPlacement') or prev});ids.append(r.get('id'));paths.add(str(path.relative_to(ROOT)))
+   if not r.get('previousPlacement'):r['previousPlacement']=prev
+   r['section']='canonical-person-biography';r['sections']=[];r['subsection']='life-chapters';r['articleKind']='canonical-biography-chapter';r['editorialCategory']='canonical-biography';r['publicRole']='canonical-biography-chapter';r['biographyPlacement']=True;r['canonicalEditorialSlot']=True;r['publicListing']=False;r['relocatedToCanonicalBiography']=True;r['relocatedAt']=now();r['canonicalPersonId']=pid;r['canonicalPersonName']=name;r['canonicalPersonUrl']=curl
    rel=r.get('relatedPerson')
    if isinstance(rel,dict):rel['canonicalUrl']=curl;rel['canonicalBiography']=True
    changed.add(path)
-  fn=safe_name(pid)+'.json';relfile=f'data/editorial/canonical-life/{fn}';(PER_DIR/fn).write_text(json.dumps({'schema':'canonical-person-life-chapters-v1','personId':pid,'personName':name,'canonicalUrl':curl,'chapterCount':len(chapters),'languageCounts':dict(person_langs),'chapters':chapters},ensure_ascii=False,indent=2)+'\n',encoding='utf-8');people[pid]={'id':pid,'nameAr':name,'canonicalUrl':curl,'chapterCount':len(items),'languageCounts':dict(person_langs),'chapterIds':ids,'sourceBatchPaths':sorted(paths),'totalWords':words,'file':relfile}
+  fn=safe_name(pid)+'.json';relfile=f'data/editorial/canonical-life/{fn}';(PER_DIR/fn).write_text(json.dumps({'schema':'canonical-person-life-chapters-v2','personId':pid,'personName':name,'canonicalUrl':curl,'chapterCount':len(chapters),'languageCounts':dict(person_langs),'chapters':chapters},ensure_ascii=False,indent=2)+'\n',encoding='utf-8');people[pid]={'id':pid,'nameAr':name,'canonicalUrl':curl,'chapterCount':len(items),'languageCounts':dict(person_langs),'chapterIds':ids,'sourceBatchPaths':sorted(paths),'totalWords':words,'file':relfile}
  for path in sorted(changed):path.write_text(json.dumps(payloads[path],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- OUT.write_text(json.dumps({'schema':'canonical-life-chapters-index-v2','generatedAt':now(),'policy':{'onePersonOneBiography':True,'lifeBiographyArticlesLiveOnlyOnPersonPage':True,'thematicArticlesRemainInSections':True,'sourceProvenancePreserved':True,'localizedDisplayOnly':True,'perPersonLazyLoading':True},'personCount':len(people),'chapterCount':total_chapters,'languageCounts':dict(lang_counts),'people':people},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ OUT.write_text(json.dumps({'schema':'canonical-life-chapters-index-v3','generatedAt':now(),'policy':{'onePersonOneBiography':True,'lifeBiographyArticlesLiveOnlyOnPersonPage':True,'thematicArticlesRemainInSections':True,'sourceProvenancePreserved':True,'localizedDisplayOnly':True,'perPersonLazyLoading':True,'nonEmptyBodiesRequired':True},'personCount':len(people),'chapterCount':total_chapters,'languageCounts':dict(lang_counts),'people':people},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  remaining=[]
  for path in files:
   payload=payloads.get(path) or read(path)
   for r in rows_of(payload):
    if isinstance(r,dict) and life_intent(r) and person_of(r) and (r.get('section')!='canonical-person-biography' or r.get('publicListing') is not False):remaining.append({'path':str(path.relative_to(ROOT)),'id':r.get('id'),'title':title_of(r),'section':r.get('section')})
  missing_files=[pid for pid,p in people.items() if not (ROOT/p['file']).exists()]
- audit={'schema':'person-life-relocation-audit-v2','generatedAt':now(),'recordsScanned':scanned,'peopleAffected':len(people),'lifeRecordsRelocated':total_chapters,'totalRelocatedWords':total_words,'languageCounts':dict(lang_counts),'previousSectionCounts':dict(old_sections),'unresolvedLifeRecords':unresolved,'remainingLifeRecordsOutsidePersonPages':remaining,'missingPerPersonFiles':missing_files,'complete':len(remaining)==0 and len(missing_files)==0};AUDIT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps(audit,ensure_ascii=False))
+ audit={'schema':'person-life-relocation-audit-v3','generatedAt':now(),'recordsScanned':scanned,'peopleAffected':len(people),'lifeRecordsRelocated':total_chapters,'totalRelocatedWords':total_words,'languageCounts':dict(lang_counts),'previousSectionCounts':dict(old_sections),'unresolvedLifeRecords':unresolved,'emptyRelocatedBodies':empty_bodies,'remainingLifeRecordsOutsidePersonPages':remaining,'missingPerPersonFiles':missing_files,'complete':not remaining and not missing_files and not empty_bodies};AUDIT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps(audit,ensure_ascii=False))
  if not audit['complete']:raise SystemExit('Relocation incomplete')
 if __name__=='__main__':main()
