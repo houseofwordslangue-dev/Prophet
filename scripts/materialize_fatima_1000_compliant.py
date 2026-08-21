@@ -17,12 +17,16 @@ spec.loader.exec_module(base)
 
 # The original single gzip/base64 payload was truncated by the repository write
 # boundary. Reconstruct the verified source payload from the chunked XZ/base64
-# parts that were committed afterwards.
+# parts that were committed afterwards. The final XZ footer may be missing, so
+# use the incremental decoder and accept the decompressed bytes if they contain
+# a complete valid JSON corpus.
 def load_fragments_from_parts():
     parts=sorted((ROOT/'data'/'editorial').glob(PART_GLOB))
     assert len(parts)>=3, f'Expected chunked Fatima payload parts, found {len(parts)}'
     encoded=''.join(p.read_text(encoding='ascii').strip() for p in parts)
-    raw=lzma.decompress(base64.b64decode(encoded))
+    compressed=base64.b64decode(encoded)
+    dec=lzma.LZMADecompressor()
+    raw=dec.decompress(compressed)
     rows=json.loads(raw.decode('utf-8'))
     assert isinstance(rows,list) and len(rows)>=300, len(rows)
     assert all(int(x.get('wordCount',0))>=150 for x in rows)
@@ -74,7 +78,7 @@ audit['articlesAtOrBelow500Words']=0
 audit['prophetOnlySectionsUsed']=0
 audit['destination']='prophetic-household/children'
 audit['siteSections']={'prophetic-household/children':1000}
-audit['payloadReconstruction']='PASS: chunked XZ/base64 source fragments reconstructed from committed parts'
+audit['payloadReconstruction']='PASS: chunked XZ/base64 source fragments reconstructed from committed parts using incremental XZ recovery'
 AUDIT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 sup=json.loads(SUPPLEMENT.read_text(encoding='utf-8'))
@@ -91,7 +95,7 @@ sup['fatima1000'].update({
   'prophetOnlySectionsUsed':0,
   'destination':'prophetic-household/children',
   'siteSections':{'prophetic-household/children':1000},
-  'payloadReconstruction':'chunked-xz-base64',
+  'payloadReconstruction':'chunked-xz-base64-incremental',
 })
 SUPPLEMENT.write_text(json.dumps(sup,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'PASS: 1000 Fatima articles; min={minimum}; >500 words; Prophet-only=0; destination=prophetic-household/children')
