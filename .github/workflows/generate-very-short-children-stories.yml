@@ -1,0 +1,85 @@
+name: Generate and validate 500 very-short children stories
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/generate_very_short_children_stories.py'
+      - 'children-very-short.html'
+      - 'assets/children-very-short.js'
+      - 'assets/children-very-short.css'
+      - 'children.html'
+      - '.github/workflows/generate-very-short-children-stories.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_very_short_children_stories.py'
+      - 'children-very-short.html'
+      - 'assets/children-very-short.js'
+      - 'assets/children-very-short.css'
+      - 'children.html'
+      - '.github/workflows/generate-very-short-children-stories.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: very-short-children-500-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    if: github.actor != 'very-short-children-bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate 500 very-short stories and 2,000 illustrations
+        run: python scripts/generate_very_short_children_stories.py
+      - name: Validate corpus and child-reader contract
+        run: |
+          python - <<'PY'
+          import json,pathlib,re
+          root=pathlib.Path('data/children/very-short')
+          idx=json.loads((root/'index.json').read_text(encoding='utf-8'))
+          status=json.loads((root/'status.json').read_text(encoding='utf-8'))
+          assert idx['count']==500 and idx['ageGroup']=='5-7' and idx['length']=='very-short'
+          assert idx['locales']==['ar','en','fr'] and len(idx['items'])==500
+          assert len({x['id'] for x in idx['items']})==500
+          assert set(idx['valueCounts'].values())=={50}
+          assert status['total']==500 and status['ready']==500 and status['published']==500 and status['failed']==0
+          assert status['localized']=={'ar':500,'en':500,'fr':500} and status['scenes']==2000 and status['largeType']==500
+          for x in idx['items']:
+              p=root/f"{x['id']}.json"; assert p.is_file(),p
+              d=json.loads(p.read_text(encoding='utf-8'))
+              assert d['ageGroup']=='5-7' and d['length']=='very-short' and d['readingMode']=='large-type'
+              assert d['locales']==['ar','en','fr'] and len(d['scenes'])==4
+              assert d['fictional'] is True and d['historicalClaim'] is False
+              for s in d['scenes']:
+                  assert s['textAr'] and s['textEn'] and s['textFr']
+                  art=pathlib.Path(s['image']); assert art.is_file()
+                  assert '<text' not in art.read_text(encoding='utf-8').lower()
+          html=pathlib.Path('children-very-short.html').read_text(encoding='utf-8')
+          css=pathlib.Path('assets/children-very-short.css').read_text(encoding='utf-8')
+          js=pathlib.Path('assets/children-very-short.js').read_text(encoding='utf-8')
+          assert '500' in html and '5–7' in html
+          assert 'font-size:clamp(27px' in css and 'speechSynthesis' in js
+          assert 'children-very-short.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
+          print('PASS: 500 very-short stories / ages 5–7 / AR EN FR / large type / 2,000 illustrations')
+          PY
+      - name: Materialize collection on main
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'very-short-children-bot'
+          git config user.email 'very-short-children-bot@users.noreply.github.com'
+          git add -- data/children/very-short assets/children-very-short/scenes
+          if ! git diff --cached --quiet; then
+            git commit -m 'Materialize 500 very-short stories for ages 5-7'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
