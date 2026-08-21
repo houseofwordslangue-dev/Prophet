@@ -32,7 +32,7 @@ def apply_bio(p,b):
     if str(prov or '').strip():p['professionalProvenance']=prov
     if str(ctx or '').strip():p['relationshipContext']=ctx
 def assembled():
-    a=load(Path('data/people.json'),{'people':[]});b=load(Path('data/family_people.json'),{'people':[]});g=load(Path('data/family_groups.json'),{'registry':[]});detailed=load(Path('data/family_biographies.json'),{'people':[]});required=load(Path('data/editorial/required_biographies.json'),{'people':{}});allb=load_chunks();mp={};names={}
+    a=load(Path('data/people.json'),{'people':[]});b=load(Path('data/family_people.json'),{'people':[]});g=load(Path('data/family_groups.json'),{'registry':[]});detailed=load(Path('data/family_biographies.json'),{'people':[]});required=load(Path('data/editorial/required_biographies.json'),{'people':{}});repairs=load(Path('data/editorial/biography_repairs_20260821.json'),{'people':[]});allb=load_chunks();mp={};names={}
     def add(p):
         if not isinstance(p,dict) or not p.get('id'):return
         q=dict(p);mp[q['id']]=q;nm=name_ar(q)
@@ -55,6 +55,11 @@ def assembled():
         if not p:
             nm=x.get('nameAr') or ((x.get('name') or {}).get('ar') if isinstance(x.get('name'),dict) else '');hits=names.get(norm(nm),[]);p=hits[0] if hits else None
         if p:apply_bio(p,x)
+    for x in repairs.get('people') or []:
+        p=mp.get(x.get('id'))
+        if not p:
+            hits=names.get(norm(x.get('nameAr')),[]);p=hits[0] if hits else None
+        if p:apply_bio(p,x)
     return list(mp.values()),allb.get('error')
 def nonempty_seq(v):
     if isinstance(v,str):return bool(v.strip())
@@ -73,6 +78,8 @@ def main():
         if not missing:continue
         row={'id':p.get('id'),'nameAr':name_ar(p),'category':cat,'missingLanguages':missing,'hasProfessionalSources':bool(p.get('professionalSources')),'sourcePassageCount':len(p.get('sourcePassages') or [])}
         (reference if cat=='source-person' else required).append(row)
-    audit={'schema':'empty-biographies-render-audit-v3','assembledPeople':len(people),'categoryCounts':category_counts,'chunkLoadError':chunk_error,'biographyRequiredEmptyCount':len(required),'referenceOnlyEmptyCount':len(reference),'biographyRequiredEmpty':required,'referenceOnlyEmpty':reference,'complete':len(required)==0}
+    repair_ids={x.get('id') for x in (load(Path('data/editorial/biography_repairs_20260821.json'),{'people':[]}).get('people') or [])}
+    audit={'schema':'empty-biographies-render-audit-v4','assembledPeople':len(people),'categoryCounts':category_counts,'chunkLoadError':chunk_error,'repairOverlayCount':len(repair_ids),'biographyRequiredEmptyCount':len(required),'referenceOnlyEmptyCount':len(reference),'biographyRequiredEmpty':required,'referenceOnlyEmpty':reference,'complete':len(required)==0}
     OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps(audit,ensure_ascii=False))
+    if required:raise SystemExit(f'Biography-required empty pages remain: {len(required)}')
 if __name__=='__main__':main()
