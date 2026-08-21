@@ -8,6 +8,8 @@ function relabel(){document.querySelectorAll('#sectionFilter option').forEach(o=
 function applyQuery(){const q=new URLSearchParams(location.search),section=q.get('section'),sub=q.get('subsection');if(section){let tries=0;const t=setInterval(()=>{const f=document.getElementById('sectionFilter');if(f&&[...f.options].some(o=>o.value===section)){f.value=section;f.dispatchEvent(new Event('change'));clearInterval(t)}else if(++tries>160)clearInterval(t)},50)}if(sub){const search=document.getElementById('articleSearch');if(search){search.value=sub.replace(/[-_]/g,' ');search.dispatchEvent(new Event('input'))}}const type=q.get('type');if(type&&document.getElementById('mediaFilter')){const f=document.getElementById('mediaFilter');if([...f.options].some(o=>o.value===type)){f.value=type;f.dispatchEvent(new Event('change'))}}}
 function observe(){relabel();const mo=new MutationObserver(relabel);mo.observe(document.documentElement,{subtree:true,childList:true});setTimeout(()=>mo.disconnect(),20000)}
 function loadPlatform(){if(!document.querySelector('link[href="assets/platform-runtime.css"]')){const l=document.createElement('link');l.rel='stylesheet';l.href='assets/platform-runtime.css';document.head.appendChild(l)}if(!document.querySelector('script[src="assets/platform-runtime.js"]')){const s=document.createElement('script');s.src='assets/platform-runtime.js';s.defer=true;document.head.appendChild(s)}}
+function loadLaunchAudio(){if(document.querySelector('script[src="assets/site-launch-audio.js"]'))return;const s=document.createElement('script');s.src='assets/site-launch-audio.js';s.defer=true;document.head.appendChild(s)}
 loadPlatform();
+loadLaunchAudio();
 document.addEventListener('DOMContentLoaded',()=>{mount();applyQuery();observe()});
 })();
