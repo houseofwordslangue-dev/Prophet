@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/apply_master_structure_and_ali_1000.py'
-      - 'scripts/run_ali_1000_resilient.py'
+      - 'scripts/build_ali_1000_qdl.py'
       - '.github/workflows/apply-master-structure-ali-1000.yml'
   workflow_dispatch:
 
@@ -27,6 +27,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install Arabic OCR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-ara
       - name: Record workflow run locator
         shell: bash
         run: |
@@ -43,8 +47,8 @@ jobs:
           git push origin HEAD:main
       - name: Refresh after run locator
         run: git pull --rebase origin main
-      - name: Build master structure and exactly 1000 Ali source articles
-        run: python scripts/run_ali_1000_resilient.py
+      - name: Build exactly 1000 Ali articles from QDL public-domain scan
+        run: python scripts/build_ali_1000_qdl.py
       - name: Commit generated site structure and Ali publication
         shell: bash
         run: |
@@ -68,11 +72,9 @@ jobs:
             if git pull --rebase origin main && git push origin HEAD:main; then
               exit 0
             fi
-            echo "Push attempt $attempt failed; refreshing main"
             git rebase --abort 2>/dev/null || true
             git fetch origin main
             git rebase origin/main
             sleep $((attempt * 3))
           done
-          echo 'Unable to publish after four serialized retries.' >&2
           exit 1
