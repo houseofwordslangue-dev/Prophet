@@ -52,35 +52,37 @@ jobs:
         run: python scripts/relocate_person_life_articles.py
       - name: Audit placement and extract biography extensions
         run: python scripts/audit_and_enrich_canonical_biographies.py
-      - name: Rebuild extensions from exact person-owned source records
+      - name: Rebuild extensions from exact person-owned readable source records
         run: python scripts/filter_canonical_biography_extensions.py
       - name: Validate canonical placement and extensions
         run: |
           python - <<'PY'
-          import json, pathlib
+          import json, pathlib, re
           a=json.load(open('data/editorial/global_biography_placement_audit.json',encoding='utf-8'))
           i=json.load(open('data/editorial/canonical_biography_extensions.json',encoding='utf-8'))
           assert a['completePlacementForExplicitPeople'] is True
           assert a['misplacedBiographyLifeRecordCount']==0
           assert a['strictExtensionOwnershipComplete'] is True
-          assert a['biographyExtensionOwnershipPolicy']=='explicit-person-link-before-ranking-and-cap'
+          assert a['strictOcrQualityComplete'] is True
+          assert a['biographyExtensionOwnershipPolicy']=='explicit-person-link-and-readable-source-before-ranking-and-cap'
           assert i['policy']['explicitPersonOwnershipRequiredBeforeCap'] is True
+          assert i['policy']['ocrReadabilityRequiredBeforeCap'] is True
+          assert i['policy']['corruptedOcrRejected'] is True
           assert i['policy']['incidentalNameMatchesRejected'] is True
           assert i['policy']['crossPersonRecordsRejected'] is True
-          assert i['peopleExtended']>0
-          assert i['passageCount']>0
-          assert i['wordCount']>0
+          assert i['peopleExtended']>0 and i['passageCount']>0 and i['wordCount']>0
           for pid,meta in i['people'].items():
-              p=pathlib.Path(meta['file'])
-              assert p.exists(), (pid,p)
-              d=json.load(open(p,encoding='utf-8'))
-              assert d['personId']==pid
+              p=pathlib.Path(meta['file']); assert p.exists(), (pid,p)
+              d=json.load(open(p,encoding='utf-8')); assert d['personId']==pid
               assert d['passageCount']==len(d['passages'])
-              assert all(str(x.get('text','')).strip() for x in d['passages'])
               for x in d['passages']:
-                  s=x.get('source') or {}
-                  assert s.get('recordId') and s.get('repositoryPath')
-          print('PASS', a['indexedPeople'], i['peopleExtended'], i['passageCount'], i['wordCount'], 'ali', 'ali-ibn-abi-talib' in i['people'])
+                  text=str(x.get('text','')).strip(); assert text
+                  toks=text.split(); assert len(toks)>=25
+                  lens=[sum(1 for c in tok if '\u0600'<=c<='\u06ff') for tok in toks]; lens=[n for n in lens if n]
+                  assert lens and sum(lens)/len(lens)<=10.5
+                  assert sum(1 for n in lens if n>=15)/len(lens)<=0.12
+                  s=x.get('source') or {}; assert s.get('recordId') and s.get('repositoryPath')
+          print('PASS',a['indexedPeople'],i['peopleExtended'],i['passageCount'],i['wordCount'],'ocrRejected',a['ocrOrUnreadableCandidatePassagesRejected'],'ali','ali-ibn-abi-talib' in i['people'])
           PY
       - name: Upload biography audit
         if: github.event_name == 'pull_request'
@@ -98,7 +100,7 @@ jobs:
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
           git add -- data/editorial/drafts data/editorial/canonical-life data/editorial/canonical_life_chapters.json data/editorial/person_life_relocation_audit.json data/editorial/biography-extensions data/editorial/canonical_biography_extensions.json data/editorial/global_biography_placement_audit.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Rebuild strictly owned biography source extensions'
+          git commit -m 'Rebuild readable strictly owned biography source extensions'
           for attempt in 1 2 3 4; do
             if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
             git rebase --abort 2>/dev/null || true
