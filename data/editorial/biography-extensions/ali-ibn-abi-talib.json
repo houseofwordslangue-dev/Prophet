@@ -1,0 +1,569 @@
+{
+  "schema": "canonical-biography-source-extension-v2",
+  "personId": "ali-ibn-abi-talib",
+  "personNameAr": "علي بن أبي طالب",
+  "policy": "Only source passages from records explicitly linked to this exact person; no name-only or cross-person enrichment.",
+  "passageCount": 20,
+  "passages": [
+    {
+      "text": "إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق إن سداق يرفلا شفتك أ والتبان ثم حدث ادال ؤناسهفتغيرت أوالدواهمزل الناس ولرمالصمت ركانلابتكلمالابالإشارة |] فى تاريخ ممت فقال 5 بابر اح يها || إلاهوواختزآن تشكوضيقرزقكوعندكقوت فربماعسرعاي كأ سبابالرزق عقوبة عل كفرانك | فقيل ؤمناءهأنسر إلى طندتاو بش ريحاليكو نهر",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-12.json",
+        "recordId": "20260821-ali-source-0600",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0600",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0600-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+        "recordId": "20260821-ali-source-0603",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0603",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0603-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق إن سداق يرفلا شفتك أ والتبان ثم حدث ادال ؤناسهفتغيرت أوالدواهمزل الناس ولرمالصمت ركانلابتكلمالابالإشارة |] فى تاريخ ممت فقال 5 بابر اح يها || إلاهوواختزآن تشكوضيقرزقكوعندكقوت فربماعسرعاي كأ",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+        "recordId": "20260821-ali-source-0602",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0602",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0602-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+        "recordId": "20260821-ali-source-0648",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0648",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0648-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق إن سداق يرفلا شفتك أ والتبان ثم حدث ادال ؤناسهفتغيرت أوالدواهمزل الناس ولرمالصمت ركانلابتكلمالابالإشارة |] فى",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-12.json",
+        "recordId": "20260821-ali-source-0589",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0589",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0589-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "بنمحمد الاقرينعلزيئالمابدينبنالحسين | أولمزمنف امول ' ا الكيس 1-0 ابنباديس حضريودابجلنهاليخأب رجن الج زى رضن تدعت سر الشيخ عبد القادررضى ا عنه ابتعؤينأبوطالبكرم انه وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+        "recordId": "20260821-ali-source-0619",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0619",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0619-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "الج زى رضن تدعت سر الشيخ عبد القادررضى ا عنه ابتعؤينأبوطالبكرم انه وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+        "recordId": "20260821-ali-source-0601",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0601",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0601-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق إن سداق يرفلا شفتك",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-12.json",
+        "recordId": "20260821-ali-source-0588",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0588",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0588-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "|| أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-12.json",
+        "recordId": "20260821-ali-source-0590",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0590",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0590-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "اه الاب الحاج شرح رسالة محمدينحسن بنجعفر بنع بن مومى بنجعفر اصادق بنمحمد الاقرينعلزيئالمابدينبنالحسين | أولمزمنف امول ' ا الكيس 1-0 ابنباديس حضريودابجلنهاليخأب رجن الج زى رضن تدعت سر الشيخ عبد القادررضى ا عنه ابتعؤينأبوطالبكرم انه وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+        "recordId": "20260821-ali-source-0649",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0649",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0649-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "أ الأ ,ةيراق اتلس اخروجسو معدلاب م أ رالكعف والشبرود واختلقوا. قّ رأش || ملكدوأنيوسنببنعمر .حرق زيدا الهم فساط عليهمسلايرحه الهم وأجرق مشاماقحراتهإنشنت | الحسنالمعمرى قتل براه فى ذى الحجة سئةخمس, وأربعينوماثة وهوابن تمان وأ ربمينسة وحمل ابنأبي نه حصراه أطلاععأنه ا 1 الاين بمدتسيزءإلى |] وإلافاحرقه بمدموته قالفرأيتواتههشاما حزقالى أخذبنو العباسدمشقورأبت يوسف بنجمر الكرامرأسه الشريفإلىمصراتهى قال القضاعى مسجدتبربى .على رأس إبراهمنعبداتهينحن | دقع 2 ١ أبتقتاروق أ مومئع :| بدمشقمقطماعل كباب منأبواب دمشقعضومنه فقلت,أناهواققت دعوتكليلة القدرو يمدقتل ابالحسنيتعلينأ وطالب أتفذه المنصورفسرقه أهلمضر ودفنوه هناك وقال الكندى ق كناب || (1) ومنشمره وض 00 استقز فذهنك لائقة ]أ زيدانتفض ملك بىأميةوثلاثى بنوالعباس كذاف الخططوق املع الممزية عندالكلام عوقول الإامراءثمقدش الخطباء]ىمصربرأسإيراهم بن عبد الته بن حسن",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-20.json",
+        "recordId": "20260821-ali-source-0994",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0994",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0994-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-99–F-1-99",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.99",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "الاقرينعلزيئالمابدينبنالحسين | أولمزمنف امول ' ا الكيس 1-0 ابنباديس حضريودابجلنهاليخأب رجن الج زى رضن تدعت سر الشيخ عبد القادررضى ا عنه ابتعؤينأبوطالبكرم انه وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ",
+      "wordCount": 110,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-15.json",
+        "recordId": "20260821-ali-source-0711",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0711",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0711-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى",
+      "wordCount": 110,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-16.json",
+        "recordId": "20260821-ali-source-0780",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0780",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0780-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره",
+      "wordCount": 110,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-15.json",
+        "recordId": "20260821-ali-source-0712",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0712",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0712-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق",
+      "wordCount": 110,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-16.json",
+        "recordId": "20260821-ali-source-0779",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0779",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0779-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "على بنعئان بن حدين بنحمد بن مومى بن بم بن عيسى بزعل بن أ وأيأمهاوأحواطاوهر ا لمتحا || الا رتفي وعاوم الحديث وامذهبوالحلاف والأصولوالتحو اه الاب الحاج شرح رسالة محمدينحسن بنجعفر بنع بن مومى بنجعفر اصادق بنمحمد الاقرينعلزيئالمابدينبنالحسين | أولمزمنف امول ' ا الكيس 1-0 ابنباديس حضريودابجلنهاليخأب رجن الج زى رضن تدعت سر الشيخ عبد القادررضى ا عنه ابتعؤينأبوطالبكرم انه وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-19.json",
+        "recordId": "20260821-ali-source-0902",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0902",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0902-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "بن أ وأيأمهاوأحواطاوهر ا لمتحا || الا رتفي وعاوم الحديث وامذهبوالحلاف والأصولوالتحو اه الاب الحاج شرح رسالة محمدينحسن بنجعفر بنع بن مومى بنجعفر اصادق بنمحمد الاقرينعلزيئالمابدينبنالحسين | أولمزمنف امول ' ا الكيس 1-0 ابنباديس حضريودابجلنهاليخأب رجن الج زى رضن تدعت سر الشيخ عبد القادررضى ا عنه ابتعؤينأبوطالبكرم انه وجههالممروفبالشييخأوالفتبان الشريفملوىاسيدأحدايدوى الثم | النقه وأولخن صف 0 آيتوذكرفياوجوهارللجانبالشيخأبوالقرج من يسا أتمر فهذاالفولفيقولئعمإلأنبلغ أحد المعتقد والمشبورأنسلفد رض اتاعنه تحول من الحجاز إلىبلادالمذربثمخرجأبزمعلى بنإبراهم من || أبواب من الفقه نك 60 لك | مشريمرنها أبوافرجنمزادالشيخ حواتبى ارين و جهارعر اكوب إىةالقاشتد جب الشيع فا سن ثلاش وس القومعةأو لاددوامر أتهفاطمةبن محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-19.json",
+        "recordId": "20260821-ali-source-0904",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0904",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0904-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "محمد ب نأحدينعبداته وأولاده كلهم منباومم | ممروف كاب البق أ بن سيد إلى “* أو الفرج منكثزة عللشيخشمةالترل لاون رجع لاحو للا إل إلالقدحد رسولاقدفاضطرب الناس) الحسن وحمد وفاطمةوزينبورقيةوفضة وأحمدالبدوىصاحب الرجمةي يدونالحجفجبمؤستتسيع || والرى وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق إن سداق يرفلا شفتك أ والتبان ثم حدث ادال ؤناسهفتغيرت أوالدواهمزل الناس",
+      "wordCount": 110,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-20.json",
+        "recordId": "20260821-ali-source-0966",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0966",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0966-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "رأش || ملكدوأنيوسنببنعمر .حرق زيدا الهم فساط عليهمسلايرحه الهم وأجرق مشاماقحراتهإنشنت | الحسنالمعمرى قتل براه فى ذى الحجة سئةخمس, وأربعينوماثة وهوابن تمان وأ ربمينسة وحمل ابنأبي نه حصراه أطلاععأنه ا 1 الاين بمدتسيزءإلى |] وإلافاحرقه بمدموته قالفرأيتواتههشاما حزقالى أخذبنو العباسدمشقورأبت يوسف بنجمر الكرامرأسه الشريفإلىمصراتهى قال القضاعى مسجدتبربى .على رأس إبراهمنعبداتهينحن | دقع 2 ١ أبتقتاروق أ مومئع :| بدمشقمقطماعل كباب منأبواب دمشقعضومنه فقلت,أناهواققت دعوتكليلة القدرو يمدقتل ابالحسنيتعلينأ وطالب أتفذه المنصورفسرقه أهلمضر ودفنوه هناك وقال الكندى ق كناب || (1) ومنشمره وض 00 استقز فذهنك لائقة ]أ زيدانتفض ملك بىأميةوثلاثى بنوالعباس كذاف الخططوق املع الممزية عندالكلام عوقول الإامراءثمقدش الخطباء]ىمصربرأسإيراهم بن عبد الته بن حسن بنالحسن بن عزن أب طالبق اياعر | إلى اله بابد\" أ رب",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-16.json",
+        "recordId": "20260821-ali-source-0789",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0789",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0789-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-99–F-1-99",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.99",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    },
+    {
+      "text": "وتفقه لدان أ مدير :الانفشيل شار اباشيدا ونرق أبوالفرجثربه اه مكلام زضوءاقدعنه زيادة علماد ب احذروا ولانمنوة أ وسثيانةوالسيد أ حدالبدوىكانسمرهإحدئعشرة سنةوأقام بمكةوعرف بالبدوى لكترةناكان,تثم | يسمى محنداويكوايا ا فضرب بخباء خاد>. || رلاتتسيفرا إلى أنف_كحالاولامقالا لاتدعرهار لاتخبروامارطلمكاقهتماوعلي من الاحوالفاذكل وعرض عل أخوالتزويهفامتع وأخذدتحت كتفد رأقرأءالقرآنو اشر بكةبالشجاعةوسىالمطاب |]) علمانذ كره تين ١ منمك فكان اناس || يرم مرؤهأن:لن نواه لاتسكرضرانزلبك ترات تماق إن سداق يرفلا شفتك أ والتبان ثم حدث ادال ؤناسهفتغيرت أوالدواهمزل الناس ولرمالصمت ركانلابتكلمالابالإشارة |] فى تاريخ ممت فقال 5 بابر اح يها || إلاهوواختزآن تشكوضيقرزقكوعندكقوت فربماعسرعاي كأ سبابالرزق عقوبة عل كفرانك | فقيل ؤمناءهأنسر إلى طندتاو بش ريحاليكو نهر ذلك ؤليلةا ا و كان فقبها توق بمصمر ا هت كلها نم",
+      "wordCount": 115,
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-14.json",
+        "recordId": "20260821-ali-source-0651",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0651",
+        "sourceType": "explicit-person-owned-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0651-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-119–F-1-119",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.119",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ]
+      }
+    }
+  ]
+}

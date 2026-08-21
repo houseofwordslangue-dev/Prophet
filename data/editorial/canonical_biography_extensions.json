@@ -1,19 +1,19 @@
 {
-  "schema": "canonical-biography-source-extension-index-v1",
-  "generatedAt": "2026-08-21T23:02:26.962485Z",
+  "schema": "canonical-biography-source-extension-index-v2",
   "policy": {
     "onePersonOneCanonicalBiographyPage": true,
     "extensionsRenderOnlyOnCanonicalPersonPage": true,
     "sourceDerivedOnly": true,
-    "explicitPersonOwnershipRequired": true,
+    "explicitPersonOwnershipRequiredBeforeCap": true,
     "incidentalNameMatchesRejected": true,
+    "crossPersonRecordsRejected": true,
     "noGeneratedFactualFillIn": true,
     "thematicArticlesRemainInSections": true
   },
   "indexedPeople": 379,
-  "peopleExtended": 107,
-  "passageCount": 530,
-  "wordCount": 236067,
+  "peopleExtended": 117,
+  "passageCount": 629,
+  "wordCount": 264813,
   "people": {
     "abd-al-muttalib": {
       "id": "abd-al-muttalib",
@@ -38,6 +38,14 @@
       "passageCount": 5,
       "wordCount": 2244,
       "file": "data/editorial/biography-extensions/abd-manaf-ibn-qusayy.json"
+    },
+    "abd-yaghuth-ibn-wahb": {
+      "id": "abd-yaghuth-ibn-wahb",
+      "nameAr": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2219,
+      "file": "data/editorial/biography-extensions/abd-yaghuth-ibn-wahb.json"
     },
     "abdullah-ibn-abbas": {
       "id": "abdullah-ibn-abbas",
@@ -143,6 +151,14 @@
       "wordCount": 2253,
       "file": "data/editorial/biography-extensions/abu-bakr-ibn-al-hasan.json"
     },
+    "abu-lahab-ibn-abd-al-muttalib": {
+      "id": "abu-lahab-ibn-abd-al-muttalib",
+      "nameAr": "أبو لهب بن عبد المطلب (عبد العزى)",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2261,
+      "file": "data/editorial/biography-extensions/abu-lahab-ibn-abd-al-muttalib.json"
+    },
     "abu-salama-abdullah-ibn-abd-al-asad": {
       "id": "abu-salama-abdullah-ibn-abd-al-asad",
       "nameAr": "أبو سلمة عبد الله بن عبد الأسد",
@@ -158,6 +174,14 @@
       "passageCount": 5,
       "wordCount": 2255,
       "file": "data/editorial/biography-extensions/abu-sufyan-ibn-al-harith.json"
+    },
+    "abu-talib-ibn-abd-al-muttalib": {
+      "id": "abu-talib-ibn-abd-al-muttalib",
+      "nameAr": "أبو طالب بن عبد المطلب (عبد مناف)",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2239,
+      "file": "data/editorial/biography-extensions/abu-talib-ibn-abd-al-muttalib.json"
     },
     "adnan": {
       "id": "adnan",
@@ -198,6 +222,22 @@
       "passageCount": 5,
       "wordCount": 2269,
       "file": "data/editorial/biography-extensions/al-harith-ibn-abd-al-muttalib.json"
+    },
+    "al-harith-ibn-abd-al-uzza-al-sadi": {
+      "id": "al-harith-ibn-abd-al-uzza-al-sadi",
+      "nameAr": "الحارث بن عبد العزى السعدي",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2209,
+      "file": "data/editorial/biography-extensions/al-harith-ibn-abd-al-uzza-al-sadi.json"
+    },
+    "al-hasan-al-muthanna": {
+      "id": "al-hasan-al-muthanna",
+      "nameAr": "الحسن المثنى",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2215,
+      "file": "data/editorial/biography-extensions/al-hasan-al-muthanna.json"
     },
     "al-hasan-ibn-ali": {
       "id": "al-hasan-ibn-ali",
@@ -247,6 +287,14 @@
       "wordCount": 2244,
       "file": "data/editorial/biography-extensions/al-qasim-ibn-muhammad.json"
     },
+    "al-shayma-bint-al-harith": {
+      "id": "al-shayma-bint-al-harith",
+      "nameAr": "الشيماء بنت الحارث",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2215,
+      "file": "data/editorial/biography-extensions/al-shayma-bint-al-harith.json"
+    },
     "al-zubayr-ibn-abd-al-muttalib": {
       "id": "al-zubayr-ibn-abd-al-muttalib",
       "nameAr": "الزبير بن عبد المطلب",
@@ -278,6 +326,14 @@
       "passageCount": 5,
       "wordCount": 2246,
       "file": "data/editorial/biography-extensions/ali-ibn-abi-al-as.json"
+    },
+    "ali-ibn-abi-talib": {
+      "id": "ali-ibn-abi-talib",
+      "nameAr": "علي بن أبي طالب",
+      "category": "companion",
+      "passageCount": 20,
+      "wordCount": 2275,
+      "file": "data/editorial/biography-extensions/ali-ibn-abi-talib.json"
     },
     "ali-zayn-al-abidin": {
       "id": "ali-zayn-al-abidin",
@@ -367,6 +423,14 @@
       "wordCount": 2251,
       "file": "data/editorial/biography-extensions/dubaa-bint-al-zubayr.json"
     },
+    "fatima-al-zahra-bint-muhammad": {
+      "id": "fatima-al-zahra-bint-muhammad",
+      "nameAr": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "category": null,
+      "passageCount": 20,
+      "wordCount": 3200,
+      "file": "data/editorial/biography-extensions/fatima-al-zahra-bint-muhammad.json"
+    },
     "fatima-bint-al-husayn": {
       "id": "fatima-bint-al-husayn",
       "nameAr": "فاطمة بنت الحسين",
@@ -379,8 +443,8 @@
       "id": "fatima-bint-amr",
       "nameAr": "فاطمة بنت عمرو",
       "category": "family",
-      "passageCount": 4,
-      "wordCount": 1437,
+      "passageCount": 5,
+      "wordCount": 2369,
       "file": "data/editorial/biography-extensions/fatima-bint-amr.json"
     },
     "fihr-ibn-malik": {
@@ -406,6 +470,14 @@
       "passageCount": 5,
       "wordCount": 2197,
       "file": "data/editorial/biography-extensions/hafsa-bint-umar.json"
+    },
+    "hajl-al-mughira-ibn-abd-al-muttalib": {
+      "id": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "nameAr": "حَجْل بن عبد المطلب (المغيرة)",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2257,
+      "file": "data/editorial/biography-extensions/hajl-al-mughira-ibn-abd-al-muttalib.json"
     },
     "halima-al-sadiyya": {
       "id": "halima-al-sadiyya",
@@ -491,8 +563,8 @@
       "id": "khadija-bint-khuwaylid",
       "nameAr": "خديجة بنت خويلد",
       "category": "family",
-      "passageCount": 5,
-      "wordCount": 2194,
+      "passageCount": 19,
+      "wordCount": 3799,
       "file": "data/editorial/biography-extensions/khadija-bint-khuwaylid.json"
     },
     "khuzayma-ibn-mudrika": {
@@ -691,8 +763,8 @@
       "id": "salma-bint-amr-al-najjariyya",
       "nameAr": "سلمى بنت عمرو النجارية",
       "category": "family",
-      "passageCount": 1,
-      "wordCount": 438,
+      "passageCount": 5,
+      "wordCount": 2211,
       "file": "data/editorial/biography-extensions/salma-bint-amr-al-najjariyya.json"
     },
     "sawda-bint-zama": {
@@ -772,7 +844,7 @@
       "nameAr": "أم الحكم بنت الزبير",
       "category": "family",
       "passageCount": 5,
-      "wordCount": 1870,
+      "wordCount": 2254,
       "file": "data/editorial/biography-extensions/umm-al-hakam-bint-al-zubayr.json"
     },
     "umm-habiba": {
@@ -780,7 +852,7 @@
       "nameAr": "أم حبيبة رملة بنت أبي سفيان",
       "category": "family",
       "passageCount": 5,
-      "wordCount": 1946,
+      "wordCount": 2204,
       "file": "data/editorial/biography-extensions/umm-habiba.json"
     },
     "umm-hakim-al-bayda-bint-abd-al-muttalib": {
@@ -788,7 +860,7 @@
       "nameAr": "أم حكيم البيضاء بنت عبد المطلب",
       "category": "family",
       "passageCount": 5,
-      "wordCount": 2205,
+      "wordCount": 2245,
       "file": "data/editorial/biography-extensions/umm-hakim-al-bayda-bint-abd-al-muttalib.json"
     },
     "umm-kulthum-bint-ali": {
@@ -796,7 +868,7 @@
       "nameAr": "أم كلثوم بنت علي",
       "category": "family",
       "passageCount": 5,
-      "wordCount": 1900,
+      "wordCount": 2251,
       "file": "data/editorial/biography-extensions/umm-kulthum-bint-ali.json"
     },
     "umm-kulthum-bint-muhammad": {
@@ -804,8 +876,16 @@
       "nameAr": "أم كلثوم بنت محمد",
       "category": "family",
       "passageCount": 5,
-      "wordCount": 2122,
+      "wordCount": 2247,
       "file": "data/editorial/biography-extensions/umm-kulthum-bint-muhammad.json"
+    },
+    "umm-salama": {
+      "id": "umm-salama",
+      "nameAr": "أم سلمة هند بنت أبي أمية",
+      "category": null,
+      "passageCount": 5,
+      "wordCount": 2188,
+      "file": "data/editorial/biography-extensions/umm-salama.json"
     },
     "urwa-ibn-al-zubayr": {
       "id": "urwa-ibn-al-zubayr",
