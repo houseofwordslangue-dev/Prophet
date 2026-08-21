@@ -1,0 +1,36 @@
+{
+  "version":"2026-08-21-pro-reader-player",
+  "status":"IMPLEMENTED_WITH_DATA_DEPENDENCIES",
+  "implemented":[
+    "AR/EN/FR interface switching with RTL/LTR",
+    "EPUB/PDF/IIIF/text multi-mode reader",
+    "bookmarks notes resume TTS search offline cache",
+    "BibTeX RIS CSL-JSON and plain-text citation export",
+    "dual-pane comparison hooks for OCR/translation/alternate edition/IIIF",
+    "coordinate OCR overlay rendering when OCR box data exists",
+    "deep page/canvas link support",
+    "SHA-256 integrity display hooks",
+    "offline storage quota and cache deletion UI",
+    "HLS/DASH adaptive media hooks",
+    "multi-source and mirror candidate probing",
+    "local-first playback and server cache",
+    "timestamp transcript search and click-to-seek when transcript data exists",
+    "subtitle track selection when caption files exist",
+    "Media Session/Picture-in-Picture/Wake Lock/device capability awareness",
+    "runtime playback telemetry collection",
+    "server mirror-health endpoint",
+    "server cached-media SHA-256 endpoint",
+    "FFmpeg HLS rendition generation pipeline"
+  ],
+  "requiresRealExternalAssetsOrInfrastructure":[
+    "5 or more independent mirrors for each resource",
+    "authenticated cross-device user synchronization",
+    "coordinate OCR datasets for every scanned page",
+    "word-level timed transcript datasets",
+    "genuine Arabic/English/French subtitle files",
+    "alternate editions/translations mapped to each resource",
+    "4K source material before 4K renditions can exist",
+    "platform-specific Chromecast/AirPlay support and production device testing"
+  ],
+  "integrityRule":"Controls are exposed only when the associated resource metadata or runtime asset exists; infrastructure-dependent features are not represented as populated when the required asset is absent."
+}
