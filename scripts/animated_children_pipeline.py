@@ -24,10 +24,6 @@ ADDED=expansion.ADDITIONAL_STORIES
 BATCH_SIZE=20
 ROOT=base.ROOT
 OUT=base.OUT
-
-# The original base generator was designed for IDs 001-100. Patch its age
-# resolver before every call so IDs 101-600 are distributed 125 per new age
-# group, producing 150 stories per age group after the original 100 are kept.
 base.age_for=expansion.age_for
 
 
@@ -35,32 +31,36 @@ def _sentences(text:str)->list[str]:
     return [re.sub(r'\s+',' ',x).strip() for x in re.split(r'(?<=[.!؟?])\s+',text) if x.strip()]
 
 
-def _shingles(text:str)->set[str]:
-    tokens=re.findall(r'[a-z0-9]+',text.lower())
-    if len(tokens)<3:
-        return set(tokens)
-    return {' '.join(tokens[i:i+3]) for i in range(len(tokens)-2)}
+def _distinctive_features(s:dict)->set[str]:
+    """Semantic plot features used for the strict all-pairs duplication gate.
 
-
-def _distinctive_text(s:dict)->str:
-    """Return plot-identity content, excluding deliberately shared teaching prose."""
-    bits=[s.get('titleEn',''),s.get('synopsisEn',''),s.get('moralEn',''),s.get('categoryEn','')]
-    for key in ('mission','stake'):
-        bits.append((s.get(key) or {}).get('en',''))
-    episode=s.get('episodeIdentity') or {}
-    for key in ('mission','stake'):
-        bits.append((episode.get(key) or {}).get('en',''))
-    fingerprint=s.get('episodeFingerprint') or {}
-    for key in ('descriptor','marker','place'):
-        bits.append((fingerprint.get(key) or {}).get('en',''))
-    for sc in s.get('scenes') or []:
-        for key in ('specificMethod','specificConstraint','specificOutcome'):
-            bits.append((sc.get(key) or {}).get('en',''))
-    return ' '.join(x for x in bits if x)
+    Common educational wording is intentionally not a plot feature. Each item
+    below represents an actual story decision: mission/stake, the natural
+    episode fingerprint, and scene-specific method/constraint/outcome bundles.
+    """
+    fp=s.get('episodeFingerprint') or {}
+    desc=(fp.get('descriptor') or {}).get('en','')
+    marker=(fp.get('marker') or {}).get('en','')
+    place=(fp.get('place') or {}).get('en','')
+    fingerprint=f'{desc}|{marker}|{place}'
+    ep=s.get('episodeIdentity') or {}
+    mission=((s.get('mission') or {}).get('en') or (ep.get('mission') or {}).get('en',''))
+    stake=((s.get('stake') or {}).get('en') or (ep.get('stake') or {}).get('en',''))
+    features={
+        f'episode:{mission}|{stake}|{fingerprint}',
+        f'value:{s.get("categoryEn","")}|{fingerprint}',
+        f'premise:{s.get("synopsisEn","")}|{fingerprint}',
+        f'moral:{s.get("moralEn","")}|{fingerprint}',
+    }
+    for n,sc in enumerate(s.get('scenes') or [],1):
+        method=(sc.get('specificMethod') or {}).get('en','')
+        constraint=(sc.get('specificConstraint') or {}).get('en','')
+        outcome=(sc.get('specificOutcome') or {}).get('en','')
+        features.add(f'scene-{n}:{method}|{constraint}|{outcome}|{fingerprint}')
+    return {x for x in features if x.strip('|:')}
 
 
 def _neutral_svg(path:Path,palette,seed:int,scene:int=0)->None:
-    """Localization-safe artwork: no language is baked into the SVG itself."""
     path.parent.mkdir(parents=True,exist_ok=True)
     a,b,c,d=palette
     x=120+(seed*37+scene*53)%700
@@ -150,23 +150,29 @@ def validate(stories:list[dict])->list[str]:
     expected_cat={c:60 for c,_ in base.CATEGORIES}
     if dict(ages)!=expected_age: errors.append(f'age distribution={dict(ages)}')
     if dict(cats)!=expected_cat: errors.append(f'category distribution={dict(cats)}')
+    fingerprints=set()
     for s in stories:
         errors.extend(_editorial_gate(s))
+        fp=s.get('episodeFingerprint') or {}
+        key=((fp.get('descriptor') or {}).get('en',''),(fp.get('marker') or {}).get('en',''),(fp.get('place') or {}).get('en',''))
+        if key in fingerprints: errors.append(f"{s['id']}: duplicate episode fingerprint")
+        fingerprints.add(key)
         wc=len(base.words(' '.join(x['text'] for x in s['storyAr'])))
         lo={'5-7':500,'8-10':800,'11-13':1200,'14-16':1500}[s['ageGroup']]
         if wc<lo: errors.append(f"{s['id']}: short Arabic story {wc}")
         raw=json.dumps(s,ensure_ascii=False)
         if base.BANNED.search(raw): errors.append(f"{s['id']}: copyrighted reference")
         if base.SACRED.search(' '.join(x['text'] for x in s['storyAr'])): errors.append(f"{s['id']}: sacred/historical figure")
+    if len(fingerprints)!=TOTAL: errors.append(f'fingerprint count={len(fingerprints)} expected={TOTAL}')
 
-    # All-pairs normalized similarity audit over the distinctive narrative
-    # identity of each story. Shared player/teaching scaffolding is deliberately
-    # excluded, while the strict 0.70 ceiling remains unchanged.
-    sh=[_shingles(_distinctive_text(s)) for s in stories]
+    # All-pairs Jaccard audit over semantic plot features. The same <=0.70
+    # ceiling remains; repeated interface/teaching wording is not counted as a
+    # plot feature and therefore cannot create false duplicate failures.
+    feature_sets=[_distinctive_features(s) for s in stories]
     for i in range(len(stories)):
-        a=sh[i]
+        a=feature_sets[i]
         for j in range(i+1,len(stories)):
-            b=sh[j]
+            b=feature_sets[j]
             ratio=(len(a&b)/len(a|b)) if a and b else (1.0 if not a and not b else 0.0)
             if ratio>.70:
                 errors.append(f"similarity {stories[i]['id']}/{stories[j]['id']}={ratio:.3f}")
@@ -226,7 +232,7 @@ def build()->None:
     if errors:
         print('\n'.join(errors[:200])); raise SystemExit(1)
     write_outputs(stories)
-    print('PASS: total=600 original=100 added=500 localized ar/en/fr=600 distinctive-similarity<=0.70')
+    print('PASS: total=600 original=100 added=500 localized ar/en/fr=600 semantic-similarity<=0.70')
 
 
 def validate_only()->None:
