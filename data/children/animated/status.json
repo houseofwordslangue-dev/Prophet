@@ -1,37 +1,44 @@
 {
-  "total": 100,
+  "total": 600,
+  "original": 100,
+  "added": 500,
   "draft": 0,
-  "scriptReady": 100,
-  "artReady": 100,
+  "scriptReady": 600,
+  "artReady": 600,
   "audioReady": 0,
-  "animationReady": 100,
-  "ready": 100,
-  "published": 100,
+  "animationReady": 600,
+  "ready": 600,
+  "published": 600,
   "failed": 0,
-  "ttsFallback": 100,
+  "ttsFallback": 600,
   "nativeNarration": 0,
   "nativeVideo": 0,
-  "animatedStoryboard": 100,
+  "animatedStoryboard": 600,
+  "localized": {
+    "ar": 600,
+    "en": 600,
+    "fr": 600
+  },
   "ageProgress": {
     "5-7": {
-      "total": 25,
-      "ready": 25,
-      "published": 25
+      "total": 150,
+      "ready": 150,
+      "published": 150
     },
     "8-10": {
-      "total": 25,
-      "ready": 25,
-      "published": 25
+      "total": 150,
+      "ready": 150,
+      "published": 150
     },
     "11-13": {
-      "total": 25,
-      "ready": 25,
-      "published": 25
+      "total": 150,
+      "ready": 150,
+      "published": 150
     },
     "14-16": {
-      "total": 25,
-      "ready": 25,
-      "published": 25
+      "total": 150,
+      "ready": 150,
+      "published": 150
     }
   }
 }
