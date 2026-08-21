@@ -29,17 +29,18 @@ def load_chunks():
         return {'people':[],'error':str(e)}
 
 def apply_bio(p,b):
-    p['professionalBiography']=b.get('biography') or {}
-    p['professionalSources']=b.get('sources') or []
-    p['professionalAttribution']=b.get('attribution') or {}
-    p['professionalProvenance']=b.get('provenance') or ''
-    p['relationshipContext']=b.get('context') or p.get('relationshipContext') or ''
+    p['professionalBiography']=b.get('biography') or b.get('professionalBiography') or {}
+    p['professionalSources']=b.get('sources') or b.get('professionalSources') or []
+    p['professionalAttribution']=b.get('attribution') or b.get('professionalAttribution') or {}
+    p['professionalProvenance']=b.get('provenance') or b.get('professionalProvenance') or ''
+    p['relationshipContext']=b.get('context') or b.get('relationshipContext') or p.get('relationshipContext') or ''
 
 def assembled():
     a=load(Path('data/people.json'),{'people':[]})
     b=load(Path('data/family_people.json'),{'people':[]})
     g=load(Path('data/family_groups.json'),{'registry':[]})
     detailed=load(Path('data/family_biographies.json'),{'people':[]})
+    required=load(Path('data/editorial/required_biographies.json'),{'people':{}})
     allb=load_chunks()
     mp={}; names={}
     def add(p):
@@ -59,6 +60,15 @@ def assembled():
         p=mp.get(x.get('id'))
         if not p:
             hits=names.get(norm(x.get('nameAr')),[]);p=hits[0] if hits else None
+        if p:apply_bio(p,x)
+    req=required.get('people') or {}
+    entries=((x.get('id'),x) for x in req) if isinstance(req,list) else req.items()
+    for rid,x in entries:
+        if not isinstance(x,dict):continue
+        p=mp.get(rid or x.get('id'))
+        if not p:
+            hits=names.get(norm(x.get('nameAr') or ((x.get('name') or {}).get('ar') if isinstance(x.get('name'),dict) else '')),[])
+            p=hits[0] if hits else None
         if p:apply_bio(p,x)
     return list(mp.values()),allb.get('error')
 
@@ -86,7 +96,7 @@ def main():
         row={'id':p.get('id'),'nameAr':name_ar(p),'category':cat,'missingLanguages':missing,'hasProfessionalSources':bool(p.get('professionalSources')),'sourcePassageCount':len(p.get('sourcePassages') or [])}
         if cat=='source-person':reference.append(row)
         else:required.append(row)
-    audit={'schema':'empty-biographies-render-audit-v1','assembledPeople':len(people),'categoryCounts':category_counts,'chunkLoadError':chunk_error,'biographyRequiredEmptyCount':len(required),'referenceOnlyEmptyCount':len(reference),'biographyRequiredEmpty':required,'referenceOnlyEmpty':reference,'complete':len(required)==0}
+    audit={'schema':'empty-biographies-render-audit-v2','assembledPeople':len(people),'categoryCounts':category_counts,'chunkLoadError':chunk_error,'biographyRequiredEmptyCount':len(required),'referenceOnlyEmptyCount':len(reference),'biographyRequiredEmpty':required,'referenceOnlyEmpty':reference,'complete':len(required)==0}
     OUT.parent.mkdir(parents=True,exist_ok=True)
     OUT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(audit,ensure_ascii=False))
