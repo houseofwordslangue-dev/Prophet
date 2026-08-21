@@ -1,11 +1,21 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import json,datetime
+
 ROOT=Path(__file__).resolve().parents[1]
 STORE=ROOT/'library'/'works'; OUT=ROOT/'data'/'ingested_library.json'
 
+# Before rebuilding the public index, promote every READY_EPUB whose binary is
+# actually present in the checkout into library/works. Missing binaries are
+# reported but never exposed as fake published links.
+try:
+    from publish_generated_epubs import main as publish_generated_epubs
+    publish_generated_epubs()
+except Exception as exc:
+    print('Generated EPUB promotion warning:', exc)
+
 # GitHub Actions runners are ephemeral. Keep previously published entries from the
-# committed index and overlay the files acquired in the current runner.
+# committed index and overlay the files acquired/generated in the current runner.
 previous={}
 if OUT.exists():
     try:
@@ -28,8 +38,8 @@ if STORE.exists():
         rel='/' + str(original.relative_to(ROOT)).replace('\\','/')
         fmt=str(m.get('format') or original.suffix.lstrip('.')).lower()
         readable=fmt in {'txt','html','pdf','epub'}
-        searchable=fmt in {'txt','html'} or bool(m.get('searchable'))
-        listenable=fmt in {'txt','html'} or bool(m.get('listenable'))
+        searchable=fmt in {'txt','html','epub'} or bool(m.get('searchable'))
+        listenable=fmt in {'txt','html','epub'} or bool(m.get('listenable'))
         watchable=fmt in {'mp4','webm','mkv'} or bool(m.get('watchable'))
         key=f"{m.get('workId','')}:{m.get('editionId','')}"
         current[key]={
@@ -42,8 +52,8 @@ if STORE.exists():
             'format': fmt, 'mimeType': m.get('mimeType'), 'size': m.get('size'),
             'sha256': m.get('sha256'), 'localUrl': rel, 'readerUrl': rel,
             'capabilities': {'readable':readable,'searchable':searchable,'listenable':listenable,'watchable':watchable},
-            'searchMode': 'fulltext-browser' if searchable else ('ocr-index' if fmt=='pdf' else 'none'),
-            'listenMode': 'browser-tts' if listenable and fmt in {'txt','html'} else ('native-audio' if fmt in {'mp3','m4a','ogg','wav'} else 'none'),
+            'searchMode': 'fulltext-browser' if fmt in {'txt','html'} else ('epub-reader-search' if fmt=='epub' else ('ocr-index' if searchable and fmt=='pdf' else 'none')),
+            'listenMode': 'browser-tts' if listenable and fmt in {'txt','html','epub'} else ('native-audio' if fmt in {'mp3','m4a','ogg','wav'} else 'none'),
             'watchMode': 'native-video' if watchable else 'none',
             'publishedAsset': True
         }
