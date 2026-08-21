@@ -1,0 +1,41 @@
+{
+  "generatedAt":"2026-08-21",
+  "policy":"REAL_ASSETS_ONLY",
+  "items":[
+    {
+      "id":"life-seerah-002-real",
+      "titleAr":"السيرة النبوية لابن هشام",
+      "authorAr":"عبد الملك بن هشام",
+      "category":"السيرة النبوية",
+      "language":"ar",
+      "drive":{"folderId":"1zkqT_6FMh0WkaxzSniCN0vjFsk-k1gvk","textId":"1_GJqYBXGy3nMsb9uc4R4i4YKdYbLbBSb","completePdfId":"1qU3i-XKRqyibWD0zXFFlTPYz_3gckst4","volumePdfIds":["1eYKQbW7Qbse5FhjeOtN1hAgBf5d_VzyX","1oogguN6QJp0C9vdDqRRSthBJMNyObFzE","1uiEQemyRSXtX84H_qnjLwu2ceUJMDKpI","1opO5d-cNna1zpOD0oc-hkC1StrHNlO2z"]},
+      "publicAsset":"https://upload.wikimedia.org/wikisource/ar/c/c8/%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D8%A8%D9%86_%D9%87%D8%B4%D8%A7%D9%851.pdf",
+      "publicSourcePage":"https://ar.wikisource.org/wiki/%D9%85%D9%84%D9%81:%D8%B3%D9%8A%D8%B1%D8%A9_%D8%A7%D8%A8%D9%86_%D9%87%D8%B4%D8%A7%D9%851.pdf",
+      "publicDomain":true,"pages":219,"capabilities":{"readable":true,"searchable":true,"listenable":true,"watchable":false},
+      "notes":"Drive contains complete PDF, four volume PDFs and a 3.49 MB text transcription. Public-domain Wikimedia scan provides a public reader fallback."
+    },
+    {
+      "id":"shifa-qadi-iyad-real",
+      "titleAr":"الشفا بتعريف حقوق المصطفى",
+      "authorAr":"القاضي عياض",
+      "category":"الشمائل والسيرة",
+      "language":"ar",
+      "drive":{"pdfId":"167364MVD1v8JYch5kmL9bOhbC9Xg4tGr","alternatePdfId":"1TjgRBub3P3cROBqU1OfLftWym1nA-1FO","cleanTextId":"1pQFRTrKu0UWwlpBe9SGNE8xwsqe7vdMy","textId":"1GTjsNcdNKCMdfYWS5eVtKjExoasW0Cmc"},
+      "publicAsset":"https://upload.wikimedia.org/wikisource/ar/2/24/%D8%A7%D9%84%D8%B4%D9%81%D8%A7_%D8%A8%D8%AA%D8%B9%D8%B1%D9%8A%D9%81_%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D9%85%D8%B5%D8%B7%D9%81%D9%89.pdf",
+      "publicSourcePage":"https://ar.wikisource.org/wiki/%D9%85%D9%84%D9%81:%D8%A7%D9%84%D8%B4%D9%81%D8%A7_%D8%A8%D8%AA%D8%B9%D8%B1%D9%8A%D9%81_%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D9%85%D8%B5%D8%B7%D9%81%D9%89.pdf",
+      "publicDomain":true,"pages":612,"capabilities":{"readable":true,"searchable":true,"listenable":true,"watchable":false}
+    },
+    {
+      "id":"ruh-al-bayan-real",
+      "titleAr":"روح البيان في تفسير القرآن",
+      "authorAr":"إسماعيل حقي البروسوي",
+      "category":"التفسير",
+      "language":"ar",
+      "drive":{"volumePdfIds":["1a5PHjfu7e1xlSlRRUHb2b8j2jK3mblsp","1WY9_fuQaOOW9q85QdMfmvMaowQZjOTTa","1qnTNL1BOv17CQWWCNkNz3RMEdx8utAPL","1SV_5eHPysC2ISUyp9rCEzJiC2Acn4OVw"]},
+      "publicAsset":"https://upload.wikimedia.org/wikisource/ar/5/51/%D8%B1%D9%88%D8%AD_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86_%D9%81%D9%8A_%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%863%D8%A3.pdf",
+      "publicSourcePage":"https://ar.wikisource.org/wiki/%D9%85%D9%84%D9%81:%D8%B1%D9%88%D8%AD_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86_%D9%81%D9%8A_%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%863%D8%A3.pdf",
+      "publicDomain":true,"capabilities":{"readable":true,"searchable":false,"listenable":false,"watchable":false},
+      "notes":"Drive search verified at least four large PDF volumes; public-domain Wikimedia scan is an additional public source."
+    }
+  ]
+}
