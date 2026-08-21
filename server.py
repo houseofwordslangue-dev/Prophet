@@ -191,6 +191,10 @@ try:
  from platform_services import install as _install_platform_services
  _install_platform_services(Handler,ROOT)
 except Exception as exc:print('platform services warning:',exc)
+try:
+ from ops_services import install as _install_ops_services
+ _install_ops_services(Handler)
+except Exception as exc:print('ops services warning:',exc)
 
 def main():
  _sync_catalogue()
@@ -199,7 +203,7 @@ def main():
   build_search_index(True)
  except Exception as exc:print('search rebuild warning:',exc)
  if EPUB_ON_START:threading.Thread(target=_publish_epubs,daemon=True,name='epub-publisher').start()
- print(f'Prophet site: http://{HOST}:{PORT}/'); print(f'Media player: http://{HOST}:{PORT}/media.html'); print('Platform search/sync/telemetry: enabled')
+ print(f'Prophet site: http://{HOST}:{PORT}/'); print(f'Media player: http://{HOST}:{PORT}/media.html'); print('Platform search/sync/telemetry: enabled'); print('Admin operations center: /ops.html')
  ThreadingHTTPServer((HOST,PORT),Handler).serve_forever()
 
 if __name__=='__main__':main()
