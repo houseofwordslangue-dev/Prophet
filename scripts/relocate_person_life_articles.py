@@ -22,12 +22,10 @@ LIFE_PATTERNS=[
  re.compile(r'\bbiographie\b',re.I),
 ]
 
-
 def now():return datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
 def read(path):
  try:return json.loads(path.read_text(encoding='utf-8'))
  except Exception:return None
-
 def rows_of(payload):
  if isinstance(payload,list):return payload
  if isinstance(payload,dict):
@@ -51,13 +49,20 @@ def body_of(r):
   if isinstance(v,str) and v.strip():return v.strip()
   if isinstance(v,list) and v:return '\n\n'.join(str(x) for x in v if str(x).strip())
  return ''
+def language_of(r,body):
+ x=str(r.get('language') or r.get('lang') or '').lower().strip()
+ if x in ('ar','en','fr'):return x
+ letters=re.findall(r'[A-Za-z\u0600-\u06ffÀ-ÿ]',body)
+ if letters:
+  arab=sum('\u0600'<=c<='\u06ff' for c in letters)
+  if arab/len(letters)>=0.35:return 'ar'
+ return 'en'
 def life_intent(r):
  kind=' '.join(str(r.get(k) or '') for k in ('articleKind','editorialCategory','contentType','publicRole')).lower()
  if any(x in kind for x in ('biography','life-biograph','life-profile')):return True
  if r.get('biographyPlacement') is True:return True
  if r.get('consolidatedIntoCanonicalBiography') is True and r.get('articleKind')=='supporting-person-source':return True
- title=title_of(r)
- return any(p.search(title) for p in LIFE_PATTERNS)
+ return any(p.search(title_of(r)) for p in LIFE_PATTERNS)
 def canonical_url(pid,name):return f'person.html?id={quote(pid)}&name={quote(name)}'
 
 def main():
@@ -78,15 +83,15 @@ def main():
     continue
    groups[person[0]].append((path,r,person[1]))
 
- changed=set();chapters=[];people={};old_sections=Counter();total_words=0
+ changed=set();chapters=[];people={};old_sections=Counter();total_words=0;lang_counts=Counter()
  for pid,items in sorted(groups.items()):
   names=Counter(n for _,_,n in items);name=names.most_common(1)[0][0] if names else pid;curl=canonical_url(pid,name)
   ids=[];paths=set();words=0
   for path,r,_ in items:
    prev={'section':r.get('section'),'sections':r.get('sections'),'subsection':r.get('subsection'),'editorialCategory':r.get('editorialCategory'),'articleKind':r.get('articleKind'),'publicRole':r.get('publicRole')}
    if r.get('section'):old_sections[str(r['section'])]+=1
-   body=body_of(r);wc=int(r.get('wordCount') or len(body.split()));words+=wc;total_words+=wc
-   chapter={'id':r.get('id'),'personId':pid,'personName':name,'title':r.get('title'),'body':body,'wordCount':wc,'sources':r.get('sources') or r.get('sourceRefs') or r.get('references') or [],'provenance':r.get('provenance') or r.get('source') or {},'sourcePath':str(path.relative_to(ROOT)),'previousPlacement':prev}
+   body=body_of(r);wc=int(r.get('wordCount') or len(body.split()));lang=language_of(r,body);lang_counts[lang]+=1;words+=wc;total_words+=wc
+   chapter={'id':r.get('id'),'personId':pid,'personName':name,'language':lang,'title':r.get('title'),'body':body,'wordCount':wc,'sources':r.get('sources') or r.get('sourceRefs') or r.get('references') or [],'provenance':r.get('provenance') or r.get('source') or {},'sourcePath':str(path.relative_to(ROOT)),'previousPlacement':prev}
    chapters.append(chapter);ids.append(r.get('id'));paths.add(chapter['sourcePath'])
    r['previousPlacement']=prev
    r['section']='canonical-person-biography';r['sections']=[];r['subsection']='life-chapters'
@@ -99,9 +104,8 @@ def main():
   people[pid]={'id':pid,'nameAr':name,'canonicalUrl':curl,'chapterCount':len(items),'chapterIds':ids,'sourceBatchPaths':sorted(paths),'totalWords':words}
 
  for path in sorted(changed):path.write_text(json.dumps(payloads[path],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- out={'schema':'canonical-life-chapters-v1','generatedAt':now(),'policy':{'onePersonOneBiography':True,'lifeBiographyArticlesLiveOnlyOnPersonPage':True,'thematicArticlesRemainInSections':True,'sourceProvenancePreserved':True},'personCount':len(people),'chapterCount':len(chapters),'people':people,'chapters':chapters}
+ out={'schema':'canonical-life-chapters-v1','generatedAt':now(),'policy':{'onePersonOneBiography':True,'lifeBiographyArticlesLiveOnlyOnPersonPage':True,'thematicArticlesRemainInSections':True,'sourceProvenancePreserved':True,'localizedDisplayOnly':True},'personCount':len(people),'chapterCount':len(chapters),'languageCounts':dict(lang_counts),'people':people,'chapters':chapters}
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- # Acceptance: no explicit-person life article may still be assigned to a thematic section.
  remaining=[]
  for path in files:
   payload=payloads.get(path) or read(path)
@@ -109,7 +113,7 @@ def main():
    if not isinstance(r,dict) or not life_intent(r) or not person_of(r):continue
    if r.get('section')!='canonical-person-biography' or r.get('publicListing') is not False:
     remaining.append({'path':str(path.relative_to(ROOT)),'id':r.get('id'),'title':title_of(r),'section':r.get('section')})
- audit={'schema':'person-life-relocation-audit-v1','generatedAt':now(),'recordsScanned':scanned,'peopleAffected':len(people),'lifeRecordsRelocated':len(chapters),'totalRelocatedWords':total_words,'previousSectionCounts':dict(old_sections),'unresolvedLifeRecords':unresolved,'remainingLifeRecordsOutsidePersonPages':remaining,'complete':len(remaining)==0}
+ audit={'schema':'person-life-relocation-audit-v1','generatedAt':now(),'recordsScanned':scanned,'peopleAffected':len(people),'lifeRecordsRelocated':len(chapters),'totalRelocatedWords':total_words,'languageCounts':dict(lang_counts),'previousSectionCounts':dict(old_sections),'unresolvedLifeRecords':unresolved,'remainingLifeRecordsOutsidePersonPages':remaining,'complete':len(remaining)==0}
  AUDIT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print(json.dumps(audit,ensure_ascii=False))
  if remaining:raise SystemExit(f'Relocation incomplete: {len(remaining)} records remain outside canonical pages')
