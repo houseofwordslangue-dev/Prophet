@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/audit_empty_person_biographies.py'
       - 'scripts/extract_required_biography_repairs.py'
+      - 'scripts/mine_empty_biography_source_articles.py'
       - '.github/workflows/audit-empty-biographies.yml'
       - 'data/editorial/required_biographies.json'
       - 'data/people.json'
@@ -11,6 +12,7 @@ on:
       - 'data/family_groups.json'
       - 'data/family_biographies.json'
       - 'data/family_biographies_all.*.b64'
+      - 'data/editorial/drafts/**/*.json'
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,8 +23,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - name: Extract repair-ready restored dossier evidence
+      - name: Extract restored dossier evidence
         run: python scripts/extract_required_biography_repairs.py
+      - name: Mine existing source articles
+        run: python scripts/mine_empty_biography_source_articles.py
       - name: Audit rendered biography coverage
         run: python scripts/audit_empty_person_biographies.py
       - name: Upload audit and repair evidence
@@ -32,3 +36,4 @@ jobs:
           path: |
             data/editorial/empty_biographies_audit.json
             data/editorial/person_biography_repairs_raw.json
+            data/editorial/empty_biography_source_candidates.json
