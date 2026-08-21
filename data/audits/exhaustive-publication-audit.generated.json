@@ -1,12 +1,12 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-21T23:34:59.758485+00:00",
-  "gitCommit": "9317a67a3d0b6cbeeb4d7da4c5a0ba0b45a6d377",
+  "generatedAt": "2026-08-21T23:36:44.509232+00:00",
+  "gitCommit": "099938037e88ccbb1fb9dc015f75767856909a44",
   "github": {
-    "trackedFileCount": 772,
+    "trackedFileCount": 760,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 193,
-      "NON_PUBLIC_WORKSPACE_OR_REJECTED": 135,
+      "TECHNICAL_REPOSITORY_FILE": 191,
+      "NON_PUBLIC_WORKSPACE_OR_REJECTED": 125,
       "PUBLIC_OR_SOURCE_ASSET": 44,
       "PUBLIC_SITE_ASSET": 99,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
@@ -755,12 +755,12 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 4742658,
+        "size": 741333,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.md",
-        "size": 861,
+        "size": 851,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2454,56 +2454,6 @@
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
-        "path": "data/editorial/drafts/2026-08-21/batch-21.json",
-        "size": 224297,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-22.json",
-        "size": 227144,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-23.json",
-        "size": 210383,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-24.json",
-        "size": 202367,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-25.json",
-        "size": 202918,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-26.json",
-        "size": 204980,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-27.json",
-        "size": 204401,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-28.json",
-        "size": 218573,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-29.json",
-        "size": 226868,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
-        "path": "data/editorial/drafts/2026-08-21/batch-30.json",
-        "size": 218969,
-        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
-      },
-      {
         "path": "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
         "size": 996294,
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
@@ -2871,16 +2821,6 @@
       {
         "path": "data/editorial/remaining_family_life_gapfill_status.json",
         "size": 260,
-        "disposition": "TECHNICAL_REPOSITORY_FILE"
-      },
-      {
-        "path": "data/editorial/reports/coverage-20260820T074428Z.json",
-        "size": 2026,
-        "disposition": "TECHNICAL_REPOSITORY_FILE"
-      },
-      {
-        "path": "data/editorial/reports/coverage-20260820T084715Z.json",
-        "size": 5015,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
