@@ -5,13 +5,15 @@ on:
     paths:
       - 'scripts/relocate_person_life_articles.py'
       - '.github/workflows/relocate-person-life-articles.yml'
-      - 'assets/people.js'
+      - 'assets/people-life-chapters.js'
+      - 'person.html'
   push:
     branches: [main]
     paths:
       - 'scripts/relocate_person_life_articles.py'
       - '.github/workflows/relocate-person-life-articles.yml'
-      - 'assets/people.js'
+      - 'assets/people-life-chapters.js'
+      - 'person.html'
   workflow_dispatch:
 
 permissions:
@@ -36,7 +38,9 @@ jobs:
           c=json.load(open('data/editorial/canonical_life_chapters.json',encoding='utf-8'))
           assert a['complete'] is True
           assert a['remainingLifeRecordsOutsidePersonPages']==[]
+          assert a['missingPerPersonFiles']==[]
           assert c['chapterCount']==a['lifeRecordsRelocated']
+          assert len(c['people'])==a['peopleAffected']
           print('PASS', a['peopleAffected'], a['lifeRecordsRelocated'])
           PY
       - name: Upload relocation audit
@@ -53,7 +57,7 @@ jobs:
         run: |
           git config user.name 'prophet-editorial-bot'
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add -- data/editorial/drafts data/editorial/canonical_life_chapters.json data/editorial/person_life_relocation_audit.json
+          git add -- data/editorial/drafts data/editorial/canonical-life data/editorial/canonical_life_chapters.json data/editorial/person_life_relocation_audit.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Relocate life biographies to canonical person pages'
           for attempt in 1 2 3 4; do
