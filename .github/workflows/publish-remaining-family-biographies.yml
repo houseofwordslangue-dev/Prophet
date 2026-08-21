@@ -1,0 +1,79 @@
+name: Publish remaining family biographies
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/publish_remaining_family_biographies.py'
+      - '.github/workflows/publish-remaining-family-biographies.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-remaining-family-biographies
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebase source state
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      - name: Publish as biographies
+        run: python scripts/publish_remaining_family_biographies.py
+      - name: Validate publication
+        run: |
+          python - <<'PY'
+          import glob,json
+          a=json.load(open('data/editorial/remaining_family_biographies_publication_audit.json',encoding='utf-8'))
+          assert a['status']=='PUBLISHED'
+          assert a['category']=='biographies'
+          assert a['people']==115
+          assert a['articlesPerPerson']==5
+          assert a['articles']==575
+          assert a['minimumObservedWords']>=500
+          assert a['articlesUnder500Words']==0
+          assert a['subjectsWithExactlyFive']==115
+          assert a['uniqueArticleIds']==575
+          assert a['sourceCoveragePercent']==100
+          assert a['aiOriginalSubstantiveContentPercent']==0
+          assert a['prophetOnlySectionsUsed']==0
+          rows=[]
+          for f in sorted(glob.glob('data/editorial/drafts/2026-08-21/family-life-five-batch-*.json')):
+              d=json.load(open(f,encoding='utf-8'))
+              assert d['publicationStatus']=='PUBLISHED'
+              rows += d['drafts']
+          assert len(rows)==575
+          assert all(x['publicationStatus']=='PUBLISHED' for x in rows)
+          assert all(x['articleKind']=='biography' for x in rows)
+          assert all(x['editorialCategory']=='biographies' for x in rows)
+          assert all(x['wordCount']>=500 for x in rows)
+          print('PASS: 575 biographies, 115 people, >=500 words each')
+          PY
+      - name: Commit publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/publication_supplement.json data/editorial/remaining_family_biographies_publication_audit.json data/editorial/drafts/2026-08-21/family-life-five-batch-*.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publish 575 remaining family articles as biographies'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
