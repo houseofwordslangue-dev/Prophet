@@ -1,0 +1,4 @@
+(function(){'use strict';
+function rewrite(){document.querySelectorAll('a.family-person[href*="person.html?"]').forEach(a=>{try{const u=new URL(a.getAttribute('href'),location.href);const id=u.searchParams.get('id'),name=u.searchParams.get('name'),lang=u.searchParams.get('lang')||new URLSearchParams(location.search).get('lang')||'ar';if(!id)return;const q=new URLSearchParams({id,lang});if(name)q.set('name',name);a.href='family-person.html?'+q.toString()}catch{}})}
+rewrite();const mo=new MutationObserver(rewrite);mo.observe(document.documentElement,{subtree:true,childList:true});setTimeout(()=>mo.disconnect(),30000);
+})();
