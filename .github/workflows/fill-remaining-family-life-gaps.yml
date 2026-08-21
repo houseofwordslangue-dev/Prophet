@@ -1,0 +1,94 @@
+name: Fill unresolved family life drafts from Wikisource
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fill_remaining_family_gaps_from_wikisource.py'
+      - '.github/workflows/fill-remaining-family-life-gaps.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: remaining-family-life-gapfill
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebase source state
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      - name: Fill source gaps and capture result
+        id: fill
+        shell: bash
+        run: |
+          set +e
+          python scripts/fill_remaining_family_gaps_from_wikisource.py > /tmp/family-gapfill.log 2>&1
+          code=$?
+          cat /tmp/family-gapfill.log
+          echo "exitcode=$code" >> "$GITHUB_OUTPUT"
+          python - "$code" <<'PY'
+          import json,datetime,pathlib,sys
+          code=int(sys.argv[1]); log=pathlib.Path('/tmp/family-gapfill.log').read_text(errors='replace')
+          d={'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z'),'status':'SUCCESS' if code==0 else 'FAILED','exitCode':code,'logTail':log[-12000:]}
+          pathlib.Path('data/editorial/remaining_family_life_gapfill_status.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          exit 0
+      - name: Validate
+        if: steps.fill.outputs.exitcode == '0'
+        run: |
+          python - <<'PY'
+          import glob,json
+          a=json.load(open('data/editorial/remaining_family_life_5_audit.json',encoding='utf-8'))
+          assert a['draftsGenerated']==a['remainingMembersWithFiveDrafts']*5
+          assert a['articlesAtOrBelow500Words']==0
+          assert a['prophetOnlySectionsUsed']==0
+          assert a['sourceCoveragePercent']==100
+          assert a['aiOriginalSubstantiveContentPercent']==0
+          rows=[]
+          for f in glob.glob('data/editorial/drafts/2026-08-21/family-life-five-batch-*.json'):
+              rows += json.load(open(f,encoding='utf-8'))['drafts']
+          assert len(rows)==a['draftsGenerated']
+          assert len({x['bodyFingerprint'] for x in rows})==len(rows)
+          assert all(x['wordCount']>500 and x['publicationStatus']=='DRAFT' for x in rows)
+          print('PASS',a['remainingMembersWithFiveDrafts'],'complete members;',a['sourceGapMembers'],'gaps;',a['draftsGenerated'],'drafts')
+          PY
+      - name: Commit result
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/remaining_family_life_gapfill_status.json
+          if [ "${{ steps.fill.outputs.exitcode }}" = "0" ]; then
+            git add -- data/editorial/remaining_family_life_5_audit.json
+            shopt -s nullglob
+            files=(data/editorial/drafts/2026-08-21/family-life-five-batch-*.json)
+            if ((${#files[@]})); then git add -- "${files[@]}"; fi
+          fi
+          if git diff --cached --quiet; then exit 0; fi
+          if [ "${{ steps.fill.outputs.exitcode }}" = "0" ]; then msg='Fill remaining family life drafts from Wikisource'; else msg='Record family gapfill failure'; fi
+          git commit -m "$msg"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
+      - name: Fail if source retrieval failed
+        if: steps.fill.outputs.exitcode != '0'
+        run: exit 1
