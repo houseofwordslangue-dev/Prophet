@@ -1,0 +1,45 @@
+{
+  "version": "2026-08-21.1",
+  "section": "children",
+  "contentTypes": [
+    {"id":"verified-readings","labelAr":"قراءات موثقة","labelEn":"Verified readings","labelFr":"Lectures vérifiées","href":"children.html#verified-readings"},
+    {"id":"illustrated-stories","labelAr":"قصص مصوّرة","labelEn":"Illustrated stories","labelFr":"Histoires illustrées","href":"children-stories.html"},
+    {"id":"animated-stories","labelAr":"قصص متحركة","labelEn":"Animated stories","labelFr":"Histoires animées","href":"children-animated.html"},
+    {"id":"media","labelAr":"فيديو وصوت","labelEn":"Video & audio","labelFr":"Vidéo et audio","href":"children-videos.html"}
+  ],
+  "subjects": [
+    {"id":"seerah-prophet","labelAr":"السيرة والنبي ﷺ","labelEn":"Seerah & the Prophet ﷺ","labelFr":"Sîra et le Prophète ﷺ","icon":"✦","keywords":["seerah","prophet","muhammad","rasul","messenger","sirah","سيرة","النبي","محمد","رسول"]},
+    {"id":"quran","labelAr":"القرآن والحفظ","labelEn":"Qur’an & memorization","labelFr":"Coran et mémorisation","icon":"◈","keywords":["quran","qur'an","koran","surah","surat","memorization","memorisation","hifz","حفظ","قرآن","سورة"]},
+    {"id":"dua-dhikr","labelAr":"الدعاء والذكر","labelEn":"Duʿā’ & dhikr","labelFr":"Duʿâ et dhikr","icon":"❋","keywords":["dua","du'a","duʿa","supplication","dhikr","adhkar","ذكر","دعاء","أذكار"]},
+    {"id":"prayer-worship","labelAr":"الصلاة والعبادات","labelEn":"Prayer & worship","labelFr":"Prière et adoration","icon":"◐","keywords":["prayer","salah","salat","wudu","ablution","fasting","hajj","umrah","worship","صلاة","وضوء","صوم","حج","عمرة","عبادة"]},
+    {"id":"manners-character","labelAr":"الآداب والأخلاق","labelEn":"Manners & character","labelFr":"Bonnes manières et caractère","icon":"♡","keywords":["manners","character","akhlaq","adab","kindness","honesty","patience","gratitude","forgiveness","respect","أخلاق","آداب","صدق","صبر","شكر","تسامح","احترام","لطف"]},
+    {"id":"faith-identity","labelAr":"الإيمان والهوية","labelEn":"Faith & identity","labelFr":"Foi et identité","icon":"◇","keywords":["faith","belief","beliefs","aqidah","iman","islamic basics","muslim identity","identity","إيمان","عقيدة","هوية","مسلم","اسلام"]},
+    {"id":"arabic-language","labelAr":"العربية والتعلّم","labelEn":"Arabic & language learning","labelFr":"Arabe et apprentissage","icon":"أ","keywords":["arabic","alphabet","letters","language","learn arabic","عربية","العربية","حروف","أبجدية"]},
+    {"id":"nasheed","labelAr":"الأناشيد والمديح","labelEn":"Nasheeds & praise","labelFr":"Anachid et louanges","icon":"♫","keywords":["nasheed","nasheeds","islamic song","islamic songs","song","songs","madih","praise","أناشيد","نشيد","أغنية","مديح"]},
+    {"id":"ramadan-seasons","labelAr":"رمضان والمناسبات","labelEn":"Ramadan & occasions","labelFr":"Ramadan et occasions","icon":"☾","keywords":["ramadan","eid","mawlid","fasting month","رمضان","عيد","مولد"]},
+    {"id":"family-life","labelAr":"الأسرة والحياة اليومية","labelEn":"Family & daily life","labelFr":"Famille et vie quotidienne","icon":"⌂","keywords":["family","parents","mother","father","siblings","home","daily life","أسرة","عائلة","أم","أب","والدين","منزل"]},
+    {"id":"stories-values","labelAr":"القصص والقيم","labelEn":"Stories & values","labelFr":"Histoires et valeurs","icon":"▤","keywords":["story","stories","islamic stories","cartoon","animation","values","قصة","قصص","كرتون","رسوم","قيم"]},
+    {"id":"general-learning","labelAr":"المعرفة والتعليم","labelEn":"Knowledge & education","labelFr":"Connaissances et éducation","icon":"◎","keywords":["education","learning","science","knowledge","quiz","school","تعليم","معرفة","علوم","مدرسة"]}
+  ],
+  "values": [
+    {"id":"kindness","labelAr":"اللطف","labelEn":"Kindness","labelFr":"Gentillesse"},
+    {"id":"honesty","labelAr":"الصدق","labelEn":"Honesty","labelFr":"Honnêteté"},
+    {"id":"courage","labelAr":"الشجاعة","labelEn":"Courage","labelFr":"Courage"},
+    {"id":"patience","labelAr":"الصبر","labelEn":"Patience","labelFr":"Patience"},
+    {"id":"curiosity","labelAr":"حب المعرفة","labelEn":"Curiosity","labelFr":"Curiosité"},
+    {"id":"cooperation","labelAr":"التعاون","labelEn":"Cooperation","labelFr":"Coopération"},
+    {"id":"responsibility","labelAr":"المسؤولية","labelEn":"Responsibility","labelFr":"Responsabilité"},
+    {"id":"gratitude","labelAr":"الشكر","labelEn":"Gratitude","labelFr":"Gratitude"},
+    {"id":"nature","labelAr":"العناية بالطبيعة","labelEn":"Care for nature","labelFr":"Soin de la nature"},
+    {"id":"forgiveness","labelAr":"التسامح","labelEn":"Forgiveness","labelFr":"Pardon"}
+  ],
+  "ageGroups": [
+    {"id":"4-6","labelAr":"4–6 سنوات","href":"children-stories.html?age=4-6"},
+    {"id":"5-7","labelAr":"5–7 سنوات","href":"children-animated.html?age=5-7"},
+    {"id":"7-9","labelAr":"7–9 سنوات","href":"children-stories.html?age=7-9"},
+    {"id":"8-10","labelAr":"8–10 سنوات","href":"children-animated.html?age=8-10"},
+    {"id":"10-12","labelAr":"10–12 سنة","href":"children-stories.html?age=10-12"},
+    {"id":"11-13","labelAr":"11–13 سنة","href":"children-animated.html?age=11-13"},
+    {"id":"14-16","labelAr":"14–16 سنة","href":"children-animated.html?age=14-16"}
+  ]
+}
