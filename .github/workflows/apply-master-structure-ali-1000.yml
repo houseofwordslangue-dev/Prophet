@@ -26,6 +26,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Record workflow run locator
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data/editorial
+          printf '{"runId":%s,"runAttempt":%s,"sha":"%s","startedAt":"%s"}\n' \
+            "$GITHUB_RUN_ID" "$GITHUB_RUN_ATTEMPT" "$GITHUB_SHA" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            > data/editorial/ali_1000_run.json
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/ali_1000_run.json
+          git commit -m 'Record Ali 1000 workflow run' || true
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Refresh after run locator
+        run: git pull --rebase origin main
       - name: Build master structure and exactly 1000 Ali source articles
         run: python scripts/apply_master_structure_and_ali_1000.py
       - name: Commit generated site structure and Ali publication
