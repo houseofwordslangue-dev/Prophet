@@ -1,0 +1,41 @@
+{
+  "version": "2026-08-21-platform-v1",
+  "software": {
+    "serverSideSearch": "IMPLEMENTED",
+    "arabicNormalizationAndRanking": "IMPLEMENTED",
+    "persistentMiniPlayerStateAcrossNavigation": "IMPLEMENTED",
+    "offlineLibraryManager": "IMPLEMENTED",
+    "crossDeviceAccountSyncBackend": "IMPLEMENTED",
+    "performanceTelemetryDashboard": "IMPLEMENTED",
+    "regressionTestSuite": "IMPLEMENTED",
+    "adaptiveHlsPipeline": "IMPLEMENTED",
+    "conditional2160pPipeline": "IMPLEMENTED_NO_UPSCALING",
+    "ocrCoordinatePipeline": "IMPLEMENTED_WITH_PDF_TEXT_AND_TESSERACT_FALLBACK",
+    "wordTimedTranscriptPipeline": "IMPLEMENTED_WITH_FASTER_WHISPER",
+    "verifiedMirrorAudit": "IMPLEMENTED",
+    "fiveOriginReplicationPipeline": "IMPLEMENTED_REQUIRES_REAL_CREDENTIALLED_ORIGINS"
+  },
+  "runtimeEndpoints": [
+    "/api/search",
+    "/api/search/rebuild",
+    "/api/account/register",
+    "/api/account/login",
+    "/api/sync",
+    "/api/telemetry",
+    "/api/telemetry/summary",
+    "/api/media/mirrors",
+    "/api/media/integrity",
+    "/api/media/stream"
+  ],
+  "realAssetGates": {
+    "fiveIndependentMirrorsPerAsset": "PENDING_UNTIL_5_REAL_S3_COMPATIBLE_ORIGINS_ARE_CONFIGURED_AND_UPLOADS_SUCCEED",
+    "ocrBoxesForEveryScan": "PIPELINE_READY; OUTPUT EXISTS ONLY FOR LOCALLY AVAILABLE PDF PAGES THAT CAN BE TEXT-EXTRACTED_OR_OCRD",
+    "wordTimedTranscriptForEveryMediaItem": "PIPELINE_READY; REQUIRES_LOCAL_MEDIA_AND_FASTER_WHISPER",
+    "genuineArEnFrSubtitles": "SOURCE_LANGUAGE_VTT_CAN_BE_GENERATED; TRANSLATED TRACKS_REQUIRE_GENUINE_TRANSLATION_FILES",
+    "adaptiveRenditions": "PIPELINE_READY; REQUIRES_LOCAL_VIDEO_AND_FFMPEG",
+    "genuine4k": "GENERATED_ONLY_WHEN_SOURCE_HEIGHT_IS_AT_LEAST_2160; NEVER_UPSCALED"
+  },
+  "mirrorConfiguration": "Set PM_MIRROR_1_JSON through PM_MIRROR_5_JSON to five real S3-compatible origins, then run scripts/replicate_assets.py and scripts/build_mirror_manifest.py.",
+  "assetPreparationCommand": "python scripts/prepare_reader_player_assets.py",
+  "regressionCommand": "python -m unittest -v tests/test_reader_player_runtime.py"
+}
