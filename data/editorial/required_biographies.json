@@ -7,9 +7,9 @@
     "sourceOnly": true
   },
   "requiredPersonCount": 135,
-  "canonicalCompleteCount": 135,
-  "missingCanonicalBiographyCount": 0,
-  "complete": true,
+  "canonicalCompleteCount": 118,
+  "missingCanonicalBiographyCount": 17,
+  "complete": false,
   "people": {
     "abd-al-muttalib": {
       "id": "abd-al-muttalib",
@@ -756,15 +756,14 @@
       "id": "abdullah-ibn-umar",
       "nameAr": "عبد الله بن عمر",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=abdullah-ibn-umar&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D9%85%D8%B1",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -944,15 +943,14 @@
       "id": "abu-bakr",
       "nameAr": "أبو بكر الصديق",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=abu-bakr&name=%D8%A3%D8%A8%D9%88%20%D8%A8%D9%83%D8%B1%20%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -1018,15 +1016,14 @@
       "id": "abu-hurayra",
       "nameAr": "أبو هريرة",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=abu-hurayra&name=%D8%A3%D8%A8%D9%88%20%D9%87%D8%B1%D9%8A%D8%B1%D8%A9",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -1265,15 +1262,14 @@
       "id": "abu-ubayda-ibn-al-jarrah",
       "nameAr": "أبو عبيدة بن الجراح",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=abu-ubayda-ibn-al-jarrah&name=%D8%A3%D8%A8%D9%88%20%D8%B9%D8%A8%D9%8A%D8%AF%D8%A9%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D8%AD",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -18502,15 +18498,14 @@
       "id": "anas-ibn-malik",
       "nameAr": "أنس بن مالك",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=anas-ibn-malik&name=%D8%A3%D9%86%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -18804,15 +18799,14 @@
       "id": "bilal-ibn-rabah",
       "nameAr": "بلال بن رباح",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=bilal-ibn-rabah&name=%D8%A8%D9%84%D8%A7%D9%84%20%D8%A8%D9%86%20%D8%B1%D8%A8%D8%A7%D8%AD",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -18993,15 +18987,14 @@
       "id": "fatima-al-zahra",
       "nameAr": "فاطمة الزهراء",
       "category": "family",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=fatima-al-zahra&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -27714,15 +27707,14 @@
       "id": "jabir-ibn-abdullah",
       "nameAr": "جابر بن عبد الله",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=jabir-ibn-abdullah&name=%D8%AC%D8%A7%D8%A8%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -36016,15 +36008,14 @@
       "id": "khalid-ibn-al-walid",
       "nameAr": "خالد بن الوليد",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=khalid-ibn-al-walid&name=%D8%AE%D8%A7%D9%84%D8%AF%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%88%D9%84%D9%8A%D8%AF",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -36546,15 +36537,14 @@
       "id": "muadh-ibn-jabal",
       "nameAr": "معاذ بن جبل",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=muadh-ibn-jabal&name=%D9%85%D8%B9%D8%A7%D8%B0%20%D8%A8%D9%86%20%D8%AC%D8%A8%D9%84",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -37321,15 +37311,14 @@
       "id": "saeed-ibn-zayd",
       "nameAr": "سعيد بن زيد",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=saeed-ibn-zayd&name=%D8%B3%D8%B9%D9%8A%D8%AF%20%D8%A8%D9%86%20%D8%B2%D9%8A%D8%AF",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -37509,15 +37498,14 @@
       "id": "salman-al-farisi",
       "nameAr": "سلمان الفارسي",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=salman-al-farisi&name=%D8%B3%D9%84%D9%85%D8%A7%D9%86%20%D8%A7%D9%84%D9%81%D8%A7%D8%B1%D8%B3%D9%8A",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -37640,15 +37628,14 @@
       "id": "talha-ibn-ubaydullah",
       "nameAr": "طلحة بن عبيد الله",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=talha-ibn-ubaydullah&name=%D8%B7%D9%84%D8%AD%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D9%8A%D8%AF%20%D8%A7%D9%84%D9%84%D9%87",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -37999,15 +37986,14 @@
       "id": "umar-ibn-al-khattab",
       "nameAr": "عمر بن الخطاب",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=umar-ibn-al-khattab&name=%D8%B9%D9%85%D8%B1%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%A8",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -38472,15 +38458,14 @@
       "id": "usama-ibn-zaid",
       "nameAr": "أسامة بن زيد",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=usama-ibn-zaid&name=%D8%A3%D8%B3%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%20%D8%B2%D9%8A%D8%AF",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -38604,15 +38589,14 @@
       "id": "zaid-ibn-haritha",
       "nameAr": "زيد بن حارثة",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=zaid-ibn-haritha&name=%D8%B2%D9%8A%D8%AF%20%D8%A8%D9%86%20%D8%AD%D8%A7%D8%B1%D8%AB%D8%A9",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
@@ -38621,15 +38605,14 @@
       "id": "zaid-ibn-thabit",
       "nameAr": "زيد بن ثابت",
       "category": "companion",
-      "canonicalBiographyCount": 1,
-      "canonicalStatus": "SOURCE_VERIFIED",
+      "canonicalBiographyCount": 0,
+      "canonicalStatus": "SOURCE_REQUIRED",
       "canonicalUrl": "person.html?id=zaid-ibn-thabit&name=%D8%B2%D9%8A%D8%AF%20%D8%A8%D9%86%20%D8%AB%D8%A7%D8%A8%D8%AA",
       "verifiedBiographyTextPresent": false,
-      "verifiedSourcePassageCount": 1,
+      "verifiedSourcePassageCount": 0,
       "supportingSourceArticleCount": 0,
       "supportingSourceArticles": [],
       "origins": [
-        "final_missing_biographies.json",
         "people.json"
       ],
       "policy": "One canonical person page; source articles remain supporting thematic material."
