@@ -1,0 +1,45 @@
+{
+  "version": "6.1.0-seed",
+  "generated": "2026-08-21T04:25:00Z",
+  "note": "Verified public seed records. Automated media_sync.py expands this catalogue from configured sources without downloading media files.",
+  "items": [
+    {
+      "id": "yt-ta_6BDLuUR4",
+      "kind": "video",
+      "category": "lecture",
+      "titleAr": "المجلس السادس من شرح كتاب الشفا بتعريف حقوق المصطفى ﷺ",
+      "titleEn": "Session 6: Commentary on Al-Shifa",
+      "titleFr": "Séance 6 : commentaire d'Al-Shifa",
+      "summaryAr": "مجلس كامل لقراءة وشرح كتاب الشفا للقاضي عياض، مع فصول زمنية داخل التسجيل.",
+      "url": "https://www.youtube.com/watch?v=ta_6BDLuUR4",
+      "embed": "https://www.youtube-nocookie.com/embed/ta_6BDLuUR4",
+      "language": "ar",
+      "topics": ["السيرة", "الشفا", "الشمائل", "محاضرة"],
+      "thumbnail": "https://i.ytimg.com/vi/ta_6BDLuUR4/hqdefault.jpg",
+      "published": "20221114",
+      "creator": "د. يحيى الغوثاني",
+      "series": "شرح كتاب الشفا",
+      "catalogTier": "verified-public",
+      "viewCount": 2697
+    },
+    {
+      "id": "yt-TJOIkWJ6hwY",
+      "kind": "video",
+      "category": "dalail-khayrat",
+      "titleAr": "دلائل الخيرات — سلسلة دليل الخيرات",
+      "titleEn": "Dala'il al-Khayrat Series",
+      "titleFr": "Série Dalâ'il al-Khayrât",
+      "summaryAr": "حلقة تعريفية بكتاب دلائل الخيرات وبنائه وتقسيمه وطرق قراءته.",
+      "url": "https://www.youtube.com/watch?v=TJOIkWJ6hwY",
+      "embed": "https://www.youtube-nocookie.com/embed/TJOIkWJ6hwY",
+      "language": "ar",
+      "topics": ["دلائل الخيرات", "السيرة", "المديح", "محاضرة"],
+      "thumbnail": "https://i.ytimg.com/vi/TJOIkWJ6hwY/hqdefault.jpg",
+      "published": "20250328",
+      "creator": "نور المحبين",
+      "series": "دليل الخيرات",
+      "catalogTier": "verified-public",
+      "viewCount": 59293
+    }
+  ]
+}
