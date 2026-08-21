@@ -1,0 +1,97 @@
+name: Audit and enrich canonical biographies
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_and_enrich_canonical_biographies.py'
+      - 'scripts/relocate_person_life_articles.py'
+      - 'assets/people-source-extensions.js'
+      - 'assets/people-life-chapters.js'
+      - 'person.html'
+      - 'data/people.json'
+      - 'data/family_people.json'
+      - 'data/family_groups.json'
+      - 'data/family_biographies.json'
+      - 'data/editorial/drafts/**'
+      - 'library/**'
+      - 'sources/**'
+      - 'content/**'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_and_enrich_canonical_biographies.py'
+      - 'scripts/relocate_person_life_articles.py'
+      - 'assets/people-source-extensions.js'
+      - 'assets/people-life-chapters.js'
+      - 'person.html'
+      - 'data/people.json'
+      - 'data/family_people.json'
+      - 'data/family_groups.json'
+      - 'data/family_biographies.json'
+      - 'data/editorial/drafts/**'
+      - 'library/**'
+      - 'sources/**'
+      - 'content/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  biography-audit-enrichment:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Re-relocate any newly introduced life/biography records
+        run: python scripts/relocate_person_life_articles.py
+      - name: Audit placement and extract biography extensions
+        run: python scripts/audit_and_enrich_canonical_biographies.py
+      - name: Validate canonical placement and extensions
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          a=json.load(open('data/editorial/global_biography_placement_audit.json',encoding='utf-8'))
+          i=json.load(open('data/editorial/canonical_biography_extensions.json',encoding='utf-8'))
+          assert a['completePlacementForExplicitPeople'] is True
+          assert a['misplacedBiographyLifeRecordCount']==0
+          assert i['peopleExtended']>0
+          assert i['passageCount']>0
+          assert i['wordCount']>0
+          for pid,meta in i['people'].items():
+              p=pathlib.Path(meta['file'])
+              assert p.exists(), (pid,p)
+              d=json.load(open(p,encoding='utf-8'))
+              assert d['personId']==pid
+              assert d['passageCount']==len(d['passages'])
+              assert all(str(x.get('text','')).strip() for x in d['passages'])
+          print('PASS', a['indexedPeople'], i['peopleExtended'], i['passageCount'], i['wordCount'])
+          PY
+      - name: Upload biography audit
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonical-biography-audit-enrichment
+          path: |
+            data/editorial/global_biography_placement_audit.json
+            data/editorial/canonical_biography_extensions.json
+          if-no-files-found: error
+      - name: Commit materialized biography extensions on main
+        if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+        run: |
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/drafts data/editorial/canonical-life data/editorial/canonical_life_chapters.json data/editorial/person_life_relocation_audit.json data/editorial/biography-extensions data/editorial/canonical_biography_extensions.json data/editorial/global_biography_placement_audit.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Materialize source-derived canonical biography extensions'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
