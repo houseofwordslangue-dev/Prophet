@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: generation-biography-sync
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   sync:
