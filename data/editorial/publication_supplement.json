@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-21-publication-supplement-v3-100-source-extracts",
-  "publishedAt": "2026-08-21T01:34:56+00:00",
+  "version": "2026-08-21-publication-supplement-v4-drive-documentaries",
+  "publishedAt": "2026-08-21T02:34:00+01:00",
   "draftBatchPaths": [
     "data/editorial/drafts/2026-08-20/batch-09.json",
     "data/editorial/drafts/2026-08-20/batch-10.json",
@@ -13,7 +13,8 @@
     "data/editorial/drafts/2026-08-21/batch-17.json",
     "data/editorial/drafts/2026-08-21/batch-18.json",
     "data/editorial/drafts/2026-08-21/batch-19.json",
-    "data/editorial/drafts/2026-08-21/batch-20.json"
+    "data/editorial/drafts/2026-08-21/batch-20.json",
+    "data/editorial/drafts/2026-08-21/batch-21.json"
   ],
   "publishedIds": [
     "20260820-forums-community-work",
@@ -118,16 +119,21 @@
     "20260821-source-extract-097",
     "20260821-source-extract-098",
     "20260821-source-extract-099",
-    "20260821-source-extract-100"
+    "20260821-source-extract-100",
+    "20260821-drive-documentary-hijra-01",
+    "20260821-drive-documentary-hijra-02"
   ],
   "integrity": {
-    "articlesPublishedInSupplement": 103,
-    "newArticlesPublishedThisBatch": 100,
-    "genuineSourceDerivedArticlesThisBatch": 100,
+    "articlesPublishedInSupplement": 105,
+    "newArticlesPublishedThisBatch": 2,
+    "genuineSourceDerivedArticlesThisBatch": 2,
     "aiGeneratedSubstantiveArticlesThisBatch": 0,
-    "articlesWith100PercentSourceProvenanceThisBatch": 100,
+    "articlesWith100PercentSourceProvenanceThisBatch": 2,
     "unsupportedFactualParagraphsThisBatch": 0,
     "unverifiedQuotationsThisBatch": 0,
-    "duplicateSourceBodiesThisBatch": 0
+    "duplicateSourceBodiesThisBatch": 0,
+    "canonicalEditorialSlotsCovered": 39,
+    "canonicalEditorialSlotsTotal": 39,
+    "coveragePercentRolling24h": 100
   }
 }
