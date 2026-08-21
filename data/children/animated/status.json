@@ -1,0 +1,37 @@
+{
+  "total": 100,
+  "draft": 0,
+  "scriptReady": 100,
+  "artReady": 100,
+  "audioReady": 0,
+  "animationReady": 100,
+  "ready": 100,
+  "published": 100,
+  "failed": 0,
+  "ttsFallback": 100,
+  "nativeNarration": 0,
+  "nativeVideo": 0,
+  "animatedStoryboard": 100,
+  "ageProgress": {
+    "5-7": {
+      "total": 25,
+      "ready": 25,
+      "published": 25
+    },
+    "8-10": {
+      "total": 25,
+      "ready": 25,
+      "published": 25
+    },
+    "11-13": {
+      "total": 25,
+      "ready": 25,
+      "published": 25
+    },
+    "14-16": {
+      "total": 25,
+      "ready": 25,
+      "published": 25
+    }
+  }
+}

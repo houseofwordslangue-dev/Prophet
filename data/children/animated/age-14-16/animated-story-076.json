@@ -1,0 +1,509 @@
+{
+  "id": "animated-story-076",
+  "slug": "animated-story-076-paper-robot",
+  "titleAr": "ميرا والروبوت الورقي في مركز إنقاذ النباتات",
+  "titleEn": "Mira and the Paper Robot at A Plant Rescue Center",
+  "titleFr": "Mira et Robot en papier à un centre de sauvetage des plantes",
+  "ageGroup": "14-16",
+  "readingLevel": "advanced",
+  "category": "cooperation",
+  "categoryAr": "التعاون",
+  "secondaryTags": [
+    "friendship",
+    "exploration",
+    "family"
+  ],
+  "visualStyle": "mystery",
+  "fictional": true,
+  "historicalClaim": false,
+  "synopsisAr": "في مركز إنقاذ النباتات يواجه ميرا وأصدقاؤه موقفًا يبدأ حين سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات. تقودهم ملاحظات مرتبطة بـالروبوت الورقي إلى سلسلة من المحاولات والقرارات التي تختبر التعاون بطريقة عملية.",
+  "synopsisEn": "In a plant rescue center, Mira and friends face a situation in which an old neighborhood mystery needs calm investigation, not rumors. Clues connected to the paper robot lead them through decisions that test cooperation in practice.",
+  "synopsisFr": "À un centre de sauvetage des plantes, Mira et ses amis affrontent une situation où un ancien mystère du quartier demande une enquête calme, pas des rumeurs. Des indices liés à robot en papier les conduisent à des décisions qui mettent en pratique la valeur de التعاون.",
+  "moralAr": "التعاون يصبح قيمة حقيقية حين يظهر في قرار عملي يحترم الآخرين والواقع.",
+  "moralEn": "Cooperation becomes meaningful when it appears in practical choices that respect people and facts.",
+  "moralFr": "La valeur de التعاون prend tout son sens lorsqu’elle guide des choix concrets et respectueux.",
+  "characters": [
+    {
+      "characterId": "char-076-a",
+      "name": "ميرا",
+      "age": 15,
+      "role": "protagonist",
+      "personality": "ملاحظ، فضولي، يتعلم من الخطأ",
+      "strengths": [
+        "observation",
+        "empathy"
+      ],
+      "weakness": "يتعجل أحيانًا",
+      "appearanceDescription": "ملامح طفولية خيالية أصلية وشعر بسيط وتعبير واضح",
+      "clothingDescription": "ملابس يومية بسيطة بألوان فاتحة بلا شعارات",
+      "consistencyPrompt": "Original fictional youth Mira, age 15, simple contemporary clothes, consistent hairstyle, neutral cultural styling, no franchise resemblance."
+    },
+    {
+      "characterId": "char-076-b",
+      "name": "يونس",
+      "age": 16,
+      "role": "friend",
+      "personality": "هادئ، عملي، يحب العمل الجماعي",
+      "strengths": [
+        "communication",
+        "planning"
+      ],
+      "weakness": "يتردد قبل التجربة",
+      "appearanceDescription": "شخصية خيالية أصلية مختلفة في الهيئة والتسريحة",
+      "clothingDescription": "ملابس عملية مريحة بلا علامات تجارية",
+      "consistencyPrompt": "Original fictional young teammate, distinct silhouette, neutral everyday clothes, consistent facial design, no copyrighted character resemblance."
+    }
+  ],
+  "storyAr": [
+    {
+      "sceneNumber": 1,
+      "text": "مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 10 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 16 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 10 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، وكانت الملاحظة رقم 13 مختلفة قليلًا، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 10 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 13 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 16 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 13 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، وكانت الملاحظة رقم 10 مختلفة قليلًا، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 13 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 10 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 13 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 16 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون."
+    }
+  ],
+  "storyEn": [
+    {
+      "sceneNumber": 1,
+      "text": "With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared — clue 1-10. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 1-13. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 2-10. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility — clue 2-13. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 2-16. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 3-10. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up — clue 3-13. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 4-10. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 4-13. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 5-10. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 5-13. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 5-16."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 6-10. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared — clue 6-13. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility — clue 7-10. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 7-13. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility — clue 7-16. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up — clue 8-10. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 8-13. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 9-10. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 9-13. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 10-10. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 10-13. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 10-16."
+    }
+  ],
+  "storyFr": [
+    {
+      "sceneNumber": 1,
+      "text": "À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air — détail 1-10. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 1-13. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 2-10. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 2-13. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 2-16. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 3-10. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 3-13. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 4-10. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 4-13. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 5-10. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 5-13. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 6-10. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air — détail 6-13. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 7-10. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 7-13. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 7-16. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 8-10. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 8-13. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 9-10. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 9-13. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 10-10. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 10-13. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 10-16."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "sceneTitle": "بداية غير عادية",
+      "sceneTitleEn": "An Unusual Beginning",
+      "sceneTitleFr": "Un début inhabituel",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم.",
+      "narrationEn": "With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared — clue 1-10. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 1-13. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns.",
+      "narrationFr": "À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air — détail 1-10. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 1-13. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 31,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 1.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-01.svg"
+    },
+    {
+      "sceneNumber": 2,
+      "sceneTitle": "الإشارة الأولى",
+      "sceneTitleEn": "The First Signal",
+      "sceneTitleFr": "Le premier signal",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 10 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 16 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية.",
+      "narrationEn": "Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 2-10. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility — clue 2-13. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 2-16. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan.",
+      "narrationFr": "Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 2-10. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 2-13. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 2-16. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 32,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 2.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-02.svg"
+    },
+    {
+      "sceneNumber": 3,
+      "sceneTitle": "قرار صغير",
+      "sceneTitleEn": "A Small Decision",
+      "sceneTitleFr": "Une petite décision",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 10 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، وكانت الملاحظة رقم 13 مختلفة قليلًا، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم.",
+      "narrationEn": "The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 3-10. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up — clue 3-13. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up.",
+      "narrationFr": "Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 3-10. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 3-13. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 33,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 3.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-03.svg"
+    },
+    {
+      "sceneNumber": 4,
+      "sceneTitle": "المحاولة الأولى",
+      "sceneTitleEn": "The First Attempt",
+      "sceneTitleFr": "La première tentative",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي.",
+      "narrationEn": "The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 4-10. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 4-13. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own.",
+      "narrationFr": "La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 4-10. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 4-13. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 34,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 4.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-04.svg"
+    },
+    {
+      "sceneNumber": 5,
+      "sceneTitle": "ما لم يتوقعوه",
+      "sceneTitleEn": "What They Did Not Expect",
+      "sceneTitleFr": "Ce qu’ils n’avaient pas prévu",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 10 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 13 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 16 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى.",
+      "narrationEn": "By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 5-10. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 5-13. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 5-16.",
+      "narrationFr": "À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 5-10. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 5-13. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 35,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 5.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-05.svg"
+    },
+    {
+      "sceneNumber": 6,
+      "sceneTitle": "اختبار الفريق",
+      "sceneTitleEn": "The Team Test",
+      "sceneTitleFr": "L’épreuve de l’équipe",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه. مع كل خطوة كان ميرا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز إنقاذ النباتات بدأ ميرا يلاحظ أن التفاصيل الصغيرة في الروبوت الورقي قد تكون أهم مما تبدو عليه.",
+      "narrationEn": "In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 6-10. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared — clue 6-13. With each step, Mira understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a plant rescue center, Mira began to notice that small details around the paper robot mattered more than they first appeared.",
+      "narrationFr": "À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 6-10. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air — détail 6-13. À chaque étape, Mira comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre de sauvetage des plantes, Mira remarqua que les petits détails autour de robot en papier comptaient davantage qu’ils n’en avaient l’air.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 36,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 6.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-06.svg"
+    },
+    {
+      "sceneNumber": 7,
+      "sceneTitle": "الطريق الأصعب",
+      "sceneTitleEn": "The Harder Path",
+      "sceneTitleFr": "Le chemin le plus difficile",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 13 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ ميرا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية.",
+      "narrationEn": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility — clue 7-10. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 7-13. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Mira kept one note: better decisions combine courage, listening, patience, and responsibility — clue 7-16. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan.",
+      "narrationFr": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 7-10. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 7-13. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Mira nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 7-16. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 37,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 7.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-07.svg"
+    },
+    {
+      "sceneNumber": 8,
+      "sceneTitle": "لحظة الفهم",
+      "sceneTitleEn": "The Moment of Understanding",
+      "sceneTitleFr": "Le moment de comprendre",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، وكانت الملاحظة رقم 10 مختلفة قليلًا، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 13 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو سر قديم في الحي يحتاج إلى تفسير هادئ لا إلى إشاعات، لذلك اختار ميرا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها.",
+      "narrationEn": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up — clue 8-10. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 8-13. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that an old neighborhood mystery needs calm investigation, not rumors, so Mira chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts.",
+      "narrationFr": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 8-10. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 8-13. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un ancien mystère du quartier demande une enquête calme, pas des rumeurs; Mira décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 38,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 8.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-08.svg"
+    },
+    {
+      "sceneNumber": 9,
+      "sceneTitle": "الحل المشترك",
+      "sceneTitleEn": "The Shared Solution",
+      "sceneTitleFr": "La solution commune",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز إنقاذ النباتات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى التعاون في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته.",
+      "narrationEn": "The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 9-10. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 9-13. The value of cooperation appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a plant rescue center seeing the same place differently because it now carried a lesson they could use in ordinary life.",
+      "narrationFr": "Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 9-10. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 9-13. La valeur de cooperation apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre de sauvetage des plantes avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 39,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 9.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-09.svg"
+    },
+    {
+      "sceneNumber": 10,
+      "sceneTitle": "عودة مختلفة",
+      "sceneTitleEn": "A Different Return",
+      "sceneTitleFr": "Un retour différent",
+      "setting": "مركز إنقاذ النباتات",
+      "visualDescription": "مشهد أصلي في مركز إنقاذ النباتات يركّز على الروبوت الورقي وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 10 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 13 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 16 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون.",
+      "narrationEn": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 10-10. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 10-13. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 10-16.",
+      "narrationFr": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 10-10. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 10-13. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 10-16.",
+      "dialogue": [
+        {
+          "speaker": "ميرا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في الروبوت الورقي."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-076-a",
+        "char-076-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 40,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original mystery scene, a plant rescue center, paper robot, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 10.",
+      "illustration": "assets/children-animated/scenes/animated-story-076/scene-10.svg"
+    }
+  ],
+  "cover": {
+    "path": "assets/children-animated/covers/animated-story-076.svg",
+    "altAr": "ميرا والروبوت الورقي في مركز إنقاذ النباتات",
+    "altEn": "Mira and the Paper Robot at A Plant Rescue Center",
+    "altFr": "Mira et Robot en papier à un centre de sauvetage des plantes",
+    "format": "svg",
+    "palette": [
+      "#FFF4D6",
+      "#E9F5E5",
+      "#CFE4F5",
+      "#F8E8D9"
+    ]
+  },
+  "estimatedReadingMinutes": 11,
+  "estimatedAnimationMinutes": 5.9,
+  "listenMode": "browser-tts",
+  "watchMode": "animated-storyboard",
+  "capabilities": {
+    "read": true,
+    "listen": true,
+    "watch": true
+  },
+  "lifecycleStatus": "READY",
+  "publicationStatus": "READY"
+}

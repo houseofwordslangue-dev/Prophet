@@ -1,0 +1,4106 @@
+{
+  "schema": "children-animated-index-v1",
+  "count": 100,
+  "items": [
+    {
+      "id": "animated-story-001",
+      "slug": "animated-story-001-bird-compass",
+      "titleAr": "ميرا وبوصلة الطيور في قرية الطواحين الهوائية",
+      "titleEn": "Mira and the Bird Compass at The Windmill Village",
+      "titleFr": "Mira et Boussole des oiseaux à le village des moulins",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "school",
+        "problem-solving",
+        "problem-solving"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-001.svg",
+        "altAr": "ميرا وبوصلة الطيور في قرية الطواحين الهوائية",
+        "altEn": "Mira and the Bird Compass at The Windmill Village",
+        "altFr": "Mira et Boussole des oiseaux à le village des moulins",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-001.json"
+    },
+    {
+      "id": "animated-story-002",
+      "slug": "animated-story-002-sound-notebook",
+      "titleAr": "يونس ودفتر الأصوات في واحة الألوان",
+      "titleEn": "Younes and the Sound Notebook at The Oasis Of Colors",
+      "titleFr": "Younes et Carnet des sons à l’Oasis des couleurs",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "science",
+        "empathy",
+        "adventure"
+      ],
+      "visualStyle": "soft-illustrated-animation",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-002.svg",
+        "altAr": "يونس ودفتر الأصوات في واحة الألوان",
+        "altEn": "Younes and the Sound Notebook at The Oasis Of Colors",
+        "altFr": "Younes et Carnet des sons à l’Oasis des couleurs",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-002.json"
+    },
+    {
+      "id": "animated-story-003",
+      "slug": "animated-story-003-folded-map",
+      "titleAr": "تالا والخريطة المطوية في مخيم الغابة الهادئة",
+      "titleEn": "Tala and the Folded Map at A Quiet Forest Camp",
+      "titleFr": "Tala et Carte pliée à un camp dans la forêt calme",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "environment",
+        "community",
+        "exploration"
+      ],
+      "visualStyle": "rounded-characters",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-003.svg",
+        "altAr": "تالا والخريطة المطوية في مخيم الغابة الهادئة",
+        "altEn": "Tala and the Folded Map at A Quiet Forest Camp",
+        "altFr": "Tala et Carte pliée à un camp dans la forêt calme",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-003.json"
+    },
+    {
+      "id": "animated-story-004",
+      "slug": "animated-story-004-green-hourglass",
+      "titleAr": "رامي وساعة الرمل الخضراء في مدرسة الفنون والروبوت",
+      "titleEn": "Rami and the Green Hourglass at An Arts-And-Robotics School",
+      "titleFr": "Rami et Sablier vert à une école d’arts et de robotique",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "problem-solving",
+        "science",
+        "teamwork"
+      ],
+      "visualStyle": "simple-colorful-environments",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-004.svg",
+        "altAr": "رامي وساعة الرمل الخضراء في مدرسة الفنون والروبوت",
+        "altEn": "Rami and the Green Hourglass at An Arts-And-Robotics School",
+        "altFr": "Rami et Sablier vert à une école d’arts et de robotique",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-004.json"
+    },
+    {
+      "id": "animated-story-005",
+      "slug": "animated-story-005-small-glider",
+      "titleAr": "سلمى وطائرة شراعية صغيرة في مدينة الدراجات",
+      "titleEn": "Salma and the Small Glider at The Bicycle City",
+      "titleFr": "Salma et Petit planeur à la Cité des vélos",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "teamwork",
+        "leadership",
+        "imagination"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-005.svg",
+        "altAr": "سلمى وطائرة شراعية صغيرة في مدينة الدراجات",
+        "altEn": "Salma and the Small Glider at The Bicycle City",
+        "altFr": "Salma et Petit planeur à la Cité des vélos",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-005.json"
+    },
+    {
+      "id": "animated-story-006",
+      "slug": "animated-story-006-paper-robot",
+      "titleAr": "كريم والروبوت الورقي في مركز إنقاذ النباتات",
+      "titleEn": "Karim and the Paper Robot at A Plant Rescue Center",
+      "titleFr": "Karim et Robot en papier à un centre de sauvetage des plantes",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "self-confidence",
+        "resilience",
+        "technology"
+      ],
+      "visualStyle": "soft-illustrated-animation",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-006.svg",
+        "altAr": "كريم والروبوت الورقي في مركز إنقاذ النباتات",
+        "altEn": "Karim and the Paper Robot at A Plant Rescue Center",
+        "altFr": "Karim et Robot en papier à un centre de sauvetage des plantes",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-006.json"
+    },
+    {
+      "id": "animated-story-007",
+      "slug": "animated-story-007-rain-lens",
+      "titleAr": "نورا وعدسة المطر في مدرسة قرب البحر",
+      "titleEn": "Nora and the Rain Lens at A School By The Sea",
+      "titleFr": "Nora et Lentille de pluie à une école près de la mer",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "resilience",
+        "friendship",
+        "self-confidence"
+      ],
+      "visualStyle": "rounded-characters",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-007.svg",
+        "altAr": "نورا وعدسة المطر في مدرسة قرب البحر",
+        "altEn": "Nora and the Rain Lens at A School By The Sea",
+        "altFr": "Nora et Lentille de pluie à une école près de la mer",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-007.json"
+    },
+    {
+      "id": "animated-story-008",
+      "slug": "animated-story-008-message-box",
+      "titleAr": "إياد وصندوق الرسائل في مكتبة داخل محطة قديمة",
+      "titleEn": "Iyad and the Message Box at A Library In An Old Station",
+      "titleFr": "Iyad et Boîte à messages à une bibliothèque dans une ancienne gare",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "mystery",
+        "technology",
+        "friendship"
+      ],
+      "visualStyle": "simple-colorful-environments",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-008.svg",
+        "altAr": "إياد وصندوق الرسائل في مكتبة داخل محطة قديمة",
+        "altEn": "Iyad and the Message Box at A Library In An Old Station",
+        "altFr": "Iyad et Boîte à messages à une bibliothèque dans une ancienne gare",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-008.json"
+    },
+    {
+      "id": "animated-story-009",
+      "slug": "animated-story-009-glowing-seed",
+      "titleAr": "ليان وبذرة مضيئة في مدينة الجسور الصغيرة",
+      "titleEn": "Lian and the Glowing Seed at The City Of Little Bridges",
+      "titleFr": "Lian et Graine lumineuse à la Cité des petits ponts",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "community",
+        "teamwork",
+        "creativity"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-009.svg",
+        "altAr": "ليان وبذرة مضيئة في مدينة الجسور الصغيرة",
+        "altEn": "Lian and the Glowing Seed at The City Of Little Bridges",
+        "altFr": "Lian et Graine lumineuse à la Cité des petits ponts",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-009.json"
+    },
+    {
+      "id": "animated-story-010",
+      "slug": "animated-story-010-blue-key",
+      "titleAr": "جاد والمفتاح الأزرق في جزيرة المنارات",
+      "titleEn": "Jad and the Blue Key at The Island Of Lighthouses",
+      "titleFr": "Jad et Clé bleue à l’Île des phares",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "family",
+        "adventure",
+        "resilience"
+      ],
+      "visualStyle": "soft-illustrated-animation",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-010.svg",
+        "altAr": "جاد والمفتاح الأزرق في جزيرة المنارات",
+        "altEn": "Jad and the Blue Key at The Island Of Lighthouses",
+        "altFr": "Jad et Clé bleue à l’Île des phares",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.0,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-010.json"
+    },
+    {
+      "id": "animated-story-011",
+      "slug": "animated-story-011-bird-compass",
+      "titleAr": "آمنة وبوصلة الطيور في محطة أبحاث صحراوية",
+      "titleEn": "Amina and the Bird Compass at A Desert Research Station",
+      "titleFr": "Amina et Boussole des oiseaux à une station de recherche désertique",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "exploration",
+        "family",
+        "school"
+      ],
+      "visualStyle": "rounded-characters",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-011.svg",
+        "altAr": "آمنة وبوصلة الطيور في محطة أبحاث صحراوية",
+        "altEn": "Amina and the Bird Compass at A Desert Research Station",
+        "altFr": "Amina et Boussole des oiseaux à une station de recherche désertique",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-011.json"
+    },
+    {
+      "id": "animated-story-012",
+      "slug": "animated-story-012-sound-notebook",
+      "titleAr": "سامي ودفتر الأصوات في مرفأ الطيور المهاجرة",
+      "titleEn": "Sami and the Sound Notebook at A Harbor For Migrating Birds",
+      "titleFr": "Sami et Carnet des sons à un port pour oiseaux migrateurs",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "technology",
+        "environment",
+        "leadership"
+      ],
+      "visualStyle": "simple-colorful-environments",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-012.svg",
+        "altAr": "سامي ودفتر الأصوات في مرفأ الطيور المهاجرة",
+        "altEn": "Sami and the Sound Notebook at A Harbor For Migrating Birds",
+        "altFr": "Sami et Carnet des sons à un port pour oiseaux migrateurs",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-012.json"
+    },
+    {
+      "id": "animated-story-013",
+      "slug": "animated-story-013-folded-map",
+      "titleAr": "هنا والخريطة المطوية في مدينة الحدائق المعلّقة",
+      "titleEn": "Hana and the Folded Map at The Terraced Garden City",
+      "titleFr": "Hana et Carte pliée à la cité des jardins en terrasses",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "creativity",
+        "communication",
+        "mystery"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-013.svg",
+        "altAr": "هنا والخريطة المطوية في مدينة الحدائق المعلّقة",
+        "altEn": "Hana and the Folded Map at The Terraced Garden City",
+        "altFr": "Hana et Carte pliée à la cité des jardins en terrasses",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-013.json"
+    },
+    {
+      "id": "animated-story-014",
+      "slug": "animated-story-014-green-hourglass",
+      "titleAr": "مالك وساعة الرمل الخضراء في مركز العلوم العائم",
+      "titleEn": "Malik and the Green Hourglass at A Floating Science Center",
+      "titleFr": "Malik et Sablier vert à un centre scientifique flottant",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "leadership",
+        "mystery",
+        "science"
+      ],
+      "visualStyle": "soft-illustrated-animation",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-014.svg",
+        "altAr": "مالك وساعة الرمل الخضراء في مركز العلوم العائم",
+        "altEn": "Malik and the Green Hourglass at A Floating Science Center",
+        "altFr": "Malik et Sablier vert à un centre scientifique flottant",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.5,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-014.json"
+    },
+    {
+      "id": "animated-story-015",
+      "slug": "animated-story-015-small-glider",
+      "titleAr": "رنا وطائرة شراعية صغيرة في مزرعة الطاقة الشمسية",
+      "titleEn": "Rana and the Small Glider at A Solar Farm",
+      "titleFr": "Rana et Petit planeur à une ferme solaire",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "communication",
+        "school",
+        "communication"
+      ],
+      "visualStyle": "rounded-characters",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-015.svg",
+        "altAr": "رنا وطائرة شراعية صغيرة في مزرعة الطاقة الشمسية",
+        "altEn": "Rana and the Small Glider at A Solar Farm",
+        "altFr": "Rana et Petit planeur à une ferme solaire",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-015.json"
+    },
+    {
+      "id": "animated-story-016",
+      "slug": "animated-story-016-paper-robot",
+      "titleAr": "آدم والروبوت الورقي في حي الورش الإبداعية",
+      "titleEn": "Adam and the Paper Robot at A Creative Workshop District",
+      "titleFr": "Adam et Robot en papier à un quartier d’ateliers créatifs",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "empathy",
+        "creativity",
+        "community"
+      ],
+      "visualStyle": "simple-colorful-environments",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-016.svg",
+        "altAr": "آدم والروبوت الورقي في حي الورش الإبداعية",
+        "altEn": "Adam and the Paper Robot at A Creative Workshop District",
+        "altFr": "Adam et Robot en papier à un quartier d’ateliers créatifs",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-016.json"
+    },
+    {
+      "id": "animated-story-017",
+      "slug": "animated-story-017-rain-lens",
+      "titleAr": "جود وعدسة المطر في وادي البلورات",
+      "titleEn": "Joud and the Rain Lens at Crystal Valley",
+      "titleFr": "Joud et Lentille de pluie à la Vallée des cristaux",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "adventure",
+        "self-confidence",
+        "environment"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-017.svg",
+        "altAr": "جود وعدسة المطر في وادي البلورات",
+        "altEn": "Joud and the Rain Lens at Crystal Valley",
+        "altFr": "Joud et Lentille de pluie à la Vallée des cristaux",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-017.json"
+    },
+    {
+      "id": "animated-story-018",
+      "slug": "animated-story-018-message-box",
+      "titleAr": "يزن وصندوق الرسائل في متحف الزمن الصغير",
+      "titleEn": "Yazan and the Message Box at The Little Museum Of Time",
+      "titleFr": "Yazan et Boîte à messages à le Petit Musée du temps",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "imagination",
+        "imagination",
+        "empathy"
+      ],
+      "visualStyle": "soft-illustrated-animation",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-018.svg",
+        "altAr": "يزن وصندوق الرسائل في متحف الزمن الصغير",
+        "altEn": "Yazan and the Message Box at The Little Museum Of Time",
+        "altFr": "Yazan et Boîte à messages à le Petit Musée du temps",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-018.json"
+    },
+    {
+      "id": "animated-story-019",
+      "slug": "animated-story-019-glowing-seed",
+      "titleAr": "لينا وبذرة مضيئة في مسرح المدرسة المفتوح",
+      "titleEn": "Lina and the Glowing Seed at The School Open-Air Theater",
+      "titleFr": "Lina et Graine lumineuse à le théâtre scolaire en plein air",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "friendship",
+        "exploration",
+        "family"
+      ],
+      "visualStyle": "rounded-characters",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-019.svg",
+        "altAr": "لينا وبذرة مضيئة في مسرح المدرسة المفتوح",
+        "altEn": "Lina and the Glowing Seed at The School Open-Air Theater",
+        "altFr": "Lina et Graine lumineuse à le théâtre scolaire en plein air",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-019.json"
+    },
+    {
+      "id": "animated-story-020",
+      "slug": "animated-story-020-blue-key",
+      "titleAr": "سليم والمفتاح الأزرق في مدرسة قرب البحر",
+      "titleEn": "Salim and the Blue Key at A School By The Sea",
+      "titleFr": "Salim et Clé bleue à une école près de la mer",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "school",
+        "problem-solving",
+        "problem-solving"
+      ],
+      "visualStyle": "simple-colorful-environments",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-020.svg",
+        "altAr": "سليم والمفتاح الأزرق في مدرسة قرب البحر",
+        "altEn": "Salim and the Blue Key at A School By The Sea",
+        "altFr": "Salim et Clé bleue à une école près de la mer",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-020.json"
+    },
+    {
+      "id": "animated-story-021",
+      "slug": "animated-story-021-bird-compass",
+      "titleAr": "ريم وبوصلة الطيور في واحة الألوان",
+      "titleEn": "Reem and the Bird Compass at The Oasis Of Colors",
+      "titleFr": "Reem et Boussole des oiseaux à l’Oasis des couleurs",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "science",
+        "empathy",
+        "adventure"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-021.svg",
+        "altAr": "ريم وبوصلة الطيور في واحة الألوان",
+        "altEn": "Reem and the Bird Compass at The Oasis Of Colors",
+        "altFr": "Reem et Boussole des oiseaux à l’Oasis des couleurs",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-021.json"
+    },
+    {
+      "id": "animated-story-022",
+      "slug": "animated-story-022-sound-notebook",
+      "titleAr": "أنس ودفتر الأصوات في مخيم الغابة الهادئة",
+      "titleEn": "Anas and the Sound Notebook at A Quiet Forest Camp",
+      "titleFr": "Anas et Carnet des sons à un camp dans la forêt calme",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "environment",
+        "community",
+        "exploration"
+      ],
+      "visualStyle": "soft-illustrated-animation",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-022.svg",
+        "altAr": "أنس ودفتر الأصوات في مخيم الغابة الهادئة",
+        "altEn": "Anas and the Sound Notebook at A Quiet Forest Camp",
+        "altFr": "Anas et Carnet des sons à un camp dans la forêt calme",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-022.json"
+    },
+    {
+      "id": "animated-story-023",
+      "slug": "animated-story-023-folded-map",
+      "titleAr": "مريم والخريطة المطوية في مدرسة الفنون والروبوت",
+      "titleEn": "Maryam and the Folded Map at An Arts-And-Robotics School",
+      "titleFr": "Maryam et Carte pliée à une école d’arts et de robotique",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "problem-solving",
+        "science",
+        "teamwork"
+      ],
+      "visualStyle": "rounded-characters",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-023.svg",
+        "altAr": "مريم والخريطة المطوية في مدرسة الفنون والروبوت",
+        "altEn": "Maryam and the Folded Map at An Arts-And-Robotics School",
+        "altFr": "Maryam et Carte pliée à une école d’arts et de robotique",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-023.json"
+    },
+    {
+      "id": "animated-story-024",
+      "slug": "animated-story-024-green-hourglass",
+      "titleAr": "إلياس وساعة الرمل الخضراء في مدينة الدراجات",
+      "titleEn": "Elias and the Green Hourglass at The Bicycle City",
+      "titleFr": "Elias et Sablier vert à la Cité des vélos",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "teamwork",
+        "leadership",
+        "imagination"
+      ],
+      "visualStyle": "simple-colorful-environments",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-024.svg",
+        "altAr": "إلياس وساعة الرمل الخضراء في مدينة الدراجات",
+        "altEn": "Elias and the Green Hourglass at The Bicycle City",
+        "altFr": "Elias et Sablier vert à la Cité des vélos",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-024.json"
+    },
+    {
+      "id": "animated-story-025",
+      "slug": "animated-story-025-small-glider",
+      "titleAr": "هبة وطائرة شراعية صغيرة في مركز إنقاذ النباتات",
+      "titleEn": "Hiba and the Small Glider at A Plant Rescue Center",
+      "titleFr": "Hiba et Petit planeur à un centre de sauvetage des plantes",
+      "ageGroup": "5-7",
+      "readingLevel": "beginner",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "self-confidence",
+        "resilience",
+        "technology"
+      ],
+      "visualStyle": "pastel-chibi-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-025.svg",
+        "altAr": "هبة وطائرة شراعية صغيرة في مركز إنقاذ النباتات",
+        "altEn": "Hiba and the Small Glider at A Plant Rescue Center",
+        "altFr": "Hiba et Petit planeur à un centre de sauvetage des plantes",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 5,
+      "estimatedAnimationMinutes": 6.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-5-7/animated-story-025.json"
+    },
+    {
+      "id": "animated-story-026",
+      "slug": "animated-story-026-paper-robot",
+      "titleAr": "ميرا والروبوت الورقي في مرصد فوق الجبل",
+      "titleEn": "Mira and the Paper Robot at A Mountain Observatory",
+      "titleFr": "Mira et Robot en papier à un observatoire de montagne",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "resilience",
+        "friendship",
+        "self-confidence"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-026.svg",
+        "altAr": "ميرا والروبوت الورقي في مرصد فوق الجبل",
+        "altEn": "Mira and the Paper Robot at A Mountain Observatory",
+        "altFr": "Mira et Robot en papier à un observatoire de montagne",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-026.json"
+    },
+    {
+      "id": "animated-story-027",
+      "slug": "animated-story-027-rain-lens",
+      "titleAr": "يونس وعدسة المطر في مركز العلوم العائم",
+      "titleEn": "Younes and the Rain Lens at A Floating Science Center",
+      "titleFr": "Younes et Lentille de pluie à un centre scientifique flottant",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "mystery",
+        "technology",
+        "friendship"
+      ],
+      "visualStyle": "fantasy-exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-027.svg",
+        "altAr": "يونس وعدسة المطر في مركز العلوم العائم",
+        "altEn": "Younes and the Rain Lens at A Floating Science Center",
+        "altFr": "Younes et Lentille de pluie à un centre scientifique flottant",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-027.json"
+    },
+    {
+      "id": "animated-story-028",
+      "slug": "animated-story-028-message-box",
+      "titleAr": "تالا وصندوق الرسائل في مدينة الجسور الصغيرة",
+      "titleEn": "Tala and the Message Box at The City Of Little Bridges",
+      "titleFr": "Tala et Boîte à messages à la Cité des petits ponts",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "community",
+        "teamwork",
+        "creativity"
+      ],
+      "visualStyle": "cartoon-anime-hybrid",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-028.svg",
+        "altAr": "تالا وصندوق الرسائل في مدينة الجسور الصغيرة",
+        "altEn": "Tala and the Message Box at The City Of Little Bridges",
+        "altFr": "Tala et Boîte à messages à la Cité des petits ponts",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.0,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-028.json"
+    },
+    {
+      "id": "animated-story-029",
+      "slug": "animated-story-029-glowing-seed",
+      "titleAr": "رامي وبذرة مضيئة في جزيرة المنارات",
+      "titleEn": "Rami and the Glowing Seed at The Island Of Lighthouses",
+      "titleFr": "Rami et Graine lumineuse à l’Île des phares",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "family",
+        "adventure",
+        "resilience"
+      ],
+      "visualStyle": "colorful-adventure-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-029.svg",
+        "altAr": "رامي وبذرة مضيئة في جزيرة المنارات",
+        "altEn": "Rami and the Glowing Seed at The Island Of Lighthouses",
+        "altFr": "Rami et Graine lumineuse à l’Île des phares",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-029.json"
+    },
+    {
+      "id": "animated-story-030",
+      "slug": "animated-story-030-blue-key",
+      "titleAr": "سلمى والمفتاح الأزرق في محطة أبحاث صحراوية",
+      "titleEn": "Salma and the Blue Key at A Desert Research Station",
+      "titleFr": "Salma et Clé bleue à une station de recherche désertique",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "exploration",
+        "family",
+        "school"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-030.svg",
+        "altAr": "سلمى والمفتاح الأزرق في محطة أبحاث صحراوية",
+        "altEn": "Salma and the Blue Key at A Desert Research Station",
+        "altFr": "Salma et Clé bleue à une station de recherche désertique",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-030.json"
+    },
+    {
+      "id": "animated-story-031",
+      "slug": "animated-story-031-bird-compass",
+      "titleAr": "كريم وبوصلة الطيور في مرفأ الطيور المهاجرة",
+      "titleEn": "Karim and the Bird Compass at A Harbor For Migrating Birds",
+      "titleFr": "Karim et Boussole des oiseaux à un port pour oiseaux migrateurs",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "technology",
+        "environment",
+        "leadership"
+      ],
+      "visualStyle": "fantasy-exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-031.svg",
+        "altAr": "كريم وبوصلة الطيور في مرفأ الطيور المهاجرة",
+        "altEn": "Karim and the Bird Compass at A Harbor For Migrating Birds",
+        "altFr": "Karim et Boussole des oiseaux à un port pour oiseaux migrateurs",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-031.json"
+    },
+    {
+      "id": "animated-story-032",
+      "slug": "animated-story-032-sound-notebook",
+      "titleAr": "نورا ودفتر الأصوات في مدينة الحدائق المعلّقة",
+      "titleEn": "Nora and the Sound Notebook at The Terraced Garden City",
+      "titleFr": "Nora et Carnet des sons à la cité des jardins en terrasses",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "creativity",
+        "communication",
+        "mystery"
+      ],
+      "visualStyle": "cartoon-anime-hybrid",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-032.svg",
+        "altAr": "نورا ودفتر الأصوات في مدينة الحدائق المعلّقة",
+        "altEn": "Nora and the Sound Notebook at The Terraced Garden City",
+        "altFr": "Nora et Carnet des sons à la cité des jardins en terrasses",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.5,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-032.json"
+    },
+    {
+      "id": "animated-story-033",
+      "slug": "animated-story-033-folded-map",
+      "titleAr": "إياد والخريطة المطوية في قرية الطواحين الهوائية",
+      "titleEn": "Iyad and the Folded Map at The Windmill Village",
+      "titleFr": "Iyad et Carte pliée à le village des moulins",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "leadership",
+        "mystery",
+        "science"
+      ],
+      "visualStyle": "colorful-adventure-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-033.svg",
+        "altAr": "إياد والخريطة المطوية في قرية الطواحين الهوائية",
+        "altEn": "Iyad and the Folded Map at The Windmill Village",
+        "altFr": "Iyad et Carte pliée à le village des moulins",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-033.json"
+    },
+    {
+      "id": "animated-story-034",
+      "slug": "animated-story-034-green-hourglass",
+      "titleAr": "ليان وساعة الرمل الخضراء في واحة الألوان",
+      "titleEn": "Lian and the Green Hourglass at The Oasis Of Colors",
+      "titleFr": "Lian et Sablier vert à l’Oasis des couleurs",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "communication",
+        "school",
+        "communication"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-034.svg",
+        "altAr": "ليان وساعة الرمل الخضراء في واحة الألوان",
+        "altEn": "Lian and the Green Hourglass at The Oasis Of Colors",
+        "altFr": "Lian et Sablier vert à l’Oasis des couleurs",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-034.json"
+    },
+    {
+      "id": "animated-story-035",
+      "slug": "animated-story-035-small-glider",
+      "titleAr": "جاد وطائرة شراعية صغيرة في حي الورش الإبداعية",
+      "titleEn": "Jad and the Small Glider at A Creative Workshop District",
+      "titleFr": "Jad et Petit planeur à un quartier d’ateliers créatifs",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "empathy",
+        "creativity",
+        "community"
+      ],
+      "visualStyle": "fantasy-exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-035.svg",
+        "altAr": "جاد وطائرة شراعية صغيرة في حي الورش الإبداعية",
+        "altEn": "Jad and the Small Glider at A Creative Workshop District",
+        "altFr": "Jad et Petit planeur à un quartier d’ateliers créatifs",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-035.json"
+    },
+    {
+      "id": "animated-story-036",
+      "slug": "animated-story-036-paper-robot",
+      "titleAr": "آمنة والروبوت الورقي في وادي البلورات",
+      "titleEn": "Amina and the Paper Robot at Crystal Valley",
+      "titleFr": "Amina et Robot en papier à la Vallée des cristaux",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "adventure",
+        "self-confidence",
+        "environment"
+      ],
+      "visualStyle": "cartoon-anime-hybrid",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-036.svg",
+        "altAr": "آمنة والروبوت الورقي في وادي البلورات",
+        "altEn": "Amina and the Paper Robot at Crystal Valley",
+        "altFr": "Amina et Robot en papier à la Vallée des cristaux",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-036.json"
+    },
+    {
+      "id": "animated-story-037",
+      "slug": "animated-story-037-rain-lens",
+      "titleAr": "سامي وعدسة المطر في متحف الزمن الصغير",
+      "titleEn": "Sami and the Rain Lens at The Little Museum Of Time",
+      "titleFr": "Sami et Lentille de pluie à le Petit Musée du temps",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "imagination",
+        "imagination",
+        "empathy"
+      ],
+      "visualStyle": "colorful-adventure-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-037.svg",
+        "altAr": "سامي وعدسة المطر في متحف الزمن الصغير",
+        "altEn": "Sami and the Rain Lens at The Little Museum Of Time",
+        "altFr": "Sami et Lentille de pluie à le Petit Musée du temps",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-037.json"
+    },
+    {
+      "id": "animated-story-038",
+      "slug": "animated-story-038-message-box",
+      "titleAr": "هنا وصندوق الرسائل في مسرح المدرسة المفتوح",
+      "titleEn": "Hana and the Message Box at The School Open-Air Theater",
+      "titleFr": "Hana et Boîte à messages à le théâtre scolaire en plein air",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "friendship",
+        "exploration",
+        "family"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-038.svg",
+        "altAr": "هنا وصندوق الرسائل في مسرح المدرسة المفتوح",
+        "altEn": "Hana and the Message Box at The School Open-Air Theater",
+        "altFr": "Hana et Boîte à messages à le théâtre scolaire en plein air",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-038.json"
+    },
+    {
+      "id": "animated-story-039",
+      "slug": "animated-story-039-glowing-seed",
+      "titleAr": "مالك وبذرة مضيئة في مدرسة قرب البحر",
+      "titleEn": "Malik and the Glowing Seed at A School By The Sea",
+      "titleFr": "Malik et Graine lumineuse à une école près de la mer",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "school",
+        "problem-solving",
+        "problem-solving"
+      ],
+      "visualStyle": "fantasy-exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-039.svg",
+        "altAr": "مالك وبذرة مضيئة في مدرسة قرب البحر",
+        "altEn": "Malik and the Glowing Seed at A School By The Sea",
+        "altFr": "Malik et Graine lumineuse à une école près de la mer",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-039.json"
+    },
+    {
+      "id": "animated-story-040",
+      "slug": "animated-story-040-blue-key",
+      "titleAr": "رنا والمفتاح الأزرق في مكتبة داخل محطة قديمة",
+      "titleEn": "Rana and the Blue Key at A Library In An Old Station",
+      "titleFr": "Rana et Clé bleue à une bibliothèque dans une ancienne gare",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "science",
+        "empathy",
+        "adventure"
+      ],
+      "visualStyle": "cartoon-anime-hybrid",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-040.svg",
+        "altAr": "رنا والمفتاح الأزرق في مكتبة داخل محطة قديمة",
+        "altEn": "Rana and the Blue Key at A Library In An Old Station",
+        "altFr": "Rana et Clé bleue à une bibliothèque dans une ancienne gare",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-040.json"
+    },
+    {
+      "id": "animated-story-041",
+      "slug": "animated-story-041-bird-compass",
+      "titleAr": "آدم وبوصلة الطيور في مدينة الجسور الصغيرة",
+      "titleEn": "Adam and the Bird Compass at The City Of Little Bridges",
+      "titleFr": "Adam et Boussole des oiseaux à la Cité des petits ponts",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "environment",
+        "community",
+        "exploration"
+      ],
+      "visualStyle": "colorful-adventure-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-041.svg",
+        "altAr": "آدم وبوصلة الطيور في مدينة الجسور الصغيرة",
+        "altEn": "Adam and the Bird Compass at The City Of Little Bridges",
+        "altFr": "Adam et Boussole des oiseaux à la Cité des petits ponts",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-041.json"
+    },
+    {
+      "id": "animated-story-042",
+      "slug": "animated-story-042-sound-notebook",
+      "titleAr": "جود ودفتر الأصوات في مدرسة الفنون والروبوت",
+      "titleEn": "Joud and the Sound Notebook at An Arts-And-Robotics School",
+      "titleFr": "Joud et Carnet des sons à une école d’arts et de robotique",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "problem-solving",
+        "science",
+        "teamwork"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-042.svg",
+        "altAr": "جود ودفتر الأصوات في مدرسة الفنون والروبوت",
+        "altEn": "Joud and the Sound Notebook at An Arts-And-Robotics School",
+        "altFr": "Joud et Carnet des sons à une école d’arts et de robotique",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-042.json"
+    },
+    {
+      "id": "animated-story-043",
+      "slug": "animated-story-043-folded-map",
+      "titleAr": "يزن والخريطة المطوية في مدينة الدراجات",
+      "titleEn": "Yazan and the Folded Map at The Bicycle City",
+      "titleFr": "Yazan et Carte pliée à la Cité des vélos",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "teamwork",
+        "leadership",
+        "imagination"
+      ],
+      "visualStyle": "fantasy-exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-043.svg",
+        "altAr": "يزن والخريطة المطوية في مدينة الدراجات",
+        "altEn": "Yazan and the Folded Map at The Bicycle City",
+        "altFr": "Yazan et Carte pliée à la Cité des vélos",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-043.json"
+    },
+    {
+      "id": "animated-story-044",
+      "slug": "animated-story-044-green-hourglass",
+      "titleAr": "لينا وساعة الرمل الخضراء في مركز إنقاذ النباتات",
+      "titleEn": "Lina and the Green Hourglass at A Plant Rescue Center",
+      "titleFr": "Lina et Sablier vert à un centre de sauvetage des plantes",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "self-confidence",
+        "resilience",
+        "technology"
+      ],
+      "visualStyle": "cartoon-anime-hybrid",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-044.svg",
+        "altAr": "لينا وساعة الرمل الخضراء في مركز إنقاذ النباتات",
+        "altEn": "Lina and the Green Hourglass at A Plant Rescue Center",
+        "altFr": "Lina et Sablier vert à un centre de sauvetage des plantes",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-044.json"
+    },
+    {
+      "id": "animated-story-045",
+      "slug": "animated-story-045-small-glider",
+      "titleAr": "سليم وطائرة شراعية صغيرة في مرصد فوق الجبل",
+      "titleEn": "Salim and the Small Glider at A Mountain Observatory",
+      "titleFr": "Salim et Petit planeur à un observatoire de montagne",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "resilience",
+        "friendship",
+        "self-confidence"
+      ],
+      "visualStyle": "colorful-adventure-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-045.svg",
+        "altAr": "سليم وطائرة شراعية صغيرة في مرصد فوق الجبل",
+        "altEn": "Salim and the Small Glider at A Mountain Observatory",
+        "altFr": "Salim et Petit planeur à un observatoire de montagne",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-045.json"
+    },
+    {
+      "id": "animated-story-046",
+      "slug": "animated-story-046-paper-robot",
+      "titleAr": "ريم والروبوت الورقي في مركز العلوم العائم",
+      "titleEn": "Reem and the Paper Robot at A Floating Science Center",
+      "titleFr": "Reem et Robot en papier à un centre scientifique flottant",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "mystery",
+        "technology",
+        "friendship"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-046.svg",
+        "altAr": "ريم والروبوت الورقي في مركز العلوم العائم",
+        "altEn": "Reem and the Paper Robot at A Floating Science Center",
+        "altFr": "Reem et Robot en papier à un centre scientifique flottant",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 6.0,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-046.json"
+    },
+    {
+      "id": "animated-story-047",
+      "slug": "animated-story-047-rain-lens",
+      "titleAr": "أنس وعدسة المطر في مزرعة الطاقة الشمسية",
+      "titleEn": "Anas and the Rain Lens at A Solar Farm",
+      "titleFr": "Anas et Lentille de pluie à une ferme solaire",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "community",
+        "teamwork",
+        "creativity"
+      ],
+      "visualStyle": "fantasy-exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-047.svg",
+        "altAr": "أنس وعدسة المطر في مزرعة الطاقة الشمسية",
+        "altEn": "Anas and the Rain Lens at A Solar Farm",
+        "altFr": "Anas et Lentille de pluie à une ferme solaire",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-047.json"
+    },
+    {
+      "id": "animated-story-048",
+      "slug": "animated-story-048-message-box",
+      "titleAr": "مريم وصندوق الرسائل في حي الورش الإبداعية",
+      "titleEn": "Maryam and the Message Box at A Creative Workshop District",
+      "titleFr": "Maryam et Boîte à messages à un quartier d’ateliers créatifs",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "family",
+        "adventure",
+        "resilience"
+      ],
+      "visualStyle": "cartoon-anime-hybrid",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-048.svg",
+        "altAr": "مريم وصندوق الرسائل في حي الورش الإبداعية",
+        "altEn": "Maryam and the Message Box at A Creative Workshop District",
+        "altFr": "Maryam et Boîte à messages à un quartier d’ateliers créatifs",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-048.json"
+    },
+    {
+      "id": "animated-story-049",
+      "slug": "animated-story-049-glowing-seed",
+      "titleAr": "إلياس وبذرة مضيئة في محطة أبحاث صحراوية",
+      "titleEn": "Elias and the Glowing Seed at A Desert Research Station",
+      "titleFr": "Elias et Graine lumineuse à une station de recherche désertique",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "exploration",
+        "family",
+        "school"
+      ],
+      "visualStyle": "colorful-adventure-anime",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-049.svg",
+        "altAr": "إلياس وبذرة مضيئة في محطة أبحاث صحراوية",
+        "altEn": "Elias and the Glowing Seed at A Desert Research Station",
+        "altFr": "Elias et Graine lumineuse à une station de recherche désertique",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-049.json"
+    },
+    {
+      "id": "animated-story-050",
+      "slug": "animated-story-050-blue-key",
+      "titleAr": "هبة والمفتاح الأزرق في مرفأ الطيور المهاجرة",
+      "titleEn": "Hiba and the Blue Key at A Harbor For Migrating Birds",
+      "titleFr": "Hiba et Clé bleue à un port pour oiseaux migrateurs",
+      "ageGroup": "8-10",
+      "readingLevel": "developing",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "technology",
+        "environment",
+        "leadership"
+      ],
+      "visualStyle": "humorous-manga",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-050.svg",
+        "altAr": "هبة والمفتاح الأزرق في مرفأ الطيور المهاجرة",
+        "altEn": "Hiba and the Blue Key at A Harbor For Migrating Birds",
+        "altFr": "Hiba et Clé bleue à un port pour oiseaux migrateurs",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 7,
+      "estimatedAnimationMinutes": 5.5,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-8-10/animated-story-050.json"
+    },
+    {
+      "id": "animated-story-051",
+      "slug": "animated-story-051-bird-compass",
+      "titleAr": "ميرا وبوصلة الطيور في مدينة الحدائق المعلّقة",
+      "titleEn": "Mira and the Bird Compass at The Terraced Garden City",
+      "titleFr": "Mira et Boussole des oiseaux à la cité des jardins en terrasses",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "creativity",
+        "communication",
+        "mystery"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-051.svg",
+        "altAr": "ميرا وبوصلة الطيور في مدينة الحدائق المعلّقة",
+        "altEn": "Mira and the Bird Compass at The Terraced Garden City",
+        "altFr": "Mira et Boussole des oiseaux à la cité des jardins en terrasses",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-051.json"
+    },
+    {
+      "id": "animated-story-052",
+      "slug": "animated-story-052-sound-notebook",
+      "titleAr": "يونس ودفتر الأصوات في قرية الطواحين الهوائية",
+      "titleEn": "Younes and the Sound Notebook at The Windmill Village",
+      "titleFr": "Younes et Carnet des sons à le village des moulins",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "leadership",
+        "mystery",
+        "science"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-052.svg",
+        "altAr": "يونس ودفتر الأصوات في قرية الطواحين الهوائية",
+        "altEn": "Younes and the Sound Notebook at The Windmill Village",
+        "altFr": "Younes et Carnet des sons à le village des moulins",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-052.json"
+    },
+    {
+      "id": "animated-story-053",
+      "slug": "animated-story-053-folded-map",
+      "titleAr": "تالا والخريطة المطوية في واحة الألوان",
+      "titleEn": "Tala and the Folded Map at The Oasis Of Colors",
+      "titleFr": "Tala et Carte pliée à l’Oasis des couleurs",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "communication",
+        "school",
+        "communication"
+      ],
+      "visualStyle": "exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-053.svg",
+        "altAr": "تالا والخريطة المطوية في واحة الألوان",
+        "altEn": "Tala and the Folded Map at The Oasis Of Colors",
+        "altFr": "Tala et Carte pliée à l’Oasis des couleurs",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-053.json"
+    },
+    {
+      "id": "animated-story-054",
+      "slug": "animated-story-054-green-hourglass",
+      "titleAr": "رامي وساعة الرمل الخضراء في مخيم الغابة الهادئة",
+      "titleEn": "Rami and the Green Hourglass at A Quiet Forest Camp",
+      "titleFr": "Rami et Sablier vert à un camp dans la forêt calme",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "empathy",
+        "creativity",
+        "community"
+      ],
+      "visualStyle": "sports-team",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-054.svg",
+        "altAr": "رامي وساعة الرمل الخضراء في مخيم الغابة الهادئة",
+        "altEn": "Rami and the Green Hourglass at A Quiet Forest Camp",
+        "altFr": "Rami et Sablier vert à un camp dans la forêt calme",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-054.json"
+    },
+    {
+      "id": "animated-story-055",
+      "slug": "animated-story-055-small-glider",
+      "titleAr": "سلمى وطائرة شراعية صغيرة في مدرسة الفنون والروبوت",
+      "titleEn": "Salma and the Small Glider at An Arts-And-Robotics School",
+      "titleFr": "Salma et Petit planeur à une école d’arts et de robotique",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "adventure",
+        "self-confidence",
+        "environment"
+      ],
+      "visualStyle": "manga-adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-055.svg",
+        "altAr": "سلمى وطائرة شراعية صغيرة في مدرسة الفنون والروبوت",
+        "altEn": "Salma and the Small Glider at An Arts-And-Robotics School",
+        "altFr": "Salma et Petit planeur à une école d’arts et de robotique",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-055.json"
+    },
+    {
+      "id": "animated-story-056",
+      "slug": "animated-story-056-paper-robot",
+      "titleAr": "كريم والروبوت الورقي في متحف الزمن الصغير",
+      "titleEn": "Karim and the Paper Robot at The Little Museum Of Time",
+      "titleFr": "Karim et Robot en papier à le Petit Musée du temps",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "imagination",
+        "imagination",
+        "empathy"
+      ],
+      "visualStyle": "school-fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-056.svg",
+        "altAr": "كريم والروبوت الورقي في متحف الزمن الصغير",
+        "altEn": "Karim and the Paper Robot at The Little Museum Of Time",
+        "altFr": "Karim et Robot en papier à le Petit Musée du temps",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-056.json"
+    },
+    {
+      "id": "animated-story-057",
+      "slug": "animated-story-057-rain-lens",
+      "titleAr": "نورا وعدسة المطر في مسرح المدرسة المفتوح",
+      "titleEn": "Nora and the Rain Lens at The School Open-Air Theater",
+      "titleFr": "Nora et Lentille de pluie à le théâtre scolaire en plein air",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "friendship",
+        "exploration",
+        "family"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-057.svg",
+        "altAr": "نورا وعدسة المطر في مسرح المدرسة المفتوح",
+        "altEn": "Nora and the Rain Lens at The School Open-Air Theater",
+        "altFr": "Nora et Lentille de pluie à le théâtre scolaire en plein air",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-057.json"
+    },
+    {
+      "id": "animated-story-058",
+      "slug": "animated-story-058-message-box",
+      "titleAr": "إياد وصندوق الرسائل في مدرسة قرب البحر",
+      "titleEn": "Iyad and the Message Box at A School By The Sea",
+      "titleFr": "Iyad et Boîte à messages à une école près de la mer",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "school",
+        "problem-solving",
+        "problem-solving"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-058.svg",
+        "altAr": "إياد وصندوق الرسائل في مدرسة قرب البحر",
+        "altEn": "Iyad and the Message Box at A School By The Sea",
+        "altFr": "Iyad et Boîte à messages à une école près de la mer",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-058.json"
+    },
+    {
+      "id": "animated-story-059",
+      "slug": "animated-story-059-glowing-seed",
+      "titleAr": "ليان وبذرة مضيئة في مكتبة داخل محطة قديمة",
+      "titleEn": "Lian and the Glowing Seed at A Library In An Old Station",
+      "titleFr": "Lian et Graine lumineuse à une bibliothèque dans une ancienne gare",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "science",
+        "empathy",
+        "adventure"
+      ],
+      "visualStyle": "exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-059.svg",
+        "altAr": "ليان وبذرة مضيئة في مكتبة داخل محطة قديمة",
+        "altEn": "Lian and the Glowing Seed at A Library In An Old Station",
+        "altFr": "Lian et Graine lumineuse à une bibliothèque dans une ancienne gare",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 6.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-059.json"
+    },
+    {
+      "id": "animated-story-060",
+      "slug": "animated-story-060-blue-key",
+      "titleAr": "جاد والمفتاح الأزرق في مدينة الجسور الصغيرة",
+      "titleEn": "Jad and the Blue Key at The City Of Little Bridges",
+      "titleFr": "Jad et Clé bleue à la Cité des petits ponts",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "environment",
+        "community",
+        "exploration"
+      ],
+      "visualStyle": "sports-team",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-060.svg",
+        "altAr": "جاد والمفتاح الأزرق في مدينة الجسور الصغيرة",
+        "altEn": "Jad and the Blue Key at The City Of Little Bridges",
+        "altFr": "Jad et Clé bleue à la Cité des petits ponts",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-060.json"
+    },
+    {
+      "id": "animated-story-061",
+      "slug": "animated-story-061-bird-compass",
+      "titleAr": "آمنة وبوصلة الطيور في جزيرة المنارات",
+      "titleEn": "Amina and the Bird Compass at The Island Of Lighthouses",
+      "titleFr": "Amina et Boussole des oiseaux à l’Île des phares",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "problem-solving",
+        "science",
+        "teamwork"
+      ],
+      "visualStyle": "manga-adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-061.svg",
+        "altAr": "آمنة وبوصلة الطيور في جزيرة المنارات",
+        "altEn": "Amina and the Bird Compass at The Island Of Lighthouses",
+        "altFr": "Amina et Boussole des oiseaux à l’Île des phares",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 6.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-061.json"
+    },
+    {
+      "id": "animated-story-062",
+      "slug": "animated-story-062-sound-notebook",
+      "titleAr": "سامي ودفتر الأصوات في محطة أبحاث صحراوية",
+      "titleEn": "Sami and the Sound Notebook at A Desert Research Station",
+      "titleFr": "Sami et Carnet des sons à une station de recherche désertique",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "teamwork",
+        "leadership",
+        "imagination"
+      ],
+      "visualStyle": "school-fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-062.svg",
+        "altAr": "سامي ودفتر الأصوات في محطة أبحاث صحراوية",
+        "altEn": "Sami and the Sound Notebook at A Desert Research Station",
+        "altFr": "Sami et Carnet des sons à une station de recherche désertique",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 6.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-062.json"
+    },
+    {
+      "id": "animated-story-063",
+      "slug": "animated-story-063-folded-map",
+      "titleAr": "هنا والخريطة المطوية في مركز إنقاذ النباتات",
+      "titleEn": "Hana and the Folded Map at A Plant Rescue Center",
+      "titleFr": "Hana et Carte pliée à un centre de sauvetage des plantes",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "self-confidence",
+        "resilience",
+        "technology"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-063.svg",
+        "altAr": "هنا والخريطة المطوية في مركز إنقاذ النباتات",
+        "altEn": "Hana and the Folded Map at A Plant Rescue Center",
+        "altFr": "Hana et Carte pliée à un centre de sauvetage des plantes",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-063.json"
+    },
+    {
+      "id": "animated-story-064",
+      "slug": "animated-story-064-green-hourglass",
+      "titleAr": "مالك وساعة الرمل الخضراء في مرصد فوق الجبل",
+      "titleEn": "Malik and the Green Hourglass at A Mountain Observatory",
+      "titleFr": "Malik et Sablier vert à un observatoire de montagne",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "resilience",
+        "friendship",
+        "self-confidence"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-064.svg",
+        "altAr": "مالك وساعة الرمل الخضراء في مرصد فوق الجبل",
+        "altEn": "Malik and the Green Hourglass at A Mountain Observatory",
+        "altFr": "Malik et Sablier vert à un observatoire de montagne",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 6.0,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-064.json"
+    },
+    {
+      "id": "animated-story-065",
+      "slug": "animated-story-065-small-glider",
+      "titleAr": "رنا وطائرة شراعية صغيرة في مركز العلوم العائم",
+      "titleEn": "Rana and the Small Glider at A Floating Science Center",
+      "titleFr": "Rana et Petit planeur à un centre scientifique flottant",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "mystery",
+        "technology",
+        "friendship"
+      ],
+      "visualStyle": "exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-065.svg",
+        "altAr": "رنا وطائرة شراعية صغيرة في مركز العلوم العائم",
+        "altEn": "Rana and the Small Glider at A Floating Science Center",
+        "altFr": "Rana et Petit planeur à un centre scientifique flottant",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-065.json"
+    },
+    {
+      "id": "animated-story-066",
+      "slug": "animated-story-066-paper-robot",
+      "titleAr": "آدم والروبوت الورقي في مزرعة الطاقة الشمسية",
+      "titleEn": "Adam and the Paper Robot at A Solar Farm",
+      "titleFr": "Adam et Robot en papier à une ferme solaire",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "community",
+        "teamwork",
+        "creativity"
+      ],
+      "visualStyle": "sports-team",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-066.svg",
+        "altAr": "آدم والروبوت الورقي في مزرعة الطاقة الشمسية",
+        "altEn": "Adam and the Paper Robot at A Solar Farm",
+        "altFr": "Adam et Robot en papier à une ferme solaire",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-066.json"
+    },
+    {
+      "id": "animated-story-067",
+      "slug": "animated-story-067-rain-lens",
+      "titleAr": "جود وعدسة المطر في حي الورش الإبداعية",
+      "titleEn": "Joud and the Rain Lens at A Creative Workshop District",
+      "titleFr": "Joud et Lentille de pluie à un quartier d’ateliers créatifs",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "family",
+        "adventure",
+        "resilience"
+      ],
+      "visualStyle": "manga-adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-067.svg",
+        "altAr": "جود وعدسة المطر في حي الورش الإبداعية",
+        "altEn": "Joud and the Rain Lens at A Creative Workshop District",
+        "altFr": "Joud et Lentille de pluie à un quartier d’ateliers créatifs",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-067.json"
+    },
+    {
+      "id": "animated-story-068",
+      "slug": "animated-story-068-message-box",
+      "titleAr": "يزن وصندوق الرسائل في وادي البلورات",
+      "titleEn": "Yazan and the Message Box at Crystal Valley",
+      "titleFr": "Yazan et Boîte à messages à la Vallée des cristaux",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "exploration",
+        "family",
+        "school"
+      ],
+      "visualStyle": "school-fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-068.svg",
+        "altAr": "يزن وصندوق الرسائل في وادي البلورات",
+        "altEn": "Yazan and the Message Box at Crystal Valley",
+        "altFr": "Yazan et Boîte à messages à la Vallée des cristaux",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.5,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-068.json"
+    },
+    {
+      "id": "animated-story-069",
+      "slug": "animated-story-069-glowing-seed",
+      "titleAr": "لينا وبذرة مضيئة في متحف الزمن الصغير",
+      "titleEn": "Lina and the Glowing Seed at The Little Museum Of Time",
+      "titleFr": "Lina et Graine lumineuse à le Petit Musée du temps",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "technology",
+        "environment",
+        "leadership"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-069.svg",
+        "altAr": "لينا وبذرة مضيئة في متحف الزمن الصغير",
+        "altEn": "Lina and the Glowing Seed at The Little Museum Of Time",
+        "altFr": "Lina et Graine lumineuse à le Petit Musée du temps",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-069.json"
+    },
+    {
+      "id": "animated-story-070",
+      "slug": "animated-story-070-blue-key",
+      "titleAr": "سليم والمفتاح الأزرق في مدينة الحدائق المعلّقة",
+      "titleEn": "Salim and the Blue Key at The Terraced Garden City",
+      "titleFr": "Salim et Clé bleue à la cité des jardins en terrasses",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "creativity",
+        "communication",
+        "mystery"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-070.svg",
+        "altAr": "سليم والمفتاح الأزرق في مدينة الحدائق المعلّقة",
+        "altEn": "Salim and the Blue Key at The Terraced Garden City",
+        "altFr": "Salim et Clé bleue à la cité des jardins en terrasses",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-070.json"
+    },
+    {
+      "id": "animated-story-071",
+      "slug": "animated-story-071-bird-compass",
+      "titleAr": "ريم وبوصلة الطيور في قرية الطواحين الهوائية",
+      "titleEn": "Reem and the Bird Compass at The Windmill Village",
+      "titleFr": "Reem et Boussole des oiseaux à le village des moulins",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "leadership",
+        "mystery",
+        "science"
+      ],
+      "visualStyle": "exploration",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-071.svg",
+        "altAr": "ريم وبوصلة الطيور في قرية الطواحين الهوائية",
+        "altEn": "Reem and the Bird Compass at The Windmill Village",
+        "altFr": "Reem et Boussole des oiseaux à le village des moulins",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-071.json"
+    },
+    {
+      "id": "animated-story-072",
+      "slug": "animated-story-072-sound-notebook",
+      "titleAr": "أنس ودفتر الأصوات في واحة الألوان",
+      "titleEn": "Anas and the Sound Notebook at The Oasis Of Colors",
+      "titleFr": "Anas et Carnet des sons à l’Oasis des couleurs",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "communication",
+        "school",
+        "communication"
+      ],
+      "visualStyle": "sports-team",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-072.svg",
+        "altAr": "أنس ودفتر الأصوات في واحة الألوان",
+        "altEn": "Anas and the Sound Notebook at The Oasis Of Colors",
+        "altFr": "Anas et Carnet des sons à l’Oasis des couleurs",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-072.json"
+    },
+    {
+      "id": "animated-story-073",
+      "slug": "animated-story-073-folded-map",
+      "titleAr": "مريم والخريطة المطوية في مخيم الغابة الهادئة",
+      "titleEn": "Maryam and the Folded Map at A Quiet Forest Camp",
+      "titleFr": "Maryam et Carte pliée à un camp dans la forêt calme",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "empathy",
+        "creativity",
+        "community"
+      ],
+      "visualStyle": "manga-adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-073.svg",
+        "altAr": "مريم والخريطة المطوية في مخيم الغابة الهادئة",
+        "altEn": "Maryam and the Folded Map at A Quiet Forest Camp",
+        "altFr": "Maryam et Carte pliée à un camp dans la forêt calme",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-073.json"
+    },
+    {
+      "id": "animated-story-074",
+      "slug": "animated-story-074-green-hourglass",
+      "titleAr": "إلياس وساعة الرمل الخضراء في مدرسة الفنون والروبوت",
+      "titleEn": "Elias and the Green Hourglass at An Arts-And-Robotics School",
+      "titleFr": "Elias et Sablier vert à une école d’arts et de robotique",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "adventure",
+        "self-confidence",
+        "environment"
+      ],
+      "visualStyle": "school-fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-074.svg",
+        "altAr": "إلياس وساعة الرمل الخضراء في مدرسة الفنون والروبوت",
+        "altEn": "Elias and the Green Hourglass at An Arts-And-Robotics School",
+        "altFr": "Elias et Sablier vert à une école d’arts et de robotique",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-074.json"
+    },
+    {
+      "id": "animated-story-075",
+      "slug": "animated-story-075-small-glider",
+      "titleAr": "هبة وطائرة شراعية صغيرة في مدينة الدراجات",
+      "titleEn": "Hiba and the Small Glider at The Bicycle City",
+      "titleFr": "Hiba et Petit planeur à la Cité des vélos",
+      "ageGroup": "11-13",
+      "readingLevel": "intermediate",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "imagination",
+        "imagination",
+        "empathy"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-075.svg",
+        "altAr": "هبة وطائرة شراعية صغيرة في مدينة الدراجات",
+        "altEn": "Hiba and the Small Glider at The Bicycle City",
+        "altFr": "Hiba et Petit planeur à la Cité des vélos",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 9,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-11-13/animated-story-075.json"
+    },
+    {
+      "id": "animated-story-076",
+      "slug": "animated-story-076-paper-robot",
+      "titleAr": "ميرا والروبوت الورقي في مركز إنقاذ النباتات",
+      "titleEn": "Mira and the Paper Robot at A Plant Rescue Center",
+      "titleFr": "Mira et Robot en papier à un centre de sauvetage des plantes",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "friendship",
+        "exploration",
+        "family"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-076.svg",
+        "altAr": "ميرا والروبوت الورقي في مركز إنقاذ النباتات",
+        "altEn": "Mira and the Paper Robot at A Plant Rescue Center",
+        "altFr": "Mira et Robot en papier à un centre de sauvetage des plantes",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 11,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-076.json"
+    },
+    {
+      "id": "animated-story-077",
+      "slug": "animated-story-077-rain-lens",
+      "titleAr": "يونس وعدسة المطر في مدرسة قرب البحر",
+      "titleEn": "Younes and the Rain Lens at A School By The Sea",
+      "titleFr": "Younes et Lentille de pluie à une école près de la mer",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "school",
+        "problem-solving",
+        "problem-solving"
+      ],
+      "visualStyle": "coming-of-age",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-077.svg",
+        "altAr": "يونس وعدسة المطر في مدرسة قرب البحر",
+        "altEn": "Younes and the Rain Lens at A School By The Sea",
+        "altFr": "Younes et Lentille de pluie à une école près de la mer",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-077.json"
+    },
+    {
+      "id": "animated-story-078",
+      "slug": "animated-story-078-message-box",
+      "titleAr": "تالا وصندوق الرسائل في مكتبة داخل محطة قديمة",
+      "titleEn": "Tala and the Message Box at A Library In An Old Station",
+      "titleFr": "Tala et Boîte à messages à une bibliothèque dans une ancienne gare",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "science",
+        "empathy",
+        "adventure"
+      ],
+      "visualStyle": "adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-078.svg",
+        "altAr": "تالا وصندوق الرسائل في مكتبة داخل محطة قديمة",
+        "altEn": "Tala and the Message Box at A Library In An Old Station",
+        "altFr": "Tala et Boîte à messages à une bibliothèque dans une ancienne gare",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-078.json"
+    },
+    {
+      "id": "animated-story-079",
+      "slug": "animated-story-079-glowing-seed",
+      "titleAr": "رامي وبذرة مضيئة في مدينة الجسور الصغيرة",
+      "titleEn": "Rami and the Glowing Seed at The City Of Little Bridges",
+      "titleFr": "Rami et Graine lumineuse à la Cité des petits ponts",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "environment",
+        "community",
+        "exploration"
+      ],
+      "visualStyle": "teamwork",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-079.svg",
+        "altAr": "رامي وبذرة مضيئة في مدينة الجسور الصغيرة",
+        "altEn": "Rami and the Glowing Seed at The City Of Little Bridges",
+        "altFr": "Rami et Graine lumineuse à la Cité des petits ponts",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-079.json"
+    },
+    {
+      "id": "animated-story-080",
+      "slug": "animated-story-080-blue-key",
+      "titleAr": "سلمى والمفتاح الأزرق في جزيرة المنارات",
+      "titleEn": "Salma and the Blue Key at The Island Of Lighthouses",
+      "titleFr": "Salma et Clé bleue à l’Île des phares",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "problem-solving",
+        "science",
+        "teamwork"
+      ],
+      "visualStyle": "ethical-dilemmas",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-080.svg",
+        "altAr": "سلمى والمفتاح الأزرق في جزيرة المنارات",
+        "altEn": "Salma and the Blue Key at The Island Of Lighthouses",
+        "altFr": "Salma et Clé bleue à l’Île des phares",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-080.json"
+    },
+    {
+      "id": "animated-story-081",
+      "slug": "animated-story-081-bird-compass",
+      "titleAr": "كريم وبوصلة الطيور في محطة أبحاث صحراوية",
+      "titleEn": "Karim and the Bird Compass at A Desert Research Station",
+      "titleFr": "Karim et Boussole des oiseaux à une station de recherche désertique",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "teamwork",
+        "leadership",
+        "imagination"
+      ],
+      "visualStyle": "anime-inspired-drama",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-081.svg",
+        "altAr": "كريم وبوصلة الطيور في محطة أبحاث صحراوية",
+        "altEn": "Karim and the Bird Compass at A Desert Research Station",
+        "altFr": "Karim et Boussole des oiseaux à une station de recherche désertique",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-081.json"
+    },
+    {
+      "id": "animated-story-082",
+      "slug": "animated-story-082-sound-notebook",
+      "titleAr": "نورا ودفتر الأصوات في مرفأ الطيور المهاجرة",
+      "titleEn": "Nora and the Sound Notebook at A Harbor For Migrating Birds",
+      "titleFr": "Nora et Carnet des sons à un port pour oiseaux migrateurs",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "self-confidence",
+        "resilience",
+        "technology"
+      ],
+      "visualStyle": "fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-082.svg",
+        "altAr": "نورا ودفتر الأصوات في مرفأ الطيور المهاجرة",
+        "altEn": "Nora and the Sound Notebook at A Harbor For Migrating Birds",
+        "altFr": "Nora et Carnet des sons à un port pour oiseaux migrateurs",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.0,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-082.json"
+    },
+    {
+      "id": "animated-story-083",
+      "slug": "animated-story-083-folded-map",
+      "titleAr": "إياد والخريطة المطوية في مدينة الحدائق المعلّقة",
+      "titleEn": "Iyad and the Folded Map at The Terraced Garden City",
+      "titleFr": "Iyad et Carte pliée à la cité des jardins en terrasses",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "resilience",
+        "friendship",
+        "self-confidence"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-083.svg",
+        "altAr": "إياد والخريطة المطوية في مدينة الحدائق المعلّقة",
+        "altEn": "Iyad and the Folded Map at The Terraced Garden City",
+        "altFr": "Iyad et Carte pliée à la cité des jardins en terrasses",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-083.json"
+    },
+    {
+      "id": "animated-story-084",
+      "slug": "animated-story-084-green-hourglass",
+      "titleAr": "ليان وساعة الرمل الخضراء في مركز العلوم العائم",
+      "titleEn": "Lian and the Green Hourglass at A Floating Science Center",
+      "titleFr": "Lian et Sablier vert à un centre scientifique flottant",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "mystery",
+        "technology",
+        "friendship"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-084.svg",
+        "altAr": "ليان وساعة الرمل الخضراء في مركز العلوم العائم",
+        "altEn": "Lian and the Green Hourglass at A Floating Science Center",
+        "altFr": "Lian et Sablier vert à un centre scientifique flottant",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-084.json"
+    },
+    {
+      "id": "animated-story-085",
+      "slug": "animated-story-085-small-glider",
+      "titleAr": "جاد وطائرة شراعية صغيرة في مزرعة الطاقة الشمسية",
+      "titleEn": "Jad and the Small Glider at A Solar Farm",
+      "titleFr": "Jad et Petit planeur à une ferme solaire",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "community",
+        "teamwork",
+        "creativity"
+      ],
+      "visualStyle": "coming-of-age",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-085.svg",
+        "altAr": "جاد وطائرة شراعية صغيرة في مزرعة الطاقة الشمسية",
+        "altEn": "Jad and the Small Glider at A Solar Farm",
+        "altFr": "Jad et Petit planeur à une ferme solaire",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-085.json"
+    },
+    {
+      "id": "animated-story-086",
+      "slug": "animated-story-086-paper-robot",
+      "titleAr": "آمنة والروبوت الورقي في حي الورش الإبداعية",
+      "titleEn": "Amina and the Paper Robot at A Creative Workshop District",
+      "titleFr": "Amina et Robot en papier à un quartier d’ateliers créatifs",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "family",
+        "adventure",
+        "resilience"
+      ],
+      "visualStyle": "adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-086.svg",
+        "altAr": "آمنة والروبوت الورقي في حي الورش الإبداعية",
+        "altEn": "Amina and the Paper Robot at A Creative Workshop District",
+        "altFr": "Amina et Robot en papier à un quartier d’ateliers créatifs",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 11,
+      "estimatedAnimationMinutes": 5.5,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-086.json"
+    },
+    {
+      "id": "animated-story-087",
+      "slug": "animated-story-087-rain-lens",
+      "titleAr": "سامي وعدسة المطر في وادي البلورات",
+      "titleEn": "Sami and the Rain Lens at Crystal Valley",
+      "titleFr": "Sami et Lentille de pluie à la Vallée des cristaux",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "exploration",
+        "family",
+        "school"
+      ],
+      "visualStyle": "teamwork",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-087.svg",
+        "altAr": "سامي وعدسة المطر في وادي البلورات",
+        "altEn": "Sami and the Rain Lens at Crystal Valley",
+        "altFr": "Sami et Lentille de pluie à la Vallée des cristaux",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-087.json"
+    },
+    {
+      "id": "animated-story-088",
+      "slug": "animated-story-088-message-box",
+      "titleAr": "هنا وصندوق الرسائل في متحف الزمن الصغير",
+      "titleEn": "Hana and the Message Box at The Little Museum Of Time",
+      "titleFr": "Hana et Boîte à messages à le Petit Musée du temps",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "technology",
+        "environment",
+        "leadership"
+      ],
+      "visualStyle": "ethical-dilemmas",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-088.svg",
+        "altAr": "هنا وصندوق الرسائل في متحف الزمن الصغير",
+        "altEn": "Hana and the Message Box at The Little Museum Of Time",
+        "altFr": "Hana et Boîte à messages à le Petit Musée du temps",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 11,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-088.json"
+    },
+    {
+      "id": "animated-story-089",
+      "slug": "animated-story-089-glowing-seed",
+      "titleAr": "مالك وبذرة مضيئة في مسرح المدرسة المفتوح",
+      "titleEn": "Malik and the Glowing Seed at The School Open-Air Theater",
+      "titleFr": "Malik et Graine lumineuse à le théâtre scolaire en plein air",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "creativity",
+        "communication",
+        "mystery"
+      ],
+      "visualStyle": "anime-inspired-drama",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-089.svg",
+        "altAr": "مالك وبذرة مضيئة في مسرح المدرسة المفتوح",
+        "altEn": "Malik and the Glowing Seed at The School Open-Air Theater",
+        "altFr": "Malik et Graine lumineuse à le théâtre scolaire en plein air",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-089.json"
+    },
+    {
+      "id": "animated-story-090",
+      "slug": "animated-story-090-blue-key",
+      "titleAr": "رنا والمفتاح الأزرق في مدرسة قرب البحر",
+      "titleEn": "Rana and the Blue Key at A School By The Sea",
+      "titleFr": "Rana et Clé bleue à une école près de la mer",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "leadership",
+        "mystery",
+        "science"
+      ],
+      "visualStyle": "fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-090.svg",
+        "altAr": "رنا والمفتاح الأزرق في مدرسة قرب البحر",
+        "altEn": "Rana and the Blue Key at A School By The Sea",
+        "altFr": "Rana et Clé bleue à une école près de la mer",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-090.json"
+    },
+    {
+      "id": "animated-story-091",
+      "slug": "animated-story-091-bird-compass",
+      "titleAr": "آدم وبوصلة الطيور في واحة الألوان",
+      "titleEn": "Adam and the Bird Compass at The Oasis Of Colors",
+      "titleFr": "Adam et Boussole des oiseaux à l’Oasis des couleurs",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "kindness",
+      "categoryAr": "اللطف",
+      "secondaryTags": [
+        "communication",
+        "school",
+        "communication"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-091.svg",
+        "altAr": "آدم وبوصلة الطيور في واحة الألوان",
+        "altEn": "Adam and the Bird Compass at The Oasis Of Colors",
+        "altFr": "Adam et Boussole des oiseaux à l’Oasis des couleurs",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-091.json"
+    },
+    {
+      "id": "animated-story-092",
+      "slug": "animated-story-092-sound-notebook",
+      "titleAr": "جود ودفتر الأصوات في مخيم الغابة الهادئة",
+      "titleEn": "Joud and the Sound Notebook at A Quiet Forest Camp",
+      "titleFr": "Joud et Carnet des sons à un camp dans la forêt calme",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "honesty",
+      "categoryAr": "الصدق",
+      "secondaryTags": [
+        "empathy",
+        "creativity",
+        "community"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-092.svg",
+        "altAr": "جود ودفتر الأصوات في مخيم الغابة الهادئة",
+        "altEn": "Joud and the Sound Notebook at A Quiet Forest Camp",
+        "altFr": "Joud et Carnet des sons à un camp dans la forêt calme",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 11,
+      "estimatedAnimationMinutes": 5.6,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-092.json"
+    },
+    {
+      "id": "animated-story-093",
+      "slug": "animated-story-093-folded-map",
+      "titleAr": "يزن والخريطة المطوية في مدرسة الفنون والروبوت",
+      "titleEn": "Yazan and the Folded Map at An Arts-And-Robotics School",
+      "titleFr": "Yazan et Carte pliée à une école d’arts et de robotique",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "courage",
+      "categoryAr": "الشجاعة",
+      "secondaryTags": [
+        "adventure",
+        "self-confidence",
+        "environment"
+      ],
+      "visualStyle": "coming-of-age",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-093.svg",
+        "altAr": "يزن والخريطة المطوية في مدرسة الفنون والروبوت",
+        "altEn": "Yazan and the Folded Map at An Arts-And-Robotics School",
+        "altFr": "Yazan et Carte pliée à une école d’arts et de robotique",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.8,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-093.json"
+    },
+    {
+      "id": "animated-story-094",
+      "slug": "animated-story-094-green-hourglass",
+      "titleAr": "لينا وساعة الرمل الخضراء في مدينة الدراجات",
+      "titleEn": "Lina and the Green Hourglass at The Bicycle City",
+      "titleFr": "Lina et Sablier vert à la Cité des vélos",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "patience",
+      "categoryAr": "الصبر",
+      "secondaryTags": [
+        "imagination",
+        "imagination",
+        "empathy"
+      ],
+      "visualStyle": "adventure",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-094.svg",
+        "altAr": "لينا وساعة الرمل الخضراء في مدينة الدراجات",
+        "altEn": "Lina and the Green Hourglass at The Bicycle City",
+        "altFr": "Lina et Sablier vert à la Cité des vélos",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 5.9,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-094.json"
+    },
+    {
+      "id": "animated-story-095",
+      "slug": "animated-story-095-small-glider",
+      "titleAr": "سليم وطائرة شراعية صغيرة في مركز إنقاذ النباتات",
+      "titleEn": "Salim and the Small Glider at A Plant Rescue Center",
+      "titleFr": "Salim et Petit planeur à un centre de sauvetage des plantes",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "curiosity",
+      "categoryAr": "حب المعرفة",
+      "secondaryTags": [
+        "friendship",
+        "exploration",
+        "family"
+      ],
+      "visualStyle": "teamwork",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-095.svg",
+        "altAr": "سليم وطائرة شراعية صغيرة في مركز إنقاذ النباتات",
+        "altEn": "Salim and the Small Glider at A Plant Rescue Center",
+        "altFr": "Salim et Petit planeur à un centre de sauvetage des plantes",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.1,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-095.json"
+    },
+    {
+      "id": "animated-story-096",
+      "slug": "animated-story-096-paper-robot",
+      "titleAr": "ريم والروبوت الورقي في مرصد فوق الجبل",
+      "titleEn": "Reem and the Paper Robot at A Mountain Observatory",
+      "titleFr": "Reem et Robot en papier à un observatoire de montagne",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "cooperation",
+      "categoryAr": "التعاون",
+      "secondaryTags": [
+        "school",
+        "problem-solving",
+        "problem-solving"
+      ],
+      "visualStyle": "ethical-dilemmas",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-096.svg",
+        "altAr": "ريم والروبوت الورقي في مرصد فوق الجبل",
+        "altEn": "Reem and the Paper Robot at A Mountain Observatory",
+        "altFr": "Reem et Robot en papier à un observatoire de montagne",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-096.json"
+    },
+    {
+      "id": "animated-story-097",
+      "slug": "animated-story-097-rain-lens",
+      "titleAr": "أنس وعدسة المطر في مركز العلوم العائم",
+      "titleEn": "Anas and the Rain Lens at A Floating Science Center",
+      "titleFr": "Anas et Lentille de pluie à un centre scientifique flottant",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "responsibility",
+      "categoryAr": "المسؤولية",
+      "secondaryTags": [
+        "science",
+        "empathy",
+        "adventure"
+      ],
+      "visualStyle": "anime-inspired-drama",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-097.svg",
+        "altAr": "أنس وعدسة المطر في مركز العلوم العائم",
+        "altEn": "Anas and the Rain Lens at A Floating Science Center",
+        "altFr": "Anas et Lentille de pluie à un centre scientifique flottant",
+        "format": "svg",
+        "palette": [
+          "#F8E8EC",
+          "#E7F3EF",
+          "#FFF4D6",
+          "#CFE4F5"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.4,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-097.json"
+    },
+    {
+      "id": "animated-story-098",
+      "slug": "animated-story-098-message-box",
+      "titleAr": "مريم وصندوق الرسائل في مدينة الجسور الصغيرة",
+      "titleEn": "Maryam and the Message Box at The City Of Little Bridges",
+      "titleFr": "Maryam et Boîte à messages à la Cité des petits ponts",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "gratitude",
+      "categoryAr": "الشكر",
+      "secondaryTags": [
+        "environment",
+        "community",
+        "exploration"
+      ],
+      "visualStyle": "fantasy",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-098.svg",
+        "altAr": "مريم وصندوق الرسائل في مدينة الجسور الصغيرة",
+        "altEn": "Maryam and the Message Box at The City Of Little Bridges",
+        "altFr": "Maryam et Boîte à messages à la Cité des petits ponts",
+        "format": "svg",
+        "palette": [
+          "#F0E9F8",
+          "#F8E8D9",
+          "#E9F5E5",
+          "#FFF4D6"
+        ]
+      },
+      "estimatedReadingMinutes": 11,
+      "estimatedAnimationMinutes": 6.3,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-098.json"
+    },
+    {
+      "id": "animated-story-099",
+      "slug": "animated-story-099-glowing-seed",
+      "titleAr": "إلياس وبذرة مضيئة في جزيرة المنارات",
+      "titleEn": "Elias and the Glowing Seed at The Island Of Lighthouses",
+      "titleFr": "Elias et Graine lumineuse à l’Île des phares",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "nature",
+      "categoryAr": "العناية بالطبيعة",
+      "secondaryTags": [
+        "problem-solving",
+        "science",
+        "teamwork"
+      ],
+      "visualStyle": "science-fiction",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-099.svg",
+        "altAr": "إلياس وبذرة مضيئة في جزيرة المنارات",
+        "altEn": "Elias and the Glowing Seed at The Island Of Lighthouses",
+        "altFr": "Elias et Graine lumineuse à l’Île des phares",
+        "format": "svg",
+        "palette": [
+          "#E7F3EF",
+          "#CFE4F5",
+          "#F0E9F8",
+          "#F8E8EC"
+        ]
+      },
+      "estimatedReadingMinutes": 11,
+      "estimatedAnimationMinutes": 6.2,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-099.json"
+    },
+    {
+      "id": "animated-story-100",
+      "slug": "animated-story-100-blue-key",
+      "titleAr": "هبة والمفتاح الأزرق في محطة أبحاث صحراوية",
+      "titleEn": "Hiba and the Blue Key at A Desert Research Station",
+      "titleFr": "Hiba et Clé bleue à une station de recherche désertique",
+      "ageGroup": "14-16",
+      "readingLevel": "advanced",
+      "category": "forgiveness",
+      "categoryAr": "التسامح",
+      "secondaryTags": [
+        "teamwork",
+        "leadership",
+        "imagination"
+      ],
+      "visualStyle": "mystery",
+      "cover": {
+        "path": "assets/children-animated/covers/animated-story-100.svg",
+        "altAr": "هبة والمفتاح الأزرق في محطة أبحاث صحراوية",
+        "altEn": "Hiba and the Blue Key at A Desert Research Station",
+        "altFr": "Hiba et Clé bleue à une station de recherche désertique",
+        "format": "svg",
+        "palette": [
+          "#FFF4D6",
+          "#E9F5E5",
+          "#CFE4F5",
+          "#F8E8D9"
+        ]
+      },
+      "estimatedReadingMinutes": 12,
+      "estimatedAnimationMinutes": 6.0,
+      "listenMode": "browser-tts",
+      "watchMode": "animated-storyboard",
+      "capabilities": {
+        "read": true,
+        "listen": true,
+        "watch": true
+      },
+      "publicationStatus": "READY",
+      "path": "data/children/animated/age-14-16/animated-story-100.json"
+    }
+  ]
+}

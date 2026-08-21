@@ -1,0 +1,509 @@
+{
+  "id": "animated-story-065",
+  "slug": "animated-story-065-small-glider",
+  "titleAr": "رنا وطائرة شراعية صغيرة في مركز العلوم العائم",
+  "titleEn": "Rana and the Small Glider at A Floating Science Center",
+  "titleFr": "Rana et Petit planeur à un centre scientifique flottant",
+  "ageGroup": "11-13",
+  "readingLevel": "intermediate",
+  "category": "curiosity",
+  "categoryAr": "حب المعرفة",
+  "secondaryTags": [
+    "mystery",
+    "technology",
+    "friendship"
+  ],
+  "visualStyle": "exploration",
+  "fictional": true,
+  "historicalClaim": false,
+  "synopsisAr": "في مركز العلوم العائم يواجه رنا وأصدقاؤه موقفًا يبدأ حين مكان طبيعي مهدد بسبب إهمال متكرر. تقودهم ملاحظات مرتبطة بـطائرة شراعية صغيرة إلى سلسلة من المحاولات والقرارات التي تختبر حب المعرفة بطريقة عملية.",
+  "synopsisEn": "In a floating science center, Rana and friends face a situation in which a natural place is threatened by repeated neglect. Clues connected to the small glider lead them through decisions that test curiosity in practice.",
+  "synopsisFr": "À un centre scientifique flottant, Rana et ses amis affrontent une situation où un lieu naturel est menacé par des négligences répétées. Des indices liés à petit planeur les conduisent à des décisions qui mettent en pratique la valeur de حب المعرفة.",
+  "moralAr": "حب المعرفة يصبح قيمة حقيقية حين يظهر في قرار عملي يحترم الآخرين والواقع.",
+  "moralEn": "Curiosity becomes meaningful when it appears in practical choices that respect people and facts.",
+  "moralFr": "La valeur de حب المعرفة prend tout son sens lorsqu’elle guide des choix concrets et respectueux.",
+  "characters": [
+    {
+      "characterId": "char-065-a",
+      "name": "رنا",
+      "age": 12,
+      "role": "protagonist",
+      "personality": "ملاحظ، فضولي، يتعلم من الخطأ",
+      "strengths": [
+        "observation",
+        "empathy"
+      ],
+      "weakness": "يتعجل أحيانًا",
+      "appearanceDescription": "ملامح طفولية خيالية أصلية وشعر بسيط وتعبير واضح",
+      "clothingDescription": "ملابس يومية بسيطة بألوان فاتحة بلا شعارات",
+      "consistencyPrompt": "Original fictional youth Rana, age 12, simple contemporary clothes, consistent hairstyle, neutral cultural styling, no franchise resemblance."
+    },
+    {
+      "characterId": "char-065-b",
+      "name": "آدم",
+      "age": 13,
+      "role": "friend",
+      "personality": "هادئ، عملي، يحب العمل الجماعي",
+      "strengths": [
+        "communication",
+        "planning"
+      ],
+      "weakness": "يتردد قبل التجربة",
+      "appearanceDescription": "شخصية خيالية أصلية مختلفة في الهيئة والتسريحة",
+      "clothingDescription": "ملابس عملية مريحة بلا علامات تجارية",
+      "consistencyPrompt": "Original fictional young teammate, distinct silhouette, neutral everyday clothes, consistent facial design, no copyrighted character resemblance."
+    }
+  ],
+  "storyAr": [
+    {
+      "sceneNumber": 1,
+      "text": "احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 16 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 5 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 16 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، وكانت الملاحظة رقم 2 مختلفة قليلًا، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 16 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 2 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 2 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، وكانت الملاحظة رقم 16 مختلفة قليلًا، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 2 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 16 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 2 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم."
+    }
+  ],
+  "storyEn": [
+    {
+      "sceneNumber": 1,
+      "text": "Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 1-16. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility — clue 1-2. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 1-5. The friends laughed at the confusion, then returned with a clearer plan."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 2-16. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up — clue 2-2. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 3-16. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 3-2. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 4-16. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 4-2. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 5-16. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared — clue 5-2. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility — clue 6-16. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 6-2. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility — clue 6-5."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up — clue 7-16. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 7-2. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 8-16. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 8-2. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 9-16. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 9-2. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared — clue 10-16. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 10-2. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared."
+    }
+  ],
+  "storyFr": [
+    {
+      "sceneNumber": 1,
+      "text": "Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 1-16. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 1-2. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 1-5. Les amis rirent de leur confusion puis reprirent avec un plan plus clair."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 2-16. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 2-2. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 3-16. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 3-2. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 4-16. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 4-2. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 5-16. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air — détail 5-2. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 6-16. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 6-2. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 7-16. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 7-2. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 8-16. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 8-2. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 9-16. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 9-2. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air — détail 10-16. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 10-2. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "sceneTitle": "بداية غير عادية",
+      "sceneTitleEn": "An Unusual Beginning",
+      "sceneTitleFr": "Un début inhabituel",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 16 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 5 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح.",
+      "narrationEn": "Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 1-16. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility — clue 1-2. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 1-5. The friends laughed at the confusion, then returned with a clearer plan.",
+      "narrationFr": "Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 1-16. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 1-2. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 1-5. Les amis rirent de leur confusion puis reprirent avec un plan plus clair.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 38,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 1.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-01.svg"
+    },
+    {
+      "sceneNumber": 2,
+      "sceneTitle": "الإشارة الأولى",
+      "sceneTitleEn": "The First Signal",
+      "sceneTitleFr": "Le premier signal",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 16 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، وكانت الملاحظة رقم 2 مختلفة قليلًا، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها.",
+      "narrationEn": "The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 2-16. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up — clue 2-2. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts.",
+      "narrationFr": "Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 2-16. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 2-2. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 39,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 2.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-02.svg"
+    },
+    {
+      "sceneNumber": 3,
+      "sceneTitle": "قرار صغير",
+      "sceneTitleEn": "A Small Decision",
+      "sceneTitleFr": "Une petite décision",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته.",
+      "narrationEn": "The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 3-16. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 3-2. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life.",
+      "narrationFr": "La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 3-16. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 3-2. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 40,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 3.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-03.svg"
+    },
+    {
+      "sceneNumber": 4,
+      "sceneTitle": "المحاولة الأولى",
+      "sceneTitleEn": "The First Attempt",
+      "sceneTitleFr": "La première tentative",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 16 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 2 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى.",
+      "narrationEn": "By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 4-16. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 4-2. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps.",
+      "narrationFr": "À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 4-16. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 4-2. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 41,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 4.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-04.svg"
+    },
+    {
+      "sceneNumber": 5,
+      "sceneTitle": "ما لم يتوقعوه",
+      "sceneTitleEn": "What They Did Not Expect",
+      "sceneTitleFr": "Ce qu’ils n’avaient pas prévu",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه.",
+      "narrationEn": "In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 5-16. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared — clue 5-2. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns.",
+      "narrationFr": "À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 5-16. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air — détail 5-2. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 42,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 5.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-05.svg"
+    },
+    {
+      "sceneNumber": 6,
+      "sceneTitle": "اختبار الفريق",
+      "sceneTitleEn": "The Team Test",
+      "sceneTitleFr": "L’épreuve de l’équipe",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 2 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ رنا بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية.",
+      "narrationEn": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility — clue 6-16. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 6-2. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Rana kept one note: better decisions combine courage, listening, patience, and responsibility — clue 6-5.",
+      "narrationFr": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 6-16. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 6-2. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Rana nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 43,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 6.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-06.svg"
+    },
+    {
+      "sceneNumber": 7,
+      "sceneTitle": "الطريق الأصعب",
+      "sceneTitleEn": "The Harder Path",
+      "sceneTitleFr": "Le chemin le plus difficile",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، وكانت الملاحظة رقم 16 مختلفة قليلًا، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 2 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، لذلك اختار رنا أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم.",
+      "narrationEn": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up — clue 7-16. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 7-2. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Rana chose to ask before judging and to test ideas before giving up.",
+      "narrationFr": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 7-16. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 7-2. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Rana décida donc de questionner avant de juger et d’essayer avant d’abandonner.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 26,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 7.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-07.svg"
+    },
+    {
+      "sceneNumber": 8,
+      "sceneTitle": "لحظة الفهم",
+      "sceneTitleEn": "The Moment of Understanding",
+      "sceneTitleFr": "Le moment de comprendre",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي.",
+      "narrationEn": "The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 8-16. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 8-2. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own.",
+      "narrationFr": "Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 8-16. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 8-2. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 27,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 8.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-08.svg"
+    },
+    {
+      "sceneNumber": 9,
+      "sceneTitle": "الحل المشترك",
+      "sceneTitleEn": "The Shared Solution",
+      "sceneTitleFr": "La solution commune",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 16 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 2 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون.",
+      "narrationEn": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 9-16. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 9-2. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed.",
+      "narrationFr": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 9-16. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 9-2. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 28,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 9.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-09.svg"
+    },
+    {
+      "sceneNumber": 10,
+      "sceneTitle": "عودة مختلفة",
+      "sceneTitleEn": "A Different Return",
+      "sceneTitleFr": "Un retour différent",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ رنا يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان رنا يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم.",
+      "narrationEn": "With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared — clue 10-16. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared. With each step, Rana understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 10-2. In a floating science center, Rana began to notice that small details around the small glider mattered more than they first appeared.",
+      "narrationFr": "À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air — détail 10-16. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Rana comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 10-2. À un centre scientifique flottant, Rana remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air.",
+      "dialogue": [
+        {
+          "speaker": "رنا",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-065-a",
+        "char-065-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 29,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original exploration scene, a floating science center, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 10.",
+      "illustration": "assets/children-animated/scenes/animated-story-065/scene-10.svg"
+    }
+  ],
+  "cover": {
+    "path": "assets/children-animated/covers/animated-story-065.svg",
+    "altAr": "رنا وطائرة شراعية صغيرة في مركز العلوم العائم",
+    "altEn": "Rana and the Small Glider at A Floating Science Center",
+    "altFr": "Rana et Petit planeur à un centre scientifique flottant",
+    "format": "svg",
+    "palette": [
+      "#F8E8EC",
+      "#E7F3EF",
+      "#FFF4D6",
+      "#CFE4F5"
+    ]
+  },
+  "estimatedReadingMinutes": 9,
+  "estimatedAnimationMinutes": 5.9,
+  "listenMode": "browser-tts",
+  "watchMode": "animated-storyboard",
+  "capabilities": {
+    "read": true,
+    "listen": true,
+    "watch": true
+  },
+  "lifecycleStatus": "READY",
+  "publicationStatus": "READY"
+}

@@ -1,0 +1,509 @@
+{
+  "id": "animated-story-005",
+  "slug": "animated-story-005-small-glider",
+  "titleAr": "سلمى وطائرة شراعية صغيرة في مدينة الدراجات",
+  "titleEn": "Salma and the Small Glider at The Bicycle City",
+  "titleFr": "Salma et Petit planeur à la Cité des vélos",
+  "ageGroup": "5-7",
+  "readingLevel": "beginner",
+  "category": "curiosity",
+  "categoryAr": "حب المعرفة",
+  "secondaryTags": [
+    "teamwork",
+    "leadership",
+    "imagination"
+  ],
+  "visualStyle": "pastel-chibi-anime",
+  "fictional": true,
+  "historicalClaim": false,
+  "synopsisAr": "في مدينة الدراجات يواجه سلمى وأصدقاؤه موقفًا يبدأ حين مهمة تبدو أكبر من قدرة شخص واحد. تقودهم ملاحظات مرتبطة بـطائرة شراعية صغيرة إلى سلسلة من المحاولات والقرارات التي تختبر حب المعرفة بطريقة عملية.",
+  "synopsisEn": "In the Bicycle City, Salma and friends face a situation in which a task seems too large for one person. Clues connected to the small glider lead them through decisions that test curiosity in practice.",
+  "synopsisFr": "À la Cité des vélos, Salma et ses amis affrontent une situation où une tâche paraît trop grande pour une seule personne. Des indices liés à petit planeur les conduisent à des décisions qui mettent en pratique la valeur de حب المعرفة.",
+  "moralAr": "حب المعرفة يصبح قيمة حقيقية حين يظهر في قرار عملي يحترم الآخرين والواقع.",
+  "moralEn": "Curiosity becomes meaningful when it appears in practical choices that respect people and facts.",
+  "moralFr": "La valeur de حب المعرفة prend tout son sens lorsqu’elle guide des choix concrets et respectueux.",
+  "characters": [
+    {
+      "characterId": "char-005-a",
+      "name": "سلمى",
+      "age": 6,
+      "role": "protagonist",
+      "personality": "ملاحظ، فضولي، يتعلم من الخطأ",
+      "strengths": [
+        "observation",
+        "empathy"
+      ],
+      "weakness": "يتعجل أحيانًا",
+      "appearanceDescription": "ملامح طفولية خيالية أصلية وشعر بسيط وتعبير واضح",
+      "clothingDescription": "ملابس يومية بسيطة بألوان فاتحة بلا شعارات",
+      "consistencyPrompt": "Original fictional youth Salma, age 6, simple contemporary clothes, consistent hairstyle, neutral cultural styling, no franchise resemblance."
+    },
+    {
+      "characterId": "char-005-b",
+      "name": "كريم",
+      "age": 7,
+      "role": "friend",
+      "personality": "هادئ، عملي، يحب العمل الجماعي",
+      "strengths": [
+        "communication",
+        "planning"
+      ],
+      "weakness": "يتردد قبل التجربة",
+      "appearanceDescription": "شخصية خيالية أصلية مختلفة في الهيئة والتسريحة",
+      "clothingDescription": "ملابس عملية مريحة بلا علامات تجارية",
+      "consistencyPrompt": "Original fictional young teammate, distinct silhouette, neutral everyday clothes, consistent facial design, no copyrighted character resemblance."
+    }
+  ],
+  "storyAr": [
+    {
+      "sceneNumber": 1,
+      "text": "احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 7 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "كان التحدي الحقيقي هو مهمة تبدو أكبر من قدرة شخص واحد، لذلك اختار سلمى أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 7 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مهمة تبدو أكبر من قدرة شخص واحد، لذلك اختار سلمى أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مدينة الدراجات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 7 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مهمة تبدو أكبر من قدرة شخص واحد، وكانت الملاحظة رقم 7 مختلفة قليلًا، لذلك اختار سلمى أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "عاد الفريق إلى مدينة الدراجات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مدينة الدراجات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 7 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه."
+    }
+  ],
+  "storyEn": [
+    {
+      "sceneNumber": 1,
+      "text": "Salma kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 1-7. The friends laughed at the confusion, then returned with a clearer plan. Salma kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "The real challenge was that a task seems too large for one person, so Salma chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 2-7. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a task seems too large for one person, so Salma chose to ask before judging and to test ideas before giving up."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to the Bicycle City seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 3-7. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 4-7. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "In the Bicycle City, Salma began to notice that small details around the small glider mattered more than they first appeared. With each step, Salma understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 5-7. In the Bicycle City, Salma began to notice that small details around the small glider mattered more than they first appeared."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Salma kept one note: better decisions combine courage, listening, patience, and responsibility — clue 6-7. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Salma kept one note: better decisions combine courage, listening, patience, and responsibility."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a task seems too large for one person, so Salma chose to ask before judging and to test ideas before giving up — clue 7-7. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "The group returned to the Bicycle City seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 8-7. The group returned to the Bicycle City seeing the same place differently because it now carried a lesson they could use in ordinary life."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 9-7. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "With each step, Salma understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In the Bicycle City, Salma began to notice that small details around the small glider mattered more than they first appeared — clue 10-7. With each step, Salma understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns."
+    }
+  ],
+  "storyFr": [
+    {
+      "sceneNumber": 1,
+      "text": "Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 1-7. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "Le vrai défi était que une tâche paraît trop grande pour une seule personne; Salma décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 2-7. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que une tâche paraît trop grande pour une seule personne; Salma décida donc de questionner avant de juger et d’essayer avant d’abandonner."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à la Cité des vélos avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 3-7. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 4-7. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "À la Cité des vélos, Salma remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Salma comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 5-7. À la Cité des vélos, Salma remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 6-7. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que une tâche paraît trop grande pour une seule personne; Salma décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 7-7. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "Le groupe revint à la Cité des vélos avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 8-7. Le groupe revint à la Cité des vélos avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 9-7. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "À chaque étape, Salma comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À la Cité des vélos, Salma remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air — détail 10-7. À chaque étape, Salma comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "sceneTitle": "بداية غير عادية",
+      "sceneTitleEn": "An Unusual Beginning",
+      "sceneTitleFr": "Un début inhabituel",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 7 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح.",
+      "narrationEn": "Salma kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 1-7. The friends laughed at the confusion, then returned with a clearer plan. Salma kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan.",
+      "narrationFr": "Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 1-7. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 32,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 1.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-01.svg"
+    },
+    {
+      "sceneNumber": 2,
+      "sceneTitle": "الإشارة الأولى",
+      "sceneTitleEn": "The First Signal",
+      "sceneTitleFr": "Le premier signal",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "كان التحدي الحقيقي هو مهمة تبدو أكبر من قدرة شخص واحد، لذلك اختار سلمى أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، وكانت الملاحظة رقم 7 مختلفة قليلًا، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مهمة تبدو أكبر من قدرة شخص واحد، لذلك اختار سلمى أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم.",
+      "narrationEn": "The real challenge was that a task seems too large for one person, so Salma chose to ask before judging and to test ideas before giving up. When tension rose, someone suggested one quiet minute — clue 2-7. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a task seems too large for one person, so Salma chose to ask before judging and to test ideas before giving up.",
+      "narrationFr": "Le vrai défi était que une tâche paraît trop grande pour une seule personne; Salma décida donc de questionner avant de juger et d’essayer avant d’abandonner. Quand la tension monta, quelqu’un proposa une minute de calme — détail 2-7. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que une tâche paraît trop grande pour une seule personne; Salma décida donc de questionner avant de juger et d’essayer avant d’abandonner.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 33,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 2.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-02.svg"
+    },
+    {
+      "sceneNumber": 3,
+      "sceneTitle": "قرار صغير",
+      "sceneTitleEn": "A Small Decision",
+      "sceneTitleFr": "Une petite décision",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مدينة الدراجات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته.",
+      "narrationEn": "The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own. The group returned to the Bicycle City seeing the same place differently because it now carried a lesson they could use in ordinary life — clue 3-7. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own.",
+      "narrationFr": "La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne. Le groupe revint à la Cité des vélos avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne — détail 3-7. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 34,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 3.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-03.svg"
+    },
+    {
+      "sceneNumber": 4,
+      "sceneTitle": "المحاولة الأولى",
+      "sceneTitleEn": "The First Attempt",
+      "sceneTitleFr": "La première tentative",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، وكانت الملاحظة رقم 7 مختلفة قليلًا، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون.",
+      "narrationEn": "By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps — clue 4-7. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed.",
+      "narrationFr": "À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables — détail 4-7. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 35,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 4.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-04.svg"
+    },
+    {
+      "sceneNumber": 5,
+      "sceneTitle": "ما لم يتوقعوه",
+      "sceneTitleEn": "What They Did Not Expect",
+      "sceneTitleFr": "Ce qu’ils n’avaient pas prévu",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم.",
+      "narrationEn": "In the Bicycle City, Salma began to notice that small details around the small glider mattered more than they first appeared. With each step, Salma understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns — clue 5-7. In the Bicycle City, Salma began to notice that small details around the small glider mattered more than they first appeared.",
+      "narrationFr": "À la Cité des vélos, Salma remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air. À chaque étape, Salma comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend — détail 5-7. À la Cité des vélos, Salma remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 36,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 5.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-05.svg"
+    },
+    {
+      "sceneNumber": 6,
+      "sceneTitle": "اختبار الفريق",
+      "sceneTitleEn": "The Team Test",
+      "sceneTitleFr": "L’épreuve de l’équipe",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ سلمى بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية.",
+      "narrationEn": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Salma kept one note: better decisions combine courage, listening, patience, and responsibility — clue 6-7. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Salma kept one note: better decisions combine courage, listening, patience, and responsibility.",
+      "narrationFr": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 6-7. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Salma nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 37,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 6.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-06.svg"
+    },
+    {
+      "sceneNumber": 7,
+      "sceneTitle": "الطريق الأصعب",
+      "sceneTitleEn": "The Harder Path",
+      "sceneTitleFr": "Le chemin le plus difficile",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مهمة تبدو أكبر من قدرة شخص واحد، وكانت الملاحظة رقم 7 مختلفة قليلًا، لذلك اختار سلمى أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها.",
+      "narrationEn": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a task seems too large for one person, so Salma chose to ask before judging and to test ideas before giving up — clue 7-7. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts.",
+      "narrationFr": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que une tâche paraît trop grande pour une seule personne; Salma décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 7-7. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 38,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 7.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-07.svg"
+    },
+    {
+      "sceneNumber": 8,
+      "sceneTitle": "لحظة الفهم",
+      "sceneTitleEn": "The Moment of Understanding",
+      "sceneTitleFr": "Le moment de comprendre",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "عاد الفريق إلى مدينة الدراجات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مدينة الدراجات وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى حب المعرفة في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته.",
+      "narrationEn": "The group returned to the Bicycle City seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of curiosity appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 8-7. The group returned to the Bicycle City seeing the same place differently because it now carried a lesson they could use in ordinary life.",
+      "narrationFr": "Le groupe revint à la Cité des vélos avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de curiosity apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 8-7. Le groupe revint à la Cité des vélos avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 39,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 8.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-08.svg"
+    },
+    {
+      "sceneNumber": 9,
+      "sceneTitle": "الحل المشترك",
+      "sceneTitleEn": "The Shared Solution",
+      "sceneTitleFr": "La solution commune",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 7 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى.",
+      "narrationEn": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 9-7. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps.",
+      "narrationFr": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 9-7. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 40,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 9.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-09.svg"
+    },
+    {
+      "sceneNumber": 10,
+      "sceneTitle": "عودة مختلفة",
+      "sceneTitleEn": "A Different Return",
+      "sceneTitleFr": "Un retour différent",
+      "setting": "مدينة الدراجات",
+      "visualDescription": "مشهد أصلي في مدينة الدراجات يركّز على طائرة شراعية صغيرة وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه. مع كل خطوة كان سلمى يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مدينة الدراجات بدأ سلمى يلاحظ أن التفاصيل الصغيرة في طائرة شراعية صغيرة قد تكون أهم مما تبدو عليه.",
+      "narrationEn": "With each step, Salma understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In the Bicycle City, Salma began to notice that small details around the small glider mattered more than they first appeared — clue 10-7. With each step, Salma understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns.",
+      "narrationFr": "À chaque étape, Salma comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À la Cité des vélos, Salma remarqua que les petits détails autour de petit planeur comptaient davantage qu’ils n’en avaient l’air — détail 10-7. À chaque étape, Salma comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend.",
+      "dialogue": [
+        {
+          "speaker": "سلمى",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في طائرة شراعية صغيرة."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-005-a",
+        "char-005-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 41,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original pastel-chibi-anime scene, the Bicycle City, small glider, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 10.",
+      "illustration": "assets/children-animated/scenes/animated-story-005/scene-10.svg"
+    }
+  ],
+  "cover": {
+    "path": "assets/children-animated/covers/animated-story-005.svg",
+    "altAr": "سلمى وطائرة شراعية صغيرة في مدينة الدراجات",
+    "altEn": "Salma and the Small Glider at The Bicycle City",
+    "altFr": "Salma et Petit planeur à la Cité des vélos",
+    "format": "svg",
+    "palette": [
+      "#F8E8EC",
+      "#E7F3EF",
+      "#FFF4D6",
+      "#CFE4F5"
+    ]
+  },
+  "estimatedReadingMinutes": 5,
+  "estimatedAnimationMinutes": 6.1,
+  "listenMode": "browser-tts",
+  "watchMode": "animated-storyboard",
+  "capabilities": {
+    "read": true,
+    "listen": true,
+    "watch": true
+  },
+  "lifecycleStatus": "READY",
+  "publicationStatus": "READY"
+}

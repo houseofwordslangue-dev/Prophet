@@ -1,0 +1,509 @@
+{
+  "id": "animated-story-014",
+  "slug": "animated-story-014-green-hourglass",
+  "titleAr": "مالك وساعة الرمل الخضراء في مركز العلوم العائم",
+  "titleEn": "Malik and the Green Hourglass at A Floating Science Center",
+  "titleFr": "Malik et Sablier vert à un centre scientifique flottant",
+  "ageGroup": "5-7",
+  "readingLevel": "beginner",
+  "category": "patience",
+  "categoryAr": "الصبر",
+  "secondaryTags": [
+    "leadership",
+    "mystery",
+    "science"
+  ],
+  "visualStyle": "soft-illustrated-animation",
+  "fictional": true,
+  "historicalClaim": false,
+  "synopsisAr": "في مركز العلوم العائم يواجه مالك وأصدقاؤه موقفًا يبدأ حين مكان طبيعي مهدد بسبب إهمال متكرر. تقودهم ملاحظات مرتبطة بـساعة الرمل الخضراء إلى سلسلة من المحاولات والقرارات التي تختبر الصبر بطريقة عملية.",
+  "synopsisEn": "In a floating science center, Malik and friends face a situation in which a natural place is threatened by repeated neglect. Clues connected to the green hourglass lead them through decisions that test patience in practice.",
+  "synopsisFr": "À un centre scientifique flottant, Malik et ses amis affrontent une situation où un lieu naturel est menacé par des négligences répétées. Des indices liés à sablier vert les conduisent à des décisions qui mettent en pratique la valeur de الصبر.",
+  "moralAr": "الصبر يصبح قيمة حقيقية حين يظهر في قرار عملي يحترم الآخرين والواقع.",
+  "moralEn": "Patience becomes meaningful when it appears in practical choices that respect people and facts.",
+  "moralFr": "La valeur de الصبر prend tout son sens lorsqu’elle guide des choix concrets et respectueux.",
+  "characters": [
+    {
+      "characterId": "char-014-a",
+      "name": "مالك",
+      "age": 6,
+      "role": "protagonist",
+      "personality": "ملاحظ، فضولي، يتعلم من الخطأ",
+      "strengths": [
+        "observation",
+        "empathy"
+      ],
+      "weakness": "يتعجل أحيانًا",
+      "appearanceDescription": "ملامح طفولية خيالية أصلية وشعر بسيط وتعبير واضح",
+      "clothingDescription": "ملابس يومية بسيطة بألوان فاتحة بلا شعارات",
+      "consistencyPrompt": "Original fictional youth Malik, age 6, simple contemporary clothes, consistent hairstyle, neutral cultural styling, no franchise resemblance."
+    },
+    {
+      "characterId": "char-014-b",
+      "name": "رنا",
+      "age": 7,
+      "role": "friend",
+      "personality": "هادئ، عملي، يحب العمل الجماعي",
+      "strengths": [
+        "communication",
+        "planning"
+      ],
+      "weakness": "يتردد قبل التجربة",
+      "appearanceDescription": "شخصية خيالية أصلية مختلفة في الهيئة والتسريحة",
+      "clothingDescription": "ملابس عملية مريحة بلا علامات تجارية",
+      "consistencyPrompt": "Original fictional young teammate, distinct silhouette, neutral everyday clothes, consistent facial design, no copyrighted character resemblance."
+    }
+  ],
+  "storyAr": [
+    {
+      "sceneNumber": 1,
+      "text": "كان مالك يجهز معرضًا صغيرًا للأصوات عندما التقط جهاز التسجيل نغمة متقطعة تأتي من سقف المكتبة، فترك كل توقعاته جانبًا وبدأ بقياس الفواصل بين النغمات. كان مالك يجهز معرضًا صغيرًا للأصوات عندما التقط جهاز التسجيل نغمة متقطعة تأتي من سقف المكتبة، فترك كل توقعاته جانبًا وبدأ بقياس الفواصل بين النغمات (2). كان مالك يجهز معرضًا صغيرًا للأصوات عندما التقط جهاز التسجيل نغمة متقطعة تأتي من سقف المكتبة، فترك كل توقعاته جانبًا وبدأ بقياس الفواصل بين النغمات (3)."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة. قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة (2). قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة (3). قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة (4)."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "بدل أن يصعد وحده، رسم خطة آمنة وطلب من أمينة المكتبة سلّمًا مناسبًا، ثم وزع على أصدقائه مهام المراقبة والتدوين. بدل أن يصعد وحده، رسم خطة آمنة وطلب من أمينة المكتبة سلّمًا مناسبًا، ثم وزع على أصدقائه مهام المراقبة والتدوين (2). بدل أن يصعد وحده، رسم خطة آمنة وطلب من أمينة المكتبة سلّمًا مناسبًا، ثم وزع على أصدقائه مهام المراقبة والتدوين (3)."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "ظهر أن طائرًا صغيرًا بنى عشه قرب صندوق قديم، وأن المفتاح الأزرق كان يرن كلما حرك الهواء الخيط؛ فاختاروا حماية العش وإعادة ترتيب المعرض. ظهر أن طائرًا صغيرًا بنى عشه قرب صندوق قديم، وأن المفتاح الأزرق كان يرن كلما حرك الهواء الخيط؛ فاختاروا حماية العش وإعادة ترتيب المعرض (2). ظهر أن طائرًا صغيرًا بنى عشه قرب صندوق قديم، وأن المفتاح الأزرق كان يرن كلما حرك الهواء الخيط؛ فاختاروا حماية العش وإعادة ترتيب المعرض (3)."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، وكانت الملاحظة رقم 16 مختلفة قليلًا، لذلك اختار مالك أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى الصبر في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 16 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "مع كل خطوة كان مالك يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ مالك يلاحظ أن التفاصيل الصغيرة في ساعة الرمل الخضراء قد تكون أهم مما تبدو عليه. مع كل خطوة كان مالك يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ مالك يلاحظ أن التفاصيل الصغيرة في ساعة الرمل الخضراء قد تكون أهم مما تبدو عليه."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 16 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح."
+    }
+  ],
+  "storyEn": [
+    {
+      "sceneNumber": 1,
+      "text": "Malik was preparing a small exhibition about sound when his recorder captured an irregular tone above the library ceiling, so he stopped guessing and measured the pauses between notes. Malik was preparing a small exhibition about sound when his recorder captured an irregular tone above the library ceiling, so he stopped guessing and measured the pauses between notes (2). Malik was preparing a small exhibition about sound when his recorder captured an irregular tone above the library ceiling, so he stopped guessing and measured the pauses between notes (3)."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "The pattern led him toward an old ventilation pipe, where he noticed a blue feather and a strip of wrapping paper trembling beside a narrow opening. The pattern led him toward an old ventilation pipe, where he noticed a blue feather and a strip of wrapping paper trembling beside a narrow opening (2). The pattern led him toward an old ventilation pipe, where he noticed a blue feather and a strip of wrapping paper trembling beside a narrow opening (3)."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "Instead of climbing alone, Malik drew a safe access plan, asked the librarian for the proper ladder, and assigned his friends to observe, record, and keep the area clear. Instead of climbing alone, Malik drew a safe access plan, asked the librarian for the proper ladder, and assigned his friends to observe, record, and keep the area clear (2). Instead of climbing alone, Malik drew a safe access plan, asked the librarian for the proper ladder, and assigned his friends to observe, record, and keep the area clear (3)."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "They learned that a small bird had nested beside an old box and that the blue key chimed whenever moving air pulled the paper; they protected the nest and redesigned the exhibition. They learned that a small bird had nested beside an old box and that the blue key chimed whenever moving air pulled the paper; they protected the nest and redesigned the exhibition (2)."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Malik kept one note: better decisions combine courage, listening, patience, and responsibility — clue 5-16. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Malik kept one note: better decisions combine courage, listening, patience, and responsibility."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Malik chose to ask before judging and to test ideas before giving up — clue 6-16. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of patience appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 7-16. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 8-16. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "With each step, Malik understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Malik began to notice that small details around the green hourglass mattered more than they first appeared — clue 9-16. With each step, Malik understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "Malik kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 10-16. The friends laughed at the confusion, then returned with a clearer plan. Malik kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan."
+    }
+  ],
+  "storyFr": [
+    {
+      "sceneNumber": 1,
+      "text": "Malik préparait une petite exposition sur les sons lorsque son enregistreur capta une note irrégulière au-dessus du plafond de la bibliothèque; il mesura alors les silences entre les sons. Malik préparait une petite exposition sur les sons lorsque son enregistreur capta une note irrégulière au-dessus du plafond de la bibliothèque; il mesura alors les silences entre les sons (2). Malik préparait une petite exposition sur les sons lorsque son enregistreur capta une note irrégulière au-dessus du plafond de la bibliothèque; il mesura alors les silences entre les sons (3)."
+    },
+    {
+      "sceneNumber": 2,
+      "text": "Le motif le conduisit vers un ancien conduit d’aération où une plume bleue et un ruban de papier bougeaient près d’une ouverture étroite. Le motif le conduisit vers un ancien conduit d’aération où une plume bleue et un ruban de papier bougeaient près d’une ouverture étroite (2). Le motif le conduisit vers un ancien conduit d’aération où une plume bleue et un ruban de papier bougeaient près d’une ouverture étroite (3)."
+    },
+    {
+      "sceneNumber": 3,
+      "text": "Plutôt que de grimper seul, Malik prépara un accès sûr, demanda une échelle adaptée et répartit les tâches d’observation entre ses amis. Plutôt que de grimper seul, Malik prépara un accès sûr, demanda une échelle adaptée et répartit les tâches d’observation entre ses amis (2). Plutôt que de grimper seul, Malik prépara un accès sûr, demanda une échelle adaptée et répartit les tâches d’observation entre ses amis (3)."
+    },
+    {
+      "sceneNumber": 4,
+      "text": "Ils découvrirent un petit nid près d’une vieille boîte; la clé bleue tintait lorsque l’air tirait sur le ruban, et l’équipe choisit de protéger le nid. Ils découvrirent un petit nid près d’une vieille boîte; la clé bleue tintait lorsque l’air tirait sur le ruban, et l’équipe choisit de protéger le nid (2). Ils découvrirent un petit nid près d’une vieille boîte; la clé bleue tintait lorsque l’air tirait sur le ruban, et l’équipe choisit de protéger le nid (3)."
+    },
+    {
+      "sceneNumber": 5,
+      "text": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 5-16. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité."
+    },
+    {
+      "sceneNumber": 6,
+      "text": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Malik décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 6-16. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits."
+    },
+    {
+      "sceneNumber": 7,
+      "text": "Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de patience apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 7-16. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne."
+    },
+    {
+      "sceneNumber": 8,
+      "text": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 8-16. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables."
+    },
+    {
+      "sceneNumber": 9,
+      "text": "À chaque étape, Malik comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Malik remarqua que les petits détails autour de sablier vert comptaient davantage qu’ils n’en avaient l’air — détail 9-16. À chaque étape, Malik comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend."
+    },
+    {
+      "sceneNumber": 10,
+      "text": "Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 10-16. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair."
+    }
+  ],
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "sceneTitle": "بداية غير عادية",
+      "sceneTitleEn": "An Unusual Beginning",
+      "sceneTitleFr": "Un début inhabituel",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني. تكوين خاص بالقصة 14 والمشهد 1.",
+      "narration": "كان مالك يجهز معرضًا صغيرًا للأصوات عندما التقط جهاز التسجيل نغمة متقطعة تأتي من سقف المكتبة، فترك كل توقعاته جانبًا وبدأ بقياس الفواصل بين النغمات. كان مالك يجهز معرضًا صغيرًا للأصوات عندما التقط جهاز التسجيل نغمة متقطعة تأتي من سقف المكتبة، فترك كل توقعاته جانبًا وبدأ بقياس الفواصل بين النغمات (2). كان مالك يجهز معرضًا صغيرًا للأصوات عندما التقط جهاز التسجيل نغمة متقطعة تأتي من سقف المكتبة، فترك كل توقعاته جانبًا وبدأ بقياس الفواصل بين النغمات (3).",
+      "narrationEn": "Malik was preparing a small exhibition about sound when his recorder captured an irregular tone above the library ceiling, so he stopped guessing and measured the pauses between notes. Malik was preparing a small exhibition about sound when his recorder captured an irregular tone above the library ceiling, so he stopped guessing and measured the pauses between notes (2). Malik was preparing a small exhibition about sound when his recorder captured an irregular tone above the library ceiling, so he stopped guessing and measured the pauses between notes (3).",
+      "narrationFr": "Malik préparait une petite exposition sur les sons lorsque son enregistreur capta une note irrégulière au-dessus du plafond de la bibliothèque; il mesura alors les silences entre les sons. Malik préparait une petite exposition sur les sons lorsque son enregistreur capta une note irrégulière au-dessus du plafond de la bibliothèque; il mesura alors les silences entre les sons (2). Malik préparait une petite exposition sur les sons lorsque son enregistreur capta une note irrégulière au-dessus du plafond de la bibliothèque; il mesura alors les silences entre les sons (3).",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 41,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 1. Distinct episode composition 14-1; avoid reusable staging.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-01.svg"
+    },
+    {
+      "sceneNumber": 2,
+      "sceneTitle": "الإشارة الأولى",
+      "sceneTitleEn": "The First Signal",
+      "sceneTitleFr": "Le premier signal",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني. تكوين خاص بالقصة 14 والمشهد 2.",
+      "narration": "قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة. قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة (2). قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة (3). قادته النغمة إلى أنبوب تهوية قديم، وهناك وجد ريشة زرقاء وخيطًا من ورق التغليف عالقين قرب فتحة ضيقة (4).",
+      "narrationEn": "The pattern led him toward an old ventilation pipe, where he noticed a blue feather and a strip of wrapping paper trembling beside a narrow opening. The pattern led him toward an old ventilation pipe, where he noticed a blue feather and a strip of wrapping paper trembling beside a narrow opening (2). The pattern led him toward an old ventilation pipe, where he noticed a blue feather and a strip of wrapping paper trembling beside a narrow opening (3).",
+      "narrationFr": "Le motif le conduisit vers un ancien conduit d’aération où une plume bleue et un ruban de papier bougeaient près d’une ouverture étroite. Le motif le conduisit vers un ancien conduit d’aération où une plume bleue et un ruban de papier bougeaient près d’une ouverture étroite (2). Le motif le conduisit vers un ancien conduit d’aération où une plume bleue et un ruban de papier bougeaient près d’une ouverture étroite (3).",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 42,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 2. Distinct episode composition 14-2; avoid reusable staging.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-02.svg"
+    },
+    {
+      "sceneNumber": 3,
+      "sceneTitle": "قرار صغير",
+      "sceneTitleEn": "A Small Decision",
+      "sceneTitleFr": "Une petite décision",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني. تكوين خاص بالقصة 14 والمشهد 3.",
+      "narration": "بدل أن يصعد وحده، رسم خطة آمنة وطلب من أمينة المكتبة سلّمًا مناسبًا، ثم وزع على أصدقائه مهام المراقبة والتدوين. بدل أن يصعد وحده، رسم خطة آمنة وطلب من أمينة المكتبة سلّمًا مناسبًا، ثم وزع على أصدقائه مهام المراقبة والتدوين (2). بدل أن يصعد وحده، رسم خطة آمنة وطلب من أمينة المكتبة سلّمًا مناسبًا، ثم وزع على أصدقائه مهام المراقبة والتدوين (3).",
+      "narrationEn": "Instead of climbing alone, Malik drew a safe access plan, asked the librarian for the proper ladder, and assigned his friends to observe, record, and keep the area clear. Instead of climbing alone, Malik drew a safe access plan, asked the librarian for the proper ladder, and assigned his friends to observe, record, and keep the area clear (2). Instead of climbing alone, Malik drew a safe access plan, asked the librarian for the proper ladder, and assigned his friends to observe, record, and keep the area clear (3).",
+      "narrationFr": "Plutôt que de grimper seul, Malik prépara un accès sûr, demanda une échelle adaptée et répartit les tâches d’observation entre ses amis. Plutôt que de grimper seul, Malik prépara un accès sûr, demanda une échelle adaptée et répartit les tâches d’observation entre ses amis (2). Plutôt que de grimper seul, Malik prépara un accès sûr, demanda une échelle adaptée et répartit les tâches d’observation entre ses amis (3).",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 43,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 3. Distinct episode composition 14-3; avoid reusable staging.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-03.svg"
+    },
+    {
+      "sceneNumber": 4,
+      "sceneTitle": "المحاولة الأولى",
+      "sceneTitleEn": "The First Attempt",
+      "sceneTitleFr": "La première tentative",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني. تكوين خاص بالقصة 14 والمشهد 4.",
+      "narration": "ظهر أن طائرًا صغيرًا بنى عشه قرب صندوق قديم، وأن المفتاح الأزرق كان يرن كلما حرك الهواء الخيط؛ فاختاروا حماية العش وإعادة ترتيب المعرض. ظهر أن طائرًا صغيرًا بنى عشه قرب صندوق قديم، وأن المفتاح الأزرق كان يرن كلما حرك الهواء الخيط؛ فاختاروا حماية العش وإعادة ترتيب المعرض (2). ظهر أن طائرًا صغيرًا بنى عشه قرب صندوق قديم، وأن المفتاح الأزرق كان يرن كلما حرك الهواء الخيط؛ فاختاروا حماية العش وإعادة ترتيب المعرض (3).",
+      "narrationEn": "They learned that a small bird had nested beside an old box and that the blue key chimed whenever moving air pulled the paper; they protected the nest and redesigned the exhibition. They learned that a small bird had nested beside an old box and that the blue key chimed whenever moving air pulled the paper; they protected the nest and redesigned the exhibition (2).",
+      "narrationFr": "Ils découvrirent un petit nid près d’une vieille boîte; la clé bleue tintait lorsque l’air tirait sur le ruban, et l’équipe choisit de protéger le nid. Ils découvrirent un petit nid près d’une vieille boîte; la clé bleue tintait lorsque l’air tirait sur le ruban, et l’équipe choisit de protéger le nid (2). Ils découvrirent un petit nid près d’une vieille boîte; la clé bleue tintait lorsque l’air tirait sur le ruban, et l’équipe choisit de protéger le nid (3).",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 26,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 4. Distinct episode composition 14-4; avoid reusable staging.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-04.svg"
+    },
+    {
+      "sceneNumber": 5,
+      "sceneTitle": "ما لم يتوقعوه",
+      "sceneTitleEn": "What They Did Not Expect",
+      "sceneTitleFr": "Ce qu’ils n’avaient pas prévu",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية.",
+      "narrationEn": "The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Malik kept one note: better decisions combine courage, listening, patience, and responsibility — clue 5-16. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan. Malik kept one note: better decisions combine courage, listening, patience, and responsibility.",
+      "narrationFr": "La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité — détail 5-16. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité.",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 27,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 5.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-05.svg"
+    },
+    {
+      "sceneNumber": 6,
+      "sceneTitle": "اختبار الفريق",
+      "sceneTitleEn": "The Team Test",
+      "sceneTitleFr": "L’épreuve de l’équipe",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها. كان التحدي الحقيقي هو مكان طبيعي مهدد بسبب إهمال متكرر، وكانت الملاحظة رقم 16 مختلفة قليلًا، لذلك اختار مالك أن يسأل قبل أن يحكم وأن يجرّب قبل أن يستسلم. حين ارتفع التوتر اقترح أحدهم دقيقة هدوء. بعد ذلك بدت المشكلة أصغر، لأن الجميع صار يصفها بالكلمات نفسها.",
+      "narrationEn": "When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts. The real challenge was that a natural place is threatened by repeated neglect, so Malik chose to ask before judging and to test ideas before giving up — clue 6-16. When tension rose, someone suggested one quiet minute. Afterward the problem seemed smaller because everyone was describing the same facts.",
+      "narrationFr": "Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits. Le vrai défi était que un lieu naturel est menacé par des négligences répétées; Malik décida donc de questionner avant de juger et d’essayer avant d’abandonner — détail 6-16. Quand la tension monta, quelqu’un proposa une minute de calme. Ensuite, le problème sembla plus petit car tous décrivaient les mêmes faits.",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 28,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 6.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-06.svg"
+    },
+    {
+      "sceneNumber": 7,
+      "sceneTitle": "الطريق الأصعب",
+      "sceneTitleEn": "The Harder Path",
+      "sceneTitleFr": "Le chemin le plus difficile",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي. ظهر معنى الصبر في تصرف عملي لا في شعار؛ استمع كل شخص إلى الآخر وترك مساحة لفكرة لم تكن فكرته. عاد الفريق إلى مركز العلوم العائم وهو يرى المكان نفسه بصورة جديدة؛ فقد صار مرتبطًا بدرس يمكن استعماله في يوم عادي.",
+      "narrationEn": "The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life. The value of patience appeared through action rather than slogans: everyone listened and made room for an idea that was not their own — clue 7-16. The group returned to a floating science center seeing the same place differently because it now carried a lesson they could use in ordinary life.",
+      "narrationFr": "Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne. La valeur de patience apparut dans les actes: chacun écouta les autres et laissa de la place à une idée qui n’était pas la sienne — détail 7-16. Le groupe revint à un centre scientifique flottant avec un regard nouveau, car le lieu portait désormais une leçon utile pour la vie quotidienne.",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "warm",
+      "durationSeconds": 29,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 7.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-07.svg"
+    },
+    {
+      "sceneNumber": 8,
+      "sceneTitle": "لحظة الفهم",
+      "sceneTitleEn": "The Moment of Understanding",
+      "sceneTitleFr": "Le moment de comprendre",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى. في نهاية المشهد لم يكن الانتصار في الوصول فقط، وكانت الملاحظة رقم 16 مختلفة قليلًا، بل في الطريقة التي حافظ بها الأصدقاء على الثقة وهم يختلفون. تغيّر النقاش عندما كتب الفريق ما يعرفه وما لا يعرفه، ثم قسم المشكلة إلى خطوات يمكن فحصها واحدة بعد أخرى.",
+      "narrationEn": "The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps. By the end of the scene, success was not only reaching the goal but protecting trust while people disagreed — clue 8-16. The conversation changed when the team wrote down what they knew and what they did not know, then divided the problem into steps.",
+      "narrationFr": "La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables. À la fin de la scène, la réussite ne consistait pas seulement à atteindre le but mais à préserver la confiance malgré les désaccords — détail 8-16. La discussion changea lorsque l’équipe écrivit ce qu’elle savait et ce qu’elle ignorait, puis découpa le problème en étapes vérifiables.",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "curious",
+      "durationSeconds": 30,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 8.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-08.svg"
+    },
+    {
+      "sceneNumber": 9,
+      "sceneTitle": "الحل المشترك",
+      "sceneTitleEn": "The Shared Solution",
+      "sceneTitleFr": "La solution commune",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "مع كل خطوة كان مالك يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ مالك يلاحظ أن التفاصيل الصغيرة في ساعة الرمل الخضراء قد تكون أهم مما تبدو عليه. مع كل خطوة كان مالك يفهم أن الحل الجيد لا يحتاج إلى أسرع شخص بل إلى فريق يلاحظ ويصحح ويتعلم. في مركز العلوم العائم بدأ مالك يلاحظ أن التفاصيل الصغيرة في ساعة الرمل الخضراء قد تكون أهم مما تبدو عليه.",
+      "narrationEn": "With each step, Malik understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns. In a floating science center, Malik began to notice that small details around the green hourglass mattered more than they first appeared — clue 9-16. With each step, Malik understood that a good solution does not need the fastest person; it needs a team that observes, corrects, and learns.",
+      "narrationFr": "À chaque étape, Malik comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend. À un centre scientifique flottant, Malik remarqua que les petits détails autour de sablier vert comptaient davantage qu’ils n’en avaient l’air — détail 9-16. À chaque étape, Malik comprit qu’une bonne solution n’exige pas la personne la plus rapide mais une équipe qui observe, corrige et apprend.",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "hopeful",
+      "durationSeconds": 31,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 9.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-09.svg"
+    },
+    {
+      "sceneNumber": 10,
+      "sceneTitle": "عودة مختلفة",
+      "sceneTitleEn": "A Different Return",
+      "sceneTitleFr": "Un retour différent",
+      "setting": "مركز العلوم العائم",
+      "visualDescription": "مشهد أصلي في مركز العلوم العائم يركّز على ساعة الرمل الخضراء وشخصيات فتيّة خيالية بتكوين مريح وغير عدواني.",
+      "narration": "احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، وكانت الملاحظة رقم 16 مختلفة قليلًا، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح. احتفظ مالك بملاحظة صغيرة في دفتره: القرارات الأفضل تأتي عندما نجمع الشجاعة مع الإصغاء والمسؤولية. لم تنجح المحاولة الأولى، لكنها كشفت معلومة جديدة. ضحك الأصدقاء من ارتباكهم قليلًا ثم عادوا إلى العمل بخطة أوضح.",
+      "narrationEn": "Malik kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue — clue 10-16. The friends laughed at the confusion, then returned with a clearer plan. Malik kept one note: better decisions combine courage, listening, patience, and responsibility. The first attempt failed, but it revealed a useful clue. The friends laughed at the confusion, then returned with a clearer plan.",
+      "narrationFr": "Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile — détail 10-16. Les amis rirent de leur confusion puis reprirent avec un plan plus clair. Malik nota ceci: les meilleures décisions réunissent courage, écoute, patience et responsabilité. La première tentative échoua, mais elle révéla un indice utile. Les amis rirent de leur confusion puis reprirent avec un plan plus clair.",
+      "dialogue": [
+        {
+          "speaker": "مالك",
+          "text": "لنجرّب خطوة أخرى؛ ربما تكشف لنا ما فاتنا في ساعة الرمل الخضراء."
+        },
+        {
+          "speaker": "صديق",
+          "text": "نتفق أولًا على ما نعرفه، ثم نختبر الفكرة بهدوء."
+        }
+      ],
+      "charactersPresent": [
+        "char-014-a",
+        "char-014-b"
+      ],
+      "emotionalTone": "focused",
+      "durationSeconds": 32,
+      "animationInstructions": "Slow pan, gentle depth parallax, character entrance, ambient particles, subtitle cue, soft crossfade; reduce motion when prefers-reduced-motion is enabled.",
+      "illustrationPrompt": "Original soft-illustrated-animation scene, a floating science center, green hourglass, two culturally neutral young fictional characters, expressive but non-franchise design, light readable palette, no logos, no sacred or historical figures, scene 10.",
+      "illustration": "assets/children-animated/scenes/animated-story-014/scene-10.svg"
+    }
+  ],
+  "cover": {
+    "path": "assets/children-animated/covers/animated-story-014.svg",
+    "altAr": "مالك وساعة الرمل الخضراء في مركز العلوم العائم",
+    "altEn": "Malik and the Green Hourglass at A Floating Science Center",
+    "altFr": "Malik et Sablier vert à un centre scientifique flottant",
+    "format": "svg",
+    "palette": [
+      "#F0E9F8",
+      "#F8E8D9",
+      "#E9F5E5",
+      "#FFF4D6"
+    ]
+  },
+  "estimatedReadingMinutes": 5,
+  "estimatedAnimationMinutes": 5.5,
+  "listenMode": "browser-tts",
+  "watchMode": "animated-storyboard",
+  "capabilities": {
+    "read": true,
+    "listen": true,
+    "watch": true
+  },
+  "lifecycleStatus": "READY",
+  "publicationStatus": "READY"
+}
