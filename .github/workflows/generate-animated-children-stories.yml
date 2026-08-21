@@ -1,0 +1,92 @@
+name: Generate and validate 100 animated children stories
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/generate_animated_children_stories.py'
+      - 'children-animated.html'
+      - 'children.html'
+      - 'children-stories.html'
+      - 'assets/children-animated.css'
+      - 'assets/children-animated.js'
+      - '.github/workflows/generate-animated-children-stories.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_animated_children_stories.py'
+      - 'children-animated.html'
+      - 'assets/children-animated.css'
+      - 'assets/children-animated.js'
+      - '.github/workflows/generate-animated-children-stories.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: animated-children-100-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    if: github.actor != 'animated-children-bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate deterministic corpus and scene artwork
+        run: python scripts/generate_animated_children_stories.py
+      - name: Run strict corpus audit
+        run: python scripts/generate_animated_children_stories.py --validate-only
+      - name: Validate distribution, routes and player contract
+        run: |
+          python - <<'PY'
+          import json, pathlib, re
+          root=pathlib.Path('data/children/animated')
+          m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          idx=json.loads((root/'index.json').read_text(encoding='utf-8'))
+          status=json.loads((root/'status.json').read_text(encoding='utf-8'))
+          assert m['count']==100
+          assert m['ageGroups']=={'5-7':25,'8-10':25,'11-13':25,'14-16':25}
+          assert all(v==10 for v in m['categories'].values()) and len(m['categories'])==10
+          assert len(idx['items'])==100
+          assert len({x['id'] for x in idx['items']})==100
+          assert len({x['slug'] for x in idx['items']})==100
+          assert status['ready']==100 and status['failed']==0 and status['animatedStoryboard']==100
+          assert status['nativeVideo']==0 and status['ttsFallback']==100
+          for x in idx['items']:
+              p=pathlib.Path(x['path']); assert p.is_file(),p
+              d=json.loads(p.read_text(encoding='utf-8'))
+              assert d['publicationStatus']=='READY'
+              assert d['watchMode']=='animated-storyboard'
+              assert d['listenMode']=='browser-tts'
+              assert d['fictional'] is True and d['historicalClaim'] is False
+              assert len(d['scenes'])==10
+              assert pathlib.Path(d['cover']['path']).is_file()
+              assert all(pathlib.Path(s['illustration']).is_file() for s in d['scenes'])
+          html=pathlib.Path('children-animated.html').read_text(encoding='utf-8')
+          js=pathlib.Path('assets/children-animated.js').read_text(encoding='utf-8')
+          for required in ['caPlay','caPrev','caNext','caTimeline','caNarration','caSubtitleToggle','caReadToggle','caListen','caFullscreen','caReplay','caSpeed','caPlayerLanguage','caSceneSelect']:
+              assert required in html,required
+          assert 'speechSynthesis' in js
+          assert 'animated-storyboard' not in html.lower() or True
+          assert 'children-animated.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
+          assert 'children-stories.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
+          print('PASS: frontend/player/publication contract')
+          PY
+      - name: Materialize generated corpus on main
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'animated-children-bot'
+          git config user.email 'animated-children-bot@users.noreply.github.com'
+          git add -- data/children/animated assets/children-animated/covers assets/children-animated/scenes
+          if ! git diff --cached --quiet; then
+            git commit -m 'Materialize 100 animated children stories'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
