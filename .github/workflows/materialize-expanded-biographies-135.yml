@@ -32,7 +32,7 @@ jobs:
           import json
           from pathlib import Path
           a=json.loads(Path('data/editorial/expanded_biographies_135_local_audit.json').read_text(encoding='utf-8'))
-          assert a['target']==135 and a['imported']==135 and a['uniqueIds']==135
+          assert a['target']==135 and a['imported']==135 and a['uniqueIds']==135 and a['uniqueNames']==135
           assert a['minimumWords']>=120 and a['sourceCoveragePercent']==100
           assert a['aiOriginalSubstantiveContentPercent']==0
           assert a['runtimeExternalFetchRequired'] is False
@@ -45,6 +45,7 @@ jobs:
         with:
           name: expanded-biographies-135-local
           path: |
+            data/expanded_people_135.json
             data/expanded_biographies_135_full.json
             data/editorial/expanded_biographies_135_local_audit.json
       - name: Commit full biography corpus
@@ -52,7 +53,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/expanded_biographies_135_full.json data/editorial/expanded_biographies_135_local_audit.json
+          git add data/expanded_people_135.json data/expanded_biographies_135_full.json data/editorial/expanded_biographies_135_local_audit.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Import full 135 expanded biographies into GitHub'
           git push origin HEAD:main
