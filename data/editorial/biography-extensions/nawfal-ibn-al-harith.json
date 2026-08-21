@@ -1,0 +1,486 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.670051Z",
+  "personId": "nawfal-ibn-al-harith",
+  "personNameAr": "نوفل بن الحارث",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 7,
+  "passages": [
+    {
+      "text": "نوفل بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن عبد المطلب من والدي النبي محمد ﷺ. تُفرد له الصفحة بوصفه أصلًا مباشرًا في الأسرة النبوية، وتُضم إليها الأخبار الموثقة فقط عند ثبوتها في مصادر المكتبة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن عبد المطلب من الفرع المباشر لعبد المطلب بن هاشم المرتبط بأصل النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر. زيد بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عمرو بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. القاسم بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أبو بكر بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي الأكبر بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي زين العابدين بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جعفر بن الحسين من ذرية الحسين بن علي، سبط ا",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+        "recordId": "20260821-family-life-nawfal-ibn-al-harith-01",
+        "recordTitle": "نوفل بن الحارث — من سيرته وحياته — 1",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-nawfal-ibn-al-harith-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-14h9oza",
+            "slug": "",
+            "recordName": "نوفل بن الحارث"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-abd-al-muttalib",
+            "slug": "abdullah-ibn-abd-al-muttalib",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ur05au",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-17y22ee",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-amina-bint-wahb-001",
+            "sourceFile": "people.json",
+            "recordId": "amina-bint-wahb",
+            "slug": "amina-bint-wahb",
+            "recordName": "آمنة بنت وهب"
+          },
+          {
+            "ref": "ctx-zayd-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-19jdu2f",
+            "slug": "",
+            "recordName": "زيد بن الحسن"
+          },
+          {
+            "ref": "ctx-amr-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1u0sti3",
+            "slug": "",
+            "recordName": "عمرو بن الحسن"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-7a2je",
+            "slug": "",
+            "recordName": "القاسم بن الحسن"
+          }
+        ]
+      },
+      "wordCount": 453
+    },
+    {
+      "text": "نوفل بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. بن علي، سبط النبي ﷺ، في الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي زين العابدين بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جعفر بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. فاطمة بنت الحسين من ذرية الحسن المثنى بن الحسن بن علي، ضمن الفرع الحسني. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. فاطمة بنت الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. سكينة بنت الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. طالب بن أبي طالب من أبناء أبي طالب بن عبد المطلب أو بناته، ومن أقرب أبناء عمومة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عقيل بن أبي طالب من أبناء أبي طالب بن عبد المطلب أو بناته، ومن أقرب أبناء عمومة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جعفر بن أبي طالب من أبناء أبي طالب بن عبد المطلب أو بناته، ومن أقرب أبناء عمومة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الفضل بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُ",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+        "recordId": "20260821-family-life-nawfal-ibn-al-harith-02",
+        "recordTitle": "نوفل بن الحارث — من سيرته وحياته — 2",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-nawfal-ibn-al-harith-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-14h9oza",
+            "slug": "",
+            "recordName": "نوفل بن الحارث"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-abd-al-muttalib",
+            "slug": "abdullah-ibn-abd-al-muttalib",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ur05au",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-17y22ee",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-amina-bint-wahb-001",
+            "sourceFile": "people.json",
+            "recordId": "amina-bint-wahb",
+            "slug": "amina-bint-wahb",
+            "recordName": "آمنة بنت وهب"
+          },
+          {
+            "ref": "ctx-zayd-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-19jdu2f",
+            "slug": "",
+            "recordName": "زيد بن الحسن"
+          },
+          {
+            "ref": "ctx-amr-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1u0sti3",
+            "slug": "",
+            "recordName": "عمرو بن الحسن"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-7a2je",
+            "slug": "",
+            "recordName": "القاسم بن الحسن"
+          }
+        ]
+      },
+      "wordCount": 450
+    },
+    {
+      "text": "نوفل بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أبي طالب من أبناء أبي طالب بن عبد المطلب أو بناته، ومن أقرب أبناء عمومة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جعفر بن أبي طالب من أبناء أبي طالب بن عبد المطلب أو بناته، ومن أقرب أبناء عمومة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الفضل بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبيد الله بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. قثم بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. معبد بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الرحمن بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. تمام بن العباس من أبناء العباس بن عبد المطلب أو بناته، في الفرع العباسي من بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أبو سفيان بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ربيعة بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الحارث من أبناء الحارث بن عبد المطلب أو بنات",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+        "recordId": "20260821-family-life-nawfal-ibn-al-harith-03",
+        "recordTitle": "نوفل بن الحارث — من سيرته وحياته — 3",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-nawfal-ibn-al-harith-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-14h9oza",
+            "slug": "",
+            "recordName": "نوفل بن الحارث"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-abd-al-muttalib",
+            "slug": "abdullah-ibn-abd-al-muttalib",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ur05au",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-17y22ee",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-amina-bint-wahb-001",
+            "sourceFile": "people.json",
+            "recordId": "amina-bint-wahb",
+            "slug": "amina-bint-wahb",
+            "recordName": "آمنة بنت وهب"
+          },
+          {
+            "ref": "ctx-zayd-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-19jdu2f",
+            "slug": "",
+            "recordName": "زيد بن الحسن"
+          },
+          {
+            "ref": "ctx-amr-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1u0sti3",
+            "slug": "",
+            "recordName": "عمرو بن الحسن"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-7a2je",
+            "slug": "",
+            "recordName": "القاسم بن الحسن"
+          }
+        ]
+      },
+      "wordCount": 452
+    },
+    {
+      "text": "نوفل بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أبو سفيان بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ربيعة بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الحارث من القرابة بالرضاعة أو من أسرة إحدى مرضعات النبي ﷺ، ويُصنف بحسب هذه الصلة لا بحسب النسب الدموي. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الزبير بن عبد المطلب من أبناء الزبير بن عبد المطلب أو بناته، وهو فرع من أبناء عمومة النبي ﷺ. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. ضباعة بنت الزبير من أبناء الزبير بن عبد المطلب أو بناته، وهو فرع من أبناء عمومة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أم الحكم بنت الزبير من أبناء الزبير بن عبد المطلب أو بناته، وهو فرع من أبناء عمومة النبي ﷺ. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. الزبير بن العوام من ذرية صفية بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبيد الله بن جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق وا",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+        "recordId": "20260821-family-life-nawfal-ibn-al-harith-04",
+        "recordTitle": "نوفل بن الحارث — من سيرته وحياته — 4",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-nawfal-ibn-al-harith-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-14h9oza",
+            "slug": "",
+            "recordName": "نوفل بن الحارث"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-abd-al-muttalib",
+            "slug": "abdullah-ibn-abd-al-muttalib",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ur05au",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-17y22ee",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-amina-bint-wahb-001",
+            "sourceFile": "people.json",
+            "recordId": "amina-bint-wahb",
+            "slug": "amina-bint-wahb",
+            "recordName": "آمنة بنت وهب"
+          },
+          {
+            "ref": "ctx-zayd-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-19jdu2f",
+            "slug": "",
+            "recordName": "زيد بن الحسن"
+          },
+          {
+            "ref": "ctx-amr-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1u0sti3",
+            "slug": "",
+            "recordName": "عمرو بن الحسن"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-7a2je",
+            "slug": "",
+            "recordName": "القاسم بن الحسن"
+          }
+        ]
+      },
+      "wordCount": 454
+    },
+    {
+      "text": "نوفل بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. الزبير بن العوام من ذرية صفية بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبيد الله بن جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حمنة بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الزبير من أبناء الزبير بن العوام في فرع صفية بنت عبد المطلب، ولذلك تتصل قرابته بالنبي ﷺ عن طريق عمته صفية. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عروة بن الزبير من أبناء الزبير بن العوام في فرع صفية بنت عبد المطلب، ولذلك تتصل قرابته بالنبي ﷺ عن طريق عمته صفية. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مصعب بن الزبير من أبناء الزبير بن العوام في فرع صفية بنت عبد المطلب، ولذلك تتصل قرابته بالنبي ﷺ عن طريق عمته صفية. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. ثويبة مولاة أبي لهب من القرابة بالرضاعة أو من أسرة إحدى مرضعات النبي ﷺ، ويُصنف بحسب هذه الصلة لا بحسب النسب الدموي. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. حليمة السعدية من أمهات النبي ﷺ من الرضاعة، ولها صفحة مستقلة عن إخوة الرضاعة وأسرتها. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أنيسة بنت الحارث من القرابة بالرضاعة أو من أسرة إحدى مرضعات النبي ﷺ، ويُصنف بحسب هذه الصلة لا بحسب النسب الدموي. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+        "recordId": "20260821-family-life-nawfal-ibn-al-harith-05",
+        "recordTitle": "نوفل بن الحارث — من سيرته وحياته — 5",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-nawfal-ibn-al-harith-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-14h9oza",
+            "slug": "",
+            "recordName": "نوفل بن الحارث"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-abd-al-muttalib",
+            "slug": "abdullah-ibn-abd-al-muttalib",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ur05au",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-17y22ee",
+            "slug": "",
+            "recordName": "عبد الله بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-amina-bint-wahb-001",
+            "sourceFile": "people.json",
+            "recordId": "amina-bint-wahb",
+            "slug": "amina-bint-wahb",
+            "recordName": "آمنة بنت وهب"
+          },
+          {
+            "ref": "ctx-zayd-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-19jdu2f",
+            "slug": "",
+            "recordName": "زيد بن الحسن"
+          },
+          {
+            "ref": "ctx-amr-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1u0sti3",
+            "slug": "",
+            "recordName": "عمرو بن الحسن"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-al-hasan-001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-7a2je",
+            "slug": "",
+            "recordName": "القاسم بن الحسن"
+          }
+        ]
+      },
+      "wordCount": 446
+    },
+    {
+      "text": "عبد الله بن نمير عن محمد بن‏ 186 (1) إسحاق عن يحيى بن عباد بن عبد الله بن الزبير عن أبيه عن عائشة أن النجاشي أهدى إلى رسول الله (ص) حلية فيها خاتم من ذهب فأخذه و إنه لمعرض عنه فأرسل به إلى [ابنة ابنته زينب فقال: تحلي بهذا يا بنية]. قال محمد بن عمر: و كان علي بن أبي طالب قد تزوج أمامة بنت أبي العاص بن الربيع بعد فاطمة بنت رسول الله فقتل عنها و لم تلد له شيئا فخلف عليها المغيرة بن نوفل بن الحارث بن عبد المطلب. أخبرنا محمد بن إسماعيل بن أبي فديك عن ابن أبي ذئب أن أمامة بنت أبي العاص قالت للمغيرة بن نوفل: إن معاوية قد خطبني. فقال لها المغيرة: أ تزوجين ابن آكلة الأكباد؟ فلو جعلت ذلك إلي. قالت: نعم. قال: قد تزوجتك. قال ابن أبي ذئب: فجاز نكاحه. 234/ 8 4167- أم خالد و هي أمة بنت خالد بن سعيد بن العاص بن أمية بن عبد شمس. و أمها همينة",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-03.json",
+        "recordId": "20260821-fatima-source-bio-0143",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0143",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0143-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0185.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "dd9fbca1ed274cf70e7f801fe73e6937eb732901265315ab2826ac0cc1328e30",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0143-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "2",
+            "locator": "OEBPS/Text/2182_0239.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "3315713d0e2bd5ff4acf9f4872cae3c7fda22c23f5d84d09368f570c639ea2ed",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0143-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "12",
+            "locator": "OEBPS/Text/2397_0336.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "9e151d1368e129293577f4c57f9ffc7681fa62beaaa8e7c3054d8c1a98e99549",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0143-source-04",
+            "resourceId": "family-companions-009",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن الشبلنجي",
+            "volume": "",
+            "locator": "64",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-009",
+            "sourceFingerprint": "871573305ecd80025a7b7ecda7cea120553113dbdb01133240127df85aab8cb3",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "تاريخ الإسلام (6/ 56)، و العبر (1/ 256)، و تهذيب الكمال (1322)، و تذهيب التهذيب (1) ورقة (149)، و الكاشف (1/ 232)، و العقد الثمين (4/ 200)، و تهذيب التهذيب (2/ 334). 990 الجرح و التعديل (5/ 155). 252 (1) مالك بن عبد الله بن غفار بن مليل بن ضمرة بن بكر بن عبد مناة بن كنانة. و محمدا الأكبر بن عبد الله و لبابة بنت عبد الله و أمهما فاطمة بنت محمد بن عبيد الله بن العباس بن عبد المطلب. و علي بن عبد الله و رجلا آخر لم يسم لنا و أمهما أم عثمان بنت أبي حدير و هو عياش بن عبدة بن مغيث بن الجد بن العجلان من بلي قضاعة. و طالبا و عونا و عبيد الله لأمهات أولاد و ريطة و هي أم يحيى بن زيد بن علي المقتول بخراسان. و أمها ريطة و هي أم الحارث بنت الحارث بن الحارث بن نوفل بن الحارث بن عبد المطلب. و أم سلمة و أمها أم ولد. كان",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-03.json",
+        "recordId": "20260821-fatima-source-bio-0124",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0124",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0124-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0136.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "25e1c539014c49965b6353c48433bea69bd3dab9754c6dbbae237f421f45b3ae",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0124-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "7",
+            "locator": "OEBPS/Text/2392_0116.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "26cec89e7bdc20db720a5d0ec5112121e403b451f556535b815e5dba43d315eb",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0124-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0063.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "f214f5e0f3f1a02444107550ba751759c536281228f656924bd25cffa570ad9b",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0124-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "5",
+            "locator": "OEBPS/Text/2185_0251.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "e66d1704325f5d9fc2d53ff4cf754b2f449b765e38cb87d1432daac62f24b62a",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

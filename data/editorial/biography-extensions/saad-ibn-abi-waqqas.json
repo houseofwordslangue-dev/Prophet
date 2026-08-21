@@ -1,0 +1,453 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.675891Z",
+  "personId": "saad-ibn-abi-waqqas",
+  "personNameAr": "سعد بن أبي وقاص",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 6,
+  "passages": [
+    {
+      "text": "سعد بن أبي وقاص، واسم أبي وقاص مالك بن أهيب من بني زهرة. كان من السابقين الأولين، وشهد بدرا والحديبية، وكان من أصحاب الشورى، وروى عنه جماعة من الصحابة والتابعين. يَرِد محمد ﷺ في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد الله في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد المطلب، واسمه شيبة في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد هاشم، واسمه عمرو في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد مناف، واسمه المغيرة في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد قصي، واسمه زيد في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد كلاب في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد مرة في سلسل",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-saad-ibn-abi-waqqas-01",
+        "recordTitle": "سعد بن أبي وقاص — من سيرته وحياته — 1",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "classical-anchor-saad-ibn-abi-waqqas",
+            "title": "سير أعلام النبلاء — سعد بن أبي وقاص",
+            "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سعد_بن_أبي_وقاص",
+            "sourceRole": "person-identifying-classical-anchor",
+            "verifiedAgainstClassicalSource": true
+          },
+          {
+            "ref": "family-context-0001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1onk3mb",
+            "slug": "",
+            "recordName": "محمد ﷺ",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ag56db",
+            "slug": "",
+            "recordName": "عبد الله",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-134tqqx",
+            "slug": "",
+            "recordName": "عبد المطلب، واسمه شيبة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0004",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-vqdqjb",
+            "slug": "",
+            "recordName": "هاشم، واسمه عمرو",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0005",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1n1qno4",
+            "slug": "",
+            "recordName": "عبد مناف، واسمه المغيرة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0006",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1mylswr",
+            "slug": "",
+            "recordName": "قصي، واسمه زيد",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0007",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-190js0f",
+            "slug": "",
+            "recordName": "كلاب",
+            "sourceRole": "family-context"
+          }
+        ]
+      },
+      "wordCount": 424
+    },
+    {
+      "text": "سعد بن أبي وقاص، واسم أبي وقاص مالك بن أهيب من بني زهرة. كان من السابقين الأولين، وشهد بدرا والحديبية، وكان من أصحاب الشورى، وروى عنه جماعة من الصحابة والتابعين. للتحقق. قثم بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. صفية بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عاتكة بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أروى بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أميمة بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. برة بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أم حكيم البيضاء بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أبو سفيان بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. نوفل بن الحارث من أبناء الحارث بن عبد المطلب أو بناته، ولذلك يدخل في فرع أبناء عمومة النبي ﷺ من بني هاشم. وقد ظهر الاسم في 1 من موارد Drive ال",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-saad-ibn-abi-waqqas-02",
+        "recordTitle": "سعد بن أبي وقاص — من سيرته وحياته — 2",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "classical-anchor-saad-ibn-abi-waqqas",
+            "title": "سير أعلام النبلاء — سعد بن أبي وقاص",
+            "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سعد_بن_أبي_وقاص",
+            "sourceRole": "person-identifying-classical-anchor",
+            "verifiedAgainstClassicalSource": true
+          },
+          {
+            "ref": "family-context-0001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1onk3mb",
+            "slug": "",
+            "recordName": "محمد ﷺ",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ag56db",
+            "slug": "",
+            "recordName": "عبد الله",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-134tqqx",
+            "slug": "",
+            "recordName": "عبد المطلب، واسمه شيبة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0004",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-vqdqjb",
+            "slug": "",
+            "recordName": "هاشم، واسمه عمرو",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0005",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1n1qno4",
+            "slug": "",
+            "recordName": "عبد مناف، واسمه المغيرة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0006",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1mylswr",
+            "slug": "",
+            "recordName": "قصي، واسمه زيد",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0007",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-190js0f",
+            "slug": "",
+            "recordName": "كلاب",
+            "sourceRole": "family-context"
+          }
+        ]
+      },
+      "wordCount": 446
+    },
+    {
+      "text": "سعد بن أبي وقاص، واسم أبي وقاص مالك بن أهيب من بني زهرة. كان من السابقين الأولين، وشهد بدرا والحديبية، وكان من أصحاب الشورى، وروى عنه جماعة من الصحابة والتابعين. والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عمرو بن زيد النجاري من القرابة المتصلة ببني النجار من جهة سلمى بنت عمرو النجارية، أم عبد المطلب. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. خويلد بن أسد من الأسرة المباشرة لإحدى زوجات النبي ﷺ، ويُعرض في فرعها الخاص لا في قائمة زوجات مختلطة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. فاطمة بنت زائدة من الأسرة المباشرة لإحدى زوجات النبي ﷺ، ويُعرض في فرعها الخاص لا في قائمة زوجات مختلطة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. سودة بنت زمعة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زمعة بن قيس من الأسرة المباشرة لإحدى زوجات النبي ﷺ، ويُعرض في فرعها الخاص لا في قائمة زوجات مختلطة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الشموس بنت قيس من الأسرة المباشرة لإحدى زوجات النبي ﷺ، ويُعرض في فرعها الخاص لا في قائمة زوجات مختلطة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عائشة بنت أبي بكر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أبو بكر عبد الله بن أبي قحافة من الأسرة المباشرة لإحدى زوجات النبي ﷺ، ويُعرض في فرعها الخاص لا في قائمة زوجات مختلطة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم رومان بنت عامر من الأسرة المباشرة لإحدى زوجات النبي ﷺ، ويُعرض في فرعها الخاص لا في قائمة زوجات مختلطة. ولم تُضف الصفحة أخبارًا تف",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-saad-ibn-abi-waqqas-03",
+        "recordTitle": "سعد بن أبي وقاص — من سيرته وحياته — 3",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "classical-anchor-saad-ibn-abi-waqqas",
+            "title": "سير أعلام النبلاء — سعد بن أبي وقاص",
+            "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سعد_بن_أبي_وقاص",
+            "sourceRole": "person-identifying-classical-anchor",
+            "verifiedAgainstClassicalSource": true
+          },
+          {
+            "ref": "family-context-0001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1onk3mb",
+            "slug": "",
+            "recordName": "محمد ﷺ",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ag56db",
+            "slug": "",
+            "recordName": "عبد الله",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-134tqqx",
+            "slug": "",
+            "recordName": "عبد المطلب، واسمه شيبة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0004",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-vqdqjb",
+            "slug": "",
+            "recordName": "هاشم، واسمه عمرو",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0005",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1n1qno4",
+            "slug": "",
+            "recordName": "عبد مناف، واسمه المغيرة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0006",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1mylswr",
+            "slug": "",
+            "recordName": "قصي، واسمه زيد",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0007",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-190js0f",
+            "slug": "",
+            "recordName": "كلاب",
+            "sourceRole": "family-context"
+          }
+        ]
+      },
+      "wordCount": 437
+    },
+    {
+      "text": "سعد بن أبي وقاص، واسم أبي وقاص مالك بن أهيب من بني زهرة. كان من السابقين الأولين، وشهد بدرا والحديبية، وكان من أصحاب الشورى، وروى عنه جماعة من الصحابة والتابعين. زين العابدين بن الحسين، ضمن الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زيد بن علي من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عمر الأشرف من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله الباهر من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. الحسن من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. الحسين الأصغر من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. خديجة من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم من ذرية علي زين العابدين بن الحسين، ضمن الفرع الحسيني. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جعفر الصادق من ذرية محمد الباقر بن علي زين العابدين، ضمن الفرع الحسيني. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله من ذرية محمد الباقر بن علي زين العابدين، ضمن الفرع الحسيني. وقد ظهر الاسم في 5 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم من ذرية محمد الباقر بن علي زين العابدين، ضمن الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبيد الله من ذرية محمد الباقر بن علي زين العابدين، ضمن الفرع الحسيني. وقد ظهر الاسم في 5 من م",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-saad-ibn-abi-waqqas-04",
+        "recordTitle": "سعد بن أبي وقاص — من سيرته وحياته — 4",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "classical-anchor-saad-ibn-abi-waqqas",
+            "title": "سير أعلام النبلاء — سعد بن أبي وقاص",
+            "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سعد_بن_أبي_وقاص",
+            "sourceRole": "person-identifying-classical-anchor",
+            "verifiedAgainstClassicalSource": true
+          },
+          {
+            "ref": "family-context-0001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1onk3mb",
+            "slug": "",
+            "recordName": "محمد ﷺ",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ag56db",
+            "slug": "",
+            "recordName": "عبد الله",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-134tqqx",
+            "slug": "",
+            "recordName": "عبد المطلب، واسمه شيبة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0004",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-vqdqjb",
+            "slug": "",
+            "recordName": "هاشم، واسمه عمرو",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0005",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1n1qno4",
+            "slug": "",
+            "recordName": "عبد مناف، واسمه المغيرة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0006",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1mylswr",
+            "slug": "",
+            "recordName": "قصي، واسمه زيد",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0007",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-190js0f",
+            "slug": "",
+            "recordName": "كلاب",
+            "sourceRole": "family-context"
+          }
+        ]
+      },
+      "wordCount": 431
+    },
+    {
+      "text": "سعد بن أبي وقاص، واسم أبي وقاص مالك بن أهيب من بني زهرة. كان من السابقين الأولين، وشهد بدرا والحديبية، وكان من أصحاب الشورى، وروى عنه جماعة من الصحابة والتابعين. جناب بن كليب بن مالك بن عمرو بن عامر بن النمر بن قاسط. المقوّم بن عبد المطلب أحد أبناء عبد المطلب وعمّ النبي ﷺ. تحفظ كتب الأنساب عنه مادة محدودة، ومن أوضحها ما أورده ابن حزم في جمهرة أنساب العرب في ذكر ولده. ينسب إليه بكر وعبد الله، ثم يذكر ابن حزم خبرا عن عقب بكر وينتهي إلى أن المقوّم لم يبق له عقب ممتد بحسب ذلك السياق النسبي. لا توفر المادة التي تم العثور عليها حتى الآن أحداثا تاريخية مفصلة يمكن بناء سيرة طويلة عليها. لذلك تعرض الصفحة اسمه ونسبه وما حفظ عن ذريته، وتترك ما عدا ذلك مفتوحا لإضافة نصوص موثقة عند العثور عليها في المكتبة. حَجْل بن عبد المطلب من الأسماء التي تحتاج إلى عناية خاصة في كتب النسب بسبب اختلاف الروايات في الاسم واللقب. تذكر بعض المصادر أن حَجْلا اسمه المغيرة، بينما تنقل روايات أخرى كلاما في الغيداق واسمه نوفل، بل يرد أحيانا ما يوحي بتداخل الاسمين في بعض النقل. لهذا لا توحد الصفحة هذه الروايات قسرا. الثابت في التصنيف المستخدم هنا أنه يُذكر ضمن أبناء عبد المطلب ومن ثم ضمن أعمام النبي ﷺ، مع تنبيه القارئ إلى وجود اختلاف في التسمية. لا تُنسب إليه أحداث أو أقوال لمجرد تشابه الاسم في نصوص OCR، وتبقى سيرته قصيرة إلى أن يظهر نص أوضح من corpus المكتبة. قُثَم بن عبد المطلب أحد أبناء عبد المطلب المذكورين في كتب النسب، ومن ثم فهو عمّ للنبي ﷺ في هذا التصنيف الأسري. المادة التي عُثر عليها له قليلة جدا. ينقل البلاذري في أنساب الأشراف خبرا موجزا أنه هلك صغيرا، ويذكر أمه صفية بنت جنيدب. وبسبب وفاته المبكرة لا تحفظ المصادر المتاحة له سيرة أحداث كتلك التي نجدها لإخوته الذين عاشوا إلى زمن البعثة. لذلك تقتصر صفحته على نسبه وخبر وفاته المبكرة وما يثبت من اسم أمه، من غير توسيع إنشائي أو قصص غير مسندة. وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر. قال ابن هشام: فولد عبدالله بن عبدالمطلب: رسول الله ﷺ - سيد ولد آدم، محمد بن عبدالله بن عبدالمطلب، صلوات الله وسلامه ورحمته وبركاته عليه وعلى آله. قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان. يا قوم لا تهتوسوا، أنتم هوس. هذا العلم لا ينفعكم بلا عمل. تحتاجون أن تعملوا بهذا السواد على البياض، وهو حكم الله عزَّ وجلَّ. قال ابن إسحاق: عاد بن عوص، بن إرم، بن سام، بن نوح، وثمود وجديس ابنا عابر، بن إرم، بن سام، بن نوح، وطسم وعملاق وأميم بنو لاوذ، بن سام بن نوح، عرب كلهم. فولد نابت بن إسما",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-saad-ibn-abi-waqqas-05",
+        "recordTitle": "سعد بن أبي وقاص — من سيرته وحياته — 5",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "classical-anchor-saad-ibn-abi-waqqas",
+            "title": "سير أعلام النبلاء — سعد بن أبي وقاص",
+            "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سعد_بن_أبي_وقاص",
+            "sourceRole": "person-identifying-classical-anchor",
+            "verifiedAgainstClassicalSource": true
+          },
+          {
+            "ref": "family-context-0001",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1onk3mb",
+            "slug": "",
+            "recordName": "محمد ﷺ",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1ag56db",
+            "slug": "",
+            "recordName": "عبد الله",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-134tqqx",
+            "slug": "",
+            "recordName": "عبد المطلب، واسمه شيبة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0004",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-vqdqjb",
+            "slug": "",
+            "recordName": "هاشم، واسمه عمرو",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0005",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1n1qno4",
+            "slug": "",
+            "recordName": "عبد مناف، واسمه المغيرة",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0006",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1mylswr",
+            "slug": "",
+            "recordName": "قصي، واسمه زيد",
+            "sourceRole": "family-context"
+          },
+          {
+            "ref": "family-context-0007",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-190js0f",
+            "slug": "",
+            "recordName": "كلاب",
+            "sourceRole": "family-context"
+          }
+        ]
+      },
+      "wordCount": 468
+    },
+    {
+      "text": "و في رواية: لئن لاعنتموه ليخسفنّ بأحد الفريقين. قالوا: فما الرأي يا أبا مريم؟ فقال: رأيي أن أحكمه فإني أرى رجلا لا يحكم شططا أبدا. فقال السّيّد: فإن كنتم قد أبيتم إلا إلف دينكم و الإقامة على ما أنتم عليه من القول في صاحبكم فوادعوا الرجل ثم انصرفوا إلى بلادكم. فلما انقضت المدة أقبل رسول اللّه (صلّى اللّه عليه و سلم) مشتملا على الحسن و الحسين في خميلة له و فاطمة تمشي عند ظهره للملاعنة، و له يومئذ عدة نسوة. فقال (صلّى اللّه عليه و سلم) : «إن أنا دعوت فأمّنوا أنتم». و روى مسلم، و الترمذي، و ابن المنذر، و الحاكم في السنن عن سعد بن أبي وقّاص عن علي بن أحمر قالا : لما نزلت آية المباهلة دعا رسول اللّه (صلّى اللّه عليه و سلم) عليا و فاطمة و حسنا و حسينا، فقال: «اللهم هؤلاء أهل بيتي [ (1)]». انتهى. فتلقّى شرحبيل رسول اللّه (صلّى اللّه عليه و سلم) فقال: إني قد رأيت خيرا من ملاعنتك. فقال: «و",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0004",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0004",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0004-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "2",
+            "locator": "OEBPS/Text/2182_0196.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "ea1e259a38ade71baad82348f87258149cea315f1b28d8ce30451f7d9e8e8d57",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0004-source-02",
+            "resourceId": "family-companions-006",
+            "title": "الرياض النضرة في مناقب العشرة",
+            "author": "محب الدين الطبري",
+            "volume": "",
+            "locator": "455",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-006",
+            "sourceFingerprint": "584375da1cc3b6dc047f8db5e4a6eb806a3577d1bdbaf583182528073de47c79",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0004-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0063.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "f214f5e0f3f1a02444107550ba751759c536281228f656924bd25cffa570ad9b",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0004-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "6",
+            "locator": "OEBPS/Text/2391_0418.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "c9e4d4c92bb2497d54b1fb296ef98c1ec022497e8b3e3f9bd50f06c9fc7ccf0e",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.637105Z",
+  "personId": "al-zubayr-ibn-abd-al-muttalib",
+  "personNameAr": "الزبير بن عبد المطلب",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 5,
+  "passages": [
+    {
+      "text": "الزبير بن عبد المطلب من أعمام النبي ﷺ ومن رجال بني هاشم قبل الإسلام. ترد أخباره في كتب النسب أكثر مما ترد في كتب المغازي المتأخرة، ولذلك تُبنى سيرته هنا على المادة النسبية المحفوظة لا على إعادة إنشاء أحداث لا تسندها المصادر. ينقل ابن حزم في جمهرة أنساب العرب أسماء أولاد نُسبوا إليه، ومنهم الطاهر وحَجْل وقرة وعبد الله، مع خبر يتعلق بعبد الله. وتظهر نتائج البحث في مكتبة Drive اسمه في عدد من النصوص التراثية، إلا أن كثيرا منها OCR غير منضبط؛ لذلك لم تُنقل منها اقتباسات حرفية قبل التحقق. مكانته الأساسية في هذه الصفحة هي كابن لعبد المطلب وعم للنبي ﷺ ورجل من البيت الهاشمي الذي سبق البعثة. الزبير بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحارث بن عبد المطلب أحد أبناء عبد المطلب بن هاشم، ومن ثم فهو عمّ النبي محمد ﷺ من جهة الأب. تحفظ كتب الأنساب والتراجم خبره أساسا في إطار نسب بني هاشم، وتذكر المصادر التي عُثر عليها في المكتبة أنه مات في الجاهلية؛ ولذلك لا تُنسب إليه صحبة ولا أحداث من العهد المدني. وتبقى مادته أقل من مادة إخوته الذين امتدت أخبارهم إلى زمن البعثة. تعرض هذه الصفحة ما ثبت من نسبه وموضعه في أسرة عبد المطلب دون إضافة قصص غير موثقة. الحارث بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أبو طالب بن عبد المطلب، واسمه عبد مناف، عمّ النبي محمد ﷺ ووالد علي وجعفر وعقيل وطالب. بعد وفاة عبد المطلب انتقلت كفالة النبي ﷺ إلى أبي طالب، وتعرض كتب السيرة عنايته به وحمايته له داخل مكة. ومع بدء الدعوة بقي أبو طالب سندا عشائريا قويا لابن أخيه في وجه ضغط قريش، فدافع عنه وحال ما استطاع دون تسليمه إلى خصومه. وتصف المصادر محبته الطبيعية للنبي ﷺ وحنوه عليه وإحسانه إليه ودفاعه عنه. استمرت هذه الحماية خلال أشد مراحل المواجهة المكية، ومنها زمن المقاطعة. توفي أبو طالب قبل الهجرة، وكان موته من الأحداث الثقيلة في المرحلة المكية. وتلتزم هذه الصفحة بعرض دوره الأسري والتاريخي كما تحفظه كتب السيرة، مع تجنب إقحام جدالات عقدية أو روايات لا يثبتها corpus المصدر. حمزة بن عبد المطلب عمّ النبي ﷺ وأخوه من الرضاعة، ومن أبرز رجال بني هاشم الذين أدركوا الإسلام. تصفه كتب التراجم بأبي عمارة وأبي يعلى، وتلقبه بأسد الله، وتذكر مكانته بوصفه بدريا وشهيدا. ا",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+        "recordId": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-01",
+        "recordTitle": "الزبير بن عبد المطلب — من سيرته وحياته — 1",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-phr8x6",
+            "slug": "",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "al-harith-ibn-abd-al-muttalib",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-3cdkm1",
+            "slug": "",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          }
+        ]
+      },
+      "wordCount": 448
+    },
+    {
+      "text": "الزبير بن عبد المطلب من أعمام النبي ﷺ ومن رجال بني هاشم قبل الإسلام. ترد أخباره في كتب النسب أكثر مما ترد في كتب المغازي المتأخرة، ولذلك تُبنى سيرته هنا على المادة النسبية المحفوظة لا على إعادة إنشاء أحداث لا تسندها المصادر. ينقل ابن حزم في جمهرة أنساب العرب أسماء أولاد نُسبوا إليه، ومنهم الطاهر وحَجْل وقرة وعبد الله، مع خبر يتعلق بعبد الله. وتظهر نتائج البحث في مكتبة Drive اسمه في عدد من النصوص التراثية، إلا أن كثيرا منها OCR غير منضبط؛ لذلك لم تُنقل منها اقتباسات حرفية قبل التحقق. مكانته الأساسية في هذه الصفحة هي كابن لعبد المطلب وعم للنبي ﷺ ورجل من البيت الهاشمي الذي سبق البعثة. الزبير بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ﷺ، وكان أسن من رسول الله ﷺ بسنتين أو ثلاث. العباس بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أبو لهب هو عبد العزى بن عبد المطلب، عمّ النبي ﷺ وأحد أبناء عبد المطلب بن هاشم. تحفظ كتب السيرة خبره أساسا في سياق معارضته الشديدة للدعوة في مكة. وتربط المصادر بين موقفه وبين ما ورد في سورة المسد، ولذلك يجب التفريق في صفحته بين النص القرآني وما تضيفه روايات السيرة من تفاصيل. يذكر ابن كثير وغيره أنه كان من أشد الناس على النبي ﷺ من قرابته، وتعرض كتب السيرة صورا من أذاه ومناصرته لخصوم الدعوة. كما تذكر زوجته أم جميل في سياق السورة وأخبار مكة. مات أبو لهب بعد بدر بمدة وجيزة بحسب الرواية المشهورة في كتب السيرة. لا تُعرض هذه الصفحة بوصفها مساحة للتعليق أو الإدانة الإنشائية، بل كسجل تاريخي لموقعه الأسري ولموقفه كما حفظته المصادر، مع رد كل تفصيل إلى مصدره وعدم اختلاق أقوال له. ضرار بن عبد المطلب أحد أعمام النبي ﷺ. مادته المحفوظة في المصادر التي فُحصت قليلة، وهي في معظمها نسبية. يذكر ابن حزم أن أم العباس وضرار هي نتيلة بنت جناب بن كليب، وبذلك يثبت اشتراكهما في الأم ضمن أبناء عبد المطلب. لم تُعثر في corpus الحالي على سيرة مطولة موثقة لضرار توازي ما حفظ عن حمزة أو العباس أو أبي طالب. لذلك لا تُملأ الصفحة بأحداث مفترضة، بل تسجل نسبه وصلته الأسرية وما يرد مستقبلا من نصوص قابلة للتحقق. هذا القصر في المادة جزء من الأمانة العلمية للصفحة وليس نقصا يُعالج بالتخمين. وأم العباس وضرار: نتيلة بنت جناب بن كليب بن ما",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+        "recordId": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-03",
+        "recordTitle": "الزبير بن عبد المطلب — من سيرته وحياته — 3",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-phr8x6",
+            "slug": "",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "al-harith-ibn-abd-al-muttalib",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-3cdkm1",
+            "slug": "",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          }
+        ]
+      },
+      "wordCount": 454
+    },
+    {
+      "text": "الزبير بن عبد المطلب من أعمام النبي ﷺ ومن رجال بني هاشم قبل الإسلام. ترد أخباره في كتب النسب أكثر مما ترد في كتب المغازي المتأخرة، ولذلك تُبنى سيرته هنا على المادة النسبية المحفوظة لا على إعادة إنشاء أحداث لا تسندها المصادر. ينقل ابن حزم في جمهرة أنساب العرب أسماء أولاد نُسبوا إليه، ومنهم الطاهر وحَجْل وقرة وعبد الله، مع خبر يتعلق بعبد الله. وتظهر نتائج البحث في مكتبة Drive اسمه في عدد من النصوص التراثية، إلا أن كثيرا منها OCR غير منضبط؛ لذلك لم تُنقل منها اقتباسات حرفية قبل التحقق. مكانته الأساسية في هذه الصفحة هي كابن لعبد المطلب وعم للنبي ﷺ ورجل من البيت الهاشمي الذي سبق البعثة. الزبير بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. وفاته المبكرة لا تحفظ المصادر المتاحة له سيرة أحداث كتلك التي نجدها لإخوته الذين عاشوا إلى زمن البعثة. لذلك تقتصر صفحته على نسبه وخبر وفاته المبكرة وما يثبت من اسم أمه، من غير توسيع إنشائي أو قصص غير مسندة. قثم بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. صفية بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عاتكة بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أروى بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أميمة بنت عبد المطلب من عمات النبي ﷺ، من بنات عبد المطلب بن هاشم. تُفصل سيرتها عن سائر العمات، وتُلحق بها فقط الأخبار التي تسندها المصادر. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة.",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+        "recordId": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-05",
+        "recordTitle": "الزبير بن عبد المطلب — من سيرته وحياته — 5",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-phr8x6",
+            "slug": "",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "al-harith-ibn-abd-al-muttalib",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-3cdkm1",
+            "slug": "",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          }
+        ]
+      },
+      "wordCount": 444
+    },
+    {
+      "text": "الزبير بن عبد المطلب من أعمام النبي ﷺ ومن رجال بني هاشم قبل الإسلام. ترد أخباره في كتب النسب أكثر مما ترد في كتب المغازي المتأخرة، ولذلك تُبنى سيرته هنا على المادة النسبية المحفوظة لا على إعادة إنشاء أحداث لا تسندها المصادر. ينقل ابن حزم في جمهرة أنساب العرب أسماء أولاد نُسبوا إليه، ومنهم الطاهر وحَجْل وقرة وعبد الله، مع خبر يتعلق بعبد الله. وتظهر نتائج البحث في مكتبة Drive اسمه في عدد من النصوص التراثية، إلا أن كثيرا منها OCR غير منضبط؛ لذلك لم تُنقل منها اقتباسات حرفية قبل التحقق. مكانته الأساسية في هذه الصفحة هي كابن لعبد المطلب وعم للنبي ﷺ ورجل من البيت الهاشمي الذي سبق البعثة. الزبير بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. هـ حيث استشهد. تعرض كتب السيرة مشاهد من شجاعته في القتال ومكانته القريبة من رسول الله ﷺ، كما تحفظ خبر الحزن الشديد عليه بعد أُحد. ولأن مادته في المصادر واسعة، ستظل صفحته قابلة للزيادة كلما تم التحقق من مقاطع إضافية من corpus Drive. النص الحالي يجمع فقط العناصر المتكررة والمستقرة في ابن هشام وكتب التراجم، ولا ينقل OCR المضطرب على أنه نص حرفي. أسد الله أبو عمارة وأبو يعلى القرشي الهاشمي المكي ثم المدني البدري الشهيد عم رسول الله ﷺ وأخوه من الرضاعة. حمزة بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حمزة بن عبد المطلب من القرابة بالرضاعة أو من أسرة إحدى مرضعات النبي ﷺ، ويُصنف بحسب هذه الصلة لا بحسب النسب الدموي. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. العباس بن عبد المطلب، أبو الفضل، عمّ النبي ﷺ ومن كبار بني هاشم. تذكر كتب التراجم أنه كان أكبر من رسول الله ﷺ بسنتين أو ثلاث على أحد الأقوال. تمتد أخباره عبر مرحلتي مكة والمدينة، ولذلك مادته أغزر من أخبار كثير من إخوته. حضر مشاهد من السيرة قبل استقرار أمره في جماعة المسلمين، ثم عُرف بعد ذلك بمكانته القريبة من النبي ﷺ وبحضوره في أحداث المدينة. وتثبت المصادر وجوده في حنين ضمن من ثبتوا حول رسول الله ﷺ. كما بقي بعد وفاة النبي ﷺ من وجوه بني هاشم، وترد له أخبار في زمن الخلفاء. توفي في المدينة في خلافة عثمان، وتذكر المصادر سنة 32 هـ في وفاته. تعتمد هذه الصفحة",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+        "recordId": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-02",
+        "recordTitle": "الزبير بن عبد المطلب — من سيرته وحياته — 2",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-phr8x6",
+            "slug": "",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "al-harith-ibn-abd-al-muttalib",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-3cdkm1",
+            "slug": "",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          }
+        ]
+      },
+      "wordCount": 452
+    },
+    {
+      "text": "الزبير بن عبد المطلب من أعمام النبي ﷺ ومن رجال بني هاشم قبل الإسلام. ترد أخباره في كتب النسب أكثر مما ترد في كتب المغازي المتأخرة، ولذلك تُبنى سيرته هنا على المادة النسبية المحفوظة لا على إعادة إنشاء أحداث لا تسندها المصادر. ينقل ابن حزم في جمهرة أنساب العرب أسماء أولاد نُسبوا إليه، ومنهم الطاهر وحَجْل وقرة وعبد الله، مع خبر يتعلق بعبد الله. وتظهر نتائج البحث في مكتبة Drive اسمه في عدد من النصوص التراثية، إلا أن كثيرا منها OCR غير منضبط؛ لذلك لم تُنقل منها اقتباسات حرفية قبل التحقق. مكانته الأساسية في هذه الصفحة هي كابن لعبد المطلب وعم للنبي ﷺ ورجل من البيت الهاشمي الذي سبق البعثة. الزبير بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. المقوّم بن عبد المطلب أحد أبناء عبد المطلب وعمّ النبي ﷺ. تحفظ كتب الأنساب عنه مادة محدودة، ومن أوضحها ما أورده ابن حزم في جمهرة أنساب العرب في ذكر ولده. ينسب إليه بكر وعبد الله، ثم يذكر ابن حزم خبرا عن عقب بكر وينتهي إلى أن المقوّم لم يبق له عقب ممتد بحسب ذلك السياق النسبي. لا توفر المادة التي تم العثور عليها حتى الآن أحداثا تاريخية مفصلة يمكن بناء سيرة طويلة عليها. لذلك تعرض الصفحة اسمه ونسبه وما حفظ عن ذريته، وتترك ما عدا ذلك مفتوحا لإضافة نصوص موثقة عند العثور عليها في المكتبة. المقوم بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حَجْل بن عبد المطلب من الأسماء التي تحتاج إلى عناية خاصة في كتب النسب بسبب اختلاف الروايات في الاسم واللقب. تذكر بعض المصادر أن حَجْلا اسمه المغيرة، بينما تنقل روايات أخرى كلاما في الغيداق واسمه نوفل، بل يرد أحيانا ما يوحي بتداخل الاسمين في بعض النقل. لهذا لا توحد الصفحة هذه الروايات قسرا. الثابت في التصنيف المستخدم هنا أنه يُذكر ضمن أبناء عبد المطلب ومن ثم ضمن أعمام النبي ﷺ، مع تنبيه القارئ إلى وجود اختلاف في التسمية. لا تُنسب إليه أحداث أو أقوال لمجرد تشابه الاسم في نصوص OCR، وتبقى سيرته قصيرة إلى أن يظهر نص أوضح من corpus المكتبة. قُثَم بن عبد المطلب أحد أبناء عبد المطلب المذكورين في كتب النسب، ومن ثم فهو",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+        "recordId": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-04",
+        "recordTitle": "الزبير بن عبد المطلب — من سيرته وحياته — 4",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-phr8x6",
+            "slug": "",
+            "recordName": "الزبير بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-harith-ibn-abd-al-muttalib",
+            "slug": "al-harith-ibn-abd-al-muttalib",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-3cdkm1",
+            "slug": "",
+            "recordName": "الحارث بن عبد المطلب"
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+            "sourceFile": "family_biographies.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "",
+            "recordName": ""
+          },
+          {
+            "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+            "sourceFile": "family_people.json",
+            "recordId": "al-zubayr-ibn-abd-al-muttalib",
+            "slug": "al-zubayr-ibn-abd-al-muttalib",
+            "recordName": "الزبير بن عبد المطلب"
+          }
+        ]
+      },
+      "wordCount": 452
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.671637Z",
+  "personId": "person-02b9ea4b736a",
+  "personNameAr": "ابن دحية",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 1,
+  "passages": [
+    {
+      "text": "قال الحافظ و هذا الحديث مما يستدلّ به على تفضيل بناته على رفقائه [ (1)]. و روى أبو نعيم عن أبي سعيد رضي اللّه عنه قال: قال رسول اللّه (صلّى اللّه عليه و سلّم) : «فاطمة سيدة نساء أهل الجنة إلا ما كان من مريم بنت عمران». قال ابن دحية في «مرج البحرين» سئل العالم الكبير أبو بكر بن داود بن عليّ (رحمه اللّه تعالى) : من أفضل خديجة أم فاطمة رضي اللّه عنهما؟ فقال: «إنّ فاطمة بضعة منّي» و لا أعدل ببضعة رسول اللّه (صلّى اللّه عليه و سلّم) أحدا. و قال السّهيليّ: و هذا استقراء حسن و يشهد بصحّة هذا الاستقراء أنّ أبا لبابة حين ربط نفسه، و حلف أن لا يحلّه إلّا رسول اللّه (صلّى اللّه عليه و سلّم) فجاءت فاطمة لتحلّه فأبى لأجل قسمه، فقال رسول اللّه (صلّى اللّه عليه و سلّم) : «إنما فاطمة بضعة مني». السادسة و الثلاثون بعد المائة. و بأن ثواب أزواجه (صلّى اللّه عليه و سلّم) و عقابهن يضاعف تفضيلا لهنّ",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0010",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0010",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0010-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0136.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "db5b270ab80558df0a70c5bdf7ff0af166362740384afafa939f362155f6bf02",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0010-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "10",
+            "locator": "OEBPS/Text/2395_0327.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "35d5d9f6f765a2a3d6772c9a8c7844536cee3cb955aeff5b64eabe42883282e4",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0010-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0009.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "9b6dff91abbc3d00c14c0cb596c7f9e1cc3a8855e4174b5752d3d7ddce67ca94",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0010-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "5",
+            "locator": "OEBPS/Text/2185_0499.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "5b83a48d64e365f0b7db6ed6acbbadb17465c4e96f54daa187521f42a60e6069",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

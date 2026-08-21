@@ -1,0 +1,218 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.650169Z",
+  "personId": "fatima-bint-amr",
+  "personNameAr": "فاطمة بنت عمرو",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 4,
+  "passages": [
+    {
+      "text": "أولاد عبد المطلب عشرة ذكور: عبد الله وأبو طالب «واسمه عبد مناف» والزبير (أمهم فاطمة بنت عمرو المخزومية). العباس - جد الخلفاء العباسيين - وضرار (أمهما نتيلة العمرية). حمزة والمقوم (أمهما هالة بنت وهب). أبو لهب وهو عبد العزى (أمه لُبنى الخزاعية). الحارث (أمه صفية من بني عامر بن صعصعة). الغيداق (أمه ممنعة) واسمه حجل. وست نسوة وهن: صفية وأم حكيم البيضاء وعاتكة وأميمة وأروى وبرة. أما (عبد الله) فهو أبو رسول الله صلى الله عليه وسلم ويكنى أبا قثم، وقيل: أبا محمد، وقيل: أبا أحمد، وهو أصغر أولاد عبد المطلب. وقيل إن عبد المطلب أول من خضب بالوسمة أي السواد، لأنَّ الشّيب أسرع إليه وكان إذا دخل شهر رمضان صعد حراء وأطعم المساكين جميع الشهر، وكان صعوده للتخلي عن الناس يتفكر في جلال الله وعظمته. ويؤثر عن عبد المطلب سنن جاء القرآن وجاءت السنّة بها، منها الوفاء بالنذر، والمنع من نكاح المحارم، وقطع يد السارق، والنهي عن قتل الموءودة، وتحريم الخمر والزنا والحد عليه، وألا يطوف بالبيت عُريان، وتعظيم الأشهر الحرم. وهو أول من سنَّ دية النفس مائة من الإبل فجرت في قريش، ثم نشأت في العرب وأقرَّها رسول الله. وكان نديمه في الجاهلية حرب بن أمية بن عبد شمس بن عبد مناف والد أبي سفيان، وكان في جوار عبد المطلب يهودي فأغلظ ذلك اليهودي القول على حرب في سوق من أسواق تهامة فأغرى عليه حرب مَن قتله، فلما علم عبد المطلب بذلك ترك منادمة حرب، ولم يفارقه حتى أخذ منه مائة ناقة دفعها لابن عم اليهودي حفظا لجواره، ثم نادم عبد الله بن جُدعان التيمي. صلى الله عليه وسلم عليه وسلم - مروا بحي فلم يضيفوهم، فلدغ سيدهم، فرقاه رجل منهم بفاتحة الكتاب على ثلاثين شاةً، الحديث. الراقي هو الراوي أبو سعيد الخدري. حديث أنس أن رسول الله صلى الله عليه وسلم رأى حبلا ممدودا بين ساريتين في المسجد، فسأل عنه فقالوا: فلانة تصلي، فإذا غلبت تعلقت به. قيل: إنها زينب بنت جحش، زوج رسول الله صلى الله عليه وسلم وقيل أختها حمنة بنت جحش، وقيل: ميمونة بنت الحارث أم المؤمنين. المرأة التي سألت رسول الله صلى الله عليه وسلم عن الغسل من الحيض فقال: «خذي فرصة من مسك». هي أسماء بنت يزيد بن السكن الأنصارية، وكان يقال لها: خطيبة النساء. وفي رواية لمسلم تسميتها: أسماء بنت شكَل، والله أعلم. ومنها: ما أبهم بأن قيل فيه ابن فلان أو ابن الفلاني أو ابنة فلان أو نحو ذلك. ومن ذلك حديثأم عطية: ماتت إحدى بنات رسول الله صلى الله عليه وسلم فقال: «اغسليها بماء وسدر..» الحديث. هي زينب، زوجة أبي العاص بن الربيع، أكبر بناته صلى الله عليه وسلم وإن كان قد قيل: أكبرهن رقية، والله أعلم. ابن اللُتْبية، ذكر صاحب الطبقات محمد بن سعد: أن اسمه عبد الله، وهذه نسبة إلى بني لتب، بضم اللام وإسكان التاء المثناة من فوق، بطن من الأسد، بإسكان السين، وهم الأزد، وقيل: ابن الأتبية - ب",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-fatima-bint-amr-01",
+        "recordTitle": "فاطمة بنت عمرو — من سيرته وحياته — 1",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "wikisource-fatima-bint-amr-001",
+            "sourceChannel": "wikisource",
+            "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+            "url": "https://ar.wikisource.org/?curid=40450",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-002",
+            "sourceChannel": "wikisource",
+            "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+            "url": "https://ar.wikisource.org/?curid=9762",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-003",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+            "url": "https://ar.wikisource.org/?curid=24003",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-004",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+            "url": "https://ar.wikisource.org/?curid=24026",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-005",
+            "sourceChannel": "wikisource",
+            "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+            "url": "https://ar.wikisource.org/?curid=16326",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          }
+        ]
+      },
+      "wordCount": 454
+    },
+    {
+      "text": "أحيحة بن الجلاح. وكان لهاشم أيضاً من الولد: نضلة؛ وأبو صيفي، وأسد، بنو هاشم بن عبد مناف: انقرضت أعقابهم. وكان منهم عمرو بن أبي صيفي، الذي أعتق سارة التي حملت كتاب حاطب بن أبي بلتعة إلى قريش، ينذرهم بغزو النبي صلى الله عليه وسلم إليهم، عام الفتح لمكة، فاتبعها علي والزبير فأدركاها، وأخذا الكتاب منها؛ وفاطمة بنت أسد بن هاشم بن عبد مناف، وهي من المهاجرات المبايعات؛ أم جميع ولد أبي طالب: علي، وجعفر وعقيل، وأم هانيء، وطالب، بني أبي طالب، وابن أخيها عبد الله بن حنين بن أسد بن هاشم، لا عقب له. فولد عبد المطلب بن هاشم: عبد الله، فيه الشرف كله؛ وأبا طالب، وأبا لهب اسمه عبد العزى، ويكنى أبا عتبة؛ والزبير؛ وأم عبد الله والزبير وأبي طالب: فاطمة بنت عمرو بن عائذ بن عمران بن مخزوم بن يقظة بن مرة؛ والمقوم؛ والحارث؛ وحمزة؛ والعباس؛ وبنين غيرهم، فلم يعقب أحد معهم عقباً باقياً إلا أربعة: العباس، وأبو طالب، والحارث، وأبو لهب، وأربع بنات، منهن البيضاء أم أم عثمان -رضي الله عنها- وهي توأمة عبد الله بن عبد المطلب. أم عبد الله وأبي طالب والزبير: فاطمة بنت عمرو بن عائذ بن عمران. وأم العباس وضرار: نتيلة بنت جناب بن كليب بن مالك بن عمرو بن عامر بن النمر بن قاسط بن ربيعة بن نزار؛ وأم عمرو بن عامر هذا هي القرية التي ينسب إليها بنو القرية. وأم حمزة وصفية أم الزبير: هالة بنت وهيب بن عبد مناف ابن زهرة. وأم الحارث: صفية من بني عامر بن صعصعة. وأم أبي لهب: لبنى الخزاعية. فولد كلاب بن مرة: قصي بن كلاب، وفيه البيت والشرف؛ وزهرة بن كلاب. فولد قصي بن كلاب: عبد مناف، وفيه البيت والشرف؛ وعبد العزى؛ وعبد الدار، وفيهم حجاجة البيت؛ وعبد، انقرض عقب عبد. فولده عبد مناف بن قصي: عمرو وهو هاشم، وفيه العدد والشرف؛ والمطلب؛ وعبد شمس؛ ونوفل. وأم هاشم وعبد شمس والمطلب: عاتكة بنت مرة بن هلال ابن فالج بن ذكوان السلمية. وأم نوفل: واقدة من بني مازن بن صعصعة السلمية، خلف عليها هاشم بن عبد مناف بعد أبيه؛ وكانت العرب تسمى هذا النكاح نكاح المقت؛ فولدت له ابنتين: خالدة وضعيفة. وكان هاشم وعبد شمس توأمين، وخرج عبد شمس في الولادة قبل هاشم. فولد هاشم بن عبد مناف: شيبة، وهو عبد المطلب، وفيه العمود والشرف، ولم يبق لهاشم عقب إلا من عبد المطلب فقط. وأم عبد المطلب: سلمى بنت عمرو ابن زيد بن لبيد بن خداش بن عامر بن غنم بن عدي بن النجار من الأنصار، وأخواه لأمه معبد، وعمرو، ابنا أحيحة بن الجلاح. وكان لهاشم أيضاً من الولد: نضلة؛ وأبو صيفي، وأسد، بنو هاشم بن عبد مناف: انقرضت أعقابهم. وكان منهم عمرو بن أبي صيفي، الذي أعتق سارة التي حملت كتاب حاطب بن أبي بلتعة إلى قريش، ينذرهم بغزو النبي صلى الله عليه وسلم إليهم، عام الفتح لمكة، فاتبعها علي والزبير فأدركاها، وأخذا الكتاب منها؛ وفاطمة بنت أسد بن هاشم بن عبد مناف، وهي من المهاجرات المباي",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-fatima-bint-amr-05",
+        "recordTitle": "فاطمة بنت عمرو — من سيرته وحياته — 5",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "wikisource-fatima-bint-amr-001",
+            "sourceChannel": "wikisource",
+            "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+            "url": "https://ar.wikisource.org/?curid=40450",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-002",
+            "sourceChannel": "wikisource",
+            "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+            "url": "https://ar.wikisource.org/?curid=9762",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-003",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+            "url": "https://ar.wikisource.org/?curid=24003",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-004",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+            "url": "https://ar.wikisource.org/?curid=24026",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-005",
+            "sourceChannel": "wikisource",
+            "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+            "url": "https://ar.wikisource.org/?curid=16326",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          }
+        ]
+      },
+      "wordCount": 463
+    },
+    {
+      "text": "ورقية: سلمى بنت عمرو بن زيد بن لبيد بن خداش بن عامر بن غنم بن عدي بن النجار من المدينة، وذكر أمهات الباقين. قال: وولد عبد المطلب عشرة نفر، وست نسوة وهم: العباس، وحمزة، وعبد الله، وأبو طالب - واسمه عبد مناف - لا عمران، والزبير، والحارث، وكان بكر أبيه وبه كان يكنى، وجحل، ومنهم من يقول حجل، وكان يلقب بالغيداق لكثرة خيره، والمقوم، وضرار، وأبو لهب - واسمه عبد العزى - وصفية، وأم حكيم البيضاء، وعاتكة، وأميمة، وأروى، وبرة. وذكر أمهاتهم إلى أن قال: وأم عبد الله، وأبي طالب، والزبير، وجميع النساء إلا صفية فاطمة بنت عمرو بن عائذ بن عمران بن مخزوم بن يقظة بن مرة بن كعب بن لؤي بن غالب بن فهر بن مالك بن النضر بن كنانة بن خزيمة بن مدركة بن إلياس بن مضر بن نزار بن معد بن عدنان. قال ابن هشام: فولد عبد الله محمدا رسول الله ﷺ سيد ولد آدم وأمه آمنة بنت وهب بن عبد مناف بن زهرة بن كلاب بن مرة بن كعب بن لؤي. ثم ذكر أمهاتها فأغرق إلى أن قال: فهو أشرف ولد آدم حسبا وأفضلهم نسبا من قبل أبيه وأمه، صلوات الله وسلامه عليه دائما إلى يوم الدين. وقد تقدم حديث الأوزاعي، عن شداد أبي عمار، عن واثلة بن الأسقع قال: قال رسول الله ﷺ : « إن الله اصطفى كنانة من ولد إسماعيل، واصطفى قريشا من كنانة، واصطفى هاشما من قريش، واصطفاني من بني هاشم » . رواه مسلم وسيأتي بيان مولده الكريم، وما ورد فيه من الأخبار والآثار وسنورد عند سرد النسب الشريف فوائد أخر ليست هاهنا إن شاء الله تعالى، وبه الثقة وعليه التكلان. البداية والنهاية - الجزء الثاني ذكر جماعة من أنبياء بني إسرائيل بعد موسى عليه السلام | قصة حزقيل | قصة اليسع عليه السلام | فصل في حال بني إسرائيل | قصة شمويل عليه السلام | قصة داود وما كان في أيامه وذكر فضائله وشمائله ودلائل نبوته وإعلامه | ذكر كمية حياته وكيفية وفاته عليه السلام | قصة سليمان بن داود عليهما السلام | ذكر وفاته وكم كانت مدة ملكه وحياته | باب ذكر جماعة من أنبياء بني إسرائيل بعد داود وسليمان | ومنهم ارميا بن حلقيا من",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-fatima-bint-amr-02",
+        "recordTitle": "فاطمة بنت عمرو — من سيرته وحياته — 2",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "wikisource-fatima-bint-amr-001",
+            "sourceChannel": "wikisource",
+            "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+            "url": "https://ar.wikisource.org/?curid=40450",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-002",
+            "sourceChannel": "wikisource",
+            "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+            "url": "https://ar.wikisource.org/?curid=9762",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-003",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+            "url": "https://ar.wikisource.org/?curid=24003",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-004",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+            "url": "https://ar.wikisource.org/?curid=24026",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-005",
+            "sourceChannel": "wikisource",
+            "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+            "url": "https://ar.wikisource.org/?curid=16326",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          }
+        ]
+      },
+      "wordCount": 348
+    },
+    {
+      "text": "أن يرثينه، وهن: أروى، وأميمة، وبرة، وصفية، وعاتكة، وأم حكيم البيضاء، وذكر أشعارهن، وما قلن في رثاء أبيهن وهو يسمع قبل موته. وهذا أبلغ النوح، وبسط القول في ذلك. وقد قال ابن هشام: ولم أر أحدا من أهل العلم بالشعر يعرف هذا الشعر. قال ابن إسحاق: فلما هلك عبد المطلب بن هاشم ولي السقاية وزمزم بعده ابنه العباس، وهو من أحدث إخوته سنا، فلم تزل إليه حتى قام الإسلام، وأقرها في يده رسول الله ﷺ ، وكان رسول الله ﷺ بعد جده عبد المطلب مع عمه أبي طالب، لوصية عبد المطلب له به، ولأنه كان شقيق أبيه عبد الله، أمهما فاطمة بنت عمرو بن عائذ بن عمران بن مخزوم. قال: فكان أبو طالب هو الذي يلي أمر رسول الله ﷺ بعد جده، وكان إليه ومعه. وقال الواقدي: أخبرنا معمر، عن ابن نجيح، عن مجاهد. وحدثنا معاذ بن محمد الأنصاري، عن عطاء، عن ابن عباس. وحدثنا محمد بن صالح، وعبد الله بن جعفر، وإبراهيم بن إسماعيل بن أبي حبيبة - دخل حديث بعضهم في حديث بعض - قالوا: لما توفي عبد المطلب قبض",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+        "recordId": "20260821-family-life-fatima-bint-amr-03",
+        "recordTitle": "فاطمة بنت عمرو — من سيرته وحياته — 3",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "wikisource-fatima-bint-amr-001",
+            "sourceChannel": "wikisource",
+            "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+            "url": "https://ar.wikisource.org/?curid=40450",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-002",
+            "sourceChannel": "wikisource",
+            "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+            "url": "https://ar.wikisource.org/?curid=9762",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-003",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+            "url": "https://ar.wikisource.org/?curid=24003",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-004",
+            "sourceChannel": "wikisource",
+            "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+            "url": "https://ar.wikisource.org/?curid=24026",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          },
+          {
+            "ref": "wikisource-fatima-bint-amr-005",
+            "sourceChannel": "wikisource",
+            "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+            "url": "https://ar.wikisource.org/?curid=16326",
+            "publicDomainClassicalText": true,
+            "retrieval": "MediaWiki API plaintext source window"
+          }
+        ]
+      },
+      "wordCount": 172
+    }
+  ]
+}

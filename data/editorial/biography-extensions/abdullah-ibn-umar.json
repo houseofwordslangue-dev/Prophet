@@ -1,0 +1,486 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.624334Z",
+  "personId": "abdullah-ibn-umar",
+  "personNameAr": "عبد الله بن عمر",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 7,
+  "passages": [
+    {
+      "text": "رسول الله بلت عليه. فلما بكى الصبي قال:، يا أم الفضل آذيتيني في بني أبكيته،. ثم دعا بماء فحدره عليه حدرا ثم قال:، إذا كان غلاما فاحدروه حدرا و إذا كان جارية فاغسلوه غسلا]،. أخبرنا عبيد الله بن موسى. حدثنا إسرائيل عن سماك عن قابوس بن المخارق [قال: رأيت أم الفضل أن في بيتها من رسول الله طائفة فأتت رسول الله فأخبرته فقال: ، هو خير إن شاء الله. تلد فاطمة غلاما ترضعينه بلبن قثم ابنك،. فولدت حسينا فأعطتنيه فأرضعته حتى تحرك فجاءت به إلى النبي (ص) فأجلسه في حجره فبال. فضربت بيدها بين كتفيه. فقال:، أوجعت ابني أصلحك الله. أو رحمك الله،. فقلت: اخلع إزارك و البس ثوبا غيره كيما أغسله. فقال:، إنما ينضح بول الغلام و يغسل بول الجارية]،. أخبرنا خالد بن مخلد. حدثنا عبد الله بن عمر عن سالم أبي النضر عن أم الفضل بنت الحارث أنها بعثت إلى النبي يوم عرفة بقدح من لبن و هو واقف على بعيره فشربه. 4226- لبابة الصغرى‏ و هي العصماء",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0003",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0003",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0003-source-01",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0160.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "5d61c7ac3bca4ca67404fbe62667f9632adabe2ea10e4a089031eec711b8e13e",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0003-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "5",
+            "locator": "OEBPS/Text/2390_0008.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "3b8ae2862538d95edb2781398f01c511b2e4e1c2a60103ce532aacef112dcc22",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0003-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0058.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "cba4f0ec52c384cd899da684d7809da128ba38e769ed2612ed6fdb42512f09b0",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0003-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0217.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "cea1555bd37cdae8b9c9abbc4377b3cf81594f624ca7c010364bda91f0d0d628",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "سلّم) - على درع و منشفة بمغفرة و نصف قطيفة بيضاء، و قدح و إن كانت تستر بكم درعها، و مالها خمار و قالت: أعطاني رسول اللّه- (صلّى اللّه عليه و سلّم) - أصبعا من تمر و من شعير، فقال: «إذا دخلن عليك نساء الأنصار فأطعميهن منه». و روى الطبراني من طريق مسلم بن خالد الزنجي عن جابر- رضي اللّه تعالى عنه- قال: حضرنا عرس علي بن أبي طالب و فاطمة بنت رسول اللّه- (صلّى اللّه عليه و سلّم) - فما رأينا عرسا كان أحسن منه- حسا لنا رسول اللّه- (صلّى اللّه عليه و سلّم) - زبيبا و تمرا فأكلنا منه و كان فراشها ليلة عرسها إهاب كبش. و رواه البزّار و زاد، و حشونا الفراش- يعني: الليف-. و روى عن عبد الله بن عمرو- رضي اللّه تعالى عنهما- قال: لمّا جهّز رسول اللّه- (صلّى اللّه عليه و سلّم) - السيدة فاطمة إلى عليّ- رضي اللّه تعالى عنهما- بعث معها بخميلة و هي القطيفة و وسادة من أدم حشوها ليف،",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0015",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0015",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0015-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0015.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "02acbaaa970c1bf7b40288593dfda11995c50c808acd372753cae37df0edc84c",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0015-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0019.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "d57e529f39875118dcb2a0ca648e1d1dbe6c31e37518e70f52237766ebd1d64b",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0015-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0041.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "4e9bfceb8aeaaa333d6d09527cb9a40770c0d2a507c3250a0ced69224dbbec3e",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0015-source-04",
+            "resourceId": "family-companions-009",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن الشبلنجي",
+            "volume": "",
+            "locator": "226",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-009",
+            "sourceFingerprint": "842a06e03810207955c521dd64ce4e59e8d75bf164aa9d29dc5d5350c1070715",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "أم سلمة. و كان في خلقه شدة فقالت له يوما: أما و الله لقد حذرتك. قال: فأمرك بيدك. فقالت: لا أختار على ابن الصديق أحدا. فأقام عليها فلم يكن طلاقا. 4208- فاطمة بنت الأسود بن عبد الأسد بن هلال بن عبد الله بن عمر بن مخزوم. أسلمت و بايعت. و هي التي سرقت فقطع النبي (ص) يدها. [أخبرنا ابن نمير عن الأجلح عن حبيب بن أبي ثابت يرفع الحديث أن فاطمة بنت الأسود بن عبد الأسد سرقت على عهد رسول الله (ص) حليا فاستشفعوا على النبي (ص) بغير واحد و كلموا أسامة بن زيد ليكلم رسول الله. و كان رسول الله يشفعه. فلما أقبل أسامة و رآه النبي قال:، لا تكلمني يا أسامة فإن الحدود إذا انتهت‏ 207 (1) إلي فليس لها متروك،. لو كانت ابنة محمد فاطمة لقطعتها]. قال محمد بن سعد: فهذه رواية في فاطمة بنت الأسود. و في رواية أهل المدينة و غيرهم من أهل مكة أن التي سرقت فقطع رسول الله يدها أم عمرو بنت سفيان",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0027",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0027",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0027-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "2",
+            "locator": "OEBPS/Text/2182_0196.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "ea1e259a38ade71baad82348f87258149cea315f1b28d8ce30451f7d9e8e8d57",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0027-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0044.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "a18034c460dfb0db2c68aea957b9e44dc47f58f5ad10ac1a7ed496c45f8b33d9",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0027-source-03",
+            "resourceId": "family-companions-004",
+            "title": "الصواعق المحرقة على أهل الرفض والضلال والزندقة",
+            "author": "أحمد بن حجر الهيتمي",
+            "volume": "",
+            "locator": "263",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-004",
+            "sourceFingerprint": "b9ebf7ae0813ae192d234628a2842c3cdac0b57de64282133ac34286c1318c04",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0027-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0205.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "9455601c561298b355800b44b09e4db6024ff2a1cf8b57b3b94c141528ee2358",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "ثابت يرفع الحديث أن فاطمة بنت الأسود بن عبد الأسد سرقت على عهد رسول الله (ص) حليا فاستشفعوا على النبي (ص) بغير واحد و كلموا أسامة بن زيد ليكلم رسول الله. و كان رسول الله يشفعه. فلما أقبل أسامة و رآه النبي قال:، لا تكلمني يا أسامة فإن الحدود إذا انتهت‏ 207 (1) إلي فليس لها متروك،. لو كانت ابنة محمد فاطمة لقطعتها]. قال محمد بن سعد: فهذه رواية في فاطمة بنت الأسود. و في رواية أهل المدينة و غيرهم من أهل مكة أن التي سرقت فقطع رسول الله يدها أم عمرو بنت سفيان بن عبد الأسد بن هلال بن عبد الله بن عمر بن مخزوم. و أمها بنت عبد العزى بن أبي قيس بن عبد ود بن نصر بن مالك بن حسل بن عامر بن لؤي أخت حويطب بن عبد العزى. و أنها خرجت من الليل و ذلك في حجة الوداع فوقفت بركب نزول فأخذت عيبة لهم فأخذها القوم فأوثقوها. فلما أصبحوا أتوا بها النبي (ص) فعاذت بحقوي أم",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0034",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0034",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-01",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "12",
+            "locator": "OEBPS/Text/2397_0229.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "550a034d5062e727ddcb4942a14ebdade9681370363fca0cc07d5bb67e18cf52",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "4",
+            "locator": "OEBPS/Text/2184_0051.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "6ef10e993b33612487bc094086a6192a26160175b44e80c7a3b73c4248bd0ef1",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0206.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "a0fcdfe9b5e25c17e5cff860ddca1a2a13503247db524ecaf5413b61da42327f",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "12",
+            "locator": "OEBPS/Text/2397_0336.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "9e151d1368e129293577f4c57f9ffc7681fa62beaaa8e7c3054d8c1a98e99549",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "التي سرقت فقالوا: 70/ 4 من يكلم فيها رسول الله (ص) ؟ فقالوا: و من يجترئ عليه إلا أسامة بن زيد حب رسول الله (ص) ؟ فكلمه أسامة [فقال رسول الله (ص) ، لم تشفع في حد من حدود الله؟]، ثم قام النبي (ص) فاختطب فقال:، [إنما أهلك الذين من قبلكم إنهم إذا سرق فيهم الشريف تركوه و إذا سرق فيهم الضعيف أقاموا عليه الحد. و أيم الله لو أن فاطمة بنت محمد سرقت لقطعت يدها!]،. قال: أخبرنا محمد بن إسماعيل بن أبي فديك عن هشام بن سعد عن زيد بن أسلم أن عمر بن الخطاب فضل المهاجرين الأولين و أعطى أبناءهم دون ذلك. و فضل أسامة بن زيد على عبد الله بن عمر. فقال عبد الله بن عمر: فقال لي رجل فضل عليك أمير المؤمنين من ليس بأقدم منك سنا و لا أفضل منك هجرة و لا شهد من المشاهد ما لم تشهد. قال عبد الله: و كلمته فقلت يا أمير المؤمنين فضلت على من ليس هو بأقدم مني",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0005",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0005",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "4",
+            "locator": "OEBPS/Text/2184_0051.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "6ef10e993b33612487bc094086a6192a26160175b44e80c7a3b73c4248bd0ef1",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-02",
+            "resourceId": "family-companions-004",
+            "title": "الصواعق المحرقة على أهل الرفض والضلال والزندقة",
+            "author": "أحمد بن حجر الهيتمي",
+            "volume": "",
+            "locator": "263",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-004",
+            "sourceFingerprint": "b9ebf7ae0813ae192d234628a2842c3cdac0b57de64282133ac34286c1318c04",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0205.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "344cd263e494198f8729d7943c26b72d4c61b102a6f005884489496cb3b1af53",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0043.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "c3b32b540b675ab788309f510523520bbe421ba408dc2e7cc4226858bdf99d65",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "بن عبد الله بن أبي ربيعة بن المغيرة بن عبد الله بن عمر بن مخزوم فولدت له إبراهيم الأحول و موسى و أم حميد و أم عثمان. و كانت عائشة أم المؤمنين أرسلت سالم بن عبد الله بن عمر إلى أم كلثوم لترضعه ليدخل عليها فأرضعته ثلاث مرات ثم مرضت. 4634- أم كلثوم بنت عليّ بن أبي طالب بن عبد المطّلب بن هاشم بن عبد مناف بن قصيّ، و أمّها فاطمة بنت رسول اللّه، و أمها خديجة بنت خويلد بن أسد بن عبد العزّى بن قصيّ. تزوّجها عمر بن الخطّاب و هي جارية لم تبلغ فلم تزل عنده إلى أن قتل و ولدت له زيد بن عمر و رقيّة بنت عمر، ثمّ خلف على أمّ كلثوم بعد عمر عون بن جعفر بن أبي طالب بن عبد المطّلب فتوفّى عنها، ثمّ خلف عليها أخوه محمد بن جعفر بن أبي طالب بن عبد المطّلب فتوفّي عنها، فخلف عليها أخوه عبد اللّه بن جعفر بن أبي طالب بعد أختها بنت عليّ بن أبي",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-03.json",
+        "recordId": "20260821-fatima-source-bio-0116",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0116",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0116-source-01",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "9",
+            "locator": "OEBPS/Text/2394_0195.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "4a5e375e733e870cc8f7c465d156aae2a950a0985391bd9d93fb0306a9f9c3e9",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0116-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "1",
+            "locator": "OEBPS/Text/2181_0168.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "39126ddc769163866751902f1fc31a7ae431c73181a82eb7c88907274f5d8660",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0116-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0337.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "87a2f7f169bc26b31485b3e786e3a997b7c08af29c496531bbe22af7f1a88a4c",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0116-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "2",
+            "locator": "OEBPS/Text/2182_0196.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "89cb413a3d2c48b10ae45e8b88a0036f85f52f1340733a16902a0fcd39d45679",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "عبد الله بن عمر بن مخزوم. و أمها أروى بنت أبي العيص بن أمية بن عبد شمس. أسلمت و بايعت و تزوجها عتاب بن أسيد بن أبي العيص بن أمية. ثم تزوجها أبان بن سعيد بن العاص بن أمية فلم تلد له شيئا. و جويرية هي التي خطبها علي بن أبي طالب فجاء بنو المغيرة إلى رسول الله (ص) يستأمرونه في ذلك فلم يأذن لهم أن يزوجوه [و قال: إنما فاطمة بضعة مني يسوءني ما ساءها.] 4206- الحنفاء بنت أبي جهل‏ بن هشام بن المغيرة بن عبد الله بن عمر بن مخزوم. و أمها أروى بنت أبي العيص بن أمية بن عبد شمس. أسلمت و بايعت و تزوجها سهيل بن عمرو بن عبد شمس بن عبد ود بن نصر بن مالك بن حسل بن عامر بن لؤي فولدت له هندا. و يذكرون أن أسامة بن زيد بن حارثة قد تزوجها أيضا. 4207- قريبة الصغرى بنت أبي أمية بن المغيرة بن عبد الله بن عمر بن مخزوم. و أمها عاتكة بنت",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0005",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0005",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "4",
+            "locator": "OEBPS/Text/2184_0051.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "6ef10e993b33612487bc094086a6192a26160175b44e80c7a3b73c4248bd0ef1",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-02",
+            "resourceId": "family-companions-004",
+            "title": "الصواعق المحرقة على أهل الرفض والضلال والزندقة",
+            "author": "أحمد بن حجر الهيتمي",
+            "volume": "",
+            "locator": "263",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-004",
+            "sourceFingerprint": "b9ebf7ae0813ae192d234628a2842c3cdac0b57de64282133ac34286c1318c04",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0205.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "344cd263e494198f8729d7943c26b72d4c61b102a6f005884489496cb3b1af53",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0005-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0043.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "c3b32b540b675ab788309f510523520bbe421ba408dc2e7cc4226858bdf99d65",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

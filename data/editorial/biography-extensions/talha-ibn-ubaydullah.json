@@ -1,0 +1,78 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.679646Z",
+  "personId": "talha-ibn-ubaydullah",
+  "personNameAr": "طلحة بن عبيد الله",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 1,
+  "passages": [
+    {
+      "text": "(2) ت (30195)، و شذرات الذهب (1/ 42، 43، 56)، و تهذيب تاريخ دمشق (7/ 74)، و حذف من نسب قريش (78). 161 (1) بنت أبي بكر الصديق. و عيسى و يحيى و أمهما سعدى بنت عوف بن خارجة بن سنان بن أبي حارثة المري. و أم إسحاق بنت طلحة تزوجها الحسن بن علي بن أبي طالب فولدت له طلحة ثم توفي عنها فخلف عليها الحسين بن علي فولدت له فاطمة و أمها الجرباء و هي أم الحارث بنت قسامة بن حنظلة بن وهب بن قيس بن عبيد بن طريف بن مالك بن جدعاء من طيّئ. و الصعبة بنت طلحة و أمها أم ولد. و مريم ابنة طلحة و أمها أم ولد. و صالح بن طلحة درج. و أمه الفرعة بنت علي سبية من بني تغلب. قال: أخبرنا محمد بن عمر قال: حدثني الضحاك بن عثمان عن مخرمة بن سليمان الوالبي عن إبراهيم بن محمد بن طلحة قال: قال طلحة بن عبيد الله حضرت 215/ 3 سوق بصرى فإذا راهب",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0030",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0030",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0030-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "2",
+            "locator": "OEBPS/Text/2182_0190.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "b1ca545d6c9a7c2832da063db682251f6998712e3257d08b2cf3eeae3d0a5222",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0030-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0017.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "fb6d0e427166896067763ece8ac32fd84ef46a2725ebe22c1e8267f45d9e218b",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0030-source-03",
+            "resourceId": "family-companions-009",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن الشبلنجي",
+            "volume": "",
+            "locator": "199",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-009",
+            "sourceFingerprint": "374b3cd67c7ddc7501708a02afbd794c89d467e9e9552c976e614eb21e8dc9cf",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0030-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "3",
+            "locator": "OEBPS/Text/2183_0154.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "104a4b7010ea753254cba7c42515bf9c8274615cdc796ee01ed9781477d00289",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "schema": "global-biography-placement-audit-v1",
+  "generatedAt": "2026-08-21T22:59:14.697241Z",
+  "indexedPeople": 379,
+  "canonicalPageRule": "person.html?id=<person-id>",
+  "canonicalBiographyPagesPerIndexedPerson": 1,
+  "editorialRecordsScanned": 5197,
+  "lifeBiographyRecordsScanned": 1747,
+  "misplacedBiographyLifeRecords": [],
+  "misplacedBiographyLifeRecordCount": 0,
+  "unresolvedLifeIntentRecords": [
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-001",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PREFACE — 001"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-002",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PREFACE — 002"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-003",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MOSLEM PRAYER — 003"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-004",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: DESCRIPTION OF MAKKAH (_Mecca_ — 004"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-005",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE TEMPLE OF THE KA'BAH AND THE BLACK STONE — 005"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-006",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MARRIAGE OF ABDULLAH, FATHER OF THE PROPHET — 006"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-007",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD'S CHILDHOOD WITH THE BANI SAD TRIBE IN THEIR BADYA LAND — 007"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-008",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD'S CHILDHOOD WITH THE BANI SAD TRIBE IN THEIR BADYA LAND — 008"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-009",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD AND THE TWO ANGELS — 009"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-11.json",
+      "id": "20260821-source-extract-010",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD AND THE TWO ANGELS — 010"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-011",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: AMINAH'S DEATH (_A.D. 576_ — 011"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-012",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: MOHAMMAD'S FIRST JOURNEY IN SYRIA (_A.D. 582_ — 012"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-013",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW MOHAMMAD MET THE MONK BAHIRA — 013"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-014",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE SECOND SYRIAN VOYAGE (_A.D. 594_ — 014"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-015",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE SECOND SYRIAN VOYAGE (_A.D. 594_ — 015"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-016",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE SECOND SYRIAN VOYAGE (_A.D. 594_ — 016"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-017",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MARRIAGE OF MOHAMMAD AND KHADIJAH (_A.D. 595_ — 017"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-12.json",
+      "id": "20260821-source-extract-018",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MARRIAGE OF MOHAMMAD AND KHADIJAH (_A.D. 595_ — 018"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-14.json",
+      "id": "20260821-source-extract-037",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW THE TEMPLE OF THE KA'BAH WAS REBUILT (_A.D. 605_ — 037"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-14.json",
+      "id": "20260821-source-extract-038",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: DESERT RETIREMENT — 038"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-14.json",
+      "id": "20260821-source-extract-039",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: DESERT RETIREMENT — 039"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-14.json",
+      "id": "20260821-source-extract-040",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: DESERT RETIREMENT — 040"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-041",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE REVELATIONS (_A.D. 611_ — 041"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-042",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE REVELATIONS (_A.D. 611_ — 042"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-043",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE REVELATIONS (_A.D. 611_ — 043"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-044",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST MOSLEMS. — 044"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-045",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST MOSLEMS. — 045"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-046",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST MOSLEMS. — 046"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-047",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST MOSLEMS. — 047"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-048",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST MOSLEMS. — 048"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-049",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST HOSTILITIES — 049"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-15.json",
+      "id": "20260821-source-extract-050",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST HOSTILITIES — 050"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-051",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST HOSTILITIES — 051"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-052",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FIRST HOSTILITIES — 052"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-053",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS — 053"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-054",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS — 054"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-055",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW HAMZAH WAS CONVERTED. UTBAH'S PROPOSALS — 055"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-056",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MIRACLE OF THE QUR'AN — 056"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-057",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE MIRACLE OF THE QUR'AN — 057"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-058",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW IT WAS FORBIDDEN TO LISTEN TO THE QUR'AN — 058"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-059",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PERSECUTION — 059"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-16.json",
+      "id": "20260821-source-extract-060",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE EMIGRATION TO ABYSSINIA (_A.D. 615_ — 060"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-061",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE CONVERSION OF UMAR, SON OF AL-KHATTAB — 061"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-062",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE CONVERSION OF UMAR, SON OF AL-KHATTAB — 062"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-063",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE EXILE OF THE BANU HA SHAM (_A.D. 626_ — 063"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-064",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE DEATH OF ABU TALIB AND KHADIJAH — 064"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-065",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE DEATH OF ABU TALIB AND KHADIJAH — 065"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-066",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE JOURNEY TO TAIF — 066"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-067",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE NOCTURNAL JOURNEY AND ASCENSION — 067"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-068",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE NOCTURNAL JOURNEY AND ASCENSION — 068"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-069",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW SIX INHABITANTS OF YASRIB WERE CONVERTED (_A.D. 620_ — 069"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-17.json",
+      "id": "20260821-source-extract-070",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE TWO OATHS OF THE AQABAH (_A.D. 621_ — 070"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-071",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE TWO OATHS OF THE AQABAH (_A.D. 621_ — 071"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-072",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE TWO OATHS OF THE AQABAH (_A.D. 621_ — 072"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-073",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE PLOT AGAINST THE PROPHET — 073"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-074",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE PLOT AGAINST THE PROPHET — 074"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-075",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE PLOT AGAINST THE PROPHET — 075"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-076",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE HEGIRA, OR THE EMIGRATION OF THE PROPHET TO MADINAH — 076"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-077",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: SURAQA'S MISHAP — 077"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-078",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: ARRIVAL OF THE PROPHET AT YASRIB — 078"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-079",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW THE MOSQUE OF AL-MADINAH WAS BUILT — 079"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-18.json",
+      "id": "20260821-source-extract-080",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: HOW THE MOSQUE OF AL-MADINAH WAS BUILT — 080"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-081",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE FAST OF RAMADHAN — 081"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-082",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: PROPERTY BESTOWED IN ALMS, AND THE PROHIBITION OF FERMENTED LIQUOURS — 082"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-083",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: AL-JAHAD (THE HOLY WAR), AND HOW IT WAS INSTITUTED — 083"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-084",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 084"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-085",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 085"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-086",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 086"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-087",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 087"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-088",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 088"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-089",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 089"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-19.json",
+      "id": "20260821-source-extract-090",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 090"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-091",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 091"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-092",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 092"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-093",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 093"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-094",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE GHAZWAH OF BADR (_Year of the Hegira, A.D. 624_ — 094"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-095",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE SOJOURN AT BADR AND THE RETURN TO AL-MADINAH — 095"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-096",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE SOJOURN AT BADR AND THE RETURN TO AL-MADINAH — 096"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-097",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE SOJOURN AT BADR AND THE RETURN TO AL-MADINAH — 097"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-098",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: ALI'S MARRIAGE — 098"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-099",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE BATTLE OF UHUD (_Year III of the Hegira, A.D. 625_ — 099"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-20.json",
+      "id": "20260821-source-extract-100",
+      "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE BATTLE OF UHUD (_Year III of the Hegira, A.D. 625_ — 100"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-368",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: Source text — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-369",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: Source text — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-370",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-371",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-372",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 03"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-373",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 04"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-374",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 05"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-375",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 06"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-376",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 07"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-377",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 08"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-378",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 09"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-379",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 10"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-380",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 11"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-381",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 12"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-382",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 13"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-383",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 14"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-384",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 15"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-385",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 16"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-386",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 17"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-387",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 18"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-388",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 19"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-389",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 20"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-390",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 21"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-391",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 22"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-392",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 23"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-393",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 24"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-394",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SIXTH — الجزء 25"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-395",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-396",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-397",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 03"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-398",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 04"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-399",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 05"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-28.json",
+      "id": "20260821-drive-extract-400",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 06"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-401",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 07"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-402",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 08"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-403",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 09"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-404",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 10"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-405",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 11"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-406",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 12"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-407",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 13"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-408",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 14"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-409",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 15"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-410",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 16"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-411",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 17"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-412",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 18"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-413",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 19"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-414",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 20"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-415",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 21"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-416",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 22"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-417",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 23"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-418",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE SEVENTH — الجزء 24"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-419",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-420",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-421",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 03"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-422",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 04"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-423",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 05"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-424",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 06"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-425",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 07"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-426",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 08"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-427",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 09"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-428",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 10"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-429",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 11"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-430",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 12"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-431",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 13"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-432",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 14"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-433",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 15"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-434",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE EIGHTH — الجزء 16"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-435",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE NINTH — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-436",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE NINTH — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-437",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE NINTH — الجزء 03"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-438",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE NINTH — الجزء 04"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-439",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE NINTH — الجزء 05"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-440",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE NINTH — الجزء 06"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-441",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: THE PROPHET'S PORTRAIT — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-442",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: THE PROPHET'S PORTRAIT — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-443",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: THE PROPHET'S PORTRAIT — الجزء 03"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-444",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: THE PROPHET'S PORTRAIT — الجزء 04"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-445",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 01"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-446",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 02"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-447",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 03"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-448",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 04"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-449",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 05"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-29.json",
+      "id": "20260821-drive-extract-450",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 06"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-451",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 07"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-452",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 08"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-453",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 09"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-454",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 10"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-455",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 11"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-456",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 12"
+    },
+    {
+      "path": "data/editorial/drafts/2026-08-21/batch-30.json",
+      "id": "20260821-drive-extract-457",
+      "title": "مادة موسعة موثّقة من «The Life of Mohammad, the Prophet of Allah»: CHAPTER THE TENTH — الجزء 13"
+    }
+  ],
+  "rawSourceFilesScanned": 0,
+  "peopleExtended": 120,
+  "extensionPassages": 647,
+  "extensionWords": 254631,
+  "sourceChannelCounts": {
+    "github-editorial-extraction": 649
+  },
+  "topSourceFiles": [
+    [
+      "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+      75
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+      50
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json",
+      45
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+      40
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+      35
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
+      25
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/fatima-long-batch-03.json",
+      11
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json",
+      10
+    ],
+    [
+      "data/editorial/drafts/2026-08-21/fatima-long-batch-04.json",
+      3
+    ],
+    [
+      "data/editorial/drafts/2026-08-20/batch-04.json",
+      2
+    ],
+    [
+      "data/editorial/drafts/2026-08-20/batch-10.json",
+      2
+    ],
+    [
+      "data/editorial/drafts/2026-08-20/batch-02.json",
+      1
+    ]
+  ],
+  "completePlacementForExplicitPeople": true
+}

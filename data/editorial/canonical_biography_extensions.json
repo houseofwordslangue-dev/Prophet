@@ -1,0 +1,977 @@
+{
+  "schema": "canonical-biography-source-extension-index-v1",
+  "generatedAt": "2026-08-21T22:59:14.696300Z",
+  "policy": {
+    "onePersonOneCanonicalBiographyPage": true,
+    "extensionsRenderOnlyOnCanonicalPersonPage": true,
+    "sourceDerivedOnly": true,
+    "noGeneratedFactualFillIn": true,
+    "thematicArticlesRemainInSections": true
+  },
+  "indexedPeople": 379,
+  "peopleExtended": 120,
+  "passageCount": 647,
+  "wordCount": 254631,
+  "people": {
+    "abd-al-muttalib": {
+      "id": "abd-al-muttalib",
+      "nameAr": "عبد المطلب بن هاشم",
+      "category": "ancestor",
+      "passageCount": 7,
+      "wordCount": 2565,
+      "file": "data/editorial/biography-extensions/abd-al-muttalib.json"
+    },
+    "abd-al-rahman-ibn-al-abbas": {
+      "id": "abd-al-rahman-ibn-al-abbas",
+      "nameAr": "عبد الرحمن بن العباس",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2249,
+      "file": "data/editorial/biography-extensions/abd-al-rahman-ibn-al-abbas.json"
+    },
+    "abd-manaf-ibn-qusayy": {
+      "id": "abd-manaf-ibn-qusayy",
+      "nameAr": "عبد مناف بن قصي",
+      "category": "ancestor",
+      "passageCount": 7,
+      "wordCount": 2564,
+      "file": "data/editorial/biography-extensions/abd-manaf-ibn-qusayy.json"
+    },
+    "abdullah-ibn-abbas": {
+      "id": "abdullah-ibn-abbas",
+      "nameAr": "عبد الله بن عباس",
+      "category": "companion",
+      "passageCount": 7,
+      "wordCount": 2536,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-abbas.json"
+    },
+    "abdullah-ibn-abd-al-muttalib": {
+      "id": "abdullah-ibn-abd-al-muttalib",
+      "nameAr": "عبد الله بن عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2225,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-abd-al-muttalib.json"
+    },
+    "abdullah-ibn-al-harith": {
+      "id": "abdullah-ibn-al-harith",
+      "nameAr": "عبد الله بن الحارث",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2249,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-al-harith.json"
+    },
+    "abdullah-ibn-al-hasan": {
+      "id": "abdullah-ibn-al-hasan",
+      "nameAr": "عبد الله بن الحسن",
+      "category": "family",
+      "passageCount": 6,
+      "wordCount": 2408,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-al-hasan.json"
+    },
+    "abdullah-ibn-al-husayn": {
+      "id": "abdullah-ibn-al-husayn",
+      "nameAr": "عبد الله بن الحسين",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2246,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-al-husayn.json"
+    },
+    "abdullah-ibn-al-zubayr": {
+      "id": "abdullah-ibn-al-zubayr",
+      "nameAr": "عبد الله بن الزبير",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2573,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-al-zubayr.json"
+    },
+    "abdullah-ibn-al-zubayr-abd-al-muttalib": {
+      "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
+      "nameAr": "عبد الله بن الزبير بن عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2255,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-al-zubayr-abd-al-muttalib.json"
+    },
+    "abdullah-ibn-jahsh": {
+      "id": "abdullah-ibn-jahsh",
+      "nameAr": "عبد الله بن جحش",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2255,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-jahsh.json"
+    },
+    "abdullah-ibn-muhammad": {
+      "id": "abdullah-ibn-muhammad",
+      "nameAr": "عبد الله بن محمد",
+      "category": "family",
+      "passageCount": 8,
+      "wordCount": 2726,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-muhammad.json"
+    },
+    "abdullah-ibn-umar": {
+      "id": "abdullah-ibn-umar",
+      "nameAr": "عبد الله بن عمر",
+      "category": "companion",
+      "passageCount": 7,
+      "wordCount": 1120,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-umar.json"
+    },
+    "abdullah-ibn-uthman": {
+      "id": "abdullah-ibn-uthman",
+      "nameAr": "عبد الله بن عثمان",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/abdullah-ibn-uthman.json"
+    },
+    "abu-ahmad-ibn-jahsh": {
+      "id": "abu-ahmad-ibn-jahsh",
+      "nameAr": "أبو أحمد بن جحش",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2201,
+      "file": "data/editorial/biography-extensions/abu-ahmad-ibn-jahsh.json"
+    },
+    "abu-al-as-ibn-al-rabi": {
+      "id": "abu-al-as-ibn-al-rabi",
+      "nameAr": "أبو العاص بن الربيع",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2527,
+      "file": "data/editorial/biography-extensions/abu-al-as-ibn-al-rabi.json"
+    },
+    "abu-bakr-ibn-al-hasan": {
+      "id": "abu-bakr-ibn-al-hasan",
+      "nameAr": "أبو بكر بن الحسن",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2253,
+      "file": "data/editorial/biography-extensions/abu-bakr-ibn-al-hasan.json"
+    },
+    "abu-salama-abdullah-ibn-abd-al-asad": {
+      "id": "abu-salama-abdullah-ibn-abd-al-asad",
+      "nameAr": "أبو سلمة عبد الله بن عبد الأسد",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2254,
+      "file": "data/editorial/biography-extensions/abu-salama-abdullah-ibn-abd-al-asad.json"
+    },
+    "abu-sufyan-ibn-al-harith": {
+      "id": "abu-sufyan-ibn-al-harith",
+      "nameAr": "أبو سفيان بن الحارث",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2255,
+      "file": "data/editorial/biography-extensions/abu-sufyan-ibn-al-harith.json"
+    },
+    "adnan": {
+      "id": "adnan",
+      "nameAr": "عدنان",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2268,
+      "file": "data/editorial/biography-extensions/adnan.json"
+    },
+    "aisha-bint-abi-bakr": {
+      "id": "aisha-bint-abi-bakr",
+      "nameAr": "عائشة بنت أبي بكر",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/aisha-bint-abi-bakr.json"
+    },
+    "al-abbas-ibn-abd-al-muttalib": {
+      "id": "al-abbas-ibn-abd-al-muttalib",
+      "nameAr": "العباس بن عبد المطلب",
+      "category": "companion",
+      "passageCount": 7,
+      "wordCount": 2598,
+      "file": "data/editorial/biography-extensions/al-abbas-ibn-abd-al-muttalib.json"
+    },
+    "al-fadl-ibn-al-abbas": {
+      "id": "al-fadl-ibn-al-abbas",
+      "nameAr": "الفضل بن العباس",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2247,
+      "file": "data/editorial/biography-extensions/al-fadl-ibn-al-abbas.json"
+    },
+    "al-harith-ibn-abd-al-muttalib": {
+      "id": "al-harith-ibn-abd-al-muttalib",
+      "nameAr": "الحارث بن عبد المطلب",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2589,
+      "file": "data/editorial/biography-extensions/al-harith-ibn-abd-al-muttalib.json"
+    },
+    "al-hasan-ibn-ali": {
+      "id": "al-hasan-ibn-ali",
+      "nameAr": "الحسن بن علي",
+      "category": "family",
+      "passageCount": 6,
+      "wordCount": 2405,
+      "file": "data/editorial/biography-extensions/al-hasan-ibn-ali.json"
+    },
+    "al-husayn-ibn-ali": {
+      "id": "al-husayn-ibn-ali",
+      "nameAr": "الحسين بن علي",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2565,
+      "file": "data/editorial/biography-extensions/al-husayn-ibn-ali.json"
+    },
+    "al-muqawwim-ibn-abd-al-muttalib": {
+      "id": "al-muqawwim-ibn-abd-al-muttalib",
+      "nameAr": "المقوّم بن عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2269,
+      "file": "data/editorial/biography-extensions/al-muqawwim-ibn-abd-al-muttalib.json"
+    },
+    "al-nadr-ibn-kinana": {
+      "id": "al-nadr-ibn-kinana",
+      "nameAr": "النضر بن كنانة",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2241,
+      "file": "data/editorial/biography-extensions/al-nadr-ibn-kinana.json"
+    },
+    "al-qasim-ibn-al-hasan": {
+      "id": "al-qasim-ibn-al-hasan",
+      "nameAr": "القاسم بن الحسن",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2247,
+      "file": "data/editorial/biography-extensions/al-qasim-ibn-al-hasan.json"
+    },
+    "al-qasim-ibn-muhammad": {
+      "id": "al-qasim-ibn-muhammad",
+      "nameAr": "القاسم بن محمد",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/al-qasim-ibn-muhammad.json"
+    },
+    "al-zubayr-ibn-abd-al-muttalib": {
+      "id": "al-zubayr-ibn-abd-al-muttalib",
+      "nameAr": "الزبير بن عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2250,
+      "file": "data/editorial/biography-extensions/al-zubayr-ibn-abd-al-muttalib.json"
+    },
+    "al-zubayr-ibn-al-awwam": {
+      "id": "al-zubayr-ibn-al-awwam",
+      "nameAr": "الزبير بن العوام",
+      "category": "companion",
+      "passageCount": 7,
+      "wordCount": 2572,
+      "file": "data/editorial/biography-extensions/al-zubayr-ibn-al-awwam.json"
+    },
+    "ali-al-akbar-ibn-al-husayn": {
+      "id": "ali-al-akbar-ibn-al-husayn",
+      "nameAr": "علي الأكبر بن الحسين",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2246,
+      "file": "data/editorial/biography-extensions/ali-al-akbar-ibn-al-husayn.json"
+    },
+    "ali-ibn-abi-al-as": {
+      "id": "ali-ibn-abi-al-as",
+      "nameAr": "علي بن أبي العاص",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2246,
+      "file": "data/editorial/biography-extensions/ali-ibn-abi-al-as.json"
+    },
+    "ali-ibn-abi-talib": {
+      "id": "ali-ibn-abi-talib",
+      "nameAr": "علي بن أبي طالب",
+      "category": "companion",
+      "passageCount": 20,
+      "wordCount": 3200,
+      "file": "data/editorial/biography-extensions/ali-ibn-abi-talib.json"
+    },
+    "ali-zayn-al-abidin": {
+      "id": "ali-zayn-al-abidin",
+      "nameAr": "علي زين العابدين بن الحسين",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/ali-zayn-al-abidin.json"
+    },
+    "amina-bint-wahb": {
+      "id": "amina-bint-wahb",
+      "nameAr": "آمنة بنت وهب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2263,
+      "file": "data/editorial/biography-extensions/amina-bint-wahb.json"
+    },
+    "amr-ibn-al-hasan": {
+      "id": "amr-ibn-al-hasan",
+      "nameAr": "عمرو بن الحسن",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2250,
+      "file": "data/editorial/biography-extensions/amr-ibn-al-hasan.json"
+    },
+    "anisa-bint-al-harith": {
+      "id": "anisa-bint-al-harith",
+      "nameAr": "أنيسة بنت الحارث",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2248,
+      "file": "data/editorial/biography-extensions/anisa-bint-al-harith.json"
+    },
+    "aqil-ibn-abi-talib": {
+      "id": "aqil-ibn-abi-talib",
+      "nameAr": "عقيل بن أبي طالب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2250,
+      "file": "data/editorial/biography-extensions/aqil-ibn-abi-talib.json"
+    },
+    "arwa-bint-abd-al-muttalib": {
+      "id": "arwa-bint-abd-al-muttalib",
+      "nameAr": "أروى بنت عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2246,
+      "file": "data/editorial/biography-extensions/arwa-bint-abd-al-muttalib.json"
+    },
+    "atika-bint-abd-al-muttalib": {
+      "id": "atika-bint-abd-al-muttalib",
+      "nameAr": "عاتكة بنت عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/atika-bint-abd-al-muttalib.json"
+    },
+    "barra-bint-abd-al-muttalib": {
+      "id": "barra-bint-abd-al-muttalib",
+      "nameAr": "برة بنت عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2247,
+      "file": "data/editorial/biography-extensions/barra-bint-abd-al-muttalib.json"
+    },
+    "burra-bint-abd-al-uzza": {
+      "id": "burra-bint-abd-al-uzza",
+      "nameAr": "برة بنت عبد العزى",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2252,
+      "file": "data/editorial/biography-extensions/burra-bint-abd-al-uzza.json"
+    },
+    "dirar-ibn-abd-al-muttalib": {
+      "id": "dirar-ibn-abd-al-muttalib",
+      "nameAr": "ضرار بن عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2267,
+      "file": "data/editorial/biography-extensions/dirar-ibn-abd-al-muttalib.json"
+    },
+    "dubaa-bint-al-zubayr": {
+      "id": "dubaa-bint-al-zubayr",
+      "nameAr": "ضباعة بنت الزبير",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2251,
+      "file": "data/editorial/biography-extensions/dubaa-bint-al-zubayr.json"
+    },
+    "fatima-al-zahra": {
+      "id": "fatima-al-zahra",
+      "nameAr": "فاطمة الزهراء",
+      "category": "family",
+      "passageCount": 4,
+      "wordCount": 640,
+      "file": "data/editorial/biography-extensions/fatima-al-zahra.json"
+    },
+    "fatima-bint-al-husayn": {
+      "id": "fatima-bint-al-husayn",
+      "nameAr": "فاطمة بنت الحسين",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2241,
+      "file": "data/editorial/biography-extensions/fatima-bint-al-husayn.json"
+    },
+    "fatima-bint-amr": {
+      "id": "fatima-bint-amr",
+      "nameAr": "فاطمة بنت عمرو",
+      "category": "family",
+      "passageCount": 4,
+      "wordCount": 1437,
+      "file": "data/editorial/biography-extensions/fatima-bint-amr.json"
+    },
+    "fihr-ibn-malik": {
+      "id": "fihr-ibn-malik",
+      "nameAr": "فهر بن مالك",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/fihr-ibn-malik.json"
+    },
+    "ghalib-ibn-fihr": {
+      "id": "ghalib-ibn-fihr",
+      "nameAr": "غالب بن فهر",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/ghalib-ibn-fihr.json"
+    },
+    "hafsa-bint-umar": {
+      "id": "hafsa-bint-umar",
+      "nameAr": "حفصة بنت عمر",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/hafsa-bint-umar.json"
+    },
+    "halima-al-sadiyya": {
+      "id": "halima-al-sadiyya",
+      "nameAr": "حليمة السعدية",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2243,
+      "file": "data/editorial/biography-extensions/halima-al-sadiyya.json"
+    },
+    "hamna-bint-jahsh": {
+      "id": "hamna-bint-jahsh",
+      "nameAr": "حمنة بنت جحش",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2253,
+      "file": "data/editorial/biography-extensions/hamna-bint-jahsh.json"
+    },
+    "hamza-ibn-abd-al-muttalib": {
+      "id": "hamza-ibn-abd-al-muttalib",
+      "nameAr": "حمزة بن عبد المطلب",
+      "category": "companion",
+      "passageCount": 5,
+      "wordCount": 2265,
+      "file": "data/editorial/biography-extensions/hamza-ibn-abd-al-muttalib.json"
+    },
+    "hashim-ibn-abd-manaf": {
+      "id": "hashim-ibn-abd-manaf",
+      "nameAr": "هاشم بن عبد مناف",
+      "category": "ancestor",
+      "passageCount": 7,
+      "wordCount": 2564,
+      "file": "data/editorial/biography-extensions/hashim-ibn-abd-manaf.json"
+    },
+    "ibrahim-ibn-muhammad": {
+      "id": "ibrahim-ibn-muhammad",
+      "nameAr": "إبراهيم بن محمد",
+      "category": "family",
+      "passageCount": 9,
+      "wordCount": 2791,
+      "file": "data/editorial/biography-extensions/ibrahim-ibn-muhammad.json"
+    },
+    "ilyas-ibn-mudar": {
+      "id": "ilyas-ibn-mudar",
+      "nameAr": "إلياس بن مضر",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/ilyas-ibn-mudar.json"
+    },
+    "jafar-ibn-abi-talib": {
+      "id": "jafar-ibn-abi-talib",
+      "nameAr": "جعفر بن أبي طالب",
+      "category": "companion",
+      "passageCount": 7,
+      "wordCount": 2570,
+      "file": "data/editorial/biography-extensions/jafar-ibn-abi-talib.json"
+    },
+    "jafar-ibn-al-husayn": {
+      "id": "jafar-ibn-al-husayn",
+      "nameAr": "جعفر بن الحسين",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/jafar-ibn-al-husayn.json"
+    },
+    "juwayriya-bint-al-harith": {
+      "id": "juwayriya-bint-al-harith",
+      "nameAr": "جويرية بنت الحارث",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/juwayriya-bint-al-harith.json"
+    },
+    "kab-ibn-luayy": {
+      "id": "kab-ibn-luayy",
+      "nameAr": "كعب بن لؤي",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/kab-ibn-luayy.json"
+    },
+    "khadija-bint-khuwaylid": {
+      "id": "khadija-bint-khuwaylid",
+      "nameAr": "خديجة بنت خويلد",
+      "category": "family",
+      "passageCount": 12,
+      "wordCount": 3314,
+      "file": "data/editorial/biography-extensions/khadija-bint-khuwaylid.json"
+    },
+    "khuzayma-ibn-mudrika": {
+      "id": "khuzayma-ibn-mudrika",
+      "nameAr": "خزيمة بن مدركة",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2241,
+      "file": "data/editorial/biography-extensions/khuzayma-ibn-mudrika.json"
+    },
+    "kilab-ibn-murra": {
+      "id": "kilab-ibn-murra",
+      "nameAr": "كلاب بن مرة",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2252,
+      "file": "data/editorial/biography-extensions/kilab-ibn-murra.json"
+    },
+    "kinana-ibn-khuzayma": {
+      "id": "kinana-ibn-khuzayma",
+      "nameAr": "كنانة بن خزيمة",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2241,
+      "file": "data/editorial/biography-extensions/kinana-ibn-khuzayma.json"
+    },
+    "luayy-ibn-ghalib": {
+      "id": "luayy-ibn-ghalib",
+      "nameAr": "لؤي بن غالب",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/luayy-ibn-ghalib.json"
+    },
+    "maadd-ibn-adnan": {
+      "id": "maadd-ibn-adnan",
+      "nameAr": "معد بن عدنان",
+      "category": "ancestor",
+      "passageCount": 6,
+      "wordCount": 2282,
+      "file": "data/editorial/biography-extensions/maadd-ibn-adnan.json"
+    },
+    "mabad-ibn-al-abbas": {
+      "id": "mabad-ibn-al-abbas",
+      "nameAr": "معبد بن العباس",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2252,
+      "file": "data/editorial/biography-extensions/mabad-ibn-al-abbas.json"
+    },
+    "malik-ibn-al-nadr": {
+      "id": "malik-ibn-al-nadr",
+      "nameAr": "مالك بن النضر",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2243,
+      "file": "data/editorial/biography-extensions/malik-ibn-al-nadr.json"
+    },
+    "mariya-al-qibtiyya": {
+      "id": "mariya-al-qibtiyya",
+      "nameAr": "مارية القبطية",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/mariya-al-qibtiyya.json"
+    },
+    "maymuna-bint-al-harith": {
+      "id": "maymuna-bint-al-harith",
+      "nameAr": "ميمونة بنت الحارث",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/maymuna-bint-al-harith.json"
+    },
+    "mudar-ibn-nizar": {
+      "id": "mudar-ibn-nizar",
+      "nameAr": "مضر بن نزار",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/mudar-ibn-nizar.json"
+    },
+    "mudrika-ibn-ilyas": {
+      "id": "mudrika-ibn-ilyas",
+      "nameAr": "مدركة بن إلياس",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2247,
+      "file": "data/editorial/biography-extensions/mudrika-ibn-ilyas.json"
+    },
+    "muhsin-ibn-ali": {
+      "id": "muhsin-ibn-ali",
+      "nameAr": "محسن بن علي",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2251,
+      "file": "data/editorial/biography-extensions/muhsin-ibn-ali.json"
+    },
+    "murra-ibn-kab": {
+      "id": "murra-ibn-kab",
+      "nameAr": "مرة بن كعب",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/murra-ibn-kab.json"
+    },
+    "musab-ibn-al-zubayr": {
+      "id": "musab-ibn-al-zubayr",
+      "nameAr": "مصعب بن الزبير",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2255,
+      "file": "data/editorial/biography-extensions/musab-ibn-al-zubayr.json"
+    },
+    "nawfal-ibn-al-harith": {
+      "id": "nawfal-ibn-al-harith",
+      "nameAr": "نوفل بن الحارث",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2575,
+      "file": "data/editorial/biography-extensions/nawfal-ibn-al-harith.json"
+    },
+    "nizar-ibn-maadd": {
+      "id": "nizar-ibn-maadd",
+      "nameAr": "نزار بن معد",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/nizar-ibn-maadd.json"
+    },
+    "person-00a9c504ca70": {
+      "id": "person-00a9c504ca70",
+      "nameAr": "ابن هشام",
+      "category": "source-person",
+      "passageCount": 3,
+      "wordCount": 502,
+      "file": "data/editorial/biography-extensions/person-00a9c504ca70.json"
+    },
+    "person-02b9ea4b736a": {
+      "id": "person-02b9ea4b736a",
+      "nameAr": "ابن دحية",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 160,
+      "file": "data/editorial/biography-extensions/person-02b9ea4b736a.json"
+    },
+    "person-505ff3c05d4b": {
+      "id": "person-505ff3c05d4b",
+      "nameAr": "أحمد بن حنبل",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 160,
+      "file": "data/editorial/biography-extensions/person-505ff3c05d4b.json"
+    },
+    "person-9f306fc0aaba": {
+      "id": "person-9f306fc0aaba",
+      "nameAr": "ابن الجوزي",
+      "category": "source-person",
+      "passageCount": 2,
+      "wordCount": 320,
+      "file": "data/editorial/biography-extensions/person-9f306fc0aaba.json"
+    },
+    "person-e096df1cc9ad": {
+      "id": "person-e096df1cc9ad",
+      "nameAr": "ابن كثير",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 160,
+      "file": "data/editorial/biography-extensions/person-e096df1cc9ad.json"
+    },
+    "qusayy-ibn-kilab": {
+      "id": "qusayy-ibn-kilab",
+      "nameAr": "قصي بن كلاب",
+      "category": "ancestor",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/qusayy-ibn-kilab.json"
+    },
+    "qutham-ibn-abd-al-muttalib": {
+      "id": "qutham-ibn-abd-al-muttalib",
+      "nameAr": "قُثَم بن عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2262,
+      "file": "data/editorial/biography-extensions/qutham-ibn-abd-al-muttalib.json"
+    },
+    "qutham-ibn-al-abbas": {
+      "id": "qutham-ibn-al-abbas",
+      "nameAr": "قثم بن العباس",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2248,
+      "file": "data/editorial/biography-extensions/qutham-ibn-al-abbas.json"
+    },
+    "rabia-ibn-al-harith": {
+      "id": "rabia-ibn-al-harith",
+      "nameAr": "ربيعة بن الحارث",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2254,
+      "file": "data/editorial/biography-extensions/rabia-ibn-al-harith.json"
+    },
+    "ruqayya-bint-muhammad": {
+      "id": "ruqayya-bint-muhammad",
+      "nameAr": "رقية بنت محمد",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2245,
+      "file": "data/editorial/biography-extensions/ruqayya-bint-muhammad.json"
+    },
+    "saad-ibn-abi-waqqas": {
+      "id": "saad-ibn-abi-waqqas",
+      "nameAr": "سعد بن أبي وقاص",
+      "category": "companion",
+      "passageCount": 6,
+      "wordCount": 2366,
+      "file": "data/editorial/biography-extensions/saad-ibn-abi-waqqas.json"
+    },
+    "safiyya-bint-abd-al-muttalib": {
+      "id": "safiyya-bint-abd-al-muttalib",
+      "nameAr": "صفية بنت عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2246,
+      "file": "data/editorial/biography-extensions/safiyya-bint-abd-al-muttalib.json"
+    },
+    "safiyya-bint-huyayy": {
+      "id": "safiyya-bint-huyayy",
+      "nameAr": "صفية بنت حيي",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/safiyya-bint-huyayy.json"
+    },
+    "salma-bint-amr-al-najjariyya": {
+      "id": "salma-bint-amr-al-najjariyya",
+      "nameAr": "سلمى بنت عمرو النجارية",
+      "category": "family",
+      "passageCount": 1,
+      "wordCount": 438,
+      "file": "data/editorial/biography-extensions/salma-bint-amr-al-najjariyya.json"
+    },
+    "sawda-bint-zama": {
+      "id": "sawda-bint-zama",
+      "nameAr": "سودة بنت زمعة",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2517,
+      "file": "data/editorial/biography-extensions/sawda-bint-zama.json"
+    },
+    "sukayna-bint-al-husayn": {
+      "id": "sukayna-bint-al-husayn",
+      "nameAr": "سكينة بنت الحسين",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2246,
+      "file": "data/editorial/biography-extensions/sukayna-bint-al-husayn.json"
+    },
+    "talha-ibn-ubaydullah": {
+      "id": "talha-ibn-ubaydullah",
+      "nameAr": "طلحة بن عبيد الله",
+      "category": "companion",
+      "passageCount": 1,
+      "wordCount": 160,
+      "file": "data/editorial/biography-extensions/talha-ibn-ubaydullah.json"
+    },
+    "talib-ibn-abi-talib": {
+      "id": "talib-ibn-abi-talib",
+      "nameAr": "طالب بن أبي طالب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2250,
+      "file": "data/editorial/biography-extensions/talib-ibn-abi-talib.json"
+    },
+    "tamam-ibn-al-abbas": {
+      "id": "tamam-ibn-al-abbas",
+      "nameAr": "تمام بن العباس",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2252,
+      "file": "data/editorial/biography-extensions/tamam-ibn-al-abbas.json"
+    },
+    "thuwayba": {
+      "id": "thuwayba",
+      "nameAr": "ثويبة مولاة أبي لهب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2250,
+      "file": "data/editorial/biography-extensions/thuwayba.json"
+    },
+    "ubaydullah-ibn-al-abbas": {
+      "id": "ubaydullah-ibn-al-abbas",
+      "nameAr": "عبيد الله بن العباس",
+      "category": "family",
+      "passageCount": 6,
+      "wordCount": 2410,
+      "file": "data/editorial/biography-extensions/ubaydullah-ibn-al-abbas.json"
+    },
+    "ubaydullah-ibn-jahsh": {
+      "id": "ubaydullah-ibn-jahsh",
+      "nameAr": "عبيد الله بن جحش",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2255,
+      "file": "data/editorial/biography-extensions/ubaydullah-ibn-jahsh.json"
+    },
+    "umama-bint-abi-al-as": {
+      "id": "umama-bint-abi-al-as",
+      "nameAr": "أمامة بنت أبي العاص",
+      "category": "family",
+      "passageCount": 6,
+      "wordCount": 2405,
+      "file": "data/editorial/biography-extensions/umama-bint-abi-al-as.json"
+    },
+    "umar-ibn-al-khattab": {
+      "id": "umar-ibn-al-khattab",
+      "nameAr": "عمر بن الخطاب",
+      "category": "companion",
+      "passageCount": 5,
+      "wordCount": 800,
+      "file": "data/editorial/biography-extensions/umar-ibn-al-khattab.json"
+    },
+    "umayma-bint-abd-al-muttalib": {
+      "id": "umayma-bint-abd-al-muttalib",
+      "nameAr": "أميمة بنت عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2244,
+      "file": "data/editorial/biography-extensions/umayma-bint-abd-al-muttalib.json"
+    },
+    "umm-al-hakam-bint-al-zubayr": {
+      "id": "umm-al-hakam-bint-al-zubayr",
+      "nameAr": "أم الحكم بنت الزبير",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 1870,
+      "file": "data/editorial/biography-extensions/umm-al-hakam-bint-al-zubayr.json"
+    },
+    "umm-habiba": {
+      "id": "umm-habiba",
+      "nameAr": "أم حبيبة رملة بنت أبي سفيان",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 1946,
+      "file": "data/editorial/biography-extensions/umm-habiba.json"
+    },
+    "umm-hakim-al-bayda-bint-abd-al-muttalib": {
+      "id": "umm-hakim-al-bayda-bint-abd-al-muttalib",
+      "nameAr": "أم حكيم البيضاء بنت عبد المطلب",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2205,
+      "file": "data/editorial/biography-extensions/umm-hakim-al-bayda-bint-abd-al-muttalib.json"
+    },
+    "umm-kulthum-bint-ali": {
+      "id": "umm-kulthum-bint-ali",
+      "nameAr": "أم كلثوم بنت علي",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2220,
+      "file": "data/editorial/biography-extensions/umm-kulthum-bint-ali.json"
+    },
+    "umm-kulthum-bint-muhammad": {
+      "id": "umm-kulthum-bint-muhammad",
+      "nameAr": "أم كلثوم بنت محمد",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2122,
+      "file": "data/editorial/biography-extensions/umm-kulthum-bint-muhammad.json"
+    },
+    "urwa-ibn-al-zubayr": {
+      "id": "urwa-ibn-al-zubayr",
+      "nameAr": "عروة بن الزبير",
+      "category": "family",
+      "passageCount": 7,
+      "wordCount": 2574,
+      "file": "data/editorial/biography-extensions/urwa-ibn-al-zubayr.json"
+    },
+    "usama-ibn-zaid": {
+      "id": "usama-ibn-zaid",
+      "nameAr": "أسامة بن زيد",
+      "category": "companion",
+      "passageCount": 9,
+      "wordCount": 1440,
+      "file": "data/editorial/biography-extensions/usama-ibn-zaid.json"
+    },
+    "uthman-ibn-affan": {
+      "id": "uthman-ibn-affan",
+      "nameAr": "عثمان بن عفان",
+      "category": "companion",
+      "passageCount": 7,
+      "wordCount": 2514,
+      "file": "data/editorial/biography-extensions/uthman-ibn-affan.json"
+    },
+    "wahb-ibn-abd-manaf-zuhra": {
+      "id": "wahb-ibn-abd-manaf-zuhra",
+      "nameAr": "وهب بن عبد مناف بن زهرة",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2256,
+      "file": "data/editorial/biography-extensions/wahb-ibn-abd-manaf-zuhra.json"
+    },
+    "zaid-ibn-haritha": {
+      "id": "zaid-ibn-haritha",
+      "nameAr": "زيد بن حارثة",
+      "category": "companion",
+      "passageCount": 3,
+      "wordCount": 480,
+      "file": "data/editorial/biography-extensions/zaid-ibn-haritha.json"
+    },
+    "zaid-ibn-thabit": {
+      "id": "zaid-ibn-thabit",
+      "nameAr": "زيد بن ثابت",
+      "category": "companion",
+      "passageCount": 1,
+      "wordCount": 160,
+      "file": "data/editorial/biography-extensions/zaid-ibn-thabit.json"
+    },
+    "zayd-ibn-al-hasan": {
+      "id": "zayd-ibn-al-hasan",
+      "nameAr": "زيد بن الحسن",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2248,
+      "file": "data/editorial/biography-extensions/zayd-ibn-al-hasan.json"
+    },
+    "zaynab-bint-ali": {
+      "id": "zaynab-bint-ali",
+      "nameAr": "زينب بنت علي",
+      "category": "family",
+      "passageCount": 8,
+      "wordCount": 2726,
+      "file": "data/editorial/biography-extensions/zaynab-bint-ali.json"
+    },
+    "zaynab-bint-jahsh": {
+      "id": "zaynab-bint-jahsh",
+      "nameAr": "زينب بنت جحش",
+      "category": "family",
+      "passageCount": 8,
+      "wordCount": 2677,
+      "file": "data/editorial/biography-extensions/zaynab-bint-jahsh.json"
+    },
+    "zaynab-bint-khuzayma": {
+      "id": "zaynab-bint-khuzayma",
+      "nameAr": "زينب بنت خزيمة",
+      "category": "family",
+      "passageCount": 5,
+      "wordCount": 2197,
+      "file": "data/editorial/biography-extensions/zaynab-bint-khuzayma.json"
+    },
+    "zaynab-bint-muhammad": {
+      "id": "zaynab-bint-muhammad",
+      "nameAr": "زينب بنت محمد",
+      "category": "family",
+      "passageCount": 6,
+      "wordCount": 2405,
+      "file": "data/editorial/biography-extensions/zaynab-bint-muhammad.json"
+    }
+  }
+}

@@ -1,0 +1,554 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.623502Z",
+  "personId": "abdullah-ibn-muhammad",
+  "personNameAr": "عبد الله بن محمد",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 8,
+  "passages": [
+    {
+      "text": "عبد الله بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. القاسم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. رقية بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي بن أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أمامة بنت أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن عثمان من أحفاد النبي ﷺ من ابنته رقية بنت محمد. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أ",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+        "recordId": "20260821-family-life-abdullah-ibn-muhammad-01",
+        "recordTitle": "عبد الله بن محمد — من سيرته وحياته — 1",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "al-qasim-ibn-muhammad",
+            "slug": "al-qasim-ibn-muhammad",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1qnxhra",
+            "slug": "",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "zaynab-bint-muhammad",
+            "slug": "zaynab-bint-muhammad",
+            "recordName": "زينب بنت محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-11w4sc2",
+            "slug": "",
+            "recordName": "زينب بنت محمد"
+          }
+        ]
+      },
+      "wordCount": 450
+    },
+    {
+      "text": "عبد الله بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. رقية بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي بن أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أمامة بنت أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن عثمان من أحفاد النبي ﷺ من ابنته رقية بنت محمد. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+        "recordId": "20260821-family-life-abdullah-ibn-muhammad-02",
+        "recordTitle": "عبد الله بن محمد — من سيرته وحياته — 2",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "al-qasim-ibn-muhammad",
+            "slug": "al-qasim-ibn-muhammad",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1qnxhra",
+            "slug": "",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "zaynab-bint-muhammad",
+            "slug": "zaynab-bint-muhammad",
+            "recordName": "زينب بنت محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-11w4sc2",
+            "slug": "",
+            "recordName": "زينب بنت محمد"
+          }
+        ]
+      },
+      "wordCount": 449
+    },
+    {
+      "text": "عبد الله بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي بن أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أمامة بنت أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن عثمان من أحفاد النبي ﷺ من ابنته رقية بنت محمد. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاق",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+        "recordId": "20260821-family-life-abdullah-ibn-muhammad-03",
+        "recordTitle": "عبد الله بن محمد — من سيرته وحياته — 3",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "al-qasim-ibn-muhammad",
+            "slug": "al-qasim-ibn-muhammad",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1qnxhra",
+            "slug": "",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "zaynab-bint-muhammad",
+            "slug": "zaynab-bint-muhammad",
+            "recordName": "زينب بنت محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-11w4sc2",
+            "slug": "",
+            "recordName": "زينب بنت محمد"
+          }
+        ]
+      },
+      "wordCount": 450
+    },
+    {
+      "text": "عبد الله بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أمامة بنت أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن عثمان من أحفاد النبي ﷺ من ابنته رقية بنت محمد. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أم كلثوم بنت علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم بنت علي",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+        "recordId": "20260821-family-life-abdullah-ibn-muhammad-04",
+        "recordTitle": "عبد الله بن محمد — من سيرته وحياته — 4",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "al-qasim-ibn-muhammad",
+            "slug": "al-qasim-ibn-muhammad",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1qnxhra",
+            "slug": "",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "zaynab-bint-muhammad",
+            "slug": "zaynab-bint-muhammad",
+            "recordName": "زينب بنت محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-11w4sc2",
+            "slug": "",
+            "recordName": "زينب بنت محمد"
+          }
+        ]
+      },
+      "wordCount": 449
+    },
+    {
+      "text": "عبد الله بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مادة مصدرية قابلة للتحقق. عبد الله بن عثمان من أحفاد النبي ﷺ من ابنته رقية بنت محمد. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أم كلثوم بنت علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم بنت علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. محسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+        "recordId": "20260821-family-life-abdullah-ibn-muhammad-05",
+        "recordTitle": "عبد الله بن محمد — من سيرته وحياته — 5",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "al-qasim-ibn-muhammad",
+            "slug": "al-qasim-ibn-muhammad",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-al-qasim-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1qnxhra",
+            "slug": "",
+            "recordName": "القاسم بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "abdullah-ibn-muhammad",
+            "slug": "abdullah-ibn-muhammad",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-abdullah-ibn-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-1del0ye",
+            "slug": "",
+            "recordName": "عبد الله بن محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-001",
+            "sourceFile": "people.json",
+            "recordId": "zaynab-bint-muhammad",
+            "slug": "zaynab-bint-muhammad",
+            "recordName": "زينب بنت محمد"
+          },
+          {
+            "ref": "ctx-zaynab-bint-muhammad-002",
+            "sourceFile": "family_biographies_all",
+            "recordId": "tree-11w4sc2",
+            "slug": "",
+            "recordName": "زينب بنت محمد"
+          }
+        ]
+      },
+      "wordCount": 448
+    },
+    {
+      "text": "بن أبي عروبة عن أيوب عن عكرمة قال: [لما زوج النبي (ص) عليا فاطمة قال:، أعطها شيئا،. قال: يا رسول الله ليس عندي شي‏ء. قال:، فأين درعك الحطمية؟]،. أخبرنا محمد بن عمر. حدثني عبد الله بن محمد بن عمر بن علي عن أبيه قال: تزوج علي بن أبي طالب فاطمة بنت رسول الله (ص) في رجب بعد مقدم النبي (ص) المدينة بخمسة أشهر و بنى بها مرجعة من بدر. و فاطمة يوم بنى بها علي بنت ثماني عشرة سنة. أخبرنا محمد بن عمر. حدثني إبراهيم بن شعيب عن يحيى بن شبل [عن أبي جعفر قال: لما قدم رسول الله (ص) المدينة نزل على أبي أيوب سنة أو نحوها. فلما تزوج على فاطمة قال لعلي: اطلب منزلا. فطلب علي منزلا فأصابه مستأخرا عن‏ 19 (1) النبي (ص) قليلا. فبنى بها فيه فجاء النبي (ص) إليها فقال:، إني أريد أن أحولك إلي،. فقالت لرسول الله: فكلم حارثة بن النعمان أن يتحول عني. فقال رسول الله: ، قد تحول حارثة عنا حتى قد",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0017",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0017",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0017-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0017.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "2db4f9a91fe0b281c16b799409031e68c60f9f6705839124c87c8e8031e72dc0",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0017-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0195.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "06ea83e3f28b64f326f3ba8631af355cbb94b2eebedcbba27a69f2c2cc3168a0",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0017-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0161.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "75063f43262a06fc64e170fe854da8eb5ea1b33d068473874f9a37d546bd50a0",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0017-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "1",
+            "locator": "OEBPS/Text/2181_0168.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "39126ddc769163866751902f1fc31a7ae431c73181a82eb7c88907274f5d8660",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "و لها فراش غير جلد كبش ننام عليه بالليل و نعلف عليه الناضح بالنهار. و ما لي و لها خادم غيرها]. أخبرنا محمد بن الفضل عن يحيى بن سعيد عن محمد بن إبراهيم قال: [كان صداق بنات رسول الله (ص) و نسائه خمس مائة درهم. اثنتي عشرة أوقية و نصفا]. أخبرنا عبد الوهاب بن عطاء عن سعيد بن أبي عروبة عن أيوب عن عكرمة قال: [لما زوج النبي (ص) عليا فاطمة قال:، أعطها شيئا،. قال: يا رسول الله ليس عندي شي‏ء. قال:، فأين درعك الحطمية؟]،. أخبرنا محمد بن عمر. حدثني عبد الله بن محمد بن عمر بن علي عن أبيه قال: تزوج علي بن أبي طالب فاطمة بنت رسول الله (ص) في رجب بعد مقدم النبي (ص) المدينة بخمسة أشهر و بنى بها مرجعة من بدر. و فاطمة يوم بنى بها علي بنت ثماني عشرة سنة. أخبرنا محمد بن عمر. حدثني إبراهيم بن شعيب عن يحيى بن شبل [عن أبي جعفر قال: لما قدم رسول الله (ص) المدينة نزل على",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0002",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0002",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0002-source-01",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0009.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "9b6dff91abbc3d00c14c0cb596c7f9e1cc3a8855e4174b5752d3d7ddce67ca94",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0002-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0160.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "5b4a2ef8bf79e300c10b7babb16d34a8734c88565128c1d416dfd98c95bb7670",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0002-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0017.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "cf997e6cbcb94abf2faba706f470bae23db82a0799b25ea13d130dd145f8acef",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0002-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0136.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "db5b270ab80558df0a70c5bdf7ff0af166362740384afafa939f362155f6bf02",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "عبد الله بن زمعة بن الأسود بن المطلب بن أسد بن عبد العزى بن قصي. فولد محمد بن عبد الله: عبد الله بن محمد. قتل ببلاد القشمير. قتله هشام بن عروة في المعركة. و عليا بن محمد. مات في السجن و كان أخذ بمصر. و حسن بن محمد. المقتول بفخ صبرا. قتله موسى بن عيسى بن موسى بن محمد بن علي بن عبد الله بن عباس بن عبد المطلب. و فاطمة بنت محمد. تزوجها ابن عمها حسن بن إبراهيم بن عبد الله بن حسن بن علي بن أبي طالب. و زينب بنت محمد. تزوجها محمد بن أبي العباس أمير المؤمنين. و دخل بها ليلة أبوها بالمدينة. و كان مع عيسى بن موسى. فتوفى عنها و لم يجمعها إليه. ثم خلف عليها بعده عيسى بن علي بن عبد الله بن عباس. ففارقها و خلف عليها محمد بن إبراهيم بن محمد بن علي بن عبد الله بن عباس. فولدت له جارية ماتت صغيرة. ثم فارقها محمد بن إبراهيم بن محمد. فخلف عليها",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
+        "recordId": "20260821-fatima-source-bio-0084",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0084",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0084-source-01",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "4",
+            "locator": "OEBPS/Text/2184_0051.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "6ef10e993b33612487bc094086a6192a26160175b44e80c7a3b73c4248bd0ef1",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0084-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0015.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "02acbaaa970c1bf7b40288593dfda11995c50c808acd372753cae37df0edc84c",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0084-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "10",
+            "locator": "OEBPS/Text/2189_0307.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "d4a181e8025d9d319c2780db6cc43adb059ce3824eaa4f65b94ee32ccaa9b153",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0084-source-04",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "5",
+            "locator": "OEBPS/Text/2185_0437.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "72c04ceef6fac80cb45c622c65cde562767b000e73a47109144a669a5b61eee2",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

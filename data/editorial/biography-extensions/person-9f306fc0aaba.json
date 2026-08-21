@@ -1,0 +1,146 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.672045Z",
+  "personId": "person-9f306fc0aaba",
+  "personNameAr": "ابن الجوزي",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 2,
+  "passages": [
+    {
+      "text": "رقية- و على مثل عشرتها». الثالث في وفاتها- رضي اللّه تعالى عنها-. قال في العيون: إنها ماتت في شعبان سنة تسع من الهجرة فيحرّر، و جلس رسول اللّه- (صلّى اللّه عليه و سلّم) - على قبرها، و نزل في حفرتها عليّ و الفضل و أسامة- رضي اللّه تعالى عنهم- و لم تلد من عثمان شيئا- رضي اللّه تعالى عنها- و اللّه تعالى أعلم. 37 الباب التاسع في بعض مناقب السيدة فاطمة بنت رسول اللّه- (صلّى اللّه عليه و سلّم) - و فيه أنواع‏ الأول: في مولدها- (عليها السلام) - و اسمها و كيفيتها: نقل أبو عمرو عن عبيد الله بن محمد بن سليمان بن جعفر الهاشميّ، قال: ولدت فاطمة- رضي اللّه تعالى عنها- سنة إحدى و أربعين من مولد النبي- (صلّى اللّه عليه و سلّم) - و هذا مغاير لما ذكره ابن إسحاق، و غيره أن أولاد النبي- (صلّى اللّه عليه و سلّم) - ولدوا قبل النبوة إلا إبراهيم- (عليه السلام) - و قال ابن الجوزي و غيره: ولدت قبل",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0040",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0040",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0040-source-01",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "2",
+            "locator": "OEBPS/Text/2387_0434.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "61eeb3269bd620aeac01c09832b424eb7fcb93eadce146569ecccebcb7719dcb",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0040-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0036.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "907865e745ba76212211b6e44236ab54502dc62ebf911bc390403df16f3049a7",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0040-source-03",
+            "resourceId": "family-companions-004",
+            "title": "الصواعق المحرقة على أهل الرفض والضلال والزندقة",
+            "author": "أحمد بن حجر الهيتمي",
+            "volume": "",
+            "locator": "200",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-004",
+            "sourceFingerprint": "83d234bfd90f1b781043e1b1c2804d623ef78c58e11a6af1a1045e4fbd5954d9",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0040-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0094.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "885e7fa86bc4d8db9f0fd01ce609ef7b12c5ac5771014d03b056dcde6b61afac",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    },
+    {
+      "text": "(صلّى اللّه عليه و سلّم) - في قبره هؤلاء الرهط الذين غسّلوه: العباس و عليّ و الفضل و صالح مولاه و خلّى أصحاب رسول اللّه- (صلّى اللّه عليه و سلّم) - بين رسول اللّه- (صلّى اللّه عليه و سلّم) - و أهله فولّوا إجنانه [ (2)]. و روى البخاري و ابن سعد عن أنس- رضي اللّه تعالى عنه- قال: لمّا دفن رسول اللّه- (صلّى اللّه عليه و سلّم) - قالت فاطمة- (عليها السلام) -: يا أنس، أ طابت أنفسكم أن تحثوا على رسول اللّه- (صلّى اللّه عليه و سلّم) - التّراب. و روى طاهر بن يحيى بن الحسن بن جعفر العلوي و ابن الجوزيّ في «الوفاء» عن علي بن أبي طالب- رضي اللّه تعالى عنه- قال: لما رمس رسول اللّه- (صلّى اللّه عليه و سلّم) - جاءت فاطمة- رضي اللّه تعالى عنها- فوقفت على قبره و أخذت قبضة من تراب القبر فوضعته على عينيها و بكت و أنشأت تقول: ما ذا على من شمّ تربة أحمد* * * أن لا",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0034",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0034",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-01",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "12",
+            "locator": "OEBPS/Text/2397_0229.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "550a034d5062e727ddcb4942a14ebdade9681370363fca0cc07d5bb67e18cf52",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-02",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "4",
+            "locator": "OEBPS/Text/2184_0051.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "6ef10e993b33612487bc094086a6192a26160175b44e80c7a3b73c4248bd0ef1",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-03",
+            "resourceId": "family-companions-027",
+            "title": "الطبقات الكبرى",
+            "author": "محمد بن سعد",
+            "volume": "8",
+            "locator": "OEBPS/Text/2188_0206.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
+            "sourceFingerprint": "a0fcdfe9b5e25c17e5cff860ddca1a2a13503247db524ecaf5413b61da42327f",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0034-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "12",
+            "locator": "OEBPS/Text/2397_0336.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "9e151d1368e129293577f4c57f9ffc7681fa62beaaa8e7c3054d8c1a98e99549",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}

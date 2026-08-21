@@ -1,0 +1,78 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "generatedAt": "2026-08-21T22:59:14.672331Z",
+  "personId": "person-e096df1cc9ad",
+  "personNameAr": "ابن كثير",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 1,
+  "passages": [
+    {
+      "text": "بنيّة؟» قالت: يا أبت، هذا من عند اللّه، إن اللّه يرزق من يشاء بغير حساب، فقال: «الحمد للّه الذي جعلك شبيهة بسيدة نساء بني إسرائيل فإنها كانت إذا رزقها اللّه عزّ و جلّ شيئا فسئلت عنه قالت هو من عند اللّه، إن اللّه يرزق من يشاء بغير حساب،» فبعث رسول اللّه (صلّى اللّه عليه و سلّم) إلى عليّ ثم أكل رسول اللّه (صلّى اللّه عليه و سلّم) و عليّ و فاطمة و حسن و حسين و جميع أزواج النبي (صلّى اللّه عليه و سلّم) و أهل بيته حتى شبعوا و بقيت الجفنة كما هي فأوسعت بقيّتها على جميع جيرانها، و جعل اللّه عزّ و جلّ فيها بركة و خيرا كثيرا [ (1)]. ____________ [ (1)] ذكره السيوطي في الدر المنثور 2/ 20 و ابن كثير في التفسير 2/ 29. 484 الباب الثالث عشر في تكثيره (صلّى اللّه عليه و سلّم) فضلة أزواد أصحابه رضي اللّه تعالى عنهم‏ روى الشيخان عن سلمة بن الأكوع و الإمام أحمد و مسلم عن أبي",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+        "recordId": "20260821-fatima-source-bio-0025",
+        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0025",
+        "sourceType": "github-editorial-extraction",
+        "sources": [
+          {
+            "ref": "20260821-fatima-source-bio-0025-source-01",
+            "resourceId": "family-companions-009",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن الشبلنجي",
+            "volume": "",
+            "locator": "190",
+            "sourceKind": "drive-text",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/family-companions-009",
+            "sourceFingerprint": "3e38b741602fd5dc2e3b9c50aaab6c1a3b74f112c03000be3551e8a3462d1203",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0025-source-02",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0044.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "a18034c460dfb0db2c68aea957b9e44dc47f58f5ad10ac1a7ed496c45f8b33d9",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0025-source-03",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "11",
+            "locator": "OEBPS/Text/2396_0160.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "335d7251cbe1f6d585fba5e6ba62bb16f7da5015d57cd1751b1204445a00f68a",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          },
+          {
+            "ref": "20260821-fatima-source-bio-0025-source-04",
+            "resourceId": "life-seerah-016",
+            "title": "سبل الهدى والرشاد في سيرة خير العباد",
+            "author": "محمد بن يوسف الصالحي الشامي",
+            "volume": "9",
+            "locator": "OEBPS/Text/2394_0482.xhtml",
+            "sourceKind": "epub-native",
+            "sourceChannel": "google-drive",
+            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
+            "sourceFingerprint": "87855a81e0dad83ecaaadecf01fa6d93dcd1969c54e80f2dac258a1321b79d0a",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
+          }
+        ]
+      },
+      "wordCount": 160
+    }
+  ]
+}
