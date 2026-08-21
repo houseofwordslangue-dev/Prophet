@@ -1,0 +1,61 @@
+name: Master structure and Ali 1000 source articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/apply_master_structure_and_ali_1000.py'
+      - '.github/workflows/apply-master-structure-ali-1000.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-master-structure-ali-1000
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build master structure and exactly 1000 Ali source articles
+        run: python scripts/apply_master_structure_and_ali_1000.py
+      - name: Commit generated site structure and Ali publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- \
+            assets/site-menu.css \
+            assets/site-menu.js \
+            data/site_sections.json \
+            data/editorial/publication_supplement.json \
+            data/editorial/ali_1000_audit.json \
+            data/editorial/drafts/2026-08-21/ali-batch-*.json \
+            ./*.html
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'Publish 1000 Ali source articles and master menu'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; refreshing main"
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          echo 'Unable to publish after four serialized retries.' >&2
+          exit 1
