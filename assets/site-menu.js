@@ -3,7 +3,7 @@
 const LABELS={
  light:'النور',prophet:'النبي',messenger:'الرسول',human:'الإنسان',mercy:'الرحمة العظمى',
  'prophetic-household':'الأسرة النبوية','prophetic-family':'العائلة النبوية',family:'الأسرة النبوية',
- companions:'الصحابة',followers:'التابعون','followers-followers':'تابعو التابعين',beloved:'السير والتراجم',
+ companions:'الصحابة',followers:'التابعون','followers-followers':'تابعو التابعين',beloved:'السير والتراجم',biographies:'السير والتراجم',
  library:'المكتبة',sources:'المكتبة',media:'الوسائط',forums:'المنتدى',forum:'المنتدى',children:'أحباب الله'
 };
 const MENU=[
@@ -13,7 +13,7 @@ const MENU=[
  ['الصحابة','editorial.html?section=companions',[['التراجم','editorial.html?section=companions&subsection=biographies'],['العلم والأقوال','editorial.html?section=companions&subsection=knowledge'],['المواقف والأحداث','editorial.html?section=companions&subsection=events']]],
  ['التابعون','editorial.html?section=followers',[['التراجم','editorial.html?section=followers']]],
  ['تابعو التابعين','editorial.html?section=followers-followers',[['التراجم','editorial.html?section=followers-followers']]],
- ['السير والتراجم','editorial.html?section=beloved',[]],
+ ['السير والتراجم','people.html',[]],
  ['أحباب الله','children.html',[['بوابة أحباب الله','children.html'],['القراءات الموثقة','children.html#verified-readings'],['القصص المصوّرة','children-stories.html'],['القصص المتحركة','children-animated.html'],['فيديو وصوت','children-videos.html']]],
  ['المكتبة','library.html',[['الكتب','library.html?type=books'],['المخطوطات','library.html?type=manuscripts'],['الدراسات والبحوث','library.html?type=studies'],['التفسير وعلوم القرآن','library.html?type=quran'],['الحديث وشروحه','library.html?type=hadith'],['السيرة والشمائل','library.html?type=seerah'],['أهل البيت','library.html?type=ahl-al-bayt'],['PDF','library.html?format=pdf'],['EPUB','library.html?format=epub']]],
  ['الوسائط','media.html',[['الفيديو','media.html?type=video'],['الصوتيات','media.html?type=audio'],['المحاضرات','media.html?type=lecture'],['البودكاست','media.html?type=podcast'],['الوثائقيات','media.html?type=documentary'],['الأبحاث المرئية والمسموعة','media.html?type=research']]],
