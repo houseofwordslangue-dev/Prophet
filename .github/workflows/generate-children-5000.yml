@@ -1,0 +1,63 @@
+name: Generate 5000 children stories
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_children_stories.py'
+      - '.github/workflows/generate-children-5000.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: children-5000-stories
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.actor != 'children-stories-bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate story shards and index
+        run: python scripts/generate_children_stories.py
+      - name: Validate corpus
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('data/children/stories')
+          m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          i=json.loads((root/'index.json').read_text(encoding='utf-8'))
+          shards=sorted(root.glob('shard-*.json'))
+          assert m['count']==5000, m['count']
+          assert i['count']==5000 and len(i['items'])==5000
+          assert len({x['id'] for x in i['items']})==5000
+          assert len(shards)==50, len(shards)
+          total=0
+          for p in shards:
+            d=json.loads(p.read_text(encoding='utf-8'))
+            assert d['count']==100
+            total+=len(d['items'])
+            assert all(x.get('fictional') is True and x.get('historicalClaim') is False for x in d['items'])
+            assert all(x.get('illustration',{}).get('type')=='pastel-svg' for x in d['items'])
+          assert total==5000,total
+          print('PASS: 5000 categorized illustrated fictional children stories')
+          PY
+      - name: Commit generated corpus
+        run: |
+          git config user.name 'children-stories-bot'
+          git config user.email 'children-stories-bot@users.noreply.github.com'
+          git add -- data/children/stories/manifest.json data/children/stories/index.json data/children/stories/shard-*.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Materialize 5000 categorized illustrated children stories'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
