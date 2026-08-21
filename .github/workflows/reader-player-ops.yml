@@ -1,0 +1,58 @@
+name: Reader Player Operations
+on:
+  push:
+    paths:
+      - 'server.py'
+      - 'platform_services.py'
+      - 'ops_services.py'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/reader-player-ops.yml'
+  pull_request:
+  schedule:
+    - cron: '25 2 * * *'
+  workflow_dispatch:
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax validation
+        run: python -m compileall -q server.py platform_services.py ops_services.py scripts tests
+      - name: Reader/player regression
+        env:
+          PM_MEDIA_SYNC_ON_START: '0'
+          PM_EPUB_CONVERT_ON_START: '0'
+        run: python -m unittest -v tests/test_reader_player_runtime.py
+      - name: Mirror manifest audit
+        run: python scripts/build_mirror_manifest.py
+  nightly-maintenance:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Safe nightly maintenance
+        env:
+          PM_MEDIA_SYNC_ON_START: '0'
+          PM_EPUB_CONVERT_ON_START: '0'
+          PM_NIGHTLY_ASSET_PREP: '0'
+        run: python scripts/nightly_reader_player_ops.py
+      - name: Upload operations report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reader-player-ops-report
+          path: |
+            data/ops/nightly_status.json
+            data/ops/regression_status.json
+            data/mirror_manifest.json
+          if-no-files-found: ignore
