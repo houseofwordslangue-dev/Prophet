@@ -1,4 +1,4 @@
-const CACHE='prophet-biography-v6-10-animated-children';
+const CACHE='prophet-biography-v6-11-animated-children-600-localized';
 const CATALOGUE_CHUNKS=Array.from({length:14},(_,i)=>`./data/catalogue/chunk-${String(i+1).padStart(2,'0')}.json`);
 const PRECACHE=[
   './library.html','./reader.html','./editorial.html','./feature.html','./children.html','./children-stories.html','./children-animated.html','./family.html','./people.html','./person.html','./media.html','./manifest.webmanifest',
