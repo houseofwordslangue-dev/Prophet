@@ -5,6 +5,7 @@ import generate_animated_children_stories as base
 import animated_children_quality_revision as revision
 import animated_children_story_writer as story_writer
 import animated_children_story_diversifier as diversifier
+import animated_children_subplots as subplots
 import animated_children_source_inspiration as source_inspiration
 
 _ORIGINAL_SVG=base.svg_art
@@ -41,6 +42,8 @@ def _editorial_gate(s:dict)->None:
         raise SystemExit(f'{sid}: missing resource-derived fictional inspiration metadata')
     if inspiration.get('quotation') is not False or inspiration.get('namedHistoricalFigures') is not False:
         raise SystemExit(f'{sid}: inspiration layer must not import quotations or named historical figures')
+    if not s.get('subplot'):
+        raise SystemExit(f'{sid}: missing story-specific subplot')
     for lang,key in [('ar','storyAr'),('en','storyEn'),('fr','storyFr')]:
         for block in s.get(key) or []:
             sentences=_sentences(block.get('text',''))
@@ -51,8 +54,8 @@ def _editorial_gate(s:dict)->None:
     if re.search(r'[\u0600-\u06ff]',fr): raise SystemExit(f'{sid}: Arabic leakage into French narrative')
     titles=[x.get('sceneTitle','') for x in s.get('scenes') or []]
     if len(titles)!=10 or len(set(titles))!=10: raise SystemExit(f'{sid}: expected ten distinct narrative beats')
-    if not all(x.get('storySpecificMethod') and x.get('storySpecificConstraint') and x.get('storySpecificOutcome') for x in s.get('scenes') or []):
-        raise SystemExit(f'{sid}: story-specific event diversification missing')
+    if not all(x.get('storySpecificMethod') and x.get('storySpecificConstraint') and x.get('storySpecificOutcome') and x.get('subplotBeat') for x in s.get('scenes') or []):
+        raise SystemExit(f'{sid}: story-specific event/subplot diversification missing')
 
 def _structural_batch_gate(batch:list[dict],batch_no:int)->None:
     if len(batch)!=20: raise SystemExit(f'batch-{batch_no:02d}: expected 20 stories, got {len(batch)}')
@@ -73,6 +76,7 @@ def build()->None:
             s=revision.revise_story(s,i)
             s=story_writer.rewrite_story(s,i)
             s=diversifier.diversify(s,i)
+            s=subplots.apply(s,i)
             s=source_inspiration.apply(s)
             batch.append(s)
         _structural_batch_gate(batch,batch_no)
@@ -82,7 +86,7 @@ def build()->None:
     if errors:
         print('\n'.join(errors[:100])); raise SystemExit(1)
     base.write_outputs(stories)
-    print('PASS: 100 resource-inspired fictional stories; unique event sequences; no repetition padding; AR/EN/FR; similarity<=0.70')
+    print('PASS: 100 resource-inspired fictional stories; unique events and subplots; no repetition padding; AR/EN/FR; similarity<=0.70')
 
 def validate_only()->None:
     stories=[]
@@ -93,7 +97,7 @@ def validate_only()->None:
     if errors:
         print('\n'.join(errors[:100])); raise SystemExit(1)
     for batch_no,start in enumerate(range(0,100,20),1): _structural_batch_gate(stories[start:start+20],batch_no)
-    print('PASS: 100 editorially revised stories; resource-inspired motifs; distinct events; no repetition padding')
+    print('PASS: 100 editorially revised stories; resource-inspired motifs; distinct events/subplots; no repetition padding')
 
 def main()->None:
     ap=argparse.ArgumentParser(); ap.add_argument('--validate-only',action='store_true'); args=ap.parse_args()
