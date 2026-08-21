@@ -1,0 +1,22 @@
+{
+  "schema": "khadija-compiled-library-manifest-v1",
+  "publishedAt": "2026-08-21T06:14:00+01:00",
+  "subject": "khadija-bint-khuwaylid",
+  "count": 1000,
+  "minimumWords": 500,
+  "categories": {
+    "early-life": {"ar":"النشأة والمكانة","section":"family","subsection":"khadija-early-life"},
+    "marriage": {"ar":"الزواج والبيت","section":"family","subsection":"khadija-marriage"},
+    "support": {"ar":"النصرة والمؤازرة","section":"mercy","subsection":"khadija-support"},
+    "revelation": {"ar":"بدء الوحي","section":"messenger","subsection":"first-revelation-khadija"},
+    "family": {"ar":"الأسرة والأبناء","section":"family","subsection":"khadija-family"},
+    "virtues": {"ar":"الفضائل والمناقب","section":"light","subsection":"khadija-virtues"},
+    "events": {"ar":"الأحداث والسيرة","section":"prophet","subsection":"makkah-khadija"},
+    "reports": {"ar":"الأخبار والروايات","section":"sources","subsection":"khadija-reports"},
+    "death": {"ar":"الوفاة وعام الحزن","section":"human","subsection":"khadija-year-of-sorrow"},
+    "legacy": {"ar":"الأثر والذكر","section":"sources","subsection":"khadija-legacy"}
+  },
+  "sourcePath": "data/editorial/khadija/sources.json",
+  "fragmentPaths": ["data/editorial/khadija/fragments-01.json","data/editorial/khadija/fragments-02.json","data/editorial/khadija/fragments-03.json","data/editorial/khadija/fragments-04.json"],
+  "articlePaths": ["data/editorial/khadija/articles-01.json","data/editorial/khadija/articles-02.json","data/editorial/khadija/articles-03.json","data/editorial/khadija/articles-04.json","data/editorial/khadija/articles-05.json"]
+}
