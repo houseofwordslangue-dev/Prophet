@@ -1,0 +1,50 @@
+{
+  "enabled_sources": ["masaha", "wikisource", "gutenberg", "openiti"],
+  "request_delay_seconds": 0.35,
+  "policy": {
+    "preferred_format": "epub",
+    "fallback_format": "pdf",
+    "skip_valid_existing_epub": true,
+    "validate_downloads": true,
+    "keep_provenance": true,
+    "do_not_overwrite": true
+  },
+  "masaha": {
+    "source_home": "https://www.masaha.org/",
+    "publication_rights": "review-source-terms-before-public-mirroring",
+    "items": [
+      {"catalogue_id":"family-companions-028","title":"الإصابة في تمييز الصحابة — ابن حجر العسقلاني","urls":["https://www.masaha.org/book/1844","https://www.masaha.org/book/1845","https://www.masaha.org/book/1846","https://www.masaha.org/book/1847","https://www.masaha.org/book/1848","https://www.masaha.org/book/1849","https://www.masaha.org/book/1850","https://www.masaha.org/book/1851"]},
+      {"catalogue_id":"family-companions-027","title":"الطبقات الكبرى — ابن سعد","group_url":"https://www.masaha.org/group/922"},
+      {"catalogue_id":"life-seerah-002","title":"السيرة النبوية — ابن هشام","urls":["https://www.masaha.org/book/3361","https://www.masaha.org/book/3362"]},
+      {"catalogue_id":"life-seerah-003","title":"الروض الأنف في شرح السيرة النبوية — السهيلي","urls":["https://www.masaha.org/book/2028"]},
+      {"catalogue_id":"life-seerah-010","title":"دلائل النبوة — أبو نعيم الأصبهاني","urls":["https://www.masaha.org/book/2186"]},
+      {"catalogue_id":"life-seerah-014","title":"المواهب اللدنية بالمنح المحمدية — القسطلاني","urls":["https://www.masaha.org/book/3004"]},
+      {"catalogue_id":"life-seerah-016","title":"سبل الهدى والرشاد في سيرة خير العباد — الصالحي الشامي","urls":["https://www.masaha.org/book/2207"]},
+      {"catalogue_id":"life-seerah-032","title":"السيرة النبوية وأخبار الخلفاء — ابن حبان","urls":["https://www.masaha.org/book/2044"]},
+      {"catalogue_id":"hadith-commentary-084","title":"الشفا بتعريف حقوق المصطفى — القاضي عياض","urls":["https://www.masaha.org/book/2067"]}
+    ]
+  },
+  "wikisource": {
+    "languages": ["ar", "en", "fr"],
+    "min_match_score": 0.84,
+    "preferred_format": "epub",
+    "export_service": "https://ws-export.wmcloud.org/"
+  },
+  "gutenberg": {
+    "languages": ["en", "fr"],
+    "min_match_score": 0.88,
+    "catalog_api": "https://gutendex.com/books",
+    "note": "Use catalogue-returned download URLs; respect Project Gutenberg roboting and trademark/license rules."
+  },
+  "openiti": {
+    "license": "CC BY-NC-SA 4.0",
+    "release": "2025.1.9",
+    "metadata_url": "https://zenodo.org/records/17767721/files/OpenITI_metadata_2025-1-9.tsv?download=1",
+    "items": []
+  },
+  "additional_sources": [
+    {"name":"Internet Archive","languages":["ar","en","fr"],"status":"implemented-separately","script":"scripts/import_archive_to_drive.py"},
+    {"name":"Gallica / BnF","languages":["fr","ar"],"status":"discovery-candidate","rule":"import only when item rights metadata permits download/reuse"},
+    {"name":"Google Books","languages":["ar","en","fr"],"status":"discovery-candidate","rule":"full-view/public-domain download links only"}
+  ]
+}
