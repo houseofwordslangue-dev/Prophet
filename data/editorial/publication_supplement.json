@@ -4356,7 +4356,14 @@
       "google-drive": 1000
     },
     "sourceCoveragePercent": 100,
-    "aiOriginalSubstantiveContentPercent": 0
+    "aiOriginalSubstantiveContentPercent": 0,
+    "organization": "one-canonical-biography-plus-thematic-supporting-articles",
+    "canonicalPersonKey": "khadija-bint-khuwaylid",
+    "canonicalPersonName": "خديجة بنت خويلد",
+    "canonicalPersonUrl": "person.html?name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
+    "canonicalBiographyCount": 1,
+    "supportingArticleCount": 1000,
+    "personAreaSupportingArticleCount": 0
   },
   "fatima1000": {
     "status": "PUBLISHED",
@@ -4403,5 +4410,10 @@
       "ali-ibn-abi-talib"
     ],
     "structuralPlacement": "proper family subgroup + biographies classification"
+  },
+  "personPublicationPolicy": {
+    "canonicalBiographyPerPerson": 1,
+    "supportingArticlesPlacement": "relevant-section-only",
+    "supportingArticlesLinkedToCanonicalPerson": true
   }
 }
