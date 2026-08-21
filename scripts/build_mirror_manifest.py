@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 import json, time, urllib.request
+from urllib.parse import urlparse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'/'imported_media.json'; OUT=ROOT/'data'/'mirror_manifest.json'
 
@@ -19,7 +20,7 @@ def probe(url):
  try:
   req=urllib.request.Request(url,method='HEAD',headers={'User-Agent':'Mozilla/5.0'})
   with urllib.request.urlopen(req,timeout=6) as r:status=getattr(r,'status',200)
-  return {'url':url,'ok':200<=status<500,'status':status,'latencyMs':round((time.perf_counter()-st)*1000),'origin':urllib.request.urlparse(url).netloc}
+  return {'url':url,'ok':200<=status<500,'status':status,'latencyMs':round((time.perf_counter()-st)*1000),'origin':urlparse(url).netloc}
  except Exception as e:return {'url':url,'ok':False,'latencyMs':round((time.perf_counter()-st)*1000),'error':str(e)[:160]}
 
 def main():
