@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/apply_master_structure_and_ali_1000.py'
+      - 'scripts/run_ali_1000_resilient.py'
       - '.github/workflows/apply-master-structure-ali-1000.yml'
   workflow_dispatch:
 
@@ -43,7 +44,7 @@ jobs:
       - name: Refresh after run locator
         run: git pull --rebase origin main
       - name: Build master structure and exactly 1000 Ali source articles
-        run: python scripts/apply_master_structure_and_ali_1000.py
+        run: python scripts/run_ali_1000_resilient.py
       - name: Commit generated site structure and Ali publication
         shell: bash
         run: |
