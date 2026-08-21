@@ -30,9 +30,32 @@ jobs:
         run: |
           git fetch origin main
           git reset --hard origin/main
-      - name: Build five source-derived life drafts per remaining member
-        run: python scripts/build_remaining_family_life_5_each.py
+      - name: Build and capture result
+        id: build
+        shell: bash
+        run: |
+          set +e
+          python scripts/build_remaining_family_life_5_each.py > /tmp/family-build.log 2>&1
+          code=$?
+          cat /tmp/family-build.log
+          echo "exitcode=$code" >> "$GITHUB_OUTPUT"
+          python - <<'PY'
+          import json,datetime,pathlib,os
+          log=pathlib.Path('/tmp/family-build.log').read_text(errors='replace')
+          code=int(os.environ.get('BUILD_CODE','0')) if os.environ.get('BUILD_CODE') else None
+          pathlib.Path('data/editorial').mkdir(parents=True,exist_ok=True)
+          # actual code is injected by shell after this block
+          pathlib.Path('/tmp/logtail.json').write_text(json.dumps({'logTail':log[-12000:]},ensure_ascii=False),encoding='utf-8')
+          PY
+          python - "$code" <<'PY'
+          import json,datetime,pathlib,sys
+          code=int(sys.argv[1]); d=json.loads(pathlib.Path('/tmp/logtail.json').read_text())
+          d.update({'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z'),'status':'SUCCESS' if code==0 else 'FAILED','exitCode':code})
+          pathlib.Path('data/editorial/remaining_family_life_5_run_status.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          exit 0
       - name: Validate draft gate
+        if: steps.build.outputs.exitcode == '0'
         run: |
           python - <<'PY'
           import glob,json
@@ -54,15 +77,22 @@ jobs:
           assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in rows)
           print('PASS',a['remainingMembersWithFiveDrafts'],'members',a['draftsGenerated'],'drafts','gaps',a['sourceGapMembers'])
           PY
-      - name: Commit drafts and audit
+      - name: Commit result
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'prophet-editorial-bot'
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add -- data/editorial/remaining_family_life_5_audit.json data/editorial/drafts/2026-08-21/family-life-five-batch-*.json
-          if git diff --cached --quiet; then echo 'No new family life drafts.'; exit 0; fi
-          git commit -m 'Draft five life articles per remaining family member'
+          git add -- data/editorial/remaining_family_life_5_run_status.json
+          if [ "${{ steps.build.outputs.exitcode }}" = "0" ]; then
+            git add -- data/editorial/remaining_family_life_5_audit.json
+            shopt -s nullglob
+            files=(data/editorial/drafts/2026-08-21/family-life-five-batch-*.json)
+            if ((${#files[@]})); then git add -- "${files[@]}"; fi
+          fi
+          if git diff --cached --quiet; then exit 0; fi
+          if [ "${{ steps.build.outputs.exitcode }}" = "0" ]; then msg='Draft five life articles per remaining family member'; else msg='Record remaining family life draft failure'; fi
+          git commit -m "$msg"
           for attempt in 1 2 3 4; do
             if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
             git rebase --abort 2>/dev/null || true
@@ -71,3 +101,6 @@ jobs:
             sleep $((attempt * 3))
           done
           exit 1
+      - name: Fail workflow if builder failed
+        if: steps.build.outputs.exitcode != '0'
+        run: exit 1
