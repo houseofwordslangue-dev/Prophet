@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/generate_animated_children_stories.py'
       - 'scripts/animated_children_quality_revision.py'
+      - 'scripts/animated_children_pipeline.py'
+      - 'data/children/animated/schema.json'
       - 'children-animated.html'
       - 'children.html'
       - 'children-stories.html'
@@ -16,6 +18,8 @@ on:
     paths:
       - 'scripts/generate_animated_children_stories.py'
       - 'scripts/animated_children_quality_revision.py'
+      - 'scripts/animated_children_pipeline.py'
+      - 'data/children/animated/schema.json'
       - 'children-animated.html'
       - 'assets/children-animated.css'
       - 'assets/children-animated.js'
@@ -41,11 +45,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generate revised corpus and scene artwork
-        run: python scripts/animated_children_quality_revision.py
+      - name: Generate five-batch revised corpus and missing artwork
+        run: python scripts/animated_children_pipeline.py
       - name: Run strict corpus audit
-        run: python scripts/animated_children_quality_revision.py --validate-only
-      - name: Validate distribution, routes and player contract
+        run: python scripts/animated_children_pipeline.py --validate-only
+      - name: Validate distribution, schema, routes and player contract
         run: |
           python - <<'PY'
           import json, pathlib
@@ -53,9 +57,12 @@ jobs:
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
           idx=json.loads((root/'index.json').read_text(encoding='utf-8'))
           status=json.loads((root/'status.json').read_text(encoding='utf-8'))
+          schema=json.loads((root/'schema.json').read_text(encoding='utf-8'))
+          assert schema['$id']=='children-animated-story-v1'
           assert m['count']==100
           assert m['ageGroups']=={'5-7':25,'8-10':25,'11-13':25,'14-16':25}
           assert all(v==10 for v in m['categories'].values()) and len(m['categories'])==10
+          assert len(m['batches'])==5 and all(len(v)==20 for v in m['batches'].values())
           assert len(idx['items'])==100
           assert len({x['id'] for x in idx['items']})==100
           assert len({x['slug'] for x in idx['items']})==100
@@ -81,7 +88,7 @@ jobs:
           assert 'speechSynthesis' in js
           assert 'children-animated.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
           assert 'children-stories.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
-          print('PASS: frontend/player/publication contract')
+          print('PASS: schema/frontend/player/publication contract')
           PY
       - name: Materialize generated corpus on main
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
