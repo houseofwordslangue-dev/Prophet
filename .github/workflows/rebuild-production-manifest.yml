@@ -1,0 +1,32 @@
+name: Rebuild production manifest
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/**/*.json'
+      - 'scripts/rebuild_production_manifest.py'
+  schedule:
+    - cron: '17 2 * * *'
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Re-enumerate published registries
+        run: python scripts/rebuild_production_manifest.py
+      - name: Commit reconciled manifest if changed
+        run: |
+          if git diff --quiet -- data/production_manifest_all.generated.json; then
+            echo 'Production manifest is current.'
+            exit 0
+          fi
+          git config user.name 'prophet-production-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/production_manifest_all.generated.json
+          git commit -m 'Rebuild unified production manifest'
+          git push
