@@ -1,0 +1,21 @@
+{
+  "version": "2026-08-21-prophet-only-v1",
+  "status": "ACTIVE",
+  "prophetOnlySections": [
+    {"id":"light","ar":"النور","en":"Light","fr":"Lumière"},
+    {"id":"prophet","ar":"النبي","en":"The Prophet","fr":"Le Prophète"},
+    {"id":"messenger","ar":"الرسول","en":"The Messenger","fr":"Le Messager"},
+    {"id":"human","ar":"الإنسان","en":"The Human Being","fr":"L’être humain"},
+    {"id":"mercy","ar":"الرحمة العظمى","en":"Great Mercy","fr":"Grande miséricorde"}
+  ],
+  "rule": "Every article assigned to these five sections must be specifically about Prophet Muhammad ﷺ. Material whose primary subject is another individual, a generic religious theme, another prophet, a companion, a family member, a historical school, or a source study must not remain in a Prophet-only section unless the article is explicitly centered on Prophet Muhammad ﷺ.",
+  "fallbackSection": "sources",
+  "fallbackSubsection": "research",
+  "noMixedSubjects": true,
+  "futurePublishingRequirement": "New records targeting a Prophet-only section should declare subjectScope=prophet-muhammad. Records without an explicit scope are checked against direct Prophet-Muhammad markers and reclassified if the check fails.",
+  "directMarkers": {
+    "ar": ["محمد", "رسول الله", "النبي محمد", "المصطفى", "المحمدية", "السيرة النبوية", "الشمائل النبوية"],
+    "en": ["Muhammad", "Mahomet", "Prophet Muhammad", "Messenger of God", "Messenger of Allah"],
+    "fr": ["Muhammad", "Mahomet", "Prophète Muhammad", "Messager de Dieu", "Messager d’Allah"]
+  }
+}
