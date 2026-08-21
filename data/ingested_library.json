@@ -1,8 +1,8 @@
 {
   "schema": "ingested-library-v2",
-  "generatedAt": "2026-08-20T23:56:02.558684+00:00",
-  "count": 64,
-  "currentBatchCount": 4,
+  "generatedAt": "2026-08-21T03:41:15.531657+00:00",
+  "count": 66,
+  "currentBatchCount": 2,
   "items": [
     {
       "id": "gutenberg-20927:ed-0c963b739d22",
@@ -914,6 +914,42 @@
       "publishedAsset": true
     },
     {
+      "id": "gutenberg-44515:ed-c1d4f9b48b25",
+      "workId": "gutenberg-44515",
+      "editionId": "ed-c1d4f9b48b25",
+      "titleOriginal": "Selections from the Kur-an",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "Edward William Lane and Stanley Lane-Poole",
+      "language": "en",
+      "subjects": [
+        "القرآن وعلومه",
+        "السيرة النبوية",
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 575353,
+      "sha256": "c1d4f9b48b2588f36ad976a189935b584dd2ecf402e1857c11bea551a2a89a65",
+      "localUrl": "/library/works/gutenberg-44515/editions/ed-c1d4f9b48b25/original.txt",
+      "readerUrl": "/library/works/gutenberg-44515/editions/ed-c1d4f9b48b25/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
       "id": "gutenberg-54782:ed-6a0c9e1352e2",
       "workId": "gutenberg-54782",
       "editionId": "ed-6a0c9e1352e2",
@@ -1671,6 +1707,40 @@
       "sha256": "69be595590dd420020562416656abe013b5f5bf37d59a853148cec41a6b110f5",
       "localUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
       "readerUrl": "/library/works/gutenberg-50619/editions/ed-69be595590dd/original.txt",
+      "capabilities": {
+        "readable": true,
+        "searchable": true,
+        "listenable": true,
+        "watchable": false
+      },
+      "searchMode": "fulltext-browser",
+      "listenMode": "browser-tts",
+      "watchMode": "none",
+      "publishedAsset": true
+    },
+    {
+      "id": "gutenberg-70744:ed-176bd8d55f0d",
+      "workId": "gutenberg-70744",
+      "editionId": "ed-176bd8d55f0d",
+      "titleOriginal": "The revolt in Arabia",
+      "titleAr": null,
+      "titleEn": null,
+      "titleFr": null,
+      "author": "C. Snouck Hurgronje",
+      "language": "en",
+      "subjects": [
+        "الدراسات الإسلامية",
+        "المصادر والدراسات"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "format": "txt",
+      "mimeType": "text/plain",
+      "size": 69353,
+      "sha256": "176bd8d55f0dac2ebe601fe84df4934e786079ba9f2a9abe9262c72d0a23647e",
+      "localUrl": "/library/works/gutenberg-70744/editions/ed-176bd8d55f0d/original.txt",
+      "readerUrl": "/library/works/gutenberg-70744/editions/ed-176bd8d55f0d/original.txt",
       "capabilities": {
         "readable": true,
         "searchable": true,
