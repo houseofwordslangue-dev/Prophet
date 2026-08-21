@@ -4,56 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b4c38">
-<title>مكتبة فيديوهات الأطفال — محمد ﷺ</title>
-<meta name="description" content="مكتبة فيديوهات تعليمية للأطفال واليافعين من قنوات موثوقة، مع فهرسة محلية وتشغيل داخل الموقع عبر مشغل YouTube المضمن.">
-<link rel="stylesheet" href="assets/tarjma-fonts.css">
-<link rel="stylesheet" href="assets/site-professional.css">
-<link rel="stylesheet" href="assets/children-videos.css">
+<title>مكتبة وسائط الأطفال — محمد ﷺ</title>
+<meta name="description" content="كل فيديوهات وصوتيات الأطفال في قسم واحد، مصنفة حسب السيرة والقرآن والدعاء والصلاة والآداب واللغة والأناشيد وغيرها.">
+<link rel="stylesheet" href="assets/tarjma-fonts.css"><link rel="stylesheet" href="assets/site-professional.css"><link rel="stylesheet" href="assets/media-player-futurist.css"><link rel="stylesheet" href="assets/children-videos.css">
 </head>
 <body class="cv-page">
-<header class="cv-head">
-  <div class="cv-wrap cv-nav">
-    <a class="cv-brand" href="children.html"><strong>✦ محمد ﷺ</strong><small data-i18n="kids">للأطفال واليافعين</small></a>
-    <nav aria-label="أقسام الأطفال">
-      <a href="children.html" data-i18n="readings">القراءات الموثقة</a>
-      <a href="children-stories.html" data-i18n="stories">5000 قصة</a>
-      <a href="children-animated.html" data-i18n="animated">100 قصة متحركة</a>
-      <a class="active" href="children-videos.html" data-i18n="channelVideos">مكتبة الفيديو</a>
-      <a href="media.html" data-i18n="mediaLibrary">مكتبة الوسائط</a>
-    </nav>
-    <select id="cvLanguage" class="cv-language" aria-label="لغة الواجهة"><option value="ar">العربية</option><option value="fr">Français</option><option value="en">English</option></select>
-  </div>
-</header>
+<header class="cv-head"><div class="cv-wrap cv-nav"><a class="cv-brand" href="children.html"><strong>✦ محمد ﷺ</strong><small data-i18n="kids">للأطفال واليافعين</small></a><nav aria-label="أقسام الأطفال"><a href="children.html" data-i18n="home">الرئيسية</a><a href="children.html#verified-readings" data-i18n="readings">القراءات الموثقة</a><a href="children-stories.html" data-i18n="stories">5000 قصة</a><a href="children-animated.html" data-i18n="animated">100 قصة متحركة</a><a class="active" href="children-videos.html" data-i18n="media">فيديو وصوت</a></nav><select id="cvLanguage" class="cv-language" aria-label="لغة الواجهة"><option value="ar">العربية</option><option value="fr">Français</option><option value="en">English</option></select></div></header>
 <main>
-<section class="cv-hero">
-  <div class="cv-wrap cv-hero-grid">
-    <div>
-      <p class="cv-kicker" data-i18n="eyebrow">مصادر منتقاة · فهرسة محلية · تشغيل داخل الموقع</p>
-      <h1 data-i18n="title">مكتبة فيديوهات الأطفال</h1>
-      <p data-i18n="intro">تُفهرس مواد قنوات تعليمية مختارة للأطفال واليافعين، وتُشغَّل داخل الموقع من خلال مشغل YouTube المضمن دون تنزيل ملفات الفيديو أو تخزينها في GitHub.</p>
-      <div class="cv-actions"><a href="media.html" data-i18n="allMedia">كل الوسائط</a></div>
-    </div>
-    <div class="cv-stat"><span data-i18n="indexed">المواد المفهرسة</span><strong id="cvTotal">0</strong><small id="cvStatus" data-i18n="loading">جارٍ تحميل الفهرس…</small></div>
-  </div>
-</section>
-<section class="cv-wrap cv-priority-section">
-  <div class="cv-section-head"><div><span data-i18n="recommended">المصادر الأقوى للموقع</span><h2 data-i18n="priorityTitle">المصادر الخمسة ذات الأولوية</h2></div><p data-i18n="priorityIntro">تظهر هذه المصادر أولًا لأنها أوسع صلة بالسيرة والقرآن والدعاء والآداب والمحتوى النبوي للأطفال.</p></div>
-  <div id="cvPriority" class="cv-priority"></div>
-</section>
-<section class="cv-wrap cv-toolbar">
-  <label class="cv-search"><span>⌕</span><input id="cvSearch" type="search" data-placeholder="search" placeholder="ابحث في فيديوهات الأطفال…"></label>
-  <select id="cvSource" aria-label="المصدر"><option value="" data-i18n="allSources">كل المصادر</option></select>
-  <select id="cvSort" aria-label="الترتيب"><option value="priority" data-i18n="prioritySort">الأولوية</option><option value="newest" data-i18n="newest">الأحدث</option><option value="views" data-i18n="views">الأكثر مشاهدة</option><option value="title" data-i18n="sortTitle">العنوان</option></select>
-</section>
-<section class="cv-wrap cv-layout">
-  <div class="cv-watch">
-    <div id="cvPlayer" class="cv-player"><div class="cv-empty"><strong data-i18n="choose">اختر فيديو للبدء</strong><span data-i18n="inside">سيعمل الفيديو داخل هذه الصفحة.</span></div></div>
-    <div id="cvNow" class="cv-now"></div>
-  </div>
-  <div class="cv-browse"><div id="cvGrid" class="cv-grid" aria-live="polite"></div></div>
-</section>
+<section class="cv-hero"><div class="cv-wrap cv-hero-grid"><div><p class="cv-kicker" data-i18n="eyebrow">وسائط الأطفال · مصنفة · تشغيل داخل الموقع</p><h1 data-i18n="title">مكتبة وسائط الأطفال</h1><p data-i18n="intro">تجمع هذه الصفحة كل الوسائط الموجّهة للأطفال واليافعين في الموقع، بما فيها مواد القنوات المختارة وأي مادة أخرى موسومة للأطفال، ثم ترتبها حسب الموضوع والنوع والمصدر.</p><div class="cv-actions"><a href="children.html" data-i18n="childrenHome">العودة إلى قسم الأطفال</a></div></div><div class="cv-stat"><span data-i18n="indexed">المواد المفهرسة</span><strong id="cvTotal">0</strong><small id="cvStatus" data-i18n="loading">جارٍ تحميل الفهرس…</small></div></div></section>
+<section class="cv-wrap cv-priority-section"><div class="cv-section-head"><div><span data-i18n="recommended">المصادر الأقوى للموقع</span><h2 data-i18n="priorityTitle">المصادر الخمسة ذات الأولوية</h2></div><p data-i18n="priorityIntro">تظهر هذه المصادر أولًا لأنها أوسع صلة بالسيرة والقرآن والدعاء والآداب والمحتوى النبوي للأطفال.</p></div><div id="cvPriority" class="cv-priority"></div></section>
+<section class="cv-wrap cv-subject-section"><div class="cv-section-head"><div><span data-i18n="bySubject">حسب الموضوع</span><h2 data-i18n="subjectsTitle">تصنيفات وسائط الأطفال</h2></div></div><div id="cvSubjects" class="cv-subject-pills"></div></section>
+<section class="cv-wrap cv-toolbar"><label class="cv-search"><span>⌕</span><input id="cvSearch" type="search" data-placeholder="search" placeholder="ابحث في وسائط الأطفال…"></label><select id="cvCategory" aria-label="الموضوع"><option value="" data-i18n="allSubjects">كل الموضوعات</option></select><select id="cvType" aria-label="نوع الوسيط"><option value="" data-i18n="allTypes">فيديو وصوت</option><option value="video" data-i18n="videos">فيديو</option><option value="audio" data-i18n="audio">صوت</option></select><select id="cvSource" aria-label="المصدر"><option value="" data-i18n="allSources">كل المصادر</option></select><select id="cvSort" aria-label="الترتيب"><option value="priority" data-i18n="prioritySort">الأولوية</option><option value="newest" data-i18n="newest">الأحدث</option><option value="views" data-i18n="views">الأكثر مشاهدة</option><option value="title" data-i18n="sortTitle">العنوان</option></select></section>
+<section class="cv-wrap cv-layout"><div class="cv-watch"><div id="cvPlayer" class="cv-player"><div class="cv-empty"><strong data-i18n="choose">اختر مادة للبدء</strong><span data-i18n="inside">ستعمل داخل هذه الصفحة.</span></div></div><div id="cvNow" class="cv-now"></div></div><div class="cv-browse"><div id="cvGrid" class="cv-grid" aria-live="polite"></div></div></section>
 </main>
-<footer class="cv-foot"><div class="cv-wrap"><strong data-i18n="footer">فهرس محلي لمصادر الأطفال مع تشغيل مضمن داخل الموقع.</strong><a href="children.html" data-i18n="backKids">العودة إلى قسم الأطفال</a></div></footer>
-<script src="assets/children-videos.js"></script>
-</body>
-</html>
+<footer class="cv-foot"><div class="cv-wrap"><strong data-i18n="footer">كل وسائط الأطفال مصنفة داخل قسم الأطفال.</strong><a href="children.html" data-i18n="backKids">العودة إلى قسم الأطفال</a></div></footer>
+<script src="assets/universal-player.js"></script><script src="assets/children-videos.js"></script>
+</body></html>
