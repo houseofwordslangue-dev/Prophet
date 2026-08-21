@@ -4,20 +4,21 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#0b4c38">
 <title>مكتبة الوسائط — محمد ﷺ</title>
-<meta name="description" content="مكتبة فيديو وصوت ومحاضرات ووثائقيات مع تشغيل داخل الموقع، بحث، قوائم موضوعية، ومتابعة المواد ذات الصلة.">
+<meta name="description" content="مكتبة منتقاة من المحاضرات والوثائقيات والصوتيات والمواد البحثية المرتبطة بالسيرة والشمائل، مع مشاهدة واستماع وبحث داخل الموقع.">
 <link rel="stylesheet" href="assets/tarjma-fonts.css">
 <link rel="stylesheet" href="assets/media-library.css">
 </head>
 <body>
 <header class="media-head">
-  <a class="media-brand" href="index.html">محمد ﷺ</a>
-  <form id="mediaSearchForm" class="media-search" role="search"><input id="mediaSearch" type="search" placeholder="ابحث في مكتبة الوسائط" aria-label="بحث في الوسائط"><button type="submit">بحث</button></form>
-  <nav><a href="library.html">المكتبة</a><a href="editorial.html">المقالات</a></nav>
+  <a class="media-brand" href="index.html"><strong>محمد ﷺ</strong><small>مكتبة الوسائط</small></a>
+  <form id="mediaSearchForm" class="media-search" role="search"><input id="mediaSearch" type="search" placeholder="ابحث بعنوان المادة أو المحاضر أو الموضوع" aria-label="بحث في الوسائط"><button type="submit">بحث</button></form>
+  <nav><a href="library.html">الكتب</a><a href="editorial.html">المقالات</a><a href="references.html">المصادر</a></nav>
 </header>
 <main>
 <section class="media-shell">
   <aside class="media-sidebar" aria-label="تصفح الوسائط">
-    <button type="button" class="active" data-media-filter="">الكل</button>
+    <div class="side-title">استكشف</div>
+    <button type="button" class="active" data-media-filter="">جميع المواد</button>
     <button type="button" data-media-filter="video">الفيديوهات</button>
     <button type="button" data-media-filter="lecture">المحاضرات</button>
     <button type="button" data-media-filter="documentary">الوثائقيات</button>
@@ -25,21 +26,22 @@
     <button type="button" data-media-filter="audio">الصوتيات</button>
     <button type="button" data-media-filter="research">الأبحاث المرئية</button>
     <hr>
-    <a href="library.html">الكتب</a>
+    <div class="side-title">المكتبة</div>
+    <a href="library.html">الكتب والمصادر</a>
     <a href="references.html">المصادر والدراسات</a>
   </aside>
   <div class="media-main">
-    <section class="hero"><div><p class="eyebrow">مكتبة مشاهدة واستماع</p><h1>الوسائط</h1><p>مشغل داخلي للفيديو والصوت، مع بحث وتصنيف ومواد ذات صلة. تستخدم النسخة المحلية عندما تتوفر، وإلا يستخدم تضمينًا عامًا صالحًا للتشغيل.</p></div><div id="mediaStatus">جار تحميل الفهرس…</div></section>
+    <section class="hero"><div><p class="eyebrow">مشاهدة · استماع · بحث</p><h1>مكتبة الوسائط</h1><p>محاضرات، سلاسل علمية، وثائقيات وصوتيات منتقاة، مرتبة لتسهيل الوصول إلى المادة ومتابعة ما يرتبط بها.</p></div><div id="mediaStatus" class="media-status">جار إعداد المكتبة…</div></section>
     <section id="mediaCounts" class="counts"></section>
     <section class="layout">
       <div class="watch-column">
-        <div id="mediaPlayer" class="player"><div class="empty">اختر مادة لتشغيلها</div></div>
+        <div id="mediaPlayer" class="player"><div class="empty"><strong>اختر مادة للبدء</strong><span>ستظهر هنا المشاهدة أو الاستماع.</span></div></div>
         <div id="mediaNow" class="now"></div>
-        <div class="watch-actions"><button id="mediaPrev" type="button">السابق</button><button id="mediaNext" type="button">التالي</button><button id="mediaCopy" type="button">نسخ رابط المادة</button></div>
-        <section class="related"><h2>مواد ذات صلة</h2><div id="relatedGrid" class="related-grid"></div></section>
+        <div class="watch-actions"><button id="mediaPrev" type="button">المادة السابقة</button><button id="mediaNext" type="button">المادة التالية</button><button id="mediaCopy" type="button">مشاركة الرابط</button></div>
+        <section class="related"><div class="section-title"><span>تابع المشاهدة</span><h2>مواد ذات صلة</h2></div><div id="relatedGrid" class="related-grid"></div></section>
       </div>
       <div class="browse-column">
-        <div class="browse-toolbar"><select id="mediaFilter" aria-label="التصنيف"><option value="">جميع التصنيفات</option><option value="video">فيديوهات</option><option value="lecture">محاضرات</option><option value="podcast">بودكاست</option><option value="research">أبحاث</option><option value="documentary">وثائقيات</option><option value="audio">صوتيات</option></select><select id="mediaSort" aria-label="الترتيب"><option value="newest">الأحدث</option><option value="views">الأكثر مشاهدة</option><option value="title">العنوان</option></select></div>
+        <div class="browse-head"><div><span>الفهرس</span><h2>تصفح المواد</h2></div><div class="browse-toolbar"><select id="mediaFilter" aria-label="التصنيف"><option value="">جميع التصنيفات</option><option value="video">فيديوهات</option><option value="lecture">محاضرات</option><option value="podcast">بودكاست</option><option value="research">أبحاث</option><option value="documentary">وثائقيات</option><option value="audio">صوتيات</option></select><select id="mediaSort" aria-label="الترتيب"><option value="newest">الأحدث</option><option value="views">الأكثر مشاهدة</option><option value="title">العنوان</option></select></div></div>
         <div id="mediaGrid" class="grid"></div>
       </div>
     </section>
