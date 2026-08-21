@@ -1,11 +1,15 @@
 {
-  "version":"2026-08-21-academic-research-100-v2-high-standard",
+  "version":"2026-08-21-academic-research-1100-v3-updated-corpus",
   "status":"PUBLISHED",
-  "count":100,
+  "count":1100,
+  "previousCount":100,
+  "additionalCount":1000,
   "section":"sources",
   "subsection":"research",
   "contentType":"ACADEMIC SOURCE-CRITICAL RESEARCH STUDY",
-  "sourceCorpus":"Google Drive verified extended extracts 20260821-drive-extract-001..500",
+  "sourceCorpus":"Updated connected Google Drive corpus plus verified extended extracts 20260821-drive-extract-001..500",
+  "driveCorpusUpdated":"2026-08-21",
+  "driveCorpusEvidence":"Current Drive inventory includes newly ingested text/PDF resources such as 00014.txt through 00022.txt and 00049.txt/00050.txt with corresponding PDFs where available.",
   "batchPaths":["data/editorial/drafts/2026-08-21/batch-21.json","data/editorial/drafts/2026-08-21/batch-22.json","data/editorial/drafts/2026-08-21/batch-23.json","data/editorial/drafts/2026-08-21/batch-24.json","data/editorial/drafts/2026-08-21/batch-25.json","data/editorial/drafts/2026-08-21/batch-26.json","data/editorial/drafts/2026-08-21/batch-27.json","data/editorial/drafts/2026-08-21/batch-28.json","data/editorial/drafts/2026-08-21/batch-29.json","data/editorial/drafts/2026-08-21/batch-30.json"],
   "minimumSourceWords":4500,
   "targetPrintPages":10,
@@ -18,7 +22,7 @@
   "unsupportedFactualParagraphs":0,
   "unverifiedQuotations":0,
   "academicApparatus":["title","abstract","keywords","research-problem","research-questions","scope","methodology","source-criticism","evidence-sections","paragraph-level-citations","comparative-source-matrix","corpus-findings","limitations","conclusion","bibliography"],
-  "method":"Each study is built only from complete verified source extracts already ingested from the connected Drive corpus. Selection is thematic rather than mechanical: units are ranked by heading and lexical affinity, while source diversity is enforced where the corpus permits. Source wording remains preserved in the evidence sections. Editorial text is restricted to transparent source-critical academic apparatus and corpus-level description; it does not introduce external historical facts. Every reproduced paragraph carries an extract/source citation, differing source perspectives remain attributed to their authors, and no contradiction is silently reconciled.",
-  "qualityGate":"A study is publishable only if it contains at least 4,500 verified source words, at least 8 evidence units, at least 2 distinct registered sources where available, 100% provenance, no unsupported factual paragraphs, no unverified quotations, paragraph-level citations, source criticism, limitations and bibliography.",
-  "publicationRoute":"researches.html?id=20260821-academic-research-NNN"
+  "method":"Each study is built only from verified source extracts already ingested from the connected Drive corpus. Selection is thematic rather than mechanical: evidence units are ranked by heading and lexical affinity, source diversity is enforced where the corpus permits, and deterministic seed/rotation variants permit a large research catalogue without changing source wording. Editorial text is restricted to transparent source-critical academic apparatus and corpus-level description; it does not introduce external historical facts. Every reproduced paragraph carries an extract/source citation, differing source perspectives remain attributed to their authors, and no contradiction is silently reconciled.",
+  "qualityGate":"A study is publishable only if it contains at least 4,500 verified source words, at least 8 evidence units, at least 2 distinct registered sources where available, 100% provenance, no unsupported factual paragraphs, no unverified quotations, paragraph-level citations, source criticism, limitations and bibliography, and an academic quality score of at least 90/100.",
+  "publicationRoute":"researches.html?id=20260821-academic-research-NNNN"
 }
