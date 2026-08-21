@@ -29,7 +29,7 @@ function mount(){
    if(children&&children.length){nav+=`<section class="pm-group${i===0?' open':''}"><button type="button">${esc(label)}</button>${flag==='reserved'?'<span class="pm-reserved">هذه الموضوعات الخمسة خاصة بالنبي ﷺ وحده.</span>':''}<div class="pm-sub">${children.map(x=>`<a href="${esc(x[1])}">${esc(x[0])}</a>`).join('')}</div></section>`}
    else nav+=`<a class="pm-single" href="${esc(href||'#')}">${esc(label)}</a>`;
  });
- drawer.innerHTML=`<div class="pm-drawer-head"><div><strong>محمد ﷺ</strong><small>السيرة · الأسرة · المعرفة</small></div><button class="pm-close" type="button" aria-label="إغلاق">×</button></div><nav class="pm-nav">${nav}</nav>`;
+ drawer.innerHTML=`<div class="pm-drawer-head"><div><strong>محمد ﷺ</strong><small>سيرة موثّقة · مكتبة · معرفة</small></div><button class="pm-close" type="button" aria-label="إغلاق">×</button></div><nav class="pm-nav">${nav}</nav>`;
  document.body.append(toggle,back,drawer);
  const open=()=>{document.documentElement.classList.add('pm-menu-open');toggle.setAttribute('aria-expanded','true')};
  const close=()=>{document.documentElement.classList.remove('pm-menu-open');toggle.setAttribute('aria-expanded','false')};
@@ -41,12 +41,23 @@ function relabel(){
  document.querySelectorAll('#sectionFilter option').forEach(o=>{if(LABELS[o.value])o.textContent=LABELS[o.value]});
  document.querySelectorAll('.ep-card .meta,.ep-article .meta').forEach(el=>{for(const [k,v] of Object.entries(LABELS)){if(el.textContent.startsWith(k+' ·'))el.textContent=v+el.textContent.slice(k.length)}});
 }
+function sourceOnlyPublicView(){
+ document.querySelectorAll('[data-ai-generated="true"],[data-ai-content="true"],[data-content-origin="ai"]').forEach(el=>el.remove());
+ const status=document.getElementById('publicationStatus');
+ if(status&&/الذكاء الاصطناعي|AI/i.test(status.textContent||'')){
+   status.textContent=(status.textContent||'').replace(/\s*·\s*المحتوى الجوهري المولّد بالذكاء الاصطناعي:\s*0/gi,'').replace(/\s*·\s*AI[^·]*/gi,'');
+ }
+ document.querySelectorAll('.ep-card,.ep-article,.person-view article').forEach(el=>{
+   const flagged=el.matches('[data-ai-generated="true"],[data-ai-content="true"],[data-content-origin="ai"]')||el.querySelector('[data-ai-generated="true"],[data-ai-content="true"],[data-content-origin="ai"]');
+   if(flagged)el.remove();
+ });
+}
 function applyQuery(){
  const q=new URLSearchParams(location.search),section=q.get('section'),sub=q.get('subsection');
  if(section){let tries=0;const t=setInterval(()=>{const f=document.getElementById('sectionFilter');if(f&&[...f.options].some(o=>o.value===section)){f.value=section;f.dispatchEvent(new Event('change'));clearInterval(t)}else if(++tries>160)clearInterval(t)},50)}
  if(sub){const search=document.getElementById('articleSearch');if(search){search.value=sub.replace(/[-_]/g,' ');search.dispatchEvent(new Event('input'))}}
  const type=q.get('type');if(type&&document.getElementById('mediaFilter')){const f=document.getElementById('mediaFilter');if([...f.options].some(o=>o.value===type)){f.value=type;f.dispatchEvent(new Event('change'))}}
 }
-function observe(){relabel();const mo=new MutationObserver(relabel);mo.observe(document.documentElement,{subtree:true,childList:true});setTimeout(()=>mo.disconnect(),20000)}
+function observe(){relabel();sourceOnlyPublicView();const mo=new MutationObserver(()=>{relabel();sourceOnlyPublicView()});mo.observe(document.documentElement,{subtree:true,childList:true,characterData:true});setTimeout(()=>mo.disconnect(),30000)}
 document.addEventListener('DOMContentLoaded',()=>{mount();applyQuery();observe()});
 })();
