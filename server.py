@@ -11,7 +11,7 @@ from urllib.request import Request, urlopen
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'data'/'imported_media.json'; EPUB_INDEX=ROOT/'data'/'generated_epubs.json'; CACHE=ROOT/'media-cache'; TELEMETRY=ROOT/'data'/'runtime_telemetry.ndjson'
 CACHE.mkdir(parents=True,exist_ok=True)
-HOST=os.getenv('PM_HOST','127.0.0.1'); PORT=int(os.getenv('PM_PORT','8080')); SYNC_ON_START=os.getenv('PM_MEDIA_SYNC_ON_START','1')=='1'; EPUB_ON_START=os.getenv('PM_EPUB_CONVERT_ON_START','1')=='1'; MAX_SYNC=int(os.getenv('PM_MEDIA_MAX_PER_SOURCE','350')); CACHE_ENABLED=os.getenv('PM_MEDIA_CACHE','1')=='1'
+HOST=os.getenv('PM_HOST','127.0.0.1'); PORT=int(os.getenv('PM_PORT','8080')); SYNC_ON_START=os.getenv('PM_MEDIA_SYNC_ON_START','1')=='1'; EPUB_ON_START=os.getenv('PM_EPUB_CONVERT_ON_START','1')=='1'; MAX_SYNC=int(os.getenv('PM_MEDIA_MAX_PER_SOURCE','350')); CACHE_ENABLED=os.getenv('PM_MEDIA_CACHE','1')=='1'; CACHE_MAX_HEIGHT=int(os.getenv('PM_MEDIA_CACHE_MAX_HEIGHT','2160'))
 _MEDIA_LOCK=threading.Lock(); _MEDIA_BY_ID={}; _CACHE_JOBS=set()
 
 def _load_catalogue():
@@ -81,7 +81,8 @@ def _cache_item(item):
  try:
   import yt_dlp
   audio=_medium(item) in {'audio','podcast'}; stem=str(CACHE/_safe_id(item_id))
-  opts={'quiet':True,'noplaylist':True,'outtmpl':stem+'.%(ext)s','socket_timeout':30,'retries':3,'fragment_retries':3,'format':'bestaudio/best' if audio else 'bestvideo[height<=1080]+bestaudio/best[height<=1080]/best','merge_output_format':None if audio else 'mp4'}
+  video_fmt=f'bestvideo[height<={CACHE_MAX_HEIGHT}]+bestaudio/best[height<={CACHE_MAX_HEIGHT}]/best'
+  opts={'quiet':True,'noplaylist':True,'outtmpl':stem+'.%(ext)s','socket_timeout':30,'retries':3,'fragment_retries':3,'format':'bestaudio/best' if audio else video_fmt,'merge_output_format':None if audio else 'mp4'}
   with yt_dlp.YoutubeDL(opts) as ydl:ydl.download([str(item.get('url') or item.get('embed') or '')])
  except Exception as exc:print('cache warning',item_id,exc)
  finally:
@@ -117,7 +118,7 @@ class Handler(SimpleHTTPRequestHandler):
  def end_headers(self):self.send_header('Cache-Control','no-store' if self.path.startswith('/api/') else 'public, max-age=300'); super().end_headers()
  def do_GET(self):
   parsed=urlparse(self.path)
-  if parsed.path=='/api/ready':return self._json({'ok':True,'mediaItems':len(_MEDIA_BY_ID),'epubs':_epub_status().get('count',0)})
+  if parsed.path=='/api/ready':return self._json({'ok':True,'mediaItems':len(_MEDIA_BY_ID),'epubs':_epub_status().get('count',0),'cacheMaxHeight':CACHE_MAX_HEIGHT})
   if parsed.path=='/api/epub/status':return self._json(_epub_status())
   if parsed.path=='/api/media/status':
    counts={k:0 for k in ('video','lecture','podcast','research','documentary','audio')}
@@ -193,6 +194,10 @@ except Exception as exc:print('platform services warning:',exc)
 
 def main():
  _sync_catalogue()
+ try:
+  from platform_services import build_search_index
+  build_search_index(True)
+ except Exception as exc:print('search rebuild warning:',exc)
  if EPUB_ON_START:threading.Thread(target=_publish_epubs,daemon=True,name='epub-publisher').start()
  print(f'Prophet site: http://{HOST}:{PORT}/'); print(f'Media player: http://{HOST}:{PORT}/media.html'); print('Platform search/sync/telemetry: enabled')
  ThreadingHTTPServer((HOST,PORT),Handler).serve_forever()
