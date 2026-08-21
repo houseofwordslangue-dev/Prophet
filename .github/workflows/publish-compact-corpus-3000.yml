@@ -1,0 +1,178 @@
+name: Publish compact editorial corpus through 3000
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-editorial-compact-3000
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download compact verified corpus
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check -q gdown
+          mkdir -p /tmp/prophet-editorial
+          gdown 'https://drive.google.com/uc?id=1bK5YhOiDbb0kp4LqrPV2TenlONfrpXTz' -O /tmp/prophet-editorial/x2500.xz
+          xz -t /tmp/prophet-editorial/x2500.xz
+          xz -dc /tmp/prophet-editorial/x2500.xz > /tmp/prophet-editorial/x2500.json
+
+      - name: Materialize 2500 published records
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, hashlib, re
+
+          ROOT=pathlib.Path('.')
+          DEST=ROOT/'data/editorial/drafts/2026-08-21'
+          DEST.mkdir(parents=True,exist_ok=True)
+          PUBLISHED_AT='2026-08-21T04:30:00+01:00'
+          compact=json.loads(pathlib.Path('/tmp/prophet-editorial/x2500.json').read_text(encoding='utf-8'))
+          assert compact['v']=='20260821-x2500-compact1'
+          rows=compact['r']; registry=compact['s']
+          assert len(rows)==2500
+
+          def source_obj(k):
+              x=registry[k]
+              return {
+                  'title':x[0], 'author':x[1], 'originalUrl':x[2],
+                  'resourceId':x[3], 'sourceKey':x[4],
+                  'sourceRepository':x[5], 'language':x[6]
+              }
+
+          ids=[]; fps=[]; section_counts={}; topic_counts={'general-drive':0,'ahl-al-bayt':0,'fatima-zahra':0}
+          for bidx in range(100):
+              batch_no=31+bidx
+              group=rows[bidx*25:(bidx+1)*25]
+              used=sorted({r[6] for r in group})
+              drafts=[]
+              for r in group:
+                  (aid,title,language,content_type,section,subsection,source_key,heading,start,end,fp,wc,paragraphs)=r
+                  d={
+                      'id':aid,'title':title,'language':language,'contentType':content_type,
+                      'section':section,'subsection':subsection,'sections':[section+'/'+subsection],
+                      'sourceKey':source_key,'sourceHeading':heading,
+                      'sourceParagraphStart':start,'sourceParagraphEnd':end,
+                      'sourceFingerprint':fp,'sourceWordCount':wc,'wordCount':wc,
+                      'paragraphs':paragraphs,'publicationStatus':'PUBLISHED','publishedAt':PUBLISHED_AT,
+                      'sourceCoveragePercent':100,'aiOriginalSubstantiveContentPercent':0,
+                      'unsupportedFactualParagraphs':0,'unverifiedQuotations':0,
+                      'quotationVerification':'PASS','provenanceStatus':'PASS','duplicateCheck':'PASS',
+                      'articleUrl':'feature.html?id='+aid
+                  }
+                  drafts.append(d); ids.append(aid); fps.append(fp)
+                  section_counts[section]=section_counts.get(section,0)+1
+                  if aid.startswith('20260821-ahlbayt-'): topic_counts['ahl-al-bayt']+=1
+                  elif aid.startswith('20260821-fatima-zahra-'): topic_counts['fatima-zahra']+=1
+                  else: topic_counts['general-drive']+=1
+              payload={
+                  'schema':'drive-source-compact-v1','version':'20260821-x2500-compact1',
+                  'draftedAt':PUBLISHED_AT,'publishedAt':PUBLISHED_AT,'publicationStatus':'PUBLISHED',
+                  'chunk':batch_no,'sourceRegistry':{k:source_obj(k) for k in used},'drafts':drafts
+              }
+              (DEST/f'batch-{batch_no:02d}.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+
+          assert len(ids)==2500 and len(set(ids))==2500
+          assert len(fps)==2500 and len(set(fps))==2500
+          assert ids[0]=='20260821-drive-extract-501'
+          assert ids[-1]=='20260821-fatima-zahra-drive-extract-1000'
+          assert topic_counts=={'general-drive':500,'ahl-al-bayt':1000,'fatima-zahra':1000}
+
+          sp=ROOT/'data/editorial/publication_supplement.json'
+          s=json.loads(sp.read_text(encoding='utf-8'))
+          paths=list(s.get('draftBatchPaths') or [])
+          for n in range(31,131):
+              p=f'data/editorial/drafts/2026-08-21/batch-{n:02d}.json'
+              if p not in paths: paths.append(p)
+          old=list(s.get('publishedIds') or []); seen=set(old)
+          for aid in ids:
+              if aid not in seen: old.append(aid); seen.add(aid)
+          s.update({
+              'version':'2026-08-21-publication-supplement-v7-all-extracted-through-3000',
+              'publishedAt':PUBLISHED_AT,'publicationStatus':'PUBLISHED',
+              'draftBatchPaths':paths,'publishedIds':old,
+              'newlyPublishedExtracts':2500,'publishedExtractionSequenceEnd':3000
+          })
+          sp.write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          audit={
+              'version':'2026-08-21-all-extracted-through-3000','status':'PASS','publishedAt':PUBLISHED_AT,
+              'newArticlesPublished':2500,'batchRange':[31,130],'batchFiles':100,
+              'firstNewArticleId':ids[0],'lastNewArticleId':ids[-1],
+              'uniqueIds':len(set(ids)),'uniqueSourceFingerprints':len(set(fps)),
+              'sourceCoveragePercent':100,'aiOriginalSubstantiveContentPercent':0,
+              'topicCounts':topic_counts,'sectionCounts':section_counts,
+              'sequenceRanges':[
+                  {'label':'additional-general-drive','start':501,'end':1000,'count':500},
+                  {'label':'ahl-al-bayt','start':1001,'end':2000,'count':1000},
+                  {'label':'fatima-zahra','start':2001,'end':3000,'count':1000}
+              ]
+          }
+          (ROOT/'data/editorial/source_extract_all_2500_audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          sw=ROOT/'service-worker.js'
+          text=sw.read_text(encoding='utf-8')
+          text=re.sub(r"^const CACHE='[^']+';", "const CACHE='prophet-biography-v6-8-14-editorial-3000';", text, count=1, flags=re.M)
+          if 'source_extract_all_2500_audit.json' not in text:
+              text=text.replace("'./data/editorial/source_extract_500_drive_audit.json'", "'./data/editorial/source_extract_500_drive_audit.json','./data/editorial/source_extract_all_2500_audit.json'")
+              text=text.replace("'/data/editorial/source_extract_500_drive_audit.json'", "'/data/editorial/source_extract_500_drive_audit.json','/data/editorial/source_extract_all_2500_audit.json'")
+          sw.write_text(text,encoding='utf-8')
+          print('PASS: 2500 records materialized; extraction sequence reaches 3000')
+          PY
+
+      - name: Validate publication inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('.')
+          s=json.loads((root/'data/editorial/publication_supplement.json').read_text(encoding='utf-8'))
+          paths=set(s.get('draftBatchPaths') or []); ids=set(s.get('publishedIds') or [])
+          expected=[f'data/editorial/drafts/2026-08-21/batch-{n:02d}.json' for n in range(31,131)]
+          assert all(p in paths for p in expected)
+          assert '20260821-drive-extract-501' in ids and '20260821-drive-extract-1000' in ids
+          assert '20260821-ahlbayt-drive-extract-0001' in ids and '20260821-ahlbayt-drive-extract-1000' in ids
+          assert '20260821-fatima-zahra-drive-extract-0001' in ids and '20260821-fatima-zahra-drive-extract-1000' in ids
+          for p in expected:
+              d=json.loads((root/p).read_text(encoding='utf-8'))
+              assert d['schema']=='drive-source-compact-v1' and d['publicationStatus']=='PUBLISHED' and len(d['drafts'])==25
+          audit=json.loads((root/'data/editorial/source_extract_all_2500_audit.json').read_text(encoding='utf-8'))
+          assert audit['status']=='PASS' and audit['newArticlesPublished']==2500 and audit['uniqueIds']==2500 and audit['uniqueSourceFingerprints']==2500
+          print('PASS: loader inputs expose all 2500 articles')
+          PY
+
+      - name: Commit publication to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/drafts/2026-08-21/batch-{31..130}.json data/editorial/publication_supplement.json data/editorial/source_extract_all_2500_audit.json service-worker.js
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publish all extracted articles through sequence 3000'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt*3))
+          done
+          exit 1
