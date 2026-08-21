@@ -33,6 +33,61 @@ Examples:
 
 A shared rendering component may be reused technically, but the visible breadcrumb, canonical route, menu ownership, backlinks, structured data, and SEO identity must reflect the person's correct primary section.
 
+## Exclusive semantic extraction rules for the five core Muhammad ﷺ sections
+
+Classification MUST be based on the **dominant/main idea, object, and research purpose of the passage/article**, not on incidental keyword occurrence.
+
+A passage may mention words belonging to several sections. That does **not** make it eligible for all of them. Assign the passage/article to the one section whose subject is the principal object of discussion. Cross-link elsewhere if useful, but do not duplicate the full content merely because related terms occur.
+
+### 1. النور — The Light
+Extract and publish here **exclusively** content whose dominant/main idea or object is:
+- **الحقيقة المحمدية**
+- **النور المحمدي**
+
+Do not classify ordinary biography, prophecy, mission, mercy, daily life, battles, family events, or companion stories here merely because the Prophet ﷺ is mentioned or because the word نور appears incidentally.
+
+### 2. النبي — The Prophet
+Extract and publish here **exclusively** content whose dominant/main idea or object is:
+- **النبي**
+- **النبوة**
+
+The passage must principally discuss Muhammad ﷺ specifically in his capacity as Prophet, or the meaning, characteristics, signs, dimensions, functions, or reality of prophethood. Do not place material here when the main subject is الرسالة, daily personal life, mercy, family, companions, or historical biography.
+
+### 3. الرسول — The Messenger
+Extract and publish here **exclusively** content whose dominant/main idea or object is:
+- **الرسول**
+- **الرسالة**
+
+The passage must principally concern Muhammad ﷺ in his capacity as Messenger, the delivery/content/function of the message,بلاغ, communication of revelation, mission, invitation, or responsibilities of الرسالة. Do not classify content here merely because رسول الله is used as an honorific inside a passage whose real subject belongs elsewhere.
+
+### 4. الإنسان — The Human Being
+Extract and publish here **exclusively** content whose dominant/main idea or object is the lived, personal, human experience of Muhammad ﷺ, especially:
+- **الحياة اليومية لمحمد صلى الله عليه وسلم**
+- **المشاكل الزوجية لمحمد صلى الله عليه وسلم**
+- **قصص محمد صلى الله عليه وسلم مع الصحابة**
+- **معاناة محمد صلى الله عليه وسلم في تبليغ الدعوة** when the emphasis is his personal/human experience of hardship rather than the doctrine/function of الرسالة
+- **القصص الشخصية لمحمد صلى الله عليه وسلم**
+
+This section is for the human, personal, domestic, relational, emotional, practical, social, and lived dimensions of his life. Do not place abstract discussions of الحقيقة المحمدية, النبوة, الرسالة, or الرحمة here unless the principal object is a concrete personal-life episode.
+
+### 5. الرحمة العظمى — The Great Mercy
+Extract and publish here **exclusively** content whose dominant/main idea or object is:
+- **رحمة محمد صلى الله عليه وسلم**
+- **الرحمة** as embodied, taught, demonstrated, or communicated through Muhammad ﷺ
+- **الرحمة العظمى**
+
+The passage must principally analyze, narrate, demonstrate, or explain mercy. Do not classify an event here merely because it contains a kind act if the real subject is biography, war, family, prophethood, الرسالة, or another primary topic.
+
+## Exclusive-classification decision test
+Before assigning any content to one of these five sections, answer in order:
+1. What is the passage/article principally **about**?
+2. If its title were rewritten as one precise research question, what would that question be?
+3. Which one of the five section definitions answers that question most directly?
+4. Would the passage still belong to that section if incidental keywords from the other four were removed? If NO, reject that classification.
+5. If no one section clearly dominates, do not force it into these five sections. Route it to the appropriate family, companions, biography, research, media, or other section.
+
+**One article/passage = one primary section.** Cross-references may point to related sections, but primary placement must remain exclusive.
+
 ## Do NOT block publication merely because
 - another person's name occurs in the text;
 - several people are discussed in the same historical event;
