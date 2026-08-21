@@ -1,0 +1,45 @@
+name: Export Archive.org PDF EPUB to transfer artifacts
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/export_archive_pdf_epub.py'
+      - '.github/workflows/export-archive-pdf-epub.yml'
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  export:
+    strategy:
+      fail-fast: false
+      max-parallel: 14
+      matrix:
+        chunk: ['01','02','03','04','05','06','07','08','09','10','11','12','13','14']
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install requests
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Resolve and download every public PDF and EPUB manifestation
+        run: |
+          python scripts/export_archive_pdf_epub.py \
+            --chunk data/catalogue/chunk-${{ matrix.chunk }}.json \
+            --out export/archive-${{ matrix.chunk }}
+      - name: Upload transfer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-formats-${{ matrix.chunk }}
+          path: export/archive-${{ matrix.chunk }}
+          if-no-files-found: warn
+          compression-level: 0
+          retention-days: 1
