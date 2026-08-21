@@ -1,0 +1,53 @@
+{
+  "id": "very-short-391",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "kindness",
+  "valueAr": "اللطف",
+  "valueEn": "Kindness",
+  "valueFr": "Gentillesse",
+  "titleAr": "مريم وسلة تفاح",
+  "titleEn": "Maryam and the basket of apples",
+  "titleFr": "Maryam et le panier de pommes",
+  "cover": "assets/children-very-short/scenes/very-short-391-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "دخل مريم إلى الساحة ورأى سلة تفاح. ابتسم واقترب بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Maryam entered the courtyard and saw a basket of apples. With a smile, Maryam walked closer. It felt like a good day to do something kind.",
+      "textFr": "Maryam entra dans la cour et vit un panier de pommes. Avec un sourire, Maryam s’approcha doucement. C’était un bon jour pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-391-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ مريم أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة اللطف، فتوقف وفكر في أبسط طريقة للمساعدة.",
+      "textEn": "Maryam noticed a young friend who needed help. Remembering kindness, Maryam stopped and thought of one simple way to help.",
+      "textFr": "Maryam remarqua un petit ami qui avait besoin d’aide. En pensant à la gentillesse, Maryam chercha une manière simple de l’aider.",
+      "image": "assets/children-very-short/scenes/very-short-391-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك مريم سلة تفاح بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Maryam shared the basket of apples gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Maryam partagea le panier de pommes avec douceur et dit quelques mots gentils. L’ami se sentit mieux et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-391-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد مريم سعيدًا. عرف أن اللطف يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Maryam went home smiling. A small act of kindness had made a big, warm difference.",
+      "textFr": "À la fin de la journée, Maryam rentra avec le sourire. Un petit geste de gentillesse avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-391-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

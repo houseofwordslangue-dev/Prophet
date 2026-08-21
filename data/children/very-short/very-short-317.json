@@ -1,0 +1,53 @@
+{
+  "id": "very-short-317",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "helping",
+  "valueAr": "المساعدة",
+  "valueEn": "Helping",
+  "valueFr": "Entraide",
+  "titleAr": "سليم وكرة حمراء",
+  "titleEn": "Salim and the red ball",
+  "titleFr": "Salim et le balle rouge",
+  "cover": "assets/children-very-short/scenes/very-short-317-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "دخل سليم إلى الساحة ورأى كرة حمراء. ابتسم واقترب بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Salim entered the courtyard and saw a red ball. With a smile, Salim walked closer. It felt like a good day to do something kind.",
+      "textFr": "Salim entra dans la cour et vit un balle rouge. Avec un sourire, Salim s’approcha doucement. C’était un bon jour pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-317-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ سليم أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة المساعدة، فتوقف وفكر في أبسط طريقة للمساعدة.",
+      "textEn": "Salim noticed a young friend who needed help. Remembering helping, Salim stopped and thought of one simple way to help.",
+      "textFr": "Salim remarqua un petit ami qui avait besoin d’aide. En pensant à la entraide, Salim chercha une manière simple de l’aider.",
+      "image": "assets/children-very-short/scenes/very-short-317-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك سليم كرة حمراء بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Salim shared the red ball gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Salim partagea le balle rouge avec douceur et dit quelques mots gentils. L’ami se sentit mieux et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-317-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد سليم سعيدًا. عرف أن المساعدة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Salim went home smiling. A small act of helping had made a big, warm difference.",
+      "textFr": "À la fin de la journée, Salim rentra avec le sourire. Un petit geste de entraide avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-317-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "very-short-204",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "gratitude",
+  "valueAr": "الشكر",
+  "valueEn": "Gratitude",
+  "valueFr": "Gratitude",
+  "titleAr": "ليلى وكرة حمراء",
+  "titleEn": "Layla and the red ball",
+  "titleFr": "Layla et le balle rouge",
+  "cover": "assets/children-very-short/scenes/very-short-204-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "دخل ليلى إلى غرفة اللعب ورأى كرة حمراء. ابتسم واقترب بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Layla entered the playroom and saw a red ball. With a smile, Layla walked closer. It felt like a good day to do something kind.",
+      "textFr": "Layla entra dans la salle de jeux et vit un balle rouge. Avec un sourire, Layla s’approcha doucement. C’était un bon jour pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-204-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ ليلى أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة الشكر، فتوقف وفكر في أبسط طريقة للمساعدة.",
+      "textEn": "Layla noticed a young friend who needed help. Remembering gratitude, Layla stopped and thought of one simple way to help.",
+      "textFr": "Layla remarqua un petit ami qui avait besoin d’aide. En pensant à la gratitude, Layla chercha une manière simple de l’aider.",
+      "image": "assets/children-very-short/scenes/very-short-204-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك ليلى كرة حمراء بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Layla shared the red ball gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Layla partagea le balle rouge avec douceur et dit quelques mots gentils. L’ami se sentit mieux et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-204-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد ليلى سعيدًا. عرف أن الشكر يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Layla went home smiling. A small act of gratitude had made a big, warm difference.",
+      "textFr": "À la fin de la journée, Layla rentra avec le sourire. Un petit geste de gratitude avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-204-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

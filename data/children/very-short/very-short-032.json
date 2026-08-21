@@ -1,0 +1,53 @@
+{
+  "id": "very-short-032",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "honesty",
+  "valueAr": "الصدق",
+  "valueEn": "Honesty",
+  "valueFr": "Honnêteté",
+  "titleAr": "آدم وكتاب مصور",
+  "titleEn": "Adam and the picture book",
+  "titleFr": "Adam et le livre illustré",
+  "cover": "assets/children-very-short/scenes/very-short-032-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "دخل آدم إلى الشرفة ورأى كتاب مصور. ابتسم واقترب بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Adam entered the balcony and saw a picture book. With a smile, Adam walked closer. It felt like a good day to do something kind.",
+      "textFr": "Adam entra dans le balcon et vit un livre illustré. Avec un sourire, Adam s’approcha doucement. C’était un bon jour pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-032-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ آدم أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة الصدق، فتوقف وفكر في أبسط طريقة للمساعدة.",
+      "textEn": "Adam noticed a young friend who needed help. Remembering honesty, Adam stopped and thought of one simple way to help.",
+      "textFr": "Adam remarqua un petit ami qui avait besoin d’aide. En pensant à la honnêteté, Adam chercha une manière simple de l’aider.",
+      "image": "assets/children-very-short/scenes/very-short-032-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك آدم كتاب مصور بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Adam shared the picture book gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Adam partagea le livre illustré avec douceur et dit quelques mots gentils. L’ami se sentit mieux et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-032-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد آدم سعيدًا. عرف أن الصدق يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Adam went home smiling. A small act of honesty had made a big, warm difference.",
+      "textFr": "À la fin de la journée, Adam rentra avec le sourire. Un petit geste de honnêteté avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-032-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

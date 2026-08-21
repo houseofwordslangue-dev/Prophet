@@ -1,0 +1,53 @@
+{
+  "id": "very-short-385",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "cleanliness",
+  "valueAr": "النظافة",
+  "valueEn": "Cleanliness",
+  "valueFr": "Propreté",
+  "titleAr": "أمين وسلة تفاح",
+  "titleEn": "Amin and the basket of apples",
+  "titleFr": "Amin et le panier de pommes",
+  "cover": "assets/children-very-short/scenes/very-short-385-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "دخل أمين إلى الساحة ورأى سلة تفاح. ابتسم واقترب بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Amin entered the courtyard and saw a basket of apples. With a smile, Amin walked closer. It felt like a good day to do something kind.",
+      "textFr": "Amin entra dans la cour et vit un panier de pommes. Avec un sourire, Amin s’approcha doucement. C’était un bon jour pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-385-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ أمين أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة النظافة، فتوقف وفكر في أبسط طريقة للمساعدة.",
+      "textEn": "Amin noticed a young friend who needed help. Remembering cleanliness, Amin stopped and thought of one simple way to help.",
+      "textFr": "Amin remarqua un petit ami qui avait besoin d’aide. En pensant à la propreté, Amin chercha une manière simple de l’aider.",
+      "image": "assets/children-very-short/scenes/very-short-385-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك أمين سلة تفاح بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Amin shared the basket of apples gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Amin partagea le panier de pommes avec douceur et dit quelques mots gentils. L’ami se sentit mieux et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-385-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد أمين سعيدًا. عرف أن النظافة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Amin went home smiling. A small act of cleanliness had made a big, warm difference.",
+      "textFr": "À la fin de la journée, Amin rentra avec le sourire. Un petit geste de propreté avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-385-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}
