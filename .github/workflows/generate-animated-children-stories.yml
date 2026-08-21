@@ -5,6 +5,8 @@ on:
     paths:
       - 'scripts/generate_animated_children_stories.py'
       - 'scripts/animated_children_quality_revision.py'
+      - 'scripts/animated_children_story_writer.py'
+      - 'scripts/animated_children_source_inspiration.py'
       - 'scripts/animated_children_pipeline.py'
       - 'data/children/animated/schema.json'
       - 'children-animated.html'
@@ -18,6 +20,8 @@ on:
     paths:
       - 'scripts/generate_animated_children_stories.py'
       - 'scripts/animated_children_quality_revision.py'
+      - 'scripts/animated_children_story_writer.py'
+      - 'scripts/animated_children_source_inspiration.py'
       - 'scripts/animated_children_pipeline.py'
       - 'data/children/animated/schema.json'
       - 'children-animated.html'
@@ -45,14 +49,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generate five-batch revised corpus and missing artwork
+      - name: Generate five-batch source-inspired revised corpus and missing artwork
         run: python scripts/animated_children_pipeline.py
-      - name: Run strict corpus audit
+      - name: Run strict editorial and corpus audit
         run: python scripts/animated_children_pipeline.py --validate-only
       - name: Validate distribution, schema, routes and player contract
         run: |
           python - <<'PY'
-          import json, pathlib
+          import json, pathlib, re
           root=pathlib.Path('data/children/animated')
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
           idx=json.loads((root/'index.json').read_text(encoding='utf-8'))
@@ -71,6 +75,7 @@ jobs:
           assert len({x['titleFr'] for x in idx['items']})==100
           assert status['ready']==100 and status['failed']==0 and status['animatedStoryboard']==100
           assert status['nativeVideo']==0 and status['ttsFallback']==100
+          motifs=set()
           for x in idx['items']:
               p=pathlib.Path(x['path']); assert p.is_file(),p
               d=json.loads(p.read_text(encoding='utf-8'))
@@ -79,8 +84,18 @@ jobs:
               assert d['listenMode']=='browser-tts'
               assert d['fictional'] is True and d['historicalClaim'] is False
               assert len(d['scenes'])==10
+              insp=d['inspirationBasis']
+              assert insp['type']=='resource-derived-motif'
+              assert insp['historicalRetelling'] is False and insp['quotation'] is False and insp['namedHistoricalFigures'] is False
+              motifs.add(insp['eventPattern'])
+              assert not re.search(r'[\u0600-\u06ff]', d['synopsisFr']+' '+d['moralFr']+' '+' '.join(s['text'] for s in d['storyFr']))
+              for lang in ('storyAr','storyEn','storyFr'):
+                  for scene in d[lang]:
+                      ss=[z.strip() for z in re.split(r'(?<=[.!؟?])\s+',scene['text']) if z.strip()]
+                      assert len(set(ss))/max(1,len(ss)) >= .92,(d['id'],lang,scene['sceneNumber'])
               assert pathlib.Path(d['cover']['path']).is_file()
               assert all(pathlib.Path(s['illustration']).is_file() for s in d['scenes'])
+          assert len(motifs)==10,motifs
           html=pathlib.Path('children-animated.html').read_text(encoding='utf-8')
           js=pathlib.Path('assets/children-animated.js').read_text(encoding='utf-8')
           for required in ['caPlay','caPrev','caNext','caTimeline','caNarration','caSubtitleToggle','caReadToggle','caListen','caFullscreen','caReplay','caSpeed','caPlayerLanguage','caSceneSelect']:
@@ -88,7 +103,7 @@ jobs:
           assert 'speechSynthesis' in js
           assert 'children-animated.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
           assert 'children-stories.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
-          print('PASS: schema/frontend/player/publication contract')
+          print('PASS: source-inspired editorial/schema/frontend/player/publication contract')
           PY
       - name: Materialize generated corpus on main
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -97,7 +112,7 @@ jobs:
           git config user.email 'animated-children-bot@users.noreply.github.com'
           git add -- data/children/animated assets/children-animated/covers assets/children-animated/scenes
           if ! git diff --cached --quiet; then
-            git commit -m 'Materialize 100 animated children stories'
+            git commit -m 'Materialize source-inspired animated children stories'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
