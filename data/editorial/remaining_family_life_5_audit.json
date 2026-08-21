@@ -1,0 +1,962 @@
+{
+  "schema": "remaining-family-five-life-articles-audit-v1",
+  "generatedAt": "2026-08-21T07:06:58.385597Z",
+  "targetPerPerson": 5,
+  "minimumRequiredWords": 501,
+  "articleKind": "life-article-not-research",
+  "rosterEntriesConsidered": 117,
+  "membersAlreadyCompleteOrExcluded": 0,
+  "remainingMembersWithFiveDrafts": 0,
+  "sourceGapMembers": 117,
+  "draftsGenerated": 0,
+  "expectedFromCompletedMembers": 0,
+  "minimumObservedWords": 0,
+  "maximumObservedWords": 0,
+  "articlesAtOrBelow500Words": 0,
+  "uniqueArticleBodies": 0,
+  "sourceCoveragePercent": 0,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "prophetOnlySectionsUsed": 0,
+  "publicationStatus": "DRAFT",
+  "membersCompleted": [],
+  "excludedAlreadyComplete": [],
+  "sourceGapMembersDetail": [
+    {
+      "id": "abd-al-muttalib",
+      "name": "abd-al-muttalib",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "hashim-ibn-abd-manaf",
+      "name": "hashim-ibn-abd-manaf",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abd-manaf-ibn-qusayy",
+      "name": "abd-manaf-ibn-qusayy",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "qusayy-ibn-kilab",
+      "name": "qusayy-ibn-kilab",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "kilab-ibn-murra",
+      "name": "kilab-ibn-murra",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "murra-ibn-kab",
+      "name": "murra-ibn-kab",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "kab-ibn-luayy",
+      "name": "kab-ibn-luayy",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "luayy-ibn-ghalib",
+      "name": "luayy-ibn-ghalib",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ghalib-ibn-fihr",
+      "name": "ghalib-ibn-fihr",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "fihr-ibn-malik",
+      "name": "fihr-ibn-malik",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "malik-ibn-al-nadr",
+      "name": "malik-ibn-al-nadr",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-nadr-ibn-kinana",
+      "name": "al-nadr-ibn-kinana",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "kinana-ibn-khuzayma",
+      "name": "kinana-ibn-khuzayma",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "khuzayma-ibn-mudrika",
+      "name": "khuzayma-ibn-mudrika",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "mudrika-ibn-ilyas",
+      "name": "mudrika-ibn-ilyas",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ilyas-ibn-mudar",
+      "name": "ilyas-ibn-mudar",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "mudar-ibn-nizar",
+      "name": "mudar-ibn-nizar",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "nizar-ibn-maadd",
+      "name": "nizar-ibn-maadd",
+      "group": "upper-lineage",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "maadd-ibn-adnan",
+      "name": "maadd-ibn-adnan",
+      "group": "upper-lineage",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 32,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "adnan",
+      "name": "adnan",
+      "group": "upper-lineage",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 102,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-abd-al-muttalib",
+      "name": "abdullah-ibn-abd-al-muttalib",
+      "group": "parents",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "amina-bint-wahb",
+      "name": "amina-bint-wahb",
+      "group": "parents",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 25,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "fatima-bint-amr",
+      "name": "فاطمة بنت عمرو",
+      "group": "direct-grandparents",
+      "sourceRecords": 3,
+      "uniqueSourceWords": 117,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "wahb-ibn-abd-manaf-zuhra",
+      "name": "وهب بن عبد مناف بن زهرة",
+      "group": "direct-grandparents",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 52,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "burra-bint-abd-al-uzza",
+      "name": "برة بنت عبد العزى",
+      "group": "direct-grandparents",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 50,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-harith-ibn-abd-al-muttalib",
+      "name": "al-harith-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 81,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-zubayr-ibn-abd-al-muttalib",
+      "name": "al-zubayr-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 110,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-talib-ibn-abd-al-muttalib",
+      "name": "abu-talib-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 119,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "hamza-ibn-abd-al-muttalib",
+      "name": "hamza-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 151,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-abbas-ibn-abd-al-muttalib",
+      "name": "al-abbas-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 150,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-lahab-ibn-abd-al-muttalib",
+      "name": "abu-lahab-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 128,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "dirar-ibn-abd-al-muttalib",
+      "name": "dirar-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 110,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-muqawwim-ibn-abd-al-muttalib",
+      "name": "al-muqawwim-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 95,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "name": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 101,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "qutham-ibn-abd-al-muttalib",
+      "name": "qutham-ibn-abd-al-muttalib",
+      "group": "paternal-uncles",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 84,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "safiyya-bint-abd-al-muttalib",
+      "name": "صفية بنت عبد المطلب",
+      "group": "paternal-aunts",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 49,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "atika-bint-abd-al-muttalib",
+      "name": "عاتكة بنت عبد المطلب",
+      "group": "paternal-aunts",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 49,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "arwa-bint-abd-al-muttalib",
+      "name": "أروى بنت عبد المطلب",
+      "group": "paternal-aunts",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 49,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umayma-bint-abd-al-muttalib",
+      "name": "أميمة بنت عبد المطلب",
+      "group": "paternal-aunts",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 92,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "barra-bint-abd-al-muttalib",
+      "name": "برة بنت عبد المطلب",
+      "group": "paternal-aunts",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 49,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umm-hakim-al-bayda-bint-abd-al-muttalib",
+      "name": "أم حكيم البيضاء بنت عبد المطلب",
+      "group": "paternal-aunts",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 46,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abd-yaghuth-ibn-wahb",
+      "name": "abd-yaghuth-ibn-wahb",
+      "group": "maternal-zuhra",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "saad-ibn-abi-waqqas",
+      "name": "saad-ibn-abi-waqqas",
+      "group": "maternal-zuhra",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "salma-bint-amr-al-najjariyya",
+      "name": "salma-bint-amr-al-najjariyya",
+      "group": "banu-najjar",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "khadija-bint-khuwaylid",
+      "name": "khadija-bint-khuwaylid",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "sawda-bint-zama",
+      "name": "sawda-bint-zama",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "aisha-bint-abi-bakr",
+      "name": "aisha-bint-abi-bakr",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "hafsa-bint-umar",
+      "name": "hafsa-bint-umar",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "zaynab-bint-khuzayma",
+      "name": "zaynab-bint-khuzayma",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umm-salama",
+      "name": "umm-salama",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "zaynab-bint-jahsh",
+      "name": "zaynab-bint-jahsh",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "juwayriya-bint-al-harith",
+      "name": "juwayriya-bint-al-harith",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umm-habiba",
+      "name": "umm-habiba",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "safiyya-bint-huyayy",
+      "name": "safiyya-bint-huyayy",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "maymuna-bint-al-harith",
+      "name": "maymuna-bint-al-harith",
+      "group": "wives",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "mariya-al-qibtiyya",
+      "name": "mariya-al-qibtiyya",
+      "group": "mariya",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ibrahim-ibn-muhammad",
+      "name": "ibrahim-ibn-muhammad",
+      "group": "mariya",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-qasim-ibn-muhammad",
+      "name": "al-qasim-ibn-muhammad",
+      "group": "sons",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-muhammad",
+      "name": "abdullah-ibn-muhammad",
+      "group": "sons",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "zaynab-bint-muhammad",
+      "name": "zaynab-bint-muhammad",
+      "group": "daughters",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ruqayya-bint-muhammad",
+      "name": "ruqayya-bint-muhammad",
+      "group": "daughters",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umm-kulthum-bint-muhammad",
+      "name": "umm-kulthum-bint-muhammad",
+      "group": "daughters",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "fatima-al-zahra",
+      "name": "fatima-al-zahra",
+      "group": "daughters",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-al-as-ibn-al-rabi",
+      "name": "أبو العاص بن الربيع",
+      "group": "sons-in-law",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 79,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "uthman-ibn-affan",
+      "name": "عثمان بن عفان",
+      "group": "sons-in-law",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 77,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ali-ibn-abi-talib",
+      "name": "ali-ibn-abi-talib",
+      "group": "sons-in-law",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ali-ibn-abi-al-as",
+      "name": "علي بن أبي العاص",
+      "group": "grandchildren-zaynab",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 31,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umama-bint-abi-al-as",
+      "name": "أمامة بنت أبي العاص",
+      "group": "grandchildren-zaynab",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 31,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-uthman",
+      "name": "عبد الله بن عثمان",
+      "group": "grandchildren-ruqayya",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 36,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-hasan-ibn-ali",
+      "name": "al-hasan-ibn-ali",
+      "group": "grandchildren-fatima",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-husayn-ibn-ali",
+      "name": "al-husayn-ibn-ali",
+      "group": "grandchildren-fatima",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "zaynab-bint-ali",
+      "name": "زينب بنت علي",
+      "group": "grandchildren-fatima",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 87,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umm-kulthum-bint-ali",
+      "name": "أم كلثوم بنت علي",
+      "group": "grandchildren-fatima",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 79,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "muhsin-ibn-ali",
+      "name": "محسن بن علي",
+      "group": "grandchildren-fatima",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 77,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-hasan-al-muthanna",
+      "name": "الحسن المثنى",
+      "group": "hasan-descendants",
+      "sourceRecords": 3,
+      "uniqueSourceWords": 91,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "zayd-ibn-al-hasan",
+      "name": "زيد بن الحسن",
+      "group": "hasan-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 37,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "amr-ibn-al-hasan",
+      "name": "عمرو بن الحسن",
+      "group": "hasan-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 32,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-qasim-ibn-al-hasan",
+      "name": "القاسم بن الحسن",
+      "group": "hasan-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 32,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-al-hasan",
+      "name": "عبد الله بن الحسن",
+      "group": "hasan-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 38,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-bakr-ibn-al-hasan",
+      "name": "أبو بكر بن الحسن",
+      "group": "hasan-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 33,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ali-al-akbar-ibn-al-husayn",
+      "name": "علي الأكبر بن الحسين",
+      "group": "husayn-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 33,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ali-zayn-al-abidin",
+      "name": "علي زين العابدين بن الحسين",
+      "group": "husayn-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 39,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-al-husayn",
+      "name": "عبد الله بن الحسين",
+      "group": "husayn-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 38,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "jafar-ibn-al-husayn",
+      "name": "جعفر بن الحسين",
+      "group": "husayn-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 37,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "fatima-bint-al-husayn",
+      "name": "فاطمة بنت الحسين",
+      "group": "husayn-descendants",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 74,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "sukayna-bint-al-husayn",
+      "name": "سكينة بنت الحسين",
+      "group": "husayn-descendants",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 37,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "talib-ibn-abi-talib",
+      "name": "طالب بن أبي طالب",
+      "group": "abu-talib-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 42,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "aqil-ibn-abi-talib",
+      "name": "عقيل بن أبي طالب",
+      "group": "abu-talib-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 42,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "jafar-ibn-abi-talib",
+      "name": "جعفر بن أبي طالب",
+      "group": "abu-talib-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 42,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-fadl-ibn-al-abbas",
+      "name": "الفضل بن العباس",
+      "group": "abbas-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 40,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-abbas",
+      "name": "abdullah-ibn-abbas",
+      "group": "abbas-children",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ubaydullah-ibn-al-abbas",
+      "name": "عبيد الله بن العباس",
+      "group": "abbas-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 36,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "qutham-ibn-al-abbas",
+      "name": "قثم بن العباس",
+      "group": "abbas-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 40,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "mabad-ibn-al-abbas",
+      "name": "معبد بن العباس",
+      "group": "abbas-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 35,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abd-al-rahman-ibn-al-abbas",
+      "name": "عبد الرحمن بن العباس",
+      "group": "abbas-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 36,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "tamam-ibn-al-abbas",
+      "name": "تمام بن العباس",
+      "group": "abbas-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 35,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-sufyan-ibn-al-harith",
+      "name": "أبو سفيان بن الحارث",
+      "group": "harith-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 46,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "nawfal-ibn-al-harith",
+      "name": "نوفل بن الحارث",
+      "group": "harith-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 45,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "rabia-ibn-al-harith",
+      "name": "ربيعة بن الحارث",
+      "group": "harith-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 45,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-al-harith",
+      "name": "عبد الله بن الحارث",
+      "group": "harith-children",
+      "sourceRecords": 2,
+      "uniqueSourceWords": 91,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
+      "name": "عبد الله بن الزبير بن عبد المطلب",
+      "group": "zubayr-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 40,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "dubaa-bint-al-zubayr",
+      "name": "ضباعة بنت الزبير",
+      "group": "zubayr-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 41,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "umm-al-hakam-bint-al-zubayr",
+      "name": "أم الحكم بنت الزبير",
+      "group": "zubayr-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 37,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-zubayr-ibn-al-awwam",
+      "name": "الزبير بن العوام",
+      "group": "aunts-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 35,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-jahsh",
+      "name": "عبد الله بن جحش",
+      "group": "aunts-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 36,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "ubaydullah-ibn-jahsh",
+      "name": "عبيد الله بن جحش",
+      "group": "aunts-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 36,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-ahmad-ibn-jahsh",
+      "name": "أبو أحمد بن جحش",
+      "group": "aunts-children",
+      "sourceRecords": 0,
+      "uniqueSourceWords": 0,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "hamna-bint-jahsh",
+      "name": "حمنة بنت جحش",
+      "group": "aunts-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 35,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abdullah-ibn-al-zubayr",
+      "name": "عبد الله بن الزبير",
+      "group": "zubayr-awwam-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 47,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "urwa-ibn-al-zubayr",
+      "name": "عروة بن الزبير",
+      "group": "zubayr-awwam-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 46,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "musab-ibn-al-zubayr",
+      "name": "مصعب بن الزبير",
+      "group": "zubayr-awwam-children",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 41,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "thuwayba",
+      "name": "ثويبة مولاة أبي لهب",
+      "group": "foster-mothers",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 40,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "halima-al-sadiyya",
+      "name": "حليمة السعدية",
+      "group": "foster-mothers",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 38,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "anisa-bint-al-harith",
+      "name": "أنيسة بنت الحارث",
+      "group": "foster-siblings",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 44,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-shayma-bint-al-harith",
+      "name": "الشيماء بنت الحارث",
+      "group": "foster-siblings",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 48,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "abu-salama-abdullah-ibn-abd-al-asad",
+      "name": "أبو سلمة عبد الله بن عبد الأسد",
+      "group": "foster-siblings",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 43,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    },
+    {
+      "id": "al-harith-ibn-abd-al-uzza-al-sadi",
+      "name": "الحارث بن عبد العزى السعدي",
+      "group": "halima-family",
+      "sourceRecords": 1,
+      "uniqueSourceWords": 40,
+      "needed": "at least 505 source words supporting five distinct >500-word windows"
+    }
+  ],
+  "batchPaths": []
+}
