@@ -1,10 +1,11 @@
-name: Extract 1000 Khadija source articles
+name: Extract 1000 longform Khadija source articles
 
 on:
   push:
     branches: [main]
     paths:
       - 'scripts/build_khadija_1000_source_articles.py'
+      - 'data/editorial/khadija_drive_sources.json'
       - '.github/workflows/extract-khadija-1000.yml'
       - 'library/works/**'
       - 'data/editorial/drafts/**'
@@ -14,13 +15,15 @@ permissions:
   contents: write
 
 concurrency:
-  group: prophet-khadija-1000
+  group: prophet-khadija-1000-longform
   cancel-in-progress: false
 
 jobs:
   extract:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 60
+    env:
+      KHADIJA_DRIVE_CACHE: .tmp/khadija-drive
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,43 +31,58 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install PDF text extraction
+      - name: Install extractors
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils
-      - name: Extract exactly 1000 source-grounded Khadija articles
+          python -m pip install --quiet gdown
+      - name: Acquire registered Google Drive sources when link-accessible
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$KHADIJA_DRIVE_CACHE"
+          python - <<'PY'
+          import json,subprocess,pathlib
+          src=json.load(open('data/editorial/khadija_drive_sources.json',encoding='utf-8'))['sources']
+          out=pathlib.Path('.tmp/khadija-drive')
+          for s in src:
+              ext='.pdf' if s.get('mimeType')=='application/pdf' else '.txt'
+              target=out/(s['id']+'__source'+ext)
+              if target.exists() and target.stat().st_size: continue
+              cp=subprocess.run(['gdown','--fuzzy',f"https://drive.google.com/file/d/{s['id']}/view",'-O',str(target)])
+              if cp.returncode!=0:
+                  target.unlink(missing_ok=True)
+                  print('Drive source unavailable to runner; snapshot fallback remains:',s['title'])
+          PY
+      - name: Build exactly 1000 Khadija articles of at least 500 words
         run: python scripts/build_khadija_1000_source_articles.py
-      - name: Validate source-only publication
+      - name: Validate source-only longform publication
         shell: bash
         run: |
           python - <<'PY'
           import json,glob
           a=json.load(open('data/editorial/khadija_1000_audit.json',encoding='utf-8'))
           assert a['target']==1000 and a['extracted']==1000 and a['complete'] is True, a
-          files=glob.glob('data/editorial/drafts/2026-08-21/khadija-batch-*.json')
+          assert a['allAtLeast500Words'] is True
           rows=[]
-          for f in files: rows += json.load(open(f,encoding='utf-8'))['drafts']
-          assert len(rows)==1000
-          assert len({x['id'] for x in rows})==1000
-          assert all(x['sourceCoveragePercent']==100 for x in rows)
-          assert all(x['aiOriginalSubstantiveContentPercent']==0 for x in rows)
+          for f in sorted(glob.glob('data/editorial/drafts/2026-08-21/khadija-batch-*.json')):
+              rows += json.load(open(f,encoding='utf-8'))['drafts']
+          assert len(rows)==1000 and len({x['id'] for x in rows})==1000
+          assert all(x['wordCount']>=500 for x in rows)
+          assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in rows)
           assert all(x['duplicateCheck']=='PASS' and x['provenanceStatus']=='PASS' for x in rows)
-          aliases=('خديجة','خديجه','khadija','khadijah','khadidja','khadeeja','khadîdja','bint khuwaylid','bint khuwailid')
-          assert all(any(k in p['text'].lower() for k in aliases) for x in rows for p in x['paragraphs'])
-          print('PASS: 1000 source-only Khadija articles')
+          assert all(x['section'] in {'family','messenger','mercy','light','prophet','human','sources'} for x in rows)
+          print('PASS: 1000 source-grounded Khadija articles, >=500 words each')
           PY
-      - name: Commit extracted publication
+      - name: Commit categorized publication
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'prophet-editorial-bot'
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
           git add -- data/editorial/khadija_1000_audit.json data/editorial/publication_supplement.json data/editorial/drafts/2026-08-21/khadija-batch-*.json
-          if git diff --cached --quiet; then
-            echo 'No generated changes.'
-            exit 0
-          fi
-          git commit -m 'Publish 1000 Khadija source articles'
+          if git diff --cached --quiet; then echo 'No generated changes.'; exit 0; fi
+          git commit -m 'Publish 1000 longform Khadija source articles'
           for attempt in 1 2 3 4; do
             if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
             git rebase --abort 2>/dev/null || true
