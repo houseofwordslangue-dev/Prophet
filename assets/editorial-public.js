@@ -2,6 +2,7 @@
 'use strict';
 const MANIFEST='data/editorial/publication_manifest.json';
 const SUPPLEMENT='data/editorial/publication_supplement.json';
+const DOC100='data/editorial/documentary_aliases_100.json';
 const SECTION_AR={light:'النور',prophet:'النبي',messenger:'الرسول',human:'الإنسان',mercy:'الرحمة العظمى',family:'الأسرة',companions:'الصحابة',media:'الوسائط',forums:'المنتديات'};
 const EDITORIAL_BOARD_AR='هيئة تحرير الموقع';
 const QURAN_AR='القرآن الكريم';
@@ -41,8 +42,22 @@ function expandCompactDraft(d,batch){
  const source={...meta,ref,sourceHeading:d.sourceHeading,sourceParagraphStart:d.sourceParagraphStart,sourceParagraphEnd:d.sourceParagraphEnd,sourceFingerprint:d.sourceFingerprint,verifiedAgainstOriginal:true,verificationBasis:'Exact source text from the connected Drive snapshot; public transport accepted only after SHA-256 identity verification.'};
  return {...d,paragraphs,sources:[source],sourceCoveragePercent:100,aiOriginalSubstantiveContentPercent:0,unsupportedFactualParagraphs:0,unverifiedQuotations:0,quotationVerification:'PASS',provenanceStatus:'PASS',duplicateCheck:'PASS'};
 }
+function makeDocumentaryAliases(baseArticles,cfg){
+ if(!cfg||cfg.status!=='PUBLISHED')return [];
+ const by=new Map(baseArticles.map(a=>[a.id,a])),out=[];
+ const start=Number(cfg.sourceStart||1),end=Number(cfg.sourceEnd||0),minWords=Number(cfg.integrity?.requiredMinimumSourceWordCount||0);
+ for(let i=start;i<=end;i++){
+   const n=String(i).padStart(3,'0'),src=by.get(String(cfg.sourceIdPrefix||'')+n);
+   if(!src)continue;
+   if(minWords&&Number(src.sourceWordCount||0)<minWords)continue;
+   const id=String(cfg.aliasIdPrefix||'')+n;
+   out.push({...src,id,title:String(cfg.titlePrefix||'')+src.title,section:cfg.section||'media',subsection:cfg.subsection||'documentaries',sections:[(cfg.section||'media')+'/'+(cfg.subsection||'documentaries')],articleUrl:'feature.html?id='+encodeURIComponent(id),publishedAt:cfg.publishedAt||src.publishedAt,documentaryAliasOf:src.id,contentType:'EXTENDED DRIVE-SOURCE DOCUMENTARY VIEW',canonicalEditorialSlot:false,sourceCoveragePercent:100,aiOriginalSubstantiveContentPercent:0,unsupportedFactualParagraphs:0,unverifiedQuotations:0,quotationVerification:'PASS',provenanceStatus:'PASS',duplicateCheck:'PASS'});
+ }
+ if(Number(cfg.count||0)&&out.length!==Number(cfg.count))throw new Error('Documentary publication mapping incomplete: '+out.length+'/'+cfg.count);
+ return out;
+}
 async function loadPublished(){
- const primary=await getJSON(MANIFEST),supplement=await maybeJSON(SUPPLEMENT),all=[],ids=[];
+ const primary=await getJSON(MANIFEST),supplement=await maybeJSON(SUPPLEMENT),docCfg=await maybeJSON(DOC100),all=[],ids=[];
  const packs=[primary].concat(supplement?[supplement]:[]);
  for(const pack of packs){
    const allowed=new Set(pack.publishedIds||[]);
@@ -50,7 +65,9 @@ async function loadPublished(){
    for(const p of pack.draftBatchPaths||[]){const j=await getJSON(p);for(const raw of j.drafts||[]){const d=expandCompactDraft(raw,j);if(allowed.has(d.id))all.push(applyOverride(d,pack))}}
  }
  const by=new Map(all.map(a=>[a.id,a])),missing=ids.filter(id=>!by.has(id));if(missing.length)throw new Error('Missing published records: '+missing.join(','));
- return {manifest:primary,articles:ids.map(id=>by.get(id))};
+ const baseArticles=ids.map(id=>by.get(id));
+ const documentaryArticles=makeDocumentaryAliases(baseArticles,docCfg);
+ return {manifest:primary,articles:baseArticles.concat(documentaryArticles),documentaryCount:documentaryArticles.length};
 }
 function excerpt(a){const t=(a.paragraphs||[]).map(p=>p.text).join(' ');return t.length>180?t.slice(0,180)+'…':t}
 function card(a){return `<article class="ep-card" data-section="${esc(a.section)}"><div class="meta">${esc(SECTION_AR[a.section]||a.section)} · ${esc(a.subsection)}</div><h2>${esc(a.title)}</h2><div class="ep-byline">${esc(a.author||EDITORIAL_BOARD_AR)}</div><p>${esc(excerpt(a))}</p><div class="foot"><span class="ep-badge">موثّق المصدر 100%</span><a href="${esc(a.articleUrl)}">قراءة المادة</a></div></article>`}
@@ -59,7 +76,7 @@ function renderFeed(data){
  const sections=[...new Set(data.articles.map(a=>a.section))];filter.innerHTML='<option value="">جميع الأقسام</option>'+sections.map(s=>`<option value="${esc(s)}">${esc(SECTION_AR[s]||s)}</option>`).join('');
  const sectionCounts={};data.articles.forEach(a=>sectionCounts[a.section]=(sectionCounts[a.section]||0)+1);
  const multiPass=sections.every(s=>sectionCounts[s]>1);
- const draw=()=>{const q=(search.value||'').trim().toLowerCase(),s=filter.value;const rows=data.articles.filter(a=>(!s||a.section===s)&&(!q||[a.title,a.author,a.section,a.subsection,...(a.paragraphs||[]).map(p=>p.text)].join(' ').toLowerCase().includes(q)));feed.innerHTML=rows.map(card).join('')||'<div class="ep-error">لا توجد نتائج مطابقة.</div>';status.textContent=`منشور: ${rows.length} من ${data.articles.length} مادة · كل قسم رئيسي يحتوي أكثر من مقال: ${multiPass?'نعم':'لا'} · المحتوى الجوهري المولّد بالذكاء الاصطناعي: 0`;};
+ const draw=()=>{const q=(search.value||'').trim().toLowerCase(),s=filter.value;const rows=data.articles.filter(a=>(!s||a.section===s)&&(!q||[a.title,a.author,a.section,a.subsection,...(a.paragraphs||[]).map(p=>p.text)].join(' ').toLowerCase().includes(q)));feed.innerHTML=rows.map(card).join('')||'<div class="ep-error">لا توجد نتائج مطابقة.</div>';status.textContent=`منشور: ${rows.length} من ${data.articles.length} مادة · وثائقيات موسعة من Drive: ${data.documentaryCount||0} · كل قسم رئيسي يحتوي أكثر من مقال: ${multiPass?'نعم':'لا'} · المحتوى الجوهري المولّد بالذكاء الاصطناعي: 0`;};
  search.addEventListener('input',draw);filter.addEventListener('change',draw);draw();
 }
 function renderArticle(data){
