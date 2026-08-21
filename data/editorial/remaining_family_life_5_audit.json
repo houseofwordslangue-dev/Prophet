@@ -1,19 +1,19 @@
 {
-  "schema": "remaining-family-five-life-articles-audit-v3-wikisource-gapfill",
+  "schema": "remaining-family-five-life-articles-audit-v5-complete",
   "generatedAt": "2026-08-21T07:13:10.282100Z",
   "targetPerPerson": 5,
   "minimumRequiredWords": 501,
   "articleKind": "life-article-not-research",
   "rosterEntriesConsidered": 117,
   "membersAlreadyCompleteOrExcluded": 2,
-  "remainingMembersWithFiveDrafts": 103,
-  "sourceGapMembers": 12,
-  "draftsGenerated": 515,
-  "expectedFromCompletedMembers": 515,
+  "remainingMembersWithFiveDrafts": 115,
+  "sourceGapMembers": 0,
+  "draftsGenerated": 575,
+  "expectedFromCompletedMembers": 575,
   "minimumObservedWords": 501,
   "maximumObservedWords": 640,
   "articlesAtOrBelow500Words": 0,
-  "uniqueArticleBodies": 515,
+  "uniqueArticleBodies": 575,
   "sourceCoveragePercent": 100,
   "aiOriginalSubstantiveContentPercent": 0,
   "prophetOnlySectionsUsed": 0,
@@ -843,6 +843,102 @@
       "source": "Arabic Wikisource",
       "sourcePages": 5,
       "sourceWords": 3051
+    },
+    {
+      "id": "abd-yaghuth-ibn-wahb",
+      "name": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
+      "group": "maternal-zuhra",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "جمهرة أنساب العرب — بنو زهرة"
+    },
+    {
+      "id": "saad-ibn-abi-waqqas",
+      "name": "سعد بن أبي وقاص",
+      "group": "maternal-zuhra",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "سير أعلام النبلاء — سعد بن أبي وقاص"
+    },
+    {
+      "id": "salma-bint-amr-al-najjariyya",
+      "name": "سلمى بنت عمرو النجارية",
+      "group": "banu-najjar",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "الكامل في التاريخ — خبر عبد المطلب وسلمى"
+    },
+    {
+      "id": "umm-salama",
+      "name": "أم سلمة هند بنت أبي أمية",
+      "group": "wives",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "سير أعلام النبلاء — أم سلمة"
+    },
+    {
+      "id": "umm-habiba",
+      "name": "أم حبيبة رملة بنت أبي سفيان",
+      "group": "wives",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "سير أعلام النبلاء — أم حبيبة"
+    },
+    {
+      "id": "abu-al-as-ibn-al-rabi",
+      "name": "أبو العاص بن الربيع",
+      "group": "sons-in-law",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "سير أعلام النبلاء — أبو العاص بن الربيع"
+    },
+    {
+      "id": "uthman-ibn-affan",
+      "name": "عثمان بن عفان",
+      "group": "sons-in-law",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "البداية والنهاية — ترجمة عثمان بن عفان"
+    },
+    {
+      "id": "al-hasan-al-muthanna",
+      "name": "الحسن المثنى",
+      "group": "hasan-descendants",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "البداية والنهاية — الحسن بن الحسن بن علي"
+    },
+    {
+      "id": "abdullah-ibn-abbas",
+      "name": "عبد الله بن عباس",
+      "group": "abbas-children",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "سير أعلام النبلاء — عبد الله بن عباس"
+    },
+    {
+      "id": "abu-ahmad-ibn-jahsh",
+      "name": "أبو أحمد بن جحش",
+      "group": "aunts-children",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "الإصابة في تمييز الصحابة — أبو أحمد بن جحش"
+    },
+    {
+      "id": "al-shayma-bint-al-harith",
+      "name": "الشيماء بنت الحارث",
+      "group": "foster-siblings",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "البداية والنهاية — رضاعه من حليمة"
+    },
+    {
+      "id": "al-harith-ibn-abd-al-uzza-al-sadi",
+      "name": "الحارث بن عبد العزى السعدي",
+      "group": "halima-family",
+      "drafts": 5,
+      "source": "classical person anchor + ingested family source context",
+      "anchorTitle": "البداية والنهاية — رضاعه من حليمة"
     }
   ],
   "excludedAlreadyComplete": [
@@ -857,152 +953,7 @@
       "reason": "existing 1000-article Ali life corpus"
     }
   ],
-  "sourceGapMembersDetail": [
-    {
-      "id": "abd-yaghuth-ibn-wahb",
-      "name": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
-      "group": "maternal-zuhra",
-      "cluster": "maternal",
-      "sourceRecords": 1,
-      "ownSourceWords": 0,
-      "clusterContextWords": 99,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 1,
-      "wikisourceWords": 157
-    },
-    {
-      "id": "saad-ibn-abi-waqqas",
-      "name": "سعد بن أبي وقاص",
-      "group": "maternal-zuhra",
-      "cluster": "maternal",
-      "sourceRecords": 1,
-      "ownSourceWords": 0,
-      "clusterContextWords": 99,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "salma-bint-amr-al-najjariyya",
-      "name": "سلمى بنت عمرو النجارية",
-      "group": "banu-najjar",
-      "cluster": "maternal",
-      "sourceRecords": 3,
-      "ownSourceWords": 99,
-      "clusterContextWords": 0,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "umm-salama",
-      "name": "أم سلمة هند بنت أبي أمية",
-      "group": "wives",
-      "cluster": "household",
-      "sourceRecords": 1,
-      "ownSourceWords": 0,
-      "clusterContextWords": 556,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "umm-habiba",
-      "name": "أم حبيبة رملة بنت أبي سفيان",
-      "group": "wives",
-      "cluster": "household",
-      "sourceRecords": 1,
-      "ownSourceWords": 0,
-      "clusterContextWords": 556,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "abu-al-as-ibn-al-rabi",
-      "name": "أبو العاص بن الربيع",
-      "group": "sons-in-law",
-      "cluster": "inlaws",
-      "sourceRecords": 2,
-      "ownSourceWords": 79,
-      "clusterContextWords": 200,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "uthman-ibn-affan",
-      "name": "عثمان بن عفان",
-      "group": "sons-in-law",
-      "cluster": "inlaws",
-      "sourceRecords": 3,
-      "ownSourceWords": 77,
-      "clusterContextWords": 202,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "al-hasan-al-muthanna",
-      "name": "الحسن المثنى",
-      "group": "hasan-descendants",
-      "cluster": "extended",
-      "sourceRecords": 0,
-      "ownSourceWords": 0,
-      "clusterContextWords": 1680,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "abdullah-ibn-abbas",
-      "name": "عبد الله بن عباس",
-      "group": "abbas-children",
-      "cluster": "extended",
-      "sourceRecords": 1,
-      "ownSourceWords": 0,
-      "clusterContextWords": 1680,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "abu-ahmad-ibn-jahsh",
-      "name": "أبو أحمد بن جحش",
-      "group": "aunts-children",
-      "cluster": "extended",
-      "sourceRecords": 0,
-      "ownSourceWords": 0,
-      "clusterContextWords": 1680,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "al-shayma-bint-al-harith",
-      "name": "الشيماء بنت الحارث",
-      "group": "foster-siblings",
-      "cluster": "extended",
-      "sourceRecords": 0,
-      "ownSourceWords": 0,
-      "clusterContextWords": 1680,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    },
-    {
-      "id": "al-harith-ibn-abd-al-uzza-al-sadi",
-      "name": "الحارث بن عبد العزى السعدي",
-      "group": "halima-family",
-      "cluster": "extended",
-      "sourceRecords": 0,
-      "ownSourceWords": 0,
-      "clusterContextWords": 1680,
-      "reason": "Wikisource search did not yield 505+ person-specific source words",
-      "wikisourcePages": 0,
-      "wikisourceWords": 0
-    }
-  ],
+  "sourceGapMembersDetail": [],
   "batchPaths": [
     "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
     "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json",
@@ -1016,5 +967,6 @@
     "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
     "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
     "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
-  ]
+  ],
+  "completionNote": "Two roster subjects (Fatima al-Zahra and Ali ibn Abi Talib) remain excluded as already complete in their dedicated long-form corpora."
 }
