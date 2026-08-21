@@ -1,0 +1,2889 @@
+{
+  "schema": "canonical-biographies-v1",
+  "generatedAt": "2026-08-21T09:20:49.145227Z",
+  "policy": {
+    "canonicalBiographyPerPerson": 1,
+    "biographyLocation": "person.html",
+    "supportingArticlesRemainInRelevantSections": true,
+    "supportingArticlesAreNotBiographies": true,
+    "sourceProvenancePreserved": true
+  },
+  "personCount": 115,
+  "people": {
+    "abd-al-muttalib": {
+      "id": "abd-al-muttalib",
+      "nameAr": "عبد المطلب بن هاشم",
+      "canonicalUrl": "person.html?id=abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%87%D8%A7%D8%B4%D9%85",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abd-al-muttalib-01",
+        "20260821-family-life-abd-al-muttalib-02",
+        "20260821-family-life-abd-al-muttalib-03",
+        "20260821-family-life-abd-al-muttalib-04",
+        "20260821-family-life-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2615,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abd-al-rahman-ibn-al-abbas": {
+      "id": "abd-al-rahman-ibn-al-abbas",
+      "nameAr": "عبد الرحمن بن العباس",
+      "canonicalUrl": "person.html?id=abd-al-rahman-ibn-al-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abd-al-rahman-ibn-al-abbas-01",
+        "20260821-family-life-abd-al-rahman-ibn-al-abbas-02",
+        "20260821-family-life-abd-al-rahman-ibn-al-abbas-03",
+        "20260821-family-life-abd-al-rahman-ibn-al-abbas-04",
+        "20260821-family-life-abd-al-rahman-ibn-al-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abd-manaf-ibn-qusayy": {
+      "id": "abd-manaf-ibn-qusayy",
+      "nameAr": "عبد مناف بن قصي",
+      "canonicalUrl": "person.html?id=abd-manaf-ibn-qusayy&name=%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D9%82%D8%B5%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abd-manaf-ibn-qusayy-01",
+        "20260821-family-life-abd-manaf-ibn-qusayy-02",
+        "20260821-family-life-abd-manaf-ibn-qusayy-03",
+        "20260821-family-life-abd-manaf-ibn-qusayy-04",
+        "20260821-family-life-abd-manaf-ibn-qusayy-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abd-yaghuth-ibn-wahb": {
+      "id": "abd-yaghuth-ibn-wahb",
+      "nameAr": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
+      "canonicalUrl": "person.html?id=abd-yaghuth-ibn-wahb&name=%D8%B9%D8%A8%D8%AF%20%D9%8A%D8%BA%D9%88%D8%AB%20%D8%A8%D9%86%20%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abd-yaghuth-ibn-wahb-01",
+        "20260821-family-life-abd-yaghuth-ibn-wahb-02",
+        "20260821-family-life-abd-yaghuth-ibn-wahb-03",
+        "20260821-family-life-abd-yaghuth-ibn-wahb-04",
+        "20260821-family-life-abd-yaghuth-ibn-wahb-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "maternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-abbas": {
+      "id": "abdullah-ibn-abbas",
+      "nameAr": "عبد الله بن عباس",
+      "canonicalUrl": "person.html?id=abdullah-ibn-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-abbas-01",
+        "20260821-family-life-abdullah-ibn-abbas-02",
+        "20260821-family-life-abdullah-ibn-abbas-03",
+        "20260821-family-life-abdullah-ibn-abbas-04",
+        "20260821-family-life-abdullah-ibn-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2530,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-abd-al-muttalib": {
+      "id": "abdullah-ibn-abd-al-muttalib",
+      "nameAr": "عبد الله بن عبد المطلب",
+      "canonicalUrl": "person.html?id=abdullah-ibn-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-abd-al-muttalib-01",
+        "20260821-family-life-abdullah-ibn-abd-al-muttalib-02",
+        "20260821-family-life-abdullah-ibn-abd-al-muttalib-03",
+        "20260821-family-life-abdullah-ibn-abd-al-muttalib-04",
+        "20260821-family-life-abdullah-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "parents": 5
+      },
+      "totalSupportingWords": 2555,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-al-harith": {
+      "id": "abdullah-ibn-al-harith",
+      "nameAr": "عبد الله بن الحارث",
+      "canonicalUrl": "person.html?id=abdullah-ibn-al-harith&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-al-harith-01",
+        "20260821-family-life-abdullah-ibn-al-harith-02",
+        "20260821-family-life-abdullah-ibn-al-harith-03",
+        "20260821-family-life-abdullah-ibn-al-harith-04",
+        "20260821-family-life-abdullah-ibn-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2555,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-al-hasan": {
+      "id": "abdullah-ibn-al-hasan",
+      "nameAr": "عبد الله بن الحسن",
+      "canonicalUrl": "person.html?id=abdullah-ibn-al-hasan&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-al-hasan-01",
+        "20260821-family-life-abdullah-ibn-al-hasan-02",
+        "20260821-family-life-abdullah-ibn-al-hasan-03",
+        "20260821-family-life-abdullah-ibn-al-hasan-04",
+        "20260821-family-life-abdullah-ibn-al-hasan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-al-husayn": {
+      "id": "abdullah-ibn-al-husayn",
+      "nameAr": "عبد الله بن الحسين",
+      "canonicalUrl": "person.html?id=abdullah-ibn-al-husayn&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-al-husayn-01",
+        "20260821-family-life-abdullah-ibn-al-husayn-02",
+        "20260821-family-life-abdullah-ibn-al-husayn-03",
+        "20260821-family-life-abdullah-ibn-al-husayn-04",
+        "20260821-family-life-abdullah-ibn-al-husayn-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-al-zubayr": {
+      "id": "abdullah-ibn-al-zubayr",
+      "nameAr": "عبد الله بن الزبير",
+      "canonicalUrl": "person.html?id=abdullah-ibn-al-zubayr&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-al-zubayr-01",
+        "20260821-family-life-abdullah-ibn-al-zubayr-02",
+        "20260821-family-life-abdullah-ibn-al-zubayr-03",
+        "20260821-family-life-abdullah-ibn-al-zubayr-04",
+        "20260821-family-life-abdullah-ibn-al-zubayr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-al-zubayr-abd-al-muttalib": {
+      "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
+      "nameAr": "عبد الله بن الزبير بن عبد المطلب",
+      "canonicalUrl": "person.html?id=abdullah-ibn-al-zubayr-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-01",
+        "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-02",
+        "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-03",
+        "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-04",
+        "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-jahsh": {
+      "id": "abdullah-ibn-jahsh",
+      "nameAr": "عبد الله بن جحش",
+      "canonicalUrl": "person.html?id=abdullah-ibn-jahsh&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-jahsh-01",
+        "20260821-family-life-abdullah-ibn-jahsh-02",
+        "20260821-family-life-abdullah-ibn-jahsh-03",
+        "20260821-family-life-abdullah-ibn-jahsh-04",
+        "20260821-family-life-abdullah-ibn-jahsh-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-muhammad": {
+      "id": "abdullah-ibn-muhammad",
+      "nameAr": "عبد الله بن محمد",
+      "canonicalUrl": "person.html?id=abdullah-ibn-muhammad&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-muhammad-01",
+        "20260821-family-life-abdullah-ibn-muhammad-02",
+        "20260821-family-life-abdullah-ibn-muhammad-03",
+        "20260821-family-life-abdullah-ibn-muhammad-04",
+        "20260821-family-life-abdullah-ibn-muhammad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abdullah-ibn-uthman": {
+      "id": "abdullah-ibn-uthman",
+      "nameAr": "عبد الله بن عثمان",
+      "canonicalUrl": "person.html?id=abdullah-ibn-uthman&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abdullah-ibn-uthman-01",
+        "20260821-family-life-abdullah-ibn-uthman-02",
+        "20260821-family-life-abdullah-ibn-uthman-03",
+        "20260821-family-life-abdullah-ibn-uthman-04",
+        "20260821-family-life-abdullah-ibn-uthman-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-ahmad-ibn-jahsh": {
+      "id": "abu-ahmad-ibn-jahsh",
+      "nameAr": "أبو أحمد بن جحش",
+      "canonicalUrl": "person.html?id=abu-ahmad-ibn-jahsh&name=%D8%A3%D8%A8%D9%88%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-ahmad-ibn-jahsh-01",
+        "20260821-family-life-abu-ahmad-ibn-jahsh-02",
+        "20260821-family-life-abu-ahmad-ibn-jahsh-03",
+        "20260821-family-life-abu-ahmad-ibn-jahsh-04",
+        "20260821-family-life-abu-ahmad-ibn-jahsh-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2515,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-al-as-ibn-al-rabi": {
+      "id": "abu-al-as-ibn-al-rabi",
+      "nameAr": "أبو العاص بن الربيع",
+      "canonicalUrl": "person.html?id=abu-al-as-ibn-al-rabi&name=%D8%A3%D8%A8%D9%88%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B1%D8%A8%D9%8A%D8%B9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-al-as-ibn-al-rabi-01",
+        "20260821-family-life-abu-al-as-ibn-al-rabi-02",
+        "20260821-family-life-abu-al-as-ibn-al-rabi-03",
+        "20260821-family-life-abu-al-as-ibn-al-rabi-04",
+        "20260821-family-life-abu-al-as-ibn-al-rabi-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "in-laws": 5
+      },
+      "totalSupportingWords": 2515,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-bakr-ibn-al-hasan": {
+      "id": "abu-bakr-ibn-al-hasan",
+      "nameAr": "أبو بكر بن الحسن",
+      "canonicalUrl": "person.html?id=abu-bakr-ibn-al-hasan&name=%D8%A3%D8%A8%D9%88%20%D8%A8%D9%83%D8%B1%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-bakr-ibn-al-hasan-01",
+        "20260821-family-life-abu-bakr-ibn-al-hasan-02",
+        "20260821-family-life-abu-bakr-ibn-al-hasan-03",
+        "20260821-family-life-abu-bakr-ibn-al-hasan-04",
+        "20260821-family-life-abu-bakr-ibn-al-hasan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-lahab-ibn-abd-al-muttalib": {
+      "id": "abu-lahab-ibn-abd-al-muttalib",
+      "nameAr": "أبو لهب بن عبد المطلب (عبد العزى)",
+      "canonicalUrl": "person.html?id=abu-lahab-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D9%84%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%29",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-01",
+        "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-02",
+        "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-03",
+        "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-04",
+        "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2740,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-salama-abdullah-ibn-abd-al-asad": {
+      "id": "abu-salama-abdullah-ibn-abd-al-asad",
+      "nameAr": "أبو سلمة عبد الله بن عبد الأسد",
+      "canonicalUrl": "person.html?id=abu-salama-abdullah-ibn-abd-al-asad&name=%D8%A3%D8%A8%D9%88%20%D8%B3%D9%84%D9%85%D8%A9%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%A3%D8%B3%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-salama-abdullah-ibn-abd-al-asad-01",
+        "20260821-family-life-abu-salama-abdullah-ibn-abd-al-asad-02",
+        "20260821-family-life-abu-salama-abdullah-ibn-abd-al-asad-03",
+        "20260821-family-life-abu-salama-abdullah-ibn-abd-al-asad-04",
+        "20260821-family-life-abu-salama-abdullah-ibn-abd-al-asad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-sufyan-ibn-al-harith": {
+      "id": "abu-sufyan-ibn-al-harith",
+      "nameAr": "أبو سفيان بن الحارث",
+      "canonicalUrl": "person.html?id=abu-sufyan-ibn-al-harith&name=%D8%A3%D8%A8%D9%88%20%D8%B3%D9%81%D9%8A%D8%A7%D9%86%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-sufyan-ibn-al-harith-01",
+        "20260821-family-life-abu-sufyan-ibn-al-harith-02",
+        "20260821-family-life-abu-sufyan-ibn-al-harith-03",
+        "20260821-family-life-abu-sufyan-ibn-al-harith-04",
+        "20260821-family-life-abu-sufyan-ibn-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "abu-talib-ibn-abd-al-muttalib": {
+      "id": "abu-talib-ibn-abd-al-muttalib",
+      "nameAr": "أبو طالب بن عبد المطلب (عبد مناف)",
+      "canonicalUrl": "person.html?id=abu-talib-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%29",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-abu-talib-ibn-abd-al-muttalib-01",
+        "20260821-family-life-abu-talib-ibn-abd-al-muttalib-02",
+        "20260821-family-life-abu-talib-ibn-abd-al-muttalib-03",
+        "20260821-family-life-abu-talib-ibn-abd-al-muttalib-04",
+        "20260821-family-life-abu-talib-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2695,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "adnan": {
+      "id": "adnan",
+      "nameAr": "عدنان",
+      "canonicalUrl": "person.html?id=adnan&name=%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-adnan-01",
+        "20260821-family-life-adnan-02",
+        "20260821-family-life-adnan-03",
+        "20260821-family-life-adnan-04",
+        "20260821-family-life-adnan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2855,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "aisha-bint-abi-bakr": {
+      "id": "aisha-bint-abi-bakr",
+      "nameAr": "عائشة بنت أبي بكر",
+      "canonicalUrl": "person.html?id=aisha-bint-abi-bakr&name=%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A8%D9%83%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-aisha-bint-abi-bakr-01",
+        "20260821-family-life-aisha-bint-abi-bakr-02",
+        "20260821-family-life-aisha-bint-abi-bakr-03",
+        "20260821-family-life-aisha-bint-abi-bakr-04",
+        "20260821-family-life-aisha-bint-abi-bakr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-abbas-ibn-abd-al-muttalib": {
+      "id": "al-abbas-ibn-abd-al-muttalib",
+      "nameAr": "العباس بن عبد المطلب",
+      "canonicalUrl": "person.html?id=al-abbas-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-abbas-ibn-abd-al-muttalib-01",
+        "20260821-family-life-al-abbas-ibn-abd-al-muttalib-02",
+        "20260821-family-life-al-abbas-ibn-abd-al-muttalib-03",
+        "20260821-family-life-al-abbas-ibn-abd-al-muttalib-04",
+        "20260821-family-life-al-abbas-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 3000,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-fadl-ibn-al-abbas": {
+      "id": "al-fadl-ibn-al-abbas",
+      "nameAr": "الفضل بن العباس",
+      "canonicalUrl": "person.html?id=al-fadl-ibn-al-abbas&name=%D8%A7%D9%84%D9%81%D8%B6%D9%84%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-fadl-ibn-al-abbas-01",
+        "20260821-family-life-al-fadl-ibn-al-abbas-02",
+        "20260821-family-life-al-fadl-ibn-al-abbas-03",
+        "20260821-family-life-al-fadl-ibn-al-abbas-04",
+        "20260821-family-life-al-fadl-ibn-al-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-harith-ibn-abd-al-muttalib": {
+      "id": "al-harith-ibn-abd-al-muttalib",
+      "nameAr": "الحارث بن عبد المطلب",
+      "canonicalUrl": "person.html?id=al-harith-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-harith-ibn-abd-al-muttalib-01",
+        "20260821-family-life-al-harith-ibn-abd-al-muttalib-02",
+        "20260821-family-life-al-harith-ibn-abd-al-muttalib-03",
+        "20260821-family-life-al-harith-ibn-abd-al-muttalib-04",
+        "20260821-family-life-al-harith-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2765,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-harith-ibn-abd-al-uzza-al-sadi": {
+      "id": "al-harith-ibn-abd-al-uzza-al-sadi",
+      "nameAr": "الحارث بن عبد العزى السعدي",
+      "canonicalUrl": "person.html?id=al-harith-ibn-abd-al-uzza-al-sadi&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-01",
+        "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-02",
+        "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-03",
+        "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-04",
+        "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2525,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-hasan-al-muthanna": {
+      "id": "al-hasan-al-muthanna",
+      "nameAr": "الحسن المثنى",
+      "canonicalUrl": "person.html?id=al-hasan-al-muthanna&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%AB%D9%86%D9%89",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-hasan-al-muthanna-01",
+        "20260821-family-life-al-hasan-al-muthanna-02",
+        "20260821-family-life-al-hasan-al-muthanna-03",
+        "20260821-family-life-al-hasan-al-muthanna-04",
+        "20260821-family-life-al-hasan-al-muthanna-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2545,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-hasan-ibn-ali": {
+      "id": "al-hasan-ibn-ali",
+      "nameAr": "الحسن بن علي",
+      "canonicalUrl": "person.html?id=al-hasan-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-hasan-ibn-ali-01",
+        "20260821-family-life-al-hasan-ibn-ali-02",
+        "20260821-family-life-al-hasan-ibn-ali-03",
+        "20260821-family-life-al-hasan-ibn-ali-04",
+        "20260821-family-life-al-hasan-ibn-ali-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2535,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-husayn-ibn-ali": {
+      "id": "al-husayn-ibn-ali",
+      "nameAr": "الحسين بن علي",
+      "canonicalUrl": "person.html?id=al-husayn-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-husayn-ibn-ali-01",
+        "20260821-family-life-al-husayn-ibn-ali-02",
+        "20260821-family-life-al-husayn-ibn-ali-03",
+        "20260821-family-life-al-husayn-ibn-ali-04",
+        "20260821-family-life-al-husayn-ibn-ali-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2535,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-muqawwim-ibn-abd-al-muttalib": {
+      "id": "al-muqawwim-ibn-abd-al-muttalib",
+      "nameAr": "المقوّم بن عبد المطلب",
+      "canonicalUrl": "person.html?id=al-muqawwim-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D9%85%D9%82%D9%88%D9%91%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-muqawwim-ibn-abd-al-muttalib-01",
+        "20260821-family-life-al-muqawwim-ibn-abd-al-muttalib-02",
+        "20260821-family-life-al-muqawwim-ibn-abd-al-muttalib-03",
+        "20260821-family-life-al-muqawwim-ibn-abd-al-muttalib-04",
+        "20260821-family-life-al-muqawwim-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2835,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-nadr-ibn-kinana": {
+      "id": "al-nadr-ibn-kinana",
+      "nameAr": "النضر بن كنانة",
+      "canonicalUrl": "person.html?id=al-nadr-ibn-kinana&name=%D8%A7%D9%84%D9%86%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%83%D9%86%D8%A7%D9%86%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-nadr-ibn-kinana-01",
+        "20260821-family-life-al-nadr-ibn-kinana-02",
+        "20260821-family-life-al-nadr-ibn-kinana-03",
+        "20260821-family-life-al-nadr-ibn-kinana-04",
+        "20260821-family-life-al-nadr-ibn-kinana-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-qasim-ibn-al-hasan": {
+      "id": "al-qasim-ibn-al-hasan",
+      "nameAr": "القاسم بن الحسن",
+      "canonicalUrl": "person.html?id=al-qasim-ibn-al-hasan&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-qasim-ibn-al-hasan-01",
+        "20260821-family-life-al-qasim-ibn-al-hasan-02",
+        "20260821-family-life-al-qasim-ibn-al-hasan-03",
+        "20260821-family-life-al-qasim-ibn-al-hasan-04",
+        "20260821-family-life-al-qasim-ibn-al-hasan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-qasim-ibn-muhammad": {
+      "id": "al-qasim-ibn-muhammad",
+      "nameAr": "القاسم بن محمد",
+      "canonicalUrl": "person.html?id=al-qasim-ibn-muhammad&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-qasim-ibn-muhammad-01",
+        "20260821-family-life-al-qasim-ibn-muhammad-02",
+        "20260821-family-life-al-qasim-ibn-muhammad-03",
+        "20260821-family-life-al-qasim-ibn-muhammad-04",
+        "20260821-family-life-al-qasim-ibn-muhammad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-shayma-bint-al-harith": {
+      "id": "al-shayma-bint-al-harith",
+      "nameAr": "الشيماء بنت الحارث",
+      "canonicalUrl": "person.html?id=al-shayma-bint-al-harith&name=%D8%A7%D9%84%D8%B4%D9%8A%D9%85%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-shayma-bint-al-harith-01",
+        "20260821-family-life-al-shayma-bint-al-harith-02",
+        "20260821-family-life-al-shayma-bint-al-harith-03",
+        "20260821-family-life-al-shayma-bint-al-harith-04",
+        "20260821-family-life-al-shayma-bint-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2510,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-zubayr-ibn-abd-al-muttalib": {
+      "id": "al-zubayr-ibn-abd-al-muttalib",
+      "nameAr": "الزبير بن عبد المطلب",
+      "canonicalUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-01",
+        "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-02",
+        "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-03",
+        "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-04",
+        "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2910,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "al-zubayr-ibn-al-awwam": {
+      "id": "al-zubayr-ibn-al-awwam",
+      "nameAr": "الزبير بن العوام",
+      "canonicalUrl": "person.html?id=al-zubayr-ibn-al-awwam&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D9%88%D8%A7%D9%85",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-al-zubayr-ibn-al-awwam-01",
+        "20260821-family-life-al-zubayr-ibn-al-awwam-02",
+        "20260821-family-life-al-zubayr-ibn-al-awwam-03",
+        "20260821-family-life-al-zubayr-ibn-al-awwam-04",
+        "20260821-family-life-al-zubayr-ibn-al-awwam-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ali-al-akbar-ibn-al-husayn": {
+      "id": "ali-al-akbar-ibn-al-husayn",
+      "nameAr": "علي الأكبر بن الحسين",
+      "canonicalUrl": "person.html?id=ali-al-akbar-ibn-al-husayn&name=%D8%B9%D9%84%D9%8A%20%D8%A7%D9%84%D8%A3%D9%83%D8%A8%D8%B1%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ali-al-akbar-ibn-al-husayn-01",
+        "20260821-family-life-ali-al-akbar-ibn-al-husayn-02",
+        "20260821-family-life-ali-al-akbar-ibn-al-husayn-03",
+        "20260821-family-life-ali-al-akbar-ibn-al-husayn-04",
+        "20260821-family-life-ali-al-akbar-ibn-al-husayn-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ali-ibn-abi-al-as": {
+      "id": "ali-ibn-abi-al-as",
+      "nameAr": "علي بن أبي العاص",
+      "canonicalUrl": "person.html?id=ali-ibn-abi-al-as&name=%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ali-ibn-abi-al-as-01",
+        "20260821-family-life-ali-ibn-abi-al-as-02",
+        "20260821-family-life-ali-ibn-abi-al-as-03",
+        "20260821-family-life-ali-ibn-abi-al-as-04",
+        "20260821-family-life-ali-ibn-abi-al-as-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ali-zayn-al-abidin": {
+      "id": "ali-zayn-al-abidin",
+      "nameAr": "علي زين العابدين بن الحسين",
+      "canonicalUrl": "person.html?id=ali-zayn-al-abidin&name=%D8%B9%D9%84%D9%8A%20%D8%B2%D9%8A%D9%86%20%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%AF%D9%8A%D9%86%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ali-zayn-al-abidin-01",
+        "20260821-family-life-ali-zayn-al-abidin-02",
+        "20260821-family-life-ali-zayn-al-abidin-03",
+        "20260821-family-life-ali-zayn-al-abidin-04",
+        "20260821-family-life-ali-zayn-al-abidin-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "amina-bint-wahb": {
+      "id": "amina-bint-wahb",
+      "nameAr": "آمنة بنت وهب",
+      "canonicalUrl": "person.html?id=amina-bint-wahb&name=%D8%A2%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%88%D9%87%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-amina-bint-wahb-01",
+        "20260821-family-life-amina-bint-wahb-02",
+        "20260821-family-life-amina-bint-wahb-03",
+        "20260821-family-life-amina-bint-wahb-04",
+        "20260821-family-life-amina-bint-wahb-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "parents": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "amr-ibn-al-hasan": {
+      "id": "amr-ibn-al-hasan",
+      "nameAr": "عمرو بن الحسن",
+      "canonicalUrl": "person.html?id=amr-ibn-al-hasan&name=%D8%B9%D9%85%D8%B1%D9%88%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-amr-ibn-al-hasan-01",
+        "20260821-family-life-amr-ibn-al-hasan-02",
+        "20260821-family-life-amr-ibn-al-hasan-03",
+        "20260821-family-life-amr-ibn-al-hasan-04",
+        "20260821-family-life-amr-ibn-al-hasan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "anisa-bint-al-harith": {
+      "id": "anisa-bint-al-harith",
+      "nameAr": "أنيسة بنت الحارث",
+      "canonicalUrl": "person.html?id=anisa-bint-al-harith&name=%D8%A3%D9%86%D9%8A%D8%B3%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-anisa-bint-al-harith-01",
+        "20260821-family-life-anisa-bint-al-harith-02",
+        "20260821-family-life-anisa-bint-al-harith-03",
+        "20260821-family-life-anisa-bint-al-harith-04",
+        "20260821-family-life-anisa-bint-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "aqil-ibn-abi-talib": {
+      "id": "aqil-ibn-abi-talib",
+      "nameAr": "عقيل بن أبي طالب",
+      "canonicalUrl": "person.html?id=aqil-ibn-abi-talib&name=%D8%B9%D9%82%D9%8A%D9%84%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%B7%D8%A7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-aqil-ibn-abi-talib-01",
+        "20260821-family-life-aqil-ibn-abi-talib-02",
+        "20260821-family-life-aqil-ibn-abi-talib-03",
+        "20260821-family-life-aqil-ibn-abi-talib-04",
+        "20260821-family-life-aqil-ibn-abi-talib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "arwa-bint-abd-al-muttalib": {
+      "id": "arwa-bint-abd-al-muttalib",
+      "nameAr": "أروى بنت عبد المطلب",
+      "canonicalUrl": "person.html?id=arwa-bint-abd-al-muttalib&name=%D8%A3%D8%B1%D9%88%D9%89%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-arwa-bint-abd-al-muttalib-01",
+        "20260821-family-life-arwa-bint-abd-al-muttalib-02",
+        "20260821-family-life-arwa-bint-abd-al-muttalib-03",
+        "20260821-family-life-arwa-bint-abd-al-muttalib-04",
+        "20260821-family-life-arwa-bint-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "atika-bint-abd-al-muttalib": {
+      "id": "atika-bint-abd-al-muttalib",
+      "nameAr": "عاتكة بنت عبد المطلب",
+      "canonicalUrl": "person.html?id=atika-bint-abd-al-muttalib&name=%D8%B9%D8%A7%D8%AA%D9%83%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-atika-bint-abd-al-muttalib-01",
+        "20260821-family-life-atika-bint-abd-al-muttalib-02",
+        "20260821-family-life-atika-bint-abd-al-muttalib-03",
+        "20260821-family-life-atika-bint-abd-al-muttalib-04",
+        "20260821-family-life-atika-bint-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "barra-bint-abd-al-muttalib": {
+      "id": "barra-bint-abd-al-muttalib",
+      "nameAr": "برة بنت عبد المطلب",
+      "canonicalUrl": "person.html?id=barra-bint-abd-al-muttalib&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-barra-bint-abd-al-muttalib-01",
+        "20260821-family-life-barra-bint-abd-al-muttalib-02",
+        "20260821-family-life-barra-bint-abd-al-muttalib-03",
+        "20260821-family-life-barra-bint-abd-al-muttalib-04",
+        "20260821-family-life-barra-bint-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "burra-bint-abd-al-uzza": {
+      "id": "burra-bint-abd-al-uzza",
+      "nameAr": "برة بنت عبد العزى",
+      "canonicalUrl": "person.html?id=burra-bint-abd-al-uzza&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-burra-bint-abd-al-uzza-01",
+        "20260821-family-life-burra-bint-abd-al-uzza-02",
+        "20260821-family-life-burra-bint-abd-al-uzza-03",
+        "20260821-family-life-burra-bint-abd-al-uzza-04",
+        "20260821-family-life-burra-bint-abd-al-uzza-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "dirar-ibn-abd-al-muttalib": {
+      "id": "dirar-ibn-abd-al-muttalib",
+      "nameAr": "ضرار بن عبد المطلب",
+      "canonicalUrl": "person.html?id=dirar-ibn-abd-al-muttalib&name=%D8%B6%D8%B1%D8%A7%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-dirar-ibn-abd-al-muttalib-01",
+        "20260821-family-life-dirar-ibn-abd-al-muttalib-02",
+        "20260821-family-life-dirar-ibn-abd-al-muttalib-03",
+        "20260821-family-life-dirar-ibn-abd-al-muttalib-04",
+        "20260821-family-life-dirar-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2885,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "dubaa-bint-al-zubayr": {
+      "id": "dubaa-bint-al-zubayr",
+      "nameAr": "ضباعة بنت الزبير",
+      "canonicalUrl": "person.html?id=dubaa-bint-al-zubayr&name=%D8%B6%D8%A8%D8%A7%D8%B9%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-dubaa-bint-al-zubayr-01",
+        "20260821-family-life-dubaa-bint-al-zubayr-02",
+        "20260821-family-life-dubaa-bint-al-zubayr-03",
+        "20260821-family-life-dubaa-bint-al-zubayr-04",
+        "20260821-family-life-dubaa-bint-al-zubayr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "fatima-bint-al-husayn": {
+      "id": "fatima-bint-al-husayn",
+      "nameAr": "فاطمة بنت الحسين",
+      "canonicalUrl": "person.html?id=fatima-bint-al-husayn&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-fatima-bint-al-husayn-01",
+        "20260821-family-life-fatima-bint-al-husayn-02",
+        "20260821-family-life-fatima-bint-al-husayn-03",
+        "20260821-family-life-fatima-bint-al-husayn-04",
+        "20260821-family-life-fatima-bint-al-husayn-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "fatima-bint-amr": {
+      "id": "fatima-bint-amr",
+      "nameAr": "فاطمة بنت عمرو",
+      "canonicalUrl": "person.html?id=fatima-bint-amr&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1%D9%88",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-fatima-bint-amr-01",
+        "20260821-family-life-fatima-bint-amr-02",
+        "20260821-family-life-fatima-bint-amr-03",
+        "20260821-family-life-fatima-bint-amr-04",
+        "20260821-family-life-fatima-bint-amr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 3200,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "fihr-ibn-malik": {
+      "id": "fihr-ibn-malik",
+      "nameAr": "فهر بن مالك",
+      "canonicalUrl": "person.html?id=fihr-ibn-malik&name=%D9%81%D9%87%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-fihr-ibn-malik-01",
+        "20260821-family-life-fihr-ibn-malik-02",
+        "20260821-family-life-fihr-ibn-malik-03",
+        "20260821-family-life-fihr-ibn-malik-04",
+        "20260821-family-life-fihr-ibn-malik-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ghalib-ibn-fihr": {
+      "id": "ghalib-ibn-fihr",
+      "nameAr": "غالب بن فهر",
+      "canonicalUrl": "person.html?id=ghalib-ibn-fihr&name=%D8%BA%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%81%D9%87%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ghalib-ibn-fihr-01",
+        "20260821-family-life-ghalib-ibn-fihr-02",
+        "20260821-family-life-ghalib-ibn-fihr-03",
+        "20260821-family-life-ghalib-ibn-fihr-04",
+        "20260821-family-life-ghalib-ibn-fihr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "hafsa-bint-umar": {
+      "id": "hafsa-bint-umar",
+      "nameAr": "حفصة بنت عمر",
+      "canonicalUrl": "person.html?id=hafsa-bint-umar&name=%D8%AD%D9%81%D8%B5%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-hafsa-bint-umar-01",
+        "20260821-family-life-hafsa-bint-umar-02",
+        "20260821-family-life-hafsa-bint-umar-03",
+        "20260821-family-life-hafsa-bint-umar-04",
+        "20260821-family-life-hafsa-bint-umar-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "hajl-al-mughira-ibn-abd-al-muttalib": {
+      "id": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "nameAr": "حَجْل بن عبد المطلب (المغيرة)",
+      "canonicalUrl": "person.html?id=hajl-al-mughira-ibn-abd-al-muttalib&name=%D8%AD%D9%8E%D8%AC%D9%92%D9%84%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%A7%D9%84%D9%85%D8%BA%D9%8A%D8%B1%D8%A9%29",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-hajl-al-mughira-ibn-abd-al-muttalib-01",
+        "20260821-family-life-hajl-al-mughira-ibn-abd-al-muttalib-02",
+        "20260821-family-life-hajl-al-mughira-ibn-abd-al-muttalib-03",
+        "20260821-family-life-hajl-al-mughira-ibn-abd-al-muttalib-04",
+        "20260821-family-life-hajl-al-mughira-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2605,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "halima-al-sadiyya": {
+      "id": "halima-al-sadiyya",
+      "nameAr": "حليمة السعدية",
+      "canonicalUrl": "person.html?id=halima-al-sadiyya&name=%D8%AD%D9%84%D9%8A%D9%85%D8%A9%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-halima-al-sadiyya-01",
+        "20260821-family-life-halima-al-sadiyya-02",
+        "20260821-family-life-halima-al-sadiyya-03",
+        "20260821-family-life-halima-al-sadiyya-04",
+        "20260821-family-life-halima-al-sadiyya-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "hamna-bint-jahsh": {
+      "id": "hamna-bint-jahsh",
+      "nameAr": "حمنة بنت جحش",
+      "canonicalUrl": "person.html?id=hamna-bint-jahsh&name=%D8%AD%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-hamna-bint-jahsh-01",
+        "20260821-family-life-hamna-bint-jahsh-02",
+        "20260821-family-life-hamna-bint-jahsh-03",
+        "20260821-family-life-hamna-bint-jahsh-04",
+        "20260821-family-life-hamna-bint-jahsh-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "hamza-ibn-abd-al-muttalib": {
+      "id": "hamza-ibn-abd-al-muttalib",
+      "nameAr": "حمزة بن عبد المطلب",
+      "canonicalUrl": "person.html?id=hamza-ibn-abd-al-muttalib&name=%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-hamza-ibn-abd-al-muttalib-01",
+        "20260821-family-life-hamza-ibn-abd-al-muttalib-02",
+        "20260821-family-life-hamza-ibn-abd-al-muttalib-03",
+        "20260821-family-life-hamza-ibn-abd-al-muttalib-04",
+        "20260821-family-life-hamza-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 3000,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "hashim-ibn-abd-manaf": {
+      "id": "hashim-ibn-abd-manaf",
+      "nameAr": "هاشم بن عبد مناف",
+      "canonicalUrl": "person.html?id=hashim-ibn-abd-manaf&name=%D9%87%D8%A7%D8%B4%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-hashim-ibn-abd-manaf-01",
+        "20260821-family-life-hashim-ibn-abd-manaf-02",
+        "20260821-family-life-hashim-ibn-abd-manaf-03",
+        "20260821-family-life-hashim-ibn-abd-manaf-04",
+        "20260821-family-life-hashim-ibn-abd-manaf-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ibrahim-ibn-muhammad": {
+      "id": "ibrahim-ibn-muhammad",
+      "nameAr": "إبراهيم بن محمد",
+      "canonicalUrl": "person.html?id=ibrahim-ibn-muhammad&name=%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ibrahim-ibn-muhammad-01",
+        "20260821-family-life-ibrahim-ibn-muhammad-02",
+        "20260821-family-life-ibrahim-ibn-muhammad-03",
+        "20260821-family-life-ibrahim-ibn-muhammad-04",
+        "20260821-family-life-ibrahim-ibn-muhammad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2520,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ilyas-ibn-mudar": {
+      "id": "ilyas-ibn-mudar",
+      "nameAr": "إلياس بن مضر",
+      "canonicalUrl": "person.html?id=ilyas-ibn-mudar&name=%D8%A5%D9%84%D9%8A%D8%A7%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%B6%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ilyas-ibn-mudar-01",
+        "20260821-family-life-ilyas-ibn-mudar-02",
+        "20260821-family-life-ilyas-ibn-mudar-03",
+        "20260821-family-life-ilyas-ibn-mudar-04",
+        "20260821-family-life-ilyas-ibn-mudar-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "jafar-ibn-abi-talib": {
+      "id": "jafar-ibn-abi-talib",
+      "nameAr": "جعفر بن أبي طالب",
+      "canonicalUrl": "person.html?id=jafar-ibn-abi-talib&name=%D8%AC%D8%B9%D9%81%D8%B1%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%B7%D8%A7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-jafar-ibn-abi-talib-01",
+        "20260821-family-life-jafar-ibn-abi-talib-02",
+        "20260821-family-life-jafar-ibn-abi-talib-03",
+        "20260821-family-life-jafar-ibn-abi-talib-04",
+        "20260821-family-life-jafar-ibn-abi-talib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "jafar-ibn-al-husayn": {
+      "id": "jafar-ibn-al-husayn",
+      "nameAr": "جعفر بن الحسين",
+      "canonicalUrl": "person.html?id=jafar-ibn-al-husayn&name=%D8%AC%D8%B9%D9%81%D8%B1%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-jafar-ibn-al-husayn-01",
+        "20260821-family-life-jafar-ibn-al-husayn-02",
+        "20260821-family-life-jafar-ibn-al-husayn-03",
+        "20260821-family-life-jafar-ibn-al-husayn-04",
+        "20260821-family-life-jafar-ibn-al-husayn-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "juwayriya-bint-al-harith": {
+      "id": "juwayriya-bint-al-harith",
+      "nameAr": "جويرية بنت الحارث",
+      "canonicalUrl": "person.html?id=juwayriya-bint-al-harith&name=%D8%AC%D9%88%D9%8A%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-juwayriya-bint-al-harith-01",
+        "20260821-family-life-juwayriya-bint-al-harith-02",
+        "20260821-family-life-juwayriya-bint-al-harith-03",
+        "20260821-family-life-juwayriya-bint-al-harith-04",
+        "20260821-family-life-juwayriya-bint-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "kab-ibn-luayy": {
+      "id": "kab-ibn-luayy",
+      "nameAr": "كعب بن لؤي",
+      "canonicalUrl": "person.html?id=kab-ibn-luayy&name=%D9%83%D8%B9%D8%A8%20%D8%A8%D9%86%20%D9%84%D8%A4%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-kab-ibn-luayy-01",
+        "20260821-family-life-kab-ibn-luayy-02",
+        "20260821-family-life-kab-ibn-luayy-03",
+        "20260821-family-life-kab-ibn-luayy-04",
+        "20260821-family-life-kab-ibn-luayy-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "khadija-bint-khuwaylid": {
+      "id": "khadija-bint-khuwaylid",
+      "nameAr": "خديجة بنت خويلد",
+      "canonicalUrl": "person.html?id=khadija-bint-khuwaylid&name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-khadija-bint-khuwaylid-01",
+        "20260821-family-life-khadija-bint-khuwaylid-02",
+        "20260821-family-life-khadija-bint-khuwaylid-03",
+        "20260821-family-life-khadija-bint-khuwaylid-04",
+        "20260821-family-life-khadija-bint-khuwaylid-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "khuzayma-ibn-mudrika": {
+      "id": "khuzayma-ibn-mudrika",
+      "nameAr": "خزيمة بن مدركة",
+      "canonicalUrl": "person.html?id=khuzayma-ibn-mudrika&name=%D8%AE%D8%B2%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%20%D9%85%D8%AF%D8%B1%D9%83%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-khuzayma-ibn-mudrika-01",
+        "20260821-family-life-khuzayma-ibn-mudrika-02",
+        "20260821-family-life-khuzayma-ibn-mudrika-03",
+        "20260821-family-life-khuzayma-ibn-mudrika-04",
+        "20260821-family-life-khuzayma-ibn-mudrika-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "kilab-ibn-murra": {
+      "id": "kilab-ibn-murra",
+      "nameAr": "كلاب بن مرة",
+      "canonicalUrl": "person.html?id=kilab-ibn-murra&name=%D9%83%D9%84%D8%A7%D8%A8%20%D8%A8%D9%86%20%D9%85%D8%B1%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-kilab-ibn-murra-01",
+        "20260821-family-life-kilab-ibn-murra-02",
+        "20260821-family-life-kilab-ibn-murra-03",
+        "20260821-family-life-kilab-ibn-murra-04",
+        "20260821-family-life-kilab-ibn-murra-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2655,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "kinana-ibn-khuzayma": {
+      "id": "kinana-ibn-khuzayma",
+      "nameAr": "كنانة بن خزيمة",
+      "canonicalUrl": "person.html?id=kinana-ibn-khuzayma&name=%D9%83%D9%86%D8%A7%D9%86%D8%A9%20%D8%A8%D9%86%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-kinana-ibn-khuzayma-01",
+        "20260821-family-life-kinana-ibn-khuzayma-02",
+        "20260821-family-life-kinana-ibn-khuzayma-03",
+        "20260821-family-life-kinana-ibn-khuzayma-04",
+        "20260821-family-life-kinana-ibn-khuzayma-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "luayy-ibn-ghalib": {
+      "id": "luayy-ibn-ghalib",
+      "nameAr": "لؤي بن غالب",
+      "canonicalUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-luayy-ibn-ghalib-01",
+        "20260821-family-life-luayy-ibn-ghalib-02",
+        "20260821-family-life-luayy-ibn-ghalib-03",
+        "20260821-family-life-luayy-ibn-ghalib-04",
+        "20260821-family-life-luayy-ibn-ghalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "maadd-ibn-adnan": {
+      "id": "maadd-ibn-adnan",
+      "nameAr": "معد بن عدنان",
+      "canonicalUrl": "person.html?id=maadd-ibn-adnan&name=%D9%85%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-maadd-ibn-adnan-01",
+        "20260821-family-life-maadd-ibn-adnan-02",
+        "20260821-family-life-maadd-ibn-adnan-03",
+        "20260821-family-life-maadd-ibn-adnan-04",
+        "20260821-family-life-maadd-ibn-adnan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2545,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "mabad-ibn-al-abbas": {
+      "id": "mabad-ibn-al-abbas",
+      "nameAr": "معبد بن العباس",
+      "canonicalUrl": "person.html?id=mabad-ibn-al-abbas&name=%D9%85%D8%B9%D8%A8%D8%AF%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-mabad-ibn-al-abbas-01",
+        "20260821-family-life-mabad-ibn-al-abbas-02",
+        "20260821-family-life-mabad-ibn-al-abbas-03",
+        "20260821-family-life-mabad-ibn-al-abbas-04",
+        "20260821-family-life-mabad-ibn-al-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "malik-ibn-al-nadr": {
+      "id": "malik-ibn-al-nadr",
+      "nameAr": "مالك بن النضر",
+      "canonicalUrl": "person.html?id=malik-ibn-al-nadr&name=%D9%85%D8%A7%D9%84%D9%83%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-malik-ibn-al-nadr-01",
+        "20260821-family-life-malik-ibn-al-nadr-02",
+        "20260821-family-life-malik-ibn-al-nadr-03",
+        "20260821-family-life-malik-ibn-al-nadr-04",
+        "20260821-family-life-malik-ibn-al-nadr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "mariya-al-qibtiyya": {
+      "id": "mariya-al-qibtiyya",
+      "nameAr": "مارية القبطية",
+      "canonicalUrl": "person.html?id=mariya-al-qibtiyya&name=%D9%85%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-mariya-al-qibtiyya-01",
+        "20260821-family-life-mariya-al-qibtiyya-02",
+        "20260821-family-life-mariya-al-qibtiyya-03",
+        "20260821-family-life-mariya-al-qibtiyya-04",
+        "20260821-family-life-mariya-al-qibtiyya-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "maymuna-bint-al-harith": {
+      "id": "maymuna-bint-al-harith",
+      "nameAr": "ميمونة بنت الحارث",
+      "canonicalUrl": "person.html?id=maymuna-bint-al-harith&name=%D9%85%D9%8A%D9%85%D9%88%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-maymuna-bint-al-harith-01",
+        "20260821-family-life-maymuna-bint-al-harith-02",
+        "20260821-family-life-maymuna-bint-al-harith-03",
+        "20260821-family-life-maymuna-bint-al-harith-04",
+        "20260821-family-life-maymuna-bint-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "mudar-ibn-nizar": {
+      "id": "mudar-ibn-nizar",
+      "nameAr": "مضر بن نزار",
+      "canonicalUrl": "person.html?id=mudar-ibn-nizar&name=%D9%85%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%86%D8%B2%D8%A7%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-mudar-ibn-nizar-01",
+        "20260821-family-life-mudar-ibn-nizar-02",
+        "20260821-family-life-mudar-ibn-nizar-03",
+        "20260821-family-life-mudar-ibn-nizar-04",
+        "20260821-family-life-mudar-ibn-nizar-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "mudrika-ibn-ilyas": {
+      "id": "mudrika-ibn-ilyas",
+      "nameAr": "مدركة بن إلياس",
+      "canonicalUrl": "person.html?id=mudrika-ibn-ilyas&name=%D9%85%D8%AF%D8%B1%D9%83%D8%A9%20%D8%A8%D9%86%20%D8%A5%D9%84%D9%8A%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-mudrika-ibn-ilyas-01",
+        "20260821-family-life-mudrika-ibn-ilyas-02",
+        "20260821-family-life-mudrika-ibn-ilyas-03",
+        "20260821-family-life-mudrika-ibn-ilyas-04",
+        "20260821-family-life-mudrika-ibn-ilyas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "muhsin-ibn-ali": {
+      "id": "muhsin-ibn-ali",
+      "nameAr": "محسن بن علي",
+      "canonicalUrl": "person.html?id=muhsin-ibn-ali&name=%D9%85%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-muhsin-ibn-ali-01",
+        "20260821-family-life-muhsin-ibn-ali-02",
+        "20260821-family-life-muhsin-ibn-ali-03",
+        "20260821-family-life-muhsin-ibn-ali-04",
+        "20260821-family-life-muhsin-ibn-ali-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "murra-ibn-kab": {
+      "id": "murra-ibn-kab",
+      "nameAr": "مرة بن كعب",
+      "canonicalUrl": "person.html?id=murra-ibn-kab&name=%D9%85%D8%B1%D8%A9%20%D8%A8%D9%86%20%D9%83%D8%B9%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-murra-ibn-kab-01",
+        "20260821-family-life-murra-ibn-kab-02",
+        "20260821-family-life-murra-ibn-kab-03",
+        "20260821-family-life-murra-ibn-kab-04",
+        "20260821-family-life-murra-ibn-kab-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "musab-ibn-al-zubayr": {
+      "id": "musab-ibn-al-zubayr",
+      "nameAr": "مصعب بن الزبير",
+      "canonicalUrl": "person.html?id=musab-ibn-al-zubayr&name=%D9%85%D8%B5%D8%B9%D8%A8%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-musab-ibn-al-zubayr-01",
+        "20260821-family-life-musab-ibn-al-zubayr-02",
+        "20260821-family-life-musab-ibn-al-zubayr-03",
+        "20260821-family-life-musab-ibn-al-zubayr-04",
+        "20260821-family-life-musab-ibn-al-zubayr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "nawfal-ibn-al-harith": {
+      "id": "nawfal-ibn-al-harith",
+      "nameAr": "نوفل بن الحارث",
+      "canonicalUrl": "person.html?id=nawfal-ibn-al-harith&name=%D9%86%D9%88%D9%81%D9%84%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-nawfal-ibn-al-harith-01",
+        "20260821-family-life-nawfal-ibn-al-harith-02",
+        "20260821-family-life-nawfal-ibn-al-harith-03",
+        "20260821-family-life-nawfal-ibn-al-harith-04",
+        "20260821-family-life-nawfal-ibn-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "nizar-ibn-maadd": {
+      "id": "nizar-ibn-maadd",
+      "nameAr": "نزار بن معد",
+      "canonicalUrl": "person.html?id=nizar-ibn-maadd&name=%D9%86%D8%B2%D8%A7%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%B9%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-nizar-ibn-maadd-01",
+        "20260821-family-life-nizar-ibn-maadd-02",
+        "20260821-family-life-nizar-ibn-maadd-03",
+        "20260821-family-life-nizar-ibn-maadd-04",
+        "20260821-family-life-nizar-ibn-maadd-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "qusayy-ibn-kilab": {
+      "id": "qusayy-ibn-kilab",
+      "nameAr": "قصي بن كلاب",
+      "canonicalUrl": "person.html?id=qusayy-ibn-kilab&name=%D9%82%D8%B5%D9%8A%20%D8%A8%D9%86%20%D9%83%D9%84%D8%A7%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-qusayy-ibn-kilab-01",
+        "20260821-family-life-qusayy-ibn-kilab-02",
+        "20260821-family-life-qusayy-ibn-kilab-03",
+        "20260821-family-life-qusayy-ibn-kilab-04",
+        "20260821-family-life-qusayy-ibn-kilab-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "qutham-ibn-abd-al-muttalib": {
+      "id": "qutham-ibn-abd-al-muttalib",
+      "nameAr": "قُثَم بن عبد المطلب",
+      "canonicalUrl": "person.html?id=qutham-ibn-abd-al-muttalib&name=%D9%82%D9%8F%D8%AB%D9%8E%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-qutham-ibn-abd-al-muttalib-01",
+        "20260821-family-life-qutham-ibn-abd-al-muttalib-02",
+        "20260821-family-life-qutham-ibn-abd-al-muttalib-03",
+        "20260821-family-life-qutham-ibn-abd-al-muttalib-04",
+        "20260821-family-life-qutham-ibn-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2755,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "qutham-ibn-al-abbas": {
+      "id": "qutham-ibn-al-abbas",
+      "nameAr": "قثم بن العباس",
+      "canonicalUrl": "person.html?id=qutham-ibn-al-abbas&name=%D9%82%D8%AB%D9%85%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-qutham-ibn-al-abbas-01",
+        "20260821-family-life-qutham-ibn-al-abbas-02",
+        "20260821-family-life-qutham-ibn-al-abbas-03",
+        "20260821-family-life-qutham-ibn-al-abbas-04",
+        "20260821-family-life-qutham-ibn-al-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "rabia-ibn-al-harith": {
+      "id": "rabia-ibn-al-harith",
+      "nameAr": "ربيعة بن الحارث",
+      "canonicalUrl": "person.html?id=rabia-ibn-al-harith&name=%D8%B1%D8%A8%D9%8A%D8%B9%D8%A9%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-rabia-ibn-al-harith-01",
+        "20260821-family-life-rabia-ibn-al-harith-02",
+        "20260821-family-life-rabia-ibn-al-harith-03",
+        "20260821-family-life-rabia-ibn-al-harith-04",
+        "20260821-family-life-rabia-ibn-al-harith-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ruqayya-bint-muhammad": {
+      "id": "ruqayya-bint-muhammad",
+      "nameAr": "رقية بنت محمد",
+      "canonicalUrl": "person.html?id=ruqayya-bint-muhammad&name=%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ruqayya-bint-muhammad-01",
+        "20260821-family-life-ruqayya-bint-muhammad-02",
+        "20260821-family-life-ruqayya-bint-muhammad-03",
+        "20260821-family-life-ruqayya-bint-muhammad-04",
+        "20260821-family-life-ruqayya-bint-muhammad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "saad-ibn-abi-waqqas": {
+      "id": "saad-ibn-abi-waqqas",
+      "nameAr": "سعد بن أبي وقاص",
+      "canonicalUrl": "person.html?id=saad-ibn-abi-waqqas&name=%D8%B3%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D9%88%D9%82%D8%A7%D8%B5",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-saad-ibn-abi-waqqas-01",
+        "20260821-family-life-saad-ibn-abi-waqqas-02",
+        "20260821-family-life-saad-ibn-abi-waqqas-03",
+        "20260821-family-life-saad-ibn-abi-waqqas-04",
+        "20260821-family-life-saad-ibn-abi-waqqas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "maternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "safiyya-bint-abd-al-muttalib": {
+      "id": "safiyya-bint-abd-al-muttalib",
+      "nameAr": "صفية بنت عبد المطلب",
+      "canonicalUrl": "person.html?id=safiyya-bint-abd-al-muttalib&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-safiyya-bint-abd-al-muttalib-01",
+        "20260821-family-life-safiyya-bint-abd-al-muttalib-02",
+        "20260821-family-life-safiyya-bint-abd-al-muttalib-03",
+        "20260821-family-life-safiyya-bint-abd-al-muttalib-04",
+        "20260821-family-life-safiyya-bint-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "safiyya-bint-huyayy": {
+      "id": "safiyya-bint-huyayy",
+      "nameAr": "صفية بنت حيي",
+      "canonicalUrl": "person.html?id=safiyya-bint-huyayy&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AD%D9%8A%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-safiyya-bint-huyayy-01",
+        "20260821-family-life-safiyya-bint-huyayy-02",
+        "20260821-family-life-safiyya-bint-huyayy-03",
+        "20260821-family-life-safiyya-bint-huyayy-04",
+        "20260821-family-life-safiyya-bint-huyayy-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "salma-bint-amr-al-najjariyya": {
+      "id": "salma-bint-amr-al-najjariyya",
+      "nameAr": "سلمى بنت عمرو النجارية",
+      "canonicalUrl": "person.html?id=salma-bint-amr-al-najjariyya&name=%D8%B3%D9%84%D9%85%D9%89%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1%D9%88%20%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-salma-bint-amr-al-najjariyya-01",
+        "20260821-family-life-salma-bint-amr-al-najjariyya-02",
+        "20260821-family-life-salma-bint-amr-al-najjariyya-03",
+        "20260821-family-life-salma-bint-amr-al-najjariyya-04",
+        "20260821-family-life-salma-bint-amr-al-najjariyya-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "maternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "sawda-bint-zama": {
+      "id": "sawda-bint-zama",
+      "nameAr": "سودة بنت زمعة",
+      "canonicalUrl": "person.html?id=sawda-bint-zama&name=%D8%B3%D9%88%D8%AF%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B2%D9%85%D8%B9%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-sawda-bint-zama-01",
+        "20260821-family-life-sawda-bint-zama-02",
+        "20260821-family-life-sawda-bint-zama-03",
+        "20260821-family-life-sawda-bint-zama-04",
+        "20260821-family-life-sawda-bint-zama-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "sukayna-bint-al-husayn": {
+      "id": "sukayna-bint-al-husayn",
+      "nameAr": "سكينة بنت الحسين",
+      "canonicalUrl": "person.html?id=sukayna-bint-al-husayn&name=%D8%B3%D9%83%D9%8A%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%B3%D9%8A%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-sukayna-bint-al-husayn-01",
+        "20260821-family-life-sukayna-bint-al-husayn-02",
+        "20260821-family-life-sukayna-bint-al-husayn-03",
+        "20260821-family-life-sukayna-bint-al-husayn-04",
+        "20260821-family-life-sukayna-bint-al-husayn-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "talib-ibn-abi-talib": {
+      "id": "talib-ibn-abi-talib",
+      "nameAr": "طالب بن أبي طالب",
+      "canonicalUrl": "person.html?id=talib-ibn-abi-talib&name=%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%B7%D8%A7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-talib-ibn-abi-talib-01",
+        "20260821-family-life-talib-ibn-abi-talib-02",
+        "20260821-family-life-talib-ibn-abi-talib-03",
+        "20260821-family-life-talib-ibn-abi-talib-04",
+        "20260821-family-life-talib-ibn-abi-talib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "tamam-ibn-al-abbas": {
+      "id": "tamam-ibn-al-abbas",
+      "nameAr": "تمام بن العباس",
+      "canonicalUrl": "person.html?id=tamam-ibn-al-abbas&name=%D8%AA%D9%85%D8%A7%D9%85%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-tamam-ibn-al-abbas-01",
+        "20260821-family-life-tamam-ibn-al-abbas-02",
+        "20260821-family-life-tamam-ibn-al-abbas-03",
+        "20260821-family-life-tamam-ibn-al-abbas-04",
+        "20260821-family-life-tamam-ibn-al-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "thuwayba": {
+      "id": "thuwayba",
+      "nameAr": "ثويبة مولاة أبي لهب",
+      "canonicalUrl": "person.html?id=thuwayba&name=%D8%AB%D9%88%D9%8A%D8%A8%D8%A9%20%D9%85%D9%88%D9%84%D8%A7%D8%A9%20%D8%A3%D8%A8%D9%8A%20%D9%84%D9%87%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-thuwayba-01",
+        "20260821-family-life-thuwayba-02",
+        "20260821-family-life-thuwayba-03",
+        "20260821-family-life-thuwayba-04",
+        "20260821-family-life-thuwayba-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ubaydullah-ibn-al-abbas": {
+      "id": "ubaydullah-ibn-al-abbas",
+      "nameAr": "عبيد الله بن العباس",
+      "canonicalUrl": "person.html?id=ubaydullah-ibn-al-abbas&name=%D8%B9%D8%A8%D9%8A%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ubaydullah-ibn-al-abbas-01",
+        "20260821-family-life-ubaydullah-ibn-al-abbas-02",
+        "20260821-family-life-ubaydullah-ibn-al-abbas-03",
+        "20260821-family-life-ubaydullah-ibn-al-abbas-04",
+        "20260821-family-life-ubaydullah-ibn-al-abbas-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "ubaydullah-ibn-jahsh": {
+      "id": "ubaydullah-ibn-jahsh",
+      "nameAr": "عبيد الله بن جحش",
+      "canonicalUrl": "person.html?id=ubaydullah-ibn-jahsh&name=%D8%B9%D8%A8%D9%8A%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-ubaydullah-ibn-jahsh-01",
+        "20260821-family-life-ubaydullah-ibn-jahsh-02",
+        "20260821-family-life-ubaydullah-ibn-jahsh-03",
+        "20260821-family-life-ubaydullah-ibn-jahsh-04",
+        "20260821-family-life-ubaydullah-ibn-jahsh-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umama-bint-abi-al-as": {
+      "id": "umama-bint-abi-al-as",
+      "nameAr": "أمامة بنت أبي العاص",
+      "canonicalUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umama-bint-abi-al-as-01",
+        "20260821-family-life-umama-bint-abi-al-as-02",
+        "20260821-family-life-umama-bint-abi-al-as-03",
+        "20260821-family-life-umama-bint-abi-al-as-04",
+        "20260821-family-life-umama-bint-abi-al-as-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umayma-bint-abd-al-muttalib": {
+      "id": "umayma-bint-abd-al-muttalib",
+      "nameAr": "أميمة بنت عبد المطلب",
+      "canonicalUrl": "person.html?id=umayma-bint-abd-al-muttalib&name=%D8%A3%D9%85%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umayma-bint-abd-al-muttalib-01",
+        "20260821-family-life-umayma-bint-abd-al-muttalib-02",
+        "20260821-family-life-umayma-bint-abd-al-muttalib-03",
+        "20260821-family-life-umayma-bint-abd-al-muttalib-04",
+        "20260821-family-life-umayma-bint-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2560,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umm-al-hakam-bint-al-zubayr": {
+      "id": "umm-al-hakam-bint-al-zubayr",
+      "nameAr": "أم الحكم بنت الزبير",
+      "canonicalUrl": "person.html?id=umm-al-hakam-bint-al-zubayr&name=%D8%A3%D9%85%20%D8%A7%D9%84%D8%AD%D9%83%D9%85%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umm-al-hakam-bint-al-zubayr-01",
+        "20260821-family-life-umm-al-hakam-bint-al-zubayr-02",
+        "20260821-family-life-umm-al-hakam-bint-al-zubayr-03",
+        "20260821-family-life-umm-al-hakam-bint-al-zubayr-04",
+        "20260821-family-life-umm-al-hakam-bint-al-zubayr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umm-habiba": {
+      "id": "umm-habiba",
+      "nameAr": "أم حبيبة رملة بنت أبي سفيان",
+      "canonicalUrl": "person.html?id=umm-habiba&name=%D8%A3%D9%85%20%D8%AD%D8%A8%D9%8A%D8%A8%D8%A9%20%D8%B1%D9%85%D9%84%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%B3%D9%81%D9%8A%D8%A7%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umm-habiba-01",
+        "20260821-family-life-umm-habiba-02",
+        "20260821-family-life-umm-habiba-03",
+        "20260821-family-life-umm-habiba-04",
+        "20260821-family-life-umm-habiba-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umm-hakim-al-bayda-bint-abd-al-muttalib": {
+      "id": "umm-hakim-al-bayda-bint-abd-al-muttalib",
+      "nameAr": "أم حكيم البيضاء بنت عبد المطلب",
+      "canonicalUrl": "person.html?id=umm-hakim-al-bayda-bint-abd-al-muttalib&name=%D8%A3%D9%85%20%D8%AD%D9%83%D9%8A%D9%85%20%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umm-hakim-al-bayda-bint-abd-al-muttalib-01",
+        "20260821-family-life-umm-hakim-al-bayda-bint-abd-al-muttalib-02",
+        "20260821-family-life-umm-hakim-al-bayda-bint-abd-al-muttalib-03",
+        "20260821-family-life-umm-hakim-al-bayda-bint-abd-al-muttalib-04",
+        "20260821-family-life-umm-hakim-al-bayda-bint-abd-al-muttalib-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "paternal-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umm-kulthum-bint-ali": {
+      "id": "umm-kulthum-bint-ali",
+      "nameAr": "أم كلثوم بنت علي",
+      "canonicalUrl": "person.html?id=umm-kulthum-bint-ali&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%84%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umm-kulthum-bint-ali-01",
+        "20260821-family-life-umm-kulthum-bint-ali-02",
+        "20260821-family-life-umm-kulthum-bint-ali-03",
+        "20260821-family-life-umm-kulthum-bint-ali-04",
+        "20260821-family-life-umm-kulthum-bint-ali-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umm-kulthum-bint-muhammad": {
+      "id": "umm-kulthum-bint-muhammad",
+      "nameAr": "أم كلثوم بنت محمد",
+      "canonicalUrl": "person.html?id=umm-kulthum-bint-muhammad&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umm-kulthum-bint-muhammad-01",
+        "20260821-family-life-umm-kulthum-bint-muhammad-02",
+        "20260821-family-life-umm-kulthum-bint-muhammad-03",
+        "20260821-family-life-umm-kulthum-bint-muhammad-04",
+        "20260821-family-life-umm-kulthum-bint-muhammad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "umm-salama": {
+      "id": "umm-salama",
+      "nameAr": "أم سلمة هند بنت أبي أمية",
+      "canonicalUrl": "person.html?id=umm-salama&name=%D8%A3%D9%85%20%D8%B3%D9%84%D9%85%D8%A9%20%D9%87%D9%86%D8%AF%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A3%D9%85%D9%8A%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-umm-salama-01",
+        "20260821-family-life-umm-salama-02",
+        "20260821-family-life-umm-salama-03",
+        "20260821-family-life-umm-salama-04",
+        "20260821-family-life-umm-salama-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "urwa-ibn-al-zubayr": {
+      "id": "urwa-ibn-al-zubayr",
+      "nameAr": "عروة بن الزبير",
+      "canonicalUrl": "person.html?id=urwa-ibn-al-zubayr&name=%D8%B9%D8%B1%D9%88%D8%A9%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-urwa-ibn-al-zubayr-01",
+        "20260821-family-life-urwa-ibn-al-zubayr-02",
+        "20260821-family-life-urwa-ibn-al-zubayr-03",
+        "20260821-family-life-urwa-ibn-al-zubayr-04",
+        "20260821-family-life-urwa-ibn-al-zubayr-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "uthman-ibn-affan": {
+      "id": "uthman-ibn-affan",
+      "nameAr": "عثمان بن عفان",
+      "canonicalUrl": "person.html?id=uthman-ibn-affan&name=%D8%B9%D8%AB%D9%85%D8%A7%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%81%D8%A7%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-uthman-ibn-affan-01",
+        "20260821-family-life-uthman-ibn-affan-02",
+        "20260821-family-life-uthman-ibn-affan-03",
+        "20260821-family-life-uthman-ibn-affan-04",
+        "20260821-family-life-uthman-ibn-affan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "in-laws": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "wahb-ibn-abd-manaf-zuhra": {
+      "id": "wahb-ibn-abd-manaf-zuhra",
+      "nameAr": "وهب بن عبد مناف بن زهرة",
+      "canonicalUrl": "person.html?id=wahb-ibn-abd-manaf-zuhra&name=%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-wahb-ibn-abd-manaf-zuhra-01",
+        "20260821-family-life-wahb-ibn-abd-manaf-zuhra-02",
+        "20260821-family-life-wahb-ibn-abd-manaf-zuhra-03",
+        "20260821-family-life-wahb-ibn-abd-manaf-zuhra-04",
+        "20260821-family-life-wahb-ibn-abd-manaf-zuhra-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "ancestors": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "zayd-ibn-al-hasan": {
+      "id": "zayd-ibn-al-hasan",
+      "nameAr": "زيد بن الحسن",
+      "canonicalUrl": "person.html?id=zayd-ibn-al-hasan&name=%D8%B2%D9%8A%D8%AF%20%D8%A8%D9%86%20%D8%A7%D9%84%D8%AD%D8%B3%D9%86",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-zayd-ibn-al-hasan-01",
+        "20260821-family-life-zayd-ibn-al-hasan-02",
+        "20260821-family-life-zayd-ibn-al-hasan-03",
+        "20260821-family-life-zayd-ibn-al-hasan-04",
+        "20260821-family-life-zayd-ibn-al-hasan-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "zaynab-bint-ali": {
+      "id": "zaynab-bint-ali",
+      "nameAr": "زينب بنت علي",
+      "canonicalUrl": "person.html?id=zaynab-bint-ali&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%84%D9%8A",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-zaynab-bint-ali-01",
+        "20260821-family-life-zaynab-bint-ali-02",
+        "20260821-family-life-zaynab-bint-ali-03",
+        "20260821-family-life-zaynab-bint-ali-04",
+        "20260821-family-life-zaynab-bint-ali-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "grandchildren": 5
+      },
+      "totalSupportingWords": 2535,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "zaynab-bint-jahsh": {
+      "id": "zaynab-bint-jahsh",
+      "nameAr": "زينب بنت جحش",
+      "canonicalUrl": "person.html?id=zaynab-bint-jahsh&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-zaynab-bint-jahsh-01",
+        "20260821-family-life-zaynab-bint-jahsh-02",
+        "20260821-family-life-zaynab-bint-jahsh-03",
+        "20260821-family-life-zaynab-bint-jahsh-04",
+        "20260821-family-life-zaynab-bint-jahsh-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "zaynab-bint-khuzayma": {
+      "id": "zaynab-bint-khuzayma",
+      "nameAr": "زينب بنت خزيمة",
+      "canonicalUrl": "person.html?id=zaynab-bint-khuzayma&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-zaynab-bint-khuzayma-01",
+        "20260821-family-life-zaynab-bint-khuzayma-02",
+        "20260821-family-life-zaynab-bint-khuzayma-03",
+        "20260821-family-life-zaynab-bint-khuzayma-04",
+        "20260821-family-life-zaynab-bint-khuzayma-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json"
+      ],
+      "sectionCounts": {
+        "prophetic-family": 5
+      },
+      "subsectionCounts": {
+        "all-relatives": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    },
+    "zaynab-bint-muhammad": {
+      "id": "zaynab-bint-muhammad",
+      "nameAr": "زينب بنت محمد",
+      "canonicalUrl": "person.html?id=zaynab-bint-muhammad&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
+      "canonicalBiographyCount": 1,
+      "supportingArticleCount": 5,
+      "supportingArticleIds": [
+        "20260821-family-life-zaynab-bint-muhammad-01",
+        "20260821-family-life-zaynab-bint-muhammad-02",
+        "20260821-family-life-zaynab-bint-muhammad-03",
+        "20260821-family-life-zaynab-bint-muhammad-04",
+        "20260821-family-life-zaynab-bint-muhammad-05"
+      ],
+      "sourceBatchPaths": [
+        "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json"
+      ],
+      "sectionCounts": {
+        "prophetic-household": 5
+      },
+      "subsectionCounts": {
+        "children": 5
+      },
+      "totalSupportingWords": 2505,
+      "policy": "One person page is the sole biography; numbered/source-life records are supporting thematic articles."
+    }
+  }
+}
