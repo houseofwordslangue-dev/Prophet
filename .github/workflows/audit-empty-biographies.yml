@@ -1,0 +1,28 @@
+name: Audit empty biographies
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_empty_person_biographies.py'
+      - '.github/workflows/audit-empty-biographies.yml'
+      - 'data/people.json'
+      - 'data/family_people.json'
+      - 'data/family_groups.json'
+      - 'data/family_biographies.json'
+      - 'data/family_biographies_all.*.b64'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Audit rendered biography coverage
+        run: python scripts/audit_empty_person_biographies.py
+      - name: Upload audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: empty-biographies-audit
+          path: data/editorial/empty_biographies_audit.json
