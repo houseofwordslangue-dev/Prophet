@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'scripts/generate_animated_children_stories.py'
+      - 'scripts/animated_children_quality_revision.py'
       - 'children-animated.html'
       - 'children.html'
       - 'children-stories.html'
@@ -14,6 +15,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/generate_animated_children_stories.py'
+      - 'scripts/animated_children_quality_revision.py'
       - 'children-animated.html'
       - 'assets/children-animated.css'
       - 'assets/children-animated.js'
@@ -39,14 +41,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Generate deterministic corpus and scene artwork
-        run: python scripts/generate_animated_children_stories.py
+      - name: Generate revised corpus and scene artwork
+        run: python scripts/animated_children_quality_revision.py
       - name: Run strict corpus audit
-        run: python scripts/generate_animated_children_stories.py --validate-only
+        run: python scripts/animated_children_quality_revision.py --validate-only
       - name: Validate distribution, routes and player contract
         run: |
           python - <<'PY'
-          import json, pathlib, re
+          import json, pathlib
           root=pathlib.Path('data/children/animated')
           m=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
           idx=json.loads((root/'index.json').read_text(encoding='utf-8'))
@@ -57,6 +59,9 @@ jobs:
           assert len(idx['items'])==100
           assert len({x['id'] for x in idx['items']})==100
           assert len({x['slug'] for x in idx['items']})==100
+          assert len({x['titleAr'] for x in idx['items']})==100
+          assert len({x['titleEn'] for x in idx['items']})==100
+          assert len({x['titleFr'] for x in idx['items']})==100
           assert status['ready']==100 and status['failed']==0 and status['animatedStoryboard']==100
           assert status['nativeVideo']==0 and status['ttsFallback']==100
           for x in idx['items']:
@@ -74,7 +79,6 @@ jobs:
           for required in ['caPlay','caPrev','caNext','caTimeline','caNarration','caSubtitleToggle','caReadToggle','caListen','caFullscreen','caReplay','caSpeed','caPlayerLanguage','caSceneSelect']:
               assert required in html,required
           assert 'speechSynthesis' in js
-          assert 'animated-storyboard' not in html.lower() or True
           assert 'children-animated.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
           assert 'children-stories.html' in pathlib.Path('children.html').read_text(encoding='utf-8')
           print('PASS: frontend/player/publication contract')
