@@ -1,0 +1,32 @@
+name: Professional release gate
+
+on:
+  pull_request:
+    paths:
+      - 'library.html'
+      - 'media.html'
+      - 'assets/**'
+      - 'scripts/professional_release_gate.py'
+      - '.github/workflows/professional-release-gate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'library.html'
+      - 'media.html'
+      - 'assets/**'
+      - 'scripts/professional_release_gate.py'
+
+permissions:
+  contents: read
+
+jobs:
+  performance-static-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Enforce professional release budgets
+        run: python scripts/professional_release_gate.py
