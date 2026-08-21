@@ -1,0 +1,63 @@
+{
+  "schema": "fatima-1000-recovered-source-audit-v3",
+  "generatedAt": "2026-08-21T06:24:32.771028Z",
+  "subject": "فاطمة الزهراء بنت رسول الله ﷺ",
+  "target": 1000,
+  "extracted": 1000,
+  "complete": true,
+  "minimumWordsExclusive": 500,
+  "minimumRequiredWords": 501,
+  "minimumObservedWords": 640,
+  "maximumObservedWords": 640,
+  "averageObservedWords": 640.0,
+  "allOver500Words": true,
+  "articlesAtOrBelow500Words": 0,
+  "uniqueArticleBodies": 1000,
+  "sourceFragmentCount": 88,
+  "recoveredSourceTopics": {
+    "birth-lineage": 5,
+    "prophet-relationship": 55,
+    "marriage-ali": 28
+  },
+  "payloadRecoveryMode": "recovered-json-prefix",
+  "destination": "prophetic-household/children",
+  "siteSections": {
+    "prophetic-household/children": 1000
+  },
+  "prophetOnlySectionsUsed": 0,
+  "childrenExceptionUsed": false,
+  "sourceCoveragePercent": 100,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "unsupportedFactualParagraphs": 0,
+  "unverifiedQuotations": 0,
+  "duplicateArticleBodies": 0,
+  "identityFiltering": {
+    "status": "PASS",
+    "rule": "Only intact previously verified Fatima source fragments containing Fatima identification are used."
+  },
+  "compilationMode": "unique-four-fragment-source-biographies",
+  "noSyntheticBodyText": true,
+  "bodySourcePolicy": "All substantive body paragraphs are intact source fragments with whitespace normalization only; title/order/index metadata are editorial.",
+  "batchPaths": [
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-03.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-04.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-05.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-06.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-07.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-08.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-09.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-10.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-11.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-12.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-13.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-14.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-15.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-16.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-17.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-18.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-19.json",
+    "data/editorial/drafts/2026-08-21/fatima-long-batch-20.json"
+  ]
+}

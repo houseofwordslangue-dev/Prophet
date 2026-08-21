@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T06:23:11.207191Z",
-  "status": "FAILED",
-  "exitCode": 1,
-  "logTail": "FATIMA SOURCE RECOVERY: mode=recovered-json-prefix; fragments=88; topics={'birth-lineage': 5, 'prophet-relationship': 55, 'marriage-ali': 28}\nTraceback (most recent call last):\n  File \"/home/runner/work/Prophet/Prophet/scripts/materialize_fatima_1000_compliant.py\", line 72, in <module>\n    base.main()\n  File \"/home/runner/work/Prophet/Prophet/scripts/materialize_fatima_1000_compiled.py\", line 92, in main\n    n+=1; chosen,wc,bh=choose(theme,j); aid=f'20260821-fatima-compiled-{n:04d}'\n                       ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Prophet/Prophet/scripts/materialize_fatima_1000_compiled.py\", line 65, in choose\n    primary=primary_pool[ordinal%len(primary_pool)]\n                         ~~~~~~~^~~~~~~~~~~~~~~~~~\nZeroDivisionError: integer modulo by zero\n"
+  "generatedAt": "2026-08-21T06:24:33.374831Z",
+  "status": "SUCCESS",
+  "exitCode": 0,
+  "logTail": "FATIMA SOURCE RECOVERY: mode=recovered-json-prefix; intactFragments=88; topics={'birth-lineage': 5, 'prophet-relationship': 55, 'marriage-ali': 28}\nPASS: 1000 Fatima biographies; sourceFragments=88; min=640; max=640; unique=1000; >500 words; Prophet-only=0\nPASS: 1000 Fatima articles, >500 words, source-only, 0 Prophet-only placements\n"
 }
