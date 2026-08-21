@@ -1,0 +1,42 @@
+name: Exhaustive publication audit
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'assets/**'
+      - '*.html'
+      - 'scripts/exhaustive_publication_audit.py'
+      - '.github/workflows/exhaustive-publication-audit.yml'
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate file-by-file and resource-by-resource audit
+        id: audit
+        continue-on-error: true
+        run: python scripts/exhaustive_publication_audit.py
+      - name: Commit generated ledgers
+        run: |
+          git config user.name 'prophet-publication-audit'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update exhaustive publication audit ledger'
+            git push
+          fi
+      - name: Enforce zero-gap publication gate
+        if: steps.audit.outcome == 'failure'
+        run: |
+          echo 'Publication audit FAIL: at least one authoritative resource is not yet fully published.'
+          exit 1
