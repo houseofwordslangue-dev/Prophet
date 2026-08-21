@@ -8,6 +8,7 @@
 <title>القارئ — مكتبة محمد ﷺ</title>
 <link rel="stylesheet" href="assets/tarjma-fonts.css">
 <link rel="stylesheet" href="assets/prophet-bookreader.css">
+<link rel="stylesheet" href="assets/site-professional.css">
 </head>
 <body class="reader-page">
 <header class="reader-header">
@@ -23,73 +24,44 @@
   <div class="reader-header-actions">
     <button id="readerTheme" type="button" title="وضع القراءة">◐ <span>القراءة</span></button>
     <button id="readerFullscreen" type="button" title="ملء الشاشة">⛶ <span>ملء الشاشة</span></button>
-    <button id="readerInfo" type="button" title="معلومات القارئ">ⓘ <span>حول القارئ</span></button>
+    <button id="readerInfo" type="button" title="حول القارئ">ⓘ <span>حول القارئ</span></button>
   </div>
 </header>
 
 <main id="readerStage" class="reader-stage">
   <div id="readerLoading" class="reader-loading" role="status" aria-live="polite">
     <span class="reader-spinner" aria-hidden="true"></span>
-    <strong>جارٍ تجهيز الكتاب…</strong>
-    <small>يتم اختيار أفضل مصدر متاح لهذا الكتاب.</small>
+    <strong>جارٍ فتح الكتاب…</strong>
+    <small>يتم تجهيز النسخة المناسبة للقراءة.</small>
   </div>
 
   <section id="bookReaderMode" class="reader-mode bookreader-mode" hidden>
-    <ia-bookreader id="iaReader">
-      <div id="IABookReaderWrapper" slot="main">
-        <div id="BookReader" class="BookReader"></div>
-      </div>
-    </ia-bookreader>
+    <ia-bookreader id="iaReader"><div id="IABookReaderWrapper" slot="main"><div id="BookReader" class="BookReader"></div></div></ia-bookreader>
   </section>
 
   <section id="frameMode" class="reader-mode frame-mode" hidden>
     <iframe id="readerFrame" referrerpolicy="no-referrer" allow="fullscreen" loading="eager"></iframe>
-    <div class="frame-tools"><a id="frameOpen" href="#" target="_blank" rel="noopener">فتح الأصل في نافذة مستقلة</a></div>
+    <div class="frame-tools"><a id="frameOpen" href="#" target="_blank" rel="noopener">فتح النسخة في نافذة مستقلة</a></div>
   </section>
 
   <section id="textMode" class="reader-mode text-mode" hidden>
-    <div class="text-toolbar">
-      <button id="textSearch" type="button" disabled>⌕ بحث</button>
-      <button id="textListen" type="button" disabled>◉ استماع</button>
-      <label>حجم الخط <input id="textSize" type="range" min="18" max="40" value="25"></label>
-    </div>
-    <div id="textExcerpt" class="text-excerpt" hidden></div>
-    <article id="textContent" class="text-content" tabindex="0"></article>
+    <div class="text-toolbar"><button id="textSearch" type="button" disabled>⌕ بحث</button><button id="textListen" type="button" disabled>◉ استماع</button><label>حجم الخط <input id="textSize" type="range" min="18" max="40" value="25"></label></div>
+    <div id="textExcerpt" class="text-excerpt" hidden></div><article id="textContent" class="text-content" tabindex="0"></article>
   </section>
 
   <section id="readerUnavailable" class="reader-mode reader-unavailable" hidden>
-    <div class="unavailable-card">
-      <span class="unavailable-mark">۞</span>
-      <h2>النسخة غير متاحة للقارئ العام</h2>
-      <p id="readerUnavailableText">لا يوجد أصل عام صالح للفتح في القارئ لهذا السجل.</p>
-      <a id="readerSourceLink" href="#" target="_blank" rel="noopener" hidden>فتح المصدر المتاح</a>
-      <a href="library.html">العودة إلى المكتبة</a>
-    </div>
+    <div class="unavailable-card"><span class="unavailable-mark">۞</span><h2>هذه النسخة غير متاحة للقراءة المباشرة</h2><p id="readerUnavailableText">لا تتوفر حالياً نسخة صالحة للفتح داخل القارئ.</p><a id="readerSourceLink" href="#" target="_blank" rel="noopener" hidden>فتح النسخة المتاحة</a><a href="library.html">العودة إلى المكتبة</a></div>
   </section>
 
   <aside id="readerInfoPanel" class="reader-info-panel" hidden>
     <button id="readerInfoClose" class="info-close" type="button" aria-label="إغلاق">×</button>
-    <p class="eyebrow">محرك القراءة</p>
-    <h2>قارئ مكتبة محمد ﷺ</h2>
-    <p>واجهة مخصصة لهوية الموقع تستخدم Internet Archive BookReader للمصادر ذات الصفحات أو IIIF، وتعود تلقائياً إلى عارض مناسب للنصوص وملفات PDF عند الحاجة.</p>
-    <dl>
-      <div><dt>المحرك</dt><dd id="readerEngine">BookReader v5 · AGPL-3.0</dd></div>
-      <div><dt>الاتجاه</dt><dd>RTL / العربية أولاً</dd></div>
-      <div><dt>الهوية</dt><dd>Cairo + Poppins · أخضر / ذهبي / زليج</dd></div>
-    </dl>
-    <p class="license-note">Internet Archive BookReader مرخص تحت GNU AGPL v3. تكامل القارئ في هذا الموقع يحتفظ بإشعار الترخيص وروابط المصدر.</p>
-    <div class="license-links">
-      <a href="https://github.com/internetarchive/bookreader" target="_blank" rel="noopener">مصدر BookReader</a>
-      <a href="https://github.com/internetarchive/bookreader/blob/master/LICENSE" target="_blank" rel="noopener">AGPL-3.0</a>
-      <a href="https://github.com/houseofwordslangue-dev/Prophet" target="_blank" rel="noopener">مصدر تكامل الموقع</a>
-    </div>
+    <p class="eyebrow">حول القارئ</p><h2>قارئ مكتبة محمد ﷺ</h2>
+    <p>قارئ مخصص للكتب والنصوص والنسخ المصوّرة، مع دعم البحث والاستماع والعرض بملء الشاشة بحسب نوع المادة.</p>
+    <p class="license-note">يعتمد عرض بعض النسخ المصوّرة على Internet Archive BookReader المرخص تحت GNU AGPL v3.</p>
+    <div class="license-links"><a href="https://github.com/internetarchive/bookreader" target="_blank" rel="noopener">BookReader</a><a href="https://github.com/internetarchive/bookreader/blob/master/LICENSE" target="_blank" rel="noopener">الترخيص</a></div>
   </aside>
 </main>
-
-<footer class="reader-statusbar">
-  <span id="readerStatus">جارٍ التحميل…</span>
-  <span class="reader-brandline">مكتبة محمد ﷺ · قارئ مفتوح المصدر</span>
-</footer>
+<footer class="reader-statusbar"><span id="readerStatus">جارٍ التحميل…</span><span class="reader-brandline">مكتبة محمد ﷺ</span></footer>
 <script src="assets/prophet-bookreader.js"></script>
 </body>
 </html>
