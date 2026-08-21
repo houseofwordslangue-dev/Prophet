@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_remaining_family_life_5_each.py'
+      - 'scripts/build_remaining_family_life_5_each_v2.py'
       - '.github/workflows/build-remaining-family-life-5.yml'
   workflow_dispatch:
 
@@ -35,16 +36,14 @@ jobs:
         shell: bash
         run: |
           set +e
-          python scripts/build_remaining_family_life_5_each.py > /tmp/family-build.log 2>&1
+          python scripts/build_remaining_family_life_5_each_v2.py > /tmp/family-build.log 2>&1
           code=$?
           cat /tmp/family-build.log
           echo "exitcode=$code" >> "$GITHUB_OUTPUT"
           python - <<'PY'
-          import json,datetime,pathlib,os
+          import json,pathlib
           log=pathlib.Path('/tmp/family-build.log').read_text(errors='replace')
-          code=int(os.environ.get('BUILD_CODE','0')) if os.environ.get('BUILD_CODE') else None
           pathlib.Path('data/editorial').mkdir(parents=True,exist_ok=True)
-          # actual code is injected by shell after this block
           pathlib.Path('/tmp/logtail.json').write_text(json.dumps({'logTail':log[-12000:]},ensure_ascii=False),encoding='utf-8')
           PY
           python - "$code" <<'PY'
