@@ -1,0 +1,3833 @@
+{
+  "schema": "ali-qdl-public-domain-v1",
+  "version": "2026-08-21-ali-qdl-02",
+  "publicationStatus": "PUBLISHED",
+  "draftedAt": "2026-08-21T05:23:00+01:00",
+  "sourceRegistry": {
+    "qdl-12969": {
+      "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+      "author": "مؤمن بن حسن مؤمن الشبلنجي",
+      "record": "Qatar National Library 12969",
+      "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+      "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+      "date": "1873/1877",
+      "language": "ar",
+      "rights": "Public Domain",
+      "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain."
+    }
+  },
+  "drafts": [
+    {
+      "id": "20260821-ali-source-0051",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0051",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0051-p01",
+          "text": "|| الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0051-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0051-p02",
+          "text": "ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0051-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0051-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "4b3dc0155933fe942f2a4d0b61c7e6fbdfa424197530109dc8cc86ac63cb71fc",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0052",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0052",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0052-p01",
+          "text": "وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0052-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0052-p02",
+          "text": "0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0052-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0052-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "57567ad1ceb50f3b6f4a656ec4608b6ca9849f5e4fcdc6204e60da2117fc5fd0",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0053",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0053",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0053-p01",
+          "text": "يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0053-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0053-p02",
+          "text": "الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0053-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0053-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "7dc2991ad0612e7114ce23f5938e2b27cc1e98c730a35861e80f4bcf8b246ba7",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0054",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0054",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0054-p01",
+          "text": "نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها)",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0054-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0054-p02",
+          "text": "ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0054-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0054-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "85dd192cb8d46d5332a29f55c3da7043ad524ba968a00fbf785980211ca5570e",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0055",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0055",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0055-p01",
+          "text": "يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0055-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0055-p02",
+          "text": "يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك |",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0055-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0055-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "88ba46e5dba27f5c8ba13a235d8043ffcd7b61b48b6c116d247ea79135cd7f35",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0056",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0056",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0056-p01",
+          "text": "0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0056-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0056-p02",
+          "text": "فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م س م 0 2 | ارس ا ة أبوببك الاقردارتم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0056-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0056-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "a981016e393fcec4d4ea83fe7dc60277f532090e37bb32073bf37ff27f10bd79",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0057",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0057",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0057-p01",
+          "text": "ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك !",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0057-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0057-p02",
+          "text": "ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0057-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0057-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "ae8214d5dd4ed5f5efe05ec3cac59c13b7b45f2768618fdadf46cf02e30e357a",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0058",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0058",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0058-p01",
+          "text": "من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و.",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0058-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0058-p02",
+          "text": "تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0058-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0058-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "b1e2bcb47763bead8d90ff6b4bec98b955c1c701857e8aadf3aae03e7827afec",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0059",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0059",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0059-p01",
+          "text": "الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0059-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0059-p02",
+          "text": "الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م س م 0 2 | ارس ا ة أبوببك الاقردارتم نجلة سين أ الك",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0059-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0059-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "bf063b624f40bb5885a6277e239fe3627dd620a318547e15f849966754460628",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0060",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0060",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0060-p01",
+          "text": "ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0060-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0060-p02",
+          "text": "ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0060-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0060-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "c232b8e39c94531eed61cc6b92479de2af82e93321d233078a6081eb7323949d",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0061",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0061",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0061-p01",
+          "text": "محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0061-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0061-p02",
+          "text": "ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0061-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0061-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "e096cc4c5ae66529b2fac3dc88c81d78779a49f88846983d023897d3a6c8e632",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0062",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0062",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0062-p01",
+          "text": "ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0062-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0062-p02",
+          "text": "وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0062-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0062-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "e8eac2a6439e92d90e3562027dfdd4f5bf7b36be3c2ac0285837551865d6e68d",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0063",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0063",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0063-p01",
+          "text": "عل )\"وات مامناماتم إلا ما كائمزهذالةالدة لخر 0 أ (تسر 00 ظ ظ 3 : 3 تسسات نات 5 تيم ققاليماتصتم قوم قنلوا أباك وخذلوا ١ ا 0 بوي وم 5 أ يعتهم ققالماتصنع عت ||| فل كاآدشرتب| 1 ج00 ١ ا 000 ا به 3 انسألناقة قب طينافذأزاذمانكره فيا حبرضينا ه والتزم ٠, - ذلك قنال]ناأفل يت نسأ لاق فب طينافذاآر , . يقؤل غلنا الحين بالخروج ولعمرى 2 (14) لقدرأىقأخيهوايهعبرة وكله ذلك أيضاً من وجوه الصحابة جابر وكان ابن ؤيادولاه الرى و كتب هبه إلى أنسا. ب الحسينورجع فذا التقيا... (184) لصوي ب",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0063-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0063-p02",
+          "text": "ا اموي ييا الصا كا سالا لس سو شور خا ممصا واه ف بوغيوو 0 د - ا ااا ل 3 0 | ابن على بن أنى طالب رضى اقعنهم )فأ وهامر-ىالكاظ ولمأعترع ل أمهانمر",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0063-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0063-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-94–F-1-95",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.94",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "45445b4657bac4ee7d4230424e39e9bcfa591b2b346d18bde09a6a32c2defed2",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0064",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0064",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0064-p01",
+          "text": "من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و.",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0064-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0064-p02",
+          "text": "تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0064-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0064-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "19c0caf20f392c8689174efd9dcd913685b31774f04796d2faea081d1c4d606b",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0065",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0065",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0065-p01",
+          "text": "محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0065-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0065-p02",
+          "text": "ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0065-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0065-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "301effd7152893756ddeefc912b7f2dd95486a716621d7026dddbe1f9ad98b4e",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0066",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0066",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0066-p01",
+          "text": "يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0066-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0066-p02",
+          "text": "يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0066-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0066-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "3cf3897c1ee6ad0598edbd804098e3d27f5c38e023830efcab46eaee93e25f13",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0067",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0067",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0067-p01",
+          "text": "ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0067-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0067-p02",
+          "text": "ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م س م 0 2 | ارس ا ة أبوببك الاقردارتم نجلة سين",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0067-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0067-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "4d77b7cf5d08bbcaa1ff3c135eb3f13f9a87320bdf42daf4e1e454393cbd394e",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0068",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0068",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0068-p01",
+          "text": "يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0068-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0068-p02",
+          "text": "الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0068-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0068-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "6794a2c0aa63e717714690bb3c377fc72d103671043703bac282ba750d5dab97",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0069",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0069",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0069-p01",
+          "text": "وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0069-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0069-p02",
+          "text": "0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0069-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0069-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "78fa0ac984e18ced7f658467e9ed10603ea2b15249da8c640eccb979f2d24380",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0070",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0070",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0070-p01",
+          "text": "نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها)",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0070-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0070-p02",
+          "text": "ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0070-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0070-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "8712a126c277123362ea07a995b63da0ab6200e7a47c1a634d70b345ada91675",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0071",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0071",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0071-p01",
+          "text": "ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك !",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0071-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0071-p02",
+          "text": "ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م س م 0 2",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0071-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0071-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "91ffee87ba6c3af851b13fdc642cc04faf1ee8466370d584d7d4ad912ce0d7eb",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0072",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0072",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0072-p01",
+          "text": "كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0072-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0072-p02",
+          "text": "0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م س م 0 2 | ارس ا ة أبوببك الاقردارتم نجلة سين أ الك",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0072-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0072-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "a120850b594a758d1aa74da05bef83b3e57b30f7adb9f38b75e4f9ffcba1ff36",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0073",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0073",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0073-p01",
+          "text": "(186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [|",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0073-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0073-p02",
+          "text": "7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0073-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0073-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "aadad0380e2254aafb3f048de399808b3ea9db7cb3acfd0f747e43a0f668029f",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0074",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0074",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0074-p01",
+          "text": "وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0074-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0074-p02",
+          "text": "2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0074-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0074-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "e17e1811fd84e1b8d29ced5ee084311a027a60ecf61a7f2f64b741507a70949d",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0075",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0075",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0075-p01",
+          "text": "ارق 8 دلماساية ا 6 أ اراق ١ ا 0 اد لله لخن كيه سمنار لا 0 يي أ 2 واكناق تارق 0ك 0 / لعجل لآيه اهما[ اود.دة ون تعن اك اك انار وسار ددر وكا 0 أ فو كتانب السمةي سه ال 0 ١ | يدا عل )\"وات مامناماتم إلا ما كائمزهذالةالدة لخر 0 أ (تسر 00 ظ ظ 3 : 3 تسسات نات 5 تيم ققاليماتصتم قوم قنلوا أباك وخذلوا ١ ا 0 بوي وم 5 أ يعتهم ققالماتصنع عت ||| فل كاآدشرتب| 1 ج00 ١ ا 000 ا به 3 انسألناقة",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0075-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0075-p02",
+          "text": "قب طينافذأزاذمانكره فيا حبرضينا ه والتزم ٠, - ذلك قنال]ناأفل يت نسأ لاق فب طينافذاآر , . يقؤل غلنا الحين بالخروج ولعمرى 2 (14) لقدرأىقأخيهوايهعبرة وكله ذلك أيضاً من وجوه الصحابة جابر وكان ابن ؤيادولاه الرى و كتب هبه إلى أنسا. ب الحسينورجع فذا التقيا... (184) لصوي ب ا اموي ييا الصا كا سالا لس سو شور خا ممصا واه ف بوغيوو 0 د - ا ااا ل 3 0 | ابن على بن أنى طالب رضى اقعنهم )فأ وهامر-ىالكاظ ولمأعترع ل أمهانمر إن كانت",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0075-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0075-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-94–F-1-95",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.94",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "eff9d4d31268975cc7e642b1d9a7048db1ac1290ec877b924035e5b99c576c90",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0076",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0076",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0076-p01",
+          "text": "أللف وخسييائة ا اين با عل لجل ارقي تاكن مشامد أرساضرا ؤالبهذء هاليو روسو جالى انرأ 2222-3 حماتصصه هخم وف دع تخد هدام ١ وش مدقالا لالمتيران كن ماهدا أوحاضرا وهال حل سر ١ 2 0 ١ تدعليه. وسلفي امام تقال يام نكيني أن فقت : أ رأسه يقبلم فقال ل طدد اك احص ا 1 ,أل تقلت حيدق الذي لا شيين: كر ولابخيب من دعاءفر أيتالبي صل قوعليه وسلفي امام تقال اج نكي أن فقلت بجي 3 . 3-1 النقدط تنأن أنازءك ما أنت أحق بهمنى هوأ 3 الحسين إن الذي منمنى من ابتدائك",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0076-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0076-p02",
+          "text": "هذا إنكأحق بالفضل من وك ضتان أناز» حق يمي هو ايوج ا ١ ل كلامه الطعام أهون من أن يا يدنك وفى الآخرة بقلبك - (186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0076-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0076-p03",
+          "text": "القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0076-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0076-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-91–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.91",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "32453f6b195d35dccbc0a2dea5d59756181c6cd4584eb0dcb1ef2c924a7814ae",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0077",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0077",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0077-p01",
+          "text": "هاليو روسو جالى انرأ 2222-3 حماتصصه هخم وف دع تخد هدام ١ وش مدقالا لالمتيران كن ماهدا أوحاضرا وهال حل سر ١ 2 0 ١ تدعليه. وسلفي امام تقال يام نكيني أن فقت : أ رأسه يقبلم فقال ل طدد اك احص ا 1 ,أل تقلت حيدق الذي لا شيين: كر ولابخيب من دعاءفر أيتالبي صل قوعليه وسلفي امام تقال اج نكي أن فقلت بجي 3 . 3-1 النقدط تنأن أنازءك ما أنت أحق بهمنى هوأ 3 الحسين إن الذي منمنى من ابتدائك هذا إنكأحق بالفضل من وك ضتان أناز» حق يمي هو ايوج ا",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0077-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0077-p02",
+          "text": "١ ل كلامه الطعام أهون من أن يا يدنك وفى الآخرة بقلبك - (186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها)",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0077-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0077-p03",
+          "text": "ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا(",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0077-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0077-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-91–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.91",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "89ff979505a87a8f7a88ec48c7401a0bd8ab22fc0a95a43fc93b923580900d23",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0078",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0078",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0078-p01",
+          "text": "إنكأحق بالفضل من وك ضتان أناز» حق يمي هو ايوج ا ١ ل كلامه الطعام أهون من أن يا يدنك وفى الآخرة بقلبك - (186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0078-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0078-p02",
+          "text": "يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0078-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0078-p03",
+          "text": "و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0078-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0078-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-91–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.91",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "a2e73b97631916a2b91dc795d9c01c487de21a1ff4159c4054b9267bcd03659e",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0079",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0079",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0079-p01",
+          "text": "يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0079-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0079-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "10398481b31d60a8ba444d0ed59b0e6c8013474f4da37d64df66a6c4ccd12cce",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0080",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0080",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0080-p01",
+          "text": "مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0080-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0080-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "109b86a664d19e446fe8ca22e0a57cb9bc160c667be6fd3e8b94da7b2f5b67a3",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0081",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0081",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0081-p01",
+          "text": "ل كلامه الطعام أهون من أن يا يدنك وفى الآخرة بقلبك - (186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0081-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0081-p02",
+          "text": "ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0081-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0081-p03",
+          "text": "ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0081-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0081-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "20a6355b69406d871cdc80fb5ab2ba1fe9af57202ad2576e7c1d29148481dff2",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0082",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0082",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0082-p01",
+          "text": "محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0082-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0082-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "22bd8820204b29a05b0424a1ed6454c7f3158f64fdd005ee713814cd4c59357c",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0083",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0083",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0083-p01",
+          "text": "لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0083-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0083-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "36a46bde029904d1fa14ae3f1fedd2eecafe0428cc4e9e2ece39c995f0fd620e",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0084",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0084",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0084-p01",
+          "text": "رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0084-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0084-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "5917a80bd1f9ad57a581098e5ff0ff9aacbe225eab56e465e2fa0429bc0ff410",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0085",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0085",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0085-p01",
+          "text": "|| الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0085-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0085-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "5e8bea2d7688d98e2bd26248d965dd0001fdba993151f61a2870a405017a9c56",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0086",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0086",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0086-p01",
+          "text": "ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0086-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0086-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "7631fe2377173093d7fe5f121e37bf92b9d89c8269e711fcad09f25d977aab0f",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0087",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0087",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0087-p01",
+          "text": "0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0087-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0087-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "7c84c1c97cf8064daa49ff7cf7fad68668aa555669f33e8aafe3cbe22ff590c7",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0088",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0088",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0088-p01",
+          "text": "يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0088-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0088-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "889d41d9ecfb38f826abdea3783d6b9e3e2b6042b4a29b0ce1c01045932a1d9c",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0089",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0089",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0089-p01",
+          "text": "ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0089-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0089-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "b7b53a772334f53dfb25d047890308602bf34aacd91cec795779c9444a13477e",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0090",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0090",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0090-p01",
+          "text": "ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0090-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0090-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "b9889d71c26f3f802abfc178d8623687cef13db24263a2efc421fe444c20bfb8",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0091",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0091",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0091-p01",
+          "text": "كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك |",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0091-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0091-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "d024b74f1b1ff683ffb19e90c12299b24b14203c434a49d8bc8c021e03ecfa95",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0092",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0092",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0092-p01",
+          "text": "الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0092-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0092-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "e581e30d5d71693dc3f509b1ac7d97c75ab18791e08bb1c5769de54886643ae3",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0093",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0093",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0093-p01",
+          "text": "ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0093-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0093-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "e66b0c022c036d4bf56b18a4bf0767120af1308fd7b0412d4dddc933813a4668",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0094",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0094",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0094-p01",
+          "text": "وخذلوا ١ ا 0 بوي وم 5 أ يعتهم ققالماتصنع عت ||| فل كاآدشرتب| 1 ج00 ١ ا 000 ا به 3 انسألناقة قب طينافذأزاذمانكره فيا حبرضينا ه والتزم ٠, - ذلك قنال]ناأفل يت نسأ لاق فب طينافذاآر , . يقؤل غلنا الحين بالخروج ولعمرى 2 (14) لقدرأىقأخيهوايهعبرة وكله ذلك أيضاً من وجوه الصحابة جابر وكان ابن ؤيادولاه الرى و كتب هبه إلى أنسا. ب الحسينورجع فذا التقيا... (184) لصوي ب ا اموي ييا الصا كا سالا لس سو شور خا ممصا واه ف بوغيوو 0 د - ا ااا ل 3 0 | ابن على بن أنى طالب رضى اقعنهم )فأ وهامر-ىالكاظ ولمأعترع ل أمهانمر إن كانت شقيقته فأمها",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0094-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0094-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-94–F-1-95",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.94",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "4bdfd34658dab84489a71213819df7f28aa7cada06e8a68812228950d66f6f56",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0095",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0095",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0095-p01",
+          "text": "تيم ققاليماتصتم قوم قنلوا أباك وخذلوا ١ ا 0 بوي وم 5 أ يعتهم ققالماتصنع عت ||| فل كاآدشرتب| 1 ج00 ١ ا 000 ا به 3 انسألناقة قب طينافذأزاذمانكره فيا حبرضينا ه والتزم ٠, - ذلك قنال]ناأفل يت نسأ لاق فب طينافذاآر , . يقؤل غلنا الحين بالخروج ولعمرى 2 (14) لقدرأىقأخيهوايهعبرة وكله ذلك أيضاً من وجوه الصحابة جابر وكان ابن ؤيادولاه الرى و كتب هبه إلى أنسا. ب الحسينورجع فذا التقيا... (184) لصوي ب ا اموي ييا الصا كا سالا لس سو شور خا ممصا واه ف بوغيوو 0 د - ا ااا ل 3 0 | ابن على بن أنى طالب رضى اقعنهم )فأ وهامر-ىالكاظ ولمأعترع ل",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0095-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0095-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-94–F-1-95",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.94",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "52111a681d50438eed39c27b3a713017fdeba597e479515d0fcd71a9eb111f65",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0096",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0096",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0096-p01",
+          "text": "وم 5 أ يعتهم ققالماتصنع عت ||| فل كاآدشرتب| 1 ج00 ١ ا 000 ا به 3 انسألناقة قب طينافذأزاذمانكره فيا حبرضينا ه والتزم ٠, - ذلك قنال]ناأفل يت نسأ لاق فب طينافذاآر , . يقؤل غلنا الحين بالخروج ولعمرى 2 (14) لقدرأىقأخيهوايهعبرة وكله ذلك أيضاً من وجوه الصحابة جابر وكان ابن ؤيادولاه الرى و كتب هبه إلى أنسا. ب الحسينورجع فذا التقيا... (184) لصوي ب ا اموي ييا الصا كا سالا لس سو شور خا ممصا واه ف بوغيوو 0 د - ا ااا ل 3 0 | ابن على بن أنى طالب رضى اقعنهم )فأ وهامر-ىالكاظ ولمأعترع ل أمهانمر إن كانت شقيقته فأمها 0 الكنالتوواخطط للغر يزى أجاتروضات",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0096-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0096-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-94–F-1-95",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.94",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "5593966b4141063b118a18a87c5a11a7a3270ece84f21190e83a4fd49fc37b7f",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0097",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0097",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-mercy",
+      "sections": [
+        "beloved/children-mercy"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0097-p01",
+          "text": "إنكأحق بالفضل من وك ضتان أناز» حق يمي هو ايوج ا ١ ل كلامه الطعام أهون من أن يا يدنك وفى الآخرة بقلبك - (186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0097-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0097-p02",
+          "text": "يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0097-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0097-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-91–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.91",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "4d5c833c0afa86d6228204c9888943953562fc798b50647ec4f4e165ea0a5951",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0098",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0098",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-mercy",
+      "sections": [
+        "beloved/children-mercy"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0098-p01",
+          "text": "ل كلامه الطعام أهون من أن يا يدنك وفى الآخرة بقلبك - (186) «ومن' ا ١ لعف حتتفت روطرفها الآخرداخلطلى العمامة عه يول لَه وي أعيه لأ نالتاس بمتوته ١ اسم سي وربرظوختا قحب من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0098-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0098-p02",
+          "text": "ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0098-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0098-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "e1991d698964399eb3eafd50a7be8ab7ea483a92d049d8c8bcba1967e114a05c",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0099",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0099",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0099-p01",
+          "text": "ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك |",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0099-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0099-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "021c13fb3b3a69f9c851792ef2de7e004861389c6af0ae4618d13c78a49538f8",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    },
+    {
+      "id": "20260821-ali-source-0100",
+      "title": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0100",
+      "language": "ar",
+      "contentType": "PUBLIC-DOMAIN OCR SOURCE ARTICLE",
+      "section": "beloved",
+      "subsection": "children-family",
+      "sections": [
+        "beloved/children-family"
+      ],
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "SOURCE_VERIFIED",
+      "publishedAt": "2026-08-21T05:23:00+01:00",
+      "subject": {
+        "id": "ali-ibn-abi-talib",
+        "name": "علي بن أبي طالب"
+      },
+      "paragraphs": [
+        {
+          "id": "20260821-ali-source-0100-p01",
+          "text": "من ازور نه لأغرا : 00 317 ته 0 ا وشراريت خريرظوطها قر شابسوماوقورا محنشمستحضر النوادره ا 1 5 0م يانى ل سمه سس ...2 إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و.",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0100-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        },
+        {
+          "id": "20260821-ali-source-0100-p02",
+          "text": "تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي جنا ا إى وأفه ماأرى أن ظ 0 3 00 000 0 ب يت بالإجاع لان مونم ننم 0 0 2 فنا البوة از ومات\"سة عتينعل ناخية لزمداره واغت فبداخلالحرم رأغاقليابوردالمدأ,الز»: أخالامنالاززوااسمن صل الله عليه وسم وأهل. 0 تتعليمرسل ولا | بجع 1 كثر وقب( الاقراء واعتكف بدا عي راي أرديا منالبرو أحنالامن| م س م 0 2",
+          "language": "ar",
+          "sourceRefs": [
+            "20260821-ali-source-0100-qdl-source"
+          ],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": false,
+          "quotationVerified": true,
+          "editorialOperations": [
+            "public-domain-page-ocr",
+            "whitespace-normalization",
+            "source-word-order-preserved"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "20260821-ali-source-0100-qdl-source",
+          "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "author": "مؤمن بن حسن مؤمن الشبلنجي",
+          "record": "Qatar National Library 12969",
+          "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+          "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+          "date": "1873/1877",
+          "language": "ar",
+          "rights": "Public Domain",
+          "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+          "pages": "F-1-92–F-1-92",
+          "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.92",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+        }
+      ],
+      "sourceFingerprint": "11a438f55cc72dbeb73f16313eff1652aedd0f80b32d856e214fc7e86d5f7e7c",
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "directAliIdentifierInWindow": true
+    }
+  ]
+}

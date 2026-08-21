@@ -1,0 +1,276 @@
+{
+  "version": "2026-08-21-master-structure-v1",
+  "direction": "rtl",
+  "menu": [
+    {
+      "id": "muhammad",
+      "label": "محمد ﷺ",
+      "reservedFor": "Prophet Muhammad only",
+      "children": [
+        {
+          "id": "light",
+          "label": "النور",
+          "href": "editorial.html?section=light"
+        },
+        {
+          "id": "prophet",
+          "label": "النبي",
+          "href": "editorial.html?section=prophet"
+        },
+        {
+          "id": "messenger",
+          "label": "الرسول",
+          "href": "editorial.html?section=messenger"
+        },
+        {
+          "id": "human",
+          "label": "الإنسان",
+          "href": "editorial.html?section=human"
+        },
+        {
+          "id": "mercy",
+          "label": "الرحمة العظمى",
+          "href": "editorial.html?section=mercy"
+        }
+      ]
+    },
+    {
+      "id": "prophetic-household",
+      "label": "الأسرة النبوية",
+      "children": [
+        {
+          "id": "children",
+          "label": "الأبناء",
+          "href": "family.html?group=children"
+        },
+        {
+          "id": "grandchildren",
+          "label": "الأحفاد",
+          "href": "family.html?group=grandchildren"
+        }
+      ]
+    },
+    {
+      "id": "prophetic-family",
+      "label": "العائلة النبوية",
+      "children": [
+        {
+          "id": "parents",
+          "label": "الوالدان",
+          "href": "editorial.html?section=prophetic-family&subsection=parents"
+        },
+        {
+          "id": "ancestors",
+          "label": "الأجداد",
+          "href": "editorial.html?section=prophetic-family&subsection=ancestors"
+        },
+        {
+          "id": "paternal-relatives",
+          "label": "الأعمام والعمات",
+          "href": "editorial.html?section=prophetic-family&subsection=paternal-relatives"
+        },
+        {
+          "id": "maternal-relatives",
+          "label": "الأخوال والخالات",
+          "href": "editorial.html?section=prophetic-family&subsection=maternal-relatives"
+        },
+        {
+          "id": "cousins",
+          "label": "أبناء العمومة",
+          "href": "editorial.html?section=prophetic-family&subsection=cousins"
+        },
+        {
+          "id": "in-laws",
+          "label": "الأصهار",
+          "href": "editorial.html?section=prophetic-family&subsection=in-laws"
+        },
+        {
+          "id": "all-relatives",
+          "label": "سائر الأقارب",
+          "href": "editorial.html?section=prophetic-family"
+        }
+      ]
+    },
+    {
+      "id": "companions",
+      "label": "الصحابة",
+      "children": [
+        {
+          "id": "biographies",
+          "label": "التراجم",
+          "href": "editorial.html?section=companions&subsection=biographies"
+        },
+        {
+          "id": "knowledge",
+          "label": "العلم والأقوال",
+          "href": "editorial.html?section=companions&subsection=knowledge"
+        },
+        {
+          "id": "events",
+          "label": "المواقف والأحداث",
+          "href": "editorial.html?section=companions&subsection=events"
+        }
+      ]
+    },
+    {
+      "id": "followers",
+      "label": "التابعون",
+      "children": [
+        {
+          "id": "biographies",
+          "label": "التراجم",
+          "href": "editorial.html?section=followers"
+        }
+      ]
+    },
+    {
+      "id": "followers-followers",
+      "label": "تابعو التابعين",
+      "children": [
+        {
+          "id": "biographies",
+          "label": "التراجم",
+          "href": "editorial.html?section=followers-followers"
+        }
+      ]
+    },
+    {
+      "id": "beloved",
+      "label": "أحباب الله",
+      "children": [
+        {
+          "id": "biographies",
+          "label": "السير والتراجم",
+          "href": "editorial.html?section=beloved"
+        },
+        {
+          "id": "children-character",
+          "label": "للأطفال · الأخلاق",
+          "href": "editorial.html?section=beloved&subsection=children-character"
+        },
+        {
+          "id": "children-knowledge",
+          "label": "للأطفال · العلم والمعرفة",
+          "href": "editorial.html?section=beloved&subsection=children-knowledge"
+        },
+        {
+          "id": "children-mercy",
+          "label": "للأطفال · الرحمة والرفق",
+          "href": "editorial.html?section=beloved&subsection=children-mercy"
+        },
+        {
+          "id": "children-family",
+          "label": "للأطفال · الأسرة والصحبة",
+          "href": "editorial.html?section=beloved&subsection=children-family"
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "label": "المكتبة",
+      "children": [
+        {
+          "id": "books",
+          "label": "الكتب",
+          "href": "library.html?type=books"
+        },
+        {
+          "id": "manuscripts",
+          "label": "المخطوطات",
+          "href": "library.html?type=manuscripts"
+        },
+        {
+          "id": "studies",
+          "label": "الدراسات والبحوث",
+          "href": "library.html?type=studies"
+        },
+        {
+          "id": "quran",
+          "label": "التفسير وعلوم القرآن",
+          "href": "library.html?type=quran"
+        },
+        {
+          "id": "hadith",
+          "label": "الحديث وشروحه",
+          "href": "library.html?type=hadith"
+        },
+        {
+          "id": "seerah",
+          "label": "السيرة والشمائل",
+          "href": "library.html?type=seerah"
+        },
+        {
+          "id": "ahl-al-bayt",
+          "label": "أهل البيت",
+          "href": "library.html?type=ahl-al-bayt"
+        },
+        {
+          "id": "pdf",
+          "label": "PDF",
+          "href": "library.html?format=pdf"
+        },
+        {
+          "id": "epub",
+          "label": "EPUB",
+          "href": "library.html?format=epub"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "label": "الوسائط",
+      "children": [
+        {
+          "id": "video",
+          "label": "الفيديو",
+          "href": "media.html?type=video"
+        },
+        {
+          "id": "audio",
+          "label": "الصوتيات",
+          "href": "media.html?type=audio"
+        },
+        {
+          "id": "lecture",
+          "label": "المحاضرات",
+          "href": "media.html?type=lecture"
+        },
+        {
+          "id": "podcast",
+          "label": "البودكاست",
+          "href": "media.html?type=podcast"
+        },
+        {
+          "id": "documentary",
+          "label": "الوثائقيات",
+          "href": "media.html?type=documentary"
+        },
+        {
+          "id": "research",
+          "label": "الأبحاث المرئية والمسموعة",
+          "href": "media.html?type=research"
+        }
+      ]
+    },
+    {
+      "id": "forum",
+      "label": "المنتدى",
+      "href": "editorial.html?section=forums",
+      "children": []
+    }
+  ],
+  "rules": {
+    "prophetOnlySections": [
+      "light",
+      "prophet",
+      "messenger",
+      "human",
+      "mercy"
+    ],
+    "propheticHousehold": [
+      "children",
+      "grandchildren"
+    ],
+    "propheticFamily": "all relatives other than the Prophet-only material and the direct children/grandchildren grouping"
+  }
+}

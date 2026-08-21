@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-08-21T05:23:00+01:00",
+  "subject": "علي بن أبي طالب",
+  "requested": 1000,
+  "generated": 1000,
+  "source": {
+    "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+    "author": "مؤمن بن حسن مؤمن الشبلنجي",
+    "record": "Qatar National Library 12969",
+    "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+    "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+    "date": "1873/1877",
+    "language": "ar",
+    "rights": "Public Domain",
+    "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain."
+  },
+  "qdlCanvasCount": 36,
+  "aliChapterPageStart": 89,
+  "aliChapterPageEnd": 124,
+  "directAliPages": [
+    92,
+    95,
+    103
+  ],
+  "directAliPositionsInChapter": 3,
+  "candidateWindows": 28613,
+  "directIdentifierArticles": 580,
+  "chapterContextArticles": 420,
+  "distribution": {
+    "prophetic-family": 450,
+    "companions": 450,
+    "beloved": 100
+  },
+  "batchPaths": [
+    "data/editorial/drafts/2026-08-21/ali-batch-01.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-02.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-03.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-04.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-05.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-06.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-07.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-08.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-09.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-10.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-11.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-12.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-13.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-14.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-15.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-16.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-17.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-18.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-19.json",
+    "data/editorial/drafts/2026-08-21/ali-batch-20.json"
+  ],
+  "menuPatchedHtmlFiles": [
+    "reader.html",
+    "children.html",
+    "person.html",
+    "feature.html",
+    "people.html",
+    "library.html",
+    "editorial.html",
+    "family.html",
+    "children-stories.html",
+    "media.html"
+  ],
+  "prophetOnlySectionsUsed": 0,
+  "sourceCoveragePercent": 100,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "rights": "Public Domain",
+  "method": "OCR of QDL public-domain IIIF scan; Ali chapter bounded by Ali heading and following Hasan heading; source windows preserve word order with whitespace normalization only."
+}
