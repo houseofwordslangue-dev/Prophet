@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-21-platform-v2",
+  "version": "2026-08-21-platform-v3-ops-center",
   "software": {
     "serverSideSearch": "IMPLEMENTED",
     "arabicNormalizationAndRanking": "IMPLEMENTED",
@@ -16,7 +16,12 @@
     "generatedSourceLanguageWebVtt": "IMPLEMENTED",
     "verifiedMirrorAudit": "IMPLEMENTED",
     "fiveOriginReplicationPipeline": "IMPLEMENTED_REQUIRES_REAL_CREDENTIALLED_ORIGINS",
-    "transparentMirrorFailover": "IMPLEMENTED_IN_MEDIA_SELECTION_AND_SERVICE_WORKER"
+    "transparentMirrorFailover": "IMPLEMENTED_IN_MEDIA_SELECTION_AND_SERVICE_WORKER",
+    "adminReaderPlayerOperationsCenter": "IMPLEMENTED_PROTECTED_BY_LOCALHOST_OR_PM_ADMIN_TOKEN",
+    "nightlyMaintenancePipeline": "IMPLEMENTED",
+    "operationsBackup": "IMPLEMENTED_FOR_PLATFORM_DB_TELEMETRY_AND_MANIFESTS",
+    "operationsRunControls": "IMPLEMENTED_FOR_SEARCH_MIRRORS_TESTS_ASSETS_AND_NIGHTLY",
+    "scheduledRegressionAndNightlyWorkflow": "IMPLEMENTED"
   },
   "runtimeEndpoints": [
     "/api/search",
@@ -28,8 +33,14 @@
     "/api/telemetry/summary",
     "/api/media/mirrors",
     "/api/media/integrity",
-    "/api/media/stream"
+    "/api/media/stream",
+    "/api/ops/summary",
+    "/api/ops/run"
   ],
+  "operationsCenter": "ops.html",
+  "operationsSecurity": "localhost is permitted; remote access requires PM_ADMIN_TOKEN supplied as X-Admin-Token",
+  "nightlyCommand": "python scripts/nightly_reader_player_ops.py",
+  "nightlyAssetPreparation": "Set PM_NIGHTLY_ASSET_PREP=1 only on a host with the real media/PDF assets and required OCR/transcription/FFmpeg dependencies.",
   "realAssetGates": {
     "fiveIndependentMirrorsPerAsset": "PENDING_UNTIL_5_REAL_S3_COMPATIBLE_ORIGINS_ARE_CONFIGURED_AND_UPLOADS_SUCCEED",
     "ocrBoxesForEveryScan": "PIPELINE_READY; OUTPUT EXISTS ONLY FOR LOCALLY_AVAILABLE_PDF_PAGES_THAT_CAN_BE_TEXT_EXTRACTED_OR_OCRD",
