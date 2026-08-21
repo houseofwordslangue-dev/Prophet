@@ -1,0 +1,1727 @@
+{
+  "schema": "canonical-person-life-chapters-v1",
+  "personId": "luayy-ibn-ghalib",
+  "personName": "لؤي بن غالب",
+  "canonicalUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
+  "chapterCount": 5,
+  "languageCounts": {
+    "ar": 5
+  },
+  "chapters": [
+    {
+      "id": "20260821-family-life-luayy-ibn-ghalib-01",
+      "language": "ar",
+      "title": "لؤي بن غالب — من سيرته وحياته — 1",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-al-muttalib",
+          "slug": "abd-al-muttalib",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1bi3pgj",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1pot5",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-001",
+          "sourceFile": "people.json",
+          "recordId": "hashim-ibn-abd-manaf",
+          "slug": "hashim-ibn-abd-manaf",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62dgcn",
+          "slug": "",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-manaf-ibn-qusayy",
+          "slug": "abd-manaf-ibn-qusayy",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-myot2j",
+          "slug": "",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-001",
+          "sourceFile": "people.json",
+          "recordId": "qusayy-ibn-kilab",
+          "slug": "qusayy-ibn-kilab",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-al7nk8",
+          "slug": "",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-001",
+          "sourceFile": "people.json",
+          "recordId": "kilab-ibn-murra",
+          "slug": "kilab-ibn-murra",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-j5l2hk",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1t91eir",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-001",
+          "sourceFile": "people.json",
+          "recordId": "murra-ibn-kab",
+          "slug": "murra-ibn-kab",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-e557aw",
+          "slug": "",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-001",
+          "sourceFile": "people.json",
+          "recordId": "kab-ibn-luayy",
+          "slug": "kab-ibn-luayy",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1y4zx",
+          "slug": "",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-001",
+          "sourceFile": "people.json",
+          "recordId": "ghalib-ibn-fihr",
+          "slug": "ghalib-ibn-fihr",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-48q977",
+          "slug": "",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-001",
+          "sourceFile": "people.json",
+          "recordId": "fihr-ibn-malik",
+          "slug": "fihr-ibn-malik",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-2e18z7",
+          "slug": "",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-001",
+          "sourceFile": "people.json",
+          "recordId": "malik-ibn-al-nadr",
+          "slug": "malik-ibn-al-nadr",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dn0nxo",
+          "slug": "",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-001",
+          "sourceFile": "people.json",
+          "recordId": "al-nadr-ibn-kinana",
+          "slug": "al-nadr-ibn-kinana",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pqw9d6",
+          "slug": "",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-001",
+          "sourceFile": "people.json",
+          "recordId": "kinana-ibn-khuzayma",
+          "slug": "kinana-ibn-khuzayma",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x0tpua",
+          "slug": "",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-001",
+          "sourceFile": "people.json",
+          "recordId": "khuzayma-ibn-mudrika",
+          "slug": "khuzayma-ibn-mudrika",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-5z7wjk",
+          "slug": "",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-001",
+          "sourceFile": "people.json",
+          "recordId": "mudrika-ibn-ilyas",
+          "slug": "mudrika-ibn-ilyas",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ga7bil",
+          "slug": "",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-001",
+          "sourceFile": "people.json",
+          "recordId": "ilyas-ibn-mudar",
+          "slug": "ilyas-ibn-mudar",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hh1yr4",
+          "slug": "",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-001",
+          "sourceFile": "people.json",
+          "recordId": "mudar-ibn-nizar",
+          "slug": "mudar-ibn-nizar",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ew0jp3",
+          "slug": "",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-001",
+          "sourceFile": "people.json",
+          "recordId": "nizar-ibn-maadd",
+          "slug": "nizar-ibn-maadd",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-12hkuxy",
+          "slug": "",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "maadd-ibn-adnan",
+          "slug": "maadd-ibn-adnan",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b61fx9",
+          "slug": "",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "adnan",
+          "slug": "adnan",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vi6846",
+          "slug": "",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-wahb-ibn-abd-manaf-zuhra-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62fhnj",
+          "slug": "",
+          "recordName": "وهب بن عبد مناف بن زهرة"
+        },
+        {
+          "ref": "ctx-burra-bint-abd-al-uzza-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m9r9pv",
+          "slug": "",
+          "recordName": "برة بنت عبد العزى"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-luayy-ibn-ghalib-02",
+      "language": "ar",
+      "title": "لؤي بن غالب — من سيرته وحياته — 2",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-al-muttalib",
+          "slug": "abd-al-muttalib",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1bi3pgj",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1pot5",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-001",
+          "sourceFile": "people.json",
+          "recordId": "hashim-ibn-abd-manaf",
+          "slug": "hashim-ibn-abd-manaf",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62dgcn",
+          "slug": "",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-manaf-ibn-qusayy",
+          "slug": "abd-manaf-ibn-qusayy",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-myot2j",
+          "slug": "",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-001",
+          "sourceFile": "people.json",
+          "recordId": "qusayy-ibn-kilab",
+          "slug": "qusayy-ibn-kilab",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-al7nk8",
+          "slug": "",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-001",
+          "sourceFile": "people.json",
+          "recordId": "kilab-ibn-murra",
+          "slug": "kilab-ibn-murra",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-j5l2hk",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1t91eir",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-001",
+          "sourceFile": "people.json",
+          "recordId": "murra-ibn-kab",
+          "slug": "murra-ibn-kab",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-e557aw",
+          "slug": "",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-001",
+          "sourceFile": "people.json",
+          "recordId": "kab-ibn-luayy",
+          "slug": "kab-ibn-luayy",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1y4zx",
+          "slug": "",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-001",
+          "sourceFile": "people.json",
+          "recordId": "ghalib-ibn-fihr",
+          "slug": "ghalib-ibn-fihr",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-48q977",
+          "slug": "",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-001",
+          "sourceFile": "people.json",
+          "recordId": "fihr-ibn-malik",
+          "slug": "fihr-ibn-malik",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-2e18z7",
+          "slug": "",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-001",
+          "sourceFile": "people.json",
+          "recordId": "malik-ibn-al-nadr",
+          "slug": "malik-ibn-al-nadr",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dn0nxo",
+          "slug": "",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-001",
+          "sourceFile": "people.json",
+          "recordId": "al-nadr-ibn-kinana",
+          "slug": "al-nadr-ibn-kinana",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pqw9d6",
+          "slug": "",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-001",
+          "sourceFile": "people.json",
+          "recordId": "kinana-ibn-khuzayma",
+          "slug": "kinana-ibn-khuzayma",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x0tpua",
+          "slug": "",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-001",
+          "sourceFile": "people.json",
+          "recordId": "khuzayma-ibn-mudrika",
+          "slug": "khuzayma-ibn-mudrika",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-5z7wjk",
+          "slug": "",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-001",
+          "sourceFile": "people.json",
+          "recordId": "mudrika-ibn-ilyas",
+          "slug": "mudrika-ibn-ilyas",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ga7bil",
+          "slug": "",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-001",
+          "sourceFile": "people.json",
+          "recordId": "ilyas-ibn-mudar",
+          "slug": "ilyas-ibn-mudar",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hh1yr4",
+          "slug": "",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-001",
+          "sourceFile": "people.json",
+          "recordId": "mudar-ibn-nizar",
+          "slug": "mudar-ibn-nizar",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ew0jp3",
+          "slug": "",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-001",
+          "sourceFile": "people.json",
+          "recordId": "nizar-ibn-maadd",
+          "slug": "nizar-ibn-maadd",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-12hkuxy",
+          "slug": "",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "maadd-ibn-adnan",
+          "slug": "maadd-ibn-adnan",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b61fx9",
+          "slug": "",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "adnan",
+          "slug": "adnan",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vi6846",
+          "slug": "",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-wahb-ibn-abd-manaf-zuhra-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62fhnj",
+          "slug": "",
+          "recordName": "وهب بن عبد مناف بن زهرة"
+        },
+        {
+          "ref": "ctx-burra-bint-abd-al-uzza-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m9r9pv",
+          "slug": "",
+          "recordName": "برة بنت عبد العزى"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-luayy-ibn-ghalib-03",
+      "language": "ar",
+      "title": "لؤي بن غالب — من سيرته وحياته — 3",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-al-muttalib",
+          "slug": "abd-al-muttalib",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1bi3pgj",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1pot5",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-001",
+          "sourceFile": "people.json",
+          "recordId": "hashim-ibn-abd-manaf",
+          "slug": "hashim-ibn-abd-manaf",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62dgcn",
+          "slug": "",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-manaf-ibn-qusayy",
+          "slug": "abd-manaf-ibn-qusayy",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-myot2j",
+          "slug": "",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-001",
+          "sourceFile": "people.json",
+          "recordId": "qusayy-ibn-kilab",
+          "slug": "qusayy-ibn-kilab",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-al7nk8",
+          "slug": "",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-001",
+          "sourceFile": "people.json",
+          "recordId": "kilab-ibn-murra",
+          "slug": "kilab-ibn-murra",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-j5l2hk",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1t91eir",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-001",
+          "sourceFile": "people.json",
+          "recordId": "murra-ibn-kab",
+          "slug": "murra-ibn-kab",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-e557aw",
+          "slug": "",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-001",
+          "sourceFile": "people.json",
+          "recordId": "kab-ibn-luayy",
+          "slug": "kab-ibn-luayy",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1y4zx",
+          "slug": "",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-001",
+          "sourceFile": "people.json",
+          "recordId": "ghalib-ibn-fihr",
+          "slug": "ghalib-ibn-fihr",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-48q977",
+          "slug": "",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-001",
+          "sourceFile": "people.json",
+          "recordId": "fihr-ibn-malik",
+          "slug": "fihr-ibn-malik",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-2e18z7",
+          "slug": "",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-001",
+          "sourceFile": "people.json",
+          "recordId": "malik-ibn-al-nadr",
+          "slug": "malik-ibn-al-nadr",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dn0nxo",
+          "slug": "",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-001",
+          "sourceFile": "people.json",
+          "recordId": "al-nadr-ibn-kinana",
+          "slug": "al-nadr-ibn-kinana",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pqw9d6",
+          "slug": "",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-001",
+          "sourceFile": "people.json",
+          "recordId": "kinana-ibn-khuzayma",
+          "slug": "kinana-ibn-khuzayma",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x0tpua",
+          "slug": "",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-001",
+          "sourceFile": "people.json",
+          "recordId": "khuzayma-ibn-mudrika",
+          "slug": "khuzayma-ibn-mudrika",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-5z7wjk",
+          "slug": "",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-001",
+          "sourceFile": "people.json",
+          "recordId": "mudrika-ibn-ilyas",
+          "slug": "mudrika-ibn-ilyas",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ga7bil",
+          "slug": "",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-001",
+          "sourceFile": "people.json",
+          "recordId": "ilyas-ibn-mudar",
+          "slug": "ilyas-ibn-mudar",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hh1yr4",
+          "slug": "",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-001",
+          "sourceFile": "people.json",
+          "recordId": "mudar-ibn-nizar",
+          "slug": "mudar-ibn-nizar",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ew0jp3",
+          "slug": "",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-001",
+          "sourceFile": "people.json",
+          "recordId": "nizar-ibn-maadd",
+          "slug": "nizar-ibn-maadd",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-12hkuxy",
+          "slug": "",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "maadd-ibn-adnan",
+          "slug": "maadd-ibn-adnan",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b61fx9",
+          "slug": "",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "adnan",
+          "slug": "adnan",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vi6846",
+          "slug": "",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-wahb-ibn-abd-manaf-zuhra-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62fhnj",
+          "slug": "",
+          "recordName": "وهب بن عبد مناف بن زهرة"
+        },
+        {
+          "ref": "ctx-burra-bint-abd-al-uzza-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m9r9pv",
+          "slug": "",
+          "recordName": "برة بنت عبد العزى"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-luayy-ibn-ghalib-04",
+      "language": "ar",
+      "title": "لؤي بن غالب — من سيرته وحياته — 4",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-al-muttalib",
+          "slug": "abd-al-muttalib",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1bi3pgj",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1pot5",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-001",
+          "sourceFile": "people.json",
+          "recordId": "hashim-ibn-abd-manaf",
+          "slug": "hashim-ibn-abd-manaf",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62dgcn",
+          "slug": "",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-manaf-ibn-qusayy",
+          "slug": "abd-manaf-ibn-qusayy",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-myot2j",
+          "slug": "",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-001",
+          "sourceFile": "people.json",
+          "recordId": "qusayy-ibn-kilab",
+          "slug": "qusayy-ibn-kilab",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-al7nk8",
+          "slug": "",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-001",
+          "sourceFile": "people.json",
+          "recordId": "kilab-ibn-murra",
+          "slug": "kilab-ibn-murra",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-j5l2hk",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1t91eir",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-001",
+          "sourceFile": "people.json",
+          "recordId": "murra-ibn-kab",
+          "slug": "murra-ibn-kab",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-e557aw",
+          "slug": "",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-001",
+          "sourceFile": "people.json",
+          "recordId": "kab-ibn-luayy",
+          "slug": "kab-ibn-luayy",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1y4zx",
+          "slug": "",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-001",
+          "sourceFile": "people.json",
+          "recordId": "ghalib-ibn-fihr",
+          "slug": "ghalib-ibn-fihr",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-48q977",
+          "slug": "",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-001",
+          "sourceFile": "people.json",
+          "recordId": "fihr-ibn-malik",
+          "slug": "fihr-ibn-malik",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-2e18z7",
+          "slug": "",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-001",
+          "sourceFile": "people.json",
+          "recordId": "malik-ibn-al-nadr",
+          "slug": "malik-ibn-al-nadr",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dn0nxo",
+          "slug": "",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-001",
+          "sourceFile": "people.json",
+          "recordId": "al-nadr-ibn-kinana",
+          "slug": "al-nadr-ibn-kinana",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pqw9d6",
+          "slug": "",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-001",
+          "sourceFile": "people.json",
+          "recordId": "kinana-ibn-khuzayma",
+          "slug": "kinana-ibn-khuzayma",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x0tpua",
+          "slug": "",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-001",
+          "sourceFile": "people.json",
+          "recordId": "khuzayma-ibn-mudrika",
+          "slug": "khuzayma-ibn-mudrika",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-5z7wjk",
+          "slug": "",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-001",
+          "sourceFile": "people.json",
+          "recordId": "mudrika-ibn-ilyas",
+          "slug": "mudrika-ibn-ilyas",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ga7bil",
+          "slug": "",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-001",
+          "sourceFile": "people.json",
+          "recordId": "ilyas-ibn-mudar",
+          "slug": "ilyas-ibn-mudar",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hh1yr4",
+          "slug": "",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-001",
+          "sourceFile": "people.json",
+          "recordId": "mudar-ibn-nizar",
+          "slug": "mudar-ibn-nizar",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ew0jp3",
+          "slug": "",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-001",
+          "sourceFile": "people.json",
+          "recordId": "nizar-ibn-maadd",
+          "slug": "nizar-ibn-maadd",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-12hkuxy",
+          "slug": "",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "maadd-ibn-adnan",
+          "slug": "maadd-ibn-adnan",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b61fx9",
+          "slug": "",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "adnan",
+          "slug": "adnan",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vi6846",
+          "slug": "",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-wahb-ibn-abd-manaf-zuhra-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62fhnj",
+          "slug": "",
+          "recordName": "وهب بن عبد مناف بن زهرة"
+        },
+        {
+          "ref": "ctx-burra-bint-abd-al-uzza-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m9r9pv",
+          "slug": "",
+          "recordName": "برة بنت عبد العزى"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-luayy-ibn-ghalib-05",
+      "language": "ar",
+      "title": "لؤي بن غالب — من سيرته وحياته — 5",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-al-muttalib",
+          "slug": "abd-al-muttalib",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1bi3pgj",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1pot5",
+          "slug": "",
+          "recordName": "عبد المطلب بن هاشم"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-001",
+          "sourceFile": "people.json",
+          "recordId": "hashim-ibn-abd-manaf",
+          "slug": "hashim-ibn-abd-manaf",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-hashim-ibn-abd-manaf-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62dgcn",
+          "slug": "",
+          "recordName": "هاشم بن عبد مناف"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-001",
+          "sourceFile": "people.json",
+          "recordId": "abd-manaf-ibn-qusayy",
+          "slug": "abd-manaf-ibn-qusayy",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-abd-manaf-ibn-qusayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-myot2j",
+          "slug": "",
+          "recordName": "عبد مناف بن قصي"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-001",
+          "sourceFile": "people.json",
+          "recordId": "qusayy-ibn-kilab",
+          "slug": "qusayy-ibn-kilab",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-qusayy-ibn-kilab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-al7nk8",
+          "slug": "",
+          "recordName": "قصي بن كلاب"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-001",
+          "sourceFile": "people.json",
+          "recordId": "kilab-ibn-murra",
+          "slug": "kilab-ibn-murra",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-j5l2hk",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-kilab-ibn-murra-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1t91eir",
+          "slug": "",
+          "recordName": "كلاب بن مرة"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-001",
+          "sourceFile": "people.json",
+          "recordId": "murra-ibn-kab",
+          "slug": "murra-ibn-kab",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-murra-ibn-kab-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-e557aw",
+          "slug": "",
+          "recordName": "مرة بن كعب"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-001",
+          "sourceFile": "people.json",
+          "recordId": "kab-ibn-luayy",
+          "slug": "kab-ibn-luayy",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-kab-ibn-luayy-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1p1y4zx",
+          "slug": "",
+          "recordName": "كعب بن لؤي"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-001",
+          "sourceFile": "people.json",
+          "recordId": "luayy-ibn-ghalib",
+          "slug": "luayy-ibn-ghalib",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-luayy-ibn-ghalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1v03u8o",
+          "slug": "",
+          "recordName": "لؤي بن غالب"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-001",
+          "sourceFile": "people.json",
+          "recordId": "ghalib-ibn-fihr",
+          "slug": "ghalib-ibn-fihr",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-ghalib-ibn-fihr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-48q977",
+          "slug": "",
+          "recordName": "غالب بن فهر"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-001",
+          "sourceFile": "people.json",
+          "recordId": "fihr-ibn-malik",
+          "slug": "fihr-ibn-malik",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-fihr-ibn-malik-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-2e18z7",
+          "slug": "",
+          "recordName": "فهر بن مالك"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-001",
+          "sourceFile": "people.json",
+          "recordId": "malik-ibn-al-nadr",
+          "slug": "malik-ibn-al-nadr",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-malik-ibn-al-nadr-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dn0nxo",
+          "slug": "",
+          "recordName": "مالك بن النضر"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-001",
+          "sourceFile": "people.json",
+          "recordId": "al-nadr-ibn-kinana",
+          "slug": "al-nadr-ibn-kinana",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-al-nadr-ibn-kinana-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pqw9d6",
+          "slug": "",
+          "recordName": "النضر بن كنانة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-001",
+          "sourceFile": "people.json",
+          "recordId": "kinana-ibn-khuzayma",
+          "slug": "kinana-ibn-khuzayma",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-kinana-ibn-khuzayma-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x0tpua",
+          "slug": "",
+          "recordName": "كنانة بن خزيمة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-001",
+          "sourceFile": "people.json",
+          "recordId": "khuzayma-ibn-mudrika",
+          "slug": "khuzayma-ibn-mudrika",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-khuzayma-ibn-mudrika-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-5z7wjk",
+          "slug": "",
+          "recordName": "خزيمة بن مدركة"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-001",
+          "sourceFile": "people.json",
+          "recordId": "mudrika-ibn-ilyas",
+          "slug": "mudrika-ibn-ilyas",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-mudrika-ibn-ilyas-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ga7bil",
+          "slug": "",
+          "recordName": "مدركة بن إلياس"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-001",
+          "sourceFile": "people.json",
+          "recordId": "ilyas-ibn-mudar",
+          "slug": "ilyas-ibn-mudar",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-ilyas-ibn-mudar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hh1yr4",
+          "slug": "",
+          "recordName": "إلياس بن مضر"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-001",
+          "sourceFile": "people.json",
+          "recordId": "mudar-ibn-nizar",
+          "slug": "mudar-ibn-nizar",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-mudar-ibn-nizar-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ew0jp3",
+          "slug": "",
+          "recordName": "مضر بن نزار"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-001",
+          "sourceFile": "people.json",
+          "recordId": "nizar-ibn-maadd",
+          "slug": "nizar-ibn-maadd",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-nizar-ibn-maadd-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-12hkuxy",
+          "slug": "",
+          "recordName": "نزار بن معد"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "maadd-ibn-adnan",
+          "slug": "maadd-ibn-adnan",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-maadd-ibn-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b61fx9",
+          "slug": "",
+          "recordName": "معد بن عدنان"
+        },
+        {
+          "ref": "ctx-adnan-001",
+          "sourceFile": "people.json",
+          "recordId": "adnan",
+          "slug": "adnan",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-adnan-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vi6846",
+          "slug": "",
+          "recordName": "عدنان"
+        },
+        {
+          "ref": "ctx-wahb-ibn-abd-manaf-zuhra-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-62fhnj",
+          "slug": "",
+          "recordName": "وهب بن عبد مناف بن زهرة"
+        },
+        {
+          "ref": "ctx-burra-bint-abd-al-uzza-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m9r9pv",
+          "slug": "",
+          "recordName": "برة بنت عبد العزى"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    }
+  ]
+}

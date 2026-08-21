@@ -8,12 +8,10 @@
       "title": "خديجة بنت خويلد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "khadija-bint-khuwaylid",
@@ -21,7 +19,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "c631b99ff1c63f7c46f814f41fa96a269a32a43c013b11aee047fac711dc6e63",
@@ -277,15 +275,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khadija-bint-khuwaylid",
       "canonicalPersonName": "خديجة بنت خويلد",
       "canonicalPersonUrl": "person.html?id=khadija-bint-khuwaylid&name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837475Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837475Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.771312Z"
     },
     {
       "id": "20260821-family-life-khadija-bint-khuwaylid-02",
@@ -293,12 +304,10 @@
       "title": "خديجة بنت خويلد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "khadija-bint-khuwaylid",
@@ -306,7 +315,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f5947c6f4008321aa9d5d5fd9e380011cd2dfe12852b5cfbcb7e6fce645c6f2a",
@@ -562,15 +571,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khadija-bint-khuwaylid",
       "canonicalPersonName": "خديجة بنت خويلد",
       "canonicalPersonUrl": "person.html?id=khadija-bint-khuwaylid&name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837538Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837538Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.771417Z"
     },
     {
       "id": "20260821-family-life-khadija-bint-khuwaylid-03",
@@ -578,12 +600,10 @@
       "title": "خديجة بنت خويلد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "khadija-bint-khuwaylid",
@@ -591,7 +611,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "005a08974f48ac77de4126411fa104394ed83b974961664e9b3130d856455fec",
@@ -847,15 +867,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khadija-bint-khuwaylid",
       "canonicalPersonName": "خديجة بنت خويلد",
       "canonicalPersonUrl": "person.html?id=khadija-bint-khuwaylid&name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837602Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837602Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.771502Z"
     },
     {
       "id": "20260821-family-life-khadija-bint-khuwaylid-04",
@@ -863,12 +896,10 @@
       "title": "خديجة بنت خويلد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "khadija-bint-khuwaylid",
@@ -876,7 +907,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "c75ef84db806fbf9ed0d49e7d5c7fe4503f2cd4d00c3736abf0784b84fe32709",
@@ -1132,15 +1163,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khadija-bint-khuwaylid",
       "canonicalPersonName": "خديجة بنت خويلد",
       "canonicalPersonUrl": "person.html?id=khadija-bint-khuwaylid&name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837656Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837656Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.771587Z"
     },
     {
       "id": "20260821-family-life-khadija-bint-khuwaylid-05",
@@ -1148,12 +1192,10 @@
       "title": "خديجة بنت خويلد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "khadija-bint-khuwaylid",
@@ -1161,7 +1203,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "838dafd1a89374195e0069dc086859129b43a72654a251c596c764c0df3bb23d",
@@ -1417,15 +1459,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khadija-bint-khuwaylid",
       "canonicalPersonName": "خديجة بنت خويلد",
       "canonicalPersonUrl": "person.html?id=khadija-bint-khuwaylid&name=%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837706Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837706Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.771670Z"
     },
     {
       "id": "20260821-family-life-sawda-bint-zama-01",
@@ -1433,12 +1488,10 @@
       "title": "سودة بنت زمعة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "sawda-bint-zama",
@@ -1446,7 +1499,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "43b0fc4f3d1f8f322d70d267a838a61be46a61f091ee19c4c68ba1a14823af94",
@@ -1702,15 +1755,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "sawda-bint-zama",
       "canonicalPersonName": "سودة بنت زمعة",
       "canonicalPersonUrl": "person.html?id=sawda-bint-zama&name=%D8%B3%D9%88%D8%AF%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B2%D9%85%D8%B9%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844756Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844756Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.830277Z"
     },
     {
       "id": "20260821-family-life-sawda-bint-zama-02",
@@ -1718,12 +1784,10 @@
       "title": "سودة بنت زمعة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "sawda-bint-zama",
@@ -1731,7 +1795,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "838aee08b473158106495961f14a8d4d14368f7a74213c5d714a51061eff62f7",
@@ -1987,15 +2051,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "sawda-bint-zama",
       "canonicalPersonName": "سودة بنت زمعة",
       "canonicalPersonUrl": "person.html?id=sawda-bint-zama&name=%D8%B3%D9%88%D8%AF%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B2%D9%85%D8%B9%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844807Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844807Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.830379Z"
     },
     {
       "id": "20260821-family-life-sawda-bint-zama-03",
@@ -2003,12 +2080,10 @@
       "title": "سودة بنت زمعة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "sawda-bint-zama",
@@ -2016,7 +2091,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ff0f77b901b22cf636a09596049c9ce1e5dd7d1083e4c4df1b8e8f17a8d491d3",
@@ -2272,15 +2347,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "sawda-bint-zama",
       "canonicalPersonName": "سودة بنت زمعة",
       "canonicalPersonUrl": "person.html?id=sawda-bint-zama&name=%D8%B3%D9%88%D8%AF%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B2%D9%85%D8%B9%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844856Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844856Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.830481Z"
     },
     {
       "id": "20260821-family-life-sawda-bint-zama-04",
@@ -2288,12 +2376,10 @@
       "title": "سودة بنت زمعة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "sawda-bint-zama",
@@ -2301,7 +2387,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1c942acb2b4fec0e38142bd6c46d776882b72bd4e1243285f77d29cf601f9c9a",
@@ -2557,15 +2643,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "sawda-bint-zama",
       "canonicalPersonName": "سودة بنت زمعة",
       "canonicalPersonUrl": "person.html?id=sawda-bint-zama&name=%D8%B3%D9%88%D8%AF%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B2%D9%85%D8%B9%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844915Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844915Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.830565Z"
     },
     {
       "id": "20260821-family-life-sawda-bint-zama-05",
@@ -2573,12 +2672,10 @@
       "title": "سودة بنت زمعة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "sawda-bint-zama",
@@ -2586,7 +2683,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f0ce74504951c0918542d7892e78edc46469267fc0db700b1a1f1e532cbdb4cf",
@@ -2842,15 +2939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "sawda-bint-zama",
       "canonicalPersonName": "سودة بنت زمعة",
       "canonicalPersonUrl": "person.html?id=sawda-bint-zama&name=%D8%B3%D9%88%D8%AF%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B2%D9%85%D8%B9%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844967Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844967Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.830648Z"
     },
     {
       "id": "20260821-family-life-aisha-bint-abi-bakr-01",
@@ -2858,12 +2968,10 @@
       "title": "عائشة بنت أبي بكر — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "aisha-bint-abi-bakr",
@@ -2871,7 +2979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "328a82b049260417c71d3290fc0832bd394e6a2489b42d21c4f6d2592431eab1",
@@ -3127,15 +3235,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "aisha-bint-abi-bakr",
       "canonicalPersonName": "عائشة بنت أبي بكر",
       "canonicalPersonUrl": "person.html?id=aisha-bint-abi-bakr&name=%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A8%D9%83%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825438Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825438Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.531961Z"
     },
     {
       "id": "20260821-family-life-aisha-bint-abi-bakr-02",
@@ -3143,12 +3264,10 @@
       "title": "عائشة بنت أبي بكر — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "aisha-bint-abi-bakr",
@@ -3156,7 +3275,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "e58a946338155692fc8414b8a58e0fe0cfc3317bdc1dc5cbd3dc9c84efe75010",
@@ -3412,15 +3531,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "aisha-bint-abi-bakr",
       "canonicalPersonName": "عائشة بنت أبي بكر",
       "canonicalPersonUrl": "person.html?id=aisha-bint-abi-bakr&name=%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A8%D9%83%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825487Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825487Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.532052Z"
     },
     {
       "id": "20260821-family-life-aisha-bint-abi-bakr-03",
@@ -3428,12 +3560,10 @@
       "title": "عائشة بنت أبي بكر — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "aisha-bint-abi-bakr",
@@ -3441,7 +3571,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "953736f052cd652c530e5c43a76de8ff838ab94b8188c32e6615d378e7bf3e4f",
@@ -3697,15 +3827,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "aisha-bint-abi-bakr",
       "canonicalPersonName": "عائشة بنت أبي بكر",
       "canonicalPersonUrl": "person.html?id=aisha-bint-abi-bakr&name=%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A8%D9%83%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825535Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825535Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.532137Z"
     },
     {
       "id": "20260821-family-life-aisha-bint-abi-bakr-04",
@@ -3713,12 +3856,10 @@
       "title": "عائشة بنت أبي بكر — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "aisha-bint-abi-bakr",
@@ -3726,7 +3867,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "10d3bb64bf99572872286c497599f4779f01cd8a4dff13199d3c254f61a97633",
@@ -3982,15 +4123,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "aisha-bint-abi-bakr",
       "canonicalPersonName": "عائشة بنت أبي بكر",
       "canonicalPersonUrl": "person.html?id=aisha-bint-abi-bakr&name=%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A8%D9%83%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825590Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825590Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.532218Z"
     },
     {
       "id": "20260821-family-life-aisha-bint-abi-bakr-05",
@@ -3998,12 +4152,10 @@
       "title": "عائشة بنت أبي بكر — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "aisha-bint-abi-bakr",
@@ -4011,7 +4163,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "5f0186a8d882d330d514f6528c23260a43a4dadec6c50f68dabc1638e0742352",
@@ -4267,15 +4419,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "aisha-bint-abi-bakr",
       "canonicalPersonName": "عائشة بنت أبي بكر",
       "canonicalPersonUrl": "person.html?id=aisha-bint-abi-bakr&name=%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A8%D9%83%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825645Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825645Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.532301Z"
     },
     {
       "id": "20260821-family-life-hafsa-bint-umar-01",
@@ -4283,12 +4448,10 @@
       "title": "حفصة بنت عمر — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "hafsa-bint-umar",
@@ -4296,7 +4459,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "42ebd24b8991ab284d1a65fe506a7c1ca0c60ac45b659e785c933dc2c9aa8997",
@@ -4552,15 +4715,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hafsa-bint-umar",
       "canonicalPersonName": "حفصة بنت عمر",
       "canonicalPersonUrl": "person.html?id=hafsa-bint-umar&name=%D8%AD%D9%81%D8%B5%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834179Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834179Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.753135Z"
     },
     {
       "id": "20260821-family-life-hafsa-bint-umar-02",
@@ -4568,12 +4744,10 @@
       "title": "حفصة بنت عمر — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "hafsa-bint-umar",
@@ -4581,7 +4755,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ba537cbcf1a9b2fb1b0e379cb6ae55c43ad32340d3e04e205872c8d8860b0f36",
@@ -4837,15 +5011,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hafsa-bint-umar",
       "canonicalPersonName": "حفصة بنت عمر",
       "canonicalPersonUrl": "person.html?id=hafsa-bint-umar&name=%D8%AD%D9%81%D8%B5%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834229Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834229Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.753227Z"
     },
     {
       "id": "20260821-family-life-hafsa-bint-umar-03",
@@ -4853,12 +5040,10 @@
       "title": "حفصة بنت عمر — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "hafsa-bint-umar",
@@ -4866,7 +5051,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6d59e7a575da464890fa80da3af7bc57596511a6b0129e630a80e18980da81ef",
@@ -5122,15 +5307,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hafsa-bint-umar",
       "canonicalPersonName": "حفصة بنت عمر",
       "canonicalPersonUrl": "person.html?id=hafsa-bint-umar&name=%D8%AD%D9%81%D8%B5%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834277Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834277Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.753311Z"
     },
     {
       "id": "20260821-family-life-hafsa-bint-umar-04",
@@ -5138,12 +5336,10 @@
       "title": "حفصة بنت عمر — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "hafsa-bint-umar",
@@ -5151,7 +5347,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d37595b0eca5284495f330a37439b14246c325ba85d40208ab551094a823dc1b",
@@ -5407,15 +5603,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hafsa-bint-umar",
       "canonicalPersonName": "حفصة بنت عمر",
       "canonicalPersonUrl": "person.html?id=hafsa-bint-umar&name=%D8%AD%D9%81%D8%B5%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834327Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834327Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.753406Z"
     },
     {
       "id": "20260821-family-life-hafsa-bint-umar-05",
@@ -5423,12 +5632,10 @@
       "title": "حفصة بنت عمر — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "hafsa-bint-umar",
@@ -5436,7 +5643,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f2cea606ad7a4286b2a7dc47bce45e6821aee018dfb7408633887470e02b7200",
@@ -5692,15 +5899,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hafsa-bint-umar",
       "canonicalPersonName": "حفصة بنت عمر",
       "canonicalPersonUrl": "person.html?id=hafsa-bint-umar&name=%D8%AD%D9%81%D8%B5%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834374Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834374Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.753490Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-khuzayma-01",
@@ -5708,12 +5928,10 @@
       "title": "زينب بنت خزيمة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-khuzayma",
@@ -5721,7 +5939,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "14f3297ae7133f99b779e2446b5ec4415299a49c0acafbda13dccb1b6ac7ea66",
@@ -5977,15 +6195,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-khuzayma",
       "canonicalPersonName": "زينب بنت خزيمة",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-khuzayma&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850484Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850484Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.891291Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-khuzayma-02",
@@ -5993,12 +6224,10 @@
       "title": "زينب بنت خزيمة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-khuzayma",
@@ -6006,7 +6235,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "25d9cdf29b88ae0ee4ad39093311f71fc54ffafe05fbda374f97ff6acb2da759",
@@ -6262,15 +6491,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-khuzayma",
       "canonicalPersonName": "زينب بنت خزيمة",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-khuzayma&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850534Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850534Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.891383Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-khuzayma-03",
@@ -6278,12 +6520,10 @@
       "title": "زينب بنت خزيمة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-khuzayma",
@@ -6291,7 +6531,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "8e97cebc281404a8b3ae70fbfdfb060c24ae253c12c8097ab87e5ae094a1bd2f",
@@ -6547,15 +6787,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-khuzayma",
       "canonicalPersonName": "زينب بنت خزيمة",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-khuzayma&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850593Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850593Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.891482Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-khuzayma-04",
@@ -6563,12 +6816,10 @@
       "title": "زينب بنت خزيمة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-khuzayma",
@@ -6576,7 +6827,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "733aeb7c91856f4cb4107910801d0a70daf775a206e5a4836570700c70acd7a1",
@@ -6832,15 +7083,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-khuzayma",
       "canonicalPersonName": "زينب بنت خزيمة",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-khuzayma&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850648Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850648Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.891567Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-khuzayma-05",
@@ -6848,12 +7112,10 @@
       "title": "زينب بنت خزيمة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-khuzayma",
@@ -6861,7 +7123,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "c01884ae5b86c9d0859377cf2d7263d4f8e98d80aaa3896cf13f25660594d333",
@@ -7117,15 +7379,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-khuzayma",
       "canonicalPersonName": "زينب بنت خزيمة",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-khuzayma&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850698Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850698Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.891650Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-jahsh-01",
@@ -7133,12 +7408,10 @@
       "title": "زينب بنت جحش — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-jahsh",
@@ -7146,7 +7419,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "325e1eb16689c8655d1ade6b88075eb0d496e44e71fd7c7a88ef39a85419839a",
@@ -7410,15 +7683,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-jahsh",
       "canonicalPersonName": "زينب بنت جحش",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-jahsh&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850222Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850222Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.890011Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-jahsh-02",
@@ -7426,12 +7712,10 @@
       "title": "زينب بنت جحش — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-jahsh",
@@ -7439,7 +7723,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "5d6e283fc28dd492ecbc00c67d4f2ffc298485a4e98c3662026f7f282437657a",
@@ -7703,15 +7987,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-jahsh",
       "canonicalPersonName": "زينب بنت جحش",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-jahsh&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850273Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850273Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.890104Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-jahsh-03",
@@ -7719,12 +8016,10 @@
       "title": "زينب بنت جحش — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-jahsh",
@@ -7732,7 +8027,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ad0658d46a477b2d1045429c605b7825a7d88173386a33b01cd847c1b74701e3",
@@ -7996,15 +8291,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-jahsh",
       "canonicalPersonName": "زينب بنت جحش",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-jahsh&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850320Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850320Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.890187Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-jahsh-04",
@@ -8012,12 +8320,10 @@
       "title": "زينب بنت جحش — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-jahsh",
@@ -8025,7 +8331,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "dc9cfc7d002574e3daf51c3e8992c93b63d6fb2f1ce9c45b6f21a64f37d17468",
@@ -8289,15 +8595,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-jahsh",
       "canonicalPersonName": "زينب بنت جحش",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-jahsh&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850368Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850368Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.890272Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-jahsh-05",
@@ -8305,12 +8624,10 @@
       "title": "زينب بنت جحش — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "zaynab-bint-jahsh",
@@ -8318,7 +8635,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "e7a6a57f8f8a248e1f8a890f08ce14e72aa27914f4dc956ca5f24ae68325420d",
@@ -8582,15 +8899,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-jahsh",
       "canonicalPersonName": "زينب بنت جحش",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-jahsh&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850416Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850416Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.890355Z"
     },
     {
       "id": "20260821-family-life-juwayriya-bint-al-harith-01",
@@ -8598,12 +8928,10 @@
       "title": "جويرية بنت الحارث — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "juwayriya-bint-al-harith",
@@ -8611,7 +8939,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ae0492f2f41b29937059331be49f4b4d4c513ca7a7de438f2a43f033637a41a4",
@@ -8867,15 +9195,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "juwayriya-bint-al-harith",
       "canonicalPersonName": "جويرية بنت الحارث",
       "canonicalPersonUrl": "person.html?id=juwayriya-bint-al-harith&name=%D8%AC%D9%88%D9%8A%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836921Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836921Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.768449Z"
     },
     {
       "id": "20260821-family-life-juwayriya-bint-al-harith-02",
@@ -8883,12 +9224,10 @@
       "title": "جويرية بنت الحارث — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "juwayriya-bint-al-harith",
@@ -8896,7 +9235,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "05e1e27f98419f2f62f422a165a90610242a06aa19ba36834109ed8e15255441",
@@ -9152,15 +9491,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "juwayriya-bint-al-harith",
       "canonicalPersonName": "جويرية بنت الحارث",
       "canonicalPersonUrl": "person.html?id=juwayriya-bint-al-harith&name=%D8%AC%D9%88%D9%8A%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836973Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836973Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.768539Z"
     },
     {
       "id": "20260821-family-life-juwayriya-bint-al-harith-03",
@@ -9168,12 +9520,10 @@
       "title": "جويرية بنت الحارث — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "juwayriya-bint-al-harith",
@@ -9181,7 +9531,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "8ddf46060b966fbd11cc70d1f47ce2fbe599e246f736dda27fef4cdde08e13d0",
@@ -9437,15 +9787,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "juwayriya-bint-al-harith",
       "canonicalPersonName": "جويرية بنت الحارث",
       "canonicalPersonUrl": "person.html?id=juwayriya-bint-al-harith&name=%D8%AC%D9%88%D9%8A%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837033Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837033Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.768624Z"
     },
     {
       "id": "20260821-family-life-juwayriya-bint-al-harith-04",
@@ -9453,12 +9816,10 @@
       "title": "جويرية بنت الحارث — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "juwayriya-bint-al-harith",
@@ -9466,7 +9827,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "74be7805ae1246b9ebdce2d5d120174e60583f42e89009cdb8bd3215cca1a03a",
@@ -9722,15 +10083,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "juwayriya-bint-al-harith",
       "canonicalPersonName": "جويرية بنت الحارث",
       "canonicalPersonUrl": "person.html?id=juwayriya-bint-al-harith&name=%D8%AC%D9%88%D9%8A%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837085Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837085Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.768706Z"
     },
     {
       "id": "20260821-family-life-juwayriya-bint-al-harith-05",
@@ -9738,12 +10112,10 @@
       "title": "جويرية بنت الحارث — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "juwayriya-bint-al-harith",
@@ -9751,7 +10123,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "96b439ae6302be44b5510464f25d5df9f1d587f17262881592053261b446a396",
@@ -10007,15 +10379,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "juwayriya-bint-al-harith",
       "canonicalPersonName": "جويرية بنت الحارث",
       "canonicalPersonUrl": "person.html?id=juwayriya-bint-al-harith&name=%D8%AC%D9%88%D9%8A%D8%B1%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837134Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837134Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.768787Z"
     },
     {
       "id": "20260821-family-life-safiyya-bint-huyayy-01",
@@ -10023,12 +10408,10 @@
       "title": "صفية بنت حيي — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "safiyya-bint-huyayy",
@@ -10036,7 +10419,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2dcb0f3dff6aa4668e976475c11d6ba48386be9e0529eab09dc713b7882ece88",
@@ -10292,15 +10675,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "safiyya-bint-huyayy",
       "canonicalPersonName": "صفية بنت حيي",
       "canonicalPersonUrl": "person.html?id=safiyya-bint-huyayy&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AD%D9%8A%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844208Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844208Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.818093Z"
     },
     {
       "id": "20260821-family-life-safiyya-bint-huyayy-02",
@@ -10308,12 +10704,10 @@
       "title": "صفية بنت حيي — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "safiyya-bint-huyayy",
@@ -10321,7 +10715,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "5d7b84b86f09f6c2f0e9bd6eb4cdf15bc27ecad200d9e99fca5e3bd8e7d867d8",
@@ -10577,15 +10971,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "safiyya-bint-huyayy",
       "canonicalPersonName": "صفية بنت حيي",
       "canonicalPersonUrl": "person.html?id=safiyya-bint-huyayy&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AD%D9%8A%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844259Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844259Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.818184Z"
     },
     {
       "id": "20260821-family-life-safiyya-bint-huyayy-03",
@@ -10593,12 +11000,10 @@
       "title": "صفية بنت حيي — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "safiyya-bint-huyayy",
@@ -10606,7 +11011,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cdc294e709e70495de553e582876e252d20caba8af3c582c9f6668b1a9a404c9",
@@ -10862,15 +11267,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "safiyya-bint-huyayy",
       "canonicalPersonName": "صفية بنت حيي",
       "canonicalPersonUrl": "person.html?id=safiyya-bint-huyayy&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AD%D9%8A%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844308Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844308Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.818269Z"
     },
     {
       "id": "20260821-family-life-safiyya-bint-huyayy-04",
@@ -10878,12 +11296,10 @@
       "title": "صفية بنت حيي — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "safiyya-bint-huyayy",
@@ -10891,7 +11307,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "58ab85341f618737f0970d6f030fc3577bfc671ce9fdf8201373da64d5d8ddfb",
@@ -11147,15 +11563,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "safiyya-bint-huyayy",
       "canonicalPersonName": "صفية بنت حيي",
       "canonicalPersonUrl": "person.html?id=safiyya-bint-huyayy&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AD%D9%8A%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844355Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844355Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.818352Z"
     },
     {
       "id": "20260821-family-life-safiyya-bint-huyayy-05",
@@ -11163,12 +11592,10 @@
       "title": "صفية بنت حيي — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "safiyya-bint-huyayy",
@@ -11176,7 +11603,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4afea16fea5e560f87c03e4bf1c87c6db2860d4919193013ddd5fe53e5c31d04",
@@ -11432,15 +11859,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "safiyya-bint-huyayy",
       "canonicalPersonName": "صفية بنت حيي",
       "canonicalPersonUrl": "person.html?id=safiyya-bint-huyayy&name=%D8%B5%D9%81%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%AD%D9%8A%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.844402Z"
+      "consolidatedAt": "2026-08-21T09:20:48.844402Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.818454Z"
     },
     {
       "id": "20260821-family-life-maymuna-bint-al-harith-01",
@@ -11448,12 +11888,10 @@
       "title": "ميمونة بنت الحارث — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "maymuna-bint-al-harith",
@@ -11461,7 +11899,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "59f240024c4accb3e1c4bf5c614e6459ac7a82954a9267170697591ac8201ae9",
@@ -11717,15 +12155,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maymuna-bint-al-harith",
       "canonicalPersonName": "ميمونة بنت الحارث",
       "canonicalPersonUrl": "person.html?id=maymuna-bint-al-harith&name=%D9%85%D9%8A%D9%85%D9%88%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839940Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839940Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.785249Z"
     },
     {
       "id": "20260821-family-life-maymuna-bint-al-harith-02",
@@ -11733,12 +12184,10 @@
       "title": "ميمونة بنت الحارث — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "maymuna-bint-al-harith",
@@ -11746,7 +12195,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "083e0b78fb1e777dc2c3fe72ca3b3f3f428b94021d373d655c44156fc78fe5c3",
@@ -12002,15 +12451,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maymuna-bint-al-harith",
       "canonicalPersonName": "ميمونة بنت الحارث",
       "canonicalPersonUrl": "person.html?id=maymuna-bint-al-harith&name=%D9%85%D9%8A%D9%85%D9%88%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839989Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839989Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.785339Z"
     },
     {
       "id": "20260821-family-life-maymuna-bint-al-harith-03",
@@ -12018,12 +12480,10 @@
       "title": "ميمونة بنت الحارث — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "maymuna-bint-al-harith",
@@ -12031,7 +12491,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f63b3c5ba5ac420e938b8d77a0835fb68a546b726909f569b51dbe1bfa1fee7b",
@@ -12287,15 +12747,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maymuna-bint-al-harith",
       "canonicalPersonName": "ميمونة بنت الحارث",
       "canonicalPersonUrl": "person.html?id=maymuna-bint-al-harith&name=%D9%85%D9%8A%D9%85%D9%88%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840035Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840035Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.785449Z"
     },
     {
       "id": "20260821-family-life-maymuna-bint-al-harith-04",
@@ -12303,12 +12776,10 @@
       "title": "ميمونة بنت الحارث — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "maymuna-bint-al-harith",
@@ -12316,7 +12787,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "a8ccb8a7ddc141b2c3e11b2c0bda8fa7058d9d057dc25c0d1464a07677884f1d",
@@ -12572,15 +13043,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maymuna-bint-al-harith",
       "canonicalPersonName": "ميمونة بنت الحارث",
       "canonicalPersonUrl": "person.html?id=maymuna-bint-al-harith&name=%D9%85%D9%8A%D9%85%D9%88%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840094Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840094Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.785532Z"
     },
     {
       "id": "20260821-family-life-maymuna-bint-al-harith-05",
@@ -12588,12 +13072,10 @@
       "title": "ميمونة بنت الحارث — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "wives",
       "subject": {
         "id": "maymuna-bint-al-harith",
@@ -12601,7 +13083,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cbad1b23ac71524a58c9fc0488df041dde0fb6dbedfe2427060a96d6047feedf",
@@ -12857,15 +13339,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maymuna-bint-al-harith",
       "canonicalPersonName": "ميمونة بنت الحارث",
       "canonicalPersonUrl": "person.html?id=maymuna-bint-al-harith&name=%D9%85%D9%8A%D9%85%D9%88%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840145Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840145Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.785613Z"
     },
     {
       "id": "20260821-family-life-mariya-al-qibtiyya-01",
@@ -12873,12 +13368,10 @@
       "title": "مارية القبطية — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "mariya-al-qibtiyya",
@@ -12886,7 +13379,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "a4eba34ad3dfe3de7a562a74f088580dda06c0614c1d935e5b21e6653c1bbbfc",
@@ -13142,15 +13635,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mariya-al-qibtiyya",
       "canonicalPersonName": "مارية القبطية",
       "canonicalPersonUrl": "person.html?id=mariya-al-qibtiyya&name=%D9%85%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839678Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839678Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.784050Z"
     },
     {
       "id": "20260821-family-life-mariya-al-qibtiyya-02",
@@ -13158,12 +13664,10 @@
       "title": "مارية القبطية — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "mariya-al-qibtiyya",
@@ -13171,7 +13675,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "14436df5510ea4119368e06a3de7e0be13220fedb990cd73ffe7c6e908cf1a93",
@@ -13427,15 +13931,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mariya-al-qibtiyya",
       "canonicalPersonName": "مارية القبطية",
       "canonicalPersonUrl": "person.html?id=mariya-al-qibtiyya&name=%D9%85%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839728Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839728Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.784140Z"
     },
     {
       "id": "20260821-family-life-mariya-al-qibtiyya-03",
@@ -13443,12 +13960,10 @@
       "title": "مارية القبطية — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "mariya-al-qibtiyya",
@@ -13456,7 +13971,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "521585908ac2ce22192647c3b2ce57e71d3c77298273fb746de2c3658d9e03ce",
@@ -13712,15 +14227,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mariya-al-qibtiyya",
       "canonicalPersonName": "مارية القبطية",
       "canonicalPersonUrl": "person.html?id=mariya-al-qibtiyya&name=%D9%85%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839775Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839775Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.784224Z"
     },
     {
       "id": "20260821-family-life-mariya-al-qibtiyya-04",
@@ -13728,12 +14256,10 @@
       "title": "مارية القبطية — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "mariya-al-qibtiyya",
@@ -13741,7 +14267,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2251e8b4880ef3e558d98361fdc97b96ee15a8adc29c86dc3fc7deefe6456000",
@@ -13997,15 +14523,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mariya-al-qibtiyya",
       "canonicalPersonName": "مارية القبطية",
       "canonicalPersonUrl": "person.html?id=mariya-al-qibtiyya&name=%D9%85%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839822Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839822Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.784305Z"
     },
     {
       "id": "20260821-family-life-mariya-al-qibtiyya-05",
@@ -14013,12 +14552,10 @@
       "title": "مارية القبطية — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "mariya-al-qibtiyya",
@@ -14026,7 +14563,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f7dc7e9b8e2bb9d5311007fbae0c9e0e14d8e200ed45ac6ab790dc4bef2b8123",
@@ -14282,15 +14819,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mariya-al-qibtiyya",
       "canonicalPersonName": "مارية القبطية",
       "canonicalPersonUrl": "person.html?id=mariya-al-qibtiyya&name=%D9%85%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839871Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839871Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.784387Z"
     }
   ],
   "contentPlacement": "biographies"

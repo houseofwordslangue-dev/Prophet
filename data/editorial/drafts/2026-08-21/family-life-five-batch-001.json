@@ -8,12 +8,10 @@
       "title": "عبد المطلب بن هاشم — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-al-muttalib",
@@ -21,7 +19,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 523,
       "bodyFingerprint": "d6530126e5dcd354b3a31a73ce3227424d6289886c42d4c143229d0e180ca706",
@@ -429,15 +427,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-al-muttalib",
       "canonicalPersonName": "عبد المطلب بن هاشم",
       "canonicalPersonUrl": "person.html?id=abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%87%D8%A7%D8%B4%D9%85",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.819352Z"
+      "consolidatedAt": "2026-08-21T09:20:48.819352Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.459351Z"
     },
     {
       "id": "20260821-family-life-abd-al-muttalib-02",
@@ -445,12 +456,10 @@
       "title": "عبد المطلب بن هاشم — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-al-muttalib",
@@ -458,7 +467,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 523,
       "bodyFingerprint": "378b71b3ec83b3ac0e7b6c63208817907407099e006fd4d39880c650521f0a33",
@@ -866,15 +875,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-al-muttalib",
       "canonicalPersonName": "عبد المطلب بن هاشم",
       "canonicalPersonUrl": "person.html?id=abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%87%D8%A7%D8%B4%D9%85",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.819442Z"
+      "consolidatedAt": "2026-08-21T09:20:48.819442Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.459501Z"
     },
     {
       "id": "20260821-family-life-abd-al-muttalib-03",
@@ -882,12 +904,10 @@
       "title": "عبد المطلب بن هاشم — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-al-muttalib",
@@ -895,7 +915,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 523,
       "bodyFingerprint": "d021e57da4157978f8fa7167192ade8b3b81c266449295b82fa1b4935d37cac0",
@@ -1303,15 +1323,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-al-muttalib",
       "canonicalPersonName": "عبد المطلب بن هاشم",
       "canonicalPersonUrl": "person.html?id=abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%87%D8%A7%D8%B4%D9%85",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.819502Z"
+      "consolidatedAt": "2026-08-21T09:20:48.819502Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.459595Z"
     },
     {
       "id": "20260821-family-life-abd-al-muttalib-04",
@@ -1319,12 +1352,10 @@
       "title": "عبد المطلب بن هاشم — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-al-muttalib",
@@ -1332,7 +1363,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 523,
       "bodyFingerprint": "86e7b102a42f65ab81fe11d1227b7fbe5aa4dd82bc65c745a410420052cc2404",
@@ -1740,15 +1771,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-al-muttalib",
       "canonicalPersonName": "عبد المطلب بن هاشم",
       "canonicalPersonUrl": "person.html?id=abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%87%D8%A7%D8%B4%D9%85",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.819554Z"
+      "consolidatedAt": "2026-08-21T09:20:48.819554Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.459693Z"
     },
     {
       "id": "20260821-family-life-abd-al-muttalib-05",
@@ -1756,12 +1800,10 @@
       "title": "عبد المطلب بن هاشم — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-al-muttalib",
@@ -1769,7 +1811,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 523,
       "bodyFingerprint": "ac7385ba25c0ba3e0364adad30d6b31fcbbc8b8230a875563476b72d0ec07df7",
@@ -2177,15 +2219,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-al-muttalib",
       "canonicalPersonName": "عبد المطلب بن هاشم",
       "canonicalPersonUrl": "person.html?id=abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%87%D8%A7%D8%B4%D9%85",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.819626Z"
+      "consolidatedAt": "2026-08-21T09:20:48.819626Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.459782Z"
     },
     {
       "id": "20260821-family-life-hashim-ibn-abd-manaf-01",
@@ -2193,12 +2248,10 @@
       "title": "هاشم بن عبد مناف — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "hashim-ibn-abd-manaf",
@@ -2206,7 +2259,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3ea79ec3bab8216ddf8fc4cd2231e200789c4b59e8246318f9ab6c588273662e",
@@ -2606,15 +2659,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hashim-ibn-abd-manaf",
       "canonicalPersonName": "هاشم بن عبد مناف",
       "canonicalPersonUrl": "person.html?id=hashim-ibn-abd-manaf&name=%D9%87%D8%A7%D8%B4%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835562Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835562Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.760652Z"
     },
     {
       "id": "20260821-family-life-hashim-ibn-abd-manaf-02",
@@ -2622,12 +2688,10 @@
       "title": "هاشم بن عبد مناف — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "hashim-ibn-abd-manaf",
@@ -2635,7 +2699,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0d7f9300e59d4df69c0e108348ef0f78f3ca432ca04b4a2ddac956dbdefacd63",
@@ -3035,15 +3099,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hashim-ibn-abd-manaf",
       "canonicalPersonName": "هاشم بن عبد مناف",
       "canonicalPersonUrl": "person.html?id=hashim-ibn-abd-manaf&name=%D9%87%D8%A7%D8%B4%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835633Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835633Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.760743Z"
     },
     {
       "id": "20260821-family-life-hashim-ibn-abd-manaf-03",
@@ -3051,12 +3128,10 @@
       "title": "هاشم بن عبد مناف — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "hashim-ibn-abd-manaf",
@@ -3064,7 +3139,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d849d9bdfe241b2b6c5aaaa0dc1193f4e5b148376c8eeed8c69df458217ae5aa",
@@ -3464,15 +3539,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hashim-ibn-abd-manaf",
       "canonicalPersonName": "هاشم بن عبد مناف",
       "canonicalPersonUrl": "person.html?id=hashim-ibn-abd-manaf&name=%D9%87%D8%A7%D8%B4%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835686Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835686Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.760826Z"
     },
     {
       "id": "20260821-family-life-hashim-ibn-abd-manaf-04",
@@ -3480,12 +3568,10 @@
       "title": "هاشم بن عبد مناف — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "hashim-ibn-abd-manaf",
@@ -3493,7 +3579,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2879604a4e7d51c5df1b9240ab2f1d3c97950cf9d671c94cd83932b91e877020",
@@ -3893,15 +3979,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hashim-ibn-abd-manaf",
       "canonicalPersonName": "هاشم بن عبد مناف",
       "canonicalPersonUrl": "person.html?id=hashim-ibn-abd-manaf&name=%D9%87%D8%A7%D8%B4%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835736Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835736Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.760909Z"
     },
     {
       "id": "20260821-family-life-hashim-ibn-abd-manaf-05",
@@ -3909,12 +4008,10 @@
       "title": "هاشم بن عبد مناف — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "hashim-ibn-abd-manaf",
@@ -3922,7 +4019,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0704b122288446af81f155cf54734cb4d74cd2dfc5cf83757e1cc79c15be1cd6",
@@ -4322,15 +4419,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hashim-ibn-abd-manaf",
       "canonicalPersonName": "هاشم بن عبد مناف",
       "canonicalPersonUrl": "person.html?id=hashim-ibn-abd-manaf&name=%D9%87%D8%A7%D8%B4%D9%85%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835785Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835785Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.760991Z"
     },
     {
       "id": "20260821-family-life-abd-manaf-ibn-qusayy-01",
@@ -4338,12 +4448,10 @@
       "title": "عبد مناف بن قصي — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-manaf-ibn-qusayy",
@@ -4351,7 +4459,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "17bfb9196f246bada40ff18fea5809d43219e3fca0b9c5b14a1a974603a6ac08",
@@ -4751,15 +4859,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-manaf-ibn-qusayy",
       "canonicalPersonName": "عبد مناف بن قصي",
       "canonicalPersonUrl": "person.html?id=abd-manaf-ibn-qusayy&name=%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D9%82%D8%B5%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820007Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820007Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.463013Z"
     },
     {
       "id": "20260821-family-life-abd-manaf-ibn-qusayy-02",
@@ -4767,12 +4888,10 @@
       "title": "عبد مناف بن قصي — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-manaf-ibn-qusayy",
@@ -4780,7 +4899,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "92f8e2f950be8cf631d36e9aca64340dc1f08a6a7a2dcb44838e1a87d0a22523",
@@ -5180,15 +5299,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-manaf-ibn-qusayy",
       "canonicalPersonName": "عبد مناف بن قصي",
       "canonicalPersonUrl": "person.html?id=abd-manaf-ibn-qusayy&name=%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D9%82%D8%B5%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820058Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820058Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.463107Z"
     },
     {
       "id": "20260821-family-life-abd-manaf-ibn-qusayy-03",
@@ -5196,12 +5328,10 @@
       "title": "عبد مناف بن قصي — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-manaf-ibn-qusayy",
@@ -5209,7 +5339,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0091f265a977d9ada52cd68da0cab260a1bdfa1bba02dcddb4576ce64a6fd5c2",
@@ -5609,15 +5739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-manaf-ibn-qusayy",
       "canonicalPersonName": "عبد مناف بن قصي",
       "canonicalPersonUrl": "person.html?id=abd-manaf-ibn-qusayy&name=%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D9%82%D8%B5%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820106Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820106Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.463191Z"
     },
     {
       "id": "20260821-family-life-abd-manaf-ibn-qusayy-04",
@@ -5625,12 +5768,10 @@
       "title": "عبد مناف بن قصي — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-manaf-ibn-qusayy",
@@ -5638,7 +5779,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "b7476cd74f3800257776edfdfb337189c8dc1749bd0f2d665c84e60de333c41f",
@@ -6038,15 +6179,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-manaf-ibn-qusayy",
       "canonicalPersonName": "عبد مناف بن قصي",
       "canonicalPersonUrl": "person.html?id=abd-manaf-ibn-qusayy&name=%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D9%82%D8%B5%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820152Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820152Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.463274Z"
     },
     {
       "id": "20260821-family-life-abd-manaf-ibn-qusayy-05",
@@ -6054,12 +6208,10 @@
       "title": "عبد مناف بن قصي — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "abd-manaf-ibn-qusayy",
@@ -6067,7 +6219,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "5c2b55b0e4a979d60fd19210945fcc81173f9ba4894cf96638e0e768d3c60aef",
@@ -6467,15 +6619,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abd-manaf-ibn-qusayy",
       "canonicalPersonName": "عبد مناف بن قصي",
       "canonicalPersonUrl": "person.html?id=abd-manaf-ibn-qusayy&name=%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D9%82%D8%B5%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820198Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820198Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.463356Z"
     },
     {
       "id": "20260821-family-life-qusayy-ibn-kilab-01",
@@ -6483,12 +6648,10 @@
       "title": "قصي بن كلاب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "qusayy-ibn-kilab",
@@ -6496,7 +6659,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "26f407f56a5589529aa3df410ef040c2d27afdc1dc51ca040d0e34abd5db9c02",
@@ -6896,15 +7059,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "qusayy-ibn-kilab",
       "canonicalPersonName": "قصي بن كلاب",
       "canonicalPersonUrl": "person.html?id=qusayy-ibn-kilab&name=%D9%82%D8%B5%D9%8A%20%D8%A8%D9%86%20%D9%83%D9%84%D8%A7%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842215Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842215Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.797645Z"
     },
     {
       "id": "20260821-family-life-qusayy-ibn-kilab-02",
@@ -6912,12 +7088,10 @@
       "title": "قصي بن كلاب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "qusayy-ibn-kilab",
@@ -6925,7 +7099,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "608377f68e69caca2ba164039fc3181eb1e4b9dc0a38fdec5ffc7ad9979fee45",
@@ -7325,15 +7499,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "qusayy-ibn-kilab",
       "canonicalPersonName": "قصي بن كلاب",
       "canonicalPersonUrl": "person.html?id=qusayy-ibn-kilab&name=%D9%82%D8%B5%D9%8A%20%D8%A8%D9%86%20%D9%83%D9%84%D8%A7%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842334Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842334Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.797739Z"
     },
     {
       "id": "20260821-family-life-qusayy-ibn-kilab-03",
@@ -7341,12 +7528,10 @@
       "title": "قصي بن كلاب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "qusayy-ibn-kilab",
@@ -7354,7 +7539,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "70c00be03694a41679b39bfec519648fa8c260c3671895bc76536d1196d83724",
@@ -7754,15 +7939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "qusayy-ibn-kilab",
       "canonicalPersonName": "قصي بن كلاب",
       "canonicalPersonUrl": "person.html?id=qusayy-ibn-kilab&name=%D9%82%D8%B5%D9%8A%20%D8%A8%D9%86%20%D9%83%D9%84%D8%A7%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842386Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842386Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.797827Z"
     },
     {
       "id": "20260821-family-life-qusayy-ibn-kilab-04",
@@ -7770,12 +7968,10 @@
       "title": "قصي بن كلاب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "qusayy-ibn-kilab",
@@ -7783,7 +7979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "12f41af580cbb2281c091429fb39ffe2d59eafd4518507eed6ef8007364ed1c1",
@@ -8183,15 +8379,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "qusayy-ibn-kilab",
       "canonicalPersonName": "قصي بن كلاب",
       "canonicalPersonUrl": "person.html?id=qusayy-ibn-kilab&name=%D9%82%D8%B5%D9%8A%20%D8%A8%D9%86%20%D9%83%D9%84%D8%A7%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842436Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842436Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.797912Z"
     },
     {
       "id": "20260821-family-life-qusayy-ibn-kilab-05",
@@ -8199,12 +8408,10 @@
       "title": "قصي بن كلاب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "qusayy-ibn-kilab",
@@ -8212,7 +8419,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cb1e5851d4966994a90f707d1612a4dbfadcde474ec6a4791ce8dc899c5f8469",
@@ -8612,15 +8819,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "qusayy-ibn-kilab",
       "canonicalPersonName": "قصي بن كلاب",
       "canonicalPersonUrl": "person.html?id=qusayy-ibn-kilab&name=%D9%82%D8%B5%D9%8A%20%D8%A8%D9%86%20%D9%83%D9%84%D8%A7%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842487Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842487Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.797995Z"
     },
     {
       "id": "20260821-family-life-kilab-ibn-murra-01",
@@ -8628,12 +8848,10 @@
       "title": "كلاب بن مرة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kilab-ibn-murra",
@@ -8641,7 +8859,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 531,
       "bodyFingerprint": "0dc71f0b56c4148bc60858b2e9e9975cc3fe370b1990a2715fd37eb20a0e6462",
@@ -9049,15 +9267,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kilab-ibn-murra",
       "canonicalPersonName": "كلاب بن مرة",
       "canonicalPersonUrl": "person.html?id=kilab-ibn-murra&name=%D9%83%D9%84%D8%A7%D8%A8%20%D8%A8%D9%86%20%D9%85%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838045Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838045Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.774418Z"
     },
     {
       "id": "20260821-family-life-kilab-ibn-murra-02",
@@ -9065,12 +9296,10 @@
       "title": "كلاب بن مرة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kilab-ibn-murra",
@@ -9078,7 +9307,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 531,
       "bodyFingerprint": "90943a932a191ae9746e225cd10ddec06891b081ce75343d660d3714a6cf080d",
@@ -9486,15 +9715,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kilab-ibn-murra",
       "canonicalPersonName": "كلاب بن مرة",
       "canonicalPersonUrl": "person.html?id=kilab-ibn-murra&name=%D9%83%D9%84%D8%A7%D8%A8%20%D8%A8%D9%86%20%D9%85%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838095Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838095Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.774509Z"
     },
     {
       "id": "20260821-family-life-kilab-ibn-murra-03",
@@ -9502,12 +9744,10 @@
       "title": "كلاب بن مرة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kilab-ibn-murra",
@@ -9515,7 +9755,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 531,
       "bodyFingerprint": "e4633a2604e4d8d2f7f2e2897b91eedabc7e602ec06cbaf8860c57cb13f3ffe9",
@@ -9923,15 +10163,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kilab-ibn-murra",
       "canonicalPersonName": "كلاب بن مرة",
       "canonicalPersonUrl": "person.html?id=kilab-ibn-murra&name=%D9%83%D9%84%D8%A7%D8%A8%20%D8%A8%D9%86%20%D9%85%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838143Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838143Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.774593Z"
     },
     {
       "id": "20260821-family-life-kilab-ibn-murra-04",
@@ -9939,12 +10192,10 @@
       "title": "كلاب بن مرة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kilab-ibn-murra",
@@ -9952,7 +10203,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 531,
       "bodyFingerprint": "5c02381c4a07e67fdb6357cd61ffd7cc37e8a90f7403fa32ae094041ddc7fec2",
@@ -10360,15 +10611,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kilab-ibn-murra",
       "canonicalPersonName": "كلاب بن مرة",
       "canonicalPersonUrl": "person.html?id=kilab-ibn-murra&name=%D9%83%D9%84%D8%A7%D8%A8%20%D8%A8%D9%86%20%D9%85%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838191Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838191Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.774675Z"
     },
     {
       "id": "20260821-family-life-kilab-ibn-murra-05",
@@ -10376,12 +10640,10 @@
       "title": "كلاب بن مرة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kilab-ibn-murra",
@@ -10389,7 +10651,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 531,
       "bodyFingerprint": "676f4af68ab516d219fbde0c38d44e5a395a4f3021579e3360b0c17cc0ea4a3a",
@@ -10797,15 +11059,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kilab-ibn-murra",
       "canonicalPersonName": "كلاب بن مرة",
       "canonicalPersonUrl": "person.html?id=kilab-ibn-murra&name=%D9%83%D9%84%D8%A7%D8%A8%20%D8%A8%D9%86%20%D9%85%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838238Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838238Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.774758Z"
     },
     {
       "id": "20260821-family-life-murra-ibn-kab-01",
@@ -10813,12 +11088,10 @@
       "title": "مرة بن كعب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "murra-ibn-kab",
@@ -10826,7 +11099,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "bfb36ca9b4d7309b23747505efe3742b85f32a19aba702b8f21844c8dc8eef67",
@@ -11226,15 +11499,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "murra-ibn-kab",
       "canonicalPersonName": "مرة بن كعب",
       "canonicalPersonUrl": "person.html?id=murra-ibn-kab&name=%D9%85%D8%B1%D8%A9%20%D8%A8%D9%86%20%D9%83%D8%B9%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841027Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841027Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.790966Z"
     },
     {
       "id": "20260821-family-life-murra-ibn-kab-02",
@@ -11242,12 +11528,10 @@
       "title": "مرة بن كعب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "murra-ibn-kab",
@@ -11255,7 +11539,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "9dc3c9683c8cadda9586eefe1bb4c13be8f9a140da2df7e9b5deb4668311fa48",
@@ -11655,15 +11939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "murra-ibn-kab",
       "canonicalPersonName": "مرة بن كعب",
       "canonicalPersonUrl": "person.html?id=murra-ibn-kab&name=%D9%85%D8%B1%D8%A9%20%D8%A8%D9%86%20%D9%83%D8%B9%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841076Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841076Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.791060Z"
     },
     {
       "id": "20260821-family-life-murra-ibn-kab-03",
@@ -11671,12 +11968,10 @@
       "title": "مرة بن كعب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "murra-ibn-kab",
@@ -11684,7 +11979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "963cee95f08ca3e007142634ab555cb8f5c6adf29f2fbe98e6c0535fc2da04d3",
@@ -12084,15 +12379,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "murra-ibn-kab",
       "canonicalPersonName": "مرة بن كعب",
       "canonicalPersonUrl": "person.html?id=murra-ibn-kab&name=%D9%85%D8%B1%D8%A9%20%D8%A8%D9%86%20%D9%83%D8%B9%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841123Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841123Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.791145Z"
     },
     {
       "id": "20260821-family-life-murra-ibn-kab-04",
@@ -12100,12 +12408,10 @@
       "title": "مرة بن كعب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "murra-ibn-kab",
@@ -12113,7 +12419,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2d8e7f8aefcf3f539b7fba036b42f0e6b1c0ff1b49e91e51f3dedd752d3e83c9",
@@ -12513,15 +12819,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "murra-ibn-kab",
       "canonicalPersonName": "مرة بن كعب",
       "canonicalPersonUrl": "person.html?id=murra-ibn-kab&name=%D9%85%D8%B1%D8%A9%20%D8%A8%D9%86%20%D9%83%D8%B9%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841169Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841169Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.791230Z"
     },
     {
       "id": "20260821-family-life-murra-ibn-kab-05",
@@ -12529,12 +12848,10 @@
       "title": "مرة بن كعب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "murra-ibn-kab",
@@ -12542,7 +12859,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6cb4331ad5a834e5beb2486c4f08530d955330e0676b11df5fbda1a0fb8fb566",
@@ -12942,15 +13259,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "murra-ibn-kab",
       "canonicalPersonName": "مرة بن كعب",
       "canonicalPersonUrl": "person.html?id=murra-ibn-kab&name=%D9%85%D8%B1%D8%A9%20%D8%A8%D9%86%20%D9%83%D8%B9%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841217Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841217Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.791311Z"
     },
     {
       "id": "20260821-family-life-kab-ibn-luayy-01",
@@ -12958,12 +13288,10 @@
       "title": "كعب بن لؤي — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kab-ibn-luayy",
@@ -12971,7 +13299,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f589b91adc0b90f136eca929f81a0bf43e98892ce260fdb9d0388992affdcadf",
@@ -13371,15 +13699,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kab-ibn-luayy",
       "canonicalPersonName": "كعب بن لؤي",
       "canonicalPersonUrl": "person.html?id=kab-ibn-luayy&name=%D9%83%D8%B9%D8%A8%20%D8%A8%D9%86%20%D9%84%D8%A4%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837208Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837208Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.769691Z"
     },
     {
       "id": "20260821-family-life-kab-ibn-luayy-02",
@@ -13387,12 +13728,10 @@
       "title": "كعب بن لؤي — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kab-ibn-luayy",
@@ -13400,7 +13739,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "e5395324e3cf50bcc7ffbef1343268bcb6b68d536d1bada72d2eed4e4d3f5397",
@@ -13800,15 +14139,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kab-ibn-luayy",
       "canonicalPersonName": "كعب بن لؤي",
       "canonicalPersonUrl": "person.html?id=kab-ibn-luayy&name=%D9%83%D8%B9%D8%A8%20%D8%A8%D9%86%20%D9%84%D8%A4%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837259Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837259Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.769780Z"
     },
     {
       "id": "20260821-family-life-kab-ibn-luayy-03",
@@ -13816,12 +14168,10 @@
       "title": "كعب بن لؤي — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kab-ibn-luayy",
@@ -13829,7 +14179,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "609468dacb021e6964e6a23741df7737bd2829eb329eb7c972434db73dfcea37",
@@ -14229,15 +14579,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kab-ibn-luayy",
       "canonicalPersonName": "كعب بن لؤي",
       "canonicalPersonUrl": "person.html?id=kab-ibn-luayy&name=%D9%83%D8%B9%D8%A8%20%D8%A8%D9%86%20%D9%84%D8%A4%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837308Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837308Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.769863Z"
     },
     {
       "id": "20260821-family-life-kab-ibn-luayy-04",
@@ -14245,12 +14608,10 @@
       "title": "كعب بن لؤي — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kab-ibn-luayy",
@@ -14258,7 +14619,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f75f37c1b87cfca80e4a336d23b5e224cd8cebaa1b7d620d9052ef57772b317c",
@@ -14658,15 +15019,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kab-ibn-luayy",
       "canonicalPersonName": "كعب بن لؤي",
       "canonicalPersonUrl": "person.html?id=kab-ibn-luayy&name=%D9%83%D8%B9%D8%A8%20%D8%A8%D9%86%20%D9%84%D8%A4%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837356Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837356Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.769946Z"
     },
     {
       "id": "20260821-family-life-kab-ibn-luayy-05",
@@ -14674,12 +15048,10 @@
       "title": "كعب بن لؤي — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kab-ibn-luayy",
@@ -14687,7 +15059,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "b6df0aea15d0467c2906edc78647035f5199864e1527e0d0dfc7db143c81c0ee",
@@ -15087,15 +15459,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kab-ibn-luayy",
       "canonicalPersonName": "كعب بن لؤي",
       "canonicalPersonUrl": "person.html?id=kab-ibn-luayy&name=%D9%83%D8%B9%D8%A8%20%D8%A8%D9%86%20%D9%84%D8%A4%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837405Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837405Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.770028Z"
     },
     {
       "id": "20260821-family-life-luayy-ibn-ghalib-01",
@@ -15103,12 +15488,10 @@
       "title": "لؤي بن غالب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "luayy-ibn-ghalib",
@@ -15116,7 +15499,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "81df3603674479c908873e513a75064ec6732ffaee0352947224972c0b759565",
@@ -15516,15 +15899,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "luayy-ibn-ghalib",
       "canonicalPersonName": "لؤي بن غالب",
       "canonicalPersonUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838563Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838563Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.777622Z"
     },
     {
       "id": "20260821-family-life-luayy-ibn-ghalib-02",
@@ -15532,12 +15928,10 @@
       "title": "لؤي بن غالب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "luayy-ibn-ghalib",
@@ -15545,7 +15939,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2b4dfba9ee9df02acc0e1df10a7a33bd22a3f6aeb8d71b66b804c388315eb082",
@@ -15945,15 +16339,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "luayy-ibn-ghalib",
       "canonicalPersonName": "لؤي بن غالب",
       "canonicalPersonUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838649Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838649Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.777719Z"
     },
     {
       "id": "20260821-family-life-luayy-ibn-ghalib-03",
@@ -15961,12 +16368,10 @@
       "title": "لؤي بن غالب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "luayy-ibn-ghalib",
@@ -15974,7 +16379,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "660c411ed065514e4e82361213c2f688183d221290216832708a9759cb631a3c",
@@ -16374,15 +16779,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "luayy-ibn-ghalib",
       "canonicalPersonName": "لؤي بن غالب",
       "canonicalPersonUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838705Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838705Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.777805Z"
     },
     {
       "id": "20260821-family-life-luayy-ibn-ghalib-04",
@@ -16390,12 +16808,10 @@
       "title": "لؤي بن غالب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "luayy-ibn-ghalib",
@@ -16403,7 +16819,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6f1994e1e3bdf54943cc30668973f8ff64a5d479ec6aee6b485c3b7077a849f7",
@@ -16803,15 +17219,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "luayy-ibn-ghalib",
       "canonicalPersonName": "لؤي بن غالب",
       "canonicalPersonUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838755Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838755Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.777888Z"
     },
     {
       "id": "20260821-family-life-luayy-ibn-ghalib-05",
@@ -16819,12 +17248,10 @@
       "title": "لؤي بن غالب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "luayy-ibn-ghalib",
@@ -16832,7 +17259,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "561a710d9f414538635f09d2ad96af9e1503d77c98318e893a56ad228bbf735d",
@@ -17232,15 +17659,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "luayy-ibn-ghalib",
       "canonicalPersonName": "لؤي بن غالب",
       "canonicalPersonUrl": "person.html?id=luayy-ibn-ghalib&name=%D9%84%D8%A4%D9%8A%20%D8%A8%D9%86%20%D8%BA%D8%A7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838805Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838805Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.777971Z"
     },
     {
       "id": "20260821-family-life-ghalib-ibn-fihr-01",
@@ -17248,12 +17688,10 @@
       "title": "غالب بن فهر — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ghalib-ibn-fihr",
@@ -17261,7 +17699,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "b61c43b31da57c4e278321687b6d55a9016a3f9e21f5e2bc054a66493ace6553",
@@ -17661,15 +18099,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ghalib-ibn-fihr",
       "canonicalPersonName": "غالب بن فهر",
       "canonicalPersonUrl": "person.html?id=ghalib-ibn-fihr&name=%D8%BA%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%81%D9%87%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833923Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833923Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.751546Z"
     },
     {
       "id": "20260821-family-life-ghalib-ibn-fihr-02",
@@ -17677,12 +18128,10 @@
       "title": "غالب بن فهر — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ghalib-ibn-fihr",
@@ -17690,7 +18139,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "eca3e157045110c609a3f9fe13dc5ac5e1b5b1631775b23c64ef1488b37fe5d8",
@@ -18090,15 +18539,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ghalib-ibn-fihr",
       "canonicalPersonName": "غالب بن فهر",
       "canonicalPersonUrl": "person.html?id=ghalib-ibn-fihr&name=%D8%BA%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%81%D9%87%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833972Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833972Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.751640Z"
     },
     {
       "id": "20260821-family-life-ghalib-ibn-fihr-03",
@@ -18106,12 +18568,10 @@
       "title": "غالب بن فهر — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ghalib-ibn-fihr",
@@ -18119,7 +18579,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "69fa7cd18940cf9ec86864942a0ac3d597843d6eee3b40712f84212a950e4dfe",
@@ -18519,15 +18979,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ghalib-ibn-fihr",
       "canonicalPersonName": "غالب بن فهر",
       "canonicalPersonUrl": "person.html?id=ghalib-ibn-fihr&name=%D8%BA%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%81%D9%87%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834019Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834019Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.751725Z"
     },
     {
       "id": "20260821-family-life-ghalib-ibn-fihr-04",
@@ -18535,12 +19008,10 @@
       "title": "غالب بن فهر — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ghalib-ibn-fihr",
@@ -18548,7 +19019,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "518d05c6f9e20625b89666cd0df9af3943cf44b60cce0ad53ebd583b12404ad2",
@@ -18948,15 +19419,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ghalib-ibn-fihr",
       "canonicalPersonName": "غالب بن فهر",
       "canonicalPersonUrl": "person.html?id=ghalib-ibn-fihr&name=%D8%BA%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%81%D9%87%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834066Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834066Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.751810Z"
     },
     {
       "id": "20260821-family-life-ghalib-ibn-fihr-05",
@@ -18964,12 +19448,10 @@
       "title": "غالب بن فهر — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ghalib-ibn-fihr",
@@ -18977,7 +19459,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "011720687a99c519c798ef5c6d500461d21ddcbcefe0c284acefa4a67814068a",
@@ -19377,15 +19859,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ghalib-ibn-fihr",
       "canonicalPersonName": "غالب بن فهر",
       "canonicalPersonUrl": "person.html?id=ghalib-ibn-fihr&name=%D8%BA%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D9%81%D9%87%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.834113Z"
+      "consolidatedAt": "2026-08-21T09:20:48.834113Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.751895Z"
     },
     {
       "id": "20260821-family-life-fihr-ibn-malik-01",
@@ -19393,12 +19888,10 @@
       "title": "فهر بن مالك — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "fihr-ibn-malik",
@@ -19406,7 +19899,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "28c409afbf6f2b0d5d45459dd0eec318d614bbcc77ef5b4f74b26faa3eff363a",
@@ -19806,15 +20299,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "fihr-ibn-malik",
       "canonicalPersonName": "فهر بن مالك",
       "canonicalPersonUrl": "person.html?id=fihr-ibn-malik&name=%D9%81%D9%87%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833649Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833649Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.749888Z"
     },
     {
       "id": "20260821-family-life-fihr-ibn-malik-02",
@@ -19822,12 +20328,10 @@
       "title": "فهر بن مالك — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "fihr-ibn-malik",
@@ -19835,7 +20339,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6777b54d63d8c93e0e82398da03569d7b37eee929b7998769d2cb8a813c47909",
@@ -20235,15 +20739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "fihr-ibn-malik",
       "canonicalPersonName": "فهر بن مالك",
       "canonicalPersonUrl": "person.html?id=fihr-ibn-malik&name=%D9%81%D9%87%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833702Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833702Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.749979Z"
     },
     {
       "id": "20260821-family-life-fihr-ibn-malik-03",
@@ -20251,12 +20768,10 @@
       "title": "فهر بن مالك — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "fihr-ibn-malik",
@@ -20264,7 +20779,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "e5d741ece7b0265794a90a99f70eae0fb1a31c3f87fa3506030cbc1497eb3898",
@@ -20664,15 +21179,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "fihr-ibn-malik",
       "canonicalPersonName": "فهر بن مالك",
       "canonicalPersonUrl": "person.html?id=fihr-ibn-malik&name=%D9%81%D9%87%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833753Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833753Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.750067Z"
     },
     {
       "id": "20260821-family-life-fihr-ibn-malik-04",
@@ -20680,12 +21208,10 @@
       "title": "فهر بن مالك — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "fihr-ibn-malik",
@@ -20693,7 +21219,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2be61a186574e427b549c132aa18350ea5a57213fdc5f5016108bd746fb0ec31",
@@ -21093,15 +21619,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "fihr-ibn-malik",
       "canonicalPersonName": "فهر بن مالك",
       "canonicalPersonUrl": "person.html?id=fihr-ibn-malik&name=%D9%81%D9%87%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833801Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833801Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.750155Z"
     },
     {
       "id": "20260821-family-life-fihr-ibn-malik-05",
@@ -21109,12 +21648,10 @@
       "title": "فهر بن مالك — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "fihr-ibn-malik",
@@ -21122,7 +21659,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "e2fa51dfde1dd0ad7ff0cd5f60502fd0f40bc33bf8eaac249b431762f6bc4cd1",
@@ -21522,15 +22059,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "fihr-ibn-malik",
       "canonicalPersonName": "فهر بن مالك",
       "canonicalPersonUrl": "person.html?id=fihr-ibn-malik&name=%D9%81%D9%87%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.833851Z"
+      "consolidatedAt": "2026-08-21T09:20:48.833851Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.750241Z"
     }
   ],
   "contentPlacement": "biographies"

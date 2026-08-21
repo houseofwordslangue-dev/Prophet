@@ -8,12 +8,10 @@
       "title": "مالك بن النضر — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "malik-ibn-al-nadr",
@@ -21,7 +19,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "a8c3f4821e14f54195cf67c2ce3e8d85ae72150d8a0ffec709428003705ddd78",
@@ -421,15 +419,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "malik-ibn-al-nadr",
       "canonicalPersonName": "مالك بن النضر",
       "canonicalPersonUrl": "person.html?id=malik-ibn-al-nadr&name=%D9%85%D8%A7%D9%84%D9%83%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839401Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839401Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.782463Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-02",
@@ -437,12 +448,10 @@
       "title": "مالك بن النضر — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "malik-ibn-al-nadr",
@@ -450,7 +459,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "abdce84ae28ea0ac07371bda5d8a9a14df590425d1f39d62bed9c619aa564351",
@@ -850,15 +859,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "malik-ibn-al-nadr",
       "canonicalPersonName": "مالك بن النضر",
       "canonicalPersonUrl": "person.html?id=malik-ibn-al-nadr&name=%D9%85%D8%A7%D9%84%D9%83%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839450Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839450Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.782553Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-03",
@@ -866,12 +888,10 @@
       "title": "مالك بن النضر — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "malik-ibn-al-nadr",
@@ -879,7 +899,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "9792bf458e1ee753a8f916553b8eeb1cccdec493f2f42fa9d71d2725e6dab794",
@@ -1279,15 +1299,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "malik-ibn-al-nadr",
       "canonicalPersonName": "مالك بن النضر",
       "canonicalPersonUrl": "person.html?id=malik-ibn-al-nadr&name=%D9%85%D8%A7%D9%84%D9%83%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839497Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839497Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.782637Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-04",
@@ -1295,12 +1328,10 @@
       "title": "مالك بن النضر — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "malik-ibn-al-nadr",
@@ -1308,7 +1339,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "9f95c0b0d2627a767e9ca51cbe02b1460ff12295aecf937de57abf5a487e435c",
@@ -1708,15 +1739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "malik-ibn-al-nadr",
       "canonicalPersonName": "مالك بن النضر",
       "canonicalPersonUrl": "person.html?id=malik-ibn-al-nadr&name=%D9%85%D8%A7%D9%84%D9%83%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839545Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839545Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.782722Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-05",
@@ -1724,12 +1768,10 @@
       "title": "مالك بن النضر — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "malik-ibn-al-nadr",
@@ -1737,7 +1779,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "03b96a06eb5683cc4aa9d1349cbae361a0b6b4e36ace0a11996d1ca155812e32",
@@ -2137,15 +2179,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "malik-ibn-al-nadr",
       "canonicalPersonName": "مالك بن النضر",
       "canonicalPersonUrl": "person.html?id=malik-ibn-al-nadr&name=%D9%85%D8%A7%D9%84%D9%83%20%D8%A8%D9%86%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839607Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839607Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.782806Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-01",
@@ -2153,12 +2208,10 @@
       "title": "النضر بن كنانة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "al-nadr-ibn-kinana",
@@ -2166,7 +2219,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "2b571b0100715e25bd675f86d6bc12c437dbf5da3eb67e0444b86b0e02cf1bc3",
@@ -2566,15 +2619,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-nadr-ibn-kinana",
       "canonicalPersonName": "النضر بن كنانة",
       "canonicalPersonUrl": "person.html?id=al-nadr-ibn-kinana&name=%D8%A7%D9%84%D9%86%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%83%D9%86%D8%A7%D9%86%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827913Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827913Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.564148Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-02",
@@ -2582,12 +2648,10 @@
       "title": "النضر بن كنانة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "al-nadr-ibn-kinana",
@@ -2595,7 +2659,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "10bac50a2812d0600ba16a856c0221462bc5794fe440bd063062d1ca330776aa",
@@ -2995,15 +3059,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-nadr-ibn-kinana",
       "canonicalPersonName": "النضر بن كنانة",
       "canonicalPersonUrl": "person.html?id=al-nadr-ibn-kinana&name=%D8%A7%D9%84%D9%86%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%83%D9%86%D8%A7%D9%86%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827962Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827962Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.564241Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-03",
@@ -3011,12 +3088,10 @@
       "title": "النضر بن كنانة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "al-nadr-ibn-kinana",
@@ -3024,7 +3099,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cc4e725e5c3f2a9074db2a8201b3b7e63bb8cc788f4028d9309e3f2bf7ff4a55",
@@ -3424,15 +3499,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-nadr-ibn-kinana",
       "canonicalPersonName": "النضر بن كنانة",
       "canonicalPersonUrl": "person.html?id=al-nadr-ibn-kinana&name=%D8%A7%D9%84%D9%86%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%83%D9%86%D8%A7%D9%86%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828010Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828010Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.564325Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-04",
@@ -3440,12 +3528,10 @@
       "title": "النضر بن كنانة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "al-nadr-ibn-kinana",
@@ -3453,7 +3539,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "c04034c38b2c8cbafa90b0803caa9dfd621c3b32a52bb1255d2ddd87f927a345",
@@ -3853,15 +3939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-nadr-ibn-kinana",
       "canonicalPersonName": "النضر بن كنانة",
       "canonicalPersonUrl": "person.html?id=al-nadr-ibn-kinana&name=%D8%A7%D9%84%D9%86%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%83%D9%86%D8%A7%D9%86%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828058Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828058Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.564474Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-05",
@@ -3869,12 +3968,10 @@
       "title": "النضر بن كنانة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "al-nadr-ibn-kinana",
@@ -3882,7 +3979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cb2d6fdf9bf3b2788e0d79a9b14e6ef1ff92726969d4f0446076f0e09d6a8ad4",
@@ -4282,15 +4379,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-nadr-ibn-kinana",
       "canonicalPersonName": "النضر بن كنانة",
       "canonicalPersonUrl": "person.html?id=al-nadr-ibn-kinana&name=%D8%A7%D9%84%D9%86%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%83%D9%86%D8%A7%D9%86%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828105Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828105Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.564573Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-01",
@@ -4298,12 +4408,10 @@
       "title": "كنانة بن خزيمة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kinana-ibn-khuzayma",
@@ -4311,7 +4419,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ddc2965ad05e869fc72dc91aae793996f35aec98643e5307ec26388b61095aa9",
@@ -4711,15 +4819,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kinana-ibn-khuzayma",
       "canonicalPersonName": "كنانة بن خزيمة",
       "canonicalPersonUrl": "person.html?id=kinana-ibn-khuzayma&name=%D9%83%D9%86%D8%A7%D9%86%D8%A9%20%D8%A8%D9%86%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838306Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838306Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.776022Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-02",
@@ -4727,12 +4848,10 @@
       "title": "كنانة بن خزيمة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kinana-ibn-khuzayma",
@@ -4740,7 +4859,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "dbe544e0ae5f68b6c56526888e557ba0fa95c963d313b52d5661d4be33eaa010",
@@ -5140,15 +5259,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kinana-ibn-khuzayma",
       "canonicalPersonName": "كنانة بن خزيمة",
       "canonicalPersonUrl": "person.html?id=kinana-ibn-khuzayma&name=%D9%83%D9%86%D8%A7%D9%86%D8%A9%20%D8%A8%D9%86%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838356Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838356Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.776112Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-03",
@@ -5156,12 +5288,10 @@
       "title": "كنانة بن خزيمة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kinana-ibn-khuzayma",
@@ -5169,7 +5299,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d8b0aea4f7d8bfafc9d0303d7154041ffdfe0582f519c2426a3e0417ef103bd3",
@@ -5569,15 +5699,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kinana-ibn-khuzayma",
       "canonicalPersonName": "كنانة بن خزيمة",
       "canonicalPersonUrl": "person.html?id=kinana-ibn-khuzayma&name=%D9%83%D9%86%D8%A7%D9%86%D8%A9%20%D8%A8%D9%86%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838404Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838404Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.776196Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-04",
@@ -5585,12 +5728,10 @@
       "title": "كنانة بن خزيمة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kinana-ibn-khuzayma",
@@ -5598,7 +5739,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4a8d91e96f302b16609b1b0f293163615f3a90da221e2dfeed1e6db4bf58698f",
@@ -5998,15 +6139,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kinana-ibn-khuzayma",
       "canonicalPersonName": "كنانة بن خزيمة",
       "canonicalPersonUrl": "person.html?id=kinana-ibn-khuzayma&name=%D9%83%D9%86%D8%A7%D9%86%D8%A9%20%D8%A8%D9%86%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838450Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838450Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.776282Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-05",
@@ -6014,12 +6168,10 @@
       "title": "كنانة بن خزيمة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "kinana-ibn-khuzayma",
@@ -6027,7 +6179,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "87a66bf2e8a609113a3e05f7fc190b4ceb623b66e68d65940c7f852eaf0a061f",
@@ -6427,15 +6579,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "kinana-ibn-khuzayma",
       "canonicalPersonName": "كنانة بن خزيمة",
       "canonicalPersonUrl": "person.html?id=kinana-ibn-khuzayma&name=%D9%83%D9%86%D8%A7%D9%86%D8%A9%20%D8%A8%D9%86%20%D8%AE%D8%B2%D9%8A%D9%85%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838496Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838496Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.776365Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-01",
@@ -6443,12 +6608,10 @@
       "title": "خزيمة بن مدركة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "khuzayma-ibn-mudrika",
@@ -6456,7 +6619,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "336cde5b5f8db71dd2adeefe206269dba4ad60993d351f428e0b586b5f9ad7a3",
@@ -6856,15 +7019,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khuzayma-ibn-mudrika",
       "canonicalPersonName": "خزيمة بن مدركة",
       "canonicalPersonUrl": "person.html?id=khuzayma-ibn-mudrika&name=%D8%AE%D8%B2%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%20%D9%85%D8%AF%D8%B1%D9%83%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837778Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837778Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.772706Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-02",
@@ -6872,12 +7048,10 @@
       "title": "خزيمة بن مدركة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "khuzayma-ibn-mudrika",
@@ -6885,7 +7059,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1f6136bd5aa2bc8e4d3cdf29b6fb01a887c1f27685cbe82a187402fb1cc83a74",
@@ -7285,15 +7459,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khuzayma-ibn-mudrika",
       "canonicalPersonName": "خزيمة بن مدركة",
       "canonicalPersonUrl": "person.html?id=khuzayma-ibn-mudrika&name=%D8%AE%D8%B2%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%20%D9%85%D8%AF%D8%B1%D9%83%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837829Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837829Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.772802Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-03",
@@ -7301,12 +7488,10 @@
       "title": "خزيمة بن مدركة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "khuzayma-ibn-mudrika",
@@ -7314,7 +7499,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0fc92fcd669505f090c51fd89589a6f1d5e1a08817d2a951b204cea623a8708c",
@@ -7714,15 +7899,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khuzayma-ibn-mudrika",
       "canonicalPersonName": "خزيمة بن مدركة",
       "canonicalPersonUrl": "person.html?id=khuzayma-ibn-mudrika&name=%D8%AE%D8%B2%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%20%D9%85%D8%AF%D8%B1%D9%83%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837879Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837879Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.772888Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-04",
@@ -7730,12 +7928,10 @@
       "title": "خزيمة بن مدركة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "khuzayma-ibn-mudrika",
@@ -7743,7 +7939,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d99688008f06db0bca42c7c3d92a1c399cd35730cbd499e2d1fe4722769eea24",
@@ -8143,15 +8339,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khuzayma-ibn-mudrika",
       "canonicalPersonName": "خزيمة بن مدركة",
       "canonicalPersonUrl": "person.html?id=khuzayma-ibn-mudrika&name=%D8%AE%D8%B2%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%20%D9%85%D8%AF%D8%B1%D9%83%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837928Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837928Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.772974Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-05",
@@ -8159,12 +8368,10 @@
       "title": "خزيمة بن مدركة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "khuzayma-ibn-mudrika",
@@ -8172,7 +8379,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3a7862228b24a4a962ca3d8d62f2f06078446a65aa3f859f218f756a7e17b31c",
@@ -8572,15 +8779,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "khuzayma-ibn-mudrika",
       "canonicalPersonName": "خزيمة بن مدركة",
       "canonicalPersonUrl": "person.html?id=khuzayma-ibn-mudrika&name=%D8%AE%D8%B2%D9%8A%D9%85%D8%A9%20%D8%A8%D9%86%20%D9%85%D8%AF%D8%B1%D9%83%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.837976Z"
+      "consolidatedAt": "2026-08-21T09:20:48.837976Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.773058Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-01",
@@ -8588,12 +8808,10 @@
       "title": "مدركة بن إلياس — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudrika-ibn-ilyas",
@@ -8601,7 +8819,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0d5f5307027db39455d271611ea9e3ab9ef2a54fead22f2c87eaef9b3943c8fb",
@@ -9001,15 +9219,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudrika-ibn-ilyas",
       "canonicalPersonName": "مدركة بن إلياس",
       "canonicalPersonUrl": "person.html?id=mudrika-ibn-ilyas&name=%D9%85%D8%AF%D8%B1%D9%83%D8%A9%20%D8%A8%D9%86%20%D8%A5%D9%84%D9%8A%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840475Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840475Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.788056Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-02",
@@ -9017,12 +9248,10 @@
       "title": "مدركة بن إلياس — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudrika-ibn-ilyas",
@@ -9030,7 +9259,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4eac396dd08cf309fca8827c4290055ee806870fc2ad8e09ee9256f425610eb0",
@@ -9430,15 +9659,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudrika-ibn-ilyas",
       "canonicalPersonName": "مدركة بن إلياس",
       "canonicalPersonUrl": "person.html?id=mudrika-ibn-ilyas&name=%D9%85%D8%AF%D8%B1%D9%83%D8%A9%20%D8%A8%D9%86%20%D8%A5%D9%84%D9%8A%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840525Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840525Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.788147Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-03",
@@ -9446,12 +9688,10 @@
       "title": "مدركة بن إلياس — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudrika-ibn-ilyas",
@@ -9459,7 +9699,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "30b9f6e0e1f17f48f8f3902c0cf030f039b18b2547d39cb3cb0d8808e2044920",
@@ -9859,15 +10099,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudrika-ibn-ilyas",
       "canonicalPersonName": "مدركة بن إلياس",
       "canonicalPersonUrl": "person.html?id=mudrika-ibn-ilyas&name=%D9%85%D8%AF%D8%B1%D9%83%D8%A9%20%D8%A8%D9%86%20%D8%A5%D9%84%D9%8A%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840573Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840573Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.788229Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-04",
@@ -9875,12 +10128,10 @@
       "title": "مدركة بن إلياس — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudrika-ibn-ilyas",
@@ -9888,7 +10139,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cbcf6c23ad10185c86999ab37a945bbc9d9de83ec8183c3e01ffcd127cd2155d",
@@ -10288,15 +10539,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudrika-ibn-ilyas",
       "canonicalPersonName": "مدركة بن إلياس",
       "canonicalPersonUrl": "person.html?id=mudrika-ibn-ilyas&name=%D9%85%D8%AF%D8%B1%D9%83%D8%A9%20%D8%A8%D9%86%20%D8%A5%D9%84%D9%8A%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840637Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840637Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.788311Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-05",
@@ -10304,12 +10568,10 @@
       "title": "مدركة بن إلياس — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudrika-ibn-ilyas",
@@ -10317,7 +10579,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f457d0fc8136516cdf55f641124ad4db8959561bfdb372d82ad38f029d3cb244",
@@ -10717,15 +10979,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudrika-ibn-ilyas",
       "canonicalPersonName": "مدركة بن إلياس",
       "canonicalPersonUrl": "person.html?id=mudrika-ibn-ilyas&name=%D9%85%D8%AF%D8%B1%D9%83%D8%A9%20%D8%A8%D9%86%20%D8%A5%D9%84%D9%8A%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840690Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840690Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.788407Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-01",
@@ -10733,12 +11008,10 @@
       "title": "إلياس بن مضر — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ilyas-ibn-mudar",
@@ -10746,7 +11019,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "333c33cc4efd0f70c55d11ba9cc68c4d0827e2a1fd3117dd7daa4611a779a10a",
@@ -11146,15 +11419,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ilyas-ibn-mudar",
       "canonicalPersonName": "إلياس بن مضر",
       "canonicalPersonUrl": "person.html?id=ilyas-ibn-mudar&name=%D8%A5%D9%84%D9%8A%D8%A7%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836119Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836119Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.763537Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-02",
@@ -11162,12 +11448,10 @@
       "title": "إلياس بن مضر — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ilyas-ibn-mudar",
@@ -11175,7 +11459,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3b746ba34d8e3c4caa2a050647427002bc629b4d5c313c07b33e895867714899",
@@ -11575,15 +11859,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ilyas-ibn-mudar",
       "canonicalPersonName": "إلياس بن مضر",
       "canonicalPersonUrl": "person.html?id=ilyas-ibn-mudar&name=%D8%A5%D9%84%D9%8A%D8%A7%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836170Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836170Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.763625Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-03",
@@ -11591,12 +11888,10 @@
       "title": "إلياس بن مضر — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ilyas-ibn-mudar",
@@ -11604,7 +11899,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "df513b2226fb6d907214b1a1d9c613e556f63a3690b3b4ccd5716a2e366e4238",
@@ -12004,15 +12299,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ilyas-ibn-mudar",
       "canonicalPersonName": "إلياس بن مضر",
       "canonicalPersonUrl": "person.html?id=ilyas-ibn-mudar&name=%D8%A5%D9%84%D9%8A%D8%A7%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836217Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836217Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.763707Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-04",
@@ -12020,12 +12328,10 @@
       "title": "إلياس بن مضر — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ilyas-ibn-mudar",
@@ -12033,7 +12339,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4a269cf31257148f87f3605b7bd3170d78d475c24c00ac75d8cb7cb09e414f02",
@@ -12433,15 +12739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ilyas-ibn-mudar",
       "canonicalPersonName": "إلياس بن مضر",
       "canonicalPersonUrl": "person.html?id=ilyas-ibn-mudar&name=%D8%A5%D9%84%D9%8A%D8%A7%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836266Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836266Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.763789Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-05",
@@ -12449,12 +12768,10 @@
       "title": "إلياس بن مضر — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "ilyas-ibn-mudar",
@@ -12462,7 +12779,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "e591fb37a4d63cb11e53e2b5b2dbbad32d89c4fe7db8716ae12f0988eb337245",
@@ -12862,15 +13179,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ilyas-ibn-mudar",
       "canonicalPersonName": "إلياس بن مضر",
       "canonicalPersonUrl": "person.html?id=ilyas-ibn-mudar&name=%D8%A5%D9%84%D9%8A%D8%A7%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%B6%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836313Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836313Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.763871Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-01",
@@ -12878,12 +13208,10 @@
       "title": "مضر بن نزار — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudar-ibn-nizar",
@@ -12891,7 +13219,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0f470ed7542e9c6833873e2f7479fded1f0c7ae43698375bc543ce5365e4324c",
@@ -13291,15 +13619,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudar-ibn-nizar",
       "canonicalPersonName": "مضر بن نزار",
       "canonicalPersonUrl": "person.html?id=mudar-ibn-nizar&name=%D9%85%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%86%D8%B2%D8%A7%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840214Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840214Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.786480Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-02",
@@ -13307,12 +13648,10 @@
       "title": "مضر بن نزار — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudar-ibn-nizar",
@@ -13320,7 +13659,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "a2337158d6441d96cfc9a2ce713ac6a8ff11fc3487fb9740ed223c1054d9e4bb",
@@ -13720,15 +14059,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudar-ibn-nizar",
       "canonicalPersonName": "مضر بن نزار",
       "canonicalPersonUrl": "person.html?id=mudar-ibn-nizar&name=%D9%85%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%86%D8%B2%D8%A7%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840264Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840264Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.786568Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-03",
@@ -13736,12 +14088,10 @@
       "title": "مضر بن نزار — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudar-ibn-nizar",
@@ -13749,7 +14099,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3f49642c979ed6295b38f1cd4195f21a2b82bc9af67269e4c040d878e3c75d13",
@@ -14149,15 +14499,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudar-ibn-nizar",
       "canonicalPersonName": "مضر بن نزار",
       "canonicalPersonUrl": "person.html?id=mudar-ibn-nizar&name=%D9%85%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%86%D8%B2%D8%A7%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840313Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840313Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.786651Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-04",
@@ -14165,12 +14528,10 @@
       "title": "مضر بن نزار — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudar-ibn-nizar",
@@ -14178,7 +14539,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "214d53748e38263c173861d911ccf18ead3a821252165ef71a30ce38c6fd654e",
@@ -14578,15 +14939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudar-ibn-nizar",
       "canonicalPersonName": "مضر بن نزار",
       "canonicalPersonUrl": "person.html?id=mudar-ibn-nizar&name=%D9%85%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%86%D8%B2%D8%A7%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840359Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840359Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.786733Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-05",
@@ -14594,12 +14968,10 @@
       "title": "مضر بن نزار — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "mudar-ibn-nizar",
@@ -14607,7 +14979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "7d08ed111218835d06655e60b6bda18d1f7926b8625d1aa136cc65a07c46eb02",
@@ -15007,15 +15379,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "mudar-ibn-nizar",
       "canonicalPersonName": "مضر بن نزار",
       "canonicalPersonUrl": "person.html?id=mudar-ibn-nizar&name=%D9%85%D8%B6%D8%B1%20%D8%A8%D9%86%20%D9%86%D8%B2%D8%A7%D8%B1",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.840407Z"
+      "consolidatedAt": "2026-08-21T09:20:48.840407Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.786815Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-01",
@@ -15023,12 +15408,10 @@
       "title": "نزار بن معد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "nizar-ibn-maadd",
@@ -15036,7 +15419,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "5ff088ecf64da512803c4d867abf339137a591ab4c3e2600b029b9b4e6dd5875",
@@ -15436,15 +15819,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "nizar-ibn-maadd",
       "canonicalPersonName": "نزار بن معد",
       "canonicalPersonUrl": "person.html?id=nizar-ibn-maadd&name=%D9%86%D8%B2%D8%A7%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%B9%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841936Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841936Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.795905Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-02",
@@ -15452,12 +15848,10 @@
       "title": "نزار بن معد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "nizar-ibn-maadd",
@@ -15465,7 +15859,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "997ee2c6f51a0a262ae0f2fa18b766ce0e417853d76a57f846441c76935e4cd0",
@@ -15865,15 +16259,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "nizar-ibn-maadd",
       "canonicalPersonName": "نزار بن معد",
       "canonicalPersonUrl": "person.html?id=nizar-ibn-maadd&name=%D9%86%D8%B2%D8%A7%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%B9%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.841993Z"
+      "consolidatedAt": "2026-08-21T09:20:48.841993Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.795995Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-03",
@@ -15881,12 +16288,10 @@
       "title": "نزار بن معد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "nizar-ibn-maadd",
@@ -15894,7 +16299,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "642aceecdae97e1f538d4c8bdb3f422a65edea04798b21261d939bdde21c10f2",
@@ -16294,15 +16699,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "nizar-ibn-maadd",
       "canonicalPersonName": "نزار بن معد",
       "canonicalPersonUrl": "person.html?id=nizar-ibn-maadd&name=%D9%86%D8%B2%D8%A7%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%B9%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842045Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842045Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.796085Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-04",
@@ -16310,12 +16728,10 @@
       "title": "نزار بن معد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "nizar-ibn-maadd",
@@ -16323,7 +16739,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3186ff0e2d9d9bc457a62de779d4260645c3c720b930b8856c75b6cfdeceaa4f",
@@ -16723,15 +17139,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "nizar-ibn-maadd",
       "canonicalPersonName": "نزار بن معد",
       "canonicalPersonUrl": "person.html?id=nizar-ibn-maadd&name=%D9%86%D8%B2%D8%A7%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%B9%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842093Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842093Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.796166Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-05",
@@ -16739,12 +17168,10 @@
       "title": "نزار بن معد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "nizar-ibn-maadd",
@@ -16752,7 +17179,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6e9a44cc753f7b9821c63d9729754a8f2c27f8cf02ab9ff9e7f1725dda894caf",
@@ -17152,15 +17579,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "nizar-ibn-maadd",
       "canonicalPersonName": "نزار بن معد",
       "canonicalPersonUrl": "person.html?id=nizar-ibn-maadd&name=%D9%86%D8%B2%D8%A7%D8%B1%20%D8%A8%D9%86%20%D9%85%D8%B9%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.842143Z"
+      "consolidatedAt": "2026-08-21T09:20:48.842143Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.796248Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-01",
@@ -17168,12 +17608,10 @@
       "title": "معد بن عدنان — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "maadd-ibn-adnan",
@@ -17181,7 +17619,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
       "bodyFingerprint": "b9591eb46d3bc2dd1cf4c209eb3566f58a13f42dcfc0f9d30d0ca707c4429cd7",
@@ -17581,15 +18019,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maadd-ibn-adnan",
       "canonicalPersonName": "معد بن عدنان",
       "canonicalPersonUrl": "person.html?id=maadd-ibn-adnan&name=%D9%85%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838877Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838877Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.779214Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-02",
@@ -17597,12 +18048,10 @@
       "title": "معد بن عدنان — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "maadd-ibn-adnan",
@@ -17610,7 +18059,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
       "bodyFingerprint": "75ee0d59c7ba6a53c5692a02e8f04f38dc5dda2360a5072309bd7c54c9ce7e0e",
@@ -18010,15 +18459,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maadd-ibn-adnan",
       "canonicalPersonName": "معد بن عدنان",
       "canonicalPersonUrl": "person.html?id=maadd-ibn-adnan&name=%D9%85%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838926Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838926Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.779305Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-03",
@@ -18026,12 +18488,10 @@
       "title": "معد بن عدنان — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "maadd-ibn-adnan",
@@ -18039,7 +18499,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
       "bodyFingerprint": "237cde8169cc4bb106d1b9026650b7e3c752c58295339fc7db41ada21cc3ed2a",
@@ -18439,15 +18899,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maadd-ibn-adnan",
       "canonicalPersonName": "معد بن عدنان",
       "canonicalPersonUrl": "person.html?id=maadd-ibn-adnan&name=%D9%85%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.838974Z"
+      "consolidatedAt": "2026-08-21T09:20:48.838974Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.779407Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-04",
@@ -18455,12 +18928,10 @@
       "title": "معد بن عدنان — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "maadd-ibn-adnan",
@@ -18468,7 +18939,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
       "bodyFingerprint": "d8e0b69003ed81d63d60f38428dbb8c81673b31cf52618c3eb4d5a4f60165ee5",
@@ -18868,15 +19339,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maadd-ibn-adnan",
       "canonicalPersonName": "معد بن عدنان",
       "canonicalPersonUrl": "person.html?id=maadd-ibn-adnan&name=%D9%85%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839022Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839022Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.779492Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-05",
@@ -18884,12 +19368,10 @@
       "title": "معد بن عدنان — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "maadd-ibn-adnan",
@@ -18897,7 +19379,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
       "bodyFingerprint": "832d4713749247b93467db23d75f7c058bbbceba0cd00b30c5d41f4080f79711",
@@ -19297,15 +19779,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "maadd-ibn-adnan",
       "canonicalPersonName": "معد بن عدنان",
       "canonicalPersonUrl": "person.html?id=maadd-ibn-adnan&name=%D9%85%D8%B9%D8%AF%20%D8%A8%D9%86%20%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.839069Z"
+      "consolidatedAt": "2026-08-21T09:20:48.839069Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.779574Z"
     },
     {
       "id": "20260821-family-life-adnan-01",
@@ -19313,12 +19808,10 @@
       "title": "عدنان — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "adnan",
@@ -19326,7 +19819,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
       "bodyFingerprint": "df8011c14ea48e1e1609d61163ce136bec904bc599eda8595498819b289fc7eb",
@@ -19726,15 +20219,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "adnan",
       "canonicalPersonName": "عدنان",
       "canonicalPersonUrl": "person.html?id=adnan&name=%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825173Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825173Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.530406Z"
     },
     {
       "id": "20260821-family-life-adnan-02",
@@ -19742,12 +20248,10 @@
       "title": "عدنان — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "adnan",
@@ -19755,7 +20259,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
       "bodyFingerprint": "cf6c39d297e2b66bd89ac6e076061f8638ddd3f1882ea0bed854f8482996b763",
@@ -20155,15 +20659,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "adnan",
       "canonicalPersonName": "عدنان",
       "canonicalPersonUrl": "person.html?id=adnan&name=%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825221Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825221Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.530499Z"
     },
     {
       "id": "20260821-family-life-adnan-03",
@@ -20171,12 +20688,10 @@
       "title": "عدنان — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "adnan",
@@ -20184,7 +20699,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
       "bodyFingerprint": "e40565e715eebe440f1b1b66d32b86b5304b7cba5b67aaf1b78412f2c1628a60",
@@ -20584,15 +21099,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "adnan",
       "canonicalPersonName": "عدنان",
       "canonicalPersonUrl": "person.html?id=adnan&name=%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825269Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825269Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.530583Z"
     },
     {
       "id": "20260821-family-life-adnan-04",
@@ -20600,12 +21128,10 @@
       "title": "عدنان — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "adnan",
@@ -20613,7 +21139,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
       "bodyFingerprint": "66472f88da8b13bfb94a43a35a7c89e1c071207940269b9606b1f32b50724ee8",
@@ -21013,15 +21539,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "adnan",
       "canonicalPersonName": "عدنان",
       "canonicalPersonUrl": "person.html?id=adnan&name=%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825319Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825319Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.530665Z"
     },
     {
       "id": "20260821-family-life-adnan-05",
@@ -21029,12 +21568,10 @@
       "title": "عدنان — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "upper-lineage",
       "subject": {
         "id": "adnan",
@@ -21042,7 +21579,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
       "bodyFingerprint": "1e3f74f7b32b9a1659b251f6aaf591f66e75f78a83d841c9129cbf920254b03d",
@@ -21442,15 +21979,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "adnan",
       "canonicalPersonName": "عدنان",
       "canonicalPersonUrl": "person.html?id=adnan&name=%D8%B9%D8%AF%D9%86%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825367Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825367Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.530748Z"
     }
   ],
   "contentPlacement": "biographies"

@@ -1,0 +1,1062 @@
+{
+  "schema": "canonical-person-life-chapters-v1",
+  "personId": "umama-bint-abi-al-as",
+  "personName": "أمامة بنت أبي العاص",
+  "canonicalUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
+  "chapterCount": 5,
+  "languageCounts": {
+    "ar": 5
+  },
+  "chapters": [
+    {
+      "id": "20260821-family-life-umama-bint-abi-al-as-01",
+      "language": "ar",
+      "title": "أمامة بنت أبي العاص — من سيرته وحياته — 1",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "al-qasim-ibn-muhammad",
+          "slug": "al-qasim-ibn-muhammad",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1qnxhra",
+          "slug": "",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-muhammad",
+          "slug": "abdullah-ibn-muhammad",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1del0ye",
+          "slug": "",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "zaynab-bint-muhammad",
+          "slug": "zaynab-bint-muhammad",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11w4sc2",
+          "slug": "",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "ruqayya-bint-muhammad",
+          "slug": "ruqayya-bint-muhammad",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s27je2",
+          "slug": "",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "umm-kulthum-bint-muhammad",
+          "slug": "umm-kulthum-bint-muhammad",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1jumrx",
+          "slug": "",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-fatima-al-zahra-001",
+          "sourceFile": "people.json",
+          "recordId": "fatima-al-zahra",
+          "slug": "fatima-al-zahra",
+          "recordName": "فاطمة الزهراء"
+        },
+        {
+          "ref": "ctx-ali-ibn-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-o9o18q",
+          "slug": "",
+          "recordName": "علي بن أبي العاص"
+        },
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-uthman-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-uv933s",
+          "slug": "",
+          "recordName": "عبد الله بن عثمان"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-hasan-ibn-ali",
+          "slug": "al-hasan-ibn-ali",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-bgvlqu",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-13q2snk",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-husayn-ibn-ali",
+          "slug": "al-husayn-ibn-ali",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4nqqu",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17gnyzc",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s836of",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16aalqt",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ksm55i",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b3ums4",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pjy6mq",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ejowms",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umama-bint-abi-al-as-02",
+      "language": "ar",
+      "title": "أمامة بنت أبي العاص — من سيرته وحياته — 2",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "al-qasim-ibn-muhammad",
+          "slug": "al-qasim-ibn-muhammad",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1qnxhra",
+          "slug": "",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-muhammad",
+          "slug": "abdullah-ibn-muhammad",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1del0ye",
+          "slug": "",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "zaynab-bint-muhammad",
+          "slug": "zaynab-bint-muhammad",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11w4sc2",
+          "slug": "",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "ruqayya-bint-muhammad",
+          "slug": "ruqayya-bint-muhammad",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s27je2",
+          "slug": "",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "umm-kulthum-bint-muhammad",
+          "slug": "umm-kulthum-bint-muhammad",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1jumrx",
+          "slug": "",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-fatima-al-zahra-001",
+          "sourceFile": "people.json",
+          "recordId": "fatima-al-zahra",
+          "slug": "fatima-al-zahra",
+          "recordName": "فاطمة الزهراء"
+        },
+        {
+          "ref": "ctx-ali-ibn-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-o9o18q",
+          "slug": "",
+          "recordName": "علي بن أبي العاص"
+        },
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-uthman-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-uv933s",
+          "slug": "",
+          "recordName": "عبد الله بن عثمان"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-hasan-ibn-ali",
+          "slug": "al-hasan-ibn-ali",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-bgvlqu",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-13q2snk",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-husayn-ibn-ali",
+          "slug": "al-husayn-ibn-ali",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4nqqu",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17gnyzc",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s836of",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16aalqt",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ksm55i",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b3ums4",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pjy6mq",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ejowms",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umama-bint-abi-al-as-03",
+      "language": "ar",
+      "title": "أمامة بنت أبي العاص — من سيرته وحياته — 3",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "al-qasim-ibn-muhammad",
+          "slug": "al-qasim-ibn-muhammad",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1qnxhra",
+          "slug": "",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-muhammad",
+          "slug": "abdullah-ibn-muhammad",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1del0ye",
+          "slug": "",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "zaynab-bint-muhammad",
+          "slug": "zaynab-bint-muhammad",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11w4sc2",
+          "slug": "",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "ruqayya-bint-muhammad",
+          "slug": "ruqayya-bint-muhammad",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s27je2",
+          "slug": "",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "umm-kulthum-bint-muhammad",
+          "slug": "umm-kulthum-bint-muhammad",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1jumrx",
+          "slug": "",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-fatima-al-zahra-001",
+          "sourceFile": "people.json",
+          "recordId": "fatima-al-zahra",
+          "slug": "fatima-al-zahra",
+          "recordName": "فاطمة الزهراء"
+        },
+        {
+          "ref": "ctx-ali-ibn-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-o9o18q",
+          "slug": "",
+          "recordName": "علي بن أبي العاص"
+        },
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-uthman-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-uv933s",
+          "slug": "",
+          "recordName": "عبد الله بن عثمان"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-hasan-ibn-ali",
+          "slug": "al-hasan-ibn-ali",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-bgvlqu",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-13q2snk",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-husayn-ibn-ali",
+          "slug": "al-husayn-ibn-ali",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4nqqu",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17gnyzc",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s836of",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16aalqt",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ksm55i",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b3ums4",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pjy6mq",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ejowms",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umama-bint-abi-al-as-04",
+      "language": "ar",
+      "title": "أمامة بنت أبي العاص — من سيرته وحياته — 4",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "al-qasim-ibn-muhammad",
+          "slug": "al-qasim-ibn-muhammad",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1qnxhra",
+          "slug": "",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-muhammad",
+          "slug": "abdullah-ibn-muhammad",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1del0ye",
+          "slug": "",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "zaynab-bint-muhammad",
+          "slug": "zaynab-bint-muhammad",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11w4sc2",
+          "slug": "",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "ruqayya-bint-muhammad",
+          "slug": "ruqayya-bint-muhammad",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s27je2",
+          "slug": "",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "umm-kulthum-bint-muhammad",
+          "slug": "umm-kulthum-bint-muhammad",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1jumrx",
+          "slug": "",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-fatima-al-zahra-001",
+          "sourceFile": "people.json",
+          "recordId": "fatima-al-zahra",
+          "slug": "fatima-al-zahra",
+          "recordName": "فاطمة الزهراء"
+        },
+        {
+          "ref": "ctx-ali-ibn-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-o9o18q",
+          "slug": "",
+          "recordName": "علي بن أبي العاص"
+        },
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-uthman-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-uv933s",
+          "slug": "",
+          "recordName": "عبد الله بن عثمان"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-hasan-ibn-ali",
+          "slug": "al-hasan-ibn-ali",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-bgvlqu",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-13q2snk",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-husayn-ibn-ali",
+          "slug": "al-husayn-ibn-ali",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4nqqu",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17gnyzc",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s836of",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16aalqt",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ksm55i",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b3ums4",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pjy6mq",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ejowms",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umama-bint-abi-al-as-05",
+      "language": "ar",
+      "title": "أمامة بنت أبي العاص — من سيرته وحياته — 5",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "al-qasim-ibn-muhammad",
+          "slug": "al-qasim-ibn-muhammad",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1qnxhra",
+          "slug": "",
+          "recordName": "القاسم بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-muhammad",
+          "slug": "abdullah-ibn-muhammad",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1del0ye",
+          "slug": "",
+          "recordName": "عبد الله بن محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "zaynab-bint-muhammad",
+          "slug": "zaynab-bint-muhammad",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-zaynab-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11w4sc2",
+          "slug": "",
+          "recordName": "زينب بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "ruqayya-bint-muhammad",
+          "slug": "ruqayya-bint-muhammad",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-ruqayya-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s27je2",
+          "slug": "",
+          "recordName": "رقية بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-001",
+          "sourceFile": "people.json",
+          "recordId": "umm-kulthum-bint-muhammad",
+          "slug": "umm-kulthum-bint-muhammad",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-muhammad-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1jumrx",
+          "slug": "",
+          "recordName": "أم كلثوم بنت محمد"
+        },
+        {
+          "ref": "ctx-fatima-al-zahra-001",
+          "sourceFile": "people.json",
+          "recordId": "fatima-al-zahra",
+          "slug": "fatima-al-zahra",
+          "recordName": "فاطمة الزهراء"
+        },
+        {
+          "ref": "ctx-ali-ibn-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-o9o18q",
+          "slug": "",
+          "recordName": "علي بن أبي العاص"
+        },
+        {
+          "ref": "ctx-umama-bint-abi-al-as-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-mfh55s",
+          "slug": "",
+          "recordName": "أمامة بنت أبي العاص"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-uthman-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-uv933s",
+          "slug": "",
+          "recordName": "عبد الله بن عثمان"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-hasan-ibn-ali",
+          "slug": "al-hasan-ibn-ali",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-bgvlqu",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-hasan-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-13q2snk",
+          "slug": "",
+          "recordName": "الحسن بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-001",
+          "sourceFile": "people.json",
+          "recordId": "al-husayn-ibn-ali",
+          "slug": "al-husayn-ibn-ali",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4nqqu",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-al-husayn-ibn-ali-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17gnyzc",
+          "slug": "",
+          "recordName": "الحسين بن علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-s836of",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-zaynab-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16aalqt",
+          "slug": "",
+          "recordName": "زينب بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ksm55i",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-umm-kulthum-bint-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-b3ums4",
+          "slug": "",
+          "recordName": "أم كلثوم بنت علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-pjy6mq",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        },
+        {
+          "ref": "ctx-muhsin-ibn-ali-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ejowms",
+          "slug": "",
+          "recordName": "محسن بن علي"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    }
+  ]
+}

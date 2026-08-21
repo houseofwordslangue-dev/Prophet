@@ -8,12 +8,10 @@
       "title": "إبراهيم بن محمد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "ibrahim-ibn-muhammad",
@@ -21,7 +19,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 504,
       "bodyFingerprint": "14632c642d43b87c85652250d75a4809720bf983e7ba31eb41fec4305078fafb",
@@ -285,15 +283,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ibrahim-ibn-muhammad",
       "canonicalPersonName": "إبراهيم بن محمد",
       "canonicalPersonUrl": "person.html?id=ibrahim-ibn-muhammad&name=%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835857Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835857Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.762267Z"
     },
     {
       "id": "20260821-family-life-ibrahim-ibn-muhammad-02",
@@ -301,12 +312,10 @@
       "title": "إبراهيم بن محمد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "ibrahim-ibn-muhammad",
@@ -314,7 +323,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 504,
       "bodyFingerprint": "3ea51f98f3b1a32d95bafac467f3324b05f15c5e01b02b06d60c0913f4f59142",
@@ -578,15 +587,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ibrahim-ibn-muhammad",
       "canonicalPersonName": "إبراهيم بن محمد",
       "canonicalPersonUrl": "person.html?id=ibrahim-ibn-muhammad&name=%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835907Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835907Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.762359Z"
     },
     {
       "id": "20260821-family-life-ibrahim-ibn-muhammad-03",
@@ -594,12 +616,10 @@
       "title": "إبراهيم بن محمد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "ibrahim-ibn-muhammad",
@@ -607,7 +627,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 504,
       "bodyFingerprint": "1cf358cb8d88e20ec31ebaa29caee27142bfad7ca52e64e4ec2a900edb0c4f3d",
@@ -871,15 +891,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ibrahim-ibn-muhammad",
       "canonicalPersonName": "إبراهيم بن محمد",
       "canonicalPersonUrl": "person.html?id=ibrahim-ibn-muhammad&name=%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835955Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835955Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.762463Z"
     },
     {
       "id": "20260821-family-life-ibrahim-ibn-muhammad-04",
@@ -887,12 +920,10 @@
       "title": "إبراهيم بن محمد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "ibrahim-ibn-muhammad",
@@ -900,7 +931,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 504,
       "bodyFingerprint": "72083377edb5c1381c98cdef4e3d90c80b5e7fc415f2b96455c93e233d525eba",
@@ -1164,15 +1195,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ibrahim-ibn-muhammad",
       "canonicalPersonName": "إبراهيم بن محمد",
       "canonicalPersonUrl": "person.html?id=ibrahim-ibn-muhammad&name=%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836002Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836002Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.762559Z"
     },
     {
       "id": "20260821-family-life-ibrahim-ibn-muhammad-05",
@@ -1180,12 +1224,10 @@
       "title": "إبراهيم بن محمد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "mariya",
       "subject": {
         "id": "ibrahim-ibn-muhammad",
@@ -1193,7 +1235,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 504,
       "bodyFingerprint": "8b0d0daca7cceea98da2f825caddf7902c593ab970efe61a389f5c97680c1202",
@@ -1457,15 +1499,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ibrahim-ibn-muhammad",
       "canonicalPersonName": "إبراهيم بن محمد",
       "canonicalPersonUrl": "person.html?id=ibrahim-ibn-muhammad&name=%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.836049Z"
+      "consolidatedAt": "2026-08-21T09:20:48.836049Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.762644Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-muhammad-01",
@@ -1473,12 +1528,10 @@
       "title": "القاسم بن محمد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "al-qasim-ibn-muhammad",
@@ -1486,7 +1539,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "8f2769b6dd1998a74e7f5d3f15257c694f361b6ca3cd4d22adaa5a2de8aa9381",
@@ -1742,15 +1795,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-qasim-ibn-muhammad",
       "canonicalPersonName": "القاسم بن محمد",
       "canonicalPersonUrl": "person.html?id=al-qasim-ibn-muhammad&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828427Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828427Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.567482Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-muhammad-02",
@@ -1758,12 +1824,10 @@
       "title": "القاسم بن محمد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "al-qasim-ibn-muhammad",
@@ -1771,7 +1835,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0fc1730f07addca09e87cfd373f095660ad97d3938bcddbdc903a3fb0b13776c",
@@ -2027,15 +2091,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-qasim-ibn-muhammad",
       "canonicalPersonName": "القاسم بن محمد",
       "canonicalPersonUrl": "person.html?id=al-qasim-ibn-muhammad&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828475Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828475Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.567573Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-muhammad-03",
@@ -2043,12 +2120,10 @@
       "title": "القاسم بن محمد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "al-qasim-ibn-muhammad",
@@ -2056,7 +2131,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "279df90468ea62fb824c7ce5df9220e436b1ca4b8215d50ca77bd11b6563695e",
@@ -2312,15 +2387,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-qasim-ibn-muhammad",
       "canonicalPersonName": "القاسم بن محمد",
       "canonicalPersonUrl": "person.html?id=al-qasim-ibn-muhammad&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828522Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828522Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.567657Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-muhammad-04",
@@ -2328,12 +2416,10 @@
       "title": "القاسم بن محمد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "al-qasim-ibn-muhammad",
@@ -2341,7 +2427,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d29825653bc1d360ad9e6ba0920bcde1ca6372f789b227d863581869f67428fc",
@@ -2597,15 +2683,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-qasim-ibn-muhammad",
       "canonicalPersonName": "القاسم بن محمد",
       "canonicalPersonUrl": "person.html?id=al-qasim-ibn-muhammad&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828569Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828569Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.567738Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-muhammad-05",
@@ -2613,12 +2712,10 @@
       "title": "القاسم بن محمد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "al-qasim-ibn-muhammad",
@@ -2626,7 +2723,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "35df544193b6ce0f1280bcc77ad42ce1e221332f0f550bab7ebc8ed28b9fa63c",
@@ -2882,15 +2979,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-qasim-ibn-muhammad",
       "canonicalPersonName": "القاسم بن محمد",
       "canonicalPersonUrl": "person.html?id=al-qasim-ibn-muhammad&name=%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828632Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828632Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.567820Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-muhammad-01",
@@ -2898,12 +3008,10 @@
       "title": "عبد الله بن محمد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "abdullah-ibn-muhammad",
@@ -2911,7 +3019,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "368687b2893d1f1f4fe964e52599f89af4234883d28a784eac1f0c2569442c47",
@@ -3167,15 +3275,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-muhammad",
       "canonicalPersonName": "عبد الله بن محمد",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-muhammad&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.822774Z"
+      "consolidatedAt": "2026-08-21T09:20:48.822774Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.498351Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-muhammad-02",
@@ -3183,12 +3304,10 @@
       "title": "عبد الله بن محمد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "abdullah-ibn-muhammad",
@@ -3196,7 +3315,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "758623ba8abc94bd85f28ddc73a04822d9745764330effa8b835b02e266d9a8d",
@@ -3452,15 +3571,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-muhammad",
       "canonicalPersonName": "عبد الله بن محمد",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-muhammad&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.822826Z"
+      "consolidatedAt": "2026-08-21T09:20:48.822826Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.498454Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-muhammad-03",
@@ -3468,12 +3600,10 @@
       "title": "عبد الله بن محمد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "abdullah-ibn-muhammad",
@@ -3481,7 +3611,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "86183930c7571d6770ddbaa2e34ed1d518863f3ab5297c0ba7bd1f2c2f684f26",
@@ -3737,15 +3867,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-muhammad",
       "canonicalPersonName": "عبد الله بن محمد",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-muhammad&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.822875Z"
+      "consolidatedAt": "2026-08-21T09:20:48.822875Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.498539Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-muhammad-04",
@@ -3753,12 +3896,10 @@
       "title": "عبد الله بن محمد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "abdullah-ibn-muhammad",
@@ -3766,7 +3907,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "eba722ed6cab7c6438794d8ef04d3433cc9c2a468ebfc7b60f8434a53953e2b4",
@@ -4022,15 +4163,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-muhammad",
       "canonicalPersonName": "عبد الله بن محمد",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-muhammad&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.822924Z"
+      "consolidatedAt": "2026-08-21T09:20:48.822924Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.498623Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-muhammad-05",
@@ -4038,12 +4192,10 @@
       "title": "عبد الله بن محمد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "sons",
       "subject": {
         "id": "abdullah-ibn-muhammad",
@@ -4051,7 +4203,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1163a95f686c0abd59df15d1550cf863c6ad638b50fbe2a9559da136e85f0571",
@@ -4307,15 +4459,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-muhammad",
       "canonicalPersonName": "عبد الله بن محمد",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-muhammad&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.822971Z"
+      "consolidatedAt": "2026-08-21T09:20:48.822971Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.498706Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-muhammad-01",
@@ -4323,12 +4488,10 @@
       "title": "زينب بنت محمد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "zaynab-bint-muhammad",
@@ -4336,7 +4499,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1eb065fa9bf5ad640e28f8336f53e5fc1e64efb729db03f147e9b3b3bd356e20",
@@ -4592,15 +4755,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-muhammad",
       "canonicalPersonName": "زينب بنت محمد",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-muhammad&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850770Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850770Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.892556Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-muhammad-02",
@@ -4608,12 +4784,10 @@
       "title": "زينب بنت محمد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "zaynab-bint-muhammad",
@@ -4621,7 +4795,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "9a13fa855c971975cfbf6704e2942e158eec4fb18dfe212c70af85d12fddd50e",
@@ -4877,15 +5051,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-muhammad",
       "canonicalPersonName": "زينب بنت محمد",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-muhammad&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850820Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850820Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.892647Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-muhammad-03",
@@ -4893,12 +5080,10 @@
       "title": "زينب بنت محمد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "zaynab-bint-muhammad",
@@ -4906,7 +5091,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1c74ee1ef33a3a9b15a2147dc4863fcfebb2dce94c2379d7e3761bd2807fa46a",
@@ -5162,15 +5347,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-muhammad",
       "canonicalPersonName": "زينب بنت محمد",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-muhammad&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850867Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850867Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.892731Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-muhammad-04",
@@ -5178,12 +5376,10 @@
       "title": "زينب بنت محمد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "zaynab-bint-muhammad",
@@ -5191,7 +5387,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d1f7af4631b1f17c2fa022670ce87ffd886e2e3f08f5037f13b12394bb2a0caa",
@@ -5447,15 +5643,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-muhammad",
       "canonicalPersonName": "زينب بنت محمد",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-muhammad&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850916Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850916Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.892813Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-muhammad-05",
@@ -5463,12 +5672,10 @@
       "title": "زينب بنت محمد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "zaynab-bint-muhammad",
@@ -5476,7 +5683,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f5ede99c572152d927d81182dae892c3e214b3dde42cd90b021b811fea3ea306",
@@ -5732,15 +5939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "zaynab-bint-muhammad",
       "canonicalPersonName": "زينب بنت محمد",
       "canonicalPersonUrl": "person.html?id=zaynab-bint-muhammad&name=%D8%B2%D9%8A%D9%86%D8%A8%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.850965Z"
+      "consolidatedAt": "2026-08-21T09:20:48.850965Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.892895Z"
     },
     {
       "id": "20260821-family-life-ruqayya-bint-muhammad-01",
@@ -5748,12 +5968,10 @@
       "title": "رقية بنت محمد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "ruqayya-bint-muhammad",
@@ -5761,7 +5979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ca0827c5e05db0bc1a6a76bf2829e50671b2f226c11d6d6f41cec1dfd644a2b1",
@@ -6017,15 +6235,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ruqayya-bint-muhammad",
       "canonicalPersonName": "رقية بنت محمد",
       "canonicalPersonUrl": "person.html?id=ruqayya-bint-muhammad&name=%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.843398Z"
+      "consolidatedAt": "2026-08-21T09:20:48.843398Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.804110Z"
     },
     {
       "id": "20260821-family-life-ruqayya-bint-muhammad-02",
@@ -6033,12 +6264,10 @@
       "title": "رقية بنت محمد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "ruqayya-bint-muhammad",
@@ -6046,7 +6275,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f76828af89a11370cbeedcb4158aa1db4d9f5d754873bcc2441503452fb3a97f",
@@ -6302,15 +6531,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ruqayya-bint-muhammad",
       "canonicalPersonName": "رقية بنت محمد",
       "canonicalPersonUrl": "person.html?id=ruqayya-bint-muhammad&name=%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.843447Z"
+      "consolidatedAt": "2026-08-21T09:20:48.843447Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.804200Z"
     },
     {
       "id": "20260821-family-life-ruqayya-bint-muhammad-03",
@@ -6318,12 +6560,10 @@
       "title": "رقية بنت محمد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "ruqayya-bint-muhammad",
@@ -6331,7 +6571,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "af25a3d847cfb49556d5cb6ca8affd87a60d0ff787920f7063daf63da6d3572f",
@@ -6587,15 +6827,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ruqayya-bint-muhammad",
       "canonicalPersonName": "رقية بنت محمد",
       "canonicalPersonUrl": "person.html?id=ruqayya-bint-muhammad&name=%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.843496Z"
+      "consolidatedAt": "2026-08-21T09:20:48.843496Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.804284Z"
     },
     {
       "id": "20260821-family-life-ruqayya-bint-muhammad-04",
@@ -6603,12 +6856,10 @@
       "title": "رقية بنت محمد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "ruqayya-bint-muhammad",
@@ -6616,7 +6867,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6feea791fff31c299e84e2a06904610c775d9725dff52f9dc0c41cb5cc064f10",
@@ -6872,15 +7123,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ruqayya-bint-muhammad",
       "canonicalPersonName": "رقية بنت محمد",
       "canonicalPersonUrl": "person.html?id=ruqayya-bint-muhammad&name=%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.843544Z"
+      "consolidatedAt": "2026-08-21T09:20:48.843544Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.804366Z"
     },
     {
       "id": "20260821-family-life-ruqayya-bint-muhammad-05",
@@ -6888,12 +7152,10 @@
       "title": "رقية بنت محمد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "ruqayya-bint-muhammad",
@@ -6901,7 +7163,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "02246fe9b2b9a68a84f4482fc186ca33ef5373ab938c58adbcb60f71b0dc3a3c",
@@ -7157,15 +7419,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ruqayya-bint-muhammad",
       "canonicalPersonName": "رقية بنت محمد",
       "canonicalPersonUrl": "person.html?id=ruqayya-bint-muhammad&name=%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.843608Z"
+      "consolidatedAt": "2026-08-21T09:20:48.843608Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.804465Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-muhammad-01",
@@ -7173,12 +7448,10 @@
       "title": "أم كلثوم بنت محمد — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "umm-kulthum-bint-muhammad",
@@ -7186,7 +7459,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d1ecff064e085f115e3240c576d864152c312eb5ed2aaf105953e1b92e884a41",
@@ -7442,15 +7715,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umm-kulthum-bint-muhammad",
       "canonicalPersonName": "أم كلثوم بنت محمد",
       "canonicalPersonUrl": "person.html?id=umm-kulthum-bint-muhammad&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.848299Z"
+      "consolidatedAt": "2026-08-21T09:20:48.848299Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.859904Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-muhammad-02",
@@ -7458,12 +7744,10 @@
       "title": "أم كلثوم بنت محمد — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "umm-kulthum-bint-muhammad",
@@ -7471,7 +7755,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "92cc0f0a7c04a706e21bd7aef5737cb35a0dc74ef26cf00698b9197918d85acd",
@@ -7727,15 +8011,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umm-kulthum-bint-muhammad",
       "canonicalPersonName": "أم كلثوم بنت محمد",
       "canonicalPersonUrl": "person.html?id=umm-kulthum-bint-muhammad&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.848351Z"
+      "consolidatedAt": "2026-08-21T09:20:48.848351Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.859995Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-muhammad-03",
@@ -7743,12 +8040,10 @@
       "title": "أم كلثوم بنت محمد — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "umm-kulthum-bint-muhammad",
@@ -7756,7 +8051,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6afed3a48518ff178bdd17056d0fd1700e94af6e1df1eb8c956097e033500f3c",
@@ -8012,15 +8307,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umm-kulthum-bint-muhammad",
       "canonicalPersonName": "أم كلثوم بنت محمد",
       "canonicalPersonUrl": "person.html?id=umm-kulthum-bint-muhammad&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.848401Z"
+      "consolidatedAt": "2026-08-21T09:20:48.848401Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.860080Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-muhammad-04",
@@ -8028,12 +8336,10 @@
       "title": "أم كلثوم بنت محمد — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "umm-kulthum-bint-muhammad",
@@ -8041,7 +8347,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d77cceabd357f32054615dfaec85856a8b01584241c7a476231cc7af4dbb2874",
@@ -8297,15 +8603,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umm-kulthum-bint-muhammad",
       "canonicalPersonName": "أم كلثوم بنت محمد",
       "canonicalPersonUrl": "person.html?id=umm-kulthum-bint-muhammad&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.848449Z"
+      "consolidatedAt": "2026-08-21T09:20:48.848449Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.860161Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-muhammad-05",
@@ -8313,12 +8632,10 @@
       "title": "أم كلثوم بنت محمد — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "daughters",
       "subject": {
         "id": "umm-kulthum-bint-muhammad",
@@ -8326,7 +8643,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "490efdf9ed16add39ba623e2076ee83abc8c3b0d5707ae505106d6612b460eeb",
@@ -8582,15 +8899,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umm-kulthum-bint-muhammad",
       "canonicalPersonName": "أم كلثوم بنت محمد",
       "canonicalPersonUrl": "person.html?id=umm-kulthum-bint-muhammad&name=%D8%A3%D9%85%20%D9%83%D9%84%D8%AB%D9%88%D9%85%20%D8%A8%D9%86%D8%AA%20%D9%85%D8%AD%D9%85%D8%AF",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.848497Z"
+      "consolidatedAt": "2026-08-21T09:20:48.848497Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.860243Z"
     },
     {
       "id": "20260821-family-life-ali-ibn-abi-al-as-01",
@@ -8598,12 +8928,10 @@
       "title": "علي بن أبي العاص — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "ali-ibn-abi-al-as",
@@ -8611,7 +8939,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "7e3e889e150cf619eb07a860228e528be20b033c8642e1682e08aec3c1ece6d7",
@@ -8859,15 +9187,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ali-ibn-abi-al-as",
       "canonicalPersonName": "علي بن أبي العاص",
       "canonicalPersonUrl": "person.html?id=ali-ibn-abi-al-as&name=%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829782Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829782Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.584184Z"
     },
     {
       "id": "20260821-family-life-ali-ibn-abi-al-as-02",
@@ -8875,12 +9216,10 @@
       "title": "علي بن أبي العاص — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "ali-ibn-abi-al-as",
@@ -8888,7 +9227,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d242045aea87b9a36b04362c100d7b5d4e4df0718b1102e84e65d0f15497fb42",
@@ -9136,15 +9475,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ali-ibn-abi-al-as",
       "canonicalPersonName": "علي بن أبي العاص",
       "canonicalPersonUrl": "person.html?id=ali-ibn-abi-al-as&name=%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829838Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829838Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.584274Z"
     },
     {
       "id": "20260821-family-life-ali-ibn-abi-al-as-03",
@@ -9152,12 +9504,10 @@
       "title": "علي بن أبي العاص — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "ali-ibn-abi-al-as",
@@ -9165,7 +9515,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4b2c0659c7c3dd2165f32fa3cdfedd0531e25acb48d3bf13a27cf48629aab93c",
@@ -9413,15 +9763,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ali-ibn-abi-al-as",
       "canonicalPersonName": "علي بن أبي العاص",
       "canonicalPersonUrl": "person.html?id=ali-ibn-abi-al-as&name=%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829889Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829889Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.584358Z"
     },
     {
       "id": "20260821-family-life-ali-ibn-abi-al-as-04",
@@ -9429,12 +9792,10 @@
       "title": "علي بن أبي العاص — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "ali-ibn-abi-al-as",
@@ -9442,7 +9803,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4c09904f080eccfd6f3153c2ed5e767a1c12c7e64c53e0ed257c5aa4b5d0b98c",
@@ -9690,15 +10051,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ali-ibn-abi-al-as",
       "canonicalPersonName": "علي بن أبي العاص",
       "canonicalPersonUrl": "person.html?id=ali-ibn-abi-al-as&name=%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829939Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829939Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.584453Z"
     },
     {
       "id": "20260821-family-life-ali-ibn-abi-al-as-05",
@@ -9706,12 +10080,10 @@
       "title": "علي بن أبي العاص — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "ali-ibn-abi-al-as",
@@ -9719,7 +10091,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "c91f1d969a16894b8f80925477bb4613b18a515dbe6bd10d7e1ac0632158b94e",
@@ -9967,15 +10339,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "ali-ibn-abi-al-as",
       "canonicalPersonName": "علي بن أبي العاص",
       "canonicalPersonUrl": "person.html?id=ali-ibn-abi-al-as&name=%D8%B9%D9%84%D9%8A%20%D8%A8%D9%86%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829988Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829988Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.584536Z"
     },
     {
       "id": "20260821-family-life-umama-bint-abi-al-as-01",
@@ -9983,12 +10368,10 @@
       "title": "أمامة بنت أبي العاص — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "umama-bint-abi-al-as",
@@ -9996,7 +10379,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "f9a6ae220eda8846662dd137d89697f5dfe13f1a2d3dabad19c80fe365af83b8",
@@ -10244,15 +10627,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umama-bint-abi-al-as",
       "canonicalPersonName": "أمامة بنت أبي العاص",
       "canonicalPersonUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.846641Z"
+      "consolidatedAt": "2026-08-21T09:20:48.846641Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.841647Z"
     },
     {
       "id": "20260821-family-life-umama-bint-abi-al-as-02",
@@ -10260,12 +10656,10 @@
       "title": "أمامة بنت أبي العاص — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "umama-bint-abi-al-as",
@@ -10273,7 +10667,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "6c3e4cc08bb7a168ba68e655c01d6b84936d5835a2fb006dbd2cf3c38d3f89d9",
@@ -10521,15 +10915,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umama-bint-abi-al-as",
       "canonicalPersonName": "أمامة بنت أبي العاص",
       "canonicalPersonUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.846692Z"
+      "consolidatedAt": "2026-08-21T09:20:48.846692Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.841745Z"
     },
     {
       "id": "20260821-family-life-umama-bint-abi-al-as-03",
@@ -10537,12 +10944,10 @@
       "title": "أمامة بنت أبي العاص — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "umama-bint-abi-al-as",
@@ -10550,7 +10955,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "d9cca3aeca9b300b064c98ffb601abada8f80ae3d8237ceef4a0f8ee15f9bd27",
@@ -10798,15 +11203,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umama-bint-abi-al-as",
       "canonicalPersonName": "أمامة بنت أبي العاص",
       "canonicalPersonUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.846741Z"
+      "consolidatedAt": "2026-08-21T09:20:48.846741Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.841833Z"
     },
     {
       "id": "20260821-family-life-umama-bint-abi-al-as-04",
@@ -10814,12 +11232,10 @@
       "title": "أمامة بنت أبي العاص — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "umama-bint-abi-al-as",
@@ -10827,7 +11243,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "c87c396e4c579dc73df675e0fbb262c7645923edc614559ea625d773510cbf9c",
@@ -11075,15 +11491,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umama-bint-abi-al-as",
       "canonicalPersonName": "أمامة بنت أبي العاص",
       "canonicalPersonUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.846790Z"
+      "consolidatedAt": "2026-08-21T09:20:48.846790Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.841916Z"
     },
     {
       "id": "20260821-family-life-umama-bint-abi-al-as-05",
@@ -11091,12 +11520,10 @@
       "title": "أمامة بنت أبي العاص — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-zaynab",
       "subject": {
         "id": "umama-bint-abi-al-as",
@@ -11104,7 +11531,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1f23746931bebe75b2437283901cf27f0fac2ebea0d72c4e627ecf4f49ff6afc",
@@ -11352,15 +11779,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "umama-bint-abi-al-as",
       "canonicalPersonName": "أمامة بنت أبي العاص",
       "canonicalPersonUrl": "person.html?id=umama-bint-abi-al-as&name=%D8%A3%D9%85%D8%A7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%A3%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D8%B5",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.846849Z"
+      "consolidatedAt": "2026-08-21T09:20:48.846849Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.842001Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-uthman-01",
@@ -11368,12 +11808,10 @@
       "title": "عبد الله بن عثمان — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-ruqayya",
       "subject": {
         "id": "abdullah-ibn-uthman",
@@ -11381,7 +11819,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cbe418338469d044f6505c3025fd6c11a1c5c6831c32d79cffa5b8bc6a3735c1",
@@ -11629,15 +12067,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-uthman",
       "canonicalPersonName": "عبد الله بن عثمان",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-uthman&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823038Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823038Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.499582Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-uthman-02",
@@ -11645,12 +12096,10 @@
       "title": "عبد الله بن عثمان — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-ruqayya",
       "subject": {
         "id": "abdullah-ibn-uthman",
@@ -11658,7 +12107,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "480e02cc3dfc3d4e059b9642c5d829d358b5552c98a51a269616613954ceb699",
@@ -11906,15 +12355,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-uthman",
       "canonicalPersonName": "عبد الله بن عثمان",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-uthman&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823088Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823088Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.499673Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-uthman-03",
@@ -11922,12 +12384,10 @@
       "title": "عبد الله بن عثمان — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-ruqayya",
       "subject": {
         "id": "abdullah-ibn-uthman",
@@ -11935,7 +12395,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "1db75653df03167bbae43e43f2f4fa87ec657ae5eefb4f753dcdb7ded81a1912",
@@ -12183,15 +12643,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-uthman",
       "canonicalPersonName": "عبد الله بن عثمان",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-uthman&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823135Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823135Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.499757Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-uthman-04",
@@ -12199,12 +12672,10 @@
       "title": "عبد الله بن عثمان — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-ruqayya",
       "subject": {
         "id": "abdullah-ibn-uthman",
@@ -12212,7 +12683,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "9e59075b6b516ae43688b7d4106f5b6844c5c6c8388c8a9ea7a69ba9d223fe48",
@@ -12460,15 +12931,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-uthman",
       "canonicalPersonName": "عبد الله بن عثمان",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-uthman&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823180Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823180Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.499840Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-uthman-05",
@@ -12476,12 +12960,10 @@
       "title": "عبد الله بن عثمان — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-ruqayya",
       "subject": {
         "id": "abdullah-ibn-uthman",
@@ -12489,7 +12971,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4e504dc0d206c2257c31f5f4d4b1ddc6c3fda4f5876ef92c27ff5670d48a3c69",
@@ -12737,15 +13219,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-uthman",
       "canonicalPersonName": "عبد الله بن عثمان",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-uthman&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%AB%D9%85%D8%A7%D9%86",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823225Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823225Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.499922Z"
     },
     {
       "id": "20260821-family-life-al-hasan-ibn-ali-01",
@@ -12753,12 +13248,10 @@
       "title": "الحسن بن علي — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-fatima",
       "subject": {
         "id": "al-hasan-ibn-ali",
@@ -12766,7 +13259,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
       "bodyFingerprint": "d888deab27a3f07cbb05aa14bf14ec25bafdd881ba44a588f4f0ce67eab03a95",
@@ -13030,15 +13523,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-ibn-ali",
       "canonicalPersonName": "الحسن بن علي",
       "canonicalPersonUrl": "person.html?id=al-hasan-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827082Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827082Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.559914Z"
     },
     {
       "id": "20260821-family-life-al-hasan-ibn-ali-02",
@@ -13046,12 +13552,10 @@
       "title": "الحسن بن علي — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-fatima",
       "subject": {
         "id": "al-hasan-ibn-ali",
@@ -13059,7 +13563,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
       "bodyFingerprint": "5351530a7254574d3a70f54c27ffbd071a254e6c41569531eaf58a91aebe0649",
@@ -13323,15 +13827,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-ibn-ali",
       "canonicalPersonName": "الحسن بن علي",
       "canonicalPersonUrl": "person.html?id=al-hasan-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827131Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827131Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.560072Z"
     },
     {
       "id": "20260821-family-life-al-hasan-ibn-ali-03",
@@ -13339,12 +13856,10 @@
       "title": "الحسن بن علي — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-fatima",
       "subject": {
         "id": "al-hasan-ibn-ali",
@@ -13352,7 +13867,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
       "bodyFingerprint": "bbfd4d855ead757f26804f509e32b019671f8f262f512291fd06d4f3b7c5dc63",
@@ -13616,15 +14131,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-ibn-ali",
       "canonicalPersonName": "الحسن بن علي",
       "canonicalPersonUrl": "person.html?id=al-hasan-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827178Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827178Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.560162Z"
     },
     {
       "id": "20260821-family-life-al-hasan-ibn-ali-04",
@@ -13632,12 +14160,10 @@
       "title": "الحسن بن علي — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-fatima",
       "subject": {
         "id": "al-hasan-ibn-ali",
@@ -13645,7 +14171,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
       "bodyFingerprint": "9699710e32ca008939554f07f3b11e743360b4cf3eae726b0dd87e107013a8dc",
@@ -13909,15 +14435,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-ibn-ali",
       "canonicalPersonName": "الحسن بن علي",
       "canonicalPersonUrl": "person.html?id=al-hasan-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827228Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827228Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.560248Z"
     },
     {
       "id": "20260821-family-life-al-hasan-ibn-ali-05",
@@ -13925,12 +14464,10 @@
       "title": "الحسن بن علي — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "grandchildren-fatima",
       "subject": {
         "id": "al-hasan-ibn-ali",
@@ -13938,7 +14475,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
       "bodyFingerprint": "bd5d0558b546fad1731eeae2b058339aa37d0acf549cb5572ad954f896ce55c4",
@@ -14202,15 +14739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-ibn-ali",
       "canonicalPersonName": "الحسن بن علي",
       "canonicalPersonUrl": "person.html?id=al-hasan-ibn-ali&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A8%D9%86%20%D8%B9%D9%84%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827276Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827276Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.560338Z"
     }
   ],
   "contentPlacement": "biographies"

@@ -11,11 +11,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0601",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -23,7 +21,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "f69655ac2cc5dbd2d0210b06916b0dd8f906588cdb039e48b439ec1828e51373",
@@ -162,7 +160,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.651942Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0602",
@@ -170,11 +188,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0602",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -182,7 +198,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "ea458b81cb0917e59c116c375d4fc5e8196e54abcf14e7806c34f5064f5f0cd5",
@@ -321,7 +337,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652023Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0603",
@@ -329,11 +365,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0603",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -341,7 +375,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "5adb41d95f8a67ccb36db921547a19b26852fb86366630f35aaf029c9c17f794",
@@ -480,7 +514,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652103Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0604",
@@ -488,11 +542,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0604",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -500,7 +552,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "87e656d605552ddcfca024ae6ff672f3e9407b3345f9ebf74b0bd3a9f427d6d5",
@@ -639,7 +691,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652184Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0605",
@@ -647,11 +719,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0605",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -659,7 +729,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "55c869b93254205c61005dad59f40956a0e48e56a2f1c7a6cf25fb4a524a9243",
@@ -798,7 +868,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652264Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0606",
@@ -806,11 +896,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0606",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -818,7 +906,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "dda93b62716e1a612c8fc80533c9c051de03c3a351772cc1423fd273dc40623a",
@@ -957,7 +1045,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652343Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0607",
@@ -965,11 +1073,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0607",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -977,7 +1083,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "fcdd0983e09dafcc8bd900480d78588297132de2922dfda48b362cabd14d077f",
@@ -1116,7 +1222,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652431Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0608",
@@ -1124,11 +1250,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0608",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -1136,7 +1260,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "1276940bead2ee404d4bfa7fbc7f4386c562425e21c44d63b846ea10798ddceb",
@@ -1275,7 +1399,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652511Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0609",
@@ -1283,11 +1427,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0609",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -1295,7 +1437,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "85f8268de4dd5d3304547846b266024fcde839cb9d28a6b7a52848497065560c",
@@ -1434,7 +1576,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652591Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0610",
@@ -1442,11 +1604,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0610",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -1454,7 +1614,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "e87a3f6b854d9fd38c25ca4d98a1534e90bc1d01163351183670137eea6aaf57",
@@ -1593,7 +1753,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652672Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0611",
@@ -1601,11 +1781,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0611",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -1613,7 +1791,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "253fac1b58e93464cbc12d39f364f4f575cb960807c4df12c332a17773ea24e3",
@@ -1752,7 +1930,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652752Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0612",
@@ -1760,11 +1958,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0612",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -1772,7 +1968,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "735a452a4378dec3c982e3572bd41368a9eddf5210fee960ea8ee642e66999a4",
@@ -1911,7 +2107,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652832Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0613",
@@ -1919,11 +2135,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0613",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -1931,7 +2145,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "f71477637857245b2f4f0df6561e25149c8a18085a955460cfbfea34af60e2b8",
@@ -2070,7 +2284,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652912Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0614",
@@ -2078,11 +2312,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0614",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -2090,7 +2322,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "5fe41b5f4d985a08dfeee48ad59d7128fb221773636d88ff96889e3fb89b2ed7",
@@ -2229,7 +2461,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.652994Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0615",
@@ -2237,11 +2489,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0615",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -2249,7 +2499,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "03ab0c6e7f9f99325ff499aea138c6f5ed3b7d2ba536e73cd7bc7fa70d00e269",
@@ -2388,7 +2638,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653075Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0616",
@@ -2396,11 +2666,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0616",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -2408,7 +2676,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "21c8da32cd24c8318bd775f30802f9441cc1d6fbecb8cc06fe54989630561f9b",
@@ -2547,7 +2815,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653155Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0617",
@@ -2555,11 +2843,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0617",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -2567,7 +2853,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "c2f76cd3e66c97952e410d5b9a4b96a172052ba334364782efd2098dac2bea2b",
@@ -2706,7 +2992,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653236Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0618",
@@ -2714,11 +3020,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0618",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -2726,7 +3030,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "cfac89aea569da033e1ffcc71cac37f3e2e7ac931ea336e54a42eb653fa5626f",
@@ -2865,7 +3169,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653316Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0619",
@@ -2873,11 +3197,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0619",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -2885,7 +3207,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "86d83b21503cb4e46a43b2cc0d4752bb6d127798907cdb3d84b3d1a2fb57b6f7",
@@ -3024,7 +3346,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653404Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0620",
@@ -3032,11 +3374,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0620",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3044,7 +3384,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "f57b2a789b80a8a11e20608a70e717a6442488c7487767ea5e60a7687862c99b",
@@ -3183,7 +3523,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653484Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0621",
@@ -3191,11 +3551,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0621",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3203,7 +3561,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "d280aee13501d1912c318d23f16dee57420562811dcde64643ae2d4c61416e7a",
@@ -3342,7 +3700,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653564Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0622",
@@ -3350,11 +3728,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0622",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3362,7 +3738,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "aeb9b67e70058502c8ac0bdf1cc964d9ee99ff733d9b28dbf92502a8367ec9cc",
@@ -3501,7 +3877,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653644Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0623",
@@ -3509,11 +3905,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0623",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3521,7 +3915,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "90ba080a64b9dca99207a2abb55c3d1a031236d237d9cd7abbfaaddc90039ccb",
@@ -3660,7 +4054,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653725Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0624",
@@ -3668,11 +4082,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0624",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3680,7 +4092,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "3b0cc406eab0c9956fc293003861331ba937a96a6a53e900b48d638fc0b55805",
@@ -3819,7 +4231,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653806Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0625",
@@ -3827,11 +4259,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0625",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3839,7 +4269,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "5e542ad54702ae0ca00d3cfe0fd8bdab9cc362bb83798e004433195b4f3215e7",
@@ -3978,7 +4408,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653887Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0626",
@@ -3986,11 +4436,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0626",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -3998,7 +4446,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "05c7bf4aace70638c08d647c6b2f9d0172c722b3c69ef16ffc591fb51d0ff3c7",
@@ -4137,7 +4585,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.653970Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0627",
@@ -4145,11 +4613,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0627",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -4157,7 +4623,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "590c3fa947f29055659cc7fb539de26cfd826f9d212c9c2e7a86ece5692e4f97",
@@ -4296,7 +4762,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654049Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0628",
@@ -4304,11 +4790,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0628",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -4316,7 +4800,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "2a4bbbb201a29a2dbab8a4f67aaa9e3a6c62d5aade7c0ea0ba1d3caa5763d1b6",
@@ -4455,7 +4939,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654129Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0629",
@@ -4463,11 +4967,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0629",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -4475,7 +4977,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "fc8ea2935f4dbc3d58d42d19c42eb687148907266c3b2c50233b885dafce8525",
@@ -4614,7 +5116,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654209Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0630",
@@ -4622,11 +5144,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0630",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -4634,7 +5154,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "26f68e8bb78cbc865b274fe8fa11083711556d54702e366e4420c7cda6ecbc47",
@@ -4773,7 +5293,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654289Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0631",
@@ -4781,11 +5321,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0631",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -4793,7 +5331,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "bf2e9fcc4b49aff58e6ca5371dd0e394dab95d99288c738d4e371c0b92c57cff",
@@ -4932,7 +5470,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654369Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0632",
@@ -4940,11 +5498,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0632",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -4952,7 +5508,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "9298ce1cd8f5289eebc70a641a7a409454a221cbea9e4765d4b3e039a4735dc4",
@@ -5091,7 +5647,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654457Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0633",
@@ -5099,11 +5675,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0633",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -5111,7 +5685,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "0c78cc538c48cce0974b4dc63e0d83e266e543763ccfa384c44297d30a70d4de",
@@ -5250,7 +5824,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654537Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0634",
@@ -5258,11 +5852,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0634",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -5270,7 +5862,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "d36ca61530ef426e9758ecbbd2ccf18de676687e7121a7aadfd7d87c0c0fb5c2",
@@ -5409,7 +6001,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654618Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0635",
@@ -5417,11 +6029,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0635",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -5429,7 +6039,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "7eb57b0e417ffedebc00f55ca540581aceead7b7f74e2f08bb1d1219e0f1f676",
@@ -5568,7 +6178,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654698Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0636",
@@ -5576,11 +6206,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0636",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -5588,7 +6216,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "a11067112ebbe357b7c7cb03443307292275d57c5cad20731668c8dfb91c7d8f",
@@ -5727,7 +6355,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654778Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0637",
@@ -5735,11 +6383,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0637",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -5747,7 +6393,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "360d25f18f09f0b563177ee5f240eeff3248ac2a7156acf1e751844258fe4afb",
@@ -5886,7 +6532,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654858Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0638",
@@ -5894,11 +6560,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0638",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -5906,7 +6570,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "3ce986f8c72851448456a88a26fa1a2eae13c06c04c4605f30d86aa09d3c6e5e",
@@ -6045,7 +6709,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.654937Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0639",
@@ -6053,11 +6737,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0639",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -6065,7 +6747,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "5c2e6271c47541206f8f4b1f36cf59ca6b1e9803381e3bee3072430e3d521270",
@@ -6204,7 +6886,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655017Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0640",
@@ -6212,11 +6914,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0640",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -6224,7 +6924,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "9b0da3cf81ae9192067eb6730a7bfc1594bbd362ab3524bd7754712de5a0a941",
@@ -6363,7 +7063,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655096Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0641",
@@ -6371,11 +7091,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0641",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -6383,7 +7101,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "be99303d745a4fa253779ea7ea1eeed2bf48821ba1514287c35e7d383fd7d708",
@@ -6522,7 +7240,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655176Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0642",
@@ -6530,11 +7268,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0642",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -6542,7 +7278,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "0b1b58839487fe4281960349682e78a21ef832cfcdb0be66a01ff8aeb257f82f",
@@ -6681,7 +7417,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655255Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0643",
@@ -6689,11 +7445,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0643",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -6701,7 +7455,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "420c61055214e35e7914acf1116911c410db9365bee373c6561b68f89683c189",
@@ -6840,7 +7594,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655335Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0644",
@@ -6848,11 +7622,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0644",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -6860,7 +7632,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "bc7634c33a4695b1cf90aed244a5c59d899a0830c1ec2af379a72fca6999e9f1",
@@ -6999,7 +7771,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655426Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0645",
@@ -7007,11 +7799,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0645",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -7019,7 +7809,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "0deaa279562175654736bf5efa7ab187b19c843fd25618c5b5ccd82c01437233",
@@ -7158,7 +7948,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655506Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0646",
@@ -7166,11 +7976,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0646",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -7178,7 +7986,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "58fe5451087082ac5c21534ff75f756203bdae9bb193156c4d78a2ed1ec64531",
@@ -7317,7 +8125,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655586Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0647",
@@ -7325,11 +8153,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0647",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -7337,7 +8163,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "81b1a907768f1f947727d6ca859bead3f5692b1f6d929ce1fe20787b9b674374",
@@ -7476,7 +8302,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655666Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0648",
@@ -7484,11 +8330,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0648",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -7496,7 +8340,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "37988c043928e53cfd37f0229f9c8bc3e49daa3aa7261c98f8905e814ab43455",
@@ -7635,7 +8479,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655747Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0649",
@@ -7643,11 +8507,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0649",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -7655,7 +8517,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "6b4658fd7a19b7b3752bda1276aa67dfdfffade8bef6e9d1b899c8765b917b4c",
@@ -7794,7 +8656,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655826Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     },
     {
       "id": "20260821-fatima-source-bio-0650",
@@ -7802,11 +8684,9 @@
       "title": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0650",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE BIOGRAPHY",
-      "section": "prophetic-household",
-      "subsection": "children",
-      "sections": [
-        "prophetic-household/children"
-      ],
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "fatimaCategory": "source-biography",
       "subject": {
         "id": "fatima-al-zahra-bint-muhammad",
@@ -7814,7 +8694,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "publishedAt": "2026-08-21T06:24:32.771028Z",
       "wordCount": 640,
       "bodyFingerprint": "53b34c359f43374fa83c0c79ca63a3a96767eabe15a2b9df4674df4928d6b52a",
@@ -7953,7 +8833,27 @@
       "quotationVerification": "PASS",
       "provenanceStatus": "PASS",
       "duplicateCheck": "PASS",
-      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus."
+      "identityFilter": "PASS: every recovered source fragment explicitly contains Fatima identification from the previously verified Fatima source corpus.",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/children"
+        ],
+        "subsection": "children",
+        "editorialCategory": null,
+        "articleKind": null,
+        "publicRole": null
+      },
+      "articleKind": "canonical-biography-chapter",
+      "editorialCategory": "canonical-biography",
+      "publicRole": "canonical-biography-chapter",
+      "biographyPlacement": true,
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.655907Z",
+      "canonicalPersonId": "fatima-al-zahra-bint-muhammad",
+      "canonicalPersonName": "فاطمة الزهراء بنت رسول الله ﷺ",
+      "canonicalPersonUrl": "person.html?id=fatima-al-zahra-bint-muhammad&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%B1%D8%B3%D9%88%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%EF%B7%BA"
     }
   ]
 }

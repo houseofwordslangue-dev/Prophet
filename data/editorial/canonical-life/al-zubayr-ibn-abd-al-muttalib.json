@@ -1,0 +1,1517 @@
+{
+  "schema": "canonical-person-life-chapters-v1",
+  "personId": "al-zubayr-ibn-abd-al-muttalib",
+  "personName": "الزبير بن عبد المطلب",
+  "canonicalUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
+  "chapterCount": 5,
+  "languageCounts": {
+    "ar": 5
+  },
+  "chapters": [
+    {
+      "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-01",
+      "language": "ar",
+      "title": "الزبير بن عبد المطلب — من سيرته وحياته — 1",
+      "body": "",
+      "wordCount": 582,
+      "sources": [
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "al-harith-ibn-abd-al-muttalib",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3cdkm1",
+          "slug": "",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "abu-talib-ibn-abd-al-muttalib",
+          "recordName": "أبو طالب بن عبد المطلب (عبد مناف)"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hfoxgt",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-005",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1yfzx6i",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4ha4y",
+          "slug": "",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "abu-lahab-ibn-abd-al-muttalib",
+          "recordName": "أبو لهب بن عبد المطلب (عبد العزى)"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "dirar-ibn-abd-al-muttalib",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dqfqy7",
+          "slug": "",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "al-muqawwim-ibn-abd-al-muttalib",
+          "recordName": "المقوّم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ktuy51",
+          "slug": "",
+          "recordName": "المقوم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "recordName": "حَجْل بن عبد المطلب (المغيرة)"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "qutham-ibn-abd-al-muttalib",
+          "recordName": "قُثَم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-192zti",
+          "slug": "",
+          "recordName": "قثم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-safiyya-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y06zs7",
+          "slug": "",
+          "recordName": "صفية بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-atika-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-xujqvi",
+          "slug": "",
+          "recordName": "عاتكة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-arwa-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-88ne4v",
+          "slug": "",
+          "recordName": "أروى بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17m98tw",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1d7ybeb",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-barra-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ajzq2y",
+          "slug": "",
+          "recordName": "برة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umm-hakim-al-bayda-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-wwmqdg",
+          "slug": "",
+          "recordName": "أم حكيم البيضاء بنت عبد المطلب"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-02",
+      "language": "ar",
+      "title": "الزبير بن عبد المطلب — من سيرته وحياته — 2",
+      "body": "",
+      "wordCount": 582,
+      "sources": [
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "al-harith-ibn-abd-al-muttalib",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3cdkm1",
+          "slug": "",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "abu-talib-ibn-abd-al-muttalib",
+          "recordName": "أبو طالب بن عبد المطلب (عبد مناف)"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hfoxgt",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-005",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1yfzx6i",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4ha4y",
+          "slug": "",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "abu-lahab-ibn-abd-al-muttalib",
+          "recordName": "أبو لهب بن عبد المطلب (عبد العزى)"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "dirar-ibn-abd-al-muttalib",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dqfqy7",
+          "slug": "",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "al-muqawwim-ibn-abd-al-muttalib",
+          "recordName": "المقوّم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ktuy51",
+          "slug": "",
+          "recordName": "المقوم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "recordName": "حَجْل بن عبد المطلب (المغيرة)"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "qutham-ibn-abd-al-muttalib",
+          "recordName": "قُثَم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-192zti",
+          "slug": "",
+          "recordName": "قثم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-safiyya-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y06zs7",
+          "slug": "",
+          "recordName": "صفية بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-atika-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-xujqvi",
+          "slug": "",
+          "recordName": "عاتكة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-arwa-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-88ne4v",
+          "slug": "",
+          "recordName": "أروى بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17m98tw",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1d7ybeb",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-barra-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ajzq2y",
+          "slug": "",
+          "recordName": "برة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umm-hakim-al-bayda-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-wwmqdg",
+          "slug": "",
+          "recordName": "أم حكيم البيضاء بنت عبد المطلب"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-03",
+      "language": "ar",
+      "title": "الزبير بن عبد المطلب — من سيرته وحياته — 3",
+      "body": "",
+      "wordCount": 582,
+      "sources": [
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "al-harith-ibn-abd-al-muttalib",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3cdkm1",
+          "slug": "",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "abu-talib-ibn-abd-al-muttalib",
+          "recordName": "أبو طالب بن عبد المطلب (عبد مناف)"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hfoxgt",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-005",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1yfzx6i",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4ha4y",
+          "slug": "",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "abu-lahab-ibn-abd-al-muttalib",
+          "recordName": "أبو لهب بن عبد المطلب (عبد العزى)"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "dirar-ibn-abd-al-muttalib",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dqfqy7",
+          "slug": "",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "al-muqawwim-ibn-abd-al-muttalib",
+          "recordName": "المقوّم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ktuy51",
+          "slug": "",
+          "recordName": "المقوم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "recordName": "حَجْل بن عبد المطلب (المغيرة)"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "qutham-ibn-abd-al-muttalib",
+          "recordName": "قُثَم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-192zti",
+          "slug": "",
+          "recordName": "قثم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-safiyya-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y06zs7",
+          "slug": "",
+          "recordName": "صفية بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-atika-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-xujqvi",
+          "slug": "",
+          "recordName": "عاتكة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-arwa-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-88ne4v",
+          "slug": "",
+          "recordName": "أروى بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17m98tw",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1d7ybeb",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-barra-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ajzq2y",
+          "slug": "",
+          "recordName": "برة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umm-hakim-al-bayda-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-wwmqdg",
+          "slug": "",
+          "recordName": "أم حكيم البيضاء بنت عبد المطلب"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-04",
+      "language": "ar",
+      "title": "الزبير بن عبد المطلب — من سيرته وحياته — 4",
+      "body": "",
+      "wordCount": 582,
+      "sources": [
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "al-harith-ibn-abd-al-muttalib",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3cdkm1",
+          "slug": "",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "abu-talib-ibn-abd-al-muttalib",
+          "recordName": "أبو طالب بن عبد المطلب (عبد مناف)"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hfoxgt",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-005",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1yfzx6i",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4ha4y",
+          "slug": "",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "abu-lahab-ibn-abd-al-muttalib",
+          "recordName": "أبو لهب بن عبد المطلب (عبد العزى)"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "dirar-ibn-abd-al-muttalib",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dqfqy7",
+          "slug": "",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "al-muqawwim-ibn-abd-al-muttalib",
+          "recordName": "المقوّم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ktuy51",
+          "slug": "",
+          "recordName": "المقوم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "recordName": "حَجْل بن عبد المطلب (المغيرة)"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "qutham-ibn-abd-al-muttalib",
+          "recordName": "قُثَم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-192zti",
+          "slug": "",
+          "recordName": "قثم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-safiyya-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y06zs7",
+          "slug": "",
+          "recordName": "صفية بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-atika-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-xujqvi",
+          "slug": "",
+          "recordName": "عاتكة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-arwa-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-88ne4v",
+          "slug": "",
+          "recordName": "أروى بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17m98tw",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1d7ybeb",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-barra-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ajzq2y",
+          "slug": "",
+          "recordName": "برة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umm-hakim-al-bayda-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-wwmqdg",
+          "slug": "",
+          "recordName": "أم حكيم البيضاء بنت عبد المطلب"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-05",
+      "language": "ar",
+      "title": "الزبير بن عبد المطلب — من سيرته وحياته — 5",
+      "body": "",
+      "wordCount": 582,
+      "sources": [
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-harith-ibn-abd-al-muttalib",
+          "slug": "al-harith-ibn-abd-al-muttalib",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-harith-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3cdkm1",
+          "slug": "",
+          "recordName": "الحارث بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-zubayr-ibn-abd-al-muttalib",
+          "slug": "al-zubayr-ibn-abd-al-muttalib",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-phr8x6",
+          "slug": "",
+          "recordName": "الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-talib-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-talib-ibn-abd-al-muttalib",
+          "slug": "abu-talib-ibn-abd-al-muttalib",
+          "recordName": "أبو طالب بن عبد المطلب (عبد مناف)"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "hamza-ibn-abd-al-muttalib",
+          "slug": "hamza-ibn-abd-al-muttalib",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-hfoxgt",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hamza-ibn-abd-al-muttalib-005",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1yfzx6i",
+          "slug": "",
+          "recordName": "حمزة بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-003",
+          "sourceFile": "people.json",
+          "recordId": "al-abbas-ibn-abd-al-muttalib",
+          "slug": "al-abbas-ibn-abd-al-muttalib",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-abbas-ibn-abd-al-muttalib-004",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1o4ha4y",
+          "slug": "",
+          "recordName": "العباس بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-abu-lahab-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "abu-lahab-ibn-abd-al-muttalib",
+          "slug": "abu-lahab-ibn-abd-al-muttalib",
+          "recordName": "أبو لهب بن عبد المطلب (عبد العزى)"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "dirar-ibn-abd-al-muttalib",
+          "slug": "dirar-ibn-abd-al-muttalib",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dirar-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dqfqy7",
+          "slug": "",
+          "recordName": "ضرار بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "al-muqawwim-ibn-abd-al-muttalib",
+          "slug": "al-muqawwim-ibn-abd-al-muttalib",
+          "recordName": "المقوّم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-al-muqawwim-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ktuy51",
+          "slug": "",
+          "recordName": "المقوم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-hajl-al-mughira-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "slug": "hajl-al-mughira-ibn-abd-al-muttalib",
+          "recordName": "حَجْل بن عبد المطلب (المغيرة)"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-001",
+          "sourceFile": "family_biographies.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "",
+          "recordName": ""
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_people.json",
+          "recordId": "qutham-ibn-abd-al-muttalib",
+          "slug": "qutham-ibn-abd-al-muttalib",
+          "recordName": "قُثَم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-qutham-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-192zti",
+          "slug": "",
+          "recordName": "قثم بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-safiyya-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y06zs7",
+          "slug": "",
+          "recordName": "صفية بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-atika-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-xujqvi",
+          "slug": "",
+          "recordName": "عاتكة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-arwa-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-88ne4v",
+          "slug": "",
+          "recordName": "أروى بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17m98tw",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umayma-bint-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1d7ybeb",
+          "slug": "",
+          "recordName": "أميمة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-barra-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ajzq2y",
+          "slug": "",
+          "recordName": "برة بنت عبد المطلب"
+        },
+        {
+          "ref": "ctx-umm-hakim-al-bayda-bint-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-wwmqdg",
+          "slug": "",
+          "recordName": "أم حكيم البيضاء بنت عبد المطلب"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    }
+  ]
+}

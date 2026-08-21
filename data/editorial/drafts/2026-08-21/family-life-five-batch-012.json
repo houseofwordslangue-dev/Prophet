@@ -8,12 +8,10 @@
       "title": "الحسن المثنى — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "hasan-descendants",
       "subject": {
         "id": "al-hasan-al-muthanna",
@@ -21,7 +19,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 509,
       "bodyFingerprint": "b515ba25b034e957174d2224c3c98f0ea01abe260ba3c0fbeb144d8c0a572d15",
       "paragraphs": [
@@ -3760,15 +3758,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-al-muthanna",
       "canonicalPersonName": "الحسن المثنى",
       "canonicalPersonUrl": "person.html?id=al-hasan-al-muthanna&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%AB%D9%86%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826820Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826820Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.548813Z"
     },
     {
       "id": "20260821-family-life-al-hasan-al-muthanna-02",
@@ -3776,12 +3787,10 @@
       "title": "الحسن المثنى — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "hasan-descendants",
       "subject": {
         "id": "al-hasan-al-muthanna",
@@ -3789,7 +3798,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 509,
       "bodyFingerprint": "ff0591fb369aca47cd386e8d31b7a1c965b1ba55aa8d99b4f07f759d22333ed6",
       "paragraphs": [
@@ -7528,15 +7537,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-al-muthanna",
       "canonicalPersonName": "الحسن المثنى",
       "canonicalPersonUrl": "person.html?id=al-hasan-al-muthanna&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%AB%D9%86%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826869Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826869Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.548918Z"
     },
     {
       "id": "20260821-family-life-al-hasan-al-muthanna-03",
@@ -7544,12 +7566,10 @@
       "title": "الحسن المثنى — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "hasan-descendants",
       "subject": {
         "id": "al-hasan-al-muthanna",
@@ -7557,7 +7577,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 509,
       "bodyFingerprint": "58c1cd8d864918c9c1123cb2ee1be4b357e34ea3ce7ad85120ef4216472c499f",
       "paragraphs": [
@@ -11296,15 +11316,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-al-muthanna",
       "canonicalPersonName": "الحسن المثنى",
       "canonicalPersonUrl": "person.html?id=al-hasan-al-muthanna&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%AB%D9%86%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826917Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826917Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.549004Z"
     },
     {
       "id": "20260821-family-life-al-hasan-al-muthanna-04",
@@ -11312,12 +11345,10 @@
       "title": "الحسن المثنى — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "hasan-descendants",
       "subject": {
         "id": "al-hasan-al-muthanna",
@@ -11325,7 +11356,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 509,
       "bodyFingerprint": "fd5c1ff43b64b5f387b0044c94f4ffd504682b1992708799cab956c686253ddf",
       "paragraphs": [
@@ -15064,15 +15095,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-al-muthanna",
       "canonicalPersonName": "الحسن المثنى",
       "canonicalPersonUrl": "person.html?id=al-hasan-al-muthanna&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%AB%D9%86%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826966Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826966Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.549090Z"
     },
     {
       "id": "20260821-family-life-al-hasan-al-muthanna-05",
@@ -15080,12 +15124,10 @@
       "title": "الحسن المثنى — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "hasan-descendants",
       "subject": {
         "id": "al-hasan-al-muthanna",
@@ -15093,7 +15135,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 509,
       "bodyFingerprint": "51a0ee3207725a511d9af05181ac38dbc93e291788245f6f2ee7c4e679d9f8d2",
       "paragraphs": [
@@ -18832,15 +18874,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-hasan-al-muthanna",
       "canonicalPersonName": "الحسن المثنى",
       "canonicalPersonUrl": "person.html?id=al-hasan-al-muthanna&name=%D8%A7%D9%84%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%AB%D9%86%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.827015Z"
+      "consolidatedAt": "2026-08-21T09:20:48.827015Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.549175Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abbas-01",
@@ -18848,12 +18903,10 @@
       "title": "عبد الله بن عباس — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "abbas-children",
       "subject": {
         "id": "abdullah-ibn-abbas",
@@ -18861,7 +18914,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 506,
       "bodyFingerprint": "9258a61f2e07e231a2c9138c47f3c4cc3f100f9fe06e8fc88b6bc14b91915492",
       "paragraphs": [
@@ -22600,15 +22653,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abbas",
       "canonicalPersonName": "عبد الله بن عباس",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820540Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820540Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.475958Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abbas-02",
@@ -22616,12 +22682,10 @@
       "title": "عبد الله بن عباس — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "abbas-children",
       "subject": {
         "id": "abdullah-ibn-abbas",
@@ -22629,7 +22693,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 506,
       "bodyFingerprint": "3d33fdf6f3f8c5bbd5f252c97454c14eae3df0adb10121568f1a4251f373d710",
       "paragraphs": [
@@ -26368,15 +26432,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abbas",
       "canonicalPersonName": "عبد الله بن عباس",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820606Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820606Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.476063Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abbas-03",
@@ -26384,12 +26461,10 @@
       "title": "عبد الله بن عباس — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "abbas-children",
       "subject": {
         "id": "abdullah-ibn-abbas",
@@ -26397,7 +26472,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 506,
       "bodyFingerprint": "4ed2fd9096e6e0d0da5fb415896f966a5ff8e9dea99c91942f1b2b5ad771acb9",
       "paragraphs": [
@@ -30136,15 +30211,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abbas",
       "canonicalPersonName": "عبد الله بن عباس",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820661Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820661Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.476152Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abbas-04",
@@ -30152,12 +30240,10 @@
       "title": "عبد الله بن عباس — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "abbas-children",
       "subject": {
         "id": "abdullah-ibn-abbas",
@@ -30165,7 +30251,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 506,
       "bodyFingerprint": "158743d2ad9edd2a960f61647ba10b0b63966a4393c060d4440897f8cdf72c0a",
       "paragraphs": [
@@ -33904,15 +33990,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abbas",
       "canonicalPersonName": "عبد الله بن عباس",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820711Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820711Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.476239Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abbas-05",
@@ -33920,12 +34019,10 @@
       "title": "عبد الله بن عباس — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-household",
-      "subsection": "grandchildren",
-      "sections": [
-        "prophetic-household/grandchildren"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "abbas-children",
       "subject": {
         "id": "abdullah-ibn-abbas",
@@ -33933,7 +34030,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 506,
       "bodyFingerprint": "845048a7348529d18ba97d2c833a2cd24b01422008898cc125c49b2f394b440d",
       "paragraphs": [
@@ -37672,15 +37769,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abbas",
       "canonicalPersonName": "عبد الله بن عباس",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abbas&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%A7%D8%B3",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820760Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820760Z",
+      "previousPlacement": {
+        "section": "prophetic-household",
+        "sections": [
+          "prophetic-household/grandchildren"
+        ],
+        "subsection": "grandchildren",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.476324Z"
     },
     {
       "id": "20260821-family-life-abu-ahmad-ibn-jahsh-01",
@@ -37688,12 +37798,10 @@
       "title": "أبو أحمد بن جحش — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "aunts-children",
       "subject": {
         "id": "abu-ahmad-ibn-jahsh",
@@ -37701,7 +37809,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 503,
       "bodyFingerprint": "085007b2fa4af9c65e72fc1be0873ed40aec46b5aab8df9749ed388af559371f",
       "paragraphs": [
@@ -41440,15 +41548,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-ahmad-ibn-jahsh",
       "canonicalPersonName": "أبو أحمد بن جحش",
       "canonicalPersonUrl": "person.html?id=abu-ahmad-ibn-jahsh&name=%D8%A3%D8%A8%D9%88%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823294Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823294Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.500807Z"
     },
     {
       "id": "20260821-family-life-abu-ahmad-ibn-jahsh-02",
@@ -41456,12 +41577,10 @@
       "title": "أبو أحمد بن جحش — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "aunts-children",
       "subject": {
         "id": "abu-ahmad-ibn-jahsh",
@@ -41469,7 +41588,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 503,
       "bodyFingerprint": "b4af5c1664613eb759f94a32d62f6a96585d0b10d935dd4a280cb0f64cd670a6",
       "paragraphs": [
@@ -45208,15 +45327,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-ahmad-ibn-jahsh",
       "canonicalPersonName": "أبو أحمد بن جحش",
       "canonicalPersonUrl": "person.html?id=abu-ahmad-ibn-jahsh&name=%D8%A3%D8%A8%D9%88%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823345Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823345Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.500899Z"
     },
     {
       "id": "20260821-family-life-abu-ahmad-ibn-jahsh-03",
@@ -45224,12 +45356,10 @@
       "title": "أبو أحمد بن جحش — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "aunts-children",
       "subject": {
         "id": "abu-ahmad-ibn-jahsh",
@@ -45237,7 +45367,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 503,
       "bodyFingerprint": "7038a429fa212fa339b3a08d09b0d8a928f1073638b70216094e2ae13e56f53c",
       "paragraphs": [
@@ -48976,15 +49106,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-ahmad-ibn-jahsh",
       "canonicalPersonName": "أبو أحمد بن جحش",
       "canonicalPersonUrl": "person.html?id=abu-ahmad-ibn-jahsh&name=%D8%A3%D8%A8%D9%88%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823391Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823391Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.500984Z"
     },
     {
       "id": "20260821-family-life-abu-ahmad-ibn-jahsh-04",
@@ -48992,12 +49135,10 @@
       "title": "أبو أحمد بن جحش — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "aunts-children",
       "subject": {
         "id": "abu-ahmad-ibn-jahsh",
@@ -49005,7 +49146,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 503,
       "bodyFingerprint": "b5b52fc5199d5e69a013ed801603a58037115fdafd12784b10c8d01280acdc51",
       "paragraphs": [
@@ -52744,15 +52885,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-ahmad-ibn-jahsh",
       "canonicalPersonName": "أبو أحمد بن جحش",
       "canonicalPersonUrl": "person.html?id=abu-ahmad-ibn-jahsh&name=%D8%A3%D8%A8%D9%88%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823437Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823437Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.501069Z"
     },
     {
       "id": "20260821-family-life-abu-ahmad-ibn-jahsh-05",
@@ -52760,12 +52914,10 @@
       "title": "أبو أحمد بن جحش — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "aunts-children",
       "subject": {
         "id": "abu-ahmad-ibn-jahsh",
@@ -52773,7 +52925,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 503,
       "bodyFingerprint": "2cb33a2a4142f3184215f31cea4fdae75f878a797fa096c100686f92920d7617",
       "paragraphs": [
@@ -56512,15 +56664,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-ahmad-ibn-jahsh",
       "canonicalPersonName": "أبو أحمد بن جحش",
       "canonicalPersonUrl": "person.html?id=abu-ahmad-ibn-jahsh&name=%D8%A3%D8%A8%D9%88%20%D8%A3%D8%AD%D9%85%D8%AF%20%D8%A8%D9%86%20%D8%AC%D8%AD%D8%B4",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.823483Z"
+      "consolidatedAt": "2026-08-21T09:20:48.823483Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.501154Z"
     },
     {
       "id": "20260821-family-life-al-shayma-bint-al-harith-01",
@@ -56528,12 +56693,10 @@
       "title": "الشيماء بنت الحارث — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "foster-siblings",
       "subject": {
         "id": "al-shayma-bint-al-harith",
@@ -56541,7 +56704,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 502,
       "bodyFingerprint": "e421f8437bf6b48b7148c03dd04125d49bf02791addd9e294af2221ed4f73779",
       "paragraphs": [
@@ -60280,15 +60443,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-shayma-bint-al-harith",
       "canonicalPersonName": "الشيماء بنت الحارث",
       "canonicalPersonUrl": "person.html?id=al-shayma-bint-al-harith&name=%D8%A7%D9%84%D8%B4%D9%8A%D9%85%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828705Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828705Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.568707Z"
     },
     {
       "id": "20260821-family-life-al-shayma-bint-al-harith-02",
@@ -60296,12 +60472,10 @@
       "title": "الشيماء بنت الحارث — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "foster-siblings",
       "subject": {
         "id": "al-shayma-bint-al-harith",
@@ -60309,7 +60483,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 502,
       "bodyFingerprint": "73c9361cf3fcbd2353c47276f38aa06ecfa69dc89fd88bb95cc57ee9b69526bf",
       "paragraphs": [
@@ -64048,15 +64222,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-shayma-bint-al-harith",
       "canonicalPersonName": "الشيماء بنت الحارث",
       "canonicalPersonUrl": "person.html?id=al-shayma-bint-al-harith&name=%D8%A7%D9%84%D8%B4%D9%8A%D9%85%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828755Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828755Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.568799Z"
     },
     {
       "id": "20260821-family-life-al-shayma-bint-al-harith-03",
@@ -64064,12 +64251,10 @@
       "title": "الشيماء بنت الحارث — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "foster-siblings",
       "subject": {
         "id": "al-shayma-bint-al-harith",
@@ -64077,7 +64262,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 502,
       "bodyFingerprint": "f9c35baa059defbfbe1bb3be5d0e2ff6c14312b51485e2f06609c2f7ea8b3a22",
       "paragraphs": [
@@ -67816,15 +68001,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-shayma-bint-al-harith",
       "canonicalPersonName": "الشيماء بنت الحارث",
       "canonicalPersonUrl": "person.html?id=al-shayma-bint-al-harith&name=%D8%A7%D9%84%D8%B4%D9%8A%D9%85%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828804Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828804Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.568884Z"
     },
     {
       "id": "20260821-family-life-al-shayma-bint-al-harith-04",
@@ -67832,12 +68030,10 @@
       "title": "الشيماء بنت الحارث — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "foster-siblings",
       "subject": {
         "id": "al-shayma-bint-al-harith",
@@ -67845,7 +68041,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 502,
       "bodyFingerprint": "d53ee2924c0d3e728a3778776f8863b90e6c9576295afcc7c5146641db8b85e6",
       "paragraphs": [
@@ -71584,15 +71780,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-shayma-bint-al-harith",
       "canonicalPersonName": "الشيماء بنت الحارث",
       "canonicalPersonUrl": "person.html?id=al-shayma-bint-al-harith&name=%D8%A7%D9%84%D8%B4%D9%8A%D9%85%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828852Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828852Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.568968Z"
     },
     {
       "id": "20260821-family-life-al-shayma-bint-al-harith-05",
@@ -71600,12 +71809,10 @@
       "title": "الشيماء بنت الحارث — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "foster-siblings",
       "subject": {
         "id": "al-shayma-bint-al-harith",
@@ -71613,7 +71820,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 502,
       "bodyFingerprint": "34d4d1cb74a2cf937697a4be3949308aaae5add80a0e00315e307359e9ca65d6",
       "paragraphs": [
@@ -75352,15 +75559,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-shayma-bint-al-harith",
       "canonicalPersonName": "الشيماء بنت الحارث",
       "canonicalPersonUrl": "person.html?id=al-shayma-bint-al-harith&name=%D8%A7%D9%84%D8%B4%D9%8A%D9%85%D8%A7%D8%A1%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828900Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828900Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.569053Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-01",
@@ -75368,12 +75588,10 @@
       "title": "الحارث بن عبد العزى السعدي — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "halima-family",
       "subject": {
         "id": "al-harith-ibn-abd-al-uzza-al-sadi",
@@ -75381,7 +75599,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 505,
       "bodyFingerprint": "eea5b1dc24b77e7658aadf51dedb029003b0e7ad2944174bdd67ea2f6ca1be42",
       "paragraphs": [
@@ -79120,15 +79338,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-uzza-al-sadi",
       "canonicalPersonName": "الحارث بن عبد العزى السعدي",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-uzza-al-sadi&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826503Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826503Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.537905Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-02",
@@ -79136,12 +79367,10 @@
       "title": "الحارث بن عبد العزى السعدي — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "halima-family",
       "subject": {
         "id": "al-harith-ibn-abd-al-uzza-al-sadi",
@@ -79149,7 +79378,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 505,
       "bodyFingerprint": "c34e4e37a2f075dd001cbe4b9c9bedfb9a8168fc03784315c8b1a2695d5eab54",
       "paragraphs": [
@@ -82888,15 +83117,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-uzza-al-sadi",
       "canonicalPersonName": "الحارث بن عبد العزى السعدي",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-uzza-al-sadi&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826551Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826551Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.537998Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-03",
@@ -82904,12 +83146,10 @@
       "title": "الحارث بن عبد العزى السعدي — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "halima-family",
       "subject": {
         "id": "al-harith-ibn-abd-al-uzza-al-sadi",
@@ -82917,7 +83157,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 505,
       "bodyFingerprint": "504bb929ed1ca11c47d0c49f8416ea2a7c21b64d0fb55700e1ca5e5b917d2ee8",
       "paragraphs": [
@@ -86656,15 +86896,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-uzza-al-sadi",
       "canonicalPersonName": "الحارث بن عبد العزى السعدي",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-uzza-al-sadi&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826622Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826622Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.538084Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-04",
@@ -86672,12 +86925,10 @@
       "title": "الحارث بن عبد العزى السعدي — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "halima-family",
       "subject": {
         "id": "al-harith-ibn-abd-al-uzza-al-sadi",
@@ -86685,7 +86936,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 505,
       "bodyFingerprint": "bbe2264e55de9bfeeeabe27f5b2a440a9b2f3d8087742cc179407549733768bc",
       "paragraphs": [
@@ -90424,15 +90675,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-uzza-al-sadi",
       "canonicalPersonName": "الحارث بن عبد العزى السعدي",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-uzza-al-sadi&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826698Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826698Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.538174Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-uzza-al-sadi-05",
@@ -90440,12 +90704,10 @@
       "title": "الحارث بن عبد العزى السعدي — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "all-relatives",
-      "sections": [
-        "prophetic-family/all-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "halima-family",
       "subject": {
         "id": "al-harith-ibn-abd-al-uzza-al-sadi",
@@ -90453,7 +90715,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "wordCount": 505,
       "bodyFingerprint": "0a68ec3647a80148385e58b72c0396765879db9fad15cc052d1bfd4ba1b82423",
       "paragraphs": [
@@ -94192,15 +94454,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-uzza-al-sadi",
       "canonicalPersonName": "الحارث بن عبد العزى السعدي",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-uzza-al-sadi&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%20%D8%A7%D9%84%D8%B3%D8%B9%D8%AF%D9%8A",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826749Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826749Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.538258Z"
     }
   ],
   "contentPlacement": "biographies"

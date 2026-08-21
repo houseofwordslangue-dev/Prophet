@@ -1,0 +1,1762 @@
+{
+  "schema": "canonical-person-life-chapters-v1",
+  "personId": "umm-al-hakam-bint-al-zubayr",
+  "personName": "أم الحكم بنت الزبير",
+  "canonicalUrl": "person.html?id=umm-al-hakam-bint-al-zubayr&name=%D8%A3%D9%85%20%D8%A7%D9%84%D8%AD%D9%83%D9%85%20%D8%A8%D9%86%D8%AA%20%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1",
+  "chapterCount": 5,
+  "languageCounts": {
+    "ar": 5
+  },
+  "chapters": [
+    {
+      "id": "20260821-family-life-umm-al-hakam-bint-al-zubayr-01",
+      "language": "ar",
+      "title": "أم الحكم بنت الزبير — من سيرته وحياته — 1",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abd-al-muttalib",
+          "slug": "abdullah-ibn-abd-al-muttalib",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ur05au",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17y22ee",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-amina-bint-wahb-001",
+          "sourceFile": "people.json",
+          "recordId": "amina-bint-wahb",
+          "slug": "amina-bint-wahb",
+          "recordName": "آمنة بنت وهب"
+        },
+        {
+          "ref": "ctx-zayd-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19jdu2f",
+          "slug": "",
+          "recordName": "زيد بن الحسن"
+        },
+        {
+          "ref": "ctx-amr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1u0sti3",
+          "slug": "",
+          "recordName": "عمرو بن الحسن"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-7a2je",
+          "slug": "",
+          "recordName": "القاسم بن الحسن"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6lfwkq",
+          "slug": "",
+          "recordName": "عبد الله بن الحسن"
+        },
+        {
+          "ref": "ctx-abu-bakr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y65psf",
+          "slug": "",
+          "recordName": "أبو بكر بن الحسن"
+        },
+        {
+          "ref": "ctx-ali-al-akbar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vg0gsb",
+          "slug": "",
+          "recordName": "علي الأكبر بن الحسين"
+        },
+        {
+          "ref": "ctx-ali-zayn-al-abidin-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14e30mx",
+          "slug": "",
+          "recordName": "علي زين العابدين بن الحسين"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-rgss5i",
+          "slug": "",
+          "recordName": "عبد الله بن الحسين"
+        },
+        {
+          "ref": "ctx-jafar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16x52o3",
+          "slug": "",
+          "recordName": "جعفر بن الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-551g0c",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m87tux",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-sukayna-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6a0cyr",
+          "slug": "",
+          "recordName": "سكينة بنت الحسين"
+        },
+        {
+          "ref": "ctx-talib-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dox2ua",
+          "slug": "",
+          "recordName": "طالب بن أبي طالب"
+        },
+        {
+          "ref": "ctx-aqil-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vfoad9",
+          "slug": "",
+          "recordName": "عقيل بن أبي طالب"
+        },
+        {
+          "ref": "ctx-jafar-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-zm4aqd",
+          "slug": "",
+          "recordName": "جعفر بن أبي طالب"
+        },
+        {
+          "ref": "ctx-al-fadl-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x7v9pl",
+          "slug": "",
+          "recordName": "الفضل بن العباس"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abbas-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abbas",
+          "slug": "abdullah-ibn-abbas",
+          "recordName": "عبد الله بن عباس"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-u4bmxx",
+          "slug": "",
+          "recordName": "عبيد الله بن العباس"
+        },
+        {
+          "ref": "ctx-qutham-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1mbh7nr",
+          "slug": "",
+          "recordName": "قثم بن العباس"
+        },
+        {
+          "ref": "ctx-mabad-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-4gs3os",
+          "slug": "",
+          "recordName": "معبد بن العباس"
+        },
+        {
+          "ref": "ctx-abd-al-rahman-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1j89nk3",
+          "slug": "",
+          "recordName": "عبد الرحمن بن العباس"
+        },
+        {
+          "ref": "ctx-tamam-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3o39uy",
+          "slug": "",
+          "recordName": "تمام بن العباس"
+        },
+        {
+          "ref": "ctx-abu-sufyan-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ambrsj",
+          "slug": "",
+          "recordName": "أبو سفيان بن الحارث"
+        },
+        {
+          "ref": "ctx-nawfal-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14h9oza",
+          "slug": "",
+          "recordName": "نوفل بن الحارث"
+        },
+        {
+          "ref": "ctx-rabia-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1k0en26",
+          "slug": "",
+          "recordName": "ربيعة بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11cg7wp",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1fjw1eh",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-eot9a8",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dubaa-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vu79w2",
+          "slug": "",
+          "recordName": "ضباعة بنت الزبير"
+        },
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-001",
+          "sourceFile": "people.json",
+          "recordId": "al-zubayr-ibn-al-awwam",
+          "slug": "al-zubayr-ibn-al-awwam",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1lodc0l",
+          "slug": "",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-34yso3",
+          "slug": "",
+          "recordName": "عبد الله بن جحش"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1kdtzo3",
+          "slug": "",
+          "recordName": "عبيد الله بن جحش"
+        },
+        {
+          "ref": "ctx-hamna-bint-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-129db8y",
+          "slug": "",
+          "recordName": "حمنة بنت جحش"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ieppdy",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير"
+        },
+        {
+          "ref": "ctx-urwa-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-p1y04v",
+          "slug": "",
+          "recordName": "عروة بن الزبير"
+        },
+        {
+          "ref": "ctx-musab-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1psfsc5",
+          "slug": "",
+          "recordName": "مصعب بن الزبير"
+        },
+        {
+          "ref": "ctx-thuwayba-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-15j1cxl",
+          "slug": "",
+          "recordName": "ثويبة مولاة أبي لهب"
+        },
+        {
+          "ref": "ctx-halima-al-sadiyya-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-jszvcq",
+          "slug": "",
+          "recordName": "حليمة السعدية"
+        },
+        {
+          "ref": "ctx-anisa-bint-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19yldg4",
+          "slug": "",
+          "recordName": "أنيسة بنت الحارث"
+        },
+        {
+          "ref": "ctx-abu-salama-abdullah-ibn-abd-al-asad-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-18c0inu",
+          "slug": "",
+          "recordName": "أبو سلمة عبد الله بن عبد الأسد"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umm-al-hakam-bint-al-zubayr-02",
+      "language": "ar",
+      "title": "أم الحكم بنت الزبير — من سيرته وحياته — 2",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abd-al-muttalib",
+          "slug": "abdullah-ibn-abd-al-muttalib",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ur05au",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17y22ee",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-amina-bint-wahb-001",
+          "sourceFile": "people.json",
+          "recordId": "amina-bint-wahb",
+          "slug": "amina-bint-wahb",
+          "recordName": "آمنة بنت وهب"
+        },
+        {
+          "ref": "ctx-zayd-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19jdu2f",
+          "slug": "",
+          "recordName": "زيد بن الحسن"
+        },
+        {
+          "ref": "ctx-amr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1u0sti3",
+          "slug": "",
+          "recordName": "عمرو بن الحسن"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-7a2je",
+          "slug": "",
+          "recordName": "القاسم بن الحسن"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6lfwkq",
+          "slug": "",
+          "recordName": "عبد الله بن الحسن"
+        },
+        {
+          "ref": "ctx-abu-bakr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y65psf",
+          "slug": "",
+          "recordName": "أبو بكر بن الحسن"
+        },
+        {
+          "ref": "ctx-ali-al-akbar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vg0gsb",
+          "slug": "",
+          "recordName": "علي الأكبر بن الحسين"
+        },
+        {
+          "ref": "ctx-ali-zayn-al-abidin-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14e30mx",
+          "slug": "",
+          "recordName": "علي زين العابدين بن الحسين"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-rgss5i",
+          "slug": "",
+          "recordName": "عبد الله بن الحسين"
+        },
+        {
+          "ref": "ctx-jafar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16x52o3",
+          "slug": "",
+          "recordName": "جعفر بن الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-551g0c",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m87tux",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-sukayna-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6a0cyr",
+          "slug": "",
+          "recordName": "سكينة بنت الحسين"
+        },
+        {
+          "ref": "ctx-talib-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dox2ua",
+          "slug": "",
+          "recordName": "طالب بن أبي طالب"
+        },
+        {
+          "ref": "ctx-aqil-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vfoad9",
+          "slug": "",
+          "recordName": "عقيل بن أبي طالب"
+        },
+        {
+          "ref": "ctx-jafar-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-zm4aqd",
+          "slug": "",
+          "recordName": "جعفر بن أبي طالب"
+        },
+        {
+          "ref": "ctx-al-fadl-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x7v9pl",
+          "slug": "",
+          "recordName": "الفضل بن العباس"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abbas-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abbas",
+          "slug": "abdullah-ibn-abbas",
+          "recordName": "عبد الله بن عباس"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-u4bmxx",
+          "slug": "",
+          "recordName": "عبيد الله بن العباس"
+        },
+        {
+          "ref": "ctx-qutham-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1mbh7nr",
+          "slug": "",
+          "recordName": "قثم بن العباس"
+        },
+        {
+          "ref": "ctx-mabad-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-4gs3os",
+          "slug": "",
+          "recordName": "معبد بن العباس"
+        },
+        {
+          "ref": "ctx-abd-al-rahman-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1j89nk3",
+          "slug": "",
+          "recordName": "عبد الرحمن بن العباس"
+        },
+        {
+          "ref": "ctx-tamam-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3o39uy",
+          "slug": "",
+          "recordName": "تمام بن العباس"
+        },
+        {
+          "ref": "ctx-abu-sufyan-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ambrsj",
+          "slug": "",
+          "recordName": "أبو سفيان بن الحارث"
+        },
+        {
+          "ref": "ctx-nawfal-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14h9oza",
+          "slug": "",
+          "recordName": "نوفل بن الحارث"
+        },
+        {
+          "ref": "ctx-rabia-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1k0en26",
+          "slug": "",
+          "recordName": "ربيعة بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11cg7wp",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1fjw1eh",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-eot9a8",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dubaa-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vu79w2",
+          "slug": "",
+          "recordName": "ضباعة بنت الزبير"
+        },
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-001",
+          "sourceFile": "people.json",
+          "recordId": "al-zubayr-ibn-al-awwam",
+          "slug": "al-zubayr-ibn-al-awwam",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1lodc0l",
+          "slug": "",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-34yso3",
+          "slug": "",
+          "recordName": "عبد الله بن جحش"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1kdtzo3",
+          "slug": "",
+          "recordName": "عبيد الله بن جحش"
+        },
+        {
+          "ref": "ctx-hamna-bint-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-129db8y",
+          "slug": "",
+          "recordName": "حمنة بنت جحش"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ieppdy",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير"
+        },
+        {
+          "ref": "ctx-urwa-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-p1y04v",
+          "slug": "",
+          "recordName": "عروة بن الزبير"
+        },
+        {
+          "ref": "ctx-musab-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1psfsc5",
+          "slug": "",
+          "recordName": "مصعب بن الزبير"
+        },
+        {
+          "ref": "ctx-thuwayba-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-15j1cxl",
+          "slug": "",
+          "recordName": "ثويبة مولاة أبي لهب"
+        },
+        {
+          "ref": "ctx-halima-al-sadiyya-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-jszvcq",
+          "slug": "",
+          "recordName": "حليمة السعدية"
+        },
+        {
+          "ref": "ctx-anisa-bint-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19yldg4",
+          "slug": "",
+          "recordName": "أنيسة بنت الحارث"
+        },
+        {
+          "ref": "ctx-abu-salama-abdullah-ibn-abd-al-asad-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-18c0inu",
+          "slug": "",
+          "recordName": "أبو سلمة عبد الله بن عبد الأسد"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umm-al-hakam-bint-al-zubayr-03",
+      "language": "ar",
+      "title": "أم الحكم بنت الزبير — من سيرته وحياته — 3",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abd-al-muttalib",
+          "slug": "abdullah-ibn-abd-al-muttalib",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ur05au",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17y22ee",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-amina-bint-wahb-001",
+          "sourceFile": "people.json",
+          "recordId": "amina-bint-wahb",
+          "slug": "amina-bint-wahb",
+          "recordName": "آمنة بنت وهب"
+        },
+        {
+          "ref": "ctx-zayd-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19jdu2f",
+          "slug": "",
+          "recordName": "زيد بن الحسن"
+        },
+        {
+          "ref": "ctx-amr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1u0sti3",
+          "slug": "",
+          "recordName": "عمرو بن الحسن"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-7a2je",
+          "slug": "",
+          "recordName": "القاسم بن الحسن"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6lfwkq",
+          "slug": "",
+          "recordName": "عبد الله بن الحسن"
+        },
+        {
+          "ref": "ctx-abu-bakr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y65psf",
+          "slug": "",
+          "recordName": "أبو بكر بن الحسن"
+        },
+        {
+          "ref": "ctx-ali-al-akbar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vg0gsb",
+          "slug": "",
+          "recordName": "علي الأكبر بن الحسين"
+        },
+        {
+          "ref": "ctx-ali-zayn-al-abidin-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14e30mx",
+          "slug": "",
+          "recordName": "علي زين العابدين بن الحسين"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-rgss5i",
+          "slug": "",
+          "recordName": "عبد الله بن الحسين"
+        },
+        {
+          "ref": "ctx-jafar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16x52o3",
+          "slug": "",
+          "recordName": "جعفر بن الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-551g0c",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m87tux",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-sukayna-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6a0cyr",
+          "slug": "",
+          "recordName": "سكينة بنت الحسين"
+        },
+        {
+          "ref": "ctx-talib-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dox2ua",
+          "slug": "",
+          "recordName": "طالب بن أبي طالب"
+        },
+        {
+          "ref": "ctx-aqil-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vfoad9",
+          "slug": "",
+          "recordName": "عقيل بن أبي طالب"
+        },
+        {
+          "ref": "ctx-jafar-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-zm4aqd",
+          "slug": "",
+          "recordName": "جعفر بن أبي طالب"
+        },
+        {
+          "ref": "ctx-al-fadl-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x7v9pl",
+          "slug": "",
+          "recordName": "الفضل بن العباس"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abbas-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abbas",
+          "slug": "abdullah-ibn-abbas",
+          "recordName": "عبد الله بن عباس"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-u4bmxx",
+          "slug": "",
+          "recordName": "عبيد الله بن العباس"
+        },
+        {
+          "ref": "ctx-qutham-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1mbh7nr",
+          "slug": "",
+          "recordName": "قثم بن العباس"
+        },
+        {
+          "ref": "ctx-mabad-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-4gs3os",
+          "slug": "",
+          "recordName": "معبد بن العباس"
+        },
+        {
+          "ref": "ctx-abd-al-rahman-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1j89nk3",
+          "slug": "",
+          "recordName": "عبد الرحمن بن العباس"
+        },
+        {
+          "ref": "ctx-tamam-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3o39uy",
+          "slug": "",
+          "recordName": "تمام بن العباس"
+        },
+        {
+          "ref": "ctx-abu-sufyan-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ambrsj",
+          "slug": "",
+          "recordName": "أبو سفيان بن الحارث"
+        },
+        {
+          "ref": "ctx-nawfal-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14h9oza",
+          "slug": "",
+          "recordName": "نوفل بن الحارث"
+        },
+        {
+          "ref": "ctx-rabia-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1k0en26",
+          "slug": "",
+          "recordName": "ربيعة بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11cg7wp",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1fjw1eh",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-eot9a8",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dubaa-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vu79w2",
+          "slug": "",
+          "recordName": "ضباعة بنت الزبير"
+        },
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-001",
+          "sourceFile": "people.json",
+          "recordId": "al-zubayr-ibn-al-awwam",
+          "slug": "al-zubayr-ibn-al-awwam",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1lodc0l",
+          "slug": "",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-34yso3",
+          "slug": "",
+          "recordName": "عبد الله بن جحش"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1kdtzo3",
+          "slug": "",
+          "recordName": "عبيد الله بن جحش"
+        },
+        {
+          "ref": "ctx-hamna-bint-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-129db8y",
+          "slug": "",
+          "recordName": "حمنة بنت جحش"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ieppdy",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير"
+        },
+        {
+          "ref": "ctx-urwa-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-p1y04v",
+          "slug": "",
+          "recordName": "عروة بن الزبير"
+        },
+        {
+          "ref": "ctx-musab-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1psfsc5",
+          "slug": "",
+          "recordName": "مصعب بن الزبير"
+        },
+        {
+          "ref": "ctx-thuwayba-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-15j1cxl",
+          "slug": "",
+          "recordName": "ثويبة مولاة أبي لهب"
+        },
+        {
+          "ref": "ctx-halima-al-sadiyya-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-jszvcq",
+          "slug": "",
+          "recordName": "حليمة السعدية"
+        },
+        {
+          "ref": "ctx-anisa-bint-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19yldg4",
+          "slug": "",
+          "recordName": "أنيسة بنت الحارث"
+        },
+        {
+          "ref": "ctx-abu-salama-abdullah-ibn-abd-al-asad-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-18c0inu",
+          "slug": "",
+          "recordName": "أبو سلمة عبد الله بن عبد الأسد"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umm-al-hakam-bint-al-zubayr-04",
+      "language": "ar",
+      "title": "أم الحكم بنت الزبير — من سيرته وحياته — 4",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abd-al-muttalib",
+          "slug": "abdullah-ibn-abd-al-muttalib",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ur05au",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17y22ee",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-amina-bint-wahb-001",
+          "sourceFile": "people.json",
+          "recordId": "amina-bint-wahb",
+          "slug": "amina-bint-wahb",
+          "recordName": "آمنة بنت وهب"
+        },
+        {
+          "ref": "ctx-zayd-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19jdu2f",
+          "slug": "",
+          "recordName": "زيد بن الحسن"
+        },
+        {
+          "ref": "ctx-amr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1u0sti3",
+          "slug": "",
+          "recordName": "عمرو بن الحسن"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-7a2je",
+          "slug": "",
+          "recordName": "القاسم بن الحسن"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6lfwkq",
+          "slug": "",
+          "recordName": "عبد الله بن الحسن"
+        },
+        {
+          "ref": "ctx-abu-bakr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y65psf",
+          "slug": "",
+          "recordName": "أبو بكر بن الحسن"
+        },
+        {
+          "ref": "ctx-ali-al-akbar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vg0gsb",
+          "slug": "",
+          "recordName": "علي الأكبر بن الحسين"
+        },
+        {
+          "ref": "ctx-ali-zayn-al-abidin-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14e30mx",
+          "slug": "",
+          "recordName": "علي زين العابدين بن الحسين"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-rgss5i",
+          "slug": "",
+          "recordName": "عبد الله بن الحسين"
+        },
+        {
+          "ref": "ctx-jafar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16x52o3",
+          "slug": "",
+          "recordName": "جعفر بن الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-551g0c",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m87tux",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-sukayna-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6a0cyr",
+          "slug": "",
+          "recordName": "سكينة بنت الحسين"
+        },
+        {
+          "ref": "ctx-talib-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dox2ua",
+          "slug": "",
+          "recordName": "طالب بن أبي طالب"
+        },
+        {
+          "ref": "ctx-aqil-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vfoad9",
+          "slug": "",
+          "recordName": "عقيل بن أبي طالب"
+        },
+        {
+          "ref": "ctx-jafar-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-zm4aqd",
+          "slug": "",
+          "recordName": "جعفر بن أبي طالب"
+        },
+        {
+          "ref": "ctx-al-fadl-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x7v9pl",
+          "slug": "",
+          "recordName": "الفضل بن العباس"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abbas-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abbas",
+          "slug": "abdullah-ibn-abbas",
+          "recordName": "عبد الله بن عباس"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-u4bmxx",
+          "slug": "",
+          "recordName": "عبيد الله بن العباس"
+        },
+        {
+          "ref": "ctx-qutham-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1mbh7nr",
+          "slug": "",
+          "recordName": "قثم بن العباس"
+        },
+        {
+          "ref": "ctx-mabad-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-4gs3os",
+          "slug": "",
+          "recordName": "معبد بن العباس"
+        },
+        {
+          "ref": "ctx-abd-al-rahman-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1j89nk3",
+          "slug": "",
+          "recordName": "عبد الرحمن بن العباس"
+        },
+        {
+          "ref": "ctx-tamam-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3o39uy",
+          "slug": "",
+          "recordName": "تمام بن العباس"
+        },
+        {
+          "ref": "ctx-abu-sufyan-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ambrsj",
+          "slug": "",
+          "recordName": "أبو سفيان بن الحارث"
+        },
+        {
+          "ref": "ctx-nawfal-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14h9oza",
+          "slug": "",
+          "recordName": "نوفل بن الحارث"
+        },
+        {
+          "ref": "ctx-rabia-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1k0en26",
+          "slug": "",
+          "recordName": "ربيعة بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11cg7wp",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1fjw1eh",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-eot9a8",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dubaa-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vu79w2",
+          "slug": "",
+          "recordName": "ضباعة بنت الزبير"
+        },
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-001",
+          "sourceFile": "people.json",
+          "recordId": "al-zubayr-ibn-al-awwam",
+          "slug": "al-zubayr-ibn-al-awwam",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1lodc0l",
+          "slug": "",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-34yso3",
+          "slug": "",
+          "recordName": "عبد الله بن جحش"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1kdtzo3",
+          "slug": "",
+          "recordName": "عبيد الله بن جحش"
+        },
+        {
+          "ref": "ctx-hamna-bint-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-129db8y",
+          "slug": "",
+          "recordName": "حمنة بنت جحش"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ieppdy",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير"
+        },
+        {
+          "ref": "ctx-urwa-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-p1y04v",
+          "slug": "",
+          "recordName": "عروة بن الزبير"
+        },
+        {
+          "ref": "ctx-musab-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1psfsc5",
+          "slug": "",
+          "recordName": "مصعب بن الزبير"
+        },
+        {
+          "ref": "ctx-thuwayba-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-15j1cxl",
+          "slug": "",
+          "recordName": "ثويبة مولاة أبي لهب"
+        },
+        {
+          "ref": "ctx-halima-al-sadiyya-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-jszvcq",
+          "slug": "",
+          "recordName": "حليمة السعدية"
+        },
+        {
+          "ref": "ctx-anisa-bint-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19yldg4",
+          "slug": "",
+          "recordName": "أنيسة بنت الحارث"
+        },
+        {
+          "ref": "ctx-abu-salama-abdullah-ibn-abd-al-asad-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-18c0inu",
+          "slug": "",
+          "recordName": "أبو سلمة عبد الله بن عبد الأسد"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-umm-al-hakam-bint-al-zubayr-05",
+      "language": "ar",
+      "title": "أم الحكم بنت الزبير — من سيرته وحياته — 5",
+      "body": "",
+      "wordCount": 501,
+      "sources": [
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abd-al-muttalib",
+          "slug": "abdullah-ibn-abd-al-muttalib",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ur05au",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abd-al-muttalib-003",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-17y22ee",
+          "slug": "",
+          "recordName": "عبد الله بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-amina-bint-wahb-001",
+          "sourceFile": "people.json",
+          "recordId": "amina-bint-wahb",
+          "slug": "amina-bint-wahb",
+          "recordName": "آمنة بنت وهب"
+        },
+        {
+          "ref": "ctx-zayd-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19jdu2f",
+          "slug": "",
+          "recordName": "زيد بن الحسن"
+        },
+        {
+          "ref": "ctx-amr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1u0sti3",
+          "slug": "",
+          "recordName": "عمرو بن الحسن"
+        },
+        {
+          "ref": "ctx-al-qasim-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-7a2je",
+          "slug": "",
+          "recordName": "القاسم بن الحسن"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6lfwkq",
+          "slug": "",
+          "recordName": "عبد الله بن الحسن"
+        },
+        {
+          "ref": "ctx-abu-bakr-ibn-al-hasan-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1y65psf",
+          "slug": "",
+          "recordName": "أبو بكر بن الحسن"
+        },
+        {
+          "ref": "ctx-ali-al-akbar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vg0gsb",
+          "slug": "",
+          "recordName": "علي الأكبر بن الحسين"
+        },
+        {
+          "ref": "ctx-ali-zayn-al-abidin-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14e30mx",
+          "slug": "",
+          "recordName": "علي زين العابدين بن الحسين"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-rgss5i",
+          "slug": "",
+          "recordName": "عبد الله بن الحسين"
+        },
+        {
+          "ref": "ctx-jafar-ibn-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-16x52o3",
+          "slug": "",
+          "recordName": "جعفر بن الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-551g0c",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-fatima-bint-al-husayn-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1m87tux",
+          "slug": "",
+          "recordName": "فاطمة بنت الحسين"
+        },
+        {
+          "ref": "ctx-sukayna-bint-al-husayn-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-6a0cyr",
+          "slug": "",
+          "recordName": "سكينة بنت الحسين"
+        },
+        {
+          "ref": "ctx-talib-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-dox2ua",
+          "slug": "",
+          "recordName": "طالب بن أبي طالب"
+        },
+        {
+          "ref": "ctx-aqil-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-vfoad9",
+          "slug": "",
+          "recordName": "عقيل بن أبي طالب"
+        },
+        {
+          "ref": "ctx-jafar-ibn-abi-talib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-zm4aqd",
+          "slug": "",
+          "recordName": "جعفر بن أبي طالب"
+        },
+        {
+          "ref": "ctx-al-fadl-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1x7v9pl",
+          "slug": "",
+          "recordName": "الفضل بن العباس"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-abbas-001",
+          "sourceFile": "people.json",
+          "recordId": "abdullah-ibn-abbas",
+          "slug": "abdullah-ibn-abbas",
+          "recordName": "عبد الله بن عباس"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-u4bmxx",
+          "slug": "",
+          "recordName": "عبيد الله بن العباس"
+        },
+        {
+          "ref": "ctx-qutham-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1mbh7nr",
+          "slug": "",
+          "recordName": "قثم بن العباس"
+        },
+        {
+          "ref": "ctx-mabad-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-4gs3os",
+          "slug": "",
+          "recordName": "معبد بن العباس"
+        },
+        {
+          "ref": "ctx-abd-al-rahman-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1j89nk3",
+          "slug": "",
+          "recordName": "عبد الرحمن بن العباس"
+        },
+        {
+          "ref": "ctx-tamam-ibn-al-abbas-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-3o39uy",
+          "slug": "",
+          "recordName": "تمام بن العباس"
+        },
+        {
+          "ref": "ctx-abu-sufyan-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-ambrsj",
+          "slug": "",
+          "recordName": "أبو سفيان بن الحارث"
+        },
+        {
+          "ref": "ctx-nawfal-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-14h9oza",
+          "slug": "",
+          "recordName": "نوفل بن الحارث"
+        },
+        {
+          "ref": "ctx-rabia-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1k0en26",
+          "slug": "",
+          "recordName": "ربيعة بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-11cg7wp",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-harith-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1fjw1eh",
+          "slug": "",
+          "recordName": "عبد الله بن الحارث"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-abd-al-muttalib-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-eot9a8",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير بن عبد المطلب"
+        },
+        {
+          "ref": "ctx-dubaa-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1vu79w2",
+          "slug": "",
+          "recordName": "ضباعة بنت الزبير"
+        },
+        {
+          "ref": "ctx-umm-al-hakam-bint-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1tl3c2l",
+          "slug": "",
+          "recordName": "أم الحكم بنت الزبير"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-001",
+          "sourceFile": "people.json",
+          "recordId": "al-zubayr-ibn-al-awwam",
+          "slug": "al-zubayr-ibn-al-awwam",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-al-zubayr-ibn-al-awwam-002",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1lodc0l",
+          "slug": "",
+          "recordName": "الزبير بن العوام"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-34yso3",
+          "slug": "",
+          "recordName": "عبد الله بن جحش"
+        },
+        {
+          "ref": "ctx-ubaydullah-ibn-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1kdtzo3",
+          "slug": "",
+          "recordName": "عبيد الله بن جحش"
+        },
+        {
+          "ref": "ctx-hamna-bint-jahsh-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-129db8y",
+          "slug": "",
+          "recordName": "حمنة بنت جحش"
+        },
+        {
+          "ref": "ctx-abdullah-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1ieppdy",
+          "slug": "",
+          "recordName": "عبد الله بن الزبير"
+        },
+        {
+          "ref": "ctx-urwa-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-p1y04v",
+          "slug": "",
+          "recordName": "عروة بن الزبير"
+        },
+        {
+          "ref": "ctx-musab-ibn-al-zubayr-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-1psfsc5",
+          "slug": "",
+          "recordName": "مصعب بن الزبير"
+        },
+        {
+          "ref": "ctx-thuwayba-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-15j1cxl",
+          "slug": "",
+          "recordName": "ثويبة مولاة أبي لهب"
+        },
+        {
+          "ref": "ctx-halima-al-sadiyya-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-jszvcq",
+          "slug": "",
+          "recordName": "حليمة السعدية"
+        },
+        {
+          "ref": "ctx-anisa-bint-al-harith-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-19yldg4",
+          "slug": "",
+          "recordName": "أنيسة بنت الحارث"
+        },
+        {
+          "ref": "ctx-abu-salama-abdullah-ibn-abd-al-asad-001",
+          "sourceFile": "family_biographies_all",
+          "recordId": "tree-18c0inu",
+          "slug": "",
+          "recordName": "أبو سلمة عبد الله بن عبد الأسد"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/all-relatives"
+        ],
+        "subsection": "all-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    }
+  ]
+}

@@ -8,12 +8,10 @@
       "title": "عبد الله بن عبد المطلب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "abdullah-ibn-abd-al-muttalib",
@@ -21,7 +19,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
       "bodyFingerprint": "28d51fa513bcfaabf3f64d81006157565dfe0e9fcba0ab19a98390fe9bd1d38d",
@@ -445,15 +443,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abd-al-muttalib",
       "canonicalPersonName": "عبد الله بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820834Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820834Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.486802Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abd-al-muttalib-02",
@@ -461,12 +472,10 @@
       "title": "عبد الله بن عبد المطلب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "abdullah-ibn-abd-al-muttalib",
@@ -474,7 +483,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
       "bodyFingerprint": "c1f5227ddaa29e73a5ba52da17983755d3f9520986443ed208da07296a613f4e",
@@ -898,15 +907,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abd-al-muttalib",
       "canonicalPersonName": "عبد الله بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820885Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820885Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.486908Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abd-al-muttalib-03",
@@ -914,12 +936,10 @@
       "title": "عبد الله بن عبد المطلب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "abdullah-ibn-abd-al-muttalib",
@@ -927,7 +947,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
       "bodyFingerprint": "273d2819cd561e4635f62a96b0460c8c4493ae49e52e4ed95b1ce6ec9c69b4d3",
@@ -1351,15 +1371,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abd-al-muttalib",
       "canonicalPersonName": "عبد الله بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820935Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820935Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.486993Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abd-al-muttalib-04",
@@ -1367,12 +1400,10 @@
       "title": "عبد الله بن عبد المطلب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "abdullah-ibn-abd-al-muttalib",
@@ -1380,7 +1411,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
       "bodyFingerprint": "9212a363d90eb3afffae82fc9797859b0c15850ce73457fefd9c68f65555275d",
@@ -1804,15 +1835,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abd-al-muttalib",
       "canonicalPersonName": "عبد الله بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.820983Z"
+      "consolidatedAt": "2026-08-21T09:20:48.820983Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.487078Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-abd-al-muttalib-05",
@@ -1820,12 +1864,10 @@
       "title": "عبد الله بن عبد المطلب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "abdullah-ibn-abd-al-muttalib",
@@ -1833,7 +1875,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
       "bodyFingerprint": "0cd60e7376d1e2b1615f36298662e2181273a45a819d47d096e41b98a69e419c",
@@ -2257,15 +2299,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abdullah-ibn-abd-al-muttalib",
       "canonicalPersonName": "عبد الله بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=abdullah-ibn-abd-al-muttalib&name=%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.821031Z"
+      "consolidatedAt": "2026-08-21T09:20:48.821031Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.487160Z"
     },
     {
       "id": "20260821-family-life-amina-bint-wahb-01",
@@ -2273,12 +2328,10 @@
       "title": "آمنة بنت وهب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "amina-bint-wahb",
@@ -2286,7 +2339,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "65e23a0d8779c530afa65b8e1e3e4a8b1cd01e65f6bce83dd5f24e93c9510aa9",
@@ -2694,15 +2747,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "amina-bint-wahb",
       "canonicalPersonName": "آمنة بنت وهب",
       "canonicalPersonUrl": "person.html?id=amina-bint-wahb&name=%D8%A2%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%88%D9%87%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.830324Z"
+      "consolidatedAt": "2026-08-21T09:20:48.830324Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.586963Z"
     },
     {
       "id": "20260821-family-life-amina-bint-wahb-02",
@@ -2710,12 +2776,10 @@
       "title": "آمنة بنت وهب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "amina-bint-wahb",
@@ -2723,7 +2787,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "5c4a453faea9c6d8d1ada930f5fd6b7a8460cf24b66a524cb0e981adab4a7011",
@@ -3131,15 +3195,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "amina-bint-wahb",
       "canonicalPersonName": "آمنة بنت وهب",
       "canonicalPersonUrl": "person.html?id=amina-bint-wahb&name=%D8%A2%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%88%D9%87%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.830372Z"
+      "consolidatedAt": "2026-08-21T09:20:48.830372Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.587054Z"
     },
     {
       "id": "20260821-family-life-amina-bint-wahb-03",
@@ -3147,12 +3224,10 @@
       "title": "آمنة بنت وهب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "amina-bint-wahb",
@@ -3160,7 +3235,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "279baaeedf25ff9a7c06d4bc9bff87cacfeff7c51e9b26ff9047a67d8a19b675",
@@ -3568,15 +3643,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "amina-bint-wahb",
       "canonicalPersonName": "آمنة بنت وهب",
       "canonicalPersonUrl": "person.html?id=amina-bint-wahb&name=%D8%A2%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%88%D9%87%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.830420Z"
+      "consolidatedAt": "2026-08-21T09:20:48.830420Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.587137Z"
     },
     {
       "id": "20260821-family-life-amina-bint-wahb-04",
@@ -3584,12 +3672,10 @@
       "title": "آمنة بنت وهب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "amina-bint-wahb",
@@ -3597,7 +3683,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "cf8f62942609eb9ba9ff3d611596435a4f4ccf58546b98416a3948ca1d3e4a45",
@@ -4005,15 +4091,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "amina-bint-wahb",
       "canonicalPersonName": "آمنة بنت وهب",
       "canonicalPersonUrl": "person.html?id=amina-bint-wahb&name=%D8%A2%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%88%D9%87%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.830468Z"
+      "consolidatedAt": "2026-08-21T09:20:48.830468Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.587219Z"
     },
     {
       "id": "20260821-family-life-amina-bint-wahb-05",
@@ -4021,12 +4120,10 @@
       "title": "آمنة بنت وهب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "parents",
-      "sections": [
-        "prophetic-family/parents"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "parents",
       "subject": {
         "id": "amina-bint-wahb",
@@ -4034,7 +4131,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "781c039b449473682511e0a17c151eb0d29eefd4f0f0af1f8e717cda3da6ac8c",
@@ -4442,15 +4539,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "amina-bint-wahb",
       "canonicalPersonName": "آمنة بنت وهب",
       "canonicalPersonUrl": "person.html?id=amina-bint-wahb&name=%D8%A2%D9%85%D9%86%D8%A9%20%D8%A8%D9%86%D8%AA%20%D9%88%D9%87%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.830517Z"
+      "consolidatedAt": "2026-08-21T09:20:48.830517Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/parents"
+        ],
+        "subsection": "parents",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.587301Z"
     },
     {
       "id": "20260821-family-life-wahb-ibn-abd-manaf-zuhra-01",
@@ -4458,12 +4568,10 @@
       "title": "وهب بن عبد مناف بن زهرة — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "wahb-ibn-abd-manaf-zuhra",
@@ -4471,7 +4579,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "ca7347d868ffe7ed3defc0b356089852faf416bde11c1a9574d79b6570931a09",
@@ -4863,15 +4971,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "wahb-ibn-abd-manaf-zuhra",
       "canonicalPersonName": "وهب بن عبد مناف بن زهرة",
       "canonicalPersonUrl": "person.html?id=wahb-ibn-abd-manaf-zuhra&name=%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.849385Z"
+      "consolidatedAt": "2026-08-21T09:20:48.849385Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.885202Z"
     },
     {
       "id": "20260821-family-life-wahb-ibn-abd-manaf-zuhra-02",
@@ -4879,12 +5000,10 @@
       "title": "وهب بن عبد مناف بن زهرة — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "wahb-ibn-abd-manaf-zuhra",
@@ -4892,7 +5011,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3745e4f8ea3cd1ebae3e2260e8d97e023a43df89d90077f6ffad1b0287e07ab0",
@@ -5284,15 +5403,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "wahb-ibn-abd-manaf-zuhra",
       "canonicalPersonName": "وهب بن عبد مناف بن زهرة",
       "canonicalPersonUrl": "person.html?id=wahb-ibn-abd-manaf-zuhra&name=%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.849436Z"
+      "consolidatedAt": "2026-08-21T09:20:48.849436Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.885306Z"
     },
     {
       "id": "20260821-family-life-wahb-ibn-abd-manaf-zuhra-03",
@@ -5300,12 +5432,10 @@
       "title": "وهب بن عبد مناف بن زهرة — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "wahb-ibn-abd-manaf-zuhra",
@@ -5313,7 +5443,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "0d6ac2eec4883ac2976d5127bcdb6ad3cbdd91dea45518425bf4b318489ced59",
@@ -5705,15 +5835,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "wahb-ibn-abd-manaf-zuhra",
       "canonicalPersonName": "وهب بن عبد مناف بن زهرة",
       "canonicalPersonUrl": "person.html?id=wahb-ibn-abd-manaf-zuhra&name=%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.849485Z"
+      "consolidatedAt": "2026-08-21T09:20:48.849485Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.885424Z"
     },
     {
       "id": "20260821-family-life-wahb-ibn-abd-manaf-zuhra-04",
@@ -5721,12 +5864,10 @@
       "title": "وهب بن عبد مناف بن زهرة — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "wahb-ibn-abd-manaf-zuhra",
@@ -5734,7 +5875,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "8867f37bdff68d0c7e7f7d46f78a37b10abe3fcb3ea810fe03e94e3ec2f4c573",
@@ -6126,15 +6267,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "wahb-ibn-abd-manaf-zuhra",
       "canonicalPersonName": "وهب بن عبد مناف بن زهرة",
       "canonicalPersonUrl": "person.html?id=wahb-ibn-abd-manaf-zuhra&name=%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.849533Z"
+      "consolidatedAt": "2026-08-21T09:20:48.849533Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.885515Z"
     },
     {
       "id": "20260821-family-life-wahb-ibn-abd-manaf-zuhra-05",
@@ -6142,12 +6296,10 @@
       "title": "وهب بن عبد مناف بن زهرة — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "wahb-ibn-abd-manaf-zuhra",
@@ -6155,7 +6307,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "b54f34dae998146cfb65d3d60919a7fc1024cca25dc073c6548a7510133e8e6a",
@@ -6547,15 +6699,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "wahb-ibn-abd-manaf-zuhra",
       "canonicalPersonName": "وهب بن عبد مناف بن زهرة",
       "canonicalPersonUrl": "person.html?id=wahb-ibn-abd-manaf-zuhra&name=%D9%88%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%B2%D9%87%D8%B1%D8%A9",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.849588Z"
+      "consolidatedAt": "2026-08-21T09:20:48.849588Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.885598Z"
     },
     {
       "id": "20260821-family-life-burra-bint-abd-al-uzza-01",
@@ -6563,12 +6728,10 @@
       "title": "برة بنت عبد العزى — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "burra-bint-abd-al-uzza",
@@ -6576,7 +6739,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "3f8b0e9f9740033ddd3d6a6f31b84047f1edb28f78393b7c38188321003af8e6",
@@ -6968,15 +7131,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "burra-bint-abd-al-uzza",
       "canonicalPersonName": "برة بنت عبد العزى",
       "canonicalPersonUrl": "person.html?id=burra-bint-abd-al-uzza&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.832285Z"
+      "consolidatedAt": "2026-08-21T09:20:48.832285Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.597745Z"
     },
     {
       "id": "20260821-family-life-burra-bint-abd-al-uzza-02",
@@ -6984,12 +7160,10 @@
       "title": "برة بنت عبد العزى — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "burra-bint-abd-al-uzza",
@@ -6997,7 +7171,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "4b08ada365f4822a3220f1ba28bbf22280c76d75ce9abeac6670f53d89bfa247",
@@ -7389,15 +7563,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "burra-bint-abd-al-uzza",
       "canonicalPersonName": "برة بنت عبد العزى",
       "canonicalPersonUrl": "person.html?id=burra-bint-abd-al-uzza&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.832335Z"
+      "consolidatedAt": "2026-08-21T09:20:48.832335Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.597834Z"
     },
     {
       "id": "20260821-family-life-burra-bint-abd-al-uzza-03",
@@ -7405,12 +7592,10 @@
       "title": "برة بنت عبد العزى — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "burra-bint-abd-al-uzza",
@@ -7418,7 +7603,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "be8e107a6aca505e5994566fdb61ec2db19cb0102e5f0cfe10cc53514c0b72bd",
@@ -7810,15 +7995,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "burra-bint-abd-al-uzza",
       "canonicalPersonName": "برة بنت عبد العزى",
       "canonicalPersonUrl": "person.html?id=burra-bint-abd-al-uzza&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.832384Z"
+      "consolidatedAt": "2026-08-21T09:20:48.832384Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.597917Z"
     },
     {
       "id": "20260821-family-life-burra-bint-abd-al-uzza-04",
@@ -7826,12 +8024,10 @@
       "title": "برة بنت عبد العزى — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "burra-bint-abd-al-uzza",
@@ -7839,7 +8035,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "bdb5a79f86044c66999b58b16df47ebb6f9032958c46a99a1b2e970676aac6fc",
@@ -8231,15 +8427,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "burra-bint-abd-al-uzza",
       "canonicalPersonName": "برة بنت عبد العزى",
       "canonicalPersonUrl": "person.html?id=burra-bint-abd-al-uzza&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.832432Z"
+      "consolidatedAt": "2026-08-21T09:20:48.832432Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.597998Z"
     },
     {
       "id": "20260821-family-life-burra-bint-abd-al-uzza-05",
@@ -8247,12 +8456,10 @@
       "title": "برة بنت عبد العزى — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "ancestors",
-      "sections": [
-        "prophetic-family/ancestors"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "direct-grandparents",
       "subject": {
         "id": "burra-bint-abd-al-uzza",
@@ -8260,7 +8467,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
       "bodyFingerprint": "fc2cf4be6fb9151038c9578efb4e16bbee7be3981caa222fd48fdd0b8a98314b",
@@ -8652,15 +8859,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "burra-bint-abd-al-uzza",
       "canonicalPersonName": "برة بنت عبد العزى",
       "canonicalPersonUrl": "person.html?id=burra-bint-abd-al-uzza&name=%D8%A8%D8%B1%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.832481Z"
+      "consolidatedAt": "2026-08-21T09:20:48.832481Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.598086Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-muttalib-01",
@@ -8668,12 +8888,10 @@
       "title": "الحارث بن عبد المطلب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-harith-ibn-abd-al-muttalib",
@@ -8681,7 +8899,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 553,
       "bodyFingerprint": "853541bbe3883af509436dc76afac3665443fb4e8b2e793ac7e21ba4a813a204",
@@ -9033,15 +9251,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-muttalib",
       "canonicalPersonName": "الحارث بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826240Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826240Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.536377Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-muttalib-02",
@@ -9049,12 +9280,10 @@
       "title": "الحارث بن عبد المطلب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-harith-ibn-abd-al-muttalib",
@@ -9062,7 +9291,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 553,
       "bodyFingerprint": "31a82102dcbe873c07178835832c528b46587621d60fec68a916995487fc6124",
@@ -9414,15 +9643,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-muttalib",
       "canonicalPersonName": "الحارث بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826290Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826290Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.536504Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-muttalib-03",
@@ -9430,12 +9672,10 @@
       "title": "الحارث بن عبد المطلب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-harith-ibn-abd-al-muttalib",
@@ -9443,7 +9683,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 553,
       "bodyFingerprint": "27354badc427f62ad497fde5579f71c80288a49eea05de9a5f94dbe87d85adbf",
@@ -9795,15 +10035,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-muttalib",
       "canonicalPersonName": "الحارث بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826337Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826337Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.536590Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-muttalib-04",
@@ -9811,12 +10064,10 @@
       "title": "الحارث بن عبد المطلب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-harith-ibn-abd-al-muttalib",
@@ -9824,7 +10075,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 553,
       "bodyFingerprint": "b6b5acdfe7267cdf3e2ec8685e0bedc01636957e5d6ac0fafd20cec45e3a34bc",
@@ -10176,15 +10427,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-muttalib",
       "canonicalPersonName": "الحارث بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826385Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826385Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.536672Z"
     },
     {
       "id": "20260821-family-life-al-harith-ibn-abd-al-muttalib-05",
@@ -10192,12 +10456,10 @@
       "title": "الحارث بن عبد المطلب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-harith-ibn-abd-al-muttalib",
@@ -10205,7 +10467,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 553,
       "bodyFingerprint": "c32cdbe52022343476e188d696278b3b4bb0926b8605d9e6e65591f1e2346c18",
@@ -10557,15 +10819,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-harith-ibn-abd-al-muttalib",
       "canonicalPersonName": "الحارث بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-harith-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.826434Z"
+      "consolidatedAt": "2026-08-21T09:20:48.826434Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.536755Z"
     },
     {
       "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-01",
@@ -10573,12 +10848,10 @@
       "title": "الزبير بن عبد المطلب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-zubayr-ibn-abd-al-muttalib",
@@ -10586,7 +10859,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 582,
       "bodyFingerprint": "20276ccc47cd565d2d769ab3e073371c703db2f52c68e8cc37906876ef782560",
@@ -10938,15 +11211,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-zubayr-ibn-abd-al-muttalib",
       "canonicalPersonName": "الزبير بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.828967Z"
+      "consolidatedAt": "2026-08-21T09:20:48.828967Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.579426Z"
     },
     {
       "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-02",
@@ -10954,12 +11240,10 @@
       "title": "الزبير بن عبد المطلب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-zubayr-ibn-abd-al-muttalib",
@@ -10967,7 +11251,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 582,
       "bodyFingerprint": "3d22a5e0df996a733e18199927895101e72c169897176dfa0743f7315f5b3884",
@@ -11319,15 +11603,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-zubayr-ibn-abd-al-muttalib",
       "canonicalPersonName": "الزبير بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829015Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829015Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.579527Z"
     },
     {
       "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-03",
@@ -11335,12 +11632,10 @@
       "title": "الزبير بن عبد المطلب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-zubayr-ibn-abd-al-muttalib",
@@ -11348,7 +11643,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 582,
       "bodyFingerprint": "26c199c0c0a81ff1378f50f8aa55b54b54717f45ae154c2cc7314ad647890cca",
@@ -11700,15 +11995,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-zubayr-ibn-abd-al-muttalib",
       "canonicalPersonName": "الزبير بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829062Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829062Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.579613Z"
     },
     {
       "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-04",
@@ -11716,12 +12024,10 @@
       "title": "الزبير بن عبد المطلب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-zubayr-ibn-abd-al-muttalib",
@@ -11729,7 +12035,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 582,
       "bodyFingerprint": "777fbeb2745f6d70e87a6b2821169d7f38203a52db1d7b415bc129b14c3df924",
@@ -12081,15 +12387,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-zubayr-ibn-abd-al-muttalib",
       "canonicalPersonName": "الزبير بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829111Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829111Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.579696Z"
     },
     {
       "id": "20260821-family-life-al-zubayr-ibn-abd-al-muttalib-05",
@@ -12097,12 +12416,10 @@
       "title": "الزبير بن عبد المطلب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-zubayr-ibn-abd-al-muttalib",
@@ -12110,7 +12427,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 582,
       "bodyFingerprint": "1cea362a60c25cd6282ca2295a4a5f3ed2f7a0534c59a55d5ab6a547d62c812f",
@@ -12462,15 +12779,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-zubayr-ibn-abd-al-muttalib",
       "canonicalPersonName": "الزبير بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-zubayr-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B2%D8%A8%D9%8A%D8%B1%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.829159Z"
+      "consolidatedAt": "2026-08-21T09:20:48.829159Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.579778Z"
     },
     {
       "id": "20260821-family-life-abu-talib-ibn-abd-al-muttalib-01",
@@ -12478,12 +12808,10 @@
       "title": "أبو طالب بن عبد المطلب (عبد مناف) — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-talib-ibn-abd-al-muttalib",
@@ -12491,7 +12819,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 539,
       "bodyFingerprint": "86342aa38003e3f53f056e70baa5ffadb8866a616637f807bc2d06615d7f1007",
@@ -12835,15 +13163,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-talib-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو طالب بن عبد المطلب (عبد مناف)",
       "canonicalPersonUrl": "person.html?id=abu-talib-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824903Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824903Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.528913Z"
     },
     {
       "id": "20260821-family-life-abu-talib-ibn-abd-al-muttalib-02",
@@ -12851,12 +13192,10 @@
       "title": "أبو طالب بن عبد المطلب (عبد مناف) — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-talib-ibn-abd-al-muttalib",
@@ -12864,7 +13203,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 539,
       "bodyFingerprint": "d9115383f7f75110810958bac2c097d6d12fccb339036ecd675d477232c47506",
@@ -13208,15 +13547,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-talib-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو طالب بن عبد المطلب (عبد مناف)",
       "canonicalPersonUrl": "person.html?id=abu-talib-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824955Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824955Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.529002Z"
     },
     {
       "id": "20260821-family-life-abu-talib-ibn-abd-al-muttalib-03",
@@ -13224,12 +13576,10 @@
       "title": "أبو طالب بن عبد المطلب (عبد مناف) — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-talib-ibn-abd-al-muttalib",
@@ -13237,7 +13587,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 539,
       "bodyFingerprint": "9a661aa625df750e8ae10604d6ff7b1ec737ceee057dd7d25db4a0819f679c98",
@@ -13581,15 +13931,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-talib-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو طالب بن عبد المطلب (عبد مناف)",
       "canonicalPersonUrl": "person.html?id=abu-talib-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825004Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825004Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.529085Z"
     },
     {
       "id": "20260821-family-life-abu-talib-ibn-abd-al-muttalib-04",
@@ -13597,12 +13960,10 @@
       "title": "أبو طالب بن عبد المطلب (عبد مناف) — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-talib-ibn-abd-al-muttalib",
@@ -13610,7 +13971,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 539,
       "bodyFingerprint": "a2cfffe2e860d0c25a55a8d3644bd538665b275c6d78551ce1cce2e66ff60ed6",
@@ -13954,15 +14315,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-talib-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو طالب بن عبد المطلب (عبد مناف)",
       "canonicalPersonUrl": "person.html?id=abu-talib-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825054Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825054Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.529167Z"
     },
     {
       "id": "20260821-family-life-abu-talib-ibn-abd-al-muttalib-05",
@@ -13970,12 +14344,10 @@
       "title": "أبو طالب بن عبد المطلب (عبد مناف) — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-talib-ibn-abd-al-muttalib",
@@ -13983,7 +14355,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 539,
       "bodyFingerprint": "b6d0762a78a4deeb2cd1468547aa7c8787299ed2984470fc2c3fc9aaabdf4b97",
@@ -14327,15 +14699,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-talib-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو طالب بن عبد المطلب (عبد مناف)",
       "canonicalPersonUrl": "person.html?id=abu-talib-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D8%B7%D8%A7%D9%84%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D9%85%D9%86%D8%A7%D9%81%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825104Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825104Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.529249Z"
     },
     {
       "id": "20260821-family-life-hamza-ibn-abd-al-muttalib-01",
@@ -14343,12 +14728,10 @@
       "title": "حمزة بن عبد المطلب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "hamza-ibn-abd-al-muttalib",
@@ -14356,7 +14739,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "76c8963c12eb0d9e50fe640f0d6655616622c980106ac91e8396c179779267db",
@@ -14724,15 +15107,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hamza-ibn-abd-al-muttalib",
       "canonicalPersonName": "حمزة بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=hamza-ibn-abd-al-muttalib&name=%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835301Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835301Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.759122Z"
     },
     {
       "id": "20260821-family-life-hamza-ibn-abd-al-muttalib-02",
@@ -14740,12 +15136,10 @@
       "title": "حمزة بن عبد المطلب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "hamza-ibn-abd-al-muttalib",
@@ -14753,7 +15147,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "0a0d4f8c549320374566eee137a51a4ac11c6f0ea09dd590aabdcb81af4169a5",
@@ -15121,15 +15515,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hamza-ibn-abd-al-muttalib",
       "canonicalPersonName": "حمزة بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=hamza-ibn-abd-al-muttalib&name=%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835351Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835351Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.759213Z"
     },
     {
       "id": "20260821-family-life-hamza-ibn-abd-al-muttalib-03",
@@ -15137,12 +15544,10 @@
       "title": "حمزة بن عبد المطلب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "hamza-ibn-abd-al-muttalib",
@@ -15150,7 +15555,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "d2918649502f5e1751fce3144e9cc8c97fd90cf056b1485e0157cb7fa8fe96f2",
@@ -15518,15 +15923,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hamza-ibn-abd-al-muttalib",
       "canonicalPersonName": "حمزة بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=hamza-ibn-abd-al-muttalib&name=%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835399Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835399Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.759297Z"
     },
     {
       "id": "20260821-family-life-hamza-ibn-abd-al-muttalib-04",
@@ -15534,12 +15952,10 @@
       "title": "حمزة بن عبد المطلب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "hamza-ibn-abd-al-muttalib",
@@ -15547,7 +15963,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "fc740051b9e0b218dab3e759c4f949054a12f69b9874d1a937727fb7e046c6d5",
@@ -15915,15 +16331,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hamza-ibn-abd-al-muttalib",
       "canonicalPersonName": "حمزة بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=hamza-ibn-abd-al-muttalib&name=%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835447Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835447Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.759381Z"
     },
     {
       "id": "20260821-family-life-hamza-ibn-abd-al-muttalib-05",
@@ -15931,12 +16360,10 @@
       "title": "حمزة بن عبد المطلب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "hamza-ibn-abd-al-muttalib",
@@ -15944,7 +16371,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "ad3237f1f85ea8fbcfb3e2c4f1a39eb792450ccdea217b6377f4f9900c96971e",
@@ -16312,15 +16739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "hamza-ibn-abd-al-muttalib",
       "canonicalPersonName": "حمزة بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=hamza-ibn-abd-al-muttalib&name=%D8%AD%D9%85%D8%B2%D8%A9%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.835494Z"
+      "consolidatedAt": "2026-08-21T09:20:48.835494Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.759486Z"
     },
     {
       "id": "20260821-family-life-al-abbas-ibn-abd-al-muttalib-01",
@@ -16328,12 +16768,10 @@
       "title": "العباس بن عبد المطلب — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-abbas-ibn-abd-al-muttalib",
@@ -16341,7 +16779,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "344da54d22d115214483c134432fb2f69c46137324e3d45ffef377461fcf33cc",
@@ -16701,15 +17139,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-abbas-ibn-abd-al-muttalib",
       "canonicalPersonName": "العباس بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-abbas-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825715Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825715Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.533194Z"
     },
     {
       "id": "20260821-family-life-al-abbas-ibn-abd-al-muttalib-02",
@@ -16717,12 +17168,10 @@
       "title": "العباس بن عبد المطلب — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-abbas-ibn-abd-al-muttalib",
@@ -16730,7 +17179,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "3dd31ffb634c29d6fc386bda8992d916973cd03e1e032671086e582d32ff09bd",
@@ -17090,15 +17539,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-abbas-ibn-abd-al-muttalib",
       "canonicalPersonName": "العباس بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-abbas-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825765Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825765Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.533284Z"
     },
     {
       "id": "20260821-family-life-al-abbas-ibn-abd-al-muttalib-03",
@@ -17106,12 +17568,10 @@
       "title": "العباس بن عبد المطلب — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-abbas-ibn-abd-al-muttalib",
@@ -17119,7 +17579,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "70b788c5189d94a8e094fd5d302edad5e0d9552eeff2adbc0457552fdc4e35c4",
@@ -17479,15 +17939,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-abbas-ibn-abd-al-muttalib",
       "canonicalPersonName": "العباس بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-abbas-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825811Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825811Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.533369Z"
     },
     {
       "id": "20260821-family-life-al-abbas-ibn-abd-al-muttalib-04",
@@ -17495,12 +17968,10 @@
       "title": "العباس بن عبد المطلب — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-abbas-ibn-abd-al-muttalib",
@@ -17508,7 +17979,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "bc20ee624b6773537b64705409a4c268d7dcb5c190d35c02745e983ea98b0d8f",
@@ -17868,15 +18339,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-abbas-ibn-abd-al-muttalib",
       "canonicalPersonName": "العباس بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-abbas-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825858Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825858Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.533466Z"
     },
     {
       "id": "20260821-family-life-al-abbas-ibn-abd-al-muttalib-05",
@@ -17884,12 +18368,10 @@
       "title": "العباس بن عبد المطلب — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "al-abbas-ibn-abd-al-muttalib",
@@ -17897,7 +18379,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 600,
       "bodyFingerprint": "c1be72e8933d5fb7cece93499572bcef6e6cb3ed2c0907549cd23781e5192fce",
@@ -18257,15 +18739,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "al-abbas-ibn-abd-al-muttalib",
       "canonicalPersonName": "العباس بن عبد المطلب",
       "canonicalPersonUrl": "person.html?id=al-abbas-ibn-abd-al-muttalib&name=%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.825907Z"
+      "consolidatedAt": "2026-08-21T09:20:48.825907Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.533548Z"
     },
     {
       "id": "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-01",
@@ -18273,12 +18768,10 @@
       "title": "أبو لهب بن عبد المطلب (عبد العزى) — من سيرته وحياته — 1",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-lahab-ibn-abd-al-muttalib",
@@ -18286,7 +18779,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 548,
       "bodyFingerprint": "4d822a985c4238cbc979ac8eafc57b7e1356cd01533467a88332fe382e3dad9b",
@@ -18630,15 +19123,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-lahab-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو لهب بن عبد المطلب (عبد العزى)",
       "canonicalPersonUrl": "person.html?id=abu-lahab-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D9%84%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824098Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824098Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.524056Z"
     },
     {
       "id": "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-02",
@@ -18646,12 +19152,10 @@
       "title": "أبو لهب بن عبد المطلب (عبد العزى) — من سيرته وحياته — 2",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-lahab-ibn-abd-al-muttalib",
@@ -18659,7 +19163,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 548,
       "bodyFingerprint": "da2a13a8e2f1946a1affd1bd7b20bb022fa46306c3321c050b132a1f5bad05f2",
@@ -19003,15 +19507,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-lahab-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو لهب بن عبد المطلب (عبد العزى)",
       "canonicalPersonUrl": "person.html?id=abu-lahab-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D9%84%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824146Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824146Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.524148Z"
     },
     {
       "id": "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-03",
@@ -19019,12 +19536,10 @@
       "title": "أبو لهب بن عبد المطلب (عبد العزى) — من سيرته وحياته — 3",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-lahab-ibn-abd-al-muttalib",
@@ -19032,7 +19547,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 548,
       "bodyFingerprint": "570d62ece0b7bbdc9cac0a72a579d016fce954e28501a6716488a068410d3ada",
@@ -19376,15 +19891,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-lahab-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو لهب بن عبد المطلب (عبد العزى)",
       "canonicalPersonUrl": "person.html?id=abu-lahab-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D9%84%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824193Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824193Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.524230Z"
     },
     {
       "id": "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-04",
@@ -19392,12 +19920,10 @@
       "title": "أبو لهب بن عبد المطلب (عبد العزى) — من سيرته وحياته — 4",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-lahab-ibn-abd-al-muttalib",
@@ -19405,7 +19931,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 548,
       "bodyFingerprint": "238a15af47b36ce59c7d41578b80405a2a28e1f0dcf15ccc578d5ba3f652c230",
@@ -19749,15 +20275,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-lahab-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو لهب بن عبد المطلب (عبد العزى)",
       "canonicalPersonUrl": "person.html?id=abu-lahab-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D9%84%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824239Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824239Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.524312Z"
     },
     {
       "id": "20260821-family-life-abu-lahab-ibn-abd-al-muttalib-05",
@@ -19765,12 +20304,10 @@
       "title": "أبو لهب بن عبد المطلب (عبد العزى) — من سيرته وحياته — 5",
       "language": "ar",
       "contentType": "EDITORIALLY COMPILED SOURCE ARTICLE",
-      "articleKind": "supporting-person-source",
-      "section": "prophetic-family",
-      "subsection": "paternal-relatives",
-      "sections": [
-        "prophetic-family/paternal-relatives"
-      ],
+      "articleKind": "canonical-biography-chapter",
+      "section": "canonical-person-biography",
+      "subsection": "life-chapters",
+      "sections": [],
       "familyGroup": "paternal-uncles",
       "subject": {
         "id": "abu-lahab-ibn-abd-al-muttalib",
@@ -19778,7 +20315,7 @@
       },
       "publicationStatus": "PUBLISHED",
       "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
-      "canonicalEditorialSlot": false,
+      "canonicalEditorialSlot": true,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 548,
       "bodyFingerprint": "932e668d52f31338898230461547779fc2e25f3de896ea591846a80b0e75bacf",
@@ -20122,15 +20659,28 @@
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
       "provenanceStatus": "PASS",
-      "editorialCategory": "supporting-articles",
-      "biographyPlacement": false,
+      "editorialCategory": "canonical-biography",
+      "biographyPlacement": true,
       "publishedAt": "2026-08-21T07:25:00Z",
       "canonicalPersonId": "abu-lahab-ibn-abd-al-muttalib",
       "canonicalPersonName": "أبو لهب بن عبد المطلب (عبد العزى)",
       "canonicalPersonUrl": "person.html?id=abu-lahab-ibn-abd-al-muttalib&name=%D8%A3%D8%A8%D9%88%20%D9%84%D9%87%D8%A8%20%D8%A8%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8%20%28%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%89%29",
-      "publicRole": "supporting-thematic-article",
+      "publicRole": "canonical-biography-chapter",
       "consolidatedIntoCanonicalBiography": true,
-      "consolidatedAt": "2026-08-21T09:20:48.824286Z"
+      "consolidatedAt": "2026-08-21T09:20:48.824286Z",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/paternal-relatives"
+        ],
+        "subsection": "paternal-relatives",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      },
+      "publicListing": false,
+      "relocatedToCanonicalBiography": true,
+      "relocatedAt": "2026-08-21T22:21:28.524429Z"
     }
   ],
   "contentPlacement": "biographies"

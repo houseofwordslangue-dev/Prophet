@@ -1,0 +1,317 @@
+{
+  "schema": "canonical-person-life-chapters-v1",
+  "personId": "fatima-bint-amr",
+  "personName": "فاطمة بنت عمرو",
+  "canonicalUrl": "person.html?id=fatima-bint-amr&name=%D9%81%D8%A7%D8%B7%D9%85%D8%A9%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1%D9%88",
+  "chapterCount": 5,
+  "languageCounts": {
+    "ar": 5
+  },
+  "chapters": [
+    {
+      "id": "20260821-family-life-fatima-bint-amr-01",
+      "language": "ar",
+      "title": "فاطمة بنت عمرو — من سيرته وحياته — 1",
+      "body": "",
+      "wordCount": 640,
+      "sources": [
+        {
+          "ref": "wikisource-fatima-bint-amr-001",
+          "sourceChannel": "wikisource",
+          "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+          "url": "https://ar.wikisource.org/?curid=40450",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-002",
+          "sourceChannel": "wikisource",
+          "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+          "url": "https://ar.wikisource.org/?curid=9762",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-003",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+          "url": "https://ar.wikisource.org/?curid=24003",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-004",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+          "url": "https://ar.wikisource.org/?curid=24026",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-005",
+          "sourceChannel": "wikisource",
+          "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+          "url": "https://ar.wikisource.org/?curid=16326",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-fatima-bint-amr-02",
+      "language": "ar",
+      "title": "فاطمة بنت عمرو — من سيرته وحياته — 2",
+      "body": "",
+      "wordCount": 640,
+      "sources": [
+        {
+          "ref": "wikisource-fatima-bint-amr-001",
+          "sourceChannel": "wikisource",
+          "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+          "url": "https://ar.wikisource.org/?curid=40450",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-002",
+          "sourceChannel": "wikisource",
+          "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+          "url": "https://ar.wikisource.org/?curid=9762",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-003",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+          "url": "https://ar.wikisource.org/?curid=24003",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-004",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+          "url": "https://ar.wikisource.org/?curid=24026",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-005",
+          "sourceChannel": "wikisource",
+          "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+          "url": "https://ar.wikisource.org/?curid=16326",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-fatima-bint-amr-03",
+      "language": "ar",
+      "title": "فاطمة بنت عمرو — من سيرته وحياته — 3",
+      "body": "",
+      "wordCount": 640,
+      "sources": [
+        {
+          "ref": "wikisource-fatima-bint-amr-001",
+          "sourceChannel": "wikisource",
+          "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+          "url": "https://ar.wikisource.org/?curid=40450",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-002",
+          "sourceChannel": "wikisource",
+          "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+          "url": "https://ar.wikisource.org/?curid=9762",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-003",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+          "url": "https://ar.wikisource.org/?curid=24003",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-004",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+          "url": "https://ar.wikisource.org/?curid=24026",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-005",
+          "sourceChannel": "wikisource",
+          "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+          "url": "https://ar.wikisource.org/?curid=16326",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-fatima-bint-amr-04",
+      "language": "ar",
+      "title": "فاطمة بنت عمرو — من سيرته وحياته — 4",
+      "body": "",
+      "wordCount": 640,
+      "sources": [
+        {
+          "ref": "wikisource-fatima-bint-amr-001",
+          "sourceChannel": "wikisource",
+          "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+          "url": "https://ar.wikisource.org/?curid=40450",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-002",
+          "sourceChannel": "wikisource",
+          "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+          "url": "https://ar.wikisource.org/?curid=9762",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-003",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+          "url": "https://ar.wikisource.org/?curid=24003",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-004",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+          "url": "https://ar.wikisource.org/?curid=24026",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-005",
+          "sourceChannel": "wikisource",
+          "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+          "url": "https://ar.wikisource.org/?curid=16326",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    },
+    {
+      "id": "20260821-family-life-fatima-bint-amr-05",
+      "language": "ar",
+      "title": "فاطمة بنت عمرو — من سيرته وحياته — 5",
+      "body": "",
+      "wordCount": 640,
+      "sources": [
+        {
+          "ref": "wikisource-fatima-bint-amr-001",
+          "sourceChannel": "wikisource",
+          "title": "سيدنا محمد صلى الله عليه وسلم/أولاد عبد المطلب أعمام رسول الله وعماته",
+          "url": "https://ar.wikisource.org/?curid=40450",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-002",
+          "sourceChannel": "wikisource",
+          "title": "مقدمة ابن الصلاح/النوع التاسع والخمسون",
+          "url": "https://ar.wikisource.org/?curid=9762",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-003",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل: تفويض قصي أمر الوظائف لابنه عبد الدار",
+          "url": "https://ar.wikisource.org/?curid=24003",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-004",
+          "sourceChannel": "wikisource",
+          "title": "البداية والنهاية/الجزء الثاني/فصل كفالة عبد المطلب للنبي عليه الصلاة والسلام",
+          "url": "https://ar.wikisource.org/?curid=24026",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        },
+        {
+          "ref": "wikisource-fatima-bint-amr-005",
+          "sourceChannel": "wikisource",
+          "title": "جمهرة أنساب العرب/ولد فهر بن مالك بن النضر",
+          "url": "https://ar.wikisource.org/?curid=16326",
+          "publicDomainClassicalText": true,
+          "retrieval": "MediaWiki API plaintext source window"
+        }
+      ],
+      "provenance": {},
+      "sourcePath": "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+      "previousPlacement": {
+        "section": "prophetic-family",
+        "sections": [
+          "prophetic-family/ancestors"
+        ],
+        "subsection": "ancestors",
+        "editorialCategory": "supporting-articles",
+        "articleKind": "supporting-person-source",
+        "publicRole": "supporting-thematic-article"
+      }
+    }
+  ]
+}
