@@ -1,0 +1,32 @@
+{
+  "schema": "remaining-family-biographies-publication-audit-v1",
+  "generatedAt": "2026-08-21T07:27:15.888768Z",
+  "status": "PUBLISHED",
+  "category": "biographies",
+  "people": 115,
+  "articlesPerPerson": 5,
+  "articles": 575,
+  "minimumWordsRequired": 500,
+  "minimumObservedWords": 501,
+  "maximumObservedWords": 640,
+  "articlesUnder500Words": 0,
+  "uniqueArticleIds": 575,
+  "subjectsWithExactlyFive": 115,
+  "sourceCoveragePercent": 100,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "prophetOnlySectionsUsed": 0,
+  "batchPaths": [
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-001.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-002.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-003.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-004.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-006.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-007.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
+  ]
+}

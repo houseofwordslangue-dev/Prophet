@@ -1,14 +1,14 @@
 {
   "version": "2026-08-21-family-life-complete-007",
-  "publicationStatus": "DRAFT",
+  "publicationStatus": "PUBLISHED",
   "drafts": [
     {
       "id": "20260821-family-life-al-husayn-ibn-ali-01",
       "slug": "al-husayn-ibn-ali-life-01",
       "title": "الحسين بن علي — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -19,8 +19,8 @@
         "id": "al-husayn-ibn-ali",
         "name": "الحسين بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -284,15 +284,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-husayn-ibn-ali-02",
       "slug": "al-husayn-ibn-ali-life-02",
       "title": "الحسين بن علي — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -303,8 +306,8 @@
         "id": "al-husayn-ibn-ali",
         "name": "الحسين بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -568,15 +571,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-husayn-ibn-ali-03",
       "slug": "al-husayn-ibn-ali-life-03",
       "title": "الحسين بن علي — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -587,8 +593,8 @@
         "id": "al-husayn-ibn-ali",
         "name": "الحسين بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -852,15 +858,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-husayn-ibn-ali-04",
       "slug": "al-husayn-ibn-ali-life-04",
       "title": "الحسين بن علي — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -871,8 +880,8 @@
         "id": "al-husayn-ibn-ali",
         "name": "الحسين بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -1136,15 +1145,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-husayn-ibn-ali-05",
       "slug": "al-husayn-ibn-ali-life-05",
       "title": "الحسين بن علي — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -1155,8 +1167,8 @@
         "id": "al-husayn-ibn-ali",
         "name": "الحسين بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -1420,15 +1432,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-ali-01",
       "slug": "zaynab-bint-ali-life-01",
       "title": "زينب بنت علي — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -1439,8 +1454,8 @@
         "id": "zaynab-bint-ali",
         "name": "زينب بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -1696,15 +1711,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-ali-02",
       "slug": "zaynab-bint-ali-life-02",
       "title": "زينب بنت علي — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -1715,8 +1733,8 @@
         "id": "zaynab-bint-ali",
         "name": "زينب بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -1972,15 +1990,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-ali-03",
       "slug": "zaynab-bint-ali-life-03",
       "title": "زينب بنت علي — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -1991,8 +2012,8 @@
         "id": "zaynab-bint-ali",
         "name": "زينب بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -2248,15 +2269,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-ali-04",
       "slug": "zaynab-bint-ali-life-04",
       "title": "زينب بنت علي — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -2267,8 +2291,8 @@
         "id": "zaynab-bint-ali",
         "name": "زينب بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -2524,15 +2548,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zaynab-bint-ali-05",
       "slug": "zaynab-bint-ali-life-05",
       "title": "زينب بنت علي — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -2543,8 +2570,8 @@
         "id": "zaynab-bint-ali",
         "name": "زينب بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 507,
@@ -2800,15 +2827,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-ali-01",
       "slug": "umm-kulthum-bint-ali-life-01",
       "title": "أم كلثوم بنت علي — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -2819,8 +2849,8 @@
         "id": "umm-kulthum-bint-ali",
         "name": "أم كلثوم بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3076,15 +3106,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-ali-02",
       "slug": "umm-kulthum-bint-ali-life-02",
       "title": "أم كلثوم بنت علي — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -3095,8 +3128,8 @@
         "id": "umm-kulthum-bint-ali",
         "name": "أم كلثوم بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3352,15 +3385,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-ali-03",
       "slug": "umm-kulthum-bint-ali-life-03",
       "title": "أم كلثوم بنت علي — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -3371,8 +3407,8 @@
         "id": "umm-kulthum-bint-ali",
         "name": "أم كلثوم بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3628,15 +3664,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-ali-04",
       "slug": "umm-kulthum-bint-ali-life-04",
       "title": "أم كلثوم بنت علي — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -3647,8 +3686,8 @@
         "id": "umm-kulthum-bint-ali",
         "name": "أم كلثوم بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3904,15 +3943,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-umm-kulthum-bint-ali-05",
       "slug": "umm-kulthum-bint-ali-life-05",
       "title": "أم كلثوم بنت علي — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -3923,8 +3965,8 @@
         "id": "umm-kulthum-bint-ali",
         "name": "أم كلثوم بنت علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4180,15 +4222,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-muhsin-ibn-ali-01",
       "slug": "muhsin-ibn-ali-life-01",
       "title": "محسن بن علي — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -4199,8 +4244,8 @@
         "id": "muhsin-ibn-ali",
         "name": "محسن بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4456,15 +4501,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-muhsin-ibn-ali-02",
       "slug": "muhsin-ibn-ali-life-02",
       "title": "محسن بن علي — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -4475,8 +4523,8 @@
         "id": "muhsin-ibn-ali",
         "name": "محسن بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4732,15 +4780,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-muhsin-ibn-ali-03",
       "slug": "muhsin-ibn-ali-life-03",
       "title": "محسن بن علي — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -4751,8 +4802,8 @@
         "id": "muhsin-ibn-ali",
         "name": "محسن بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5008,15 +5059,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-muhsin-ibn-ali-04",
       "slug": "muhsin-ibn-ali-life-04",
       "title": "محسن بن علي — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -5027,8 +5081,8 @@
         "id": "muhsin-ibn-ali",
         "name": "محسن بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5284,15 +5338,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-muhsin-ibn-ali-05",
       "slug": "muhsin-ibn-ali-life-05",
       "title": "محسن بن علي — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -5303,8 +5360,8 @@
         "id": "muhsin-ibn-ali",
         "name": "محسن بن علي"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5560,15 +5617,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zayd-ibn-al-hasan-01",
       "slug": "zayd-ibn-al-hasan-life-01",
       "title": "زيد بن الحسن — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -5579,8 +5639,8 @@
         "id": "zayd-ibn-al-hasan",
         "name": "زيد بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5988,15 +6048,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zayd-ibn-al-hasan-02",
       "slug": "zayd-ibn-al-hasan-life-02",
       "title": "زيد بن الحسن — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -6007,8 +6070,8 @@
         "id": "zayd-ibn-al-hasan",
         "name": "زيد بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -6416,15 +6479,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zayd-ibn-al-hasan-03",
       "slug": "zayd-ibn-al-hasan-life-03",
       "title": "زيد بن الحسن — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -6435,8 +6501,8 @@
         "id": "zayd-ibn-al-hasan",
         "name": "زيد بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -6844,15 +6910,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zayd-ibn-al-hasan-04",
       "slug": "zayd-ibn-al-hasan-life-04",
       "title": "زيد بن الحسن — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -6863,8 +6932,8 @@
         "id": "zayd-ibn-al-hasan",
         "name": "زيد بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7272,15 +7341,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-zayd-ibn-al-hasan-05",
       "slug": "zayd-ibn-al-hasan-life-05",
       "title": "زيد بن الحسن — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -7291,8 +7363,8 @@
         "id": "zayd-ibn-al-hasan",
         "name": "زيد بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7700,15 +7772,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-amr-ibn-al-hasan-01",
       "slug": "amr-ibn-al-hasan-life-01",
       "title": "عمرو بن الحسن — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -7719,8 +7794,8 @@
         "id": "amr-ibn-al-hasan",
         "name": "عمرو بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8128,15 +8203,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-amr-ibn-al-hasan-02",
       "slug": "amr-ibn-al-hasan-life-02",
       "title": "عمرو بن الحسن — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -8147,8 +8225,8 @@
         "id": "amr-ibn-al-hasan",
         "name": "عمرو بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8556,15 +8634,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-amr-ibn-al-hasan-03",
       "slug": "amr-ibn-al-hasan-life-03",
       "title": "عمرو بن الحسن — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -8575,8 +8656,8 @@
         "id": "amr-ibn-al-hasan",
         "name": "عمرو بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8984,15 +9065,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-amr-ibn-al-hasan-04",
       "slug": "amr-ibn-al-hasan-life-04",
       "title": "عمرو بن الحسن — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -9003,8 +9087,8 @@
         "id": "amr-ibn-al-hasan",
         "name": "عمرو بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -9412,15 +9496,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-amr-ibn-al-hasan-05",
       "slug": "amr-ibn-al-hasan-life-05",
       "title": "عمرو بن الحسن — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -9431,8 +9518,8 @@
         "id": "amr-ibn-al-hasan",
         "name": "عمرو بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -9840,15 +9927,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-al-hasan-01",
       "slug": "al-qasim-ibn-al-hasan-life-01",
       "title": "القاسم بن الحسن — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -9859,8 +9949,8 @@
         "id": "al-qasim-ibn-al-hasan",
         "name": "القاسم بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10268,15 +10358,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-al-hasan-02",
       "slug": "al-qasim-ibn-al-hasan-life-02",
       "title": "القاسم بن الحسن — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -10287,8 +10380,8 @@
         "id": "al-qasim-ibn-al-hasan",
         "name": "القاسم بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10696,15 +10789,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-al-hasan-03",
       "slug": "al-qasim-ibn-al-hasan-life-03",
       "title": "القاسم بن الحسن — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -10715,8 +10811,8 @@
         "id": "al-qasim-ibn-al-hasan",
         "name": "القاسم بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11124,15 +11220,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-al-hasan-04",
       "slug": "al-qasim-ibn-al-hasan-life-04",
       "title": "القاسم بن الحسن — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -11143,8 +11242,8 @@
         "id": "al-qasim-ibn-al-hasan",
         "name": "القاسم بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11552,15 +11651,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-qasim-ibn-al-hasan-05",
       "slug": "al-qasim-ibn-al-hasan-life-05",
       "title": "القاسم بن الحسن — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -11571,8 +11673,8 @@
         "id": "al-qasim-ibn-al-hasan",
         "name": "القاسم بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11980,15 +12082,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-hasan-01",
       "slug": "abdullah-ibn-al-hasan-life-01",
       "title": "عبد الله بن الحسن — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -11999,8 +12104,8 @@
         "id": "abdullah-ibn-al-hasan",
         "name": "عبد الله بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -12408,15 +12513,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-hasan-02",
       "slug": "abdullah-ibn-al-hasan-life-02",
       "title": "عبد الله بن الحسن — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -12427,8 +12535,8 @@
         "id": "abdullah-ibn-al-hasan",
         "name": "عبد الله بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -12836,15 +12944,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-hasan-03",
       "slug": "abdullah-ibn-al-hasan-life-03",
       "title": "عبد الله بن الحسن — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -12855,8 +12966,8 @@
         "id": "abdullah-ibn-al-hasan",
         "name": "عبد الله بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13264,15 +13375,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-hasan-04",
       "slug": "abdullah-ibn-al-hasan-life-04",
       "title": "عبد الله بن الحسن — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -13283,8 +13397,8 @@
         "id": "abdullah-ibn-al-hasan",
         "name": "عبد الله بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13692,15 +13806,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-hasan-05",
       "slug": "abdullah-ibn-al-hasan-life-05",
       "title": "عبد الله بن الحسن — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -13711,8 +13828,8 @@
         "id": "abdullah-ibn-al-hasan",
         "name": "عبد الله بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14120,15 +14237,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-bakr-ibn-al-hasan-01",
       "slug": "abu-bakr-ibn-al-hasan-life-01",
       "title": "أبو بكر بن الحسن — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -14139,8 +14259,8 @@
         "id": "abu-bakr-ibn-al-hasan",
         "name": "أبو بكر بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14548,15 +14668,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-bakr-ibn-al-hasan-02",
       "slug": "abu-bakr-ibn-al-hasan-life-02",
       "title": "أبو بكر بن الحسن — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -14567,8 +14690,8 @@
         "id": "abu-bakr-ibn-al-hasan",
         "name": "أبو بكر بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14976,15 +15099,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-bakr-ibn-al-hasan-03",
       "slug": "abu-bakr-ibn-al-hasan-life-03",
       "title": "أبو بكر بن الحسن — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -14995,8 +15121,8 @@
         "id": "abu-bakr-ibn-al-hasan",
         "name": "أبو بكر بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -15404,15 +15530,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-bakr-ibn-al-hasan-04",
       "slug": "abu-bakr-ibn-al-hasan-life-04",
       "title": "أبو بكر بن الحسن — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -15423,8 +15552,8 @@
         "id": "abu-bakr-ibn-al-hasan",
         "name": "أبو بكر بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -15832,15 +15961,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-bakr-ibn-al-hasan-05",
       "slug": "abu-bakr-ibn-al-hasan-life-05",
       "title": "أبو بكر بن الحسن — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -15851,8 +15983,8 @@
         "id": "abu-bakr-ibn-al-hasan",
         "name": "أبو بكر بن الحسن"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -16260,15 +16392,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ali-al-akbar-ibn-al-husayn-01",
       "slug": "ali-al-akbar-ibn-al-husayn-life-01",
       "title": "علي الأكبر بن الحسين — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -16279,8 +16414,8 @@
         "id": "ali-al-akbar-ibn-al-husayn",
         "name": "علي الأكبر بن الحسين"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -16688,15 +16823,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ali-al-akbar-ibn-al-husayn-02",
       "slug": "ali-al-akbar-ibn-al-husayn-life-02",
       "title": "علي الأكبر بن الحسين — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -16707,8 +16845,8 @@
         "id": "ali-al-akbar-ibn-al-husayn",
         "name": "علي الأكبر بن الحسين"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -17116,15 +17254,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ali-al-akbar-ibn-al-husayn-03",
       "slug": "ali-al-akbar-ibn-al-husayn-life-03",
       "title": "علي الأكبر بن الحسين — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -17135,8 +17276,8 @@
         "id": "ali-al-akbar-ibn-al-husayn",
         "name": "علي الأكبر بن الحسين"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -17544,15 +17685,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ali-al-akbar-ibn-al-husayn-04",
       "slug": "ali-al-akbar-ibn-al-husayn-life-04",
       "title": "علي الأكبر بن الحسين — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -17563,8 +17707,8 @@
         "id": "ali-al-akbar-ibn-al-husayn",
         "name": "علي الأكبر بن الحسين"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -17972,15 +18116,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ali-al-akbar-ibn-al-husayn-05",
       "slug": "ali-al-akbar-ibn-al-husayn-life-05",
       "title": "علي الأكبر بن الحسين — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-household",
       "subsection": "grandchildren",
       "sections": [
@@ -17991,8 +18138,8 @@
         "id": "ali-al-akbar-ibn-al-husayn",
         "name": "علي الأكبر بن الحسين"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -18400,7 +18547,11 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     }
-  ]
+  ],
+  "contentPlacement": "biographies"
 }

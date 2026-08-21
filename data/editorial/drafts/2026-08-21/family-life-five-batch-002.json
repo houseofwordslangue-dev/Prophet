@@ -1,14 +1,14 @@
 {
   "version": "2026-08-21-family-life-complete-002",
-  "publicationStatus": "DRAFT",
+  "publicationStatus": "PUBLISHED",
   "drafts": [
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-01",
       "slug": "malik-ibn-al-nadr-life-01",
       "title": "مالك بن النضر — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -19,8 +19,8 @@
         "id": "malik-ibn-al-nadr",
         "name": "مالك بن النضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -420,15 +420,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-02",
       "slug": "malik-ibn-al-nadr-life-02",
       "title": "مالك بن النضر — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -439,8 +442,8 @@
         "id": "malik-ibn-al-nadr",
         "name": "مالك بن النضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -840,15 +843,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-03",
       "slug": "malik-ibn-al-nadr-life-03",
       "title": "مالك بن النضر — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -859,8 +865,8 @@
         "id": "malik-ibn-al-nadr",
         "name": "مالك بن النضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -1260,15 +1266,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-04",
       "slug": "malik-ibn-al-nadr-life-04",
       "title": "مالك بن النضر — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -1279,8 +1288,8 @@
         "id": "malik-ibn-al-nadr",
         "name": "مالك بن النضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -1680,15 +1689,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-malik-ibn-al-nadr-05",
       "slug": "malik-ibn-al-nadr-life-05",
       "title": "مالك بن النضر — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -1699,8 +1711,8 @@
         "id": "malik-ibn-al-nadr",
         "name": "مالك بن النضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -2100,15 +2112,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-01",
       "slug": "al-nadr-ibn-kinana-life-01",
       "title": "النضر بن كنانة — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -2119,8 +2134,8 @@
         "id": "al-nadr-ibn-kinana",
         "name": "النضر بن كنانة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -2520,15 +2535,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-02",
       "slug": "al-nadr-ibn-kinana-life-02",
       "title": "النضر بن كنانة — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -2539,8 +2557,8 @@
         "id": "al-nadr-ibn-kinana",
         "name": "النضر بن كنانة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -2940,15 +2958,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-03",
       "slug": "al-nadr-ibn-kinana-life-03",
       "title": "النضر بن كنانة — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -2959,8 +2980,8 @@
         "id": "al-nadr-ibn-kinana",
         "name": "النضر بن كنانة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3360,15 +3381,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-04",
       "slug": "al-nadr-ibn-kinana-life-04",
       "title": "النضر بن كنانة — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -3379,8 +3403,8 @@
         "id": "al-nadr-ibn-kinana",
         "name": "النضر بن كنانة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3780,15 +3804,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-al-nadr-ibn-kinana-05",
       "slug": "al-nadr-ibn-kinana-life-05",
       "title": "النضر بن كنانة — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -3799,8 +3826,8 @@
         "id": "al-nadr-ibn-kinana",
         "name": "النضر بن كنانة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4200,15 +4227,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-01",
       "slug": "kinana-ibn-khuzayma-life-01",
       "title": "كنانة بن خزيمة — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -4219,8 +4249,8 @@
         "id": "kinana-ibn-khuzayma",
         "name": "كنانة بن خزيمة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4620,15 +4650,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-02",
       "slug": "kinana-ibn-khuzayma-life-02",
       "title": "كنانة بن خزيمة — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -4639,8 +4672,8 @@
         "id": "kinana-ibn-khuzayma",
         "name": "كنانة بن خزيمة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5040,15 +5073,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-03",
       "slug": "kinana-ibn-khuzayma-life-03",
       "title": "كنانة بن خزيمة — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -5059,8 +5095,8 @@
         "id": "kinana-ibn-khuzayma",
         "name": "كنانة بن خزيمة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5460,15 +5496,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-04",
       "slug": "kinana-ibn-khuzayma-life-04",
       "title": "كنانة بن خزيمة — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -5479,8 +5518,8 @@
         "id": "kinana-ibn-khuzayma",
         "name": "كنانة بن خزيمة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5880,15 +5919,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-kinana-ibn-khuzayma-05",
       "slug": "kinana-ibn-khuzayma-life-05",
       "title": "كنانة بن خزيمة — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -5899,8 +5941,8 @@
         "id": "kinana-ibn-khuzayma",
         "name": "كنانة بن خزيمة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -6300,15 +6342,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-01",
       "slug": "khuzayma-ibn-mudrika-life-01",
       "title": "خزيمة بن مدركة — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -6319,8 +6364,8 @@
         "id": "khuzayma-ibn-mudrika",
         "name": "خزيمة بن مدركة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -6720,15 +6765,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-02",
       "slug": "khuzayma-ibn-mudrika-life-02",
       "title": "خزيمة بن مدركة — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -6739,8 +6787,8 @@
         "id": "khuzayma-ibn-mudrika",
         "name": "خزيمة بن مدركة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7140,15 +7188,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-03",
       "slug": "khuzayma-ibn-mudrika-life-03",
       "title": "خزيمة بن مدركة — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -7159,8 +7210,8 @@
         "id": "khuzayma-ibn-mudrika",
         "name": "خزيمة بن مدركة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7560,15 +7611,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-04",
       "slug": "khuzayma-ibn-mudrika-life-04",
       "title": "خزيمة بن مدركة — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -7579,8 +7633,8 @@
         "id": "khuzayma-ibn-mudrika",
         "name": "خزيمة بن مدركة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7980,15 +8034,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-khuzayma-ibn-mudrika-05",
       "slug": "khuzayma-ibn-mudrika-life-05",
       "title": "خزيمة بن مدركة — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -7999,8 +8056,8 @@
         "id": "khuzayma-ibn-mudrika",
         "name": "خزيمة بن مدركة"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8400,15 +8457,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-01",
       "slug": "mudrika-ibn-ilyas-life-01",
       "title": "مدركة بن إلياس — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -8419,8 +8479,8 @@
         "id": "mudrika-ibn-ilyas",
         "name": "مدركة بن إلياس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8820,15 +8880,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-02",
       "slug": "mudrika-ibn-ilyas-life-02",
       "title": "مدركة بن إلياس — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -8839,8 +8902,8 @@
         "id": "mudrika-ibn-ilyas",
         "name": "مدركة بن إلياس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -9240,15 +9303,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-03",
       "slug": "mudrika-ibn-ilyas-life-03",
       "title": "مدركة بن إلياس — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -9259,8 +9325,8 @@
         "id": "mudrika-ibn-ilyas",
         "name": "مدركة بن إلياس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -9660,15 +9726,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-04",
       "slug": "mudrika-ibn-ilyas-life-04",
       "title": "مدركة بن إلياس — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -9679,8 +9748,8 @@
         "id": "mudrika-ibn-ilyas",
         "name": "مدركة بن إلياس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10080,15 +10149,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudrika-ibn-ilyas-05",
       "slug": "mudrika-ibn-ilyas-life-05",
       "title": "مدركة بن إلياس — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -10099,8 +10171,8 @@
         "id": "mudrika-ibn-ilyas",
         "name": "مدركة بن إلياس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10500,15 +10572,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-01",
       "slug": "ilyas-ibn-mudar-life-01",
       "title": "إلياس بن مضر — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -10519,8 +10594,8 @@
         "id": "ilyas-ibn-mudar",
         "name": "إلياس بن مضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10920,15 +10995,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-02",
       "slug": "ilyas-ibn-mudar-life-02",
       "title": "إلياس بن مضر — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -10939,8 +11017,8 @@
         "id": "ilyas-ibn-mudar",
         "name": "إلياس بن مضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11340,15 +11418,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-03",
       "slug": "ilyas-ibn-mudar-life-03",
       "title": "إلياس بن مضر — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -11359,8 +11440,8 @@
         "id": "ilyas-ibn-mudar",
         "name": "إلياس بن مضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11760,15 +11841,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-04",
       "slug": "ilyas-ibn-mudar-life-04",
       "title": "إلياس بن مضر — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -11779,8 +11863,8 @@
         "id": "ilyas-ibn-mudar",
         "name": "إلياس بن مضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -12180,15 +12264,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-ilyas-ibn-mudar-05",
       "slug": "ilyas-ibn-mudar-life-05",
       "title": "إلياس بن مضر — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -12199,8 +12286,8 @@
         "id": "ilyas-ibn-mudar",
         "name": "إلياس بن مضر"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -12600,15 +12687,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-01",
       "slug": "mudar-ibn-nizar-life-01",
       "title": "مضر بن نزار — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -12619,8 +12709,8 @@
         "id": "mudar-ibn-nizar",
         "name": "مضر بن نزار"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13020,15 +13110,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-02",
       "slug": "mudar-ibn-nizar-life-02",
       "title": "مضر بن نزار — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -13039,8 +13132,8 @@
         "id": "mudar-ibn-nizar",
         "name": "مضر بن نزار"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13440,15 +13533,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-03",
       "slug": "mudar-ibn-nizar-life-03",
       "title": "مضر بن نزار — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -13459,8 +13555,8 @@
         "id": "mudar-ibn-nizar",
         "name": "مضر بن نزار"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13860,15 +13956,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-04",
       "slug": "mudar-ibn-nizar-life-04",
       "title": "مضر بن نزار — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -13879,8 +13978,8 @@
         "id": "mudar-ibn-nizar",
         "name": "مضر بن نزار"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14280,15 +14379,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mudar-ibn-nizar-05",
       "slug": "mudar-ibn-nizar-life-05",
       "title": "مضر بن نزار — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -14299,8 +14401,8 @@
         "id": "mudar-ibn-nizar",
         "name": "مضر بن نزار"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14700,15 +14802,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-01",
       "slug": "nizar-ibn-maadd-life-01",
       "title": "نزار بن معد — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -14719,8 +14824,8 @@
         "id": "nizar-ibn-maadd",
         "name": "نزار بن معد"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -15120,15 +15225,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-02",
       "slug": "nizar-ibn-maadd-life-02",
       "title": "نزار بن معد — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -15139,8 +15247,8 @@
         "id": "nizar-ibn-maadd",
         "name": "نزار بن معد"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -15540,15 +15648,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-03",
       "slug": "nizar-ibn-maadd-life-03",
       "title": "نزار بن معد — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -15559,8 +15670,8 @@
         "id": "nizar-ibn-maadd",
         "name": "نزار بن معد"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -15960,15 +16071,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-04",
       "slug": "nizar-ibn-maadd-life-04",
       "title": "نزار بن معد — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -15979,8 +16093,8 @@
         "id": "nizar-ibn-maadd",
         "name": "نزار بن معد"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -16380,15 +16494,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nizar-ibn-maadd-05",
       "slug": "nizar-ibn-maadd-life-05",
       "title": "نزار بن معد — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -16399,8 +16516,8 @@
         "id": "nizar-ibn-maadd",
         "name": "نزار بن معد"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -16800,15 +16917,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-01",
       "slug": "maadd-ibn-adnan-life-01",
       "title": "معد بن عدنان — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -16819,8 +16939,8 @@
         "id": "maadd-ibn-adnan",
         "name": "معد بن عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
@@ -17220,15 +17340,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-02",
       "slug": "maadd-ibn-adnan-life-02",
       "title": "معد بن عدنان — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -17239,8 +17362,8 @@
         "id": "maadd-ibn-adnan",
         "name": "معد بن عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
@@ -17640,15 +17763,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-03",
       "slug": "maadd-ibn-adnan-life-03",
       "title": "معد بن عدنان — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -17659,8 +17785,8 @@
         "id": "maadd-ibn-adnan",
         "name": "معد بن عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
@@ -18060,15 +18186,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-04",
       "slug": "maadd-ibn-adnan-life-04",
       "title": "معد بن عدنان — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -18079,8 +18208,8 @@
         "id": "maadd-ibn-adnan",
         "name": "معد بن عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
@@ -18480,15 +18609,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-maadd-ibn-adnan-05",
       "slug": "maadd-ibn-adnan-life-05",
       "title": "معد بن عدنان — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -18499,8 +18631,8 @@
         "id": "maadd-ibn-adnan",
         "name": "معد بن عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 509,
@@ -18900,15 +19032,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-adnan-01",
       "slug": "adnan-life-01",
       "title": "عدنان — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -18919,8 +19054,8 @@
         "id": "adnan",
         "name": "عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
@@ -19320,15 +19455,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-adnan-02",
       "slug": "adnan-life-02",
       "title": "عدنان — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -19339,8 +19477,8 @@
         "id": "adnan",
         "name": "عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
@@ -19740,15 +19878,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-adnan-03",
       "slug": "adnan-life-03",
       "title": "عدنان — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -19759,8 +19900,8 @@
         "id": "adnan",
         "name": "عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
@@ -20160,15 +20301,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-adnan-04",
       "slug": "adnan-life-04",
       "title": "عدنان — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -20179,8 +20323,8 @@
         "id": "adnan",
         "name": "عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
@@ -20580,15 +20724,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-adnan-05",
       "slug": "adnan-life-05",
       "title": "عدنان — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "ancestors",
       "sections": [
@@ -20599,8 +20746,8 @@
         "id": "adnan",
         "name": "عدنان"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 571,
@@ -21000,7 +21147,11 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     }
-  ]
+  ],
+  "contentPlacement": "biographies"
 }

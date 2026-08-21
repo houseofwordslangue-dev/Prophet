@@ -1,14 +1,14 @@
 {
   "version": "2026-08-21-family-life-complete-009",
-  "publicationStatus": "DRAFT",
+  "publicationStatus": "PUBLISHED",
   "drafts": [
     {
       "id": "20260821-family-life-qutham-ibn-al-abbas-01",
       "slug": "qutham-ibn-al-abbas-life-01",
       "title": "قثم بن العباس — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -19,8 +19,8 @@
         "id": "qutham-ibn-al-abbas",
         "name": "قثم بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -428,15 +428,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-qutham-ibn-al-abbas-02",
       "slug": "qutham-ibn-al-abbas-life-02",
       "title": "قثم بن العباس — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -447,8 +450,8 @@
         "id": "qutham-ibn-al-abbas",
         "name": "قثم بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -856,15 +859,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-qutham-ibn-al-abbas-03",
       "slug": "qutham-ibn-al-abbas-life-03",
       "title": "قثم بن العباس — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -875,8 +881,8 @@
         "id": "qutham-ibn-al-abbas",
         "name": "قثم بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -1284,15 +1290,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-qutham-ibn-al-abbas-04",
       "slug": "qutham-ibn-al-abbas-life-04",
       "title": "قثم بن العباس — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -1303,8 +1312,8 @@
         "id": "qutham-ibn-al-abbas",
         "name": "قثم بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -1712,15 +1721,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-qutham-ibn-al-abbas-05",
       "slug": "qutham-ibn-al-abbas-life-05",
       "title": "قثم بن العباس — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -1731,8 +1743,8 @@
         "id": "qutham-ibn-al-abbas",
         "name": "قثم بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -2140,15 +2152,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mabad-ibn-al-abbas-01",
       "slug": "mabad-ibn-al-abbas-life-01",
       "title": "معبد بن العباس — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -2159,8 +2174,8 @@
         "id": "mabad-ibn-al-abbas",
         "name": "معبد بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -2568,15 +2583,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mabad-ibn-al-abbas-02",
       "slug": "mabad-ibn-al-abbas-life-02",
       "title": "معبد بن العباس — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -2587,8 +2605,8 @@
         "id": "mabad-ibn-al-abbas",
         "name": "معبد بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -2996,15 +3014,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mabad-ibn-al-abbas-03",
       "slug": "mabad-ibn-al-abbas-life-03",
       "title": "معبد بن العباس — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -3015,8 +3036,8 @@
         "id": "mabad-ibn-al-abbas",
         "name": "معبد بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3424,15 +3445,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mabad-ibn-al-abbas-04",
       "slug": "mabad-ibn-al-abbas-life-04",
       "title": "معبد بن العباس — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -3443,8 +3467,8 @@
         "id": "mabad-ibn-al-abbas",
         "name": "معبد بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -3852,15 +3876,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-mabad-ibn-al-abbas-05",
       "slug": "mabad-ibn-al-abbas-life-05",
       "title": "معبد بن العباس — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -3871,8 +3898,8 @@
         "id": "mabad-ibn-al-abbas",
         "name": "معبد بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4280,15 +4307,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abd-al-rahman-ibn-al-abbas-01",
       "slug": "abd-al-rahman-ibn-al-abbas-life-01",
       "title": "عبد الرحمن بن العباس — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -4299,8 +4329,8 @@
         "id": "abd-al-rahman-ibn-al-abbas",
         "name": "عبد الرحمن بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -4708,15 +4738,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abd-al-rahman-ibn-al-abbas-02",
       "slug": "abd-al-rahman-ibn-al-abbas-life-02",
       "title": "عبد الرحمن بن العباس — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -4727,8 +4760,8 @@
         "id": "abd-al-rahman-ibn-al-abbas",
         "name": "عبد الرحمن بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5136,15 +5169,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abd-al-rahman-ibn-al-abbas-03",
       "slug": "abd-al-rahman-ibn-al-abbas-life-03",
       "title": "عبد الرحمن بن العباس — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -5155,8 +5191,8 @@
         "id": "abd-al-rahman-ibn-al-abbas",
         "name": "عبد الرحمن بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5564,15 +5600,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abd-al-rahman-ibn-al-abbas-04",
       "slug": "abd-al-rahman-ibn-al-abbas-life-04",
       "title": "عبد الرحمن بن العباس — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -5583,8 +5622,8 @@
         "id": "abd-al-rahman-ibn-al-abbas",
         "name": "عبد الرحمن بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -5992,15 +6031,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abd-al-rahman-ibn-al-abbas-05",
       "slug": "abd-al-rahman-ibn-al-abbas-life-05",
       "title": "عبد الرحمن بن العباس — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -6011,8 +6053,8 @@
         "id": "abd-al-rahman-ibn-al-abbas",
         "name": "عبد الرحمن بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -6420,15 +6462,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-tamam-ibn-al-abbas-01",
       "slug": "tamam-ibn-al-abbas-life-01",
       "title": "تمام بن العباس — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -6439,8 +6484,8 @@
         "id": "tamam-ibn-al-abbas",
         "name": "تمام بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -6848,15 +6893,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-tamam-ibn-al-abbas-02",
       "slug": "tamam-ibn-al-abbas-life-02",
       "title": "تمام بن العباس — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -6867,8 +6915,8 @@
         "id": "tamam-ibn-al-abbas",
         "name": "تمام بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7276,15 +7324,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-tamam-ibn-al-abbas-03",
       "slug": "tamam-ibn-al-abbas-life-03",
       "title": "تمام بن العباس — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -7295,8 +7346,8 @@
         "id": "tamam-ibn-al-abbas",
         "name": "تمام بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -7704,15 +7755,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-tamam-ibn-al-abbas-04",
       "slug": "tamam-ibn-al-abbas-life-04",
       "title": "تمام بن العباس — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -7723,8 +7777,8 @@
         "id": "tamam-ibn-al-abbas",
         "name": "تمام بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8132,15 +8186,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-tamam-ibn-al-abbas-05",
       "slug": "tamam-ibn-al-abbas-life-05",
       "title": "تمام بن العباس — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -8151,8 +8208,8 @@
         "id": "tamam-ibn-al-abbas",
         "name": "تمام بن العباس"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8560,15 +8617,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-sufyan-ibn-al-harith-01",
       "slug": "abu-sufyan-ibn-al-harith-life-01",
       "title": "أبو سفيان بن الحارث — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -8579,8 +8639,8 @@
         "id": "abu-sufyan-ibn-al-harith",
         "name": "أبو سفيان بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -8988,15 +9048,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-sufyan-ibn-al-harith-02",
       "slug": "abu-sufyan-ibn-al-harith-life-02",
       "title": "أبو سفيان بن الحارث — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -9007,8 +9070,8 @@
         "id": "abu-sufyan-ibn-al-harith",
         "name": "أبو سفيان بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -9416,15 +9479,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-sufyan-ibn-al-harith-03",
       "slug": "abu-sufyan-ibn-al-harith-life-03",
       "title": "أبو سفيان بن الحارث — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -9435,8 +9501,8 @@
         "id": "abu-sufyan-ibn-al-harith",
         "name": "أبو سفيان بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -9844,15 +9910,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-sufyan-ibn-al-harith-04",
       "slug": "abu-sufyan-ibn-al-harith-life-04",
       "title": "أبو سفيان بن الحارث — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -9863,8 +9932,8 @@
         "id": "abu-sufyan-ibn-al-harith",
         "name": "أبو سفيان بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10272,15 +10341,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abu-sufyan-ibn-al-harith-05",
       "slug": "abu-sufyan-ibn-al-harith-life-05",
       "title": "أبو سفيان بن الحارث — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -10291,8 +10363,8 @@
         "id": "abu-sufyan-ibn-al-harith",
         "name": "أبو سفيان بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -10700,15 +10772,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nawfal-ibn-al-harith-01",
       "slug": "nawfal-ibn-al-harith-life-01",
       "title": "نوفل بن الحارث — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -10719,8 +10794,8 @@
         "id": "nawfal-ibn-al-harith",
         "name": "نوفل بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11128,15 +11203,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nawfal-ibn-al-harith-02",
       "slug": "nawfal-ibn-al-harith-life-02",
       "title": "نوفل بن الحارث — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -11147,8 +11225,8 @@
         "id": "nawfal-ibn-al-harith",
         "name": "نوفل بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11556,15 +11634,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nawfal-ibn-al-harith-03",
       "slug": "nawfal-ibn-al-harith-life-03",
       "title": "نوفل بن الحارث — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -11575,8 +11656,8 @@
         "id": "nawfal-ibn-al-harith",
         "name": "نوفل بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -11984,15 +12065,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nawfal-ibn-al-harith-04",
       "slug": "nawfal-ibn-al-harith-life-04",
       "title": "نوفل بن الحارث — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -12003,8 +12087,8 @@
         "id": "nawfal-ibn-al-harith",
         "name": "نوفل بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -12412,15 +12496,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-nawfal-ibn-al-harith-05",
       "slug": "nawfal-ibn-al-harith-life-05",
       "title": "نوفل بن الحارث — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -12431,8 +12518,8 @@
         "id": "nawfal-ibn-al-harith",
         "name": "نوفل بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -12840,15 +12927,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-rabia-ibn-al-harith-01",
       "slug": "rabia-ibn-al-harith-life-01",
       "title": "ربيعة بن الحارث — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -12859,8 +12949,8 @@
         "id": "rabia-ibn-al-harith",
         "name": "ربيعة بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13268,15 +13358,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-rabia-ibn-al-harith-02",
       "slug": "rabia-ibn-al-harith-life-02",
       "title": "ربيعة بن الحارث — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -13287,8 +13380,8 @@
         "id": "rabia-ibn-al-harith",
         "name": "ربيعة بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -13696,15 +13789,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-rabia-ibn-al-harith-03",
       "slug": "rabia-ibn-al-harith-life-03",
       "title": "ربيعة بن الحارث — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -13715,8 +13811,8 @@
         "id": "rabia-ibn-al-harith",
         "name": "ربيعة بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14124,15 +14220,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-rabia-ibn-al-harith-04",
       "slug": "rabia-ibn-al-harith-life-04",
       "title": "ربيعة بن الحارث — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -14143,8 +14242,8 @@
         "id": "rabia-ibn-al-harith",
         "name": "ربيعة بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14552,15 +14651,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-rabia-ibn-al-harith-05",
       "slug": "rabia-ibn-al-harith-life-05",
       "title": "ربيعة بن الحارث — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -14571,8 +14673,8 @@
         "id": "rabia-ibn-al-harith",
         "name": "ربيعة بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -14980,15 +15082,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-harith-01",
       "slug": "abdullah-ibn-al-harith-life-01",
       "title": "عبد الله بن الحارث — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -14999,8 +15104,8 @@
         "id": "abdullah-ibn-al-harith",
         "name": "عبد الله بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
@@ -15416,15 +15521,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-harith-02",
       "slug": "abdullah-ibn-al-harith-life-02",
       "title": "عبد الله بن الحارث — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -15435,8 +15543,8 @@
         "id": "abdullah-ibn-al-harith",
         "name": "عبد الله بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
@@ -15852,15 +15960,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-harith-03",
       "slug": "abdullah-ibn-al-harith-life-03",
       "title": "عبد الله بن الحارث — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -15871,8 +15982,8 @@
         "id": "abdullah-ibn-al-harith",
         "name": "عبد الله بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
@@ -16288,15 +16399,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-harith-04",
       "slug": "abdullah-ibn-al-harith-life-04",
       "title": "عبد الله بن الحارث — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -16307,8 +16421,8 @@
         "id": "abdullah-ibn-al-harith",
         "name": "عبد الله بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
@@ -16724,15 +16838,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-harith-05",
       "slug": "abdullah-ibn-al-harith-life-05",
       "title": "عبد الله بن الحارث — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -16743,8 +16860,8 @@
         "id": "abdullah-ibn-al-harith",
         "name": "عبد الله بن الحارث"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 511,
@@ -17160,15 +17277,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-01",
       "slug": "abdullah-ibn-al-zubayr-abd-al-muttalib-life-01",
       "title": "عبد الله بن الزبير بن عبد المطلب — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -17179,8 +17299,8 @@
         "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
         "name": "عبد الله بن الزبير بن عبد المطلب"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -17588,15 +17708,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-02",
       "slug": "abdullah-ibn-al-zubayr-abd-al-muttalib-life-02",
       "title": "عبد الله بن الزبير بن عبد المطلب — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -17607,8 +17730,8 @@
         "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
         "name": "عبد الله بن الزبير بن عبد المطلب"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -18016,15 +18139,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-03",
       "slug": "abdullah-ibn-al-zubayr-abd-al-muttalib-life-03",
       "title": "عبد الله بن الزبير بن عبد المطلب — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -18035,8 +18161,8 @@
         "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
         "name": "عبد الله بن الزبير بن عبد المطلب"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -18444,15 +18570,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-04",
       "slug": "abdullah-ibn-al-zubayr-abd-al-muttalib-life-04",
       "title": "عبد الله بن الزبير بن عبد المطلب — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -18463,8 +18592,8 @@
         "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
         "name": "عبد الله بن الزبير بن عبد المطلب"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -18872,15 +19001,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-abdullah-ibn-al-zubayr-abd-al-muttalib-05",
       "slug": "abdullah-ibn-al-zubayr-abd-al-muttalib-life-05",
       "title": "عبد الله بن الزبير بن عبد المطلب — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -18891,8 +19023,8 @@
         "id": "abdullah-ibn-al-zubayr-abd-al-muttalib",
         "name": "عبد الله بن الزبير بن عبد المطلب"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -19300,15 +19432,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-dubaa-bint-al-zubayr-01",
       "slug": "dubaa-bint-al-zubayr-life-01",
       "title": "ضباعة بنت الزبير — من سيرته وحياته — 1",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -19319,8 +19454,8 @@
         "id": "dubaa-bint-al-zubayr",
         "name": "ضباعة بنت الزبير"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -19728,15 +19863,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-dubaa-bint-al-zubayr-02",
       "slug": "dubaa-bint-al-zubayr-life-02",
       "title": "ضباعة بنت الزبير — من سيرته وحياته — 2",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -19747,8 +19885,8 @@
         "id": "dubaa-bint-al-zubayr",
         "name": "ضباعة بنت الزبير"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -20156,15 +20294,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-dubaa-bint-al-zubayr-03",
       "slug": "dubaa-bint-al-zubayr-life-03",
       "title": "ضباعة بنت الزبير — من سيرته وحياته — 3",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -20175,8 +20316,8 @@
         "id": "dubaa-bint-al-zubayr",
         "name": "ضباعة بنت الزبير"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -20584,15 +20725,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-dubaa-bint-al-zubayr-04",
       "slug": "dubaa-bint-al-zubayr-life-04",
       "title": "ضباعة بنت الزبير — من سيرته وحياته — 4",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -20603,8 +20747,8 @@
         "id": "dubaa-bint-al-zubayr",
         "name": "ضباعة بنت الزبير"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -21012,15 +21156,18 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     },
     {
       "id": "20260821-family-life-dubaa-bint-al-zubayr-05",
       "slug": "dubaa-bint-al-zubayr-life-05",
       "title": "ضباعة بنت الزبير — من سيرته وحياته — 5",
       "language": "ar",
-      "contentType": "EDITORIALLY COMPILED SOURCE LIFE ARTICLE",
-      "articleKind": "life-article-not-research",
+      "contentType": "SOURCE-DERIVED BIOGRAPHY",
+      "articleKind": "biography",
       "section": "prophetic-family",
       "subsection": "all-relatives",
       "sections": [
@@ -21031,8 +21178,8 @@
         "id": "dubaa-bint-al-zubayr",
         "name": "ضباعة بنت الزبير"
       },
-      "publicationStatus": "DRAFT",
-      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "draftStatus": "PUBLISHED_SOURCE_VERIFIED",
       "canonicalEditorialSlot": false,
       "draftedAt": "2026-08-21T07:10:22.205813Z",
       "wordCount": 501,
@@ -21440,7 +21587,11 @@
       "sourceCoveragePercent": 100,
       "aiOriginalSubstantiveContentPercent": 0,
       "unsupportedFactualParagraphs": 0,
-      "provenanceStatus": "PASS"
+      "provenanceStatus": "PASS",
+      "editorialCategory": "biographies",
+      "biographyPlacement": true,
+      "publishedAt": "2026-08-21T07:25:00Z"
     }
-  ]
+  ],
+  "contentPlacement": "biographies"
 }
