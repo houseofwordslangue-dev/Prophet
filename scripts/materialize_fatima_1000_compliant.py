@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import importlib.util, json
+import base64, importlib.util, json, lzma
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -8,11 +8,28 @@ BASE=ROOT/'scripts'/'materialize_fatima_1000_compiled.py'
 AUDIT=ROOT/'data'/'editorial'/'fatima_1000_audit.json'
 SUPPLEMENT=ROOT/'data'/'editorial'/'publication_supplement.json'
 OUT=ROOT/'data'/'editorial'/'drafts'/'2026-08-21'
+PART_GLOB='fatima_source_fragments.part*.xz.b64'
 
 spec=importlib.util.spec_from_file_location('fatima_base', BASE)
 base=importlib.util.module_from_spec(spec)
 assert spec and spec.loader
 spec.loader.exec_module(base)
+
+# The original single gzip/base64 payload was truncated by the repository write
+# boundary. Reconstruct the verified source payload from the chunked XZ/base64
+# parts that were committed afterwards.
+def load_fragments_from_parts():
+    parts=sorted((ROOT/'data'/'editorial').glob(PART_GLOB))
+    assert len(parts)>=3, f'Expected chunked Fatima payload parts, found {len(parts)}'
+    encoded=''.join(p.read_text(encoding='ascii').strip() for p in parts)
+    raw=lzma.decompress(base64.b64decode(encoded))
+    rows=json.loads(raw.decode('utf-8'))
+    assert isinstance(rows,list) and len(rows)>=300, len(rows)
+    assert all(int(x.get('wordCount',0))>=150 for x in rows)
+    assert all('فاطم' in x.get('text','') for x in rows)
+    return rows
+
+base.load_fragments=load_fragments_from_parts
 
 # Fatima al-Zahra is a direct daughter of the Prophet, so every article belongs
 # under الأسرة النبوية → الأبناء. None may use Prophet-only sections.
@@ -57,6 +74,7 @@ audit['articlesAtOrBelow500Words']=0
 audit['prophetOnlySectionsUsed']=0
 audit['destination']='prophetic-household/children'
 audit['siteSections']={'prophetic-household/children':1000}
+audit['payloadReconstruction']='PASS: chunked XZ/base64 source fragments reconstructed from committed parts'
 AUDIT.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 sup=json.loads(SUPPLEMENT.read_text(encoding='utf-8'))
@@ -73,6 +91,7 @@ sup['fatima1000'].update({
   'prophetOnlySectionsUsed':0,
   'destination':'prophetic-household/children',
   'siteSections':{'prophetic-household/children':1000},
+  'payloadReconstruction':'chunked-xz-base64',
 })
 SUPPLEMENT.write_text(json.dumps(sup,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'PASS: 1000 Fatima articles; min={minimum}; >500 words; Prophet-only=0; destination=prophetic-household/children')
