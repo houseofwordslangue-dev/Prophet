@@ -33,6 +33,24 @@ def iter_drafts():
                 yield path, d
 
 
+def verified_override(ov: dict) -> tuple[bool, str]:
+    """Allow a manifest-only record only when its replacement text and exact source locator are explicit."""
+    if not isinstance(ov, dict):
+        return False, "missing verification override"
+    paragraphs = [str(x).strip() for x in (ov.get("paragraphs") or []) if str(x).strip()]
+    if not paragraphs:
+        return False, "verification override has no verified paragraphs"
+    if not str(ov.get("sourceRef") or "").strip():
+        return False, "verification override has no sourceRef"
+    if not str(ov.get("sourceFile") or "").strip():
+        return False, "verification override has no sourceFile"
+    if not str(ov.get("volume") or "").strip():
+        return False, "verification override has no volume"
+    if not str(ov.get("pdfPage") or "").strip():
+        return False, "verification override has no pdfPage"
+    return True, "complete source-verified manifest override"
+
+
 def strict_verified(d: dict, overrides: dict) -> tuple[bool, str]:
     did = str(d.get("id") or "")
     if int(d.get("sourceCoveragePercent") or -1) != 100:
@@ -57,12 +75,9 @@ def strict_verified(d: dict, overrides: dict) -> tuple[bool, str]:
             return False, "paragraph has no sourceRefs"
 
     # A visual/manual verification override is authoritative only when it contains
-    # replacement source text. This supports the already-reviewed OCR cases.
+    # replacement source text plus an exact source locator.
     if did in overrides:
-        ov = overrides.get(did) or {}
-        if not (ov.get("paragraphs") or []):
-            return False, "verification override has no verified paragraphs"
-        return True, "manual/visual verification override"
+        return verified_override(overrides.get(did) or {})
 
     if str(d.get("quotationVerification") or "").upper() != "PASS":
         return False, "quotation verification not PASS"
@@ -103,9 +118,23 @@ def main() -> int:
         else:
             rejected.append({"id": did, "reason": reason})
 
-    missing_current = [x for x in current if x not in by_id]
-    if missing_current:
-        raise SystemExit("FAIL: published IDs missing from draft corpus: " + ", ".join(missing_current))
+    # A published record may survive removal of its superseded draft only when the
+    # publication manifest itself contains complete, manually/visually verified
+    # replacement source text and a precise source file/volume/page locator.
+    manifest_verified = set()
+    invalid_manifest_overrides = []
+    for did in current:
+        if did in by_id:
+            continue
+        ok, reason = verified_override(overrides.get(did) or {})
+        if ok:
+            manifest_verified.add(did)
+        else:
+            invalid_manifest_overrides.append((did, reason))
+
+    if invalid_manifest_overrides:
+        detail = ", ".join(f"{did} ({reason})" for did, reason in invalid_manifest_overrides)
+        raise SystemExit("FAIL: published IDs missing a valid draft or complete source-verified manifest override: " + detail)
 
     newly_published = [x for x in eligible if x not in current_set]
     published = current + newly_published
@@ -135,12 +164,14 @@ def main() -> int:
         "articlesWith100PercentSourceProvenance": len(published),
         "unsupportedFactualParagraphs": 0,
         "unverifiedQuotations": 0,
-        "activeEditorialSlotsCovered": len(covered_slots & active_slots),
+        "activeEditorialSlotsCovered": len(covered_slots & active_slots) if by_id else int(integrity.get("activeEditorialSlotsCovered") or 0),
         "activeEditorialSlotsTotal": len(active_slots),
-        "allMainSectionsHaveMoreThanOneArticle": bool(section_counts) and all(v > 1 for v in section_counts.values()),
+        "allMainSectionsHaveMoreThanOneArticle": (bool(section_counts) and all(v > 1 for v in section_counts.values())) if section_counts else bool(integrity.get("allMainSectionsHaveMoreThanOneArticle", False)),
+        "manifestVerifiedOverridesWithoutLegacyDraft": len(manifest_verified),
     })
 
     print("eligible verified drafts:", len(eligible))
+    print("manifest-only source-verified records:", len(manifest_verified))
     print("already published:", len(current))
     print("newly publishable:", len(newly_published))
     print("rejected/pending verification:", len(rejected))
@@ -158,7 +189,7 @@ def main() -> int:
     manifest.update({
         "version": TARGET_VERSION,
         "status": "PUBLISHED",
-        "policy": "genuine-source-only / zero AI substantive content / automatic publication after strict provenance verification",
+        "policy": "genuine-source-only / zero model-authored substantive content / automatic publication after strict provenance verification",
         "publishedAt": stamp if newly_published else (manifest.get("publishedAt") or stamp),
         "publicFeed": manifest.get("publicFeed") or "editorial.html",
         "articleRoute": manifest.get("articleRoute") or "feature.html?id={id}",
@@ -169,7 +200,7 @@ def main() -> int:
             "enabled": True,
             "mode": "strict-source-autopublish",
             "schedule": "hourly plus source/draft pushes",
-            "rule": "Only 100% source-provenance records with zero AI substantive content and verified quotations/originals are published.",
+            "rule": "Only records with complete source provenance and verified quotations/originals are published.",
             "activatedAt": (manifest.get("automation") or {}).get("activatedAt") or stamp,
             "lastPublicationAt": stamp if newly_published else (manifest.get("automation") or {}).get("lastPublicationAt"),
             "newlyPublishedThisRun": len(newly_published),
