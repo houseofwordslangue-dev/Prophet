@@ -1,0 +1,125 @@
+{
+  "version": "2026-08-21-final-17-source-backed-biographies-v1",
+  "policy": "Short verified source excerpts close the canonical source-evidence gap. They do not replace longer supporting articles; each person remains one canonical biography page.",
+  "people": [
+    {
+      "id": "abdullah-ibn-umar",
+      "nameAr": "عبد الله بن عمر",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"الإمام القدوة شيخ الإسلام أبو عبد الرحمن القرشي العدوي المكي ثم المدني أسلم وهو صغير ثم هاجر مع أبيه.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/عبد_الله_بن_عمر","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "abu-bakr",
+      "nameAr": "أبو بكر الصديق",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"فاشتغل الناس ببيعة أبى بكر الصديق في سقيفة بنى ساعدة ثم في المسجد البيعة العامة.","sources":[{"title":"البداية والنهاية","author":"ابن كثير","url":"https://ar.wikisource.org/wiki/البداية_والنهاية_(ط._السعادة)/سنة_إحدى_عشرة_من_الهجرة/خلافة_أبى_بكر_الصديق_رضي_الله_عنه_وما_كان_في_أيامه_من_الحوادث_والأمور","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "abu-hurayra",
+      "nameAr": "أبو هريرة",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"الإمام الفقيه المجتهد الحافظ صاحب رسول الله ﷺ أبو هريرة الدوسي اليماني سيد الحفاظ الأثبات.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/أبو_هريرة","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "abu-ubayda-ibn-al-jarrah",
+      "nameAr": "أبو عبيدة بن الجراح",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"القرشي الفهري المكي أحد السابقين الأولين، شهد له النبي ﷺ بالجنة وسماه أمين الأمة.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/أبو_عبيدة_بن_الجراح","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "anas-ibn-malik",
+      "nameAr": "أنس بن مالك",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"الإمام المفتي المقرىء المحدث راوية الإسلام أبو حمزة الأنصاري الخزرجي المدني خادم رسول الله ﷺ.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/أنس_ابن_مالك","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "bilal-ibn-rabah",
+      "nameAr": "بلال بن رباح",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"بلال بن رباح مولى أبي بكر الصديق وأمه حمامة وهو مؤذن رسول الله ﷺ من السابقين الأولين.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/بلال","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "fatima-al-zahra",
+      "nameAr": "فاطمة الزهراء",
+      "category": "family",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"أردت أن أخطب إلى رسول الله ﷺ ابنته، ثم ذكرت عائدته وصلته فخطبتها.","sources":[{"title":"البداية والنهاية — تزويجه فاطمة الزهراء","author":"ابن كثير","url":"https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_السابع/تزويجه_فاطمة_الزهراء_رضي_الله_عنهما","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "jabir-ibn-abdullah",
+      "nameAr": "جابر بن عبد الله",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"الإمام الكبير المجتهد الحافظ صاحب رسول الله ﷺ أبو عبد الله الأنصاري الخزرجي السلمي المدني الفقيه.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/جابر_بن_عبد_الله","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "khalid-ibn-al-walid",
+      "nameAr": "خالد بن الوليد",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"سيف الله تعالى وفارس الإسلام وليث المشاهد السيد الإمام الأمير الكبير قائد المجاهدين أبو سليمان القرشي المخزومي.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/خالد_بن_الوليد","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "muadh-ibn-jabal",
+      "nameAr": "معاذ بن جبل",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"السيد الإمام أبو عبد الرحمن الأنصاري الخزرجي المدني البدري شهد العقبة شابا.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/معاذ_بن_جبل","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "saeed-ibn-zayd",
+      "nameAr": "سعيد بن زيد",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"أبو الأعور القرشي العدوي أحد العشرة المشهود لهم بالجنة ومن السابقين الأولين البدريين.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سعيد_بن_زيد","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "salman-al-farisi",
+      "nameAr": "سلمان الفارسي",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"هو سلمان ابن الإسلام أبو عبد الله الفارسي سابق الفرس إلى الإسلام صحب النبي ﷺ وخدمه وحدث عنه.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/سلمان_الفارسي","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "talha-ibn-ubaydullah",
+      "nameAr": "طلحة بن عبيد الله",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"طلحة بن عبيد الله القرشي التيمي المكي أبو محمد، أحد العشرة المشهود لهم بالجنة.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/طلحة_بن_عبيد_الله","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "umar-ibn-al-khattab",
+      "nameAr": "عمر بن الخطاب",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"فقام بالأمر من بعده أتم القيام الفاروق أمير المؤمنين عمر بن الخطاب رضي الله عنه.","sources":[{"title":"البداية والنهاية — خلافة عمر بن الخطاب","author":"ابن كثير","url":"https://ar.wikisource.org/wiki/البداية_والنهاية_(ط._السعادة)/سنة_ثلاث_عشرة_من_الهجرة/خلافة_عمر_بن_الخطاب_رضي_الله_عنه","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "usama-ibn-zaid",
+      "nameAr": "أسامة بن زيد",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"حب رسول الله ﷺ ومولاه وابن مولاه أبو زيد، استعمله النبي ﷺ على جيش لغزو الشام.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/أسامة_بن_زيد","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "zaid-ibn-haritha",
+      "nameAr": "زيد بن حارثة",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"الأمير الشهيد النبوي المسمى في سورة الأحزاب أبو أسامة الكلبي ثم المحمدي سيد الموالي وأسبقهم إلى الإسلام.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/زيد_بن_حارثة","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    },
+    {
+      "id": "zaid-ibn-thabit",
+      "nameAr": "زيد بن ثابت",
+      "category": "companion",
+      "sourcePassages": [{"language":"ar","relation":"biography-source","text":"الإمام الكبير شيخ المقرئين والفرضيين مفتي المدينة أبو سعيد الخزرجي النجاري الأنصاري كاتب الوحي رضي الله عنه.","sources":[{"title":"سير أعلام النبلاء","author":"الذهبي","url":"https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/زيد_بن_ثابت","verifiedAgainstOriginal":true}]}],
+      "provenance":"verified-source-excerpt"
+    }
+  ]
+}

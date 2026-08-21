@@ -14,6 +14,7 @@ EDITORIAL = DATA / "editorial"
 DRAFTS = EDITORIAL / "drafts"
 OUT = EDITORIAL / "required_biographies.json"
 AUDIT = EDITORIAL / "required_biographies_audit.json"
+FINAL_SOURCES = DATA / "final_missing_biographies.json"
 
 REQUIRED_CATEGORIES = {
     "prophet", "family", "ancestor", "companion", "companions",
@@ -103,7 +104,6 @@ def person_ref(article: dict):
     if isinstance(subject, dict) and subject.get("id"):
         return str(subject.get("id")), str(subject.get("name") or "")
     if isinstance(subject, str) and subject and not subject.startswith("http"):
-        # Only accept slug-like explicit subjects, never infer from title.
         if " " not in subject and len(subject) < 120:
             return subject, ""
     return None, ""
@@ -142,13 +142,18 @@ def main():
 
     detailed = load_json(DATA / "family_biographies.json", {"people": []})
     all_bios = load_all_bios()
-    for dataset, origin in ((detailed, "family_biographies.json"), (all_bios, "family_biographies_all")):
+    final_sources = load_json(FINAL_SOURCES, {"people": []})
+    for dataset, origin in (
+        (detailed, "family_biographies.json"),
+        (all_bios, "family_biographies_all"),
+        (final_sources, "final_missing_biographies.json"),
+    ):
         for p in dataset.get("people", []):
             pid = str(p.get("id") or "").strip()
             if pid:
                 sources_by_id[pid].append(p)
-                if pid in required:
-                    required[pid]["origins"].append(origin) if origin not in required[pid]["origins"] else None
+                if pid in required and origin not in required[pid]["origins"]:
+                    required[pid]["origins"].append(origin)
 
     canonical = load_json(EDITORIAL / "canonical_biographies.json", {"people": {}}).get("people", {})
     support: dict[str, list[dict]] = defaultdict(list)
@@ -160,7 +165,6 @@ def main():
             pid, pname = person_ref(article)
             if not pid:
                 continue
-            # Article-linked historical people are biography-required unless explicitly source-only.
             if pid not in required:
                 required[pid] = {"id": pid, "nameAr": pname or pid, "category": "historical-person", "origins": ["editorial-relatedPerson"]}
             if article_has_verified_source(article):
