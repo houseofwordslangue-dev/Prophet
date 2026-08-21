@@ -1,6 +1,11 @@
 name: Import 135 expanded biographies to GitHub
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/materialize_expanded_biographies_135.py'
+      - '.github/workflows/materialize-expanded-biographies-135.yml'
+      - 'data/expanded_people_135.json'
   push:
     branches: [main]
     paths:
@@ -34,7 +39,16 @@ jobs:
           assert a['githubMaterialized'] is True and a['complete'] is True
           print(a)
           PY
+      - name: Upload import artifact for PR diagnostics
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: expanded-biographies-135-local
+          path: |
+            data/expanded_biographies_135_full.json
+            data/editorial/expanded_biographies_135_local_audit.json
       - name: Commit full biography corpus
+        if: github.event_name == 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
