@@ -145,3 +145,5 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+# Operational touch: re-run materialization after organized Children hub merge.
