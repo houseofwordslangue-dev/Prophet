@@ -1,0 +1,27 @@
+name: Reader Player Regression
+on:
+  push:
+    paths:
+      - 'reader.html'
+      - 'media.html'
+      - 'server.py'
+      - 'platform_services.py'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/reader-player-regression.yml'
+  workflow_dispatch:
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run reader/player regression tests
+        env:
+          PM_MEDIA_SYNC_ON_START: '0'
+          PM_EPUB_CONVERT_ON_START: '0'
+        run: python -m unittest -v tests/test_reader_player_runtime.py
