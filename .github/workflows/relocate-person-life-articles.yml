@@ -1,0 +1,66 @@
+name: Relocate person life articles
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/relocate_person_life_articles.py'
+      - '.github/workflows/relocate-person-life-articles.yml'
+      - 'assets/people.js'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/relocate_person_life_articles.py'
+      - '.github/workflows/relocate-person-life-articles.yml'
+      - 'assets/people.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  relocate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Relocate biography and life records
+        run: python scripts/relocate_person_life_articles.py
+      - name: Validate relocation
+        run: |
+          python - <<'PY'
+          import json
+          a=json.load(open('data/editorial/person_life_relocation_audit.json',encoding='utf-8'))
+          c=json.load(open('data/editorial/canonical_life_chapters.json',encoding='utf-8'))
+          assert a['complete'] is True
+          assert a['remainingLifeRecordsOutsidePersonPages']==[]
+          assert c['chapterCount']==a['lifeRecordsRelocated']
+          print('PASS', a['peopleAffected'], a['lifeRecordsRelocated'])
+          PY
+      - name: Upload relocation audit
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: person-life-relocation-audit
+          path: |
+            data/editorial/person_life_relocation_audit.json
+            data/editorial/canonical_life_chapters.json
+          if-no-files-found: error
+      - name: Commit relocation on main
+        if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+        run: |
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/drafts data/editorial/canonical_life_chapters.json data/editorial/person_life_relocation_audit.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Relocate life biographies to canonical person pages'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
