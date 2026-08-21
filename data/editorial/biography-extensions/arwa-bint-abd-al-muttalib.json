@@ -1,9 +1,9 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.645046Z",
+  "generatedAt": "2026-08-21T23:02:26.912001Z",
   "personId": "arwa-bint-abd-al-muttalib",
   "personNameAr": "أروى بنت عبد المطلب",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
   "passageCount": 5,
   "passages": [
     {

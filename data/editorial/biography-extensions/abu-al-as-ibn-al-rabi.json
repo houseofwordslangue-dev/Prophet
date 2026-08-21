@@ -1,10 +1,10 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.626472Z",
+  "generatedAt": "2026-08-21T23:02:26.893852Z",
   "personId": "abu-al-as-ibn-al-rabi",
   "personNameAr": "أبو العاص بن الربيع",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
-  "passageCount": 7,
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
+  "passageCount": 5,
   "passages": [
     {
       "text": "أبو العاص بن الربيع صهر رسول الله صلى الله عليه وسلم وزوج ابنته زينب، وهو والد أمامة. كان من تجار قريش وأمنائهم، وأثنى النبي صلى الله عليه وسلم على وفائه في المصاهرة والوعد. يَرِد محمد ﷺ في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد الله في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد المطلب، واسمه شيبة في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد هاشم، واسمه عمرو في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد مناف، واسمه المغيرة في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد قصي، واسمه زيد في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد كلاب في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد",
@@ -380,142 +380,6 @@
         ]
       },
       "wordCount": 468
-    },
-    {
-      "text": "طالب خطب بنت أبي جهل، و عنده فاطمة بنت رسول اللّه (صلّى اللّه عليه و سلّم) فلمّا سمعت بذلك فاطمة أتت النبي (صلّى اللّه عليه و سلّم) فقالت له: إنّ قومك يتحدّثون أنّك لا تغضب لبناتك و هذا عليّ ناكحا ابنة أبي جهل قال المسوّر: فقام‏ 31 النبي (صلّى اللّه عليه و سلّم) فسمعته حين تشهد ثم قال: أمّا بعد فإنّي أنكحت أبا العاص بن الربيع فحدثني فصدقني و إن فاطمة بنت محمد مضغة مني و إنما أكره أن يفتنوها و إنها و اللّه لا تجتمع بنت رسول اللّه و بنت عدوّ اللّه عند رجل واحد أبدا قال: فترك علي الخطبة. [روى محمد بن عمر، عن موسى بن محمد بن إبراهيم بن الحارث التيمي عن أبيه قال: خرج أبو العاص بن الربيع إلى الشام في عير لقريش و بلغ رسول اللّه (صلّى اللّه عليه و سلّم) أنّ تلك العير قد أقبلت من الشام فبعث زيد بن حارثة في سبعين و مائة راكب فلقوا العير بناحية العيص في جمادي الأولى سنة",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
-        "recordId": "20260821-fatima-source-bio-0073",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0073",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0073-source-01",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0030.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "1be121ed9b9f6a5c1042e7b34a3fc131177fcb5663971d31bc5dd956a4cd1a02",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0073-source-02",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0160.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "0623af5d79a6b6c4a3c77a6fa695d87cfd2fa2f7a1ec713f2767a4114f4a346a",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0073-source-03",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0016.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "3451a24d22e15584a4f6379c12f83cabd5fdadcf1ad8b0228baa9a16ba650105",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0073-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0019.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "d57e529f39875118dcb2a0ca648e1d1dbe6c31e37518e70f52237766ebd1d64b",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
-    },
-    {
-      "text": "أرم الباب حتى جاءت قصعة سعد بن عباده ثريد و عراق. و ما كان من ليلة إلا و على باب رسول الله (ص) الثلاثة و الأربعة يحملون الطعام يتناوبون ذلك. حتى تحول رسول الله (ص) من منزل أبي أيوب و كان مقامه فيه سبعة أشهر. و بعث رسول الله. ص. من منزل أبي أيوب زيد بن حارثة و أبا رافع و أعطاهما بعيرين و خمسمائة درهم إلى مكة فقدما عليه بفاطمة و أم كلثوم ابنتي رسول الله (ص) و سودة بنت زمعة زوجته 238/ 1 و أسامة بن زيد. و كانت رقية بنت رسول الله (ص) قد هاجر بها زوجها عثمان بن عفان قبل ذلك. و حبس أبو العاص بن الربيع امرأته زينب بنت رسول الله (ص) و حمل زيد بن حارثة امرأته أم أيمن مع ابنها أسامة بن زيد. و خرج عبد الله بن أبي بكر معهم بعيال أبي بكر فيهم عائشة فقدموا المدينة فأنزلهم في بيت حارثة بن النعمان. ذكر مؤاخاة رسول الله (ص) بين المهاجرين و الأنصار",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
-        "recordId": "20260821-fatima-source-bio-0008",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0008",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0008-source-01",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "1",
-            "locator": "OEBPS/Text/2181_0168.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "39126ddc769163866751902f1fc31a7ae431c73181a82eb7c88907274f5d8660",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0008-source-02",
-            "resourceId": "family-companions-006",
-            "title": "الرياض النضرة في مناقب العشرة",
-            "author": "محب الدين الطبري",
-            "volume": "",
-            "locator": "405",
-            "sourceKind": "drive-text",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-006",
-            "sourceFingerprint": "c112be09ff2a602ebd8ffb5c517645ce523502e592a848a9d8f3cbf8ba54ac15",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0008-source-03",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0160.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "5b4a2ef8bf79e300c10b7babb16d34a8734c88565128c1d416dfd98c95bb7670",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0008-source-04",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0160.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "0623af5d79a6b6c4a3c77a6fa695d87cfd2fa2f7a1ec713f2767a4114f4a346a",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
     }
   ]
 }

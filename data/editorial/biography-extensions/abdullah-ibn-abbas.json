@@ -1,10 +1,10 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.617756Z",
+  "generatedAt": "2026-08-21T23:02:26.885250Z",
   "personId": "abdullah-ibn-abbas",
   "personNameAr": "عبد الله بن عباس",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
-  "passageCount": 7,
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
+  "passageCount": 5,
   "passages": [
     {
       "text": "عبد الله بن عباس ابن عم رسول الله صلى الله عليه وسلم، أبو العباس القرشي الهاشمي، حبر الأمة وفقيه عصره وإمام في التفسير. صحب النبي وروى عنه وعن عدد من كبار الصحابة وروى عنه خلق كثير. يَرِد محمد ﷺ في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد الله في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد المطلب، واسمه شيبة في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد هاشم، واسمه عمرو في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد عبد مناف، واسمه المغيرة في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد قصي، واسمه زيد في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. يَرِد كلاب في سلسلة النسب الأعلى المباشر للنبي محمد ﷺ حتى عدنان. موضعه هنا نسبيّ محض، وتقتصر هذه النبذة على مكانه في السلسلة دون إضافة أخبار لا تثبتها المصادر المرتبطة بالصفحة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجع",
@@ -380,142 +380,6 @@
         ]
       },
       "wordCount": 470
-    },
-    {
-      "text": "عبد الله بن زمعة بن الأسود بن المطلب بن أسد بن عبد العزى بن قصي. فولد محمد بن عبد الله: عبد الله بن محمد. قتل ببلاد القشمير. قتله هشام بن عروة في المعركة. و عليا بن محمد. مات في السجن و كان أخذ بمصر. و حسن بن محمد. المقتول بفخ صبرا. قتله موسى بن عيسى بن موسى بن محمد بن علي بن عبد الله بن عباس بن عبد المطلب. و فاطمة بنت محمد. تزوجها ابن عمها حسن بن إبراهيم بن عبد الله بن حسن بن علي بن أبي طالب. و زينب بنت محمد. تزوجها محمد بن أبي العباس أمير المؤمنين. و دخل بها ليلة أبوها بالمدينة. و كان مع عيسى بن موسى. فتوفى عنها و لم يجمعها إليه. ثم خلف عليها بعده عيسى بن علي بن عبد الله بن عباس. ففارقها و خلف عليها محمد بن إبراهيم بن محمد بن علي بن عبد الله بن عباس. فولدت له جارية ماتت صغيرة. ثم فارقها محمد بن إبراهيم بن محمد. فخلف عليها",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
-        "recordId": "20260821-fatima-source-bio-0072",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0072",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0072-source-01",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0205.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "9455601c561298b355800b44b09e4db6024ff2a1cf8b57b3b94c141528ee2358",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0072-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "5",
-            "locator": "OEBPS/Text/2185_0437.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "72c04ceef6fac80cb45c622c65cde562767b000e73a47109144a669a5b61eee2",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0072-source-03",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "12",
-            "locator": "OEBPS/Text/2397_0368.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "3128f4ed536c6ff0059be4e47273bef0e1f55d95c51284fa8c08e75027bcb7de",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0072-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "2",
-            "locator": "OEBPS/Text/2182_0239.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "3315713d0e2bd5ff4acf9f4872cae3c7fda22c23f5d84d09368f570c639ea2ed",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
-    },
-    {
-      "text": "أبي طالب و يكنى أبا عبد الله. و كان قد كف بصره. و أمه أم ولد. فولد حسين بن زيد مليكة و ميمونة. تزوجها المهدى أمير المؤمنين فتوفي عنها فخلف عليها عيسى بن جعفر الأكبر ابن المنصور فلم تلد له شيئا. و عليه بنت حسين و أمهن كلثم الصماء بنت عبد الله بن علي بن حسين بن علي بن أبي طالب. و يحيى بن حسين و سكينة لم تبرز و فاطمة بنت حسين. تزوجها محمد بن إبراهيم بن محمد بن علي بن عبد الله بن عباس فولدت له حسنا و سليمان و خديجة و زينب و الحسين لا عقب له بني محمد بن إبراهيم و أمهم خديجة بنت عمر بن علي بن حسين بن علي بن أبي طالب. و عليا و جعفرا و أمهما أم ولد. و لحسين أحاديث. 1450- عبد الله بن مصعب‏ بن ثابت بن عبد الله بن الزبير بن العوام بن خويلد بن أسد. و أمه أم ولد. فولد عبد الله بن مصعب أبا بكر ولي المدينة",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
-        "recordId": "20260821-fatima-source-bio-0016",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0016",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0016-source-01",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0160.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "0623af5d79a6b6c4a3c77a6fa695d87cfd2fa2f7a1ec713f2767a4114f4a346a",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0016-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "5",
-            "locator": "OEBPS/Text/2185_0499.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "5b83a48d64e365f0b7db6ed6acbbadb17465c4e96f54daa187521f42a60e6069",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0016-source-03",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0019.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "d57e529f39875118dcb2a0ca648e1d1dbe6c31e37518e70f52237766ebd1d64b",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0016-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0019.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "ac169c62681499cddc5f5af6c647e582f228343b62733540f9e6f43e4da84773",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
     }
   ]
 }

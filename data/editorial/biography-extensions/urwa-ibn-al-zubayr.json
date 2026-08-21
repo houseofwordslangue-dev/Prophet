@@ -1,10 +1,10 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.688561Z",
+  "generatedAt": "2026-08-21T23:02:26.954820Z",
   "personId": "urwa-ibn-al-zubayr",
   "personNameAr": "عروة بن الزبير",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
-  "passageCount": 7,
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
+  "passageCount": 5,
   "passages": [
     {
       "text": "عروة بن الزبير من أبناء الزبير بن العوام في فرع صفية بنت عبد المطلب، ولذلك تتصل قرابته بالنبي ﷺ عن طريق عمته صفية. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن عبد المطلب من والدي النبي محمد ﷺ. تُفرد له الصفحة بوصفه أصلًا مباشرًا في الأسرة النبوية، وتُضم إليها الأخبار الموثقة فقط عند ثبوتها في مصادر المكتبة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن عبد المطلب من الفرع المباشر لعبد المطلب بن هاشم المرتبط بأصل النبي ﷺ. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر. زيد بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عمرو بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. القاسم بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. أبو بكر بن الحسن من ذرية الحسن بن علي، سبط النبي ﷺ، في الفرع الحسني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي الأكبر بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي زين العابدين بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن الحسين من ذرية الحسين بن علي، سبط النبي ﷺ، في الفرع الحسيني. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جعفر بن الحسين من ذرية الحسين بن ع",
@@ -345,142 +345,6 @@
         ]
       },
       "wordCount": 449
-    },
-    {
-      "text": "قالت: اجعلي فراشي وسط البيت. فجعلته فاضطجعت عليه و استقبلت القبلة ثم قالت لي: يا أمه إني مقبوضة الساعة و قد اغتسلت فلا يكشفن أحد لي كتفا. قالت: فماتت. فجاء علي فأخبرته فقال: لا و الله لا يكشف لها أحد كتفا. فاحتملها 28/ 8 فدفنها بغسلها ذلك‏]. أخبرنا عبد الله بن مسلمة بن قعنب. حدثنا عبد العزيز بن أبي حازم عن محمد بن موسى أن علي بن أبي طالب غسل فاطمة. [أخبرنا يعقوب بن إبراهيم بن سعد الزهري عن أبيه عن صالح بن كيسان عن ابن شهاب قال: أخبرني عروة بن الزبير أن عائشة زوج النبي (ص) أخبرته أن فاطمة بنت رسول الله سألت أبا بكر بعد وفاة رسول الله أن يقسم لها ميراثها مما ترك رسول الله مما أفاء الله عليه. فقال لها أبو بكر: إن رسول الله (ص) قال:، لا نورث. ما تركنا صدقة،. فغضبت فاطمة و عاشت بعد وفاة رسول الله (ص) ستة أشهر]. أخبرنا سفيان بن عيينة عن عمرو عن الزهري قال: عاشت فاطمة بعد النبي",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
-        "recordId": "20260821-fatima-source-bio-0053",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0053",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0053-source-01",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "2",
-            "locator": "OEBPS/Text/2182_0190.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "b1ca545d6c9a7c2832da063db682251f6998712e3257d08b2cf3eeae3d0a5222",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0053-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0022.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "8e2ff91a879f1cdbf9a55b640071d337059c8563b49f480588d996d9004da231",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0053-source-03",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0036.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "907865e745ba76212211b6e44236ab54502dc62ebf911bc390403df16f3049a7",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0053-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0019.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "ac169c62681499cddc5f5af6c647e582f228343b62733540f9e6f43e4da84773",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
-    },
-    {
-      "text": "أول أهل بيتي لحاقا بي،. قالت: فبكيت لذلك. ثم قال:، أ ما ترضين أن تكوني سيدة نساء هذه الأمة أو نساء العالمين؟، قالت: فضحكت‏]. [أخبرنا محمد بن عمر. حدثني موسى بن يعقوب عن هاشم بن هاشم عن عبد الله بن وهب بن زمعة عن أم سلمة زوج النبي (ص) قالت: لما حضر رسول الله (ص) دعا فاطمة فناجاها فبكت. ثم ناجاها فضحكت. فلم أسألها حتى توفي رسول الله (ص) فسألت فاطمة عن بكائها و ضحكها فقالت: أخبرني (ص) أنه يموت. ثم أخبرني أني سيدة نساء أهل الجنة بعد مريم بنت عمران فلذلك ضحكت.] أخبرنا محمد بن عمر عن سفيان بن عيينة عن عمرو بن دينار عن أبي جعفر قال: ما رأيت فاطمة (ع) ضاحكة بعد رسول الله (ص) إلا أنه قد تمودي بطرف فيها. ذكر ما قال رسول الله (ص) في مرضه لأسامة بن زيد. (رحمه الله) ‏ [أخبرنا محمد بن عمر. حدثني محمد بن عبد الله عن الزهري عن عروة بن الزبير قال: كان رسول الله (ص) قد بعث",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
-        "recordId": "20260821-fatima-source-bio-0030",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0030",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0030-source-01",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "2",
-            "locator": "OEBPS/Text/2182_0190.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "b1ca545d6c9a7c2832da063db682251f6998712e3257d08b2cf3eeae3d0a5222",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0030-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0017.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "fb6d0e427166896067763ece8ac32fd84ef46a2725ebe22c1e8267f45d9e218b",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0030-source-03",
-            "resourceId": "family-companions-009",
-            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
-            "author": "مؤمن بن حسن الشبلنجي",
-            "volume": "",
-            "locator": "199",
-            "sourceKind": "drive-text",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-009",
-            "sourceFingerprint": "374b3cd67c7ddc7501708a02afbd794c89d467e9e9552c976e614eb21e8dc9cf",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0030-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "3",
-            "locator": "OEBPS/Text/2183_0154.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "104a4b7010ea753254cba7c42515bf9c8274615cdc796ee01ed9781477d00289",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
     }
   ]
 }

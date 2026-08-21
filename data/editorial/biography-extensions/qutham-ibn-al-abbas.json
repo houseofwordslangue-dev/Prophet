@@ -1,9 +1,9 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.673948Z",
+  "generatedAt": "2026-08-21T23:02:26.940311Z",
   "personId": "qutham-ibn-al-abbas",
   "personNameAr": "قثم بن العباس",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
   "passageCount": 5,
   "passages": [
     {

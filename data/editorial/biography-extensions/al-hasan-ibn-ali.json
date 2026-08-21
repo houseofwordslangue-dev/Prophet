@@ -1,10 +1,10 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.632960Z",
+  "generatedAt": "2026-08-21T23:02:26.900242Z",
   "personId": "al-hasan-ibn-ali",
   "personNameAr": "الحسن بن علي",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
-  "passageCount": 6,
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
+  "passageCount": 5,
   "passages": [
     {
       "text": "الحسن بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسن بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أبي طالب. وقد ظهر الاسم في 4 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. القاسم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد الله بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. رقية بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أم كلثوم بنت محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. علي بن أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. أمامة بنت أبي العاص من أحفاد النبي ﷺ من ابنته زينب بنت محمد. ولم تُضف الصفحة أخبارًا تفصيلية تتجاوز ما يثبته موضعه في الشجرة إلى أن تتوفر مادة مصدرية قابلة للتحقق. عبد الله بن عثمان من أحفاد النبي ﷺ من ابنته رقية بنت محمد. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أبناء علي بن أبي طالب وفاطمة الزهراء بنت النبي ﷺ، ولذلك يجتمع له النسب الهاشمي والانتساب المباشر إلى ذرية النبي ﷺ من فاطمة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الحسين بن علي من أحفاد النبي ﷺ من فاطمة الزهراء وعلي بن أ",
@@ -345,74 +345,6 @@
         ]
       },
       "wordCount": 448
-    },
-    {
-      "text": "(2) ت (30195)، و شذرات الذهب (1/ 42، 43، 56)، و تهذيب تاريخ دمشق (7/ 74)، و حذف من نسب قريش (78). 161 (1) بنت أبي بكر الصديق. و عيسى و يحيى و أمهما سعدى بنت عوف بن خارجة بن سنان بن أبي حارثة المري. و أم إسحاق بنت طلحة تزوجها الحسن بن علي بن أبي طالب فولدت له طلحة ثم توفي عنها فخلف عليها الحسين بن علي فولدت له فاطمة و أمها الجرباء و هي أم الحارث بنت قسامة بن حنظلة بن وهب بن قيس بن عبيد بن طريف بن مالك بن جدعاء من طيّئ. و الصعبة بنت طلحة و أمها أم ولد. و مريم ابنة طلحة و أمها أم ولد. و صالح بن طلحة درج. و أمه الفرعة بنت علي سبية من بني تغلب. قال: أخبرنا محمد بن عمر قال: حدثني الضحاك بن عثمان عن مخرمة بن سليمان الوالبي عن إبراهيم بن محمد بن طلحة قال: قال طلحة بن عبيد الله حضرت 215/ 3 سوق بصرى فإذا راهب",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-04.json",
-        "recordId": "20260821-fatima-source-bio-0158",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0158",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0158-source-01",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0016.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "3451a24d22e15584a4f6379c12f83cabd5fdadcf1ad8b0228baa9a16ba650105",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0158-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "3",
-            "locator": "OEBPS/Text/2183_0154.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "104a4b7010ea753254cba7c42515bf9c8274615cdc796ee01ed9781477d00289",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0158-source-03",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "10",
-            "locator": "OEBPS/Text/2189_0307.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "d4a181e8025d9d319c2780db6cc43adb059ce3824eaa4f65b94ee32ccaa9b153",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0158-source-04",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0036.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "907865e745ba76212211b6e44236ab54502dc62ebf911bc390403df16f3049a7",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
     }
   ]
 }

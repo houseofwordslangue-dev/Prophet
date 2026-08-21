@@ -1,10 +1,10 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.630510Z",
+  "generatedAt": "2026-08-21T23:02:26.897853Z",
   "personId": "al-abbas-ibn-abd-al-muttalib",
   "personNameAr": "العباس بن عبد المطلب",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
-  "passageCount": 7,
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
+  "passageCount": 5,
   "passages": [
     {
       "text": "العباس بن عبد المطلب، أبو الفضل، عمّ النبي ﷺ ومن كبار بني هاشم. تذكر كتب التراجم أنه كان أكبر من رسول الله ﷺ بسنتين أو ثلاث على أحد الأقوال. تمتد أخباره عبر مرحلتي مكة والمدينة، ولذلك مادته أغزر من أخبار كثير من إخوته. حضر مشاهد من السيرة قبل استقرار أمره في جماعة المسلمين، ثم عُرف بعد ذلك بمكانته القريبة من النبي ﷺ وبحضوره في أحداث المدينة. وتثبت المصادر وجوده في حنين ضمن من ثبتوا حول رسول الله ﷺ. كما بقي بعد وفاة النبي ﷺ من وجوه بني هاشم، وترد له أخبار في زمن الخلفاء. توفي في المدينة في خلافة عثمان، وتذكر المصادر سنة 32 هـ في وفاته. تعتمد هذه الصفحة على المادة المتكررة في كتب السيرة والتراجم، مع إبقاء الاختلافات في الأعمار والتواريخ بصيغة نسبتها إلى الأقوال بدل تحويلها إلى يقين مصطنع. القرشي الهاشمي أبو الفضل المكي عم رسول الله ﷺ، وكان أسن من رسول الله ﷺ بسنتين أو ثلاث. العباس بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد الحارث بن عبد المطلب أحد أبناء عبد المطلب بن هاشم، ومن ثم فهو عمّ النبي محمد ﷺ من جهة الأب. تحفظ كتب الأنساب والتراجم خبره أساسا في إطار نسب بني هاشم، وتذكر المصادر التي عُثر عليها في المكتبة أنه مات في الجاهلية؛ ولذلك لا تُنسب إليه صحبة ولا أحداث من العهد المدني. وتبقى مادته أقل من مادة إخوته الذين امتدت أخبارهم إلى زمن البعثة. تعرض هذه الصفحة ما ثبت من نسبه وموضعه في أسرة عبد المطلب دون إضافة قصص غير موثقة. الحارث بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. الزبير بن عبد المطلب من أعمام النبي ﷺ ومن رجال بني هاشم قبل الإسلام. ترد أخباره في كتب النسب أكثر مما ترد في كتب المغازي المتأخرة، ولذلك تُبنى سيرته هنا على المادة النسبية المحفوظة لا على إعادة إنشاء أحداث لا تسندها المصادر. ينقل ابن حزم في جمهرة أنساب العرب أسماء أولاد نُسبوا إليه، ومنهم الطاهر وحَجْل وقرة وعبد الله، مع خبر يتعلق بعبد الله. وتظهر نتائج البحث في مكتبة Drive اسمه في عدد من النصوص التراثية، إلا أن كثيرا منها OCR غير منضبط؛ لذلك لم تُنقل منها اقتباسات حرفية قبل التحقق. مكانته الأساسية في هذه الصفحة هي كابن لعبد المطلب وعم للنبي ﷺ ورجل من البيت الهاشمي الذي سبق البعثة. الزبير بن عبد المطلب من أعمام النبي ﷺ، من أبناء عبد المطلب بن هاشم. تُجمع في صفحته المواد التي تخصه وحده، ولا تُخلط بأخبار إخوته أو ببقية بني هاشم. وقد ظهر الاسم في 1 من موارد Drive ال",
@@ -345,142 +345,6 @@
         ]
       },
       "wordCount": 451
-    },
-    {
-      "text": "قد قال رسول اللّه- (صلّى اللّه عليه و سلّم) -: «لا نورث ما تركنا صدقة»، يعني هذه الأموال القائمة، فتعلمين أن أباك أعطاكها فو اللّه، لئن قلت: نعم لأقبلنّ قولك، و لأصدقنّك قالت: جاءتني أمّ أيمن فأخبرتني أنه أعطاني فدك، قال عمر: فسمعته يقول: هي لك فإذا قلت قد سمعته فهي لك، فأنا أصدقك، و أقبل قولك، قالت قد أخبرتك ما عندي. و روى ابن سعد عن جعفر قال: جاءت فاطمة إلى أبي بكر، تطلب ميراثها، و جاء العبّاس بن عبد المطلب يطلب ميراثه و جاء معهما عليّ‏ فقال أبو بكر: قال رسول اللّه- (صلّى اللّه عليه و سلّم) -: «لا نورث ما تركنا صدقة» و ما كان النبي يعول فعليّ فقال علي: وَرِثَ سُلَيْمانُ داوُدَ [النمل: 16] و قال زكريا: يَرِثُنِي وَ يَرِثُ مِنْ آلِ يَعْقُوبَ‏ [مريم: 6] قال أبو بكر: هو هكذا، و أنت اللّه أعلم مثل ما أعلم فقال عليّ: هذا كتاب اللّه ينطق فسكتوا و انصرفوا. و روى عبد الرزّاق و الإمام أحمد و عبد بن",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
-        "recordId": "20260821-fatima-source-bio-0013",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0013",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0013-source-01",
-            "resourceId": "family-companions-004",
-            "title": "الصواعق المحرقة على أهل الرفض والضلال والزندقة",
-            "author": "أحمد بن حجر الهيتمي",
-            "volume": "",
-            "locator": "254",
-            "sourceKind": "drive-text",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-004",
-            "sourceFingerprint": "0694a8f8b5b54fba5c4673513f9d4accd58ba8fe56e91dc949f288e4d4bd839a",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0013-source-02",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "12",
-            "locator": "OEBPS/Text/2397_0217.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "c483c48bda26893ae63e30d1fc9bbaeb0d789de03dc61d3cb47d5986f74bb6d8",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0013-source-03",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0015.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "cd47c09ef0370a5fdd2420a6a51e40c32a32ceac48d0b48b8d3825f310a8dea9",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0013-source-04",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "12",
-            "locator": "OEBPS/Text/2397_0369.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "f6046f7c3f49c49276c04e61df8f5085ef739437cb7f099a58086a8c737cf236",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
-    },
-    {
-      "text": "تاريخ الإسلام (6/ 56)، و العبر (1/ 256)، و تهذيب الكمال (1322)، و تذهيب التهذيب (1) ورقة (149)، و الكاشف (1/ 232)، و العقد الثمين (4/ 200)، و تهذيب التهذيب (2/ 334). 990 الجرح و التعديل (5/ 155). 252 (1) مالك بن عبد الله بن غفار بن مليل بن ضمرة بن بكر بن عبد مناة بن كنانة. و محمدا الأكبر بن عبد الله و لبابة بنت عبد الله و أمهما فاطمة بنت محمد بن عبيد الله بن العباس بن عبد المطلب. و علي بن عبد الله و رجلا آخر لم يسم لنا و أمهما أم عثمان بنت أبي حدير و هو عياش بن عبدة بن مغيث بن الجد بن العجلان من بلي قضاعة. و طالبا و عونا و عبيد الله لأمهات أولاد و ريطة و هي أم يحيى بن زيد بن علي المقتول بخراسان. و أمها ريطة و هي أم الحارث بنت الحارث بن الحارث بن نوفل بن الحارث بن عبد المطلب. و أم سلمة و أمها أم ولد. كان",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-02.json",
-        "recordId": "20260821-fatima-source-bio-0054",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0054",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0054-source-01",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "5",
-            "locator": "OEBPS/Text/2390_0008.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "3b8ae2862538d95edb2781398f01c511b2e4e1c2a60103ce532aacef112dcc22",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0054-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "5",
-            "locator": "OEBPS/Text/2185_0251.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "e66d1704325f5d9fc2d53ff4cf754b2f449b765e38cb87d1432daac62f24b62a",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0054-source-03",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0206.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "a0fcdfe9b5e25c17e5cff860ddca1a2a13503247db524ecaf5413b61da42327f",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0054-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0022.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "8e2ff91a879f1cdbf9a55b640071d337059c8563b49f480588d996d9004da231",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
     }
   ]
 }

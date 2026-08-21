@@ -1,9 +1,9 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.634544Z",
+  "generatedAt": "2026-08-21T23:02:26.901729Z",
   "personId": "al-muqawwim-ibn-abd-al-muttalib",
   "personNameAr": "المقوّم بن عبد المطلب",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
   "passageCount": 5,
   "passages": [
     {

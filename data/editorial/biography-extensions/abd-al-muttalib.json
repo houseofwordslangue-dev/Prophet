@@ -1,10 +1,10 @@
 {
   "schema": "canonical-biography-source-extension-v1",
-  "generatedAt": "2026-08-21T22:59:14.614650Z",
+  "generatedAt": "2026-08-21T23:02:26.882404Z",
   "personId": "abd-al-muttalib",
   "personNameAr": "عبد المطلب بن هاشم",
-  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
-  "passageCount": 7,
+  "policy": "Only passages from source records explicitly linked to this exact person; no incidental name-match enrichment.",
+  "passageCount": 5,
   "passages": [
     {
       "text": "عبد المطلب بن هاشم من أجداد النبي ﷺ أو جداته من جهة الأب، وقد وُضع في طبقة النسب الأبوي الخاصة به. تميّز الصفحة بين ثبوت صلة النسب وبين الأخبار التفصيلية التي تحتاج إلى مصدر مستقل. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد المطلب بن هاشم ممن ارتبطوا بكفالة النبي ﷺ أو ببيت أحد كافليه بحسب هذا الفرع، مع فصل الكفالة عن النسب والرضاعة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. هاشم بن عبد مناف من أجداد النبي ﷺ أو جداته من جهة الأب، وقد وُضع في طبقة النسب الأبوي الخاصة به. تميّز الصفحة بين ثبوت صلة النسب وبين الأخبار التفصيلية التي تحتاج إلى مصدر مستقل. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عبد مناف بن قصي من أجداد النبي ﷺ أو جداته من جهة الأب، وقد وُضع في طبقة النسب الأبوي الخاصة به. تميّز الصفحة بين ثبوت صلة النسب وبين الأخبار التفصيلية التي تحتاج إلى مصدر مستقل. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. قصي بن كلاب من أجداد النبي ﷺ أو جداته من جهة الأب، وقد وُضع في طبقة النسب الأبوي الخاصة به. تميّز الصفحة بين ثبوت صلة النسب وبين الأخبار التفصيلية التي تحتاج إلى مصدر مستقل. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. كلاب بن مرة من أجداد النبي ﷺ أو جداته من جهة الأب، وقد وُضع في طبقة النسب الأبوي الخاصة به. تميّز الصفحة بين ثبوت صلة النسب وبين الأخبار التفصيلية التي تحتاج إلى مصدر مستقل. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. كلاب بن مرة من أجداد النبي ﷺ أو جداته من جهة الأم، ضمن نسب آمنة بنت وهب وبني زهرة. لا تتجاوز النبذة ما يثبته هذا الموضع النسبي وما تؤيده المصادر المفهرسة. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مرة بن كعب من أجداد النبي ﷺ أو جداته من جهة الأب، وقد وُضع في طبقة النسب الأبوي الخاصة به. تميّز الصفحة بين ثبوت صلة النسب وبين الأخبار التفصيلية التي تحتاج إلى مصدر مستقل. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. كعب بن لؤي من أجداد الن",
@@ -345,142 +345,6 @@
         ]
       },
       "wordCount": 455
-    },
-    {
-      "text": "طالب امرأة عمر بن الخطاب و ابن لها يقال له زيد. و الإمام يومئذ سعيد بن العاص. أخبرنا عبد الله بن نمير. حدثنا إسماعيل بن أبي خالد عن عامر قال: صلى ابن عمر على أخيه زيد و أم كلثوم بنت علي. و كان سريرهما سواء. و كان الرجل مما يلي الإمام. 4635- زينب بنت علي بن أبي طالب‏ بن عبد المطلب بن هاشم بن عبد مناف بن قصي. و أمها فاطمة بنت رسول الله (ص) تزوجها عبد الله بن جعفر بن أبي طالب بن عبد المطلب فولدت له عليا و عونا الأكبر و عباسا و محمدا و أم كلثوم. أخبرنا محمد بن إسماعيل بن أبي فديك عن ابن أبي ذئب قال: حدثني عبد الرحمن بن مهران أن عبد الله بن جعفر بن أبي طالب تزوج زينب بنت علي. و تزوج معها امرأة علي ليلى بنت مسعود فكانتا تحته جميعا. 4636- فاطمة بنت علي بن أبي طالب‏ بن عبد المطلب بن هاشم بن عبد مناف. و أمها أم ولد. تزوجها محمد",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
-        "recordId": "20260821-fatima-source-bio-0009",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0009",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0009-source-01",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0043.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "c3b32b540b675ab788309f510523520bbe421ba408dc2e7cc4226858bdf99d65",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0009-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0339.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "9937a789de70cbfa7ff23c754608155a982296bb2d9e4c30ec8d08af5aaa4ecb",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0009-source-03",
-            "resourceId": "family-companions-006",
-            "title": "الرياض النضرة في مناقب العشرة",
-            "author": "محب الدين الطبري",
-            "volume": "",
-            "locator": "405",
-            "sourceKind": "drive-text",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-006",
-            "sourceFingerprint": "c112be09ff2a602ebd8ffb5c517645ce523502e592a848a9d8f3cbf8ba54ac15",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0009-source-04",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "2",
-            "locator": "OEBPS/Text/2182_0239.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "3315713d0e2bd5ff4acf9f4872cae3c7fda22c23f5d84d09368f570c639ea2ed",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
-    },
-    {
-      "text": "بن عبد الله بن أبي ربيعة بن المغيرة بن عبد الله بن عمر بن مخزوم فولدت له إبراهيم الأحول و موسى و أم حميد و أم عثمان. و كانت عائشة أم المؤمنين أرسلت سالم بن عبد الله بن عمر إلى أم كلثوم لترضعه ليدخل عليها فأرضعته ثلاث مرات ثم مرضت. 4634- أم كلثوم بنت عليّ بن أبي طالب بن عبد المطّلب بن هاشم بن عبد مناف بن قصيّ، و أمّها فاطمة بنت رسول اللّه، و أمها خديجة بنت خويلد بن أسد بن عبد العزّى بن قصيّ. تزوّجها عمر بن الخطّاب و هي جارية لم تبلغ فلم تزل عنده إلى أن قتل و ولدت له زيد بن عمر و رقيّة بنت عمر، ثمّ خلف على أمّ كلثوم بعد عمر عون بن جعفر بن أبي طالب بن عبد المطّلب فتوفّى عنها، ثمّ خلف عليها أخوه محمد بن جعفر بن أبي طالب بن عبد المطّلب فتوفّي عنها، فخلف عليها أخوه عبد اللّه بن جعفر بن أبي طالب بعد أختها بنت عليّ بن أبي",
-      "source": {
-        "repositoryPath": "data/editorial/drafts/2026-08-21/fatima-long-batch-01.json",
-        "recordId": "20260821-fatima-source-bio-0020",
-        "recordTitle": "فاطمة الزهراء رضي الله عنها — سيرة مصدرية موسعة — 0020",
-        "sourceType": "github-editorial-extraction",
-        "sources": [
-          {
-            "ref": "20260821-fatima-source-bio-0020-source-01",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0205.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "344cd263e494198f8729d7943c26b72d4c61b102a6f005884489496cb3b1af53",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0020-source-02",
-            "resourceId": "family-companions-027",
-            "title": "الطبقات الكبرى",
-            "author": "محمد بن سعد",
-            "volume": "8",
-            "locator": "OEBPS/Text/2188_0337.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/family-companions-027",
-            "sourceFingerprint": "87a2f7f169bc26b31485b3e786e3a997b7c08af29c496531bbe22af7f1a88a4c",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0020-source-03",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "11",
-            "locator": "OEBPS/Text/2396_0160.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "335d7251cbe1f6d585fba5e6ba62bb16f7da5015d57cd1751b1204445a00f68a",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          },
-          {
-            "ref": "20260821-fatima-source-bio-0020-source-04",
-            "resourceId": "life-seerah-016",
-            "title": "سبل الهدى والرشاد في سيرة خير العباد",
-            "author": "محمد بن يوسف الصالحي الشامي",
-            "volume": "9",
-            "locator": "OEBPS/Text/2394_0053.xhtml",
-            "sourceKind": "epub-native",
-            "sourceChannel": "google-drive",
-            "drivePath": "Prophet-Library-Ingestion/books/life-seerah-016",
-            "sourceFingerprint": "cd9bdc050bd93cad508230b7db94e9f616aa03711d6fcb6cef0d9bb09d2b9c8f",
-            "verifiedAgainstOriginal": true,
-            "verificationBasis": "Recovered intact source fragment from the previously verified Fatima source corpus; wording preserved with whitespace normalization only."
-          }
-        ]
-      },
-      "wordCount": 160
     }
   ]
 }
