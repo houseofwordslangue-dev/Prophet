@@ -1,0 +1,29 @@
+name: Empty biography diagnostics
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_empty_person_biographies.py'
+      - 'scripts/mine_empty_biography_source_articles.py'
+      - '.github/workflows/empty-biography-diagnostics.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Mine existing source articles
+        run: python scripts/mine_empty_biography_source_articles.py
+      - name: Audit rendered biography coverage
+        run: python scripts/audit_empty_person_biographies.py
+      - name: Upload diagnostics
+        uses: actions/upload-artifact@v4
+        with:
+          name: empty-biography-diagnostics
+          path: |
+            data/editorial/empty_biography_source_candidates.json
+            data/editorial/empty_biographies_audit.json
+          if-no-files-found: error
