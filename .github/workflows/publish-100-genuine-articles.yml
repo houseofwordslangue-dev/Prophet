@@ -37,6 +37,7 @@ jobs:
             data/editorial/drafts/2026-08-21 \
             data/editorial/publication_supplement.json \
             data/editorial/source_extract_100_audit.json \
+            assets/editorial-public.js \
             service-worker.js
           if git diff --cached --quiet; then
             echo 'No publication changes required.'
