@@ -4,7 +4,7 @@ const LABELS={
  light:'النور',prophet:'النبي',messenger:'الرسول',human:'الإنسان',mercy:'الرحمة العظمى',
  'prophetic-household':'الأسرة النبوية','prophetic-family':'العائلة النبوية',family:'الأسرة النبوية',
  companions:'الصحابة',followers:'التابعون','followers-followers':'تابعو التابعين',beloved:'أحباب الله',
- library:'المكتبة',sources:'المكتبة',media:'الوسائط',forums:'المنتدى',forum:'المنتدى',children:'للأطفال'
+ library:'المكتبة',sources:'المكتبة',media:'الوسائط',forums:'المنتدى',forum:'المنتدى',children:'أحباب الله'
 };
 const MENU=[
  ['محمد ﷺ',null,[['النور','editorial.html?section=light'],['النبي','editorial.html?section=prophet'],['الرسول','editorial.html?section=messenger'],['الإنسان','editorial.html?section=human'],['الرحمة العظمى','editorial.html?section=mercy']],'reserved'],
@@ -13,7 +13,7 @@ const MENU=[
  ['الصحابة','editorial.html?section=companions',[['التراجم','editorial.html?section=companions&subsection=biographies'],['العلم والأقوال','editorial.html?section=companions&subsection=knowledge'],['المواقف والأحداث','editorial.html?section=companions&subsection=events']]],
  ['التابعون','editorial.html?section=followers',[['التراجم','editorial.html?section=followers']]],
  ['تابعو التابعين','editorial.html?section=followers-followers',[['التراجم','editorial.html?section=followers-followers']]],
- ['أحباب الله','editorial.html?section=beloved',[['السير والتراجم','editorial.html?section=beloved'],['للأطفال · الأخلاق','editorial.html?section=beloved&subsection=children-character'],['للأطفال · العلم والمعرفة','editorial.html?section=beloved&subsection=children-knowledge'],['للأطفال · الرحمة والرفق','editorial.html?section=beloved&subsection=children-mercy'],['للأطفال · الأسرة والصحبة','editorial.html?section=beloved&subsection=children-family']]],
+ ['أحباب الله','children.html',[[ 'بوابة أحباب الله','children.html'],['القراءات الموثقة','children.html#verified-readings'],['القصص المصوّرة','children-stories.html'],['القصص المتحركة','children-animated.html'],['فيديو وصوت','children-videos.html'],['السير والتراجم','editorial.html?section=beloved']]],
  ['المكتبة','library.html',[['الكتب','library.html?type=books'],['المخطوطات','library.html?type=manuscripts'],['الدراسات والبحوث','library.html?type=studies'],['التفسير وعلوم القرآن','library.html?type=quran'],['الحديث وشروحه','library.html?type=hadith'],['السيرة والشمائل','library.html?type=seerah'],['أهل البيت','library.html?type=ahl-al-bayt'],['PDF','library.html?format=pdf'],['EPUB','library.html?format=epub']]],
  ['الوسائط','media.html',[['الفيديو','media.html?type=video'],['الصوتيات','media.html?type=audio'],['المحاضرات','media.html?type=lecture'],['البودكاست','media.html?type=podcast'],['الوثائقيات','media.html?type=documentary'],['الأبحاث المرئية والمسموعة','media.html?type=research']]],
  ['المنتدى','editorial.html?section=forums',[]]
