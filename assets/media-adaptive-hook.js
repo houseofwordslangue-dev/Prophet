@@ -1,0 +1,4 @@
+(function(){'use strict';
+function hook(){if(!window.UniversalMediaPlayer||!window.AdaptiveMedia||window.UniversalMediaPlayer.__adaptive)return false;const base=window.UniversalMediaPlayer.playItem;window.UniversalMediaPlayer.playItem=function(item,host){const has=(item?.variants?.length||item?.sourceCandidates?.some?.(x=>/\.(m3u8|mpd)(?:[?#]|$)/i.test(typeof x==='string'?x:x?.url||'')));if(has){host.innerHTML='';window.AdaptiveMedia.attach(item,host).then(ok=>{if(!ok)base(item,host)}).catch(()=>base(item,host));return null}return base(item,host)};window.UniversalMediaPlayer.__adaptive=true;return true}
+if(!hook())document.addEventListener('DOMContentLoaded',hook,{once:true});
+})();
