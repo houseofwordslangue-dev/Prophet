@@ -26,18 +26,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build corrected Fatima corpus
-        run: python scripts/materialize_fatima_1000_compliant.py
-      - name: Validate strict master rules
+      - name: Sync latest main before generation
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY'
+          git fetch origin main
+          git reset --hard origin/main
+      - name: Build and validate corrected Fatima corpus
+        id: build
+        shell: bash
+        run: |
+          set +e
+          mkdir -p data/editorial
+          python scripts/materialize_fatima_1000_compliant.py > /tmp/fatima-build.log 2>&1
+          rc=$?
+          if [ "$rc" -eq 0 ]; then
+            python - <<'PY' >> /tmp/fatima-build.log 2>&1
           import glob,json
           audit=json.load(open('data/editorial/fatima_1000_audit.json',encoding='utf-8'))
           assert audit['complete'] is True and audit['extracted']==1000
-          assert audit['allOver500Words'] is True
-          assert audit['minimumObservedWords']>500
+          assert audit['allOver500Words'] is True and audit['minimumObservedWords']>500
           assert audit['articlesAtOrBelow500Words']==0
           assert audit['prophetOnlySectionsUsed']==0
           assert audit['destination']=='prophetic-household/children'
@@ -50,7 +58,7 @@ jobs:
           assert len(rows)==1000
           assert len({x['id'] for x in rows})==1000
           assert len({x['bodyFingerprint'] for x in rows})==1000
-          assert all(x['wordCount']>500 for x in rows)
+          assert all(int(x['wordCount'])>500 for x in rows)
           assert all(x['section']=='prophetic-household' and x['subsection']=='children' for x in rows)
           assert not any(x['section'] in {'light','prophet','messenger','human','mercy'} for x in rows)
           assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in rows)
@@ -61,20 +69,49 @@ jobs:
           assert supplement['fatima1000']['allOver500Words'] is True
           print('PASS: 1000 Fatima articles, >500 words, source-only, 0 Prophet-only placements')
           PY
-      - name: Commit corrected publication
+            vr=$?
+            if [ "$vr" -ne 0 ]; then rc=$vr; fi
+          fi
+          python - "$rc" <<'PY'
+          import json,sys,datetime,pathlib
+          rc=int(sys.argv[1])
+          log=pathlib.Path('/tmp/fatima-build.log').read_text(encoding='utf-8',errors='replace')
+          status={
+            'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat().replace('+00:00','Z'),
+            'status':'SUCCESS' if rc==0 else 'FAILED',
+            'exitCode':rc,
+            'logTail':log[-12000:]
+          }
+          pathlib.Path('data/editorial/fatima_1000_run_status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          cat /tmp/fatima-build.log
+          echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Commit result to main
         shell: bash
         run: |
           set -euo pipefail
           git config user.name 'prophet-editorial-bot'
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add -- data/editorial/fatima_1000_audit.json data/editorial/publication_supplement.json data/editorial/drafts/2026-08-21/fatima-long-batch-*.json
-          if git diff --cached --quiet; then echo 'No generated publication changes.'; exit 0; fi
-          git commit -m 'Publish 1000 compliant Fatima source articles'
-          for attempt in 1 2 3 4; do
-            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
-            git rebase --abort 2>/dev/null || true
+          git add -- data/editorial/fatima_1000_run_status.json
+          if [ "${{ steps.build.outputs.exit_code }}" = "0" ]; then
+            git add -- data/editorial/fatima_1000_audit.json data/editorial/publication_supplement.json data/editorial/drafts/2026-08-21/fatima-long-batch-*.json
+            msg='Publish 1000 compliant Fatima source articles'
+          else
+            msg='Record Fatima 1000 publication failure'
+          fi
+          git commit -m "$msg" || true
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
             git fetch origin main
-            git rebase origin/main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then exit 0; fi
+            else
+              git rebase --abort || true
+            fi
             sleep $((attempt * 3))
           done
           exit 1
+      - name: Fail workflow if corpus failed validation
+        if: steps.build.outputs.exit_code != '0'
+        run: exit 1
