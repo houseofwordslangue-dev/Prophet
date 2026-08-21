@@ -4,21 +4,19 @@ import argparse, json, re
 import generate_animated_children_stories as base
 import animated_children_quality_revision as revision
 import animated_children_story_writer as story_writer
+import animated_children_story_diversifier as diversifier
 import animated_children_source_inspiration as source_inspiration
 
 _ORIGINAL_SVG=base.svg_art
 
 def preserve_art(path,*args,**kwargs):
-    """Idempotent asset writer: existing approved artwork is never overwritten."""
-    if path.exists() and path.stat().st_size>0:
-        return
+    if path.exists() and path.stat().st_size>0: return
     _ORIGINAL_SVG(path,*args,**kwargs)
 
 base.svg_art=preserve_art
 revision.base.svg_art=preserve_art
 
 class NormalizedShingleSimilarity:
-    """Fast deterministic normalized 3-word-shingle Jaccard similarity."""
     def __init__(self,_junk,a,b): self.a=a; self.b=b
     @staticmethod
     def _shingles(text):
@@ -33,7 +31,6 @@ class NormalizedShingleSimilarity:
 
 base.SequenceMatcher=NormalizedShingleSimilarity
 
-
 def _sentences(text:str)->list[str]:
     return [re.sub(r'\s+',' ',x).strip() for x in re.split(r'(?<=[.!؟?])\s+|(?<=。)\s*',text) if x.strip()]
 
@@ -46,33 +43,25 @@ def _editorial_gate(s:dict)->None:
         raise SystemExit(f'{sid}: inspiration layer must not import quotations or named historical figures')
     for lang,key in [('ar','storyAr'),('en','storyEn'),('fr','storyFr')]:
         for block in s.get(key) or []:
-            text=block.get('text','')
-            sentences=_sentences(text)
+            sentences=_sentences(block.get('text',''))
             normalized=[re.sub(r'[^\w\u0600-\u06ff]+','',x.lower()) for x in sentences]
             if normalized and len(set(normalized))/len(normalized)<0.92:
                 raise SystemExit(f'{sid}: repeated-sentence padding in {lang} scene {block.get("sceneNumber")}')
     fr=' '.join([s.get('synopsisFr',''),s.get('moralFr','')] + [x.get('text','') for x in s.get('storyFr') or []])
-    if re.search(r'[\u0600-\u06ff]',fr):
-        raise SystemExit(f'{sid}: Arabic leakage into French narrative')
-    # Ensure the ten scenes are real beats rather than one repeated template.
+    if re.search(r'[\u0600-\u06ff]',fr): raise SystemExit(f'{sid}: Arabic leakage into French narrative')
     titles=[x.get('sceneTitle','') for x in s.get('scenes') or []]
-    if len(titles)!=10 or len(set(titles))!=10:
-        raise SystemExit(f'{sid}: expected ten distinct narrative beats')
-
+    if len(titles)!=10 or len(set(titles))!=10: raise SystemExit(f'{sid}: expected ten distinct narrative beats')
+    if not all(x.get('storySpecificMethod') and x.get('storySpecificConstraint') and x.get('storySpecificOutcome') for x in s.get('scenes') or []):
+        raise SystemExit(f'{sid}: story-specific event diversification missing')
 
 def _structural_batch_gate(batch:list[dict],batch_no:int)->None:
-    if len(batch)!=20:
-        raise SystemExit(f'batch-{batch_no:02d}: expected 20 stories, got {len(batch)}')
+    if len(batch)!=20: raise SystemExit(f'batch-{batch_no:02d}: expected 20 stories, got {len(batch)}')
     ids=[s['id'] for s in batch]
-    if len(ids)!=len(set(ids)):
-        raise SystemExit(f'batch-{batch_no:02d}: duplicate IDs')
+    if len(ids)!=len(set(ids)): raise SystemExit(f'batch-{batch_no:02d}: duplicate IDs')
     for s in batch:
-        if s.get('fictional') is not True or s.get('historicalClaim') is not False:
-            raise SystemExit(f"{s.get('id')}: fictional/historical flags invalid")
-        if len(s.get('scenes') or [])!=10:
-            raise SystemExit(f"{s.get('id')}: expected exactly ten scenes")
-        if not s.get('synopsisAr') or not s.get('moralAr'):
-            raise SystemExit(f"{s.get('id')}: incomplete editorial metadata")
+        if s.get('fictional') is not True or s.get('historicalClaim') is not False: raise SystemExit(f"{s.get('id')}: fictional/historical flags invalid")
+        if len(s.get('scenes') or [])!=10: raise SystemExit(f"{s.get('id')}: expected exactly ten scenes")
+        if not s.get('synopsisAr') or not s.get('moralAr'): raise SystemExit(f"{s.get('id')}: incomplete editorial metadata")
         _editorial_gate(s)
 
 def build()->None:
@@ -83,6 +72,7 @@ def build()->None:
             s=base.make_story(i,True)
             s=revision.revise_story(s,i)
             s=story_writer.rewrite_story(s,i)
+            s=diversifier.diversify(s,i)
             s=source_inspiration.apply(s)
             batch.append(s)
         _structural_batch_gate(batch,batch_no)
@@ -90,10 +80,9 @@ def build()->None:
         print(f'PASS batch-{batch_no:02d}: {start:03d}-{start+19:03d}')
     errors=base.validate(stories,True)
     if errors:
-        print('\n'.join(errors[:100]))
-        raise SystemExit(1)
+        print('\n'.join(errors[:100])); raise SystemExit(1)
     base.write_outputs(stories)
-    print('PASS: 100 source-inspired fictional stories; no repetition padding; AR/EN/FR; five batches; similarity<=0.70')
+    print('PASS: 100 resource-inspired fictional stories; unique event sequences; no repetition padding; AR/EN/FR; similarity<=0.70')
 
 def validate_only()->None:
     stories=[]
@@ -102,11 +91,9 @@ def validate_only()->None:
             stories.append(json.loads(p.read_text(encoding='utf-8')))
     errors=base.validate(stories,True)
     if errors:
-        print('\n'.join(errors[:100]))
-        raise SystemExit(1)
-    for batch_no,start in enumerate(range(0,100,20),1):
-        _structural_batch_gate(stories[start:start+20],batch_no)
-    print('PASS: 100 editorially revised stories; source-inspired motifs; no repetition padding; assets preserved')
+        print('\n'.join(errors[:100])); raise SystemExit(1)
+    for batch_no,start in enumerate(range(0,100,20),1): _structural_batch_gate(stories[start:start+20],batch_no)
+    print('PASS: 100 editorially revised stories; resource-inspired motifs; distinct events; no repetition padding')
 
 def main()->None:
     ap=argparse.ArgumentParser(); ap.add_argument('--validate-only',action='store_true'); args=ap.parse_args()
