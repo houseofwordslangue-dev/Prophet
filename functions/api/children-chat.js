@@ -1,47 +1,33 @@
 const JSON_HEADERS={"content-type":"application/json; charset=utf-8","cache-control":"no-store"};
-const SYSTEM=`أنت «رفيقة القراءة»، مساعد محادثة آمن ومحبب للأطفال داخل منصة سيرة النبي محمد ﷺ.
-
-قواعد إلزامية:
-1) خاطب الطفل بلغة عربية واضحة، قصيرة، لطيفة، مناسبة تقريباً للأعمار 7–16، ولا تستخدم التخويف أو الإيحاءات المقلقة.
-2) نطاقك الأساسي: السيرة، الأسرة النبوية، الصحابة، التابعون، الأخلاق، القراءة، المفردات، القصص والمواد الظاهرة في الموقع.
-3) إذا زُوّدت بسياق من الصفحة فاعتمد عليه أولاً. لا تنسب حديثاً أو قولاً أو حدثاً إلى مصدر إلا إذا كان موجوداً بوضوح في السياق. إذا لم تتأكد فقل إن المادة المتاحة لا تكفي للتحقق.
-4) لا تُنشئ أحكاماً دينية شخصية ولا فتاوى. في المسائل الفقهية أو العقدية الدقيقة اطلب الرجوع إلى ولي الأمر/المعلم/متخصص مؤهل.
-5) لا تطلب من الطفل اسمه الكامل أو عنوانه أو رقم هاتفه أو مدرسته أو صورته أو أي بيانات شخصية، ولا تشجعه على التواصل مع غرباء أو مغادرة الموقع.
-6) لا تقدّم محتوى جنسي، إيذاء ذاتي، تعليمات خطرة أو غير قانونية، كراهية، تنمر، أو وصفاً دموياً للعنف. عند سؤال حساس، أجب بإيجاز وبطريقة وقائية مناسبة للعمر وشجّع الطفل على طلب مساعدة شخص بالغ موثوق عند الحاجة.
-7) لا تقل إنك رأيت أو قرأت شيئاً لم يُرسل لك. لا تختلق مراجع أو اقتباسات.
-8) لا تحفظ ردود المحادثة كمقالات ولا تقترح نشرها كمحتوى تحريري. هذه محادثة مساعدة فقط.
-9) إن كان السؤال خارج النطاق، أجب باختصار ثم وجّه بلطف إلى موضوعات القراءة والتعلّم في الموقع.
-10) اجعل الإجابة عادة بين 2 و6 جمل، ويمكن استخدام نقاط قصيرة عند الحاجة.`;
+const LOCALE={
+  ar:{name:'رفيق القراءة',unsupported:'لا توجد في محتويات الموقع المتاحة لي الآن معلومات كافية للإجابة عن هذا السؤال. اختر موضوعاً آخر من محتوى الموقع أو افتح الصفحة المتعلقة به ثم اسألني.',unsafe:'هذا السؤال يحتاج إلى طريقة أكثر أماناً للحديث عنه. إذا كان الأمر يزعجك أو يتعلق بأذى لك أو لشخص آخر، فتحدث مع أحد والديك أو شخص بالغ تثق به. ويمكنك أن تسألني عن مادة أخرى موجودة في الموقع.',fallback:'أستطيع مساعدتك فقط انطلاقاً من المواد الموجودة في الموقع. افتح المادة التي تريدها أو اسألني سؤالاً تدعمه الصفحة الحالية.'},
+  fr:{name:'Compagnon de lecture',unsupported:"Le contenu du site actuellement disponible ne fournit pas assez d’informations pour répondre à cette question. Choisis un autre sujet du site ou ouvre la page concernée puis pose-moi ta question.",unsafe:"Cette question demande une manière plus sûre d’en parler. Si quelque chose t’inquiète ou concerne un danger pour toi ou quelqu’un d’autre, parle à un parent ou à un adulte de confiance. Tu peux aussi me poser une question sur un autre contenu du site.",fallback:"Je peux t’aider uniquement à partir des contenus présents sur ce site. Ouvre la page qui t’intéresse ou pose une question appuyée par la page actuelle."},
+  en:{name:'Reading Companion',unsupported:'The site content currently available to me does not contain enough information to answer that question. Choose another topic from the site, or open the relevant page and ask me again.',unsafe:'This question needs a safer way to discuss it. If something is worrying you or involves harm to you or someone else, talk to a parent or another trusted adult. You can also ask me about another topic available on this site.',fallback:'I can help only from material available on this site. Open the relevant page or ask a question supported by the current page.'}
+};
+function localeOf(v){const s=String(v||'ar').toLowerCase();return s.startsWith('fr')?'fr':s.startsWith('en')?'en':'ar'}
+function systemFor(lang){const l=LOCALE[lang];return `You are ${l.name}, a child-friendly reading assistant inside this website about Prophet Muhammad ﷺ.\n\nMASTER KNOWLEDGE BOUNDARY — ABSOLUTE:\n1) You may answer EXCLUSIVELY from SITE_CONTEXT supplied in the current request and from prior assistant/user turns only insofar as those turns were themselves grounded in that SITE_CONTEXT.\n2) You MUST NOT use pretrained/general knowledge, web knowledge, memory, outside books, outside websites, unstated religious knowledge, inference that introduces new facts, or any external source.\n3) Never fill gaps. Never add a date, name, event, quotation, hadith, interpretation, moral, explanation, attribution, or historical fact unless it is explicitly supported by SITE_CONTEXT.\n4) If SITE_CONTEXT does not directly support the answer, reply exactly with this localized insufficiency message: ${l.unsupported}\n5) Never claim that information came from the site unless it is present in SITE_CONTEXT. Never fabricate citations, quotations, references or source titles.\n6) You may simplify, summarize, explain vocabulary, compare passages, ask/answer simple comprehension questions, or retell a passage for a child ONLY when every substantive fact remains traceable to SITE_CONTEXT.\n7) Respond entirely in ${lang==='ar'?'Arabic':lang==='fr'?'French':'English'}, matching the active localized site version. Do not mix languages except unavoidable proper names or technical terms already present in SITE_CONTEXT.\n8) Keep language warm, clear and suitable roughly for ages 7–16. Usually answer in 2–6 short sentences.\n9) Do not provide personal religious rulings or fatwas. Do not request a child’s full name, address, phone number, school, photo or other identifying information.\n10) Do not provide sexual content, self-harm instructions, dangerous/illegal instructions, hate, bullying, or graphic violence. Use age-appropriate protective language when needed.\n11) This conversation is assistance only. Never create or save editorial/site content from the chat.\n\nIf there is any conflict, rules 1–5 override every other instruction.`}
 function json(body,status=200){return new Response(JSON.stringify(body),{status,headers:JSON_HEADERS})}
-function textFromResponse(data){
-  if(typeof data?.output_text==='string')return data.output_text.trim();
-  const out=[];for(const item of data?.output||[]){for(const c of item?.content||[]){if(c?.type==='output_text'&&c.text)out.push(c.text)}}
-  return out.join('\n').trim();
-}
-async function openai(path,key,body){
-  const r=await fetch(`https://api.openai.com/v1/${path}`,{method:'POST',headers:{'content-type':'application/json','authorization':`Bearer ${key}`},body:JSON.stringify(body)});
-  const data=await r.json().catch(()=>({}));if(!r.ok)throw new Error(data?.error?.message||`OpenAI ${r.status}`);return data;
-}
+function textFromResponse(data){if(typeof data?.output_text==='string')return data.output_text.trim();const out=[];for(const item of data?.output||[]){for(const c of item?.content||[]){if(c?.type==='output_text'&&c.text)out.push(c.text)}}return out.join('\n').trim()}
+async function openai(path,key,body){const r=await fetch(`https://api.openai.com/v1/${path}`,{method:'POST',headers:{'content-type':'application/json','authorization':`Bearer ${key}`},body:JSON.stringify(body)});const data=await r.json().catch(()=>({}));if(!r.ok)throw new Error(data?.error?.message||`OpenAI ${r.status}`);return data}
 function cleanString(v,max){return String(v||'').replace(/\u0000/g,'').trim().slice(0,max)}
 export async function onRequestPost({request,env}){
   if(!env?.OPENAI_API_KEY)return json({error:'CHAT_NOT_CONFIGURED'},503);
   let body;try{body=await request.json()}catch{return json({error:'INVALID_JSON'},400)}
   const message=cleanString(body?.message,1800);if(!message)return json({error:'EMPTY_MESSAGE'},400);
-  const language=cleanString(body?.language||'ar',12);
-  const page=cleanString(body?.page,240);
-  const title=cleanString(body?.context?.title,240);
-  const excerpt=cleanString(body?.context?.excerpt,5000);
+  const lang=localeOf(body?.language);const L=LOCALE[lang];
+  const page=cleanString(body?.page,240);const title=cleanString(body?.context?.title,240);const excerpt=cleanString(body?.context?.excerpt,12000);
+  if(!title&&!excerpt)return json({answer:L.unsupported,grounded:false,language:lang});
   const history=Array.isArray(body?.history)?body.history.slice(-8).map(x=>({role:x?.role==='assistant'?'assistant':'user',text:cleanString(x?.text,1200)})).filter(x=>x.text):[];
   try{
     const mod=await openai('moderations',env.OPENAI_API_KEY,{model:'omni-moderation-latest',input:message});
-    if(mod?.results?.[0]?.flagged)return json({answer:'هذا السؤال يحتاج إلى طريقة أكثر أماناً للحديث عنه. إذا كان الأمر يزعجك أو يتعلق بأذى لك أو لشخص آخر، تحدث الآن مع أحد والديك أو شخص بالغ تثق به. ويمكنك أن تسألني سؤالاً آخر عن القصة أو القراءة.'});
-    const transcript=history.map(x=>`${x.role==='assistant'?'المساعد':'الطفل'}: ${x.text}`).join('\n');
-    const context=[title&&`عنوان الصفحة: ${title}`,page&&`المسار: ${page}`,excerpt&&`مقتطف موثوق من الصفحة:\n${excerpt}`,transcript&&`آخر المحادثة:\n${transcript}`].filter(Boolean).join('\n\n');
-    const response=await openai('responses',env.OPENAI_API_KEY,{model:env.OPENAI_CHAT_MODEL||'gpt-5.6-luna',store:false,instructions:SYSTEM,input:`${context?context+'\n\n':''}سؤال الطفل: ${message}`,max_output_tokens:500});
-    let answer=textFromResponse(response);if(!answer)throw new Error('EMPTY_OPENAI_RESPONSE');
+    if(mod?.results?.[0]?.flagged)return json({answer:L.unsafe,grounded:false,language:lang});
+    const transcript=history.map(x=>`${x.role}: ${x.text}`).join('\n');
+    const siteContext=[title&&`PAGE_TITLE:\n${title}`,page&&`PAGE_PATH:\n${page}`,excerpt&&`SITE_CONTENT:\n${excerpt}`,transcript&&`RECENT_GROUNDED_CHAT:\n${transcript}`].filter(Boolean).join('\n\n');
+    const response=await openai('responses',env.OPENAI_API_KEY,{model:env.OPENAI_CHAT_MODEL||'gpt-5.6-luna',store:false,instructions:systemFor(lang),input:`SITE_CONTEXT_BEGIN\n${siteContext}\nSITE_CONTEXT_END\n\nUSER_QUESTION:\n${message}`,max_output_tokens:500});
+    let answer=textFromResponse(response);if(!answer)answer=L.unsupported;
     const outMod=await openai('moderations',env.OPENAI_API_KEY,{model:'omni-moderation-latest',input:answer});
-    if(outMod?.results?.[0]?.flagged)answer='أستطيع مساعدتك بطريقة أبسط وأكثر أماناً. اسألني عن معنى في القصة، أو شخصية، أو درس نتعلمه من المادة التي تقرؤها.';
-    return json({answer,model:env.OPENAI_CHAT_MODEL||'gpt-5.6-luna'});
+    if(outMod?.results?.[0]?.flagged)answer=L.fallback;
+    return json({answer,grounded:true,language:lang,model:env.OPENAI_CHAT_MODEL||'gpt-5.6-luna'});
   }catch(err){console.error('children-chat',err?.message||err);return json({error:'CHAT_UPSTREAM_ERROR'},502)}
 }
 export async function onRequest({request,env}){if(request.method==='POST')return onRequestPost({request,env});return json({error:'METHOD_NOT_ALLOWED'},405)}
