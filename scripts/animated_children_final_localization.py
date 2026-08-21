@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import animated_children_unique_rewrite as unique_rewrite
+
 
 def apply(story:dict,i:int)->dict:
+    # Apply the story-specific narrative layer before the final UI-facing
+    # localization fields are frozen. This keeps the strict corpus similarity
+    # gate meaningful while preserving the earlier source-inspired depth.
+    story=unique_rewrite.apply(story,i)
+
     # For the 500 additions, mission + stake is a unique natural-language pair.
     # Include both in all three display titles so title uniqueness is guaranteed
     # without exposing internal IDs to children.
