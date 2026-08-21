@@ -1,19 +1,19 @@
 {
-  "schema": "remaining-family-five-life-articles-audit-v2",
-  "generatedAt": "2026-08-21T07:10:22.205813Z",
+  "schema": "remaining-family-five-life-articles-audit-v3-wikisource-gapfill",
+  "generatedAt": "2026-08-21T07:13:10.282100Z",
   "targetPerPerson": 5,
   "minimumRequiredWords": 501,
   "articleKind": "life-article-not-research",
   "rosterEntriesConsidered": 117,
-  "membersAlreadyCompleteOrExcluded": 0,
-  "remainingMembersWithFiveDrafts": 102,
-  "sourceGapMembers": 15,
-  "draftsGenerated": 510,
-  "expectedFromCompletedMembers": 510,
+  "membersAlreadyCompleteOrExcluded": 2,
+  "remainingMembersWithFiveDrafts": 103,
+  "sourceGapMembers": 12,
+  "draftsGenerated": 515,
+  "expectedFromCompletedMembers": 515,
   "minimumObservedWords": 501,
-  "maximumObservedWords": 600,
+  "maximumObservedWords": 640,
   "articlesAtOrBelow500Words": 0,
-  "uniqueArticleBodies": 510,
+  "uniqueArticleBodies": 515,
   "sourceCoveragePercent": 100,
   "aiOriginalSubstantiveContentPercent": 0,
   "prophetOnlySectionsUsed": 0,
@@ -834,20 +834,30 @@
       "cluster": "extended",
       "drafts": 5,
       "ownSourceWords": 43
-    }
-  ],
-  "excludedAlreadyComplete": [],
-  "sourceGapMembersDetail": [
+    },
     {
       "id": "fatima-bint-amr",
       "name": "فاطمة بنت عمرو",
       "group": "direct-grandparents",
-      "cluster": "ancestors",
-      "sourceRecords": 0,
-      "ownSourceWords": 0,
-      "clusterContextWords": 1433,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "drafts": 5,
+      "source": "Arabic Wikisource",
+      "sourcePages": 5,
+      "sourceWords": 3051
+    }
+  ],
+  "excludedAlreadyComplete": [
+    {
+      "id": "fatima-al-zahra",
+      "name": "فاطمة الزهراء",
+      "reason": "existing 1000-article Fatima corpus"
     },
+    {
+      "id": "ali-ibn-abi-talib",
+      "name": "علي بن أبي طالب",
+      "reason": "existing 1000-article Ali life corpus"
+    }
+  ],
+  "sourceGapMembersDetail": [
     {
       "id": "abd-yaghuth-ibn-wahb",
       "name": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
@@ -856,7 +866,9 @@
       "sourceRecords": 1,
       "ownSourceWords": 0,
       "clusterContextWords": 99,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 1,
+      "wikisourceWords": 157
     },
     {
       "id": "saad-ibn-abi-waqqas",
@@ -866,7 +878,9 @@
       "sourceRecords": 1,
       "ownSourceWords": 0,
       "clusterContextWords": 99,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "salma-bint-amr-al-najjariyya",
@@ -876,7 +890,9 @@
       "sourceRecords": 3,
       "ownSourceWords": 99,
       "clusterContextWords": 0,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "umm-salama",
@@ -886,7 +902,9 @@
       "sourceRecords": 1,
       "ownSourceWords": 0,
       "clusterContextWords": 556,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "umm-habiba",
@@ -896,17 +914,9 @@
       "sourceRecords": 1,
       "ownSourceWords": 0,
       "clusterContextWords": 556,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
-    },
-    {
-      "id": "fatima-al-zahra",
-      "name": "فاطمة الزهراء",
-      "group": "daughters",
-      "cluster": "descendants",
-      "sourceRecords": 1,
-      "ownSourceWords": 0,
-      "clusterContextWords": 717,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "abu-al-as-ibn-al-rabi",
@@ -916,7 +926,9 @@
       "sourceRecords": 2,
       "ownSourceWords": 79,
       "clusterContextWords": 200,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "uthman-ibn-affan",
@@ -926,17 +938,9 @@
       "sourceRecords": 3,
       "ownSourceWords": 77,
       "clusterContextWords": 202,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
-    },
-    {
-      "id": "ali-ibn-abi-talib",
-      "name": "علي بن أبي طالب",
-      "group": "sons-in-law",
-      "cluster": "inlaws",
-      "sourceRecords": 4,
-      "ownSourceWords": 123,
-      "clusterContextWords": 156,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "al-hasan-al-muthanna",
@@ -946,7 +950,9 @@
       "sourceRecords": 0,
       "ownSourceWords": 0,
       "clusterContextWords": 1680,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "abdullah-ibn-abbas",
@@ -956,7 +962,9 @@
       "sourceRecords": 1,
       "ownSourceWords": 0,
       "clusterContextWords": 1680,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "abu-ahmad-ibn-jahsh",
@@ -966,7 +974,9 @@
       "sourceRecords": 0,
       "ownSourceWords": 0,
       "clusterContextWords": 1680,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "al-shayma-bint-al-harith",
@@ -976,7 +986,9 @@
       "sourceRecords": 0,
       "ownSourceWords": 0,
       "clusterContextWords": 1680,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     },
     {
       "id": "al-harith-ibn-abd-al-uzza-al-sadi",
@@ -986,7 +998,9 @@
       "sourceRecords": 0,
       "ownSourceWords": 0,
       "clusterContextWords": 1680,
-      "reason": "insufficient verified person/context source text for five >500-word articles"
+      "reason": "Wikisource search did not yield 505+ person-specific source words",
+      "wikisourcePages": 0,
+      "wikisourceWords": 0
     }
   ],
   "batchPaths": [
@@ -1000,6 +1014,7 @@
     "data/editorial/drafts/2026-08-21/family-life-five-batch-008.json",
     "data/editorial/drafts/2026-08-21/family-life-five-batch-009.json",
     "data/editorial/drafts/2026-08-21/family-life-five-batch-010.json",
-    "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json"
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-011.json",
+    "data/editorial/drafts/2026-08-21/family-life-five-batch-012.json"
   ]
 }
