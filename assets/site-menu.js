@@ -9,5 +9,7 @@ function applyQuery(){const q=new URLSearchParams(location.search),section=q.get
 function observe(){relabel();const mo=new MutationObserver(relabel);mo.observe(document.documentElement,{subtree:true,childList:true});setTimeout(()=>mo.disconnect(),20000)}
 function loadPlatform(){if(!document.querySelector('link[href="assets/platform-runtime.css"]')){const l=document.createElement('link');l.rel='stylesheet';l.href='assets/platform-runtime.css';document.head.appendChild(l)}if(!document.querySelector('script[src="assets/platform-runtime.js"]')){const s=document.createElement('script');s.src='assets/platform-runtime.js';s.defer=true;document.head.appendChild(s)}}
 function loadLaunchAudio(){if(document.querySelector('script[src="assets/site-launch-audio.js"]'))return;const s=document.createElement('script');s.src='assets/site-launch-audio.js';s.defer=true;document.head.appendChild(s)}
-document.addEventListener('DOMContentLoaded',()=>{mount();applyQuery();observe();loadPlatform();loadLaunchAudio()});
+loadPlatform();
+loadLaunchAudio();
+document.addEventListener('DOMContentLoaded',()=>{mount();applyQuery();observe()});
 })();
