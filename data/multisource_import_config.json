@@ -44,6 +44,7 @@
   },
   "additional_sources": [
     {"name":"Internet Archive","languages":["ar","en","fr"],"status":"implemented-separately","script":"scripts/import_archive_to_drive.py"},
+    {"name":"Waqfeya","languages":["ar"],"status":"routed-via-internet-archive","rule":"Waqfeya direct PDF links commonly resolve to Archive.org; discover editions on Waqfeya and ingest the underlying Archive item with the Archive importer."},
     {"name":"Gallica / BnF","languages":["fr","ar"],"status":"discovery-candidate","rule":"import only when item rights metadata permits download/reuse"},
     {"name":"Google Books","languages":["ar","en","fr"],"status":"discovery-candidate","rule":"full-view/public-domain download links only"}
   ]
