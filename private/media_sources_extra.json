@@ -1,0 +1,17 @@
+{
+  "version": "2026-08-21",
+  "policy": "Metadata, thumbnails, descriptions and permitted YouTube embeds only. No YouTube audio/video file is downloaded.",
+  "sources": [
+    {
+      "id": "little-muslim-channel",
+      "kind": "youtube",
+      "url": "https://www.youtube.com/channel/UCIVLTw7MQQFJ_hJhpMc4s7A/videos",
+      "label": "قناة المسلم الصغير",
+      "category": "video",
+      "topics": ["children", "education", "islamic-values", "seerah", "prophet"],
+      "language": "ar",
+      "series": "قناة المسلم الصغير",
+      "maxResults": 0
+    }
+  ]
+}
