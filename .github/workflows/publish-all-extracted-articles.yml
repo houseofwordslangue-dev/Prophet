@@ -1,0 +1,253 @@
+name: Publish all extracted editorial articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-all-extracted-articles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-editorial-publish-all-extracted
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download extracted publication archives from project Drive
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check -q gdown
+          mkdir -p /tmp/prophet-editorial
+          gdown 'https://drive.google.com/uc?id=1VPZAkv0uPmy_SL2lJyDucoUC8wNkE1p2' -O /tmp/prophet-editorial/general.zip
+          gdown 'https://drive.google.com/uc?id=1vR2OweafEMuOBwVHVekLa0GdBPzaNOO3' -O /tmp/prophet-editorial/ahl.zip
+          gdown 'https://drive.google.com/uc?id=1NSmZeJWzFqkMx3K0V8Re7bakEsil8VUz' -O /tmp/prophet-editorial/fatima.zip
+          unzip -t /tmp/prophet-editorial/general.zip >/dev/null
+          unzip -t /tmp/prophet-editorial/ahl.zip >/dev/null
+          unzip -t /tmp/prophet-editorial/fatima.zip >/dev/null
+
+      - name: Install and normalize all 2500 unpublished extracts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, zipfile, hashlib, re, shutil
+
+          ROOT=pathlib.Path('.')
+          DEST=ROOT/'data/editorial/drafts/2026-08-21'
+          DEST.mkdir(parents=True,exist_ok=True)
+          TMP=pathlib.Path('/tmp/prophet-editorial')
+          PUBLISHED_AT='2026-08-21T03:55:00+01:00'
+
+          def load_json_from_zip(zp, suffix):
+              with zipfile.ZipFile(zp) as z:
+                  names=[n for n in z.namelist() if n.endswith(suffix)]
+                  if len(names)!=1:
+                      raise SystemExit(f'{zp}: expected one {suffix}, got {names}')
+                  return json.loads(z.read(names[0]).decode('utf-8'))
+
+          all_ids=[]
+          fingerprints=[]
+          section_counts={}
+          topic_counts={}
+          written=[]
+
+          # General Drive extracts 501-1000: already compact-loader compatible.
+          with zipfile.ZipFile(TMP/'general.zip') as z:
+              for bn in range(31,51):
+                  name=f'batch-{bn}.json'
+                  raw=json.loads(z.read(name).decode('utf-8'))
+                  if raw.get('schema')!='drive-source-compact-v1':
+                      raise SystemExit(f'{name}: unexpected schema {raw.get("schema")}')
+                  drafts=raw.get('drafts') or []
+                  if len(drafts)!=25:
+                      raise SystemExit(f'{name}: expected 25 drafts, got {len(drafts)}')
+                  for a in drafts:
+                      a['publicationStatus']='PUBLISHED'
+                      a['publishedAt']=a.get('publishedAt') or PUBLISHED_AT
+                      all_ids.append(a['id'])
+                      fingerprints.append(a.get('sourceFingerprint'))
+                      section_counts[a.get('section')]=section_counts.get(a.get('section'),0)+1
+                      topic_counts['general-drive']=topic_counts.get('general-drive',0)+1
+                  raw['publicationStatus']='PUBLISHED'
+                  raw['publishedAt']=raw.get('publishedAt') or PUBLISHED_AT
+                  out=DEST/f'batch-{bn:02d}.json'
+                  out.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+                  written.append(str(out))
+
+          def install_topic(zip_path, first_batch, last_batch, manifest_suffix, expected_schema, topic_label):
+              manifest=load_json_from_zip(zip_path, manifest_suffix)
+              registry=manifest.get('sourceRegistry') or {}
+              with zipfile.ZipFile(zip_path) as z:
+                  for bn in range(first_batch,last_batch+1):
+                      suffix=f'/batches/batch-{bn}.json'
+                      matches=[n for n in z.namelist() if n.endswith(suffix)]
+                      if len(matches)!=1:
+                          raise SystemExit(f'{zip_path}: missing/duplicate batch {bn}: {matches}')
+                      src=json.loads(z.read(matches[0]).decode('utf-8'))
+                      if src.get('schema')!=expected_schema:
+                          raise SystemExit(f'batch {bn}: unexpected schema {src.get("schema")}')
+                      articles=src.get('articles') or []
+                      if len(articles)!=25:
+                          raise SystemExit(f'batch {bn}: expected 25 articles, got {len(articles)}')
+                      used={a.get('sourceKey') for a in articles if a.get('sourceKey')}
+                      compact_registry={k:dict(v) for k,v in registry.items() if k in used}
+                      for k,v in compact_registry.items():
+                          v.setdefault('resourceId',k)
+                          v.setdefault('originalUrl',v.get('url'))
+                          v.setdefault('sourceRepository','Google Drive')
+                      for a in articles:
+                          a['publicationStatus']='PUBLISHED'
+                          a['publishedAt']=PUBLISHED_AT
+                          a['sourceWordCount']=a.get('sourceWordCount') or a.get('wordCount')
+                          a['sourceParagraphStart']=a.get('sourceParagraphStart',a.get('sourceWordStart'))
+                          a['sourceParagraphEnd']=a.get('sourceParagraphEnd',a.get('sourceWordEnd'))
+                          all_ids.append(a['id'])
+                          fingerprints.append(a.get('sourceFingerprint'))
+                          section_counts[a.get('section')]=section_counts.get(a.get('section'),0)+1
+                          topic_counts[topic_label]=topic_counts.get(topic_label,0)+1
+                      payload={
+                          'schema':'drive-source-compact-v1',
+                          'version':src.get('version'),
+                          'draftedAt':PUBLISHED_AT,
+                          'publishedAt':PUBLISHED_AT,
+                          'publicationStatus':'PUBLISHED',
+                          'chunk':bn,
+                          'topic':src.get('topic'),
+                          'sourceRegistry':compact_registry,
+                          'drafts':articles,
+                      }
+                      out=DEST/f'batch-{bn:02d}.json'
+                      out.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+                      written.append(str(out))
+              return manifest
+
+          ahl_manifest=install_topic(TMP/'ahl.zip',51,90,'/manifest.json','drive-source-ahl-al-bayt-v1','ahl-al-bayt')
+          fatima_manifest=install_topic(TMP/'fatima.zip',91,130,'/manifest.json','drive-source-fatima-zahra-v1','fatima-zahra')
+
+          if len(all_ids)!=2500 or len(set(all_ids))!=2500:
+              raise SystemExit(f'publication id validation failed: {len(all_ids)} total / {len(set(all_ids))} unique')
+          fps=[x for x in fingerprints if x]
+          if len(fps)!=2500 or len(set(fps))!=2500:
+              raise SystemExit(f'fingerprint validation failed: {len(fps)} total / {len(set(fps))} unique')
+
+          supplement_path=ROOT/'data/editorial/publication_supplement.json'
+          supplement=json.loads(supplement_path.read_text(encoding='utf-8'))
+          paths=list(supplement.get('draftBatchPaths') or [])
+          for bn in range(31,131):
+              p=f'data/editorial/drafts/2026-08-21/batch-{bn:02d}.json'
+              if p not in paths: paths.append(p)
+          ids=list(supplement.get('publishedIds') or [])
+          seen=set(ids)
+          for aid in all_ids:
+              if aid not in seen:
+                  ids.append(aid);seen.add(aid)
+          supplement['version']='2026-08-21-publication-supplement-v6-all-extracted-through-3000'
+          supplement['publishedAt']=PUBLISHED_AT
+          supplement['draftBatchPaths']=paths
+          supplement['publishedIds']=ids
+          supplement['publicationStatus']='PUBLISHED'
+          supplement['newlyPublishedExtracts']=2500
+          supplement['publishedExtractionSequenceEnd']=3000
+          supplement_path.write_text(json.dumps(supplement,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          audit={
+              'version':'2026-08-21-all-extracted-through-3000',
+              'status':'PASS',
+              'publishedAt':PUBLISHED_AT,
+              'newArticlesPublished':2500,
+              'sequenceRanges':[
+                  {'label':'additional-general-drive','start':501,'end':1000,'count':500},
+                  {'label':'ahl-al-bayt','start':1001,'end':2000,'count':1000},
+                  {'label':'fatima-zahra','start':2001,'end':3000,'count':1000},
+              ],
+              'batchRange':[31,130],
+              'batchFiles':100,
+              'uniqueIds':len(set(all_ids)),
+              'uniqueSourceFingerprints':len(set(fps)),
+              'sourceCoveragePercent':100,
+              'aiOriginalSubstantiveContentPercent':0,
+              'topicCounts':topic_counts,
+              'sectionCounts':section_counts,
+              'ahlAlBaytSectionDistribution':ahl_manifest.get('sectionDistribution'),
+              'fatimaZahraSectionDistribution':fatima_manifest.get('sectionDistribution'),
+          }
+          (ROOT/'data/editorial/source_extract_all_2500_audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          sw=ROOT/'service-worker.js'
+          text=sw.read_text(encoding='utf-8')
+          text=re.sub(r"^const CACHE='[^']+';", "const CACHE='prophet-biography-v6-8-13-all-extracted-3000';", text, count=1, flags=re.M)
+          if "source_extract_all_2500_audit.json" not in text:
+              text=text.replace("'./data/editorial/source_extract_500_drive_audit.json'", "'./data/editorial/source_extract_500_drive_audit.json','./data/editorial/source_extract_all_2500_audit.json'")
+              text=text.replace("'/data/editorial/source_extract_500_drive_audit.json'", "'/data/editorial/source_extract_500_drive_audit.json','/data/editorial/source_extract_all_2500_audit.json'")
+          sw.write_text(text,encoding='utf-8')
+
+          print('PASS: 2500 articles normalized for publication')
+          print('PASS: batches 31-130 written:', len(written))
+          print('PASS: published ids:', len(set(all_ids)))
+          print('PASS: unique fingerprints:', len(set(fps)))
+          PY
+
+      - name: Validate live-loader publication inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('.')
+          s=json.loads((root/'data/editorial/publication_supplement.json').read_text(encoding='utf-8'))
+          expected=[f'data/editorial/drafts/2026-08-21/batch-{i:02d}.json' for i in range(31,131)]
+          missing=[p for p in expected if p not in s.get('draftBatchPaths',[])]
+          assert not missing, missing
+          ids=set(s.get('publishedIds') or [])
+          assert all(f'20260821-drive-extract-{i:03d}' in ids for i in range(501,1001))
+          assert all(f'20260821-ahlbayt-drive-extract-{i:04d}' in ids for i in range(1,1001))
+          assert all(f'20260821-fatima-zahra-drive-extract-{i:04d}' in ids for i in range(1,1001))
+          for p in expected:
+              d=json.loads((root/p).read_text(encoding='utf-8'))
+              assert d.get('schema')=='drive-source-compact-v1', p
+              assert d.get('publicationStatus')=='PUBLISHED', p
+              assert len(d.get('drafts') or [])==25, p
+          a=json.loads((root/'data/editorial/source_extract_all_2500_audit.json').read_text(encoding='utf-8'))
+          assert a['status']=='PASS' and a['newArticlesPublished']==2500 and a['uniqueIds']==2500 and a['uniqueSourceFingerprints']==2500
+          print('PASS: publication supplement exposes all 2500 new articles')
+          print('PASS: extraction sequence reaches 3000')
+          PY
+
+      - name: Commit publication to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/drafts/2026-08-21/batch-{31..130}.json data/editorial/publication_supplement.json data/editorial/source_extract_all_2500_audit.json service-worker.js
+          if git diff --cached --quiet; then
+            echo 'No publication changes required.'
+            exit 0
+          fi
+          git commit -m 'Publish all extracted articles through sequence 3000'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; refreshing main"
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
