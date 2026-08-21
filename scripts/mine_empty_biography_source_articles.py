@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Diagnostic trigger: 2026-08-21 empty canonical biography repair pass.
 from __future__ import annotations
 import json,re
 from pathlib import Path
@@ -53,7 +54,6 @@ def main():
    ident=identity_blob(d);ni=norm(ident);score0=source_signal(d)
    for pid,name in TARGETS.items():
     aliases=ALIASES.get(pid,[pid]);explicit=any(a.lower() in str(ident).lower() for a in aliases);namehit=norm(name) in ni
-    # Avoid generic Muhammad matches unless explicit person ID or full Prophet title is present.
     if pid=='prophet-muhammad' and not explicit and norm('محمد ﷺ') not in ni and norm('النبي محمد') not in ni:continue
     if not (explicit or namehit):continue
     score=score0+(8 if explicit else 0)+(4 if namehit else 0)+min(wc//250,4)
