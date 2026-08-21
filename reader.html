@@ -4,10 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b4c38">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https:; frame-src 'self' https:; media-src 'self' https: blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'">
-<title>القارئ — مكتبة محمد ﷺ</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https: data: blob:; connect-src 'self' https:; frame-src 'self' https:; media-src 'self' https: blob:; worker-src 'self' https://cdn.jsdelivr.net blob:; object-src 'none'; base-uri 'self'; form-action 'self'">
+<title>القارئ المتقدم — مكتبة محمد ﷺ</title>
 <link rel="stylesheet" href="assets/tarjma-fonts.css">
 <link rel="stylesheet" href="assets/prophet-bookreader.css">
+<link rel="stylesheet" href="assets/reader-futurist.css">
 <link rel="stylesheet" href="assets/site-professional.css">
 <link rel="stylesheet" href="assets/site-menu.css">
 </head>
@@ -15,55 +16,23 @@
 <header class="reader-header">
   <div class="reader-zellige" aria-hidden="true"></div>
   <a id="readerBack" class="reader-back" href="library.html" aria-label="العودة إلى المكتبة">← <span>المكتبة</span></a>
-  <div class="reader-identity">
-    <span class="reader-mark">ﷺ</span>
-    <div class="reader-heading">
-      <h1 id="readerTitle">القارئ</h1>
-      <p><span id="readerAuthor">مكتبة محمد ﷺ</span><span id="readerMeta"></span></p>
-    </div>
-  </div>
+  <div class="reader-identity"><span class="reader-mark">ﷺ</span><div class="reader-heading"><h1 id="readerTitle">القارئ المتقدم</h1><p><span id="readerAuthor">مكتبة محمد ﷺ</span><span id="readerMeta"></span></p></div></div>
   <div class="reader-header-actions">
     <button id="readerTheme" type="button" title="وضع القراءة">◐ <span>القراءة</span></button>
     <button id="readerFullscreen" type="button" title="ملء الشاشة">⛶ <span>ملء الشاشة</span></button>
     <button id="readerInfo" type="button" title="حول القارئ">ⓘ <span>حول القارئ</span></button>
   </div>
 </header>
-
 <main id="readerStage" class="reader-stage">
-  <div id="readerLoading" class="reader-loading" role="status" aria-live="polite">
-    <span class="reader-spinner" aria-hidden="true"></span>
-    <strong>جارٍ فتح الكتاب…</strong>
-    <small>يتم تجهيز النسخة المناسبة للقراءة.</small>
-  </div>
-
-  <section id="bookReaderMode" class="reader-mode bookreader-mode" hidden>
-    <ia-bookreader id="iaReader"><div id="IABookReaderWrapper" slot="main"><div id="BookReader" class="BookReader"></div></div></ia-bookreader>
-  </section>
-
-  <section id="frameMode" class="reader-mode frame-mode" hidden>
-    <iframe id="readerFrame" referrerpolicy="no-referrer" allow="fullscreen" loading="eager"></iframe>
-    <div class="frame-tools"><a id="frameOpen" href="#" target="_blank" rel="noopener">فتح النسخة في نافذة مستقلة</a></div>
-  </section>
-
-  <section id="textMode" class="reader-mode text-mode" hidden>
-    <div class="text-toolbar"><button id="textSearch" type="button" disabled>⌕ بحث</button><button id="textListen" type="button" disabled>◉ استماع</button><label>حجم الخط <input id="textSize" type="range" min="18" max="40" value="25"></label></div>
-    <div id="textExcerpt" class="text-excerpt" hidden></div><article id="textContent" class="text-content" tabindex="0"></article>
-  </section>
-
-  <section id="readerUnavailable" class="reader-mode reader-unavailable" hidden>
-    <div class="unavailable-card"><span class="unavailable-mark">۞</span><h2>هذه النسخة غير متاحة للقراءة المباشرة</h2><p id="readerUnavailableText">لا تتوفر حالياً نسخة صالحة للفتح داخل القارئ.</p><a id="readerSourceLink" href="#" target="_blank" rel="noopener" hidden>فتح النسخة المتاحة</a><a href="library.html">العودة إلى المكتبة</a></div>
-  </section>
-
-  <aside id="readerInfoPanel" class="reader-info-panel" hidden>
-    <button id="readerInfoClose" class="info-close" type="button" aria-label="إغلاق">×</button>
-    <p class="eyebrow">حول القارئ</p><h2>قارئ مكتبة محمد ﷺ</h2>
-    <p>قارئ مخصص للكتب والنصوص والنسخ المصوّرة، مع دعم البحث والاستماع والعرض بملء الشاشة بحسب نوع المادة.</p>
-    <p class="license-note">يعتمد عرض بعض النسخ المصوّرة على Internet Archive BookReader المرخص تحت GNU AGPL v3.</p>
-    <div class="license-links"><a href="https://github.com/internetarchive/bookreader" target="_blank" rel="noopener">BookReader</a><a href="https://github.com/internetarchive/bookreader/blob/master/LICENSE" target="_blank" rel="noopener">الترخيص</a></div>
-  </aside>
+  <div id="readerLoading" class="reader-loading" role="status" aria-live="polite"><span class="reader-spinner" aria-hidden="true"></span><strong>جارٍ فتح المادة…</strong><small>يتم تجهيز أفضل وضع للقراءة.</small></div>
+  <section id="bookReaderMode" class="reader-mode bookreader-mode" hidden><ia-bookreader id="iaReader"><div id="IABookReaderWrapper" slot="main"><div id="BookReader" class="BookReader"></div></div></ia-bookreader></section>
+  <section id="frameMode" class="reader-mode frame-mode" hidden><iframe id="readerFrame" referrerpolicy="no-referrer" allow="fullscreen" loading="eager"></iframe><div class="frame-tools"><a id="frameOpen" href="#" target="_blank" rel="noopener">فتح الأصل</a></div></section>
+  <section id="textMode" class="reader-mode text-mode" hidden><div class="text-toolbar"><button id="textSearch" type="button" disabled>⌕ بحث</button><button id="textListen" type="button" disabled>◉ استماع</button><label>حجم الخط <input id="textSize" type="range" min="18" max="40" value="25"></label></div><div id="textExcerpt" class="text-excerpt" hidden></div><article id="textContent" class="text-content" tabindex="0"></article></section>
+  <section id="readerUnavailable" class="reader-mode reader-unavailable" hidden><div class="unavailable-card"><span class="unavailable-mark">۞</span><h2>هذه النسخة غير متاحة للقراءة المباشرة</h2><p id="readerUnavailableText">لا تتوفر حالياً نسخة صالحة للفتح داخل القارئ.</p><a id="readerSourceLink" href="#" target="_blank" rel="noopener" hidden>فتح النسخة المتاحة</a><a href="library.html">العودة إلى المكتبة</a></div></section>
+  <aside id="readerInfoPanel" class="reader-info-panel" hidden><button id="readerInfoClose" class="info-close" type="button" aria-label="إغلاق">×</button><p class="eyebrow">حول القارئ</p><h2>قارئ مكتبة محمد ﷺ</h2><p>قارئ متعدد الأنماط للصور وIIIF وPDF وEPUB والنصوص، مع البحث والاستماع والعلامات والملاحظات وحفظ موضع القراءة محلياً.</p><p class="license-note">يعتمد عرض بعض النسخ المصوّرة على Internet Archive BookReader المرخص تحت GNU AGPL v3.</p><div class="license-links"><a href="https://github.com/internetarchive/bookreader" target="_blank" rel="noopener">BookReader</a><a href="https://github.com/internetarchive/bookreader/blob/master/LICENSE" target="_blank" rel="noopener">الترخيص</a></div></aside>
 </main>
-<footer class="reader-statusbar"><span id="readerStatus">جارٍ التحميل…</span><span class="reader-brandline">مكتبة محمد ﷺ</span></footer>
+<footer class="reader-statusbar"><span id="readerStatus">جارٍ التحميل…</span><span class="reader-brandline">قارئ متقدم · مكتبة محمد ﷺ</span></footer>
 <script src="assets/prophet-bookreader.js"></script>
+<script src="assets/reader-futurist.js"></script>
 <script src="assets/site-menu.js"></script>
-</body>
-</html>
+</body></html>
