@@ -12,6 +12,8 @@ on:
       - 'scripts/animated_children_french_polish.py'
       - 'scripts/animated_children_source_inspiration.py'
       - 'scripts/animated_children_expansion.py'
+      - 'scripts/animated_children_unique_rewrite.py'
+      - 'scripts/animated_children_story_fingerprint.py'
       - 'scripts/animated_children_metadata_localization.py'
       - 'scripts/animated_children_final_localization.py'
       - 'scripts/animated_children_pipeline.py'
@@ -35,6 +37,8 @@ on:
       - 'scripts/animated_children_french_polish.py'
       - 'scripts/animated_children_source_inspiration.py'
       - 'scripts/animated_children_expansion.py'
+      - 'scripts/animated_children_unique_rewrite.py'
+      - 'scripts/animated_children_story_fingerprint.py'
       - 'scripts/animated_children_metadata_localization.py'
       - 'scripts/animated_children_final_localization.py'
       - 'scripts/animated_children_pipeline.py'
@@ -42,6 +46,7 @@ on:
       - 'children-animated.html'
       - 'children.html'
       - 'assets/children-animated.js'
+      - 'service-worker.js'
       - '.github/workflows/generate-animated-children-stories.yml'
   workflow_dispatch:
 
@@ -89,7 +94,7 @@ jobs:
           assert status['total']==600 and status['added']==500 and status['ready']==600 and status['published']==600 and status['failed']==0
           assert status['localized']=={'ar':600,'en':600,'fr':600}
           assert status['animatedStoryboard']==600 and status['ttsFallback']==600 and status['nativeVideo']==0
-          motifs=set(); expansion=0
+          motifs=set(); expansion=0; fingerprints=set()
           for x in idx['items']:
               p=pathlib.Path(x['path']); assert p.is_file(),p
               d=json.loads(p.read_text(encoding='utf-8'))
@@ -103,6 +108,8 @@ jobs:
               assert d['secondaryTagsAr'] and d['secondaryTagsEn'] and d['secondaryTagsFr']
               assert d['searchTextAr'] and d['searchTextEn'] and d['searchTextFr']
               assert not re.search(r'[\u0600-\u06ff]',d['titleFr']+' '+d['synopsisFr']+' '+d['moralFr']+' '+d['searchTextFr'])
+              assert d['episodeIdentity'] and d['episodeFingerprint']
+              fp=d['episodeFingerprint']; fingerprints.add((fp['descriptor']['en'],fp['marker']['en'],fp['place']['en']))
               insp=d['inspirationBasis']; motifs.add(insp['eventPattern'])
               assert insp['motifAr'] and insp['motifEn'] and insp['motifFr']
               assert insp['editorialRuleAr'] and insp['editorialRuleEn'] and insp['editorialRuleFr']
@@ -118,7 +125,7 @@ jobs:
                       assert s[k],(d['id'],s['sceneNumber'],k)
                   art=pathlib.Path(s['illustration']); assert art.is_file()
                   assert '<text' not in art.read_text(encoding='utf-8').lower()
-          assert expansion==500 and len(motifs)==10
+          assert expansion==500 and len(motifs)==10 and len(fingerprints)==600
           html=pathlib.Path('children-animated.html').read_text(encoding='utf-8')
           js=pathlib.Path('assets/children-animated.js').read_text(encoding='utf-8')
           for required in ['caPlay','caPrev','caNext','caTimeline','caNarration','caSubtitleToggle','caReadToggle','caListen','caFullscreen','caReplay','caSpeed','caPlayerLanguage','caSceneSelect']:
