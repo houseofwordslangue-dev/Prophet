@@ -1,5 +1,6 @@
 (function(){
 'use strict';
+// Canonical biography source-extension loader; kept separate from thematic article rendering.
 const INDEX='data/editorial/canonical_biography_extensions.json';
 const params=new URLSearchParams(location.search);const pid=params.get('id');let lang=params.get('lang')||localStorage.getItem('pm-lang')||'ar';if(!['ar','en','fr'].includes(lang))lang='ar';
 const I18N={
