@@ -31,7 +31,7 @@ permissions:
 
 concurrency:
   group: animated-children-100-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   validate:
