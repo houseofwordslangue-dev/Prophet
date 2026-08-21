@@ -1,0 +1,88 @@
+{
+  "schema": "prophet-production-manifest-v2",
+  "generatedAt": "2026-08-21T23:20:00+01:00",
+  "publicationPolicy": "PUBLISH_ALL_AUTHORIZED_REAL_CONTENT_WITH_REAL_CAPABILITIES_ONLY",
+  "catalogueUnit": "work_or_collection",
+  "deduplication": ["id", "workId", "sha256"],
+  "knownPublishedWorkCount": 401,
+  "knownMediaCount": 4,
+  "sources": [
+    {
+      "id": "drive-books",
+      "provider": "google-drive",
+      "rootId": "1oUQuHFmw8cF0BP31uGI1yPKpHMnewYrk",
+      "manifest": "data/drive_production_manifest.json",
+      "workCount": 335,
+      "publicationState": "published"
+    },
+    {
+      "id": "github-ingested-library",
+      "provider": "github",
+      "manifest": "data/ingested_library.json",
+      "workCount": 66,
+      "publicationState": "published"
+    },
+    {
+      "id": "github-user-books",
+      "provider": "github",
+      "manifest": "data/published_user_books.json",
+      "workCount": 12,
+      "mergePolicy": "merge-by-id-with-drive-and-ingested-library",
+      "publicationState": "published"
+    },
+    {
+      "id": "github-generated-epubs",
+      "provider": "github",
+      "manifest": "data/generated_epubs.json",
+      "workCount": 12,
+      "mergePolicy": "attach-edition-to-existing-work-by-id",
+      "publicationState": "published"
+    },
+    {
+      "id": "github-media",
+      "provider": "github",
+      "manifest": "data/imported_media.json",
+      "workCount": 4,
+      "route": "media.html",
+      "publicationState": "published"
+    },
+    {
+      "id": "github-children-media",
+      "provider": "github",
+      "manifest": "data/children/media-sources.json",
+      "route": "children-videos.html",
+      "countMode": "runtime",
+      "publicationState": "published"
+    }
+  ],
+  "driveRootAudit": {
+    "root": "Prophet-Library-Ingestion",
+    "topLevelFolders": [
+      {"name":"github_export","id":"1xzyZb_gDQWITnvDmuPsX08Lcjzz_8yf4","role":"technical-export"},
+      {"name":"runtime_v2","id":"1A0WvSbS20gGHkxqf5OYJe8PdJZMBAuEp","role":"runtime-technical"},
+      {"name":"site_export","id":"1xn1lSbN7xHXh7uXRLIZVVH4tQHcJpXQ2","role":"site-export"},
+      {"name":"status","id":"1DuT3A4n1o0VSXUxGXWj3rTys8w5ipXBN","role":"technical-status"},
+      {"name":"colab","id":"1jBNPUCMKc6uWTmaKq3Zl9Q0Pyfa96dEk","role":"technical-notebooks"},
+      {"name":"manifests","id":"17dWtj7vUrtYEsXYhprXgwsVhKui8MFdq","role":"technical-manifests"},
+      {"name":"books","id":"1oUQuHFmw8cF0BP31uGI1yPKpHMnewYrk","role":"publishable-library"}
+    ]
+  },
+  "dropbox": {
+    "recursiveAudit": "complete",
+    "entryCount": 0,
+    "publicationState": "nothing-to-publish"
+  },
+  "assetPolicy": {
+    "publishStandalone": ["books", "editions", "media", "research", "articles", "biographies", "documentaries", "lectures", "podcasts", "audio"],
+    "attachToParent": ["ocr", "text-layer", "thumbnail", "cover", "volume", "subtitle", "transcript", "epub-derivative", "hls", "dash", "checksum"],
+    "doNotCreateStandaloneCatalogueCards": ["logs", "status-files", "temporary-chunks", "technical-manifests", "cache-files"],
+    "capabilityRule": "Never expose Read/Search/Listen/Watch unless a real backing asset supports that action."
+  },
+  "reconciliation": {
+    "drive335PlusGithub66UniqueLibraryWorks": 401,
+    "userBookMetadataMerged": true,
+    "epubEditionsMerged": true,
+    "mediaPublishedSeparately": true,
+    "nestedDriveDerivatives": "attached-to-parent-not-faked-as-independent-titles"
+  }
+}
