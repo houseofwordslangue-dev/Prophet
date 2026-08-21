@@ -1,0 +1,62 @@
+name: Consolidate canonical biographies
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/consolidate_canonical_biographies.py'
+      - '.github/workflows/consolidate-canonical-biographies.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: consolidate-canonical-biographies
+  cancel-in-progress: false
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consolidate biography records
+        run: python scripts/consolidate_canonical_biographies.py
+      - name: Validate one-person-one-biography rule
+        run: |
+          python - <<'PY'
+          import json
+          audit=json.load(open('data/editorial/canonical_biographies_audit.json',encoding='utf-8'))
+          index=json.load(open('data/editorial/canonical_biographies.json',encoding='utf-8'))
+          assert audit['duplicateBiographyPersonCount']==0
+          assert audit['remainingResolvableBiographyArticles']==0
+          assert audit['completeForResolvableRecords'] is True
+          assert all(p['canonicalBiographyCount']==1 for p in index['people'].values())
+          print('PASS: one canonical biography per consolidated person')
+          PY
+      - name: Commit consolidation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/drafts data/editorial/canonical_biographies.json data/editorial/canonical_biographies_audit.json
+          if git diff --cached --quiet; then
+            echo 'No consolidation changes.'
+            exit 0
+          fi
+          git commit -m 'Consolidate duplicate biographies into canonical person pages'
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          exit 1
