@@ -1,0 +1,35 @@
+{
+  "version":"2026-08-21-futurist-reader-player-v2",
+  "status":"IMPLEMENTED_WITH_INFRASTRUCTURE_BOUND_FEATURES_DECLARED",
+  "implemented":[
+    "BookReader/IIIF retained",
+    "native EPUB rendering",
+    "native PDF.js rendering",
+    "advanced in-document search",
+    "chunked browser TTS with voice and speed controls",
+    "bookmarks, notes, saved excerpts and citations",
+    "reading position persistence",
+    "offline caching for permitted same-origin/CORS-readable assets",
+    "storage estimation",
+    "study mode and keyboard command layer",
+    "local-first media playback",
+    "automatic candidate-source latency probing and fastest healthy playable candidate selection",
+    "Media Session API lock-screen/headset controls",
+    "Picture-in-Picture where browser supported",
+    "transcript/chapter search and timestamp seeking when transcript metadata exists",
+    "cinema mode",
+    "media resume and native playback controls",
+    "service-worker user offline caches",
+    "library capability gate hiding non-operational read/search/listen/watch actions"
+  ],
+  "infrastructureBound":[
+    {"feature":"5+ independent mirror delivery","reason":"Requires at least 5 real mirror/CDN URLs per resource; runtime now benchmarks sourceCandidates/mirrors when supplied."},
+    {"feature":"HLS/DASH adaptive bitrate ladder","reason":"Requires encoded HLS/DASH renditions or an origin transcoding pipeline; cannot be fabricated client-side."},
+    {"feature":"cross-device resume/account sync","reason":"Requires authenticated user storage/backend."},
+    {"feature":"scan-coordinate OCR overlay","reason":"Requires OCR text with page/region coordinates for each scanned resource."},
+    {"feature":"synchronized audiobook word highlighting","reason":"Requires word/segment time alignment data."},
+    {"feature":"Chromecast/AirPlay universal availability","reason":"Depends on browser/device APIs and cast receiver configuration."},
+    {"feature":"quality selector 360p-4K","reason":"Requires genuine alternate encoded renditions from the source/origin."}
+  ],
+  "integrityRule":"No UI control is represented as operational solely by design. Library capability-gate suppresses unavailable actions; media/reader enhancements expose advanced functions only when the underlying browser/resource supports them."
+}
