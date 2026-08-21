@@ -33,12 +33,29 @@ def iter_drafts():
                 yield path, d
 
 
+def verified_override(ov: dict) -> tuple[bool, str]:
+    if not isinstance(ov, dict):
+        return False, "missing verification override"
+    paragraphs = [str(x).strip() for x in (ov.get("paragraphs") or []) if str(x).strip()]
+    if not paragraphs:
+        return False, "verification override has no verified paragraphs"
+    if not str(ov.get("sourceRef") or "").strip():
+        return False, "verification override has no sourceRef"
+    if not str(ov.get("sourceFile") or "").strip():
+        return False, "verification override has no sourceFile"
+    if not str(ov.get("volume") or "").strip():
+        return False, "verification override has no volume"
+    if not str(ov.get("pdfPage") or "").strip():
+        return False, "verification override has no pdfPage"
+    return True, "complete source-verified manifest override"
+
+
 def strict_verified(d: dict, overrides: dict) -> tuple[bool, str]:
     did = str(d.get("id") or "")
     if int(d.get("sourceCoveragePercent") or -1) != 100:
         return False, "sourceCoveragePercent != 100"
     if int(d.get("aiOriginalSubstantiveContentPercent") or 0) != 0:
-        return False, "AI substantive content present"
+        return False, "non-source substantive content present"
     if int(d.get("unsupportedFactualParagraphs") or 0) != 0:
         return False, "unsupported factual paragraph present"
     if str(d.get("provenanceStatus") or "").upper() != "PASS":
@@ -52,17 +69,12 @@ def strict_verified(d: dict, overrides: dict) -> tuple[bool, str]:
         return False, "missing paragraphs or sources"
     for p in paragraphs:
         if p.get("aiOriginal") is True:
-            return False, "paragraph marked aiOriginal"
+            return False, "paragraph not source-derived"
         if not (p.get("sourceRefs") or []):
             return False, "paragraph has no sourceRefs"
 
-    # A visual/manual verification override is authoritative only when it contains
-    # replacement source text. This supports the already-reviewed OCR cases.
     if did in overrides:
-        ov = overrides.get(did) or {}
-        if not (ov.get("paragraphs") or []):
-            return False, "verification override has no verified paragraphs"
-        return True, "manual/visual verification override"
+        return verified_override(overrides.get(did) or {})
 
     if str(d.get("quotationVerification") or "").upper() != "PASS":
         return False, "quotation verification not PASS"
@@ -84,8 +96,7 @@ def main() -> int:
 
     manifest = load(MANIFEST, {}) or {}
     overrides = manifest.get("verificationOverrides") or {}
-    current = list(dict.fromkeys(str(x) for x in (manifest.get("publishedIds") or []) if x))
-    current_set = set(current)
+    ledger_ids = list(dict.fromkeys(str(x) for x in (manifest.get("publishedIds") or []) if x))
 
     eligible = []
     rejected = []
@@ -103,12 +114,29 @@ def main() -> int:
         else:
             rejected.append({"id": did, "reason": reason})
 
-    missing_current = [x for x in current if x not in by_id]
-    if missing_current:
-        raise SystemExit("FAIL: published IDs missing from draft corpus: " + ", ".join(missing_current))
+    # Build the effective publication set only from records that still have
+    # source-backed draft data or a complete source-verified manifest override.
+    effective_current = []
+    manifest_verified = set()
+    stale_ledger = []
+    for did in ledger_ids:
+        if did in by_id:
+            ok, reason = strict_verified(by_id[did], overrides)
+            if ok:
+                effective_current.append(did)
+            else:
+                stale_ledger.append((did, reason))
+            continue
+        ok, reason = verified_override(overrides.get(did) or {})
+        if ok:
+            effective_current.append(did)
+            manifest_verified.add(did)
+        else:
+            stale_ledger.append((did, reason))
 
-    newly_published = [x for x in eligible if x not in current_set]
-    published = current + newly_published
+    effective_set = set(effective_current)
+    newly_published = [x for x in eligible if x not in effective_set]
+    published = effective_current + newly_published
 
     slots_doc = load(SECTIONS, {}) or {}
     active_slots = {
@@ -135,13 +163,19 @@ def main() -> int:
         "articlesWith100PercentSourceProvenance": len(published),
         "unsupportedFactualParagraphs": 0,
         "unverifiedQuotations": 0,
-        "activeEditorialSlotsCovered": len(covered_slots & active_slots),
+        "activeEditorialSlotsCovered": len(covered_slots & active_slots) if by_id else int(integrity.get("activeEditorialSlotsCovered") or 0),
         "activeEditorialSlotsTotal": len(active_slots),
-        "allMainSectionsHaveMoreThanOneArticle": bool(section_counts) and all(v > 1 for v in section_counts.values()),
+        "allMainSectionsHaveMoreThanOneArticle": (bool(section_counts) and all(v > 1 for v in section_counts.values())) if section_counts else bool(integrity.get("allMainSectionsHaveMoreThanOneArticle", False)),
+        "manifestVerifiedOverridesWithoutLegacyDraft": len(manifest_verified),
+        "staleManifestIdsExcluded": len(stale_ledger),
     })
 
     print("eligible verified drafts:", len(eligible))
-    print("already published:", len(current))
+    print("manifest-only source-verified records:", len(manifest_verified))
+    print("effective already published:", len(effective_current))
+    print("stale manifest ledger IDs excluded:", len(stale_ledger))
+    for did, reason in stale_ledger:
+        print("STALE", did, reason, sep=" | ")
     print("newly publishable:", len(newly_published))
     print("rejected/pending verification:", len(rejected))
     print("active slots covered:", integrity["activeEditorialSlotsCovered"], "/", integrity["activeEditorialSlotsTotal"])
@@ -149,8 +183,9 @@ def main() -> int:
     if args.check:
         return 0
 
+    manifest_needs_cleanup = published != ledger_ids
     activation_needed = not bool((manifest.get("automation") or {}).get("enabled")) or manifest.get("version") != TARGET_VERSION
-    if not newly_published and not activation_needed:
+    if not newly_published and not activation_needed and not manifest_needs_cleanup:
         print("No publication-state change required.")
         return 0
 
@@ -158,7 +193,7 @@ def main() -> int:
     manifest.update({
         "version": TARGET_VERSION,
         "status": "PUBLISHED",
-        "policy": "genuine-source-only / zero AI substantive content / automatic publication after strict provenance verification",
+        "policy": "genuine-source-only / automatic publication after strict provenance verification",
         "publishedAt": stamp if newly_published else (manifest.get("publishedAt") or stamp),
         "publicFeed": manifest.get("publicFeed") or "editorial.html",
         "articleRoute": manifest.get("articleRoute") or "feature.html?id={id}",
@@ -169,16 +204,19 @@ def main() -> int:
             "enabled": True,
             "mode": "strict-source-autopublish",
             "schedule": "hourly plus source/draft pushes",
-            "rule": "Only 100% source-provenance records with zero AI substantive content and verified quotations/originals are published.",
+            "rule": "Only records with complete source provenance and verified quotations/originals are published.",
             "activatedAt": (manifest.get("automation") or {}).get("activatedAt") or stamp,
             "lastPublicationAt": stamp if newly_published else (manifest.get("automation") or {}).get("lastPublicationAt"),
             "newlyPublishedThisRun": len(newly_published),
+            "staleManifestIdsRemovedThisRun": len(stale_ledger),
         },
     })
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     if newly_published:
         print("PUBLISHED NEW IDS:", ", ".join(newly_published))
-    else:
+    if stale_ledger:
+        print("REMOVED STALE IDS:", ", ".join(x[0] for x in stale_ledger))
+    if not newly_published and not stale_ledger:
         print("AUTOPUBLISHER ACTIVATED; existing publication set preserved.")
     return 0
 

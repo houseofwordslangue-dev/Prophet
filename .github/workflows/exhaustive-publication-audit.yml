@@ -26,7 +26,8 @@ jobs:
         id: audit
         continue-on-error: true
         run: python scripts/exhaustive_publication_audit.py
-      - name: Commit generated ledgers
+      - name: Commit generated ledgers on main only
+        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name 'prophet-publication-audit'
           git config user.email 'actions@users.noreply.github.com'
