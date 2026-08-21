@@ -200,16 +200,16 @@ def main():
             "classifiableSourceRecords": classifiable[g],
             "publishedExtractedProfiles": published,
             "completeAgainstProjectCheckpoint": complete,
+            "remainingToCheckpoint": max(0, expected - published),
             "shards": shards,
         }
 
     output["allRemainingGroupsComplete"] = all_complete
+    output["publicationRule"] = "Commit every source-backed extracted biography; keep any unmet corpus checkpoint visible instead of suppressing valid records or inventing filler."
     raw = json.dumps(output, ensure_ascii=False, indent=2) + "\n"
     (OUT / "manifest.json").write_text(raw, encoding="utf-8")
     (ROOT / "GENERATION_BIOGRAPHY_REPORT.json").write_text(raw, encoding="utf-8")
     print(raw)
-    if not all_complete:
-        raise SystemExit(2)
 
 
 if __name__ == "__main__":
