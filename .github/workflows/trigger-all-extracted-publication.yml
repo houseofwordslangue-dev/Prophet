@@ -1,0 +1,20 @@
+name: Trigger all extracted publication
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/trigger-all-extracted-publication.yml'
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch atomic publication workflow on main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish-all-extracted-articles.yml --repo "$GITHUB_REPOSITORY" --ref main
