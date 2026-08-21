@@ -1,0 +1,182 @@
+{
+  "schema": "expanded-biographies-135-local-audit-v2",
+  "target": 135,
+  "imported": 135,
+  "replacedShortEntries": 33,
+  "replaced": [
+    {
+      "id": "siyar-3cdd8db6d92f38",
+      "name": "إبراهيم الموصلي",
+      "words": 97
+    },
+    {
+      "id": "siyar-58860f59ecab78",
+      "name": "إبراهيم بن الأغلب التميمي",
+      "words": 73
+    },
+    {
+      "id": "siyar-41290d54a4ad3a",
+      "name": "إبراهيم بن عيينة",
+      "words": 69
+    },
+    {
+      "id": "siyar-c8a9b53a9ebc21",
+      "name": "إبراهيم بن محمد",
+      "words": 77
+    },
+    {
+      "id": "siyar-a272a94187ce69",
+      "name": "إبراهيم بن مهدي المصيصي",
+      "words": 51
+    },
+    {
+      "id": "siyar-478ee17ef96098",
+      "name": "إبراهيم بن نافع",
+      "words": 73
+    },
+    {
+      "id": "siyar-9300b7df055b6b",
+      "name": "إبراهيم بن هرمة",
+      "words": 72
+    },
+    {
+      "id": "siyar-bda16ebe37559d",
+      "name": "ابن الإمام",
+      "words": 73
+    },
+    {
+      "id": "siyar-8e5285a0871f3e",
+      "name": "ابن علاثة",
+      "words": 114
+    },
+    {
+      "id": "siyar-e81683b68d7ab7",
+      "name": "ابن موهب",
+      "words": 69
+    },
+    {
+      "id": "siyar-1bcea96e0c6060",
+      "name": "أبو البختري سعيد بن فيروز",
+      "words": 93
+    },
+    {
+      "id": "siyar-94f668c3373277",
+      "name": "أبو الخليل الضبعي",
+      "words": 50
+    },
+    {
+      "id": "siyar-aab696d7adc332",
+      "name": "أبو السفر",
+      "words": 102
+    },
+    {
+      "id": "siyar-173249480ed9d6",
+      "name": "أبو الشعثاء",
+      "words": 90
+    },
+    {
+      "id": "siyar-94c3548d14ec61",
+      "name": "أبو العميس",
+      "words": 96
+    },
+    {
+      "id": "siyar-043ad0c8917864",
+      "name": "أبو المتوكل الناجي",
+      "words": 47
+    },
+    {
+      "id": "siyar-60e1f65d5dedbd",
+      "name": "أبو المغيث الرافقي",
+      "words": 51
+    },
+    {
+      "id": "siyar-ee1546a79fd16a",
+      "name": "أبو المليح",
+      "words": 88
+    },
+    {
+      "id": "siyar-80d57cf4f7005f",
+      "name": "أبو المليح بن أسامة",
+      "words": 77
+    },
+    {
+      "id": "siyar-89867097cd50dd",
+      "name": "أبو الينبغي",
+      "words": 49
+    },
+    {
+      "id": "siyar-934651aab1dc31",
+      "name": "أبو بكر الحنفي",
+      "words": 72
+    },
+    {
+      "id": "siyar-24bdc8b399f62d",
+      "name": "أبو تميلة",
+      "words": 119
+    },
+    {
+      "id": "siyar-7908436a1b1f8b",
+      "name": "أبو حازم الأشجعي",
+      "words": 71
+    },
+    {
+      "id": "siyar-ec4810b0b5daee",
+      "name": "أبو حمزة القصاب",
+      "words": 41
+    },
+    {
+      "id": "siyar-ef237bb61b1358",
+      "name": "أبو دلامة",
+      "words": 90
+    },
+    {
+      "id": "siyar-d183666142b3a9",
+      "name": "أبو رافع الصائغ",
+      "words": 94
+    },
+    {
+      "id": "siyar-e207889411eaf7",
+      "name": "أبو زيد الهروي",
+      "words": 75
+    },
+    {
+      "id": "siyar-83761400e52e11",
+      "name": "أبو سالم الجيشاني",
+      "words": 39
+    },
+    {
+      "id": "siyar-d80b63c9131960",
+      "name": "أبو سفيان الحميري",
+      "words": 58
+    },
+    {
+      "id": "siyar-70c5f9968a29cb",
+      "name": "أبو سفيان المعمري",
+      "words": 103
+    },
+    {
+      "id": "siyar-60196c8dbb1657",
+      "name": "أبو صالح الحنفي",
+      "words": 33
+    },
+    {
+      "id": "siyar-0ea6ff47a135f2",
+      "name": "أبو طوالة",
+      "words": 53
+    },
+    {
+      "id": "siyar-82d7f180bca8fd",
+      "name": "أبو ظبيان الجنبي",
+      "words": 77
+    }
+  ],
+  "uniqueIds": 135,
+  "uniqueNames": 135,
+  "minimumWords": 123,
+  "maximumWords": 1800,
+  "sourceCoveragePercent": 100,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "runtimeExternalFetchRequired": false,
+  "githubMaterialized": true,
+  "complete": true
+}
