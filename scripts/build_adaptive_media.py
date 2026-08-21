@@ -16,18 +16,34 @@ def ffprobe(src:Path):
  try:
   cp=subprocess.run(['ffprobe','-v','error','-select_streams','v:0','-show_entries','stream=width,height,codec_name','-of','json',str(src)],capture_output=True,text=True,check=True);s=json.loads(cp.stdout)['streams'][0];return int(s.get('width') or 0),int(s.get('height') or 0),s.get('codec_name')
  except Exception:return 0,0,''
+def eligible(sh):return [p for p in PROFILES if not sh or p[2]<=sh]
+def build_hls(mid,src,profiles,d):
+ variants=[]
+ for label,w,hh,vb,ab in profiles:
+  dest=d/label;dest.mkdir(exist_ok=True);playlist=dest/'index.m3u8'
+  if not playlist.exists():subprocess.run(['ffmpeg','-y','-i',str(src),'-vf',f'scale=w={w}:h={hh}:force_original_aspect_ratio=decrease,pad={w}:{hh}:(ow-iw)/2:(oh-ih)/2','-c:v','libx264','-preset','veryfast','-profile:v','high','-level','5.2','-b:v',vb,'-maxrate',vb,'-bufsize',str(int(vb[:-1])*2)+'k','-c:a','aac','-b:a',ab,'-hls_time','4','-hls_playlist_type','vod','-hls_flags','independent_segments','-hls_segment_filename',str(dest/'seg-%05d.ts'),str(playlist)],check=True)
+  variants.append({'label':label,'height':hh,'width':w,'url':f'/media-adaptive/{safe(mid)}/{label}/index.m3u8','contentType':'application/vnd.apple.mpegurl','protocol':'hls'})
+ return variants
+def build_dash(mid,src,profiles,d):
+ if not profiles:return None
+ dash=d/'dash';dash.mkdir(exist_ok=True);mpd=dash/'index.mpd'
+ if not mpd.exists():
+  n=len(profiles);split='[0:v]split='+str(n)+''.join(f'[v{i}]' for i in range(n))+';';filters=[]
+  for i,(_,w,h,_,_) in enumerate(profiles):filters.append(f'[v{i}]scale=w={w}:h={h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2[o{i}]')
+  cmd=['ffmpeg','-y','-i',str(src),'-filter_complex',split+';'.join(filters)]
+  for i in range(n):cmd+=['-map',f'[o{i}]']
+  cmd+=['-map','0:a:0?','-c:v','libx264','-preset','veryfast','-profile:v','high']
+  for i,(_,_,_,vb,_) in enumerate(profiles):cmd += [f'-b:v:{i}',vb,f'-maxrate:v:{i}',vb,f'-bufsize:v:{i}',str(int(vb[:-1])*2)+'k']
+  cmd+=['-c:a','aac','-b:a','160k','-seg_duration','4','-use_timeline','1','-use_template','1','-adaptation_sets','id=0,streams=v id=1,streams=a','-f','dash',str(mpd)]
+  subprocess.run(cmd,check=True)
+ return {'label':'DASH Auto','url':f'/media-adaptive/{safe(mid)}/dash/index.mpd','contentType':'application/dash+xml','protocol':'dash','default':False}
 def build(mid:str,src:Path):
  if not shutil.which('ffmpeg'):raise RuntimeError('ffmpeg not installed')
- sw,sh,codec=ffprobe(src);d=OUT/safe(mid);d.mkdir(parents=True,exist_ok=True);variants=[]
- for label,w,hh,vb,ab in PROFILES:
-  if sh and hh>sh:continue
-  dest=d/label;dest.mkdir(exist_ok=True);playlist=dest/'index.m3u8'
-  if not playlist.exists():
-   subprocess.run(['ffmpeg','-y','-i',str(src),'-vf',f'scale=w={w}:h={hh}:force_original_aspect_ratio=decrease,pad={w}:{hh}:(ow-iw)/2:(oh-ih)/2','-c:v','libx264','-preset','veryfast','-profile:v','high','-level','5.2','-b:v',vb,'-maxrate',vb,'-bufsize',str(int(vb[:-1])*2)+'k','-c:a','aac','-b:a',ab,'-hls_time','4','-hls_playlist_type','vod','-hls_flags','independent_segments','-hls_segment_filename',str(dest/'seg-%05d.ts'),str(playlist)],check=True)
-  variants.append({'label':label,'height':hh,'width':w,'url':f'/media-adaptive/{safe(mid)}/{label}/index.m3u8','contentType':'application/vnd.apple.mpegurl'})
- master={'id':mid,'source':str(src.relative_to(ROOT)),'sourceWidth':sw,'sourceHeight':sh,'sourceCodec':codec,'variants':variants,'upscaled':False};(d/'variants.json').write_text(json.dumps(master,ensure_ascii=False,indent=2),encoding='utf-8');return variants
+ sw,sh,codec=ffprobe(src);d=OUT/safe(mid);d.mkdir(parents=True,exist_ok=True);profiles=eligible(sh);variants=build_hls(mid,src,profiles,d);dash=build_dash(mid,src,profiles,d)
+ if dash:variants.append(dash)
+ master={'id':mid,'source':str(src.relative_to(ROOT)),'sourceWidth':sw,'sourceHeight':sh,'sourceCodec':codec,'variants':variants,'protocols':['hls','dash'] if dash else ['hls'],'upscaled':False};(d/'variants.json').write_text(json.dumps(master,ensure_ascii=False,indent=2),encoding='utf-8');return variants
 def main():
- data=json.loads(CAT.read_text(encoding='utf-8'));report={'processed':0,'generated':0,'missing':[],'failed':[],'maxProfile':'2160p only when source >=2160p'}
+ data=json.loads(CAT.read_text(encoding='utf-8'));report={'processed':0,'generated':0,'missing':[],'failed':[],'protocols':['HLS','MPEG-DASH'],'maxProfile':'2160p only when source >=2160p; never upscaled'}
  for item in data.get('items',[]):
   mid=str(item.get('id') or '')
   if not mid:continue
