@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse,json,html
+import argparse,json
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'data/children/very-short'
-ART=ROOT/'assets/children-very-short/scenes'
 TOTAL=500
 VALUES=[
-('kindness','اللطف','Kindness','Gentillesse'),('honesty','الصدق','Honesty','Honnêteté'),('sharing','المشاركة','Sharing','Partage'),('gratitude','الشكر','Gratitude','Gratitude'),('cleanliness','النظافة','Cleanliness','Propreté'),('patience','الصبر','Patience','Patience'),('helping','المساعدة','Helping','Entraide'),('animals','الرفق بالحيوان','Caring for animals','Respect des animaux'),('nature','العناية بالطبيعة','Caring for nature','Respect de la nature'),('gentle-truth','قول الحقيقة بلطف','Telling the truth gently','Dire la vérité avec douceur')]
-NAMES=[('ليلى','Layla'),('سليم','Salim'),('هبة','Hiba'),('آدم','Adam'),('نور','Nour'),('ياسمين','Yasmine'),('رامي','Rami'),('سارة','Sara'),('أمين','Amin'),('مريم','Maryam')]
+('kindness','اللطف','Kindness','gentillesse'),('honesty','الصدق','Honesty','honnêteté'),('sharing','المشاركة','Sharing','partage'),('gratitude','الشكر','Gratitude','gratitude'),('cleanliness','النظافة','Cleanliness','propreté'),('patience','الصبر','Patience','patience'),('helping','المساعدة','Helping','entraide'),('animals','الرفق بالحيوان','Caring for animals','respect des animaux'),('nature','العناية بالطبيعة','Caring for nature','respect de la nature'),('gentle-truth','قول الحقيقة بلطف','Telling the truth gently','vérité dite avec douceur')]
+NAMES=[('ليلى','Layla','f'),('سليم','Salim','m'),('هبة','Hiba','f'),('آدم','Adam','m'),('نور','Nour','f'),('ياسمين','Yasmine','f'),('رامي','Rami','m'),('سارة','Sara','f'),('أمين','Amin','m'),('مريم','Maryam','f')]
 PLACES=[('الحديقة','the garden','le jardin'),('الفصل','the classroom','la classe'),('المكتبة','the library','la bibliothèque'),('الساحة','the courtyard','la cour'),('المطبخ','the kitchen','la cuisine'),('الشرفة','the balcony','le balcon'),('المزرعة الصغيرة','the little farm','la petite ferme'),('غرفة اللعب','the playroom','la salle de jeux'),('الممر','the hallway','le couloir'),('البيت','home','la maison')]
-THINGS=[('كرة حمراء','red ball','balle rouge'),('كتاب مصور','picture book','livre illustré'),('نبتة صغيرة','little plant','petite plante'),('قلم أزرق','blue pencil','crayon bleu'),('سلة تفاح','basket of apples','panier de pommes')]
+THINGS=[('كرة حمراء','a red ball','la balle rouge'),('كتاب مصور','a picture book','le livre illustré'),('نبتة صغيرة','a little plant','la petite plante'),('قلم أزرق','a blue pencil','le crayon bleu'),('سلة تفاح','a basket of apples','le panier de pommes')]
 PALETTES=[('#ffe7ef','#fff4c7','#9fd8cb','#7aa6c2'),('#e8f4ff','#fff0d9','#b5d99c','#d7a9e3'),('#fff1df','#e9f7ef','#f6b8b8','#8fbad6'),('#f2e8ff','#fff7c9','#a8d8ea','#f4a7b9')]
 
 def svg(path:Path,i:int,scene:int):
@@ -21,16 +20,20 @@ def svg(path:Path,i:int,scene:int):
 
 def make_story(i:int,assets=True):
     v=VALUES[(i-1)%10]; n=NAMES[((i-1)//10)%10]; p=PLACES[((i-1)//100)%5 + ((i-1)%2)*5]; t=THINGS[((i-1)//20)%5]
-    sid=f'very-short-{i:03d}'; title_ar=f'{n[0]} و{t[0]}'; title_en=f'{n[1]} and the {t[1]}'; title_fr=f'{n[1]} et le {t[2]}'
-    ar=[f'دخل {n[0]} إلى {p[0]} ورأى {t[0]}. ابتسم واقترب بهدوء. كان اليوم مناسبًا لفعل شيء جميل.',f'لاحظ {n[0]} أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة {v[1]}، فتوقف وفكر في أبسط طريقة للمساعدة.',f'شارك {n[0]} {t[0]} بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.',f'في نهاية اليوم، عاد {n[0]} سعيدًا. عرف أن {v[1]} يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.']
-    en=[f'{n[1]} entered {p[1]} and saw a {t[1]}. With a smile, {n[1]} walked closer. It felt like a good day to do something kind.',f'{n[1]} noticed a young friend who needed help. Remembering {v[2].lower()}, {n[1]} stopped and thought of one simple way to help.',f'{n[1]} shared the {t[1]} gently and used a few kind words. The friend felt better, and the place became happier and calmer.',f'At the end of the day, {n[1]} went home smiling. A small act of {v[2].lower()} had made a big, warm difference.']
-    fr=[f'{n[1]} entra dans {p[2]} et vit un {t[2]}. Avec un sourire, {n[1]} s’approcha doucement. C’était un bon jour pour faire une belle action.',f'{n[1]} remarqua un petit ami qui avait besoin d’aide. En pensant à la {v[3].lower()}, {n[1]} chercha une manière simple de l’aider.',f'{n[1]} partagea le {t[2]} avec douceur et dit quelques mots gentils. L’ami se sentit mieux et l’endroit devint plus joyeux et calme.',f'À la fin de la journée, {n[1]} rentra avec le sourire. Un petit geste de {v[3].lower()} avait apporté beaucoup de chaleur.']
+    sid=f'very-short-{i:03d}'
+    title_ar=f'{n[0]} و{t[0]} — {p[0]}'
+    title_en=f'{n[1]} and {t[1]} — {p[1]}'
+    title_fr=f'{n[1]} et {t[2]} — {p[2]}'
+    fem=n[2]=='f'; was='كانت' if fem else 'كان'; saw='رأت' if fem else 'رأى'; smiled='ابتسمت' if fem else 'ابتسم'; noticed='لاحظت' if fem else 'لاحظ'; remembered='تذكرت' if fem else 'تذكّر'; thought='فكرت' if fem else 'فكر'; shared='شاركت' if fem else 'شارك'; said='قالت' if fem else 'قال'; returned='عادت' if fem else 'عاد'; happy='سعيدة' if fem else 'سعيدًا'; knew='عرفت' if fem else 'عرف'
+    ar=[f'{was} {n[0]} في {p[0]}. {saw} {t[0]} قريبًا، ثم {smiled} بهدوء. كان اليوم مناسبًا لفعل شيء جميل.',f'{noticed} {n[0]} أن صديقًا صغيرًا يحتاج إلى المساعدة. {remembered} قيمة {v[1]}، ثم {thought} في طريقة بسيطة تجعل الموقف أفضل.',f'{shared} {n[0]} {t[0]} بلطف، و{said} كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.',f'في نهاية اليوم، {returned} {n[0]} {happy}. {knew} أن {v[1]} يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.']
+    en=[f'{n[1]} was in {p[1]} and noticed {t[1]} nearby. With a smile, {n[1]} moved closer. It felt like a good day to do something kind.',f'{n[1]} noticed a young friend who needed help. Remembering {v[2].lower()}, {n[1]} paused and thought of one simple way to make things better.',f'{n[1]} shared {t[1]} gently and used a few kind words. The friend felt better, and the place became happier and calmer.',f'At the end of the day, {n[1]} went home smiling. One small act inspired by {v[2].lower()} had made a warm difference.']
+    fr=[f'{n[1]} était dans {p[2]} et remarqua {t[2]} tout près. Avec un sourire, {n[1]} s’approcha doucement. C’était un bon moment pour faire une belle action.',f'{n[1]} vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — {v[3]} — {n[1]} chercha une manière simple d’améliorer la situation.',f'{n[1]} partagea {t[2]} avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.',f'À la fin de la journée, {n[1]} rentra avec le sourire. Un petit geste inspiré par la valeur de {v[3]} avait apporté beaucoup de chaleur.']
     scenes=[]
     for s in range(4):
         path=f'assets/children-very-short/scenes/{sid}-{s+1}.svg'
         if assets: svg(ROOT/path,i,s)
         scenes.append({'number':s+1,'textAr':ar[s],'textEn':en[s],'textFr':fr[s],'image':path})
-    return {'id':sid,'ageGroup':'5-7','length':'very-short','value':v[0],'valueAr':v[1],'valueEn':v[2],'valueFr':v[3],'titleAr':title_ar,'titleEn':title_en,'titleFr':title_fr,'cover':scenes[0]['image'],'scenes':scenes,'fictional':True,'historicalClaim':False,'locales':['ar','en','fr'],'readingMode':'large-type','listenMode':'browser-tts','publicationStatus':'READY'}
+    return {'id':sid,'ageGroup':'5-7','length':'very-short','value':v[0],'valueAr':v[1],'valueEn':v[2],'valueFr':v[3].capitalize(),'titleAr':title_ar,'titleEn':title_en,'titleFr':title_fr,'cover':scenes[0]['image'],'scenes':scenes,'fictional':True,'historicalClaim':False,'locales':['ar','en','fr'],'readingMode':'large-type','listenMode':'browser-tts','publicationStatus':'READY'}
 
 def validate(items):
     assert len(items)==500 and len({x['id'] for x in items})==500
