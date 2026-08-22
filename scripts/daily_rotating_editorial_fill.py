@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
 from __future__ import annotations
 
 import argparse
@@ -29,18 +30,6 @@ SECTION_TERMS = {
     "media": ("speech", "speeches", "table-talk", "lecture", "sermon", "audio", "video", "documentary", "podcast", "transcript", "narration"),
 }
 
-# Use a broad/research-like home for source extracts where the taxonomy offers it.
-PREFERRED_SUBSECTION = {
-    "light": "research",
-    "prophet": "research",
-    "messenger": "research",
-    "human": "research",
-    "mercy": "mercy-stories",
-    "family": "wives",
-    "companions": "biographies",
-    "media": "research",
-}
-
 
 def load_json(path: Path, default=None):
     try:
@@ -49,179 +38,149 @@ def load_json(path: Path, default=None):
         return default
 
 
-def save_json(path: Path, obj) -> None:
+def save_json(path: Path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def load_builder():
     spec = importlib.util.spec_from_file_location("genuine_builder", BUILDER_FILE)
-    if spec is None or spec.loader is None:
-        raise RuntimeError("cannot load genuine-source builder")
+    if not spec or not spec.loader:
+        raise RuntimeError("unable to load genuine-source builder")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
 
 
-def active_pairs() -> set[tuple[str, str]]:
-    doc = load_json(SECTIONS_FILE, {}) or {}
-    return {
-        (str(x.get("section")), str(x.get("subsection")))
-        for x in (doc.get("sections") or [])
-        if x.get("active") and x.get("editorial") and x.get("canonicalRotation")
-    }
+def section_slot(section: str, slots_doc: dict) -> tuple[str, str] | None:
+    choices = [
+        (str(x.get("section") or ""), str(x.get("subsection") or ""))
+        for x in (slots_doc.get("sections") or [])
+        if x.get("active") and x.get("editorial") and str(x.get("section") or "") == section
+    ]
+    if not choices:
+        return None
+    preferred = [x for x in choices if x[1] == "research"]
+    return (preferred or choices)[0]
 
 
-def used_fingerprints() -> set[str]:
-    used = set()
-    if not DRAFTS_ROOT.exists():
-        return used
-    for p in DRAFTS_ROOT.rglob("*.json"):
-        obj = load_json(p, {}) or {}
-        drafts = obj.get("drafts") if isinstance(obj, dict) else None
-        if not isinstance(drafts, list):
-            continue
-        for d in drafts:
-            if not isinstance(d, dict):
-                continue
-            for s in d.get("sources") or []:
-                fp = str((s or {}).get("sourceFingerprint") or "").strip()
-                if fp:
-                    used.add(fp)
-    return used
-
-
-def score_candidate(section: str, candidate: dict) -> int:
-    src = candidate.get("source") or {}
-    hay = " ".join([
+def candidate_score(candidate: dict, section: str) -> int:
+    text = " ".join([
         str(candidate.get("heading") or ""),
-        str(src.get("titleOriginal") or ""),
-        str(src.get("author") or ""),
-        " ".join(str(x) for x in (src.get("subjects") or [])),
-        " ".join(str(x) for x in (candidate.get("paragraphs") or [])),
+        str((candidate.get("source") or {}).get("titleOriginal") or ""),
+        " ".join(candidate.get("paragraphs") or []),
     ]).lower()
-    score = 0
-    for term in SECTION_TERMS[section]:
-        n = hay.count(term.lower())
-        if n:
-            score += min(n, 8)
-    return score
+    return sum(text.count(term.lower()) for term in SECTION_TERMS[section])
 
 
-def choose_section(now: datetime) -> str:
-    # Slots: 00,03,06,09,12,15,18,21 UTC. Any delayed run still maps
-    # deterministically into the correct daily rotation slot.
-    idx = (now.hour // 3) % len(ROTATION)
-    return ROTATION[idx]
+def existing_fingerprints() -> set[str]:
+    seen = set()
+    for path in DRAFTS_ROOT.glob("**/*.json"):
+        data = load_json(path, {}) or {}
+        for item in data.get("drafts", []) if isinstance(data, dict) else []:
+            if not isinstance(item, dict):
+                continue
+            for source in item.get("sources") or []:
+                fp = str(source.get("sourceFingerprint") or "").strip()
+                if fp:
+                    seen.add(fp)
+            fp = str(item.get("sourceFingerprint") or "").strip()
+            if fp:
+                seen.add(fp)
+    return seen
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Create at most one new source-grounded article for the current rotating main section")
-    ap.add_argument("--section", choices=ROTATION, help="override automatic three-hour section slot")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--section", choices=ROTATION)
     args = ap.parse_args()
 
-    now = datetime.now(timezone.utc).replace(microsecond=0)
-    section = args.section or choose_section(now)
-    day = now.date().isoformat()
-    compact_day = now.strftime("%Y%m%d")
-    out_dir = DRAFTS_ROOT / day
-    out_file = out_dir / f"batch-daily-{section}.json"
-
+    now = datetime.now(timezone.utc)
+    section = args.section or ROTATION[(now.hour // 3) % len(ROTATION)]
+    slots_doc = load_json(SECTIONS_FILE, {}) or {}
+    slot = section_slot(section, slots_doc)
     audit = load_json(AUDIT_FILE, {}) or {}
-    audit.setdefault("version", "daily-section-rotation-v1")
-    audit.setdefault("rotation", ROTATION)
-    audit.setdefault("runs", [])
+    audit.setdefault("version", "daily-rotating-editorial-fill-v1")
+    audit.setdefault("sections", {})
 
-    # Exactly one new draft per section per UTC day. Re-runs are safe/no-op.
-    if out_file.exists():
-        print(f"DAILY ROTATION SKIP: {section} already has today's batch")
-        audit["runs"].append({"at": now.isoformat(), "date": day, "section": section, "status": "ALREADY_FILLED"})
-        audit["runs"] = audit["runs"][-100:]
+    if not slot:
+        audit["sections"][section] = {"status": "NEEDS_REVIEW", "at": now.isoformat(), "reason": "No active editorial slot"}
         save_json(AUDIT_FILE, audit)
+        print("NEEDS_REVIEW", section, "No active editorial slot")
         return 0
-
-    pairs = active_pairs()
-    preferred = PREFERRED_SUBSECTION[section]
-    target_pair = (section, preferred)
-    section_pairs = sorted(p for p in pairs if p[0] == section)
-    if target_pair not in pairs:
-        if not section_pairs:
-            print(f"DAILY ROTATION PENDING: no active canonical slot for {section}")
-            audit["runs"].append({"at": now.isoformat(), "date": day, "section": section, "status": "NO_ACTIVE_SLOT"})
-            audit["runs"] = audit["runs"][-100:]
-            save_json(AUDIT_FILE, audit)
-            return 0
-        target_pair = section_pairs[0]
 
     builder = load_builder()
-    builder.GENERATED_PREFIX = f"{compact_day}-daily-{section}-"
-    builder.NOW = now.isoformat().replace("+00:00", "Z")
+    valid_pairs = {(slot[0], slot[1])}
+    used = existing_fingerprints()
+    all_candidates = []
 
-    used = used_fingerprints()
-    candidates = []
-    sources_scanned = 0
-
-    for source in builder.source_records():
-        # Keep the daily job bounded. The source list is relevance-sorted.
-        if sources_scanned >= 24:
-            break
-        sources_scanned += 1
-        text = builder.fetch_text(source)
+    for src in builder.source_records():
+        try:
+            text = builder.fetch_text(src)
+        except Exception as exc:
+            print("SOURCE_RETRY", src.get("workId"), exc)
+            continue
         if not text:
             continue
-        for c in builder.candidate_articles(source, text):
-            fp = str(c.get("fingerprint") or "")
-            if not fp or fp in used:
+        try:
+            candidates = builder.candidate_articles(src, text)
+        except Exception as exc:
+            print("SOURCE_PARSE_RETRY", src.get("workId"), exc)
+            continue
+        for c in candidates:
+            if c.get("fingerprint") in used:
                 continue
-            sc = score_candidate(section, c)
-            if sc > 0:
-                candidates.append((sc, c))
+            score = candidate_score(c, section)
+            if score > 0:
+                all_candidates.append((score, c))
 
-    candidates.sort(key=lambda x: (-x[0], -int(x[1].get("wordCount") or 0), str(x[1].get("fingerprint") or "")))
-
-    if not candidates:
-        print(f"DAILY ROTATION PENDING: no new verified source candidate for {section}; nothing fabricated")
-        audit["runs"].append({
-            "at": now.isoformat(), "date": day, "section": section,
-            "status": "NEEDS_SOURCE", "sourcesScanned": sources_scanned,
-        })
-        audit["runs"] = audit["runs"][-100:]
+    if not all_candidates:
+        audit["sections"][section] = {
+            "status": "NEEDS_SOURCE",
+            "at": now.isoformat(),
+            "reason": "No unused source-grounded candidate matched this section; cadence does not override source truth.",
+        }
+        audit["lastRun"] = now.isoformat()
         save_json(AUDIT_FILE, audit)
+        print("NEEDS_SOURCE", section)
         return 0
 
-    score, candidate = candidates[0]
-    record = builder.build_record(candidate, 1, {target_pair})
-    record["dailyRotation"] = {
-        "date": day,
-        "section": section,
-        "cadence": "one-new-source-grounded-article-per-main-section-per-24h",
-        "slotHoursUtc": 3,
-        "selectionScore": score,
-        "masterInstruction": "MASTER_OVERRIDING_INSTRUCTION.md",
-    }
+    all_candidates.sort(key=lambda pair: (-pair[0], str((pair[1].get("source") or {}).get("workId") or ""), str(pair[1].get("fingerprint") or "")))
+    chosen = all_candidates[0][1]
 
-    payload = {
-        "version": "daily-section-rotation-v1",
-        "generatedAt": now.isoformat().replace("+00:00", "Z"),
-        "section": section,
-        "subsection": target_pair[1],
-        "count": 1,
-        "drafts": [record],
-    }
-    save_json(out_file, payload)
+    day = now.date().isoformat()
+    seq = int(now.timestamp())
+    record = builder.build_record(chosen, seq, valid_pairs)
+    record["id"] = f"daily-{day}-{section}-{seq}"
+    record["section"] = slot[0]
+    record["subsection"] = slot[1]
+    record["publicationStatus"] = "READY"
+    record["publishedAt"] = now.isoformat()
+    record["dailyRotation"] = {"section": section, "cycle": day, "cadence": "one verified article per main section per 24h when source-supported"}
 
-    audit["runs"].append({
-        "at": now.isoformat(), "date": day, "section": section,
-        "subsection": target_pair[1], "status": "DRAFT_READY_FOR_STRICT_AUTOPUBLISH",
-        "articleId": record["id"], "sourceFingerprint": candidate["fingerprint"],
-        "sourcesScanned": sources_scanned, "selectionScore": score,
-    })
-    audit["runs"] = audit["runs"][-100:]
-    audit["lastRunAt"] = now.isoformat().replace("+00:00", "Z")
-    audit["lastSection"] = section
+    # Rebind paragraph/source IDs after changing the record ID.
+    source_ref = record["id"] + "-source"
+    for i, p in enumerate(record.get("paragraphs") or [], 1):
+        p["id"] = f"{record['id']}-p{i:02d}"
+        p["sourceRefs"] = [source_ref]
+    for s in record.get("sources") or []:
+        s["ref"] = source_ref
+
+    out_dir = DRAFTS_ROOT / day
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out = out_dir / f"daily-{section}-{seq}.json"
+    save_json(out, {"version": "daily-rotating-source-extract-v1", "generatedAt": now.isoformat(), "count": 1, "drafts": [record]})
+
+    audit["sections"][section] = {
+        "status": "READY_TO_PUBLISH",
+        "at": now.isoformat(),
+        "id": record["id"],
+        "path": str(out.relative_to(ROOT)).replace("\\", "/"),
+        "sourceFingerprint": chosen.get("fingerprint"),
+    }
+    audit["lastRun"] = now.isoformat()
     save_json(AUDIT_FILE, audit)
-
-    print("DAILY ROTATION READY", section, target_pair[1], record["id"], sep=" | ")
+    print("READY_TO_PUBLISH", section, record["id"])
     return 0
 
 
