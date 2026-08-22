@@ -1,0 +1,68 @@
+{
+  "version": "2026-08-22.1",
+  "purpose": "Canonical categorization and ownership rules for all public and ingested content.",
+  "canonicalSections": {
+    "children": {
+      "labelAr": "أحباب الله",
+      "landing": "children.html",
+      "exclusiveAudienceRule": "All content specifically directed to children or young people belongs under this section regardless of media format or historical subject.",
+      "contentTypes": ["verified-readings", "illustrated-stories", "very-short-stories", "animated-stories", "video", "audio"],
+      "mayReferenceCanonicalPeople": true
+    },
+    "people": {
+      "labelAr": "السير والتراجم",
+      "landing": "people.html",
+      "canonicalPage": "person.html",
+      "independentMenuSection": true,
+      "groups": ["prophetic-family", "companions", "narrators", "tabiin", "atba_tabiin", "ancestors", "other-biographical-people"],
+      "onePersonOneCanonicalBiography": true,
+      "narratorCatalogue": "people.html?group=rijal"
+    },
+    "library": {
+      "labelAr": "المصادر والدراسات",
+      "landing": "library-all.html",
+      "rule": "Books, editions, scans, EPUB/native texts, audio, video, transcripts and research resources remain resource records and may be cited by multiple content sections without becoming duplicate articles."
+    },
+    "editorial": {
+      "labelAr": "المقالات والموضوعات",
+      "landing": "editorial.html",
+      "rule": "Thematic articles remain in the section determined by their actual subject. Mentioning a person does not convert a thematic article into that person's biography."
+    }
+  },
+  "ownershipRules": {
+    "exactPersonOwnership": true,
+    "personSpecificBiographicalMaterial": "Merge into that person's canonical person.html biography record.",
+    "multiPersonPassage": "Assign according to the passage's actual subject and context; create person references for secondary persons rather than duplicating the passage as biography content.",
+    "thematicMaterial": "Keep as a separate thematic article when the theme/event is the real subject, and link named people to their canonical biography records.",
+    "duplicateBiographyPagesForbidden": true,
+    "legacyNarratorPages": "Compatibility routes only; no independent narrator biography corpus."
+  },
+  "storyCorpora": {
+    "sourced": {
+      "retain": true,
+      "provenanceRequired": true,
+      "publicCitation": true
+    },
+    "unsourcedExisting": {
+      "retain": true,
+      "internalProvenanceClass": "unsourced-existing"
+    },
+    "unsourcedGenerated": {
+      "retain": true,
+      "internalProvenanceClass": "unsourced-generated",
+      "mustRemainDistinguishableFromSourced": true
+    }
+  },
+  "routingPriority": [
+    "audience:children -> children",
+    "person-biography -> people/canonical-person",
+    "resource-object -> library",
+    "theme-or-event -> editorial/thematic-section"
+  ],
+  "qualityRules": {
+    "noInventedHistoricalFacts": true,
+    "sourceProvenancePreserved": true,
+    "ocrRepairDoesNotChangeOwnership": true,
+    "arabicPublicPagesAvoidAccidentalLatinOCR": true
+  }
+}
