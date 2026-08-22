@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:40:14.757940+00:00",
-  "gitCommit": "400ceea182f6ea4b527f958466d3981ebd4e1f66",
+  "generatedAt": "2026-08-22T02:41:37.961446+00:00",
+  "gitCommit": "65d5e09c5d540ff1693f1baec72c3ed7da540194",
   "github": {
-    "trackedFileCount": 802,
+    "trackedFileCount": 803,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 213,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 50,
       "PUBLIC_SITE_ASSET": 104,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 300
+      "CONTENT_OR_PUBLICATION_REGISTRY": 301
     },
     "files": [
       {
@@ -886,6 +886,11 @@
       {
         "path": "data/biography_500_policy.json",
         "size": 1761,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/biography_batches/manifest.json",
+        "size": 1859,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
