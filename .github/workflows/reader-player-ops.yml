@@ -1,18 +1,38 @@
 name: Reader Player Operations
+
+# Governed by MASTER_OVERRIDING_INSTRUCTION.md.
+# Run functional reader/player checks only when reader/player/runtime code changes.
 on:
   push:
-    paths:
+    paths: &reader_player_paths
       - 'server.py'
       - 'platform_services.py'
       - 'ops_services.py'
-      - 'assets/**'
-      - 'scripts/**'
-      - 'tests/**'
+      - 'reader.html'
+      - 'media.html'
+      - 'service-worker.js'
+      - 'assets/site-menu.js'
+      - 'assets/platform-runtime.js'
+      - 'assets/cache-telemetry.js'
+      - 'assets/reader-*.js'
+      - 'assets/media-*.js'
+      - 'assets/universal-player.js'
+      - 'assets/adaptive-media.js'
+      - 'scripts/build_mirror_manifest.py'
+      - 'scripts/replicate_assets.py'
+      - 'scripts/build_ocr_coordinates.py'
+      - 'scripts/build_timed_transcripts.py'
+      - 'scripts/prepare_reader_player_assets.py'
+      - 'scripts/build_adaptive_media.py'
+      - 'scripts/nightly_reader_player_ops.py'
+      - 'tests/test_reader_player_runtime.py'
       - '.github/workflows/reader-player-ops.yml'
   pull_request:
+    paths: *reader_player_paths
   schedule:
     - cron: '25 2 * * *'
   workflow_dispatch:
+
 jobs:
   regression:
     runs-on: ubuntu-latest
@@ -31,6 +51,7 @@ jobs:
         run: python -m unittest -v tests/test_reader_player_runtime.py
       - name: Mirror manifest audit
         run: python scripts/build_mirror_manifest.py
+
   nightly-maintenance:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
