@@ -1,0 +1,62 @@
+name: Materialize rijal biography batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Batch number (50 persons)
+        required: true
+        default: '1'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/materialize_rijal_biography_batch.py'
+      - '.github/workflows/materialize-rijal-biography-batch.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Materialize 50 source-backed biographies
+        env:
+          BATCH: ${{ github.event.inputs.batch || '1' }}
+        run: python scripts/materialize_rijal_biography_batch.py --batch "$BATCH"
+      - name: Validate batch
+        env:
+          BATCH: ${{ github.event.inputs.batch || '1' }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          n=int(os.environ['BATCH'])
+          p=Path(f'data/editorial/rijal-biography-batches/batch-{n:04d}.json')
+          a=Path(f'data/editorial/rijal-biography-batches/batch-{n:04d}.audit.json')
+          d=json.loads(p.read_text(encoding='utf-8')); q=json.loads(a.read_text(encoding='utf-8'))
+          assert d['count']==50 and len(d['records'])==50
+          assert len({str(x['source_id']) for x in d['records']})==50
+          assert all(x['source_coverage_percent']==100 for x in d['records'])
+          assert all(x['ai_original_substantive_content_percent']==0 for x in d['records'])
+          assert q['inventedFacts']==0 and q['complete'] is True
+          print(q)
+          PY
+      - name: Commit materialized batch
+        env:
+          BATCH: ${{ github.event.inputs.batch || '1' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/editorial/rijal-biography-batches/
+          if git diff --cached --quiet; then echo 'No batch changes.'; exit 0; fi
+          git commit -m "Materialize rijal biographies batch ${BATCH} (50 persons)"
+          git push origin HEAD:main
