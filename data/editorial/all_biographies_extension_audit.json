@@ -1,0 +1,19 @@
+{
+  "schema": "all-biographies-source-first-extension-audit-v1",
+  "peopleScanned": 362,
+  "peopleWithExtendedSourceContent": 119,
+  "coveragePercent": 32.87,
+  "newlyExtendedThisPass": 114,
+  "addedPassageCount": 391,
+  "addedWordCount": 198877,
+  "internalJsonFilesScanned": 499,
+  "internalExplicitPassagesMatched": 3072,
+  "classicalCandidateTitleCount": 1690,
+  "exactClassicalPeopleMatched": 75,
+  "unresolvedCount": 243,
+  "maximumPassagesPerPerson": 60,
+  "maximumWordsPerPerson": 15000,
+  "aiOriginalSubstantiveContentPercent": 0,
+  "sourceTruthOverridesCoverageTarget": true,
+  "complete": true
+}

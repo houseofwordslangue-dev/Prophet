@@ -2,8 +2,8 @@
   "schema": "canonical-biography-source-extension-v2",
   "personId": "khadija-bint-khuwaylid",
   "personNameAr": "خديجة بنت خويلد",
-  "policy": "Only source passages from records explicitly linked to this exact person; no name-only or cross-person enrichment.",
-  "passageCount": 19,
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passageCount": 60,
   "passages": [
     {
       "text": "خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. سودة بنت زمعة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عائشة بنت أبي بكر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حفصة بنت عمر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت خزيمة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جويرية بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. صفية بنت حيي من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ميمونة بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مارية القبطية من أسرة مارية القبطية أو من",
@@ -1531,6 +1531,622 @@
           }
         ]
       }
+    },
+    {
+      "text": "خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. سودة بنت زمعة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عائشة بنت أبي بكر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حفصة بنت عمر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت خزيمة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جويرية بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. صفية بنت حيي من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ميمونة بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مارية القبطية من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": null,
+        "author": null,
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 501
+    },
+    {
+      "text": "خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عائشة بنت أبي بكر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حفصة بنت عمر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت خزيمة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جويرية بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. صفية بنت حيي من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ميمونة بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مارية القبطية من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة.",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": null,
+        "author": null,
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 501
+    },
+    {
+      "text": "خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. عائشة بنت أبي بكر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حفصة بنت عمر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت خزيمة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جويرية بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. صفية بنت حيي من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ميمونة بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مارية القبطية من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": null,
+        "author": null,
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 501
+    },
+    {
+      "text": "خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حرفي قبل المراجعة. عائشة بنت أبي بكر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حفصة بنت عمر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت خزيمة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جويرية بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. صفية بنت حيي من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ميمونة بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مارية القبطية من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": null,
+        "author": null,
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 501
+    },
+    {
+      "text": "خديجة بنت خويلد من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. حفصة بنت عمر من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت خزيمة من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من ذرية أميمة بنت عبد المطلب، عمة النبي ﷺ. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. زينب بنت جحش من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 3 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. جويرية بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. صفية بنت حيي من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. ميمونة بنت الحارث من زوجات النبي محمد ﷺ، وقد أفردت لها الشجرة فرعًا مستقلًا حتى لا تختلط سيرتها بأسرة زوجة أخرى. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. مارية القبطية من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 2 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أبناء النبي محمد ﷺ أو بناته، ويُحفظ موضعه في فرع الأبناء بحسب الأم كما رتبته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة. إبراهيم بن محمد من أسرة مارية القبطية أو من الفرع المتصل بإبراهيم بن محمد ﷺ، كما صنفته الشجرة. وقد ظهر الاسم في 1 من موارد Drive القابلة للبحث؛ تُستخدم هذه الموارد للتحقق والتوسعة ولا يُنقل OCR منها كاقتباس حرفي قبل المراجعة.",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/family-life-five-batch-005.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": null,
+        "author": null,
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 501
+    },
+    {
+      "text": "protecting wings, now useless, closed, making room for the stars which sparkle nowhere in the world so brilliantly as over deserts. Even the camels seemed overjoyed; they doubled the stride of their great long legs and the path seems to fold itself backwards as they advance. No dead body of any of them was added to the sinister skeletons left behind by previous caravans. Once only during the whole journey, a couple of Khadijah's camels showed signs of exhaustion and lagged behind the convoy. Despite the insults and blows showered on them, Maisarah failed to bring them in line with the others. The two wretched beasts were completely bathed in sweat, a certain sign that they would soon fall, never to rise again. Maisarah, devoted to his mistress's interests, was extremely perplexed. He did not",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "She seems to have been pre-eminently one of those receptive women who are good to consult for the clarification of ideas. Her intelligence was quick to grasp another's thought, if she did not originate thought within herself. She was a woman fitted to be the helper and guide of such a man as Mahomet, eager, impulsive, prone to swiftly alternating extremes of depression and elation. A subtle mental attraction drew them together, and Khadijah divined intuitively the power lying within the mind of this youth and also his need of her, both mentally and materially, to enable him to realise his whole self. Therefore as she was the first to awaken to her desire for him, the first advances come from her. She sent her sister to Mahomet to induce him to change his mind",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "Jibra'il appearing once more, said to him: 'Teach Khadijah salvation by Islam!' That is to say, by voluntary resignation to all the Creator's commands. He obeyed and spoke thus: 'O Khadijah! Jibra'il ordereth me to teach thee salvation by Islam.' And Khadijah answered: 'Allah is Salvation; from Him cometh Salvation, and let Salvation be on Jibra'il.' Thus it came about that, of all living beings, Khadijah was Islam's first convert. The Prophet took her at once to the miraculous spring, where he taught her what he had just learnt. Copying her husband, she purified herself by the ablutions and recited the prayers. Ever since that day, Allah made use of this admirable woman to mitigate the sorrows and pains of His Prophet in all the ordeals he had to undergo. Khadijah's devotion endowed Mohammad with",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "arms of the traveller: our swords in their scabbards, according to the terms of our oath, but if we detect in the glances of the idolatrous Quraish the slightest sign of treachery, our other weapons will be found handy.' He then pushed on. Self-communing, he climbed the Kuda hill, in order to descend into the valley near the cemetery of Al-Hajun where rested his beloved Khadijah (May Allah welcome her in His Grace!) When he cast eyes on the first houses of Makkah, unspeakable emotion overpowered him by reason of the remembrances and hopes they evoked. Fearing lest treachery, on the part of the Infidels, should force him to order reprisals, causing the blood of his fellow-countrymen to sully the streets of the city where he was born, he cried out: 'O Allah, spare us",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "have died!' he added. 'That could not be,' answered Khadijah, regaining her composure. 'Surely Allah sought not to do thee harm, for thou art kind to thy family, merciful to the weak and helpful towards the victims of injustice. O son of my uncle! thou dost bring me excellent tidings and that I do affirm. I swear, by the name of Him who holdeth in His hands the soul of Khadijah, that I hoped for this news. There is no doubt about it--thou wilt be the Prophet of our nation.' Ever since she had heard the miraculous reports that Maisarah, her slave, brought her, and which confirmed what she had remarked herself, Khadijah was convinced that the highest destiny was in store for her husband, and she was not at all astonished at such a",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "[Sidenote: THE BIRTH AND DEATH OF IBRAHIM] In Year VIII of the Hegira, Mary, the Coptic concubine, gave birth to a boy. The Prophet, who had never found consolation for the death of his sons brought into the world by Khadijah, was beside himself with joy. He gave a slave as a present to Abu Rafi'a, for having brought the news that a son was born, and Mohammad declared that the child's advent freed the mother. On the seventh day, the baby's hair was shaved off and buried; two sheep were sacrificed and alms were distributed to the poor. All the wet-nurses vied with each other for the honour of suckling the Prophet's son, who was called Ibrahim. He was given into the care of Umm Burda, wife of Al-Bara ibn Aws, and she, was",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "didst wish him to say.' But the most accredited traditions refuse to accept this version. Where is the truth? Allah only knows! Three days after this bereavement, fraught with fatal consequences, the Prophet had to put up with a still more grievous loss. Khadijah, his admirable companion, who gave herself to him when he was poor and had believed in him when he was called an impostor; Khadijah, to whom he confided all his hopes; Khadijah, the sweet consoling creature when he was crushed by the weight of despair; Khadijah, the first female Moslem, the \"Mother of the Believers,\" was taken from him by the Fates at the age of sixty-five. (May Allah welcome her in His Grace!) Khadijah's ascendancy over him was so great and yet so tender that while she lived, he had",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "him to say.' But the most accredited traditions refuse to accept this version. Where is the truth? Allah only knows! Three days after this bereavement, fraught with fatal consequences, the Prophet had to put up with a still more grievous loss. Khadijah, his admirable companion, who gave herself to him when he was poor and had believed in him when he was called an impostor; Khadijah, to whom he confided all his hopes; Khadijah, the sweet consoling creature when he was crushed by the weight of despair; Khadijah, the first female Moslem, the \"Mother of the Believers,\" was taken from him by the Fates at the age of sixty-five. (May Allah welcome her in His Grace!) Khadijah's ascendancy over him was so great and yet so tender that while she lived, he had never been",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "of this youth and also his need of her, both mentally and materially, to enable him to realise his whole self. Therefore as she was the first to awaken to her desire for him, the first advances come from her. She sent her sister to Mahomet to induce him to change his mind upon the subject of marriage, and when he found that the rich and gracious Khadijah offered him her hand, he could not believe his good fortune, and assured the sister that he was eager to make her his wife. The alliance, in spite of its personal suitability, was far from being advantageous to Khadijah from a worldly point of view, and the traditions of how her father's consent was obtained have all the savour of contemporary evidence. The father was bidden to",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "man to whom she had confided them: young Mohammad who, by his noble bearing and upright disposition, had so deeply impressed her that his absence weighed her down. It seemed to be never-ending. One day, among all these weary weeks of waiting, when the sun at its zenith was setting the town in a blaze, preventing the inhabitants from stirring out in the streets or mounting to the housetops, Khadijah lingered at her usual observatory. Her beautiful eyes, their lids scorched by dint of staring searchingly into the depths of the white-hot horizon, had just reluctantly closed, in despair at not seeing the caravan so impatiently desired ... All of a sudden, the house became filled with delicious, cool air; while the blinding reverberation of sunlight on the white terraces and calcined rocks was softened",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "lying within the mind of this youth and also his need of her, both mentally and materially, to enable him to realise his whole self. Therefore as she was the first to awaken to her desire for him, the first advances come from her. She sent her sister to Mahomet to induce him to change his mind upon the subject of marriage, and when he found that the rich and gracious Khadijah offered him her hand, he could not believe his good fortune, and assured the sister that he was eager to make her his wife. The alliance, in spite of its personal suitability, was far from being advantageous to Khadijah from a worldly point of view, and the traditions of how her father's consent was obtained have all the savour of contemporary evidence. The",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "beings, Khadijah was Islam's first convert. The Prophet took her at once to the miraculous spring, where he taught her what he had just learnt. Copying her husband, she purified herself by the ablutions and recited the prayers. Ever since that day, Allah made use of this admirable woman to mitigate the sorrows and pains of His Prophet in all the ordeals he had to undergo. Khadijah's devotion endowed Mohammad with deep contempt for mortals' wickedness, and his wife's firm faith served to comfort him when he was looked upon as an impostor. One of the first of the Prophet's companions to believe in his mission was Ali, son of Abu Talib, only about ten years old just then, and who Mohammad had adopted during a period of famine, so as to relieve his uncle,",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "had made to Abu Talib. All transactions being terminated, the caravan turned homewards, and immediately the mysterious cloud, that seemed to be awaiting the travellers, took its place over Mohammad's head and never ceased to accompany him until the journey's end. On the outskirts of Makkah, at the spot called Bathen Mou, Maisarah prevailed on Mohammad to go on ahead of the convoy, so as to carry to Khadijah, without the least delay, the good news of their return. The widow was in the habit of going up with her servants to the top of her house whence she could see the road to Syria, dipping, in a north-easterly direction, into the ravine overlooked by the Jabal Quayqwan. She certainly felt no anxiety concerning her goods, but without confessing as much to herself as yet,",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "the abatement of his hardships, much less for the success of his cause. Mahomet's grief was too profound for the passing shadow of it even to darken the pages of the Kuran. He paid her the compliment of silence; but her memory was continually with him, even when he had taken many fairer women to wife. Ayesha, in all the insolence of beauty, scoffed at Khadijah's age and lack of comeliness: \"Am I not dearer to thee than she was?\" \"No, by Allah!\" cried Mahomet; \"for she believed when no one else believed.\" It was her strength of character and sweetness of mind that impelled him to utter the amazing words--amazing for his time and environment, seventh-century Arabia--\"women are the twin-halves of men.\" But fortune or Allah had not finished the \"strong affliction\" whereby Mahomet",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "our return from Syria, my mistress sent me to my master and I questioned him thus: 'O Mohammad! hast thou any reason for remaining a bachelor?'--'My hands are empty. I do not possess the wherewithal to furnish the dowry of a betrothed bride.'--'But if the small amount thou hast should be considered enough by a rich, worthy and noble lady--what then?'--'To whom dost thou allude?'--'I mean Khadijah!'--'Why joke with me? How, with the trifle I could offer as a dowry, should I dare to seek her presence and offer to take her in marriage?'--'Rest easy on that score. I'll see to it.' My master's accents and looks sufficed for me to become aware of his feelings towards my mistress. Without further delay, I sought her out and told her what I thought. Beaming with joy,",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "to his wife when Jibra'il appearing once more, said to him: 'Teach Khadijah salvation by Islam!' That is to say, by voluntary resignation to all the Creator's commands. He obeyed and spoke thus: 'O Khadijah! Jibra'il ordereth me to teach thee salvation by Islam.' And Khadijah answered: 'Allah is Salvation; from Him cometh Salvation, and let Salvation be on Jibra'il.' Thus it came about that, of all living beings, Khadijah was Islam's first convert. The Prophet took her at once to the miraculous spring, where he taught her what he had just learnt. Copying her husband, she purified herself by the ablutions and recited the prayers. Ever since that day, Allah made use of this admirable woman to mitigate the sorrows and pains of His Prophet in all the ordeals he had to undergo. Khadijah's",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "to go backwards Or forwards. I was petrified. \"For the second time, Jibra'il said to me: 'O Mohammad, thou art the Prophet of Allah and I am Jibra'il!' He then disappeared like a vision in a dream. It was then that in great haste, my heart beating in the most terrible anguish, I ran towards my dwelling....\" When the Prophet crossed the threshold of his house, he rushed to Khadijah, hiding his face in her lap and trembling as if in a fit of ague, as he cried: 'Cover me up! Cover me up!' His servants flocked busily round him, keeping him enwrapped until his emotion had subsided. Khadijah, much upset, questioned him: 'O Father of Qasim, where wert thou? By Allah, what befell thee? I sent some of my servants to meet thee, but",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "read the first sura of the Kuran: \"Recite thou in the name of thy Lord who created thee,\" and when he awoke it seemed to him that these words were graven upon his heart. Mahomet went immediately up into the mountain, and there Gabriel appeared to him waking and said: \"Thou art God's Prophet, and I am Gabriel.\" The archangel vanished, but Mahomet remained rooted to the spot, until Khadijah's messengers found him and brought him to her. The simple story of Mahomet's call to the prophetic office from the lips of the old chroniclers is peculiarly fragrant, but it leaves us in considerable doubt as to the real means by which he attained his faith and was emboldened to preach to his people. It is certain that he had no idea at the time",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "bin Abdullah leaneth towards the noble dame Khadijah, whose soul eke leaneth towards him; and he doth beg at this hour that thou, O Khuaild! in thy generosity, should give her to him to be his wife. As dowry, he bringeth twenty young female camels, and I call upon ye to be my witnesses, O my Quraish brethren!' The marriage took place, and so as to celebrate it duly, Khadijah had her young and graceful slaves to dance to the sound of tabors, before the company assembled; all unanimously overjoyed at this alliance between two such noble families. Khadijah was Mohammad's first wife. She never had a rival in her husband's heart, and, until the day of her death, she was his sole, beloved spouse. She gave him seven children; three sons: al-Qasim, at-Tahir and",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "days after our return from Syria, my mistress sent me to my master and I questioned him thus: 'O Mohammad! hast thou any reason for remaining a bachelor?'--'My hands are empty. I do not possess the wherewithal to furnish the dowry of a betrothed bride.'--'But if the small amount thou hast should be considered enough by a rich, worthy and noble lady--what then?'--'To whom dost thou allude?'--'I mean Khadijah!'--'Why joke with me? How, with the trifle I could offer as a dowry, should I dare to seek her presence and offer to take her in marriage?'--'Rest easy on that score. I'll see to it.' My master's accents and looks sufficed for me to become aware of his feelings towards my mistress. Without further delay, I sought her out and told her what I thought. Beaming",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "herself to him when he was poor and had believed in him when he was called an impostor; Khadijah, to whom he confided all his hopes; Khadijah, the sweet consoling creature when he was crushed by the weight of despair; Khadijah, the first female Moslem, the \"Mother of the Believers,\" was taken from him by the Fates at the age of sixty-five. (May Allah welcome her in His Grace!) Khadijah's ascendancy over him was so great and yet so tender that while she lived, he had never been unfaithful. Never, although he was then in the prime of life, would he consent to have other wives or concubines, as permitted by the customs of his country, in spite of being invited on all sides to do so. And never, when Khadijah was no more, did",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "the truth? Allah only knows! Three days after this bereavement, fraught with fatal consequences, the Prophet had to put up with a still more grievous loss. Khadijah, his admirable companion, who gave herself to him when he was poor and had believed in him when he was called an impostor; Khadijah, to whom he confided all his hopes; Khadijah, the sweet consoling creature when he was crushed by the weight of despair; Khadijah, the first female Moslem, the \"Mother of the Believers,\" was taken from him by the Fates at the age of sixty-five. (May Allah welcome her in His Grace!) Khadijah's ascendancy over him was so great and yet so tender that while she lived, he had never been unfaithful. Never, although he was then in the prime of life, would he consent to",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "exhibited more than ever the marks of the poet and seer; the time was at hand when all the subdued enthusiasm of his mind was to break forth in the opening Suras of the Kuran. The inspiration had not yet descended upon him, but it was imminent, and the shadow of its stern requirements was about him as he attended to his work of supervising Khadijah's wealth or took part in the religious life of Mecca. In A.D. 605, when Mahomet was thirty-five years old, the chief men of Mecca decided to rebuild the Kaaba. The story of its rebuilding is perhaps the most interesting of the many strange, naive tales of this adventurous city. Valley floods had shattered the house of the gods. It was roofless, and so insecure that its treasury had already",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "the words thou didst wish him to say.' But the most accredited traditions refuse to accept this version. Where is the truth? Allah only knows! Three days after this bereavement, fraught with fatal consequences, the Prophet had to put up with a still more grievous loss. Khadijah, his admirable companion, who gave herself to him when he was poor and had believed in him when he was called an impostor; Khadijah, to whom he confided all his hopes; Khadijah, the sweet consoling creature when he was crushed by the weight of despair; Khadijah, the first female Moslem, the \"Mother of the Believers,\" was taken from him by the Fates at the age of sixty-five. (May Allah welcome her in His Grace!) Khadijah's ascendancy over him was so great and yet so tender that while she",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "trifle I could offer as a dowry, should I dare to seek her presence and offer to take her in marriage?'--'Rest easy on that score. I'll see to it.' My master's accents and looks sufficed for me to become aware of his feelings towards my mistress. Without further delay, I sought her out and told her what I thought. Beaming with joy, she made all her arrangements for speedy nuptials.\" At first, Khadijah had to obtain the consent of Khuaild, her father, who so far had inexorably repulsed all suitors, as he never found any rich or noble enough for his daughter. To gain her ends, she resorted to trickery. Coached by her, Mohammad made arrangements for a big feast, inviting his uncles, Khuaild and a group of Quraish tribesmen of the highest rank. Khuaild's",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "wife, and was so stirred that, overcome by jealousy, I could not help showing temper and I exclaimed: 'What meanest thou by continually conjuring up the remembrance of these old Quraish females, with their toothless, red gums and faces betraying the ravages of age? Hath not Allah given thee better women in their stead?'\" But despite these scenes, despite the beauty and intelligence of Ayishah and his other wives, the Prophet always preferred Khadijah. He included her among the four most perfect women that ever came on earth. The three others were Asiyah, Pharoah's wife who saved Moses; Maryam (Mary), mother of Isa (Jesus); and Fatimah-tuz-Zahra, one of Mohammad's daughters by Khadijah. Stricken by his double mourning, threatened by the Unbelievers who no longer concealed their intentions, now that his noble protector was no more,",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "there appeared no prospect of the abatement of his hardships, much less for the success of his cause. Mahomet's grief was too profound for the passing shadow of it even to darken the pages of the Kuran. He paid her the compliment of silence; but her memory was continually with him, even when he had taken many fairer women to wife. Ayesha, in all the insolence of beauty, scoffed at Khadijah's age and lack of comeliness: \"Am I not dearer to thee than she was?\" \"No, by Allah!\" cried Mahomet; \"for she believed when no one else believed.\" It was her strength of character and sweetness of mind that impelled him to utter the amazing words--amazing for his time and environment, seventh-century Arabia--\"women are the twin-halves of men.\" But fortune or Allah had not finished",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "to comfort him when he was looked upon as an impostor. One of the first of the Prophet's companions to believe in his mission was Ali, son of Abu Talib, only about ten years old just then, and who Mohammad had adopted during a period of famine, so as to relieve his uncle, at the head of a very large family. Noticing that Mohammad and Khadijah kept aloof and became absorbed in prayer, he marvelled greatly at seeing no object of worship set up in front of them and he put this question to the Prophet: 'What rites were ye both performing just now?'--'We were saying the prayers of the pure religion that Allah hath just chosen for Himself and for which He hath chosen me to be the Prophet,' he replied. 'O Ali! I",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "the ravages of age? Hath not Allah given thee better women in their stead?'\" But despite these scenes, despite the beauty and intelligence of Ayishah and his other wives, the Prophet always preferred Khadijah. He included her among the four most perfect women that ever came on earth. The three others were Asiyah, Pharoah's wife who saved Moses; Maryam (Mary), mother of Isa (Jesus); and Fatimah-tuz-Zahra, one of Mohammad's daughters by Khadijah. Stricken by his double mourning, threatened by the Unbelievers who no longer concealed their intentions, now that his noble protector was no more, the Prophet resolved to preach outside Makkah. If he succeeded in gaining over some of the neighbouring Arab peoples, these reinforcements, increasing the number of citizens of Makkah already converted, and which was far from inconsiderable, would make up a",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "had only just attained his twenty-fifth year, while she was close upon forty. Nevertheless, Khadijah's age did not prevent her from being the most marrigeable lady in all the town, not, as might be rightly thought, on account of her riches (according to Arab customs, the husband brings the dowry and has no right to his wife's property), but because of her personal qualities, charming ways, distinguished manners, chastity and aristocratic descent, Khadijah being the daughter of Khuaild bin Asad, bin Abdul Ozza, bin Qusaiy, bin Kilab, bin Morra, bin Kab, bin Lawaiy, bin Ghalib.... She was therefore the queen of a court of suitors trying to dazzle her, some by the purity of their pedigrees; others by the extent of their riches. But all in vain. Since the death of her second husband, Abu",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "السيرة النبوية لابن هشام",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "scorched by dint of staring searchingly into the depths of the white-hot horizon, had just reluctantly closed, in despair at not seeing the caravan so impatiently desired ... All of a sudden, the house became filled with delicious, cool air; while the blinding reverberation of sunlight on the white terraces and calcined rocks was softened by a gauzy veil of sheltering violet shade ... Just then, the door opened and Mohammad entered Khadijah's dwelling. Doing his duty like a scrupulous manager, he turned in all the accounts of his expedition, and enumerated the magnificent results thereof. She thanked and complimented him warmly, but without being very much astonished at his success, for she began to think he was predestinated. The coincidence of his arrival with that of the cloud which granted such beneficent shade had",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "of zeal for Islam, must have been such as is inspired by those of contrasting nature for each other. Mahomet saw a kindly, almost commonplace man, in whose sweet sanity his troubled soul could find a little peace. He was burdened at times with over-resolve that ate into his mind like acid. In Abu Bekr he could find the soothing influence he so often needed, and after the death of Khadijah this friend might be said in a measure to take her place. Abu Bekr, on the other hand, revered his leader as a man of finer, subtler stuff than himself, more alive to the virtue of speed, filled with a greater daring and a profounder impulse than he was. Mahomet, in common with most men meriting the title of great, had a capacity for",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "set free, each captive knowing how to read and write, should give lessons to two children of the Ansars. Among the prisoners was Abul' As ibn Rabiyah, a rich man in high repute. He had married Zainab, the daughter of the Prophet, before the Revelation, and was still an idolater. For the ransom of her husband, Zainab sent from Makkah a sum of money and a necklace, a wedding-gift from her mother Khadijah. The Prophet, recognising this piece of jewellery which he had ofttimes seen round the neck of his beloved and regretted Khadijah, was unable to repress his emotion and put this question to his disciples: 'If ye do not oppose me, I will send her husband back to Zainab, and renounce all claims to ransom.' No objection being raised, Mohammad told his prisoner",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "his soul brightened by the benefits of these prayers. Then it was that, thrilling with the faith of belief, Mohammad was about to return home to his wife when Jibra'il appearing once more, said to him: 'Teach Khadijah salvation by Islam!' That is to say, by voluntary resignation to all the Creator's commands. He obeyed and spoke thus: 'O Khadijah! Jibra'il ordereth me to teach thee salvation by Islam.' And Khadijah answered: 'Allah is Salvation; from Him cometh Salvation, and let Salvation be on Jibra'il.' Thus it came about that, of all living beings, Khadijah was Islam's first convert. The Prophet took her at once to the miraculous spring, where he taught her what he had just learnt. Copying her husband, she purified herself by the ablutions and recited the prayers. Ever since that day,",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "return home to his wife when Jibra'il appearing once more, said to him: 'Teach Khadijah salvation by Islam!' That is to say, by voluntary resignation to all the Creator's commands. He obeyed and spoke thus: 'O Khadijah! Jibra'il ordereth me to teach thee salvation by Islam.' And Khadijah answered: 'Allah is Salvation; from Him cometh Salvation, and let Salvation be on Jibra'il.' Thus it came about that, of all living beings, Khadijah was Islam's first convert. The Prophet took her at once to the miraculous spring, where he taught her what he had just learnt. Copying her husband, she purified herself by the ablutions and recited the prayers. Ever since that day, Allah made use of this admirable woman to mitigate the sorrows and pains of His Prophet in all the ordeals he had to",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
+    },
+    {
+      "text": "to Abu Talib. All transactions being terminated, the caravan turned homewards, and immediately the mysterious cloud, that seemed to be awaiting the travellers, took its place over Mohammad's head and never ceased to accompany him until the journey's end. On the outskirts of Makkah, at the spot called Bathen Mou, Maisarah prevailed on Mohammad to go on ahead of the convoy, so as to carry to Khadijah, without the least delay, the good news of their return. The widow was in the habit of going up with her servants to the top of her house whence she could see the road to Syria, dipping, in a north-easterly direction, into the ravine overlooked by the Jabal Quayqwan. She certainly felt no anxiety concerning her goods, but without confessing as much to herself as yet, she was",
+      "source": {
+        "recordId": "khadija-bint-khuwaylid",
+        "repositoryPath": "data/editorial/drafts/2026-08-21/khadija-long-batch-02.json",
+        "sourceType": "explicit-person-owned-repository-source",
+        "title": "The Life of Mohammad, the Prophet of Allah",
+        "author": "Etienne Dinet; Sliman Ben Ibrahim",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 135
     }
-  ]
+  ],
+  "wordCount": 11164
 }
