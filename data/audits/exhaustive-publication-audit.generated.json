@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:10:15.255185+00:00",
-  "gitCommit": "7e86d50af604094eb1fb305f02e02d17cae1940f",
+  "generatedAt": "2026-08-22T01:11:29.187456+00:00",
+  "gitCommit": "bea07a543c155dadc8d5bd5f111dbaa0c7d9d81d",
   "github": {
     "trackedFileCount": 767,
     "fileDispositionCounts": {
@@ -250,7 +250,7 @@
       },
       {
         "path": ".github/workflows/source-first-fulltext.yml",
-        "size": 1864,
+        "size": 3442,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -760,7 +760,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 847112,
+        "size": 847113,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
