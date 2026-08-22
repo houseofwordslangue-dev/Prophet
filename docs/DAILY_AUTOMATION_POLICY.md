@@ -1,6 +1,6 @@
 # Single Daily Automation Policy
 
-GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 
 The repository intentionally has one automatic GitHub Actions workflow only: `.github/workflows/daily-generative-control.yml`.
 
