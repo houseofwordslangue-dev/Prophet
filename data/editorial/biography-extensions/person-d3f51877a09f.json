@@ -18,8 +18,23 @@
         "provenance": "verified-source-excerpt"
       },
       "wordCount": 2200
+    },
+    {
+      "text": "القرشي الهاشمي أبو الفضل المكي عم رسول الله ﷺ، وكان أسن من رسول الله ﷺ بسنتين أو ثلاث.",
+      "source": {
+        "recordId": "person-d3f51877a09f",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "البداية والنهاية",
+        "author": "ابن كثير",
+        "url": "https://ar.wikisource.org/wiki/البداية_والنهاية_(ط._السعادة)/ثم_دخلت_سنه_ثنتين_وثلاثين/العباس_بن_عبد_المطلب",
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "verified-source-excerpt"
+      },
+      "wordCount": 18
     }
   ],
-  "passageCount": 1,
-  "wordCount": 2200
+  "passageCount": 2,
+  "wordCount": 2218
 }

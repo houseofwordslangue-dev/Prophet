@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-052f28b35cf9",
+  "personNameAr": "أبو لهب بن عبد المطلب (عبد العزى)",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "وكان من أشد الناس عليه عمه أبو لهب، واسمه عبد العزى بن عبد المطلب.",
+      "source": {
+        "recordId": "person-052f28b35cf9",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "البداية والنهاية",
+        "author": "ابن كثير",
+        "url": "https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_الثالث/باب_الأمر_بابلاغ_الرسالة",
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "verified-source-excerpt"
+      },
+      "wordCount": 14
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 14
+}

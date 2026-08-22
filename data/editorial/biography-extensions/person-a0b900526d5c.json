@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-a0b900526d5c",
+  "personNameAr": "ضرار بن عبد المطلب",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "وأم العباس وضرار: نتيلة بنت جناب بن كليب بن مالك بن عمرو بن عامر بن النمر بن قاسط.",
+      "source": {
+        "recordId": "person-a0b900526d5c",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "جمهرة أنساب العرب",
+        "author": "ابن حزم الأندلسي",
+        "url": "https://www.masaha.org/book/view/1960/page/418",
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "verified-source-excerpt"
+      },
+      "wordCount": 18
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 18
+}

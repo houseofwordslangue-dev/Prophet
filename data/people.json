@@ -343,7 +343,7 @@
       "id": "person-d9028df96d00",
       "slug": "person-d9028df96d00",
       "name": {
-        "ar": "J. M. Rodwell",
+        "ar": "جون ميدوس روديل",
         "en": "J. M. Rodwell (translator)",
         "fr": "J. M. Rodwell (translator)"
       },
@@ -365,6 +365,11 @@
           "type": "canonical-name-cleanup",
           "from": "J. M. Rodwell (translator)",
           "to": "J. M. Rodwell"
+        },
+        {
+          "type": "wikidata-ar-label",
+          "from": "J. M. Rodwell",
+          "to": "جون ميدوس روديل"
         }
       ]
     },
@@ -372,7 +377,7 @@
       "id": "person-933505e3bc5b",
       "slug": "person-933505e3bc5b",
       "name": {
-        "ar": "Marmaduke William Pickthall",
+        "ar": "محمد مارمادوك بكتال",
         "en": "Marmaduke William Pickthall",
         "fr": "Marmaduke William Pickthall"
       },
@@ -388,7 +393,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "wikidata-ar-label",
+          "from": "Marmaduke William Pickthall",
+          "to": "محمد مارمادوك بكتال"
+        }
+      ]
     },
     {
       "id": "person-4c7fe50bc447",

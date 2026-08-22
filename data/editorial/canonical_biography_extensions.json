@@ -16,9 +16,9 @@
     "exactClassicalNameMatchOnly": true
   },
   "indexedPeople": 429,
-  "peopleExtended": 190,
-  "passageCount": 1087,
-  "wordCount": 492365,
+  "peopleExtended": 199,
+  "passageCount": 1100,
+  "wordCount": 492561,
   "people": {
     "abd-al-muttalib": {
       "id": "abd-al-muttalib",
@@ -208,8 +208,8 @@
       "id": "al-abbas-ibn-abd-al-muttalib",
       "nameAr": "العباس بن عبد المطلب",
       "category": "companion",
-      "passageCount": 11,
-      "wordCount": 7478,
+      "passageCount": 12,
+      "wordCount": 7496,
       "file": "data/editorial/biography-extensions/al-abbas-ibn-abd-al-muttalib.json"
     },
     "al-fadl-ibn-al-abbas": {
@@ -984,8 +984,8 @@
       "id": "prophet-muhammad",
       "nameAr": "محمد ﷺ",
       "category": "prophet",
-      "passageCount": 1,
-      "wordCount": 21,
+      "passageCount": 3,
+      "wordCount": 52,
       "file": "data/editorial/biography-extensions/prophet-muhammad.json"
     },
     "siyar-new50-29cca6cbeea827": {
@@ -1528,8 +1528,8 @@
       "id": "person-d3f51877a09f",
       "nameAr": "العباس بن عبد المطلب",
       "category": "source-person",
-      "passageCount": 1,
-      "wordCount": 2200,
+      "passageCount": 2,
+      "wordCount": 2218,
       "file": "data/editorial/biography-extensions/person-d3f51877a09f.json"
     },
     "person-f54b80d2d221": {
@@ -1539,6 +1539,78 @@
       "passageCount": 2,
       "wordCount": 1674,
       "file": "data/editorial/biography-extensions/person-f54b80d2d221.json"
+    },
+    "person-4c7fe50bc447": {
+      "id": "person-4c7fe50bc447",
+      "nameAr": "Michael Sells",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 17,
+      "file": "data/editorial/biography-extensions/person-4c7fe50bc447.json"
+    },
+    "person-052f28b35cf9": {
+      "id": "person-052f28b35cf9",
+      "nameAr": "أبو لهب بن عبد المطلب (عبد العزى)",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 14,
+      "file": "data/editorial/biography-extensions/person-052f28b35cf9.json"
+    },
+    "person-950261ac6f78": {
+      "id": "person-950261ac6f78",
+      "nameAr": "أبو طالب بن عبد المطلب (عبد مناف)",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 17,
+      "file": "data/editorial/biography-extensions/person-950261ac6f78.json"
+    },
+    "person-844bcf88aff0": {
+      "id": "person-844bcf88aff0",
+      "nameAr": "الحارث بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 8,
+      "file": "data/editorial/biography-extensions/person-844bcf88aff0.json"
+    },
+    "person-8a8258289287": {
+      "id": "person-8a8258289287",
+      "nameAr": "المقوّم بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 17,
+      "file": "data/editorial/biography-extensions/person-8a8258289287.json"
+    },
+    "person-359034d29335": {
+      "id": "person-359034d29335",
+      "nameAr": "الزبير بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 15,
+      "file": "data/editorial/biography-extensions/person-359034d29335.json"
+    },
+    "person-a0b900526d5c": {
+      "id": "person-a0b900526d5c",
+      "nameAr": "ضرار بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 18,
+      "file": "data/editorial/biography-extensions/person-a0b900526d5c.json"
+    },
+    "person-e72a89df3f2d": {
+      "id": "person-e72a89df3f2d",
+      "nameAr": "حَجْل بن عبد المطلب (المغيرة)",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 12,
+      "file": "data/editorial/biography-extensions/person-e72a89df3f2d.json"
+    },
+    "person-c4c3e71eb9ee": {
+      "id": "person-c4c3e71eb9ee",
+      "nameAr": "قُثَم بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 11,
+      "file": "data/editorial/biography-extensions/person-c4c3e71eb9ee.json"
     }
   }
 }

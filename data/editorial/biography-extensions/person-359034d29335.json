@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-359034d29335",
+  "personNameAr": "الزبير بن عبد المطلب",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "ولد الزبير بن عبد المطلب: الطاهر؛ وحجل؛ وقرة؛ وعبد الله، وله صحبة قتل يوم أجنادين.",
+      "source": {
+        "recordId": "person-359034d29335",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "جمهرة أنساب العرب",
+        "author": "ابن حزم الأندلسي",
+        "url": "https://ar.wikisource.org/wiki/جمهرة_أنساب_العرب/ولد_الزبير_بن_عبد_المطلب",
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "verified-source-excerpt"
+      },
+      "wordCount": 15
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 15
+}

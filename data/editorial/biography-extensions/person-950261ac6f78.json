@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-950261ac6f78",
+  "personNameAr": "أبو طالب بن عبد المطلب (عبد مناف)",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "وكان رسول الله ﷺ أحب خلق الله إليه طبعا، وكان يحنو عليه ويحسن إليه ويدافع عنه ويحامي.",
+      "source": {
+        "recordId": "person-950261ac6f78",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "البداية والنهاية",
+        "author": "ابن كثير",
+        "url": "https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_الثالث/باب_الأمر_بابلاغ_الرسالة",
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "verified-source-excerpt"
+      },
+      "wordCount": 17
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 17
+}

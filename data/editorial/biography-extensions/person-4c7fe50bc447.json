@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-4c7fe50bc447",
+  "personNameAr": "Michael Sells",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "At the way stations stay. Grieve over the ruins. Ask the meadow grounds, now desolate, this question.",
+      "source": {
+        "recordId": "person-4c7fe50bc447",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "Bewildered – A New Translation of Ibn Arabi’s Tarjuman Poems",
+        "author": "Michael Sells",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 17
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 17
+}

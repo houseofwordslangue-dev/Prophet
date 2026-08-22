@@ -18,8 +18,38 @@
         "provenance": "source-only"
       },
       "wordCount": 21
+    },
+    {
+      "text": "May God bless our master and lord Muhammad, his family and his companions, and greet them with peace.",
+      "source": {
+        "recordId": "prophet-muhammad",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "ibn-arabi-prayer-research",
+        "author": "",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 18
+    },
+    {
+      "text": "There is then a long explanation on the notion of the Muhammadan Reality.",
+      "source": {
+        "recordId": "prophet-muhammad",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "ibn-arabi-muhammadan",
+        "author": "",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 13
     }
   ],
-  "passageCount": 1,
-  "wordCount": 21
+  "passageCount": 3,
+  "wordCount": 52
 }

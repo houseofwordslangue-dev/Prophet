@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-844bcf88aff0",
+  "personNameAr": "الحارث بن عبد المطلب",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "وأما الحارث بن عبد المطلب فمات في الجاهلية.",
+      "source": {
+        "recordId": "person-844bcf88aff0",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "الإصابة في تمييز الصحابة",
+        "author": "ابن حجر العسقلاني",
+        "url": "https://www.taraajem.com/persons/42697/الحارث-بن-عبد-المطلب",
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "verified-source-excerpt"
+      },
+      "wordCount": 8
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 8
+}
