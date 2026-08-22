@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:49:59.539960+00:00",
-  "gitCommit": "59f570bde88f991a358ecff748817c0cb4771bed",
+  "generatedAt": "2026-08-22T02:18:10.246549+00:00",
+  "gitCommit": "65f82d1af56314594251a0b9b0cef3ede8c361b5",
   "github": {
-    "trackedFileCount": 782,
+    "trackedFileCount": 796,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 202,
+      "TECHNICAL_REPOSITORY_FILE": 211,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
-      "PUBLIC_OR_SOURCE_ASSET": 46,
+      "PUBLIC_OR_SOURCE_ASSET": 50,
       "PUBLIC_SITE_ASSET": 103,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 296
+      "CONTENT_OR_PUBLICATION_REGISTRY": 297
     },
     "files": [
       {
@@ -149,6 +149,11 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": ".github/workflows/master-governance.yml",
+        "size": 454,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": ".github/workflows/materialize-expanded-biographies-135.yml",
         "size": 2490,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -166,6 +171,11 @@
       {
         "path": ".github/workflows/materialize-khadija-1000.yml",
         "size": 3294,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".github/workflows/materialize-master-overriding-instruction.yml",
+        "size": 4104,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -284,6 +294,36 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": ".master-payload/01.b64",
+        "size": 4727,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".master-payload/02.b64",
+        "size": 4726,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".master-payload/03.b64",
+        "size": 4726,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".master-payload/04.b64",
+        "size": 4726,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".master-payload/05.b64",
+        "size": 4727,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".master-payload/06.b64",
+        "size": 4727,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": "CONTENT_SOURCE_POLICY.md",
         "size": 2218,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
@@ -304,8 +344,28 @@
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
       },
       {
+        "path": "MASTER-OVERRIDING-INSTRUCTION.md",
+        "size": 975,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
+        "size": 67757,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
         "path": "MASTER-PUBLIC-PAGE-CONTENT-PURITY-RULE.md",
         "size": 10845,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "MASTER_OVERRIDING_INSTRUCTION.md",
+        "size": 14888,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "PROJECT-PROCESS-GOVERNANCE.md",
+        "size": 2136,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
       },
       {
@@ -315,7 +375,7 @@
       },
       {
         "path": "README.md",
-        "size": 823,
+        "size": 1805,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
       },
       {
@@ -2779,6 +2839,11 @@
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
+        "path": "data/editorial/empty_section_five_articles.json",
+        "size": 3487,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/expanded_biographies_135_local_audit.json",
         "size": 4114,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
@@ -3631,6 +3696,11 @@
       {
         "path": "scripts/check_disputed_attributions.py",
         "size": 2305,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/check_master_governance.py",
+        "size": 2657,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
