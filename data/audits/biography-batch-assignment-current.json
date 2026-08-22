@@ -1,0 +1,27 @@
+{
+  "schema": "prophet-biography-assignment-audit-v1",
+  "generatedAt": "2026-08-22T02:38:00Z",
+  "sourceProfilesDeclared": 115735,
+  "batchSize": 50,
+  "fullBatches": 2314,
+  "totalBatches": 2315,
+  "finalBatchSize": 35,
+  "canonicalBiographyRoute": "person.html?rijal=1&id={id}&group=rijal&lang={lang}",
+  "allSourceProfilesAssignedCanonicalBiographySystem": true,
+  "assignmentBasis": "Every Itqan rijal source profile is addressable through the existing canonical person.html rijal renderer; batch queue controls deterministic enrichment and verification in source order.",
+  "batch0001": {
+    "ordinalStart": 1,
+    "ordinalEnd": 50,
+    "count": 50,
+    "sourcePartition": "profiles_companion.json",
+    "status": "SOURCE_SLICE_ASSIGNED"
+  },
+  "remainingProfilesAfterBatch0001": 115685,
+  "onePersonOneCanonicalBiography": true,
+  "duplicateBiographyBodiesCreated": false,
+  "historicalFactsGeneratedToFillMissingData": false,
+  "sourceFirst": true,
+  "batchManifest": "data/biography_batches/manifest.json",
+  "batchMaterializationScript": "scripts/build_biography_batches.py",
+  "result": "PASS_CANONICAL_ASSIGNMENT_QUEUE_CREATED"
+}
