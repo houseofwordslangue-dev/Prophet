@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "siyar-new50-c7b8631e65a317",
+  "personNameAr": "جميل بن عبد الله بن معمر العذري",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "جميل بن عبد الله بن معمر\n\nجميل بن عبد الله ابن معمر أبو عمرو العذري الشاعر الشهير صاحب بثينة له شعر في الذروة لطافة ورقة وبلاغة بقي إلى حدود سنة مئة وكان معه في زمانه الأخطل شاعر عبد الملك بن مروان واسمه غياث بن غوث التغلبي النصراني مقدم الشعراء. وشاعر وقته جرير ابن الخطفى. وشاعر العصر الفرزدق المجاشعي، وشاعر قريش عمر بن عبد الله بن أبي ربيعة المخزومي وكثير عزة ولد عبد الرحمن بن الأسود الخزاعي المدني، وشاعر المدينة عبد الله بن قيس الرقيات الذي يتغزل في كثيرة، والأحوص المدني عبد الله بن محمد بن عبد الله بن عاصم بن ثابت بن أبي الأقلح وزياد الأعجم أحد البلغاء وعدي بن زيد يعرف بابن الرقاع الأبرص. أما عدي بن زيد الحماد العبادي فقديم نصراني شاعر مفلق",
+      "source": {
+        "recordId": "siyar-new50-c7b8631e65a317",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "سير أعلام النبلاء",
+        "author": "الذهبي",
+        "url": "https://ar.wikisource.org/wiki/%D8%B3%D9%8A%D8%B1_%D8%A3%D8%B9%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%86%D8%A8%D9%84%D8%A7%D8%A1/%D8%AC%D9%85%D9%8A%D9%84_%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A8%D9%86_%D9%85%D8%B9%D9%85%D8%B1_%D8%A7%D9%84%D8%B9%D8%B0%D8%B1%D9%8A",
+        "wikisourcePage": "سير أعلام النبلاء/جميل بن عبد الله بن معمر العذري",
+        "verifiedAgainstOriginal": true,
+        "provenance": "VERBATIM_CLASSICAL_SOURCE_EXCERPT"
+      },
+      "wordCount": 125
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 125
+}

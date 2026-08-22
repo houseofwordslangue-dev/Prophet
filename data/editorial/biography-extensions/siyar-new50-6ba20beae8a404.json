@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "siyar-new50-6ba20beae8a404",
+  "personNameAr": "علقمة بن وقاص",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "علقمة بن وقاص ابن محصن بن كلدة الليثي العتراوي المدني\n\nأحد العلماء حدث عن عمر وعائشة وبلال بن الحارث المزني وعمرو بن العاص وابن عمر وطائفة له أحاديث ليست بالكثيرة وثقه ابن سعد والنسائي حدث عنه ولداه عمرو وعبد الله والزهري وابن أبي مُليكة ومحمد بن إبراهيم التيمي وعمرو بن يحيى المازني وله دار بالمدينة وعقب. مات في دولة عبد الملك بن مروان. حديثه في الكتب الستة.\n\nقرأت على إسحاق بن طارق أخبركم ابن خليل أنبأنا أبو المكارم التيمي أنبأنا أبو علي الحداد أنبأنا أبو نعيم الحافظ حدثنا فاروق الخطابي حدثنا أبو مسلم الكشي حدثنا معمر بن عبد الله حدثنا شعبة عن الحكم عن إبراهيم عن علقمة عن عبد الله قال رسول الله إن الله يحب أن تقبل رخصه كما يحب أن تؤتي عزائمه. قال أبو نعيم تفرد برفعه معمر هذا.",
+      "source": {
+        "recordId": "siyar-new50-6ba20beae8a404",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "سير أعلام النبلاء",
+        "author": "الذهبي",
+        "url": "https://ar.wikisource.org/wiki/%D8%B3%D9%8A%D8%B1_%D8%A3%D8%B9%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%86%D8%A8%D9%84%D8%A7%D8%A1/%D8%B9%D9%84%D9%82%D9%85%D8%A9_%D8%A8%D9%86_%D9%88%D9%82%D8%A7%D8%B5",
+        "wikisourcePage": "سير أعلام النبلاء/علقمة بن وقاص",
+        "verifiedAgainstOriginal": true,
+        "provenance": "VERBATIM_CLASSICAL_SOURCE_EXCERPT"
+      },
+      "wordCount": 131
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 131
+}

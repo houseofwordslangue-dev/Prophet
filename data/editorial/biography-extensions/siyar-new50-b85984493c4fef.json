@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "siyar-new50-b85984493c4fef",
+  "personNameAr": "معن بن زائدة",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "معن بن زائدة أمير العرب أبو الوليد الشيباني أحد أبطال الإسلام وعين الأجواد كان من أمراء متولي العراقين يزيد بن عمر بن هبيرة فلما تملك آل العباس اختفى معن مدة والطلب عليه حثيث فلما كان يوم خروج الريوندية والخراسانية على المنصور وحمي القتال وحار المنصور في أمره ظهر معن وقاتل الريوندية فكان النصر على يده وهو مقنع في الحديد فقال المنصور ويحك من تكون فكشف لثامه وقال أنا طلبتك معن فسر به وقدمه وعظمه ثم ولاه اليمن وغيرها قال بعضهم دخل معن على المنصور فقال كبرت سنك يا معن قال في طاعتك قال إنك لتتجلد قال لأعدائك قال وإن فيك لبقية قال هي لك يا أمير المؤمنين ولمعن أخبار في السخاء وفي البأس والشجاعة وله نظم جيد ثم ولي سجستان وثبت عليه خوارج وهو يحتجم فقتلوه فقتلهم ابن أخيه يزيد ابن مزيد الأمير في سنة اثنتين وخمسين ومئة وقيل سنة ثمان وخمسين",
+      "source": {
+        "recordId": "siyar-new50-b85984493c4fef",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "سير أعلام النبلاء",
+        "author": "الذهبي",
+        "url": "https://ar.wikisource.org/wiki/%D8%B3%D9%8A%D8%B1_%D8%A3%D8%B9%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%86%D8%A8%D9%84%D8%A7%D8%A1/%D9%85%D8%B9%D9%86_%D8%A8%D9%86_%D8%B2%D8%A7%D8%A6%D8%AF%D8%A9",
+        "wikisourcePage": "سير أعلام النبلاء/معن بن زائدة",
+        "verifiedAgainstOriginal": true,
+        "provenance": "VERBATIM_CLASSICAL_SOURCE_EXCERPT"
+      },
+      "wordCount": 142
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 142
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-c0e0a70563a1",
+  "personNameAr": "عبد القادر الجيلاني",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "يا قوم لا تهتوسوا، أنتم هوس. هذا العلم لا ينفعكم بلا عمل. تحتاجون أن تعملوا بهذا السواد على البياض، وهو حكم الله عزَّ وجلَّ.",
+      "source": {
+        "recordId": "person-c0e0a70563a1",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "الفتح الرباني والفيض الرحماني: المجلس الثالث",
+        "author": "عبد القادر الجيلاني",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 24
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 24
+}

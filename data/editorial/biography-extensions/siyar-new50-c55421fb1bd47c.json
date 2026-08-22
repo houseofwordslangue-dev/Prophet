@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "siyar-new50-c55421fb1bd47c",
+  "personNameAr": "خوات بن جبير",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "خوات بن جبير ( بخ ) ابن النعمان بن أمية بن البرك وهو امرؤ القيس بن ثعلبة بن عمرو بن عوف الأنصاري الأوسي\n\nأخو عبد الله بن جبير العقبي البدري الذي كان أمير الرماة يوم أحد ويكنى خوات أبا صالح قال قيس بن أبي حذيفة كنيته أبو عبد الله قال ابن سعد قالوا وكان خوات بن جبير صاحب ذات النحيين في الجاهلية ثم أسلم فحسن إسلامه الواقدي أخبرني عبد الملك بن أبي سليمان عن خوات بن صالح عن أبيه وأخبرنا ابن أبي سبرة عن المسور بن رفاعة عن عبد الله بن مكنف أن خوات بن جبير خرج إلى بدر فلما كان بالروحاء أصابه نصيل حجر فكسر فرده رسول الله إلى المدينة وضرب له بسهمه وأجره فكان كمن شهدها قالوا مات خوات بالمدينة سنة أربعين وهو ابن أربع وسبعين سنة وكان يخضب وكان ربعة من الرجال",
+      "source": {
+        "recordId": "siyar-new50-c55421fb1bd47c",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "سير أعلام النبلاء",
+        "author": "الذهبي",
+        "url": "https://ar.wikisource.org/wiki/%D8%B3%D9%8A%D8%B1_%D8%A3%D8%B9%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%86%D8%A8%D9%84%D8%A7%D8%A1/%D8%AE%D9%88%D8%A7%D8%AA_%D8%A8%D9%86_%D8%AC%D8%A8%D9%8A%D8%B1",
+        "wikisourcePage": "سير أعلام النبلاء/خوات بن جبير",
+        "verifiedAgainstOriginal": true,
+        "provenance": "VERBATIM_CLASSICAL_SOURCE_EXCERPT"
+      },
+      "wordCount": 135
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 135
+}

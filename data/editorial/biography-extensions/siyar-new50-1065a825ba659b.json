@@ -1,0 +1,25 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "siyar-new50-1065a825ba659b",
+  "personNameAr": "حماد بن مالك بن بسطام",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "حماد بن مالك ابن بسطام بن درهم المحدث المعمر أبو مالك الأشجعي الدمشقي الحرستاني حدث عن الأوزاعي وعبد الرحمن بن يزيد بن جابر وسعيد بن بشير وإسماعيل بن عياش وجماعة روى روى عنه الوليد بن مسلم وهو من شيوخه ومروان الطاطري وهشام بن عمار ومحمد بن عوف الطائي وأبو إسماعيل الترمذي وأبو زرعة الدمشقي وأبو حاتم الرازي وإسماعيل سمويه وعثمان بن سعيد الدارمي وأبو عبد الملك أحمد بن إبراهيم البسري وعدة قال ابن أبي حاتم سمعت أبي يقول أحرج حماد بن مالك مقدار أربعين حدثنا عن عبد الرحمن بن يزيد بن جابر فأخبر أبو مسهر بذلك فأنكر وقال لم يدرك ابن جابر وسئل عنه أبو حاتم فقال شيخ وقال إسحاق بن إبراهيم الهروي القراب توفي في سنة ثمان وعشرين ومئتين",
+      "source": {
+        "recordId": "siyar-new50-1065a825ba659b",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "سير أعلام النبلاء",
+        "author": "الذهبي",
+        "url": "https://ar.wikisource.org/wiki/%D8%B3%D9%8A%D8%B1_%D8%A3%D8%B9%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D9%86%D8%A8%D9%84%D8%A7%D8%A1/%D8%AD%D9%85%D8%A7%D8%AF_%D8%A8%D9%86_%D9%85%D8%A7%D9%84%D9%83_%D8%A8%D9%86_%D8%A8%D8%B3%D8%B7%D8%A7%D9%85",
+        "wikisourcePage": "سير أعلام النبلاء/حماد بن مالك بن بسطام",
+        "verifiedAgainstOriginal": true,
+        "provenance": "VERBATIM_CLASSICAL_SOURCE_EXCERPT"
+      },
+      "wordCount": 120
+    }
+  ],
+  "passageCount": 1,
+  "wordCount": 120
+}

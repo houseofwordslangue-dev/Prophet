@@ -1,0 +1,70 @@
+{
+  "schema": "canonical-biography-source-extension-v1",
+  "personId": "person-f974ed62e10c",
+  "personNameAr": "عبد الملك بن هشام",
+  "policy": "Verbatim/bounded source-derived passages only; no model-authored factual fill-in.",
+  "passages": [
+    {
+      "text": "قال ابن هشام: فولد عبدالله بن عبدالمطلب: رسول الله ﷺ - سيد ولد آدم، محمد بن عبدالله بن عبدالمطلب، صلوات الله وسلامه ورحمته وبركاته عليه وعلى آله.",
+      "source": {
+        "recordId": "person-f974ed62e10c",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "السيرة النبوية",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 27
+    },
+    {
+      "text": "وأمه: آمنة بنت وهب، بن عبد مناف، بن زهرة، بن كلاب، بن مرة، بن كعب، بن لؤي، بن غالب، بن فهر، بن مالك، بن النضر.",
+      "source": {
+        "recordId": "person-f974ed62e10c",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "السيرة النبوية",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 25
+    },
+    {
+      "text": "قال ابن إسحاق: عاد بن عوص، بن إرم، بن سام، بن نوح، وثمود وجديس ابنا عابر، بن إرم، بن سام، بن نوح، وطسم وعملاق وأميم بنو لاوذ، بن سام بن نوح، عرب كلهم. فولد نابت بن إسماعيل: يشجب بن نابت، فولد يشجب: يعرب بن يشجب، فولد يعرب: تيرح بن يعرب، فولد تيرح: ناحور بن تيرح، فولد ناحور: مقوم بن ناحور، فولد مقوم أدد بن مقوم، فولد أدد: عدنان بن أدد.",
+      "source": {
+        "recordId": "person-f974ed62e10c",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "السيرة النبوية",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 70
+    },
+    {
+      "text": "قال ابن هشام: ويقال: عدنان بن أد. قال ابن إسحاق: فمن عدنان تفرقت القبائل من ولد إسماعيل بن إبراهيم - عليهما السلام - فولد عدنان رجلين: معد بن عدنان، وعك بن عدنان.",
+      "source": {
+        "recordId": "person-f974ed62e10c",
+        "repositoryPath": "data/people.json",
+        "sourceType": "person-owned-verified-source",
+        "title": "السيرة النبوية",
+        "author": "عبد الملك بن هشام",
+        "url": null,
+        "wikisourcePage": null,
+        "verifiedAgainstOriginal": true,
+        "provenance": "source-only"
+      },
+      "wordCount": 32
+    }
+  ],
+  "passageCount": 4,
+  "wordCount": 154
+}

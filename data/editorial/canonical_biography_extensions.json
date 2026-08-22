@@ -8,12 +8,14 @@
     "incidentalNameMatchesRejected": true,
     "crossPersonRecordsRejected": true,
     "noGeneratedFactualFillIn": true,
-    "thematicArticlesRemainInSections": true
+    "thematicArticlesRemainInSections": true,
+    "personOwnedVerifiedSourcePassagesIncluded": true,
+    "modelAuthoredFactualFillIn": false
   },
-  "indexedPeople": 379,
-  "peopleExtended": 117,
-  "passageCount": 629,
-  "wordCount": 264813,
+  "indexedPeople": 429,
+  "peopleExtended": 171,
+  "passageCount": 691,
+  "wordCount": 287394,
   "people": {
     "abd-al-muttalib": {
       "id": "abd-al-muttalib",
@@ -187,8 +189,8 @@
       "id": "adnan",
       "nameAr": "عدنان",
       "category": "ancestor",
-      "passageCount": 5,
-      "wordCount": 2268,
+      "passageCount": 7,
+      "wordCount": 2370,
       "file": "data/editorial/biography-extensions/adnan.json"
     },
     "aisha-bint-abi-bakr": {
@@ -347,8 +349,8 @@
       "id": "amina-bint-wahb",
       "nameAr": "آمنة بنت وهب",
       "category": "family",
-      "passageCount": 5,
-      "wordCount": 2263,
+      "passageCount": 6,
+      "wordCount": 2288,
       "file": "data/editorial/biography-extensions/amina-bint-wahb.json"
     },
     "amr-ibn-al-hasan": {
@@ -603,8 +605,8 @@
       "id": "maadd-ibn-adnan",
       "nameAr": "معد بن عدنان",
       "category": "ancestor",
-      "passageCount": 5,
-      "wordCount": 2250,
+      "passageCount": 6,
+      "wordCount": 2282,
       "file": "data/editorial/biography-extensions/maadd-ibn-adnan.json"
     },
     "mabad-ibn-al-abbas": {
@@ -950,6 +952,438 @@
       "passageCount": 5,
       "wordCount": 2245,
       "file": "data/editorial/biography-extensions/zaynab-bint-muhammad.json"
+    },
+    "person-00a9c504ca70": {
+      "id": "person-00a9c504ca70",
+      "nameAr": "ابن هشام",
+      "category": "source-person",
+      "passageCount": 2,
+      "wordCount": 59,
+      "file": "data/editorial/biography-extensions/person-00a9c504ca70.json"
+    },
+    "person-c0e0a70563a1": {
+      "id": "person-c0e0a70563a1",
+      "nameAr": "عبد القادر الجيلاني",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 24,
+      "file": "data/editorial/biography-extensions/person-c0e0a70563a1.json"
+    },
+    "person-f974ed62e10c": {
+      "id": "person-f974ed62e10c",
+      "nameAr": "عبد الملك بن هشام",
+      "category": "source-person",
+      "passageCount": 4,
+      "wordCount": 154,
+      "file": "data/editorial/biography-extensions/person-f974ed62e10c.json"
+    },
+    "prophet-muhammad": {
+      "id": "prophet-muhammad",
+      "nameAr": "محمد ﷺ",
+      "category": "prophet",
+      "passageCount": 1,
+      "wordCount": 21,
+      "file": "data/editorial/biography-extensions/prophet-muhammad.json"
+    },
+    "siyar-new50-29cca6cbeea827": {
+      "id": "siyar-new50-29cca6cbeea827",
+      "nameAr": "عبد الله بن نمير",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 170,
+      "file": "data/editorial/biography-extensions/siyar-new50-29cca6cbeea827.json"
+    },
+    "siyar-new50-26242b95704646": {
+      "id": "siyar-new50-26242b95704646",
+      "nameAr": "حفص بن عبد الرحمن",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 187,
+      "file": "data/editorial/biography-extensions/siyar-new50-26242b95704646.json"
+    },
+    "siyar-new50-703e3582082b3f": {
+      "id": "siyar-new50-703e3582082b3f",
+      "nameAr": "عبد السلام بن حرب",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 178,
+      "file": "data/editorial/biography-extensions/siyar-new50-703e3582082b3f.json"
+    },
+    "siyar-new50-c55421fb1bd47c": {
+      "id": "siyar-new50-c55421fb1bd47c",
+      "nameAr": "خوات بن جبير",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 135,
+      "file": "data/editorial/biography-extensions/siyar-new50-c55421fb1bd47c.json"
+    },
+    "siyar-new50-bbe58035f42942": {
+      "id": "siyar-new50-bbe58035f42942",
+      "nameAr": "عمر بن هارون بن يزيد",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 1523,
+      "file": "data/editorial/biography-extensions/siyar-new50-bbe58035f42942.json"
+    },
+    "siyar-new50-65f722666690ae": {
+      "id": "siyar-new50-65f722666690ae",
+      "nameAr": "إسماعيل بن أبي أويس",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 675,
+      "file": "data/editorial/biography-extensions/siyar-new50-65f722666690ae.json"
+    },
+    "siyar-new50-4b1a1bc0322053": {
+      "id": "siyar-new50-4b1a1bc0322053",
+      "nameAr": "سليمان بن المغيرة",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 482,
+      "file": "data/editorial/biography-extensions/siyar-new50-4b1a1bc0322053.json"
+    },
+    "siyar-new50-37743976014a7e": {
+      "id": "siyar-new50-37743976014a7e",
+      "nameAr": "كرز الزاهد",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 567,
+      "file": "data/editorial/biography-extensions/siyar-new50-37743976014a7e.json"
+    },
+    "siyar-new50-70d22cd814613a": {
+      "id": "siyar-new50-70d22cd814613a",
+      "nameAr": "أبو الهذيل العلاف",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 159,
+      "file": "data/editorial/biography-extensions/siyar-new50-70d22cd814613a.json"
+    },
+    "siyar-new50-5b7a3f7dfcb05c": {
+      "id": "siyar-new50-5b7a3f7dfcb05c",
+      "nameAr": "زياد مولى ابن عياش",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 250,
+      "file": "data/editorial/biography-extensions/siyar-new50-5b7a3f7dfcb05c.json"
+    },
+    "siyar-new50-d0cbbadfe8d22b": {
+      "id": "siyar-new50-d0cbbadfe8d22b",
+      "nameAr": "رابعة العدوية",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 323,
+      "file": "data/editorial/biography-extensions/siyar-new50-d0cbbadfe8d22b.json"
+    },
+    "siyar-new50-eb0be99ad27a48": {
+      "id": "siyar-new50-eb0be99ad27a48",
+      "nameAr": "أبو رفاعة العدوي",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 203,
+      "file": "data/editorial/biography-extensions/siyar-new50-eb0be99ad27a48.json"
+    },
+    "siyar-new50-33039c2cf36a39": {
+      "id": "siyar-new50-33039c2cf36a39",
+      "nameAr": "نافع بن عمر",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 314,
+      "file": "data/editorial/biography-extensions/siyar-new50-33039c2cf36a39.json"
+    },
+    "siyar-new50-aac74b8c54b2da": {
+      "id": "siyar-new50-aac74b8c54b2da",
+      "nameAr": "أبو المغيرة",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 189,
+      "file": "data/editorial/biography-extensions/siyar-new50-aac74b8c54b2da.json"
+    },
+    "siyar-new50-8c7104d1b433f5": {
+      "id": "siyar-new50-8c7104d1b433f5",
+      "nameAr": "تميم الداري",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 831,
+      "file": "data/editorial/biography-extensions/siyar-new50-8c7104d1b433f5.json"
+    },
+    "siyar-new50-b4f5b81e720874": {
+      "id": "siyar-new50-b4f5b81e720874",
+      "nameAr": "عوف بن مالك",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 313,
+      "file": "data/editorial/biography-extensions/siyar-new50-b4f5b81e720874.json"
+    },
+    "siyar-new50-b131f7085a2687": {
+      "id": "siyar-new50-b131f7085a2687",
+      "nameAr": "أبو مسلم الخولاني",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 1107,
+      "file": "data/editorial/biography-extensions/siyar-new50-b131f7085a2687.json"
+    },
+    "siyar-new50-e3897939dac2ee": {
+      "id": "siyar-new50-e3897939dac2ee",
+      "nameAr": "جويرية",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 472,
+      "file": "data/editorial/biography-extensions/siyar-new50-e3897939dac2ee.json"
+    },
+    "siyar-new50-4850c18ba97fb6": {
+      "id": "siyar-new50-4850c18ba97fb6",
+      "nameAr": "إسماعيل بن عياش",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 1600,
+      "file": "data/editorial/biography-extensions/siyar-new50-4850c18ba97fb6.json"
+    },
+    "siyar-new50-889cf4d25ad044": {
+      "id": "siyar-new50-889cf4d25ad044",
+      "nameAr": "عاصم بن سليمان",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 407,
+      "file": "data/editorial/biography-extensions/siyar-new50-889cf4d25ad044.json"
+    },
+    "siyar-new50-5d7c1ff72456c0": {
+      "id": "siyar-new50-5d7c1ff72456c0",
+      "nameAr": "يحيى بن أبي بكير",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 171,
+      "file": "data/editorial/biography-extensions/siyar-new50-5d7c1ff72456c0.json"
+    },
+    "siyar-new50-b1e662a67666ed": {
+      "id": "siyar-new50-b1e662a67666ed",
+      "nameAr": "أبو زكير",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 317,
+      "file": "data/editorial/biography-extensions/siyar-new50-b1e662a67666ed.json"
+    },
+    "siyar-new50-9314aa1fc2271e": {
+      "id": "siyar-new50-9314aa1fc2271e",
+      "nameAr": "حبيب بن أبي ثابت",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 537,
+      "file": "data/editorial/biography-extensions/siyar-new50-9314aa1fc2271e.json"
+    },
+    "siyar-new50-3c359489173f2a": {
+      "id": "siyar-new50-3c359489173f2a",
+      "nameAr": "عبد الله بن محيريز",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 264,
+      "file": "data/editorial/biography-extensions/siyar-new50-3c359489173f2a.json"
+    },
+    "siyar-new50-1065a825ba659b": {
+      "id": "siyar-new50-1065a825ba659b",
+      "nameAr": "حماد بن مالك بن بسطام",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 120,
+      "file": "data/editorial/biography-extensions/siyar-new50-1065a825ba659b.json"
+    },
+    "siyar-new50-7af3c30b305f61": {
+      "id": "siyar-new50-7af3c30b305f61",
+      "nameAr": "موسى بن نصير",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 1289,
+      "file": "data/editorial/biography-extensions/siyar-new50-7af3c30b305f61.json"
+    },
+    "siyar-new50-da96205406f631": {
+      "id": "siyar-new50-da96205406f631",
+      "nameAr": "هشام بن عمرو",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 162,
+      "file": "data/editorial/biography-extensions/siyar-new50-da96205406f631.json"
+    },
+    "siyar-new50-c985211a5001a5": {
+      "id": "siyar-new50-c985211a5001a5",
+      "nameAr": "القعنبي",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 986,
+      "file": "data/editorial/biography-extensions/siyar-new50-c985211a5001a5.json"
+    },
+    "siyar-new50-0dc43e66dc06e9": {
+      "id": "siyar-new50-0dc43e66dc06e9",
+      "nameAr": "المدائني",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 365,
+      "file": "data/editorial/biography-extensions/siyar-new50-0dc43e66dc06e9.json"
+    },
+    "siyar-new50-6ba20beae8a404": {
+      "id": "siyar-new50-6ba20beae8a404",
+      "nameAr": "علقمة بن وقاص",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 131,
+      "file": "data/editorial/biography-extensions/siyar-new50-6ba20beae8a404.json"
+    },
+    "siyar-new50-f63d522bf7541b": {
+      "id": "siyar-new50-f63d522bf7541b",
+      "nameAr": "هرم بن حيان",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 384,
+      "file": "data/editorial/biography-extensions/siyar-new50-f63d522bf7541b.json"
+    },
+    "siyar-new50-113a0d727d14a2": {
+      "id": "siyar-new50-113a0d727d14a2",
+      "nameAr": "عبد الله بن يزيد",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 170,
+      "file": "data/editorial/biography-extensions/siyar-new50-113a0d727d14a2.json"
+    },
+    "siyar-new50-0ecfe01d95327e": {
+      "id": "siyar-new50-0ecfe01d95327e",
+      "nameAr": "حمزة بن حبيب",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 351,
+      "file": "data/editorial/biography-extensions/siyar-new50-0ecfe01d95327e.json"
+    },
+    "siyar-new50-f87d7da7a21c4c": {
+      "id": "siyar-new50-f87d7da7a21c4c",
+      "nameAr": "أبو عقبة الجراح",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 248,
+      "file": "data/editorial/biography-extensions/siyar-new50-f87d7da7a21c4c.json"
+    },
+    "siyar-new50-554251f4b2ac5d": {
+      "id": "siyar-new50-554251f4b2ac5d",
+      "nameAr": "معاوية بن حديج",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 533,
+      "file": "data/editorial/biography-extensions/siyar-new50-554251f4b2ac5d.json"
+    },
+    "siyar-new50-c43e29a4a4e9ef": {
+      "id": "siyar-new50-c43e29a4a4e9ef",
+      "nameAr": "عثمان البري",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 193,
+      "file": "data/editorial/biography-extensions/siyar-new50-c43e29a4a4e9ef.json"
+    },
+    "siyar-new50-d395317506b6eb": {
+      "id": "siyar-new50-d395317506b6eb",
+      "nameAr": "أبو مسلم الخرساني",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 1600,
+      "file": "data/editorial/biography-extensions/siyar-new50-d395317506b6eb.json"
+    },
+    "siyar-new50-073b1cda3b2fe1": {
+      "id": "siyar-new50-073b1cda3b2fe1",
+      "nameAr": "بكار بن محمد",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 162,
+      "file": "data/editorial/biography-extensions/siyar-new50-073b1cda3b2fe1.json"
+    },
+    "siyar-new50-c55a60aa73f367": {
+      "id": "siyar-new50-c55a60aa73f367",
+      "nameAr": "خالد بن خلي",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 307,
+      "file": "data/editorial/biography-extensions/siyar-new50-c55a60aa73f367.json"
+    },
+    "siyar-new50-c7b8631e65a317": {
+      "id": "siyar-new50-c7b8631e65a317",
+      "nameAr": "جميل بن عبد الله بن معمر العذري",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 125,
+      "file": "data/editorial/biography-extensions/siyar-new50-c7b8631e65a317.json"
+    },
+    "siyar-new50-e8e44ea4937297": {
+      "id": "siyar-new50-e8e44ea4937297",
+      "nameAr": "ابن أبي سمينة",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 175,
+      "file": "data/editorial/biography-extensions/siyar-new50-e8e44ea4937297.json"
+    },
+    "siyar-new50-46f74237388ff1": {
+      "id": "siyar-new50-46f74237388ff1",
+      "nameAr": "عمرو بن قيس بن ثور",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 193,
+      "file": "data/editorial/biography-extensions/siyar-new50-46f74237388ff1.json"
+    },
+    "siyar-new50-2cc5621ac77cd5": {
+      "id": "siyar-new50-2cc5621ac77cd5",
+      "nameAr": "الفضل بن سهل السرخسي",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 179,
+      "file": "data/editorial/biography-extensions/siyar-new50-2cc5621ac77cd5.json"
+    },
+    "siyar-new50-548969ae1a2368": {
+      "id": "siyar-new50-548969ae1a2368",
+      "nameAr": "الحارث بن هشام بن المغيرة",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 155,
+      "file": "data/editorial/biography-extensions/siyar-new50-548969ae1a2368.json"
+    },
+    "siyar-new50-65bbe687884a01": {
+      "id": "siyar-new50-65bbe687884a01",
+      "nameAr": "جعفر بن أبي طالب",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 1600,
+      "file": "data/editorial/biography-extensions/siyar-new50-65bbe687884a01.json"
+    },
+    "siyar-new50-f7b4a32c52df8b": {
+      "id": "siyar-new50-f7b4a32c52df8b",
+      "nameAr": "خارجة بن زيد",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 699,
+      "file": "data/editorial/biography-extensions/siyar-new50-f7b4a32c52df8b.json"
+    },
+    "siyar-new50-5e42be8a43f804": {
+      "id": "siyar-new50-5e42be8a43f804",
+      "nameAr": "أبو علي الحنفي",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 151,
+      "file": "data/editorial/biography-extensions/siyar-new50-5e42be8a43f804.json"
+    },
+    "siyar-new50-b85984493c4fef": {
+      "id": "siyar-new50-b85984493c4fef",
+      "nameAr": "معن بن زائدة",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 142,
+      "file": "data/editorial/biography-extensions/siyar-new50-b85984493c4fef.json"
+    },
+    "siyar-new50-c951f3ab9e95f4": {
+      "id": "siyar-new50-c951f3ab9e95f4",
+      "nameAr": "عبد الله بن الحارث",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 196,
+      "file": "data/editorial/biography-extensions/siyar-new50-c951f3ab9e95f4.json"
+    },
+    "siyar-new50-015e3820ee5dbd": {
+      "id": "siyar-new50-015e3820ee5dbd",
+      "nameAr": "عبد العزيز بن رفيع",
+      "category": "scholar",
+      "passageCount": 1,
+      "wordCount": 174,
+      "file": "data/editorial/biography-extensions/siyar-new50-015e3820ee5dbd.json"
     }
   }
 }
