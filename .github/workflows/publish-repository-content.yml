@@ -1,0 +1,159 @@
+name: Publish repository content
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - '*.css'
+      - '*.js'
+      - '*.json'
+      - '*.xml'
+      - 'assets/**'
+      - 'data/editorial/**'
+      - 'data/catalogue/**'
+      - 'data/*.json'
+      - 'library/works/**'
+      - '.github/workflows/publish-repository-content.yml'
+  schedule:
+    - cron: '27 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prophet-repository-content-publication
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Build public repository-content bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf publish-bundle
+          mkdir -p publish-bundle/data publish-bundle/library
+
+          # Root public site files.
+          find . -maxdepth 1 -type f \( \
+            -name '*.html' -o -name '*.css' -o -name '*.js' -o \
+            -name '*.json' -o -name '*.xml' -o -name '*.webmanifest' -o \
+            -name 'robots.txt' -o -name 'sitemap*.xml' \
+          \) -exec cp -p '{}' publish-bundle/ \;
+
+          # Static public assets.
+          if [ -d assets ]; then
+            rsync -a assets/ publish-bundle/assets/
+          fi
+
+          # Public top-level data JSON used by the site.
+          find data -maxdepth 1 -type f -name '*.json' -exec cp -p '{}' publish-bundle/data/ \;
+
+          # Editorial content stored in the repository. Keep published corpora,
+          # manifests, biographies, chapters and drafts; exclude internal audit
+          # diagnostics from the public server bundle.
+          if [ -d data/editorial ]; then
+            mkdir -p publish-bundle/data/editorial
+            rsync -a \
+              --exclude 'audits/' \
+              --exclude '*-audit.json' \
+              --exclude '*_audit.json' \
+              data/editorial/ publish-bundle/data/editorial/
+          fi
+
+          # Public catalogue metadata.
+          if [ -d data/catalogue ]; then
+            mkdir -p publish-bundle/data/catalogue
+            rsync -a data/catalogue/ publish-bundle/data/catalogue/
+          fi
+
+          # Locally acquired readable works.
+          if [ -d library/works ]; then
+            mkdir -p publish-bundle/library/works
+            rsync -a library/works/ publish-bundle/library/works/
+          fi
+
+          # Never publish repository-private state.
+          test ! -e publish-bundle/private
+          echo "Public bundle files: $(find publish-bundle -type f | wc -l)"
+          du -sh publish-bundle || true
+
+      - name: Validate editorial publication state
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f publish-bundle/data/editorial/publication_manifest.json ]; then
+            python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('publish-bundle/data/editorial/publication_manifest.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          a=d.get('automation') or {}
+          if d.get('status') != 'PUBLISHED':
+              raise SystemExit('Editorial manifest is not in PUBLISHED state')
+          if a.get('enabled') is not True:
+              raise SystemExit('Editorial publication automation is not enabled')
+          print('Editorial publication manifest: PASS')
+          PY
+          fi
+
+      - name: Require live deployment configuration
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          missing=0
+          for v in PM_DEPLOY_HOST PM_DEPLOY_USER PM_DEPLOY_PATH PM_DEPLOY_SSH_KEY; do
+            if [ -z "${!v:-}" ]; then
+              echo "Missing required deployment secret: $v"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then
+            exit 1
+          fi
+
+      - name: Publish repository content to live site
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+          ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH'"
+
+          # Overlay public repository content only. Existing server-only files
+          # are preserved; private repository material is never part of bundle.
+          rsync -az --checksum publish-bundle/ \
+            "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
+
+      - name: Verify deployed publication manifest
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f publish-bundle/data/editorial/publication_manifest.json ]; then
+            ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" \
+              "test -s '$PM_DEPLOY_PATH/data/editorial/publication_manifest.json'"
+          fi
+          echo 'Repository content publication completed.'
