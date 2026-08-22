@@ -1,0 +1,58 @@
+name: Extend canonical biography source content
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/extend_biography_source_content.py'
+      - 'data/people.json'
+
+permissions:
+  contents: write
+
+jobs:
+  extend:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild existing strict biography extensions
+        run: |
+          python scripts/relocate_person_life_articles.py || true
+          python scripts/audit_and_enrich_canonical_biographies.py
+          python scripts/filter_canonical_biography_extensions.py
+      - name: Extend from person-owned verified source passages
+        run: python scripts/extend_biography_source_content.py
+      - name: Validate source-only extension
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('data/editorial/biography_content_extension_audit.json').read_text(encoding='utf-8'))
+          assert a['peopleScanned'] > 0
+          assert a['peopleWithVerifiedOwnedSource'] > 0
+          assert a['peopleExtended'] > 0
+          assert a['addedPassageCount'] > 0
+          assert a['addedWordCount'] > 0
+          assert a['aiOriginalSubstantiveContentPercent'] == 0
+          assert a['complete'] is True
+          print(a)
+          PY
+      - name: Commit extended biography content
+        run: |
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add -- data/editorial/biography-extensions data/editorial/canonical_biography_extensions.json data/editorial/biography_content_extension_audit.json
+          if git diff --cached --quiet; then
+            echo 'No new verified biography source content.'
+            exit 0
+          fi
+          git commit -m 'Extend canonical biographies with verified owned source passages'
+          git pull --rebase origin main || true
+          git push origin HEAD:main
