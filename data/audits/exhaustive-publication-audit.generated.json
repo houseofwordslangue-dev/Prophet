@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:49:47.217477+00:00",
-  "gitCommit": "cd082c9c85f52476b2cfe97650d97884b690895b",
+  "generatedAt": "2026-08-22T01:49:59.539960+00:00",
+  "gitCommit": "59f570bde88f991a358ecff748817c0cb4771bed",
   "github": {
     "trackedFileCount": 782,
     "fileDispositionCounts": {
@@ -3140,7 +3140,7 @@
       },
       {
         "path": "editorial.html",
-        "size": 2885,
+        "size": 2540,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
