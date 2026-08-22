@@ -1,6 +1,6 @@
 {
-  "schema": "short-biography-source-extension-index-v8",
-  "generatedAt": "2026-08-22T03:07:05.721018Z",
+  "schema": "short-biography-source-extension-index-v9",
+  "generatedAt": "2026-08-22T03:16:28.346625Z",
   "targetWords": 500,
   "policy": {
     "directPersonOwnershipOnly": true,
@@ -83,23 +83,203 @@
       "status": "EXTENDED_TO_500",
       "file": "data/editorial/short-biography-extensions/jabir-ibn-abdullah.json"
     },
-    "siyar-e5c031400b268c": {
-      "id": "siyar-e5c031400b268c",
-      "nameAr": "علي بن عبد الله بن العباس",
-      "beforeWords": 222,
-      "addedWords": 239,
-      "finalWords": 461,
-      "status": "SOURCE_LIMITED",
-      "file": "data/editorial/short-biography-extensions/siyar-e5c031400b268c.json"
-    },
-    "talha-ibn-ubaydullah": {
-      "id": "talha-ibn-ubaydullah",
-      "nameAr": "طلحة بن عبيد الله",
+    "muadh-ibn-jabal": {
+      "id": "muadh-ibn-jabal",
+      "nameAr": "معاذ بن جبل",
       "beforeWords": 0,
-      "addedWords": 2508,
-      "finalWords": 2508,
+      "addedWords": 3122,
+      "finalWords": 3122,
       "status": "EXTENDED_TO_500",
-      "file": "data/editorial/short-biography-extensions/talha-ibn-ubaydullah.json"
+      "file": "data/editorial/short-biography-extensions/muadh-ibn-jabal.json"
+    },
+    "abu-bakr": {
+      "id": "abu-bakr",
+      "nameAr": "أبو بكر",
+      "beforeWords": 0,
+      "addedWords": 633,
+      "finalWords": 633,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/abu-bakr.json"
+    },
+    "khalid-ibn-al-walid": {
+      "id": "khalid-ibn-al-walid",
+      "nameAr": "خالد بن الوليد",
+      "beforeWords": 0,
+      "addedWords": 500,
+      "finalWords": 500,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/khalid-ibn-al-walid.json"
+    },
+    "person-0cc8963df4cd": {
+      "id": "person-0cc8963df4cd",
+      "nameAr": "عثمان بن عفان",
+      "beforeWords": 0,
+      "addedWords": 580,
+      "finalWords": 580,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-0cc8963df4cd.json"
+    },
+    "person-0632526f4f61": {
+      "id": "person-0632526f4f61",
+      "nameAr": "جعفر بن أبي طالب",
+      "beforeWords": 0,
+      "addedWords": 672,
+      "finalWords": 672,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-0632526f4f61.json"
+    },
+    "person-04c5aa88d621": {
+      "id": "person-04c5aa88d621",
+      "nameAr": "أم حبيبة",
+      "beforeWords": 0,
+      "addedWords": 560,
+      "finalWords": 560,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-04c5aa88d621.json"
+    },
+    "person-14301a19d094": {
+      "id": "person-14301a19d094",
+      "nameAr": "فهر بن مالك",
+      "beforeWords": 0,
+      "addedWords": 505,
+      "finalWords": 505,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-14301a19d094.json"
+    },
+    "person-177f75bd083c": {
+      "id": "person-177f75bd083c",
+      "nameAr": "كنانة",
+      "beforeWords": 0,
+      "addedWords": 541,
+      "finalWords": 541,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-177f75bd083c.json"
+    },
+    "person-6f9bc4267d74": {
+      "id": "person-6f9bc4267d74",
+      "nameAr": "أم سلمة",
+      "beforeWords": 0,
+      "addedWords": 557,
+      "finalWords": 557,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-6f9bc4267d74.json"
+    },
+    "person-77982ed9d8d5": {
+      "id": "person-77982ed9d8d5",
+      "nameAr": "عائشة",
+      "beforeWords": 0,
+      "addedWords": 557,
+      "finalWords": 557,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-77982ed9d8d5.json"
+    },
+    "person-8365c67f7e7c": {
+      "id": "person-8365c67f7e7c",
+      "nameAr": "عبد المطلب",
+      "beforeWords": 0,
+      "addedWords": 519,
+      "finalWords": 519,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-8365c67f7e7c.json"
+    },
+    "person-950261ac6f78": {
+      "id": "person-950261ac6f78",
+      "nameAr": "أبو طالب",
+      "beforeWords": 0,
+      "addedWords": 502,
+      "finalWords": 502,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-950261ac6f78.json"
+    },
+    "person-d3f51877a09f": {
+      "id": "person-d3f51877a09f",
+      "nameAr": "العباس بن عبد المطلب",
+      "beforeWords": 0,
+      "addedWords": 560,
+      "finalWords": 560,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-d3f51877a09f.json"
+    },
+    "person-e59d18e68796": {
+      "id": "person-e59d18e68796",
+      "nameAr": "عبد الله بن عباس",
+      "beforeWords": 0,
+      "addedWords": 644,
+      "finalWords": 644,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-e59d18e68796.json"
+    },
+    "person-f54b80d2d221": {
+      "id": "person-f54b80d2d221",
+      "nameAr": "حمزة بن عبد المطلب",
+      "beforeWords": 0,
+      "addedWords": 535,
+      "finalWords": 535,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-f54b80d2d221.json"
+    },
+    "person-f8216ef01954": {
+      "id": "person-f8216ef01954",
+      "nameAr": "سعد بن أبي وقاص",
+      "beforeWords": 0,
+      "addedWords": 556,
+      "finalWords": 556,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-f8216ef01954.json"
+    },
+    "person-f95ed2a0a66a": {
+      "id": "person-f95ed2a0a66a",
+      "nameAr": "خديجة",
+      "beforeWords": 0,
+      "addedWords": 589,
+      "finalWords": 589,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-f95ed2a0a66a.json"
+    },
+    "salman-al-farisi": {
+      "id": "salman-al-farisi",
+      "nameAr": "سلمان الفارسي",
+      "beforeWords": 0,
+      "addedWords": 517,
+      "finalWords": 517,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/salman-al-farisi.json"
+    },
+    "saeed-ibn-zayd": {
+      "id": "saeed-ibn-zayd",
+      "nameAr": "سعيد بن زيد",
+      "beforeWords": 0,
+      "addedWords": 506,
+      "finalWords": 506,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/saeed-ibn-zayd.json"
+    },
+    "person-7060e68d653d": {
+      "id": "person-7060e68d653d",
+      "nameAr": "خزيمة",
+      "beforeWords": 0,
+      "addedWords": 509,
+      "finalWords": 509,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-7060e68d653d.json"
+    },
+    "person-040170814f57": {
+      "id": "person-040170814f57",
+      "nameAr": "مضر",
+      "beforeWords": 0,
+      "addedWords": 540,
+      "finalWords": 540,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-040170814f57.json"
+    },
+    "person-ee9533da8a95": {
+      "id": "person-ee9533da8a95",
+      "nameAr": "رقية",
+      "beforeWords": 0,
+      "addedWords": 558,
+      "finalWords": 558,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/person-ee9533da8a95.json"
     }
   }
 }

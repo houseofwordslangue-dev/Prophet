@@ -1,38 +1,14 @@
 {
-  "schema": "short-biographies-500-audit-v8",
-  "generatedAt": "2026-08-22T03:07:05.720977Z",
+  "schema": "short-biographies-500-audit-v9",
+  "generatedAt": "2026-08-22T03:16:28.346613Z",
   "targetWords": 500,
   "indexedPeople": 514,
   "below500Before": 362,
-  "extendedTo500": 9,
-  "sourceLimitedAfter": 353,
+  "extendedTo500": 30,
+  "sourceLimitedAfter": 332,
   "addedSourceWords": 230,
   "rejectedUnreadableExistingOcrPassages": 17,
   "residualUnder500": [
-    {
-      "id": "abu-bakr",
-      "nameAr": "أبو بكر الصديق",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "khalid-ibn-al-walid",
-      "nameAr": "خالد بن الوليد",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "muadh-ibn-jabal",
-      "nameAr": "معاذ بن جبل",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
     {
       "id": "person-006fd158c464",
       "nameAr": "abdullah-ibn-abd-al-muttalib",
@@ -66,22 +42,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-040170814f57",
-      "nameAr": "mudar-ibn-nizar",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-04c5aa88d621",
-      "nameAr": "umm-habiba",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-051301ccb5bf",
       "nameAr": "al-husayn-ibn-ali",
       "beforeWords": 0,
@@ -92,14 +52,6 @@
     {
       "id": "person-052f28b35cf9",
       "nameAr": "abu-lahab-ibn-abd-al-muttalib",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-0632526f4f61",
-      "nameAr": "jafar-ibn-abi-talib",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -170,14 +122,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-0cc8963df4cd",
-      "nameAr": "uthman-ibn-affan",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-0e0a4d95cc7b",
       "nameAr": "Sibt Ibn al-Jawzi; use with source-critical notes",
       "beforeWords": 0,
@@ -242,14 +186,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-14301a19d094",
-      "nameAr": "fihr-ibn-malik",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-14eb40ab2054",
       "nameAr": "arwa-bint-abd-al-muttalib",
       "beforeWords": 0,
@@ -260,14 +196,6 @@
     {
       "id": "person-16123c5eb12a",
       "nameAr": "محمد بن أحمد القرطبي",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-177f75bd083c",
-      "nameAr": "kinana-ibn-khuzayma",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -914,22 +842,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-6f9bc4267d74",
-      "nameAr": "umm-salama",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-7060e68d653d",
-      "nameAr": "khuzayma-ibn-mudrika",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-729ad2f4f28d",
       "nameAr": "supplementary tradition around al-Suhayli",
       "beforeWords": 0,
@@ -964,14 +876,6 @@
     {
       "id": "person-7752e2dfa848",
       "nameAr": "mudrika-ibn-ilyas",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-77982ed9d8d5",
-      "nameAr": "aisha-bint-abi-bakr",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -1052,14 +956,6 @@
     {
       "id": "person-82944daa4ac3",
       "nameAr": "Muhammad ibn Muhammad al-Basri al-Miknasi",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-8365c67f7e7c",
-      "nameAr": "abd-al-muttalib",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -1204,14 +1100,6 @@
     {
       "id": "person-934d4c5ae390",
       "nameAr": "abdullah-ibn-al-zubayr-abd-al-muttalib",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-950261ac6f78",
-      "nameAr": "abu-talib-ibn-abd-al-muttalib",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -1610,14 +1498,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-d3f51877a09f",
-      "nameAr": "al-abbas-ibn-abd-al-muttalib",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-d7fb32a15dcd",
       "nameAr": "زين الدين العراقي",
       "beforeWords": 0,
@@ -1810,14 +1690,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-e59d18e68796",
-      "nameAr": "abdullah-ibn-abbas",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-e60283d67ffd",
       "nameAr": "zaynab-bint-jahsh",
       "beforeWords": 0,
@@ -1866,14 +1738,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-ee9533da8a95",
-      "nameAr": "ruqayya-bint-muhammad",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-eec2b7f83c29",
       "nameAr": "مؤمن الشبلنجي",
       "beforeWords": 0,
@@ -1890,14 +1754,6 @@
       "missingWords": 500
     },
     {
-      "id": "person-f54b80d2d221",
-      "nameAr": "hamza-ibn-abd-al-muttalib",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-f74b84253e4b",
       "nameAr": "rabia-ibn-al-harith",
       "beforeWords": 0,
@@ -1906,24 +1762,8 @@
       "missingWords": 500
     },
     {
-      "id": "person-f8216ef01954",
-      "nameAr": "saad-ibn-abi-waqqas",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
       "id": "person-f8e34f0835c0",
       "nameAr": "Ibn al-Qattan al-Fasi",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "person-f95ed2a0a66a",
-      "nameAr": "khadija-bint-khuwaylid",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -1996,22 +1836,6 @@
     {
       "id": "prophet-muhammad",
       "nameAr": "محمد ﷺ",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "saeed-ibn-zayd",
-      "nameAr": "سعيد بن زيد",
-      "beforeWords": 0,
-      "addedWords": 0,
-      "finalWords": 0,
-      "missingWords": 500
-    },
-    {
-      "id": "salman-al-farisi",
-      "nameAr": "سلمان الفارسي",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -2802,6 +2626,14 @@
       "missingWords": 334
     },
     {
+      "id": "talha-ibn-ubaydullah",
+      "nameAr": "طلحة بن عبيد الله",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
       "id": "umar-ibn-al-khattab",
       "nameAr": "عمر بن الخطاب",
       "beforeWords": 0,
@@ -2836,22 +2668,140 @@
   ],
   "complete": false,
   "interpretation": "Only readable direct person-owned source-backed Arabic counts. Collapsed OCR and related documentary context are excluded.",
-  "directSiyarPagesAdded": 7,
-  "directSiyarWordsAdded": 23457,
+  "directSiyarPagesAdded": 8,
+  "directSiyarWordsAdded": 26579,
   "duplicateCanonicalSiyarPagesSkipped": 0,
-  "siyarCatalogueSize": 0,
   "latestRequestedExtensionBatch": 50,
-  "latestCompletedExtensionBatch": 1,
+  "latestCompletedExtensionBatch": 21,
   "latestBatchPeople": [
     {
-      "id": "talha-ibn-ubaydullah",
-      "nameAr": "طلحة بن عبيد الله",
-      "finalWords": 2508,
-      "file": "data/editorial/short-biography-extensions/talha-ibn-ubaydullah.json"
+      "id": "abu-bakr",
+      "nameAr": "أبو بكر",
+      "finalWords": 633,
+      "file": "data/editorial/short-biography-extensions/abu-bakr.json"
+    },
+    {
+      "id": "khalid-ibn-al-walid",
+      "nameAr": "خالد بن الوليد",
+      "finalWords": 500,
+      "file": "data/editorial/short-biography-extensions/khalid-ibn-al-walid.json"
+    },
+    {
+      "id": "person-0cc8963df4cd",
+      "nameAr": "عثمان بن عفان",
+      "finalWords": 580,
+      "file": "data/editorial/short-biography-extensions/person-0cc8963df4cd.json"
+    },
+    {
+      "id": "person-0632526f4f61",
+      "nameAr": "جعفر بن أبي طالب",
+      "finalWords": 672,
+      "file": "data/editorial/short-biography-extensions/person-0632526f4f61.json"
+    },
+    {
+      "id": "person-04c5aa88d621",
+      "nameAr": "أم حبيبة",
+      "finalWords": 560,
+      "file": "data/editorial/short-biography-extensions/person-04c5aa88d621.json"
+    },
+    {
+      "id": "person-14301a19d094",
+      "nameAr": "فهر بن مالك",
+      "finalWords": 505,
+      "file": "data/editorial/short-biography-extensions/person-14301a19d094.json"
+    },
+    {
+      "id": "person-177f75bd083c",
+      "nameAr": "كنانة",
+      "finalWords": 541,
+      "file": "data/editorial/short-biography-extensions/person-177f75bd083c.json"
+    },
+    {
+      "id": "person-6f9bc4267d74",
+      "nameAr": "أم سلمة",
+      "finalWords": 557,
+      "file": "data/editorial/short-biography-extensions/person-6f9bc4267d74.json"
+    },
+    {
+      "id": "person-77982ed9d8d5",
+      "nameAr": "عائشة",
+      "finalWords": 557,
+      "file": "data/editorial/short-biography-extensions/person-77982ed9d8d5.json"
+    },
+    {
+      "id": "person-8365c67f7e7c",
+      "nameAr": "عبد المطلب",
+      "finalWords": 519,
+      "file": "data/editorial/short-biography-extensions/person-8365c67f7e7c.json"
+    },
+    {
+      "id": "person-950261ac6f78",
+      "nameAr": "أبو طالب",
+      "finalWords": 502,
+      "file": "data/editorial/short-biography-extensions/person-950261ac6f78.json"
+    },
+    {
+      "id": "person-d3f51877a09f",
+      "nameAr": "العباس بن عبد المطلب",
+      "finalWords": 560,
+      "file": "data/editorial/short-biography-extensions/person-d3f51877a09f.json"
+    },
+    {
+      "id": "person-e59d18e68796",
+      "nameAr": "عبد الله بن عباس",
+      "finalWords": 644,
+      "file": "data/editorial/short-biography-extensions/person-e59d18e68796.json"
+    },
+    {
+      "id": "person-f54b80d2d221",
+      "nameAr": "حمزة بن عبد المطلب",
+      "finalWords": 535,
+      "file": "data/editorial/short-biography-extensions/person-f54b80d2d221.json"
+    },
+    {
+      "id": "person-f8216ef01954",
+      "nameAr": "سعد بن أبي وقاص",
+      "finalWords": 556,
+      "file": "data/editorial/short-biography-extensions/person-f8216ef01954.json"
+    },
+    {
+      "id": "person-f95ed2a0a66a",
+      "nameAr": "خديجة",
+      "finalWords": 589,
+      "file": "data/editorial/short-biography-extensions/person-f95ed2a0a66a.json"
+    },
+    {
+      "id": "salman-al-farisi",
+      "nameAr": "سلمان الفارسي",
+      "finalWords": 517,
+      "file": "data/editorial/short-biography-extensions/salman-al-farisi.json"
+    },
+    {
+      "id": "saeed-ibn-zayd",
+      "nameAr": "سعيد بن زيد",
+      "finalWords": 506,
+      "file": "data/editorial/short-biography-extensions/saeed-ibn-zayd.json"
+    },
+    {
+      "id": "person-7060e68d653d",
+      "nameAr": "خزيمة",
+      "finalWords": 509,
+      "file": "data/editorial/short-biography-extensions/person-7060e68d653d.json"
+    },
+    {
+      "id": "person-040170814f57",
+      "nameAr": "مضر",
+      "finalWords": 540,
+      "file": "data/editorial/short-biography-extensions/person-040170814f57.json"
+    },
+    {
+      "id": "person-ee9533da8a95",
+      "nameAr": "رقية",
+      "finalWords": 558,
+      "file": "data/editorial/short-biography-extensions/person-ee9533da8a95.json"
     }
   ],
-  "latestBatchAttempted": 230,
-  "latestBatchPagesAdded": 2,
-  "latestBatchSourceWordsAdded": 2747,
-  "onlineExtractionErrors": []
+  "latestBatchSource": "Ibn Hisham / Internet Archive fp94563_202505",
+  "latestBatchSourceWordsAdded": 18089,
+  "latestBatchRejectedOcrBlocks": 0
 }
