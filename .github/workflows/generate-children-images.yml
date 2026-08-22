@@ -1,0 +1,56 @@
+name: Auto-generate children content images
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_per_run:
+        description: Maximum missing images to generate; 0 means unlimited
+        required: false
+        default: '100'
+  schedule:
+    - cron: '25 */3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**children**.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: children-image-generation
+  cancel-in-progress: false
+
+jobs:
+  generate-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL || 'gpt-image-1' }}
+      CHILDREN_IMAGE_MAX_PER_RUN: ${{ inputs.max_per_run || '100' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate only missing children illustrations
+        run: python scripts/generate_children_images.py
+
+      - name: Persist generated images and metadata
+        run: |
+          if git diff --quiet -- data assets/children/generated 2>/dev/null && [ -z "$(git status --porcelain -- assets/children/generated data)" ]; then
+            echo 'No missing children images generated in this pass.'
+            exit 0
+          fi
+          git config user.name 'prophet-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data assets/children/generated
+          git commit -m 'Auto-generate missing children content images' || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
