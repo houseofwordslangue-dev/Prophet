@@ -4,10 +4,10 @@ from __future__ import annotations
 import json,re,time,urllib.parse,urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-CAT=ROOT/'data/public_catalog_all.generated.json';CAND=ROOT/'private/acquisition_candidates.json';OVERRIDES=ROOT/'private/native_source_overrides.json'
+CAT=ROOT/'data/public_catalog_all.generated.json';CAT_DIR=ROOT/'data/catalogue';CAND=ROOT/'private/acquisition_candidates.json';OVERRIDES=ROOT/'private/native_source_overrides.json'
 DRIVE=ROOT/'data/drive_native_assets_20260822.json';DRIVE_VERIFIED=ROOT/'data/drive_verified_assets_20260822.json';INGESTED=ROOT/'data/ingested_library.json'
 OUT=ROOT/'private/source_first_resolution.json';QUEUE=ROOT/'private/resource_extraction_queue.json';AVAIL=ROOT/'data/editorial/resource_extraction_availability.json'
-UA='ProphetBiographyLibrary/10.0-provenance-aware';FORMATS=['epub','txt','docx','doc','odt','rtf','html','md','xml','pdf']
+UA='ProphetBiographyLibrary/11.0-full-catalogue-provenance-aware';FORMATS=['epub','txt','docx','doc','odt','rtf','html','md','xml','pdf']
 ALLOW={'archive.org','www.archive.org','gutenberg.org','www.gutenberg.org','api.github.com','raw.githubusercontent.com','upload.wikimedia.org','commons.wikimedia.org','wikisource.org','en.wikisource.org','fr.wikisource.org','ar.wikisource.org'}
 STOP={'كتاب','شرح','جزء','المجلد','الجزء','في','من','على','الى','إلى','عن','the','of','and','a','an','volume','vol','part'}
 ORIGIN_RANK={'NATIVE':0,'VERIFIED_TEXT':1,'GENERATED_TEXT':2,'OCR_DERIVATIVE':3,'PDF_TEXT_OR_SCAN':4,'UNKNOWN':5}
@@ -56,18 +56,20 @@ def archive_files(u):
   n=str(f.get('name') or '');out.append({'format':fmt(name=n),'url':'https://archive.org/download/'+urllib.parse.quote(ident)+'/'+urllib.parse.quote(n),'name':n,'source':'archive-metadata','identifier':ident,'textOrigin':archive_origin(f),'verifiedAccessible':True})
  return out
 def archive_search(title,author=''):
- qs=[f'title:"{title}" AND mediatype:texts'];
+ qs=[f'title:"{title}" AND mediatype:texts']
  if author:qs.insert(0,f'title:"{title}" AND creator:"{author}" AND mediatype:texts')
+ tokens=' '.join(toks(title)[:8])
+ if tokens:qs.append(f'({tokens}) AND mediatype:texts')
  best=[];seen=set()
  for q in qs:
-  try:j=get_json('https://archive.org/advancedsearch.php?'+urllib.parse.urlencode({'q':q,'fl[]':['identifier','title','creator'],'rows':25,'page':1,'output':'json'},doseq=True))
+  try:j=get_json('https://archive.org/advancedsearch.php?'+urllib.parse.urlencode({'q':q,'fl[]':['identifier','title','creator'],'rows':50,'page':1,'output':'json'},doseq=True))
   except Exception:continue
   for d in j.get('response',{}).get('docs',[]):
    ident=str(d.get('identifier') or '')
    if not ident or ident in seen:continue
    seen.add(ident);sc=title_score(title,d.get('title'))
    if sc>=0.78:best.append((sc,ident))
- for _,ident in sorted(best,reverse=True)[:10]:
+ for _,ident in sorted(best,reverse=True)[:20]:
   rows=archive_files('https://archive.org/details/'+ident)
   if rows:return rows
  return []
@@ -76,13 +78,16 @@ def gutenberg(u):
  if not m:return []
  i=m.group(1);return [{'format':'epub','url':f'https://www.gutenberg.org/ebooks/{i}.epub3.images','name':f'{i}.epub','source':'gutenberg','textOrigin':'VERIFIED_TEXT','verifiedAccessible':True},{'format':'txt','url':f'https://www.gutenberg.org/cache/epub/{i}/pg{i}.txt','name':f'pg{i}.txt','source':'gutenberg','textOrigin':'VERIFIED_TEXT','verifiedAccessible':True}]
 def wikisource(title):
- q=urllib.parse.urlencode({'action':'query','list':'search','srsearch':f'intitle:"{title}"','srnamespace':'0','srlimit':'20','format':'json','formatversion':'2'})
- try:j=get_json('https://ar.wikisource.org/w/api.php?'+q)
- except Exception:return []
+ queries=[f'intitle:"{title}"',title]
  out=[]
- for r in j.get('query',{}).get('search',[]):
-  t=str(r.get('title') or '')
-  if t and title_match(title,t.split('/',1)[0]):out.append({'format':'html','url':'https://ar.wikisource.org/wiki/'+urllib.parse.quote(t.replace(' ','_')),'name':t,'source':'arabic-wikisource','textOrigin':'VERIFIED_TEXT','verifiedAccessible':True})
+ for search in queries:
+  q=urllib.parse.urlencode({'action':'query','list':'search','srsearch':search,'srnamespace':'0','srlimit':'30','format':'json','formatversion':'2'})
+  try:j=get_json('https://ar.wikisource.org/w/api.php?'+q)
+  except Exception:continue
+  for r in j.get('query',{}).get('search',[]):
+   t=str(r.get('title') or '')
+   if t and title_match(title,t.split('/',1)[0]):out.append({'format':'html','url':'https://ar.wikisource.org/wiki/'+urllib.parse.quote(t.replace(' ','_')),'name':t,'source':'arabic-wikisource','textOrigin':'VERIFIED_TEXT','verifiedAccessible':True})
+  if out:break
  return out
 def web_candidates(row):
  urls=[]
@@ -131,17 +136,39 @@ def classify(r):
  if o=='OCR_DERIVATIVE':return 'EXTRACTION_READY_OCR_DERIVATIVE'
  if f=='pdf' or o=='PDF_TEXT_OR_SCAN':return 'EXTRACTION_READY_PDF_TEXT_OR_OCR'
  return 'EXTRACTION_READY_REVIEW_REQUIRED'
+def chunk_item(r):
+ if not isinstance(r,list) or not r:return None
+ wid=str(r[0] or '');
+ if not wid:return None
+ title=str(r[3] or '') if len(r)>3 else '';title_en=str(r[4] or '') if len(r)>4 else '';author=str(r[5] or '') if len(r)>5 else '';source=str(r[12] or '') if len(r)>12 else ''
+ return {'id':wid,'title':title or title_en,'titleAr':title,'titleEn':title_en,'author':author,'sources':[source] if source else [],'access':'CATALOGUE_LISTED'}
+def catalogue_items():
+ m={}
+ for x in load(CAT,{'items':[]}).get('items',[]):
+  wid=str(x.get('id') or x.get('workId') or '')
+  if wid:m[wid]=dict(x)
+ for p in sorted(CAT_DIR.glob('chunk-*.json')):
+  for r in load(p,{'items':[]}).get('items',[]):
+   x=chunk_item(r)
+   if not x:continue
+   wid=x['id'];old=m.get(wid,{})
+   merged={**x,**old}
+   merged['title']=old.get('title') or x.get('title') or ''
+   merged['author']=old.get('author') or x.get('author') or ''
+   merged['sources']=list(dict.fromkeys([*(x.get('sources') or []),*(old.get('sources') or [])]))
+   m[wid]=merged
+ return list(m.values())
 def main():
- cat=load(CAT,{'items':[]});cand=load(CAND,{'items':[]});over=load(OVERRIDES,{'items':[]});cmap={str(x.get('workId') or x.get('catalogueId') or ''):x for x in cand.get('items',[]) if isinstance(x,dict)};omap={str(x.get('workId') or x.get('catalogueId') or ''):x for x in over.get('items',[]) if isinstance(x,dict)};dm,im=drive_map(),ingested_map();rows=[];queue=[];counts={k:0 for k in ('native','verified','generated','ocr','pdf','driveNative','driveVerified','remote')}
- for x in cat.get('items',[]):
-  wid=str(x.get('id') or '');title=str(x.get('title') or '');merged=dict(x);merged.update(cmap.get(wid,{}));merged.update(omap.get(wid,{}));found=match_map(title,im)+match_map(title,dm)+web_candidates(merged)
+ items=catalogue_items();cand=load(CAND,{'items':[]});over=load(OVERRIDES,{'items':[]});cmap={str(x.get('workId') or x.get('catalogueId') or ''):x for x in cand.get('items',[]) if isinstance(x,dict)};omap={str(x.get('workId') or x.get('catalogueId') or ''):x for x in over.get('items',[]) if isinstance(x,dict)};dm,im=drive_map(),ingested_map();rows=[];queue=[];counts={k:0 for k in ('native','verified','generated','ocr','pdf','driveNative','driveVerified','remote')}
+ for x in items:
+  wid=str(x.get('id') or '');title=str(x.get('title') or x.get('titleAr') or x.get('titleEn') or '');merged=dict(x);merged.update(cmap.get(wid,{}));merged.update(omap.get(wid,{}));found=match_map(title,im)+match_map(title,dm)+web_candidates(merged)
   if not found:found=wikisource(title)
   if not found:found=archive_search(title,str(x.get('author') or ''))
   found=sorted(dedup(found),key=rank);preferred=found[0] if found else None
   if preferred:
    state=classify(preferred);origin=preferred.get('textOrigin','UNKNOWN');counts['native']+=origin=='NATIVE';counts['verified']+=origin=='VERIFIED_TEXT';counts['generated']+=origin=='GENERATED_TEXT';counts['ocr']+=origin=='OCR_DERIVATIVE';counts['pdf']+=preferred.get('format')=='pdf' or origin=='PDF_TEXT_OR_SCAN';counts['driveNative']+=preferred.get('source')=='google-drive-native';counts['driveVerified']+=preferred.get('source')=='google-drive-verified';counts['remote']+=preferred.get('source') in {'arabic-wikisource','archive-metadata','gutenberg','verified-catalog'}
   elif x.get('access')=='PUBLIC_FULL_TEXT' and (x.get('sources') or []):preferred={'format':'txt','url':x['sources'][0],'name':title,'source':'public-catalog-fulltext','textOrigin':'VERIFIED_TEXT','verifiedAccessible':True};state='EXTRACTION_READY_NATIVE_OR_VERIFIED_TEXT';counts['verified']+=1
-  else:state='ACQUISITION_REQUIRED';preferred=None;queue.append({'id':wid,'title':title,'author':x.get('author'),'reason':'No strictly title-matched verified extraction path found.','ocrAllowed':True,'nextActions':['search Drive by exact title/author','search native text/EPUB repositories','search readable PDF witnesses','OCR only after native search is exhausted']})
+  else:state='ACQUISITION_REQUIRED';preferred=None;queue.append({'id':wid,'title':title,'author':x.get('author'),'reason':'No strictly identity-matched verified extraction path found after local/Drive/native/Wikisource/Archive discovery.','ocrAllowed':True,'nextActions':['search Drive by exact title/author','search native text/EPUB repositories','search Archive and readable PDF witnesses','OCR only after native search is exhausted']})
   origin=preferred.get('textOrigin') if preferred else None;rows.append({'id':wid,'title':title,'author':x.get('author'),'previousAccess':x.get('access'),'state':state,'extractionReady':state.startswith('EXTRACTION_READY'),'preferred':preferred,'candidates':found[:20],'titleMatchPolicy':'token-F1>=0.78','nativeSearchCompleted':True,'textOrigin':origin,'ocrDerived':origin=='OCR_DERIVATIVE','ocrAllowed':state in {'EXTRACTION_READY_OCR_DERIVATIVE','EXTRACTION_READY_PDF_TEXT_OR_OCR','ACQUISITION_REQUIRED'}})
- total=len(rows);ready=sum(r['extractionReady'] for r in rows);missing=total-ready;nonocr=counts['native']+counts['verified']+counts['generated'];now=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime());out={'schema':'source-first-resolution-v7','governedBy':'MASTER-OVERRIDING-SITE-INSTRUCTION.md','generatedAt':now,'priority':FORMATS,'catalogResources':total,'extractionReady':ready,'acquisitionRequired':missing,'nativeOrTextReady':nonocr,'nativeReady':counts['native'],'verifiedTextReady':counts['verified'],'generatedTextReady':counts['generated'],'ocrDerivativeReady':counts['ocr'],'pdfOcrReady':counts['pdf'],'driveNativeMatched':counts['driveNative'],'driveVerifiedMatched':counts['driveVerified'],'remoteExtractionMatched':counts['remote'],'allResourcesExtractionReady':missing==0,'ocrDerivativesNeverCountAsNative':True,'strictTitleMatching':True,'items':rows};save(OUT,out);save(QUEUE,{'schema':'resource-extraction-queue-v4','generatedAt':now,'count':len(queue),'items':queue});save(AVAIL,{'schema':'resource-extraction-availability-v4','generatedAt':now,'catalogResources':total,'extractionReady':ready,'acquisitionRequired':missing,'coveragePercent':round(100*ready/total,2) if total else 100,'nativeReady':counts['native'],'verifiedTextReady':counts['verified'],'generatedTextReady':counts['generated'],'ocrDerivativeReady':counts['ocr'],'pdfOcrReady':counts['pdf'],'allResourcesExtractionReady':missing==0,'policy':'OCR derivatives remain explicitly marked OCR_DERIVATIVE and require OCR repair/proofreading/audit. They never count as native text. Resource matches require strict normalized-title similarity; numerical coverage never overrides source identity.'});print(json.dumps({k:out[k] for k in ('catalogResources','extractionReady','acquisitionRequired','nativeReady','verifiedTextReady','generatedTextReady','ocrDerivativeReady','pdfOcrReady','allResourcesExtractionReady')},ensure_ascii=False))
+ total=len(rows);ready=sum(r['extractionReady'] for r in rows);missing=total-ready;nonocr=counts['native']+counts['verified']+counts['generated'];now=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime());out={'schema':'source-first-resolution-v8-full-catalogue','governedBy':'MASTER-OVERRIDING-SITE-INSTRUCTION.md','generatedAt':now,'priority':FORMATS,'catalogResources':total,'extractionReady':ready,'acquisitionRequired':missing,'nativeOrTextReady':nonocr,'nativeReady':counts['native'],'verifiedTextReady':counts['verified'],'generatedTextReady':counts['generated'],'ocrDerivativeReady':counts['ocr'],'pdfOcrReady':counts['pdf'],'driveNativeMatched':counts['driveNative'],'driveVerifiedMatched':counts['driveVerified'],'remoteExtractionMatched':counts['remote'],'allResourcesExtractionReady':missing==0,'ocrDerivativesNeverCountAsNative':True,'strictTitleMatching':True,'fullCatalogueUnion':True,'items':rows};save(OUT,out);save(QUEUE,{'schema':'resource-extraction-queue-v5-full-catalogue','generatedAt':now,'count':len(queue),'items':queue});save(AVAIL,{'schema':'resource-extraction-availability-v5-full-catalogue','generatedAt':now,'catalogResources':total,'extractionReady':ready,'acquisitionRequired':missing,'coveragePercent':round(100*ready/total,2) if total else 100,'nativeReady':counts['native'],'verifiedTextReady':counts['verified'],'generatedTextReady':counts['generated'],'ocrDerivativeReady':counts['ocr'],'pdfOcrReady':counts['pdf'],'allResourcesExtractionReady':missing==0,'policy':'OCR derivatives remain explicitly marked OCR_DERIVATIVE and require OCR repair/proofreading/audit. They never count as native text. Resource matches require strict normalized-title similarity; full-catalogue coverage never overrides source identity.'});print(json.dumps({k:out[k] for k in ('catalogResources','extractionReady','acquisitionRequired','nativeReady','verifiedTextReady','generatedTextReady','ocrDerivativeReady','pdfOcrReady','allResourcesExtractionReady')},ensure_ascii=False))
 if __name__=='__main__':main()
