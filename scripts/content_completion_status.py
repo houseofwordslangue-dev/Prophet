@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
 from __future__ import annotations
 import json
 from datetime import datetime, timezone, timedelta
@@ -93,7 +93,7 @@ def main():
       'missingCanonicalBiographyCount':bio.get('missingCanonicalBiographyCount'),
       'missingBiographyIds':missing_ids,'BIOGRAPHY_FILL_COMPLETE':bio_complete,
       'COMPLETION_PROMPT_COMPLETE':bool(article_complete and bio_complete),
-      'governedBy':'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
+      'governedBy':'MASTER_OVERRIDING_INSTRUCTION.md'
     }
     STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(state,ensure_ascii=False))
