@@ -1,6 +1,7 @@
 name: Daily Prophet generation control
 
 # GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# BOOTSTRAP: 2026-08-22 notification-consolidation
 # Single automatic workflow. It disables all other repository workflows, runs
 # the main generative/recovery pipelines in recoverable mode, and posts at most
 # one daily report to issue #94.
