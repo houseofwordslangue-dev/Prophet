@@ -1,24 +1,12 @@
 name: Daily Prophet generation control
 
 # GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
-# This is the ONLY automatic GitHub Actions workflow for this repository.
-# Recoverable gaps are recorded, not exploded into separate failure notifications.
+# The only automatic workflow. Automatic execution is once per UTC day.
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 5 * * *'
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/daily-generative-control.yml'
-      - 'scripts/source_first_fulltext_resolver.py'
-      - 'scripts/enforce_resource_extraction_readiness.py'
-      - 'data/drive_native_assets_20260822.json'
-      - 'data/drive_verified_assets_20260822.json'
-      - 'data/ingested_library.json'
-      - 'data/public_catalog_all.generated.json'
-      - 'private/native_source_overrides.json'
 
 permissions:
   contents: write
@@ -42,17 +30,16 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        with: {fetch-depth: 0}
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+        with: {python-version: '3.12'}
 
       - name: Consolidated generation, repair and audit cycle
         shell: bash
         run: |
           set +e
           : > /tmp/prophet-daily.log
+          rm -f /tmp/prophet-publication-blocked
           run_one() {
             label="$1"; shift
             echo "===== $label =====" | tee -a /tmp/prophet-daily.log
@@ -61,41 +48,48 @@ jobs:
             echo "RESULT $label = $rc" | tee -a /tmp/prophet-daily.log
             return 0
           }
+          hard_gate() {
+            label="$1"; shift
+            echo "===== $label =====" | tee -a /tmp/prophet-daily.log
+            "$@" >>/tmp/prophet-daily.log 2>&1
+            rc=$?
+            echo "RESULT $label = $rc" | tee -a /tmp/prophet-daily.log
+            if [ "$rc" -ne 0 ]; then touch /tmp/prophet-publication-blocked; fi
+            return 0
+          }
 
-          # 1. GOVERNANCE + SYSTEM GAP REPAIR
+          # 1. GOVERNANCE / SYSTEM REPAIR
           [ -f scripts/system_gap_audit_and_repair.py ] && run_one 'system gap audit/repair before cycle' python scripts/system_gap_audit_and_repair.py --repair
           [ -f scripts/audit_current_instructions.py ] && run_one 'instruction audit' python scripts/audit_current_instructions.py
           [ -f scripts/check_master_governance.py ] && run_one 'master governance' python scripts/check_master_governance.py
 
-          # 2. FORCE SOURCE-FIRST RECOVERY / LIBRARY INGESTION
+          # 2. SOURCE-FIRST RECOVERY. OCR provenance is preserved by resolver v7+.
           for pass in 1 2 3 4; do
-            [ -f scripts/source_first_fulltext_resolver.py ] && run_one "resource extraction resolver pass $pass" python scripts/source_first_fulltext_resolver.py
-            [ -f scripts/live_native_catalog_resolver.py ] && run_one "live native catalog resolver pass $pass" python scripts/live_native_catalog_resolver.py
+            [ -f scripts/source_first_fulltext_resolver.py ] && run_one "resource resolver pass $pass" python scripts/source_first_fulltext_resolver.py
+            [ -f scripts/live_native_catalog_resolver.py ] && run_one "live native catalog pass $pass" python scripts/live_native_catalog_resolver.py
             [ -f scripts/acquire_unrestricted_library.py ] && run_one "library acquisition pass $pass" python scripts/acquire_unrestricted_library.py --limit 200
             [ -f scripts/build_ingested_library.py ] && run_one "library index rebuild pass $pass" python scripts/build_ingested_library.py
           done
-          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver final' python scripts/source_first_fulltext_resolver.py
-          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'strict all-resource extraction readiness gate' python scripts/enforce_resource_extraction_readiness.py
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource resolver final' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'all-resource extraction backlog audit' python scripts/enforce_resource_extraction_readiness.py
 
-          # 3. DAILY MAIN-SECTION ARTICLE ROTATION
+          # 3. EDITORIAL ROTATION / EXACT-SLOT COMPLETION
           if [ -f scripts/daily_rotating_editorial_fill.py ]; then
             for section in light prophet messenger human mercy family companions media; do
               run_one "editorial-$section" python scripts/daily_rotating_editorial_fill.py --section "$section"
             done
           fi
-
-          # 4. EMPTY/SHORT SECTION COMPLETION
           [ -f scripts/daily_completion_batch.py ] && run_one 'all underfilled editorial slots' python scripts/daily_completion_batch.py
 
-          # 5. BIOGRAPHY COMPLETION / ENRICHMENT
+          # 4. BIOGRAPHIES
           [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'biography source mining' python scripts/mine_all_missing_biography_sources.py
           [ -f scripts/extend_short_biographies_500.py ] && run_one 'short biography source extraction' python scripts/extend_short_biographies_500.py
           [ -f scripts/enrich_short_biographies_siyar_direct.py ] && run_one 'Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
-          [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction/source-grounded assembly' python scripts/enrich_short_biographies_wikisource.py
+          [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction' python scripts/enrich_short_biographies_wikisource.py
           [ -f scripts/complete_required_biographies.py ] && run_one 'canonical biography registry' python scripts/complete_required_biographies.py
           [ -f scripts/biography_coverage_status.py ] && run_one 'biography coverage status' python scripts/biography_coverage_status.py
 
-          # 6. CHILDREN COMPLETION ACCOUNTING / VALIDATION
+          # 5. CHILDREN / MEDIA
           [ -f scripts/children_completion_status.py ] && run_one 'children completion status' python scripts/children_completion_status.py
           [ -f scripts/animated_children_pipeline.py ] && run_one 'animated children integrity validation' python scripts/animated_children_pipeline.py --validate-only
           if [ -n "${OPENAI_API_KEY:-}" ] && [ -f scripts/generate_children_artwork.py ]; then
@@ -104,18 +98,23 @@ jobs:
             echo 'RESULT children artwork repair/generation = SKIPPED_NO_CREDENTIAL_OR_SCRIPT' | tee -a /tmp/prophet-daily.log
           fi
 
-          # 7. STRICT SOURCE/EDITORIAL PUBLICATION GATE
-          [ -f scripts/editorial_autopublish.py ] && run_one 'editorial provenance check' python scripts/editorial_autopublish.py --check
-          [ -f scripts/editorial_autopublish.py ] && run_one 'editorial autopublish' python scripts/editorial_autopublish.py
+          # 6. HARD PUBLICATION GATES. A failure blocks autopublish/deployment.
+          [ -f scripts/professional_release_gate.py ] && hard_gate 'professional release gate' python scripts/professional_release_gate.py
+          [ -f scripts/editorial_autopublish.py ] && hard_gate 'editorial provenance gate' python scripts/editorial_autopublish.py --check
+          if [ ! -e /tmp/prophet-publication-blocked ] && [ -f scripts/editorial_autopublish.py ]; then
+            run_one 'editorial autopublish' python scripts/editorial_autopublish.py
+          else
+            echo 'PUBLICATION_BLOCKED_BY_HARD_GATE' | tee -a /tmp/prophet-daily.log
+          fi
 
-          # 8. FINAL GAP SNAPSHOT
+          # 7. FINAL LEDGERS
           [ -f scripts/system_gap_audit_and_repair.py ] && run_one 'system gap audit/repair after cycle' python scripts/system_gap_audit_and_repair.py --repair
-          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver post-generation' python scripts/source_first_fulltext_resolver.py
-          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'resource extraction readiness final gate' python scripts/enforce_resource_extraction_readiness.py
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource resolver post-generation' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'resource extraction final backlog audit' python scripts/enforce_resource_extraction_readiness.py
           [ -f scripts/children_completion_status.py ] && run_one 'children final status' python scripts/children_completion_status.py
           [ -f scripts/content_completion_status.py ] && run_one 'content final status' python scripts/content_completion_status.py
           [ -f scripts/biography_coverage_status.py ] && run_one 'biography final status' python scripts/biography_coverage_status.py
-          echo 'Daily consolidated cycle complete.' | tee -a /tmp/prophet-daily.log
+          [ -e /tmp/prophet-publication-blocked ] && echo 'PUBLICATION_GATE_STATUS=BLOCKED' >> /tmp/prophet-daily.log || echo 'PUBLICATION_GATE_STATUS=PASS' >> /tmp/prophet-daily.log
 
       - name: Commit valid generated state once
         shell: bash
@@ -136,22 +135,22 @@ jobs:
         shell: bash
         run: |
           set +e
+          if [ -e /tmp/prophet-publication-blocked ]; then
+            echo 'LIVE_DEPLOY_BLOCKED_BY_HARD_GATE' | tee -a /tmp/prophet-daily.log
+            exit 0
+          fi
           rm -rf publish-bundle
           mkdir -p publish-bundle/data publish-bundle/library
           find . -maxdepth 1 -type f \( -name '*.html' -o -name '*.css' -o -name '*.js' -o -name '*.json' -o -name '*.xml' -o -name '*.webmanifest' -o -name 'robots.txt' -o -name 'sitemap*.xml' \) -exec cp -p '{}' publish-bundle/ \;
           [ -d assets ] && rsync -a assets/ publish-bundle/assets/
           find data -maxdepth 1 -type f -name '*.json' -exec cp -p '{}' publish-bundle/data/ \;
-          if [ -d data/editorial ]; then
-            mkdir -p publish-bundle/data/editorial
-            rsync -a --exclude 'audits/' --exclude '*-audit.json' --exclude '*_audit.json' data/editorial/ publish-bundle/data/editorial/
-          fi
+          [ -d data/editorial ] && { mkdir -p publish-bundle/data/editorial; rsync -a --exclude 'audits/' --exclude '*-audit.json' --exclude '*_audit.json' data/editorial/ publish-bundle/data/editorial/; }
           [ -d data/children ] && { mkdir -p publish-bundle/data/children; rsync -a data/children/ publish-bundle/data/children/; }
           [ -d data/catalogue ] && { mkdir -p publish-bundle/data/catalogue; rsync -a data/catalogue/ publish-bundle/data/catalogue/; }
           [ -d library/works ] && { mkdir -p publish-bundle/library/works; rsync -a library/works/ publish-bundle/library/works/; }
-          test ! -e publish-bundle/private || rm -rf publish-bundle/private
-
+          rm -rf publish-bundle/private
           if [ -z "${PM_DEPLOY_HOST:-}" ] || [ -z "${PM_DEPLOY_USER:-}" ] || [ -z "${PM_DEPLOY_PATH:-}" ] || [ -z "${PM_DEPLOY_SSH_KEY:-}" ]; then
-            echo 'DEPLOYMENT_NOT_CONFIGURED: bundle built; live deploy skipped without failing daily generation.' | tee -a /tmp/prophet-daily.log
+            echo 'DEPLOYMENT_NOT_CONFIGURED' | tee -a /tmp/prophet-daily.log
             exit 0
           fi
           install -d -m 700 ~/.ssh
@@ -161,33 +160,26 @@ jobs:
           ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH'" || { echo 'DEPLOY_RETRYABLE: ssh unavailable' | tee -a /tmp/prophet-daily.log; exit 0; }
           rsync -az --checksum publish-bundle/ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/" || { echo 'DEPLOY_RETRYABLE: rsync failed' | tee -a /tmp/prophet-daily.log; exit 0; }
           echo 'LIVE_DEPLOY_COMPLETE' | tee -a /tmp/prophet-daily.log
-          exit 0
 
       - name: Post at most one daily generation notification
         shell: bash
         run: |
           set +e
-          day="$(date -u +%F)"
-          marker="<!-- prophet-daily-report:$day -->"
-          if gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$REPORT_ISSUE/comments?per_page=100" --jq '.[].body' 2>/dev/null | grep -Fq "$marker"; then
-            echo 'Daily report already posted; duplicate notification suppressed.'
-            exit 0
-          fi
+          day="$(date -u +%F)"; marker="<!-- prophet-daily-report:$day -->"
+          if gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$REPORT_ISSUE/comments?per_page=100" --jq '.[].body' 2>/dev/null | grep -Fq "$marker"; then exit 0; fi
           successes=$(grep -c 'RESULT .* = 0' /tmp/prophet-daily.log 2>/dev/null || true)
-          recoverable=$(grep -Ec 'RESULT .* = [1-9]|NEEDS_SOURCE|RETRYABLE|DEPLOYMENT_NOT_CONFIGURED|DEPLOY_RETRYABLE' /tmp/prophet-daily.log 2>/dev/null || true)
-          resource_gate=$(grep 'RESULT resource extraction readiness final gate' /tmp/prophet-daily.log 2>/dev/null | tail -n 1 || true)
-          tailtext=$(tail -n 50 /tmp/prophet-daily.log 2>/dev/null | sed 's/`/'"'"'/g')
+          recoverable=$(grep -Ec 'RESULT .* = [1-9]|NEEDS_SOURCE|RETRYABLE|DEPLOYMENT_NOT_CONFIGURED' /tmp/prophet-daily.log 2>/dev/null || true)
+          gate=$(grep 'PUBLICATION_GATE_STATUS=' /tmp/prophet-daily.log | tail -1 || true)
+          tailtext=$(tail -n 50 /tmp/prophet-daily.log | sed 's/`/'"'"'/g')
           cat > /tmp/report.md <<EOF
           $marker
           ## Daily Prophet generation report — $day
-
           - Successful stages: $successes
           - Recoverable/backlog signals: $recoverable
           - Automatic workflow count: **1**
+          - $gate
           - Governing master: MASTER-OVERRIDING-SITE-INSTRUCTION.md
-          - Resource gate: $resource_gate
-          - Source truth/provenance/rights override numerical targets.
-          - Missing extraction paths are forced through repeated resolution/acquisition passes and remain explicit blockers until verified.
+          - Source truth, provenance, rights, and integrity override numerical targets.
 
           <details><summary>Last runtime lines</summary>
 
@@ -197,4 +189,3 @@ jobs:
           </details>
           EOF
           gh issue comment "$REPORT_ISSUE" --repo "$GITHUB_REPOSITORY" --body-file /tmp/report.md >/dev/null 2>&1 || true
-          exit 0
