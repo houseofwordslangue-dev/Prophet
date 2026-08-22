@@ -1,0 +1,144 @@
+name: Daily Prophet generation control
+
+# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# Single automatic workflow. It disables all other repository workflows, runs
+# the main generative/recovery pipelines in recoverable mode, and posts at most
+# one daily report to issue #94.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-generative-control.yml'
+
+permissions:
+  actions: write
+  contents: write
+  issues: write
+
+concurrency:
+  group: prophet-single-daily-generation
+  cancel-in-progress: true
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPORT_ISSUE: '94'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Disable every other GitHub Actions workflow
+        shell: bash
+        run: |
+          set +e
+          keep='.github/workflows/daily-generative-control.yml'
+          gh api --paginate "repos/$GITHUB_REPOSITORY/actions/workflows?per_page=100" --jq '.workflows[] | [.id,.path] | @tsv' | while IFS=$'\t' read -r id path; do
+            [ "$path" = "$keep" ] && continue
+            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$id/disable" >/dev/null 2>&1 || true
+          done
+          echo 'All other workflows disabled.'
+
+      - name: Cancel queued or running legacy workflow runs
+        shell: bash
+        run: |
+          set +e
+          for status in queued in_progress; do
+            gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs?status=$status&per_page=100" --jq '.workflow_runs[].id' | while read -r rid; do
+              [ "$rid" = "$GITHUB_RUN_ID" ] && continue
+              gh api -X POST "repos/$GITHUB_REPOSITORY/actions/runs/$rid/cancel" >/dev/null 2>&1 || true
+            done
+          done
+
+      - name: Run one consolidated daily generative cycle
+        shell: bash
+        run: |
+          set +e
+          : > /tmp/prophet-daily.log
+          run_one() {
+            label="$1"; shift
+            echo "===== $label =====" | tee -a /tmp/prophet-daily.log
+            "$@" >>/tmp/prophet-daily.log 2>&1
+            rc=$?
+            echo "RESULT $label = $rc" | tee -a /tmp/prophet-daily.log
+            return 0
+          }
+
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'source-first resolver' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/live_native_catalog_resolver.py ] && run_one 'live native catalog resolver' python scripts/live_native_catalog_resolver.py
+          [ -f scripts/acquire_unrestricted_library.py ] && run_one 'library acquisition' python scripts/acquire_unrestricted_library.py --limit 40
+          [ -f scripts/build_ingested_library.py ] && run_one 'library index rebuild' python scripts/build_ingested_library.py
+
+          if [ -f scripts/daily_rotating_editorial_fill.py ]; then
+            for section in light prophet messenger human mercy family companions media; do
+              run_one "editorial-$section" python scripts/daily_rotating_editorial_fill.py --section "$section"
+            done
+          fi
+
+          [ -f scripts/content_completion_status.py ] && run_one 'content completion status' python scripts/content_completion_status.py
+          [ -f scripts/completion_slot_fill.py ] && run_one 'underfilled slot completion' python scripts/completion_slot_fill.py
+          [ -f scripts/complete_required_biographies.py ] && run_one 'biography registry refresh' python scripts/complete_required_biographies.py
+          [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'missing biography source mining' python scripts/mine_all_missing_biography_sources.py
+
+          [ -f scripts/editorial_autopublish.py ] && run_one 'editorial provenance check' python scripts/editorial_autopublish.py --check
+          [ -f scripts/editorial_autopublish.py ] && run_one 'editorial autopublish' python scripts/editorial_autopublish.py
+
+          echo 'Daily consolidated cycle complete.' | tee -a /tmp/prophet-daily.log
+
+      - name: Commit valid generated state once
+        shell: bash
+        run: |
+          set +e
+          git config user.name 'prophet-daily-bot'
+          git config user.email 'prophet-daily-bot@users.noreply.github.com'
+          git add -A data/editorial data/children data/ingested_library.json data/public_catalog_all.generated.json private/acquisition_candidates.json private/acquisition_state.json private/source_first_resolution.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Daily consolidated generation and publication [skip ci]' || true
+            git pull --rebase origin main || true
+            git push origin HEAD:main || true
+          fi
+          exit 0
+
+      - name: Post at most one daily generation notification
+        shell: bash
+        run: |
+          set +e
+          day="$(date -u +%F)"
+          marker="<!-- prophet-daily-report:$day -->"
+          if gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$REPORT_ISSUE/comments?per_page=100" --jq '.[].body' 2>/dev/null | grep -Fq "$marker"; then
+            echo 'Daily report already posted; suppressing duplicate notification.'
+            exit 0
+          fi
+
+          successes=$(grep -c 'RESULT .* = 0' /tmp/prophet-daily.log 2>/dev/null || true)
+          recoverable=$(grep -c 'RESULT .* = [1-9]' /tmp/prophet-daily.log 2>/dev/null || true)
+          tailtext=$(tail -n 30 /tmp/prophet-daily.log 2>/dev/null | sed 's/`/'"'"'/g')
+          cat > /tmp/report.md <<EOF
+          $marker
+          ## Daily Prophet generation report — $day
+
+          - Successful pipeline stages: $successes
+          - Recoverable/non-zero stages: $recoverable
+          - All legacy automatic workflows: disabled
+          - Notification policy: one report per UTC day
+          - Master rule: source truth and provenance override quotas; retryable gaps do not fail the daily run.
+
+          <details><summary>Last runtime lines</summary>
+
+          \`\`\`
+          $tailtext
+          \`\`\`
+          </details>
+          EOF
+          gh issue comment "$REPORT_ISSUE" --repo "$GITHUB_REPOSITORY" --body-file /tmp/report.md >/dev/null 2>&1 || true
+          exit 0
