@@ -67,6 +67,10 @@ def discover_web(row):
     for k in ('source','sourceUrl','verifiedSource','candidateSource','downloadUrl'):
         if row.get(k):urls.append(str(row[k]))
     found=[]
+    verified_url=str(row.get('verifiedSource') or '')
+    verified_fmt=str(row.get('verifiedFormat') or '').lower().strip()
+    if verified_url and verified_fmt in PRIORITY:
+        found.append({'format':verified_fmt,'url':verified_url,'name':verified_url.rsplit('/',1)[-1],'source':'verified-catalog'})
     for u in dict.fromkeys(urls):
         f=fmt_of(u)
         if f in PRIORITY:found.append({'format':f,'url':u,'name':u.rsplit('/',1)[-1],'source':'direct'})
