@@ -1,0 +1,41 @@
+{
+  "schema": "rijal-biography-batch-v1",
+  "batchNumber": 1,
+  "batchSize": 50,
+  "sourcePartition": "R3GENESI5/Itqan app/data/rijal/profiles_companion.json",
+  "selectionRule": "first 50 source-backed profiles in deterministic numeric-id order from the integrated rijal corpus",
+  "canonicalRoute": "person.html?rijal=1&id={id}&group=rijal&lang=ar",
+  "biographyPolicy": {
+    "sourceGroundedOnly": true,
+    "noInventedFacts": true,
+    "useAvailableFields": [
+      "full_name",
+      "kunya",
+      "laqab",
+      "nasab",
+      "birth",
+      "death",
+      "city",
+      "tabaqat",
+      "grade_ar",
+      "grade_en",
+      "dhahabi",
+      "jarh_wa_tadil",
+      "teachers",
+      "students",
+      "namings",
+      "classical_sources",
+      "provenance"
+    ],
+    "missingFields": "omit",
+    "publicMetaCommentary": false
+  },
+  "status": "STARTED",
+  "records": [
+    {"id":18,"name":"علقمة بن وقاص بن محصن بن كلدة بن عبد ياليل بن طريف بن عتوارة بن عامر بن مالك بن ليث بن بكر بن عبد مناة بن كنانة","status":"BIOGRAPHY_SOURCE_READY"},
+    {"id":32,"name":"جوثة بن أبي جوثة، ويقال: ابن عبيد","status":"BIOGRAPHY_SOURCE_READY"},
+    {"id":58,"name":"سلمان بن مر","status":"BIOGRAPHY_SOURCE_READY"},
+    {"id":98,"name":"صهيب بن سنان بن خالد بن عمرو","status":"BIOGRAPHY_SOURCE_READY"}
+  ],
+  "note": "Batch extraction started from the companion partition. Additional records in this batch must be appended only after reading their exact source profiles; names and facts are never guessed."
+}
