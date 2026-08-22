@@ -1,0 +1,33 @@
+{
+  "schema": "prophet-canonical-biography-batches-v1",
+  "generatedAt": "2026-08-22T02:38:00Z",
+  "source": {
+    "repository": "R3GENESI5/Itqan",
+    "ref": "master",
+    "path": "app/data/rijal",
+    "version": "1.20",
+    "totalProfiles": 115735,
+    "totalVariants": 217762,
+    "classicalTexts": 22
+  },
+  "batchSize": 50,
+  "fullBatches": 2314,
+  "totalBatches": 2315,
+  "lastBatchSize": 35,
+  "canonicalBiographyRoute": "person.html?rijal=1&id={id}&group=rijal&lang={lang}",
+  "onePersonOneCanonicalBiography": true,
+  "biographyPolicy": "Every source profile is assigned exactly one canonical person biography route. Public biography text may use only source-backed profile fields and verified source extensions; missing facts are never invented.",
+  "bodyDuplication": false,
+  "selectionOrder": "source manifest partition order, then stable lexicographic source-profile id order within each partition",
+  "partitions": [
+    {"file":"profiles_companion.json","grade":"companion","count":10880,"ordinalStart":1,"ordinalEnd":10880},
+    {"file":"profiles_reliable.json","grade":"reliable","count":26467,"ordinalStart":10881,"ordinalEnd":37347},
+    {"file":"profiles_mostly_reliable.json","grade":"mostly_reliable","count":21800,"ordinalStart":37348,"ordinalEnd":59147},
+    {"file":"profiles_weak.json","grade":"weak","count":21413,"ordinalStart":59148,"ordinalEnd":80560},
+    {"file":"profiles_abandoned.json","grade":"abandoned","count":1386,"ordinalStart":80561,"ordinalEnd":81946},
+    {"file":"profiles_fabricator.json","grade":"fabricator","count":2094,"ordinalStart":81947,"ordinalEnd":84040},
+    {"file":"profiles_unknown.json","grade":"unknown","count":31695,"ordinalStart":84041,"ordinalEnd":115735}
+  ],
+  "batchFiles": "data/biography_batches/batch-{number:04d}.json",
+  "materializationScript": "scripts/build_biography_batches.py"
+}
