@@ -1,10 +1,19 @@
-# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
 name: Master Governance
 
 on:
   pull_request:
+    paths:
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - 'scripts/**'
+      - '.github/workflows/**'
   push:
     branches: [main]
+    paths:
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -17,5 +26,5 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Enforce controlling master instruction on new processes
+      - name: Enforce final overriding master instruction on new processes
         run: python3 scripts/check_master_governance.py
