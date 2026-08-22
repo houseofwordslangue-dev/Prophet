@@ -1,0 +1,60 @@
+{
+  "schema": "quran-native-deep-search-v1",
+  "generatedAt": "2026-08-22T02:44:00Z",
+  "summary": {
+    "reportedRuntimeFailed": 0,
+    "targetsReviewed": 5,
+    "nativeOrSearchableAlternativesFound": 5,
+    "safeAutoPromotions": 1,
+    "needsRightsOrEditionReview": 4
+  },
+  "items": [
+    {
+      "id": "quran-meaning-001",
+      "title": "لطائف الإشارات",
+      "currentState": "SKIP READY",
+      "finding": "Native DOC volumes are discoverable online, but the located 2000 critical edition requires edition/rights review before repository redistribution.",
+      "preferredTechnicalFormat": "doc",
+      "source": "https://quranpedia.net/book/14598",
+      "action": "REVIEW_BEFORE_INGEST"
+    },
+    {
+      "id": "quran-meaning-003",
+      "title": "روح البيان في تفسير القرآن",
+      "currentState": "SKIP READY",
+      "finding": "Native searchable text is available online; public-domain scans also exist on Arabic Wikisource and Arabic Collections Online.",
+      "preferredTechnicalFormat": "html",
+      "source": "https://quranpedia.net/book/336",
+      "publicDomainScanSource": "https://ar.wikisource.org/wiki/ملف:روح_البيان_لإسماعيل_حقي1.pdf",
+      "action": "VERIFY_TEXT_PROVENANCE_THEN_PROMOTE"
+    },
+    {
+      "id": "quran-meaning-013",
+      "title": "مفاتيح الغيب المشتهر بالتفسير الكبير",
+      "currentState": "READY_CHUNKED_OCR",
+      "finding": "EPUB/MOBI editions are discoverable, while Arabic Wikisource has public-domain scans. Native edition redistribution rights must be verified before replacing OCR.",
+      "preferredTechnicalFormat": "epub",
+      "nativeCandidate": "https://shamela.org/pdf/c3bce036e7f7443edf99f982be2bb6ec",
+      "publicDomainScanSource": "https://ar.wikisource.org/wiki/ملف:مفاتيح_الغيب6.pdf",
+      "action": "KEEP_OCR_UNTIL_NATIVE_EDITION_RIGHTS_VERIFIED"
+    },
+    {
+      "id": "quran-meaning-015",
+      "title": "جامع البيان عن تأويل آي القرآن",
+      "currentState": "READY_CHUNKED_OCR",
+      "finding": "A fully indexed 25-volume edition with a linked Shamela text exists; the located critical edition is modern and should not be redistributed without edition-level rights verification.",
+      "preferredTechnicalFormat": "searchable-text",
+      "source": "https://waqfeya.com/books/جامع-البيان-عن-تأويل-آي-القرآن-تفسير-الطبري-ت-التركي-d3521452cecd44759809dd9a2f3fc5a1",
+      "action": "KEEP_CURRENT_COPY_AND_VERIFY_NATIVE_TEXT_RIGHTS"
+    },
+    {
+      "id": "quran-meaning-017",
+      "title": "الجامع لأحكام القرآن",
+      "currentState": "READY_CHUNKED_OCR",
+      "finding": "Arabic Wikisource has native readable text and export options including EPUB/MOBI/PDF. This is the strongest native-text replacement candidate.",
+      "preferredTechnicalFormat": "html",
+      "source": "https://ar.wikisource.org/wiki/الجامع_لأحكام_القرآن",
+      "action": "AUTO_PROMOTE_NATIVE_WIKISOURCE"
+    }
+  ]
+}
