@@ -1,0 +1,28 @@
+{
+  "version": "daily-section-rotation-v1",
+  "rotation": [
+    "light",
+    "prophet",
+    "messenger",
+    "human",
+    "mercy",
+    "family",
+    "companions",
+    "media"
+  ],
+  "runs": [
+    {
+      "at": "2026-08-22T03:15:00+00:00",
+      "date": "2026-08-22",
+      "section": "prophet",
+      "subsection": "research",
+      "status": "DRAFT_READY_FOR_STRICT_AUTOPUBLISH",
+      "articleId": "20260822-daily-prophet-001",
+      "sourceFingerprint": "caefa3e69c1367696969b31356444dd93ac3bcd25cfe87f7bba9af08befde89d",
+      "sourcesScanned": 12,
+      "selectionScore": 22
+    }
+  ],
+  "lastRunAt": "2026-08-22T03:15:00Z",
+  "lastSection": "prophet"
+}
