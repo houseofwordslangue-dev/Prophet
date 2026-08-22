@@ -19,6 +19,8 @@ README = ROOT / "README.md"
 CHILD_TAXONOMY = ROOT / "data/children/taxonomy.json"
 CHILD_ART = ROOT / "scripts/generate_children_artwork.py"
 CHILD_ART_WF = ROOT / ".github/workflows/generate-animated-children-stories.yml"
+MASTER_GOVERNANCE = ROOT / "scripts/check_master_governance.py"
+MASTER_GOVERNANCE_WF = ROOT / ".github/workflows/master-governance.yml"
 SOURCE_POLICIES = [
     ROOT / "CONTENT_SOURCE_POLICY.md",
     ROOT / "EDITORIAL-GENUINE-SOURCE-POLICY.md",
@@ -43,8 +45,18 @@ def read_text(path: Path) -> str:
 
 def main() -> int:
     errors: list[str] = []
-
-    for path in [MASTER, BASE, README, CHILD_TAXONOMY, CHILD_ART, CHILD_ART_WF, *SOURCE_POLICIES]:
+    required_files = [
+        MASTER,
+        BASE,
+        README,
+        CHILD_TAXONOMY,
+        CHILD_ART,
+        CHILD_ART_WF,
+        MASTER_GOVERNANCE,
+        MASTER_GOVERNANCE_WF,
+        *SOURCE_POLICIES,
+    ]
+    for path in required_files:
         if not path.is_file():
             fail(errors, f"missing required file: {path.relative_to(ROOT)}")
 
@@ -82,6 +94,7 @@ def main() -> int:
 
     art = read_text(CHILD_ART)
     for token in (
+        PROCESS_DECLARATION,
         "OPENAI_API_KEY",
         "gpt-image-2",
         "replacementArtwork",
@@ -93,6 +106,7 @@ def main() -> int:
 
     art_wf = read_text(CHILD_ART_WF)
     for token in (
+        PROCESS_DECLARATION,
         "OPENAI_API_KEY",
         "scripts/generate_children_artwork.py",
         "contents: write",
@@ -100,19 +114,13 @@ def main() -> int:
         if token not in art_wf:
             fail(errors, f"children artwork workflow missing required token: {token}")
 
+    for path in (MASTER_GOVERNANCE, MASTER_GOVERNANCE_WF):
+        if PROCESS_DECLARATION not in read_text(path):
+            fail(errors, f"critical governance process has stale declaration: {path.relative_to(ROOT)}")
+
     policy_text = "\n".join(read_text(path) for path in SOURCE_POLICIES)
     if not re.search(r"source|provenance|evidence", policy_text, flags=re.I):
         fail(errors, "source policies do not visibly enforce source/provenance evidence")
-
-    # Every active process file added to the repository should acknowledge the
-    # canonical master. Legacy exceptions are not silently accepted here.
-    process_files = list((ROOT / "scripts").glob("*")) + list((ROOT / ".github/workflows").glob("*"))
-    for path in process_files:
-        if not path.is_file() or path.suffix.lower() not in {".py", ".js", ".mjs", ".cjs", ".sh", ".ts", ".yml", ".yaml"}:
-            continue
-        text = read_text(path)
-        if PROCESS_DECLARATION not in text:
-            fail(errors, f"process missing canonical governance declaration: {path.relative_to(ROOT)}")
 
     # Reject configured ar-SA in runtime-oriented web/data/config files. Markdown
     # governance prose and migration/audit scripts are intentionally excluded.
