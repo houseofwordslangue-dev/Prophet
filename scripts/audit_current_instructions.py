@@ -5,9 +5,10 @@ Deterministic acceptance audit for the unified controlling instruction.
 from pathlib import Path
 import json,sys
 ROOT=Path(__file__).resolve().parents[1]
+SELF=Path(__file__).resolve()
 M=ROOT/"MASTER-OVERRIDING-SITE-INSTRUCTION.md"
 D="GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md"
-STALE="GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md"
+STALE="GOVERNED_BY: MASTER_"+"OVERRIDING_INSTRUCTION.md"
 def main():
  e=[]
  if not M.is_file():e.append("missing canonical master")
@@ -19,7 +20,9 @@ def main():
   if "incorporated into this canonical master instruction by reference" in s:e.append("canonical master still uses incorporated-by-reference split authority")
  if (ROOT/"MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md").exists():e.append("split BASE master still exists")
  alias=ROOT/"MASTER_OVERRIDING_INSTRUCTION.md"
- if alias.exists() and "not a controlling instruction" not in alias.read_text(encoding="utf-8"):e.append("underscore master alias still claims authority")
+ if alias.exists():
+  a=alias.read_text(encoding="utf-8")
+  if "sole authoritative project instruction" not in a or "MASTER-OVERRIDING-SITE-INSTRUCTION.md" not in a:e.append("underscore master alias still claims authority")
  menu=(ROOT/"assets/site-menu.js").read_text(encoding="utf-8")
  for x in ("الزوجات / أمهات المؤمنين","family.html?group=wives","المصادر والدراسات","المقالات والموضوعات"):
   if x not in menu:e.append("menu missing: "+x)
@@ -32,14 +35,12 @@ def main():
  cs=tax.get("canonicalSections",{})
  if cs.get("family",{}).get("wivesLabelAr")!="الزوجات / أمهات المؤمنين":e.append("taxonomy missing wives collection")
  if cs.get("library",{}).get("labelAr")!="المصادر والدراسات":e.append("taxonomy library label mismatch")
- # Scripts are active project processes and must all carry the canonical declaration after reconciliation.
  for q in (ROOT/"scripts").rglob("*"):
   if not q.is_file() or q.suffix.lower() not in {".py",".js",".mjs",".cjs",".sh",".ts"}:continue
   try:t=q.read_text(encoding="utf-8")
   except UnicodeDecodeError:continue
   if D not in t:e.append("script lacks canonical declaration: "+str(q.relative_to(ROOT)))
-  if STALE in t:e.append("stale governing alias: "+str(q.relative_to(ROOT)))
- # Workflows may predate the declaration rule, but no active workflow may name the obsolete master alias.
+  if q.resolve()!=SELF and STALE in t:e.append("stale governing alias: "+str(q.relative_to(ROOT)))
  for q in (ROOT/".github/workflows").glob("*.y*"):
   try:t=q.read_text(encoding="utf-8")
   except UnicodeDecodeError:continue
