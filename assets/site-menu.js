@@ -14,6 +14,7 @@ function loadLaunchAudio(){loadScript('assets/site-launch-audio.js')}
 function isChildrenPage(){const p=location.pathname.split('/').pop()||'';return /^children(?:-|\.html|$)/.test(p)}
 function loadChildrenExperience(){if(!isChildrenPage())return;loadStyle('assets/children-experience.css');loadScript('assets/children-experience.js')}
 function loadChildrenChat(){if(!isChildrenPage())return;loadStyle('assets/children-chat.css');loadScript('assets/children-chat.js')}
-loadPlatform();loadLaunchAudio();loadChildrenExperience();loadChildrenChat();
+function loadSiteChat(){if(isChildrenPage())return;loadStyle('assets/site-chat.css');loadScript('assets/site-chat.js')}
+loadPlatform();loadLaunchAudio();loadChildrenExperience();loadChildrenChat();loadSiteChat();
 document.addEventListener('DOMContentLoaded',()=>{mount();applyQuery();observe()});
 })();
