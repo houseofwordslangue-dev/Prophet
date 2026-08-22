@@ -1,0 +1,23 @@
+{
+  "schema": "bookstore-publication-policy-v1",
+  "governedBy": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
+  "rule": "Every published resource must be present in the public bookstore list with no omission.",
+  "requirements": {
+    "catalogueInclusion": "ALL_PUBLISHED_RESOURCES",
+    "browse": "Every published record must be browsable in the bookstore and expose a real source/provider action whenever a verified URL exists.",
+    "read": "Enable the internal reader whenever the published resource has a genuinely readable public or local asset.",
+    "search": "Enable search only when searchable text or a supported searchable document is actually available.",
+    "listen": "Enable listening only when audio exists or text-to-speech is supported by the readable text mode.",
+    "watch": "Enable watching only when a genuine video/media source exists.",
+    "restrictedProviders": "Borrow-only, login-gated, preview-only, controlled-lending, or other provider-restricted resources remain listed and browsable through the provider without bypassing provider controls or being mislabeled as unrestricted local full text.",
+    "archiveRule": "All Internet Archive resources listed anywhere in the site resource catalogues are included with no catalogue-level exception."
+  },
+  "sourcesMergedIntoBookstore": [
+    "data/ingested_library.json",
+    "data/published_user_books.json",
+    "data/generated_epubs.json",
+    "data/public_catalog_all.generated.json",
+    "data/catalogue/chunk-01.json through data/catalogue/chunk-14.json",
+    "data/provider_access.json"
+  ]
+}
