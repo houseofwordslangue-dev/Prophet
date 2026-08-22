@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 AVAIL = ROOT / 'data/editorial/resource_extraction_availability.json'
 OUT = ROOT / 'data/editorial/resource_extraction_force_report.json'
 RESOLUTION = ROOT / 'private/source_first_resolution.json'
-MAX_ROUNDS = 5
+MAX_ROUNDS = 8
 
 
 def load(path, default):
@@ -51,16 +51,13 @@ def main():
     stable_rounds = 0
 
     for n in range(1, MAX_ROUNDS + 1):
-        steps = []
-        steps.append(py('source_first_fulltext_resolver.py'))
-        steps.append(py('live_native_catalog_resolver.py'))
-        # Large batch is intentional in FORCE-COMPLETE mode. The acquisition script
-        # remains governed by rights/source checks; this is not permission to ingest
-        # restricted or unverified material.
-        steps.append(py('acquire_unrestricted_library.py', '--limit', '200'))
-        steps.append(py('build_ingested_library.py'))
-        steps.append(py('source_first_fulltext_resolver.py'))
-
+        steps = [
+            py('source_first_fulltext_resolver.py'),
+            py('live_native_catalog_resolver.py'),
+            py('acquire_unrestricted_library.py', '--limit', '200'),
+            py('build_ingested_library.py'),
+            py('source_first_fulltext_resolver.py'),
+        ]
         s = snapshot()
         rounds.append({'round': n, 'steps': steps, 'snapshot': s})
         ready = s['extractionReady']
@@ -69,34 +66,25 @@ def main():
         else:
             stable_rounds = 0
         previous_ready = ready
-
-        if s['acquisitionRequired'] == 0:
-            break
-        if stable_rounds >= 2:
+        if s['acquisitionRequired'] == 0 or stable_rounds >= 2:
             break
         time.sleep(1)
 
     final = snapshot()
     resolution = load(RESOLUTION, {'items': []})
     unresolved = [x for x in resolution.get('items', []) if not x.get('extractionReady')]
-
-    # FORCE-COMPLETE means the state machine is complete, not that evidence may be
-    # fabricated. Every unresolved resource is explicitly HARD_BLOCKED and excluded
-    # from extraction/generation until a verified path is found in a later cycle.
-    hard_blocked = []
-    for x in unresolved:
-        hard_blocked.append({
-            'id': x.get('id'),
-            'title': x.get('title'),
-            'author': x.get('author'),
-            'state': 'HARD_BLOCKED',
-            'reason': 'No verified extraction path after exhaustive current resolver/acquisition rounds.',
-            'generationAllowed': False,
-            'retryOnNewSource': True,
-        })
+    hard_blocked = [{
+        'id': x.get('id'),
+        'title': x.get('title'),
+        'author': x.get('author'),
+        'state': 'HARD_BLOCKED',
+        'reason': 'No verified extraction path after exhaustive current resolver/acquisition rounds.',
+        'generationAllowed': False,
+        'retryOnNewSource': True,
+    } for x in unresolved]
 
     report = {
-        'schema': 'resource-extraction-force-report-v1',
+        'schema': 'resource-extraction-force-report-v2',
         'governedBy': 'MASTER-OVERRIDING-SITE-INSTRUCTION.md',
         'generatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'forceCompleteStateMachine': True,
@@ -111,11 +99,12 @@ def main():
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps({k: report[k] for k in ('catalogResources','extractionReady','hardBlocked','coveragePercent','allResourcesExtractionReady')}, ensure_ascii=False))
 
-    # Do not fail the whole daily pipeline merely because external source evidence is
-    # unavailable. The generated report is the authoritative gate and blocks those
-    # resources from downstream generation.
+    # Always materialize the authoritative downstream allowlist after the final pass.
+    gate = py('enforce_resource_extraction_readiness.py')
+    report['readinessGate'] = gate
+    OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps({k: report[k] for k in ('catalogResources','extractionReady','hardBlocked','coveragePercent','allResourcesExtractionReady')}, ensure_ascii=False))
     return 0
 
 
