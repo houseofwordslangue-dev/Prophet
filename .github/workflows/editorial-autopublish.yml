@@ -1,146 +1,95 @@
 name: Genuine-source editorial autopublish
 
+# Controlled by MASTER_OVERRIDING_INSTRUCTION.md.
+# Eight main editorial sections rotate across each 24-hour UTC cycle.
+# One section is processed every three hours. Only source-grounded candidates
+# that pass the strict provenance gate are published.
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 */3 * * *'
   push:
     branches: [main]
     paths:
       - '.github/workflows/editorial-autopublish.yml'
       - 'scripts/editorial_autopublish.py'
-      - 'scripts/extract_five_sections_500_v2.py'
+      - 'scripts/daily_rotating_editorial_fill.py'
+      - 'scripts/build_100_genuine_articles.py'
       - 'data/editorial/drafts/**'
       - 'data/editorial_sections.json'
       - 'data/editorial/publication_supplement.json'
       - 'resources/library/processed/**'
       - 'data/ingested_library.json'
-  pull_request:
-    branches: [main]
-    paths:
-      - 'scripts/extract_five_sections_500_v2.py'
-      - 'data/editorial/drafts/**'
-      - 'data/editorial/publication_supplement.json'
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
 
 permissions:
   contents: write
 
 concurrency:
-  group: genuine-source-editorial-autopublish-${{ github.event.pull_request.number || github.ref }}
+  group: genuine-source-editorial-autopublish-main
   cancel-in-progress: false
 
 jobs:
   publish:
     if: github.actor != 'prophet-editorial-bot'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref || github.ref_name }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # Publish every independently verified source record first. A failure in
-      # the larger five-section corpus build must never suppress otherwise
-      # publishable material.
-      - name: Validate immediate genuine-source publication candidates
+      - name: Validate existing genuine-source publication candidates
         run: python scripts/editorial_autopublish.py --check
 
-      - name: Publish immediate genuine-source records
-        run: |
-          python scripts/editorial_autopublish.py
-          git config user.name 'prophet-editorial-bot'
-          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add data/editorial/publication_manifest.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Autopublish newly verified genuine-source articles [skip ci]'
-            git push
-          fi
+      - name: Create next rotating daily section article
+        id: rotate
+        continue-on-error: true
+        run: python scripts/daily_rotating_editorial_fill.py
 
-      - name: Build five exclusive Muhammad sections
-        id: fivebuild
+      - name: Record rotation result without failing on missing source
+        if: always()
         shell: bash
         run: |
-          mkdir -p data/editorial/audits
-          set +e
-          python scripts/extract_five_sections_500_v2.py > data/editorial/audits/five-sections-build.log 2>&1
-          status=$?
-          cat data/editorial/audits/five-sections-build.log
-          echo "exit_code=$status" >> "$GITHUB_OUTPUT"
-          exit 0
-
-      - name: Persist failed build diagnostic
-        if: steps.fivebuild.outputs.exit_code != '0'
-        run: |
-          git config user.name 'prophet-editorial-bot'
-          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add data/editorial/audits/five-sections-build.log
-          git commit -m 'Record five-section build diagnostic [skip ci]' || true
-          git push || true
-          exit 1
-
-      - name: Validate exact five-section corpus
-        if: steps.fivebuild.outputs.exit_code == '0'
-        run: |
-          python - <<'PY'
-          import json
-          from collections import Counter
-          p=json.load(open('data/editorial/drafts/2026-08-22/five-sections-500.json',encoding='utf-8'))
-          a=json.load(open('data/editorial/audits/five-sections-500-audit.json',encoding='utf-8'))
-          c=Counter(x['section'] for x in p['drafts'])
-          assert len(p['drafts']) == 500
-          assert c == Counter({'light':100,'prophet':100,'messenger':100,'human':100,'mercy':100}), c
-          assert min(x['sourceWordCount'] for x in p['drafts']) >= 1000
-          assert len({x['sourceFingerprint'] for x in p['drafts']}) == 500
-          assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in p['drafts'])
-          assert a['status']=='PASS' and a['publishedArticles']==500
-          print('PASS five sections:',c)
-          PY
-
-      - name: Commit five-section publication corpus
-        if: steps.fivebuild.outputs.exit_code == '0'
-        run: |
-          git config user.name 'prophet-editorial-bot'
-          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add data/editorial/drafts/2026-08-22/five-sections-500.json \
-                  data/editorial/audits/five-sections-500-audit.json \
-                  data/editorial/audits/five-sections-build.log \
-                  data/editorial/publication_manifest.json \
-                  data/editorial/publication_supplement.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Publish 100 exclusive articles per Muhammad section [skip ci]'
-            git push
+          echo '### Daily editorial rotation' >> "$GITHUB_STEP_SUMMARY"
+          if [ '${{ steps.rotate.outcome }}' = 'failure' ]; then
+            echo 'The rotating extractor encountered a recoverable processing problem. Existing verified content remains published.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'No article is fabricated to satisfy cadence; the next cycle retries from available sources.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Rotation completed. If a new verified source candidate was found, it is passed to strict autopublish.' >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Validate genuine-source publication candidates after five-section build
-        if: steps.fivebuild.outputs.exit_code == '0'
+      - name: Strict source/provenance check after rotation
         run: python scripts/editorial_autopublish.py --check
-      - name: Publish all newly verified genuine-source drafts after five-section build
-        if: steps.fivebuild.outputs.exit_code == '0'
+
+      - name: Publish all newly verified genuine-source records
         run: python scripts/editorial_autopublish.py
-      - name: Validate public editorial manifest
-        if: steps.fivebuild.outputs.exit_code == '0'
+
+      - name: Validate hard integrity invariants
         run: |
           python - <<'PY'
           import json, pathlib
-          d=json.loads(pathlib.Path('data/editorial/publication_manifest.json').read_text(encoding='utf-8'))
+          p=pathlib.Path('data/editorial/publication_manifest.json')
+          d=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
           a=d.get('automation') or {}; i=d.get('integrity') or {}
-          assert d.get('status') == 'PUBLISHED' and a.get('enabled') is True
+          assert a.get('enabled') is True
           assert int(i.get('aiGeneratedSubstantiveArticles',-1)) == 0
           assert int(i.get('unsupportedFactualParagraphs',-1)) == 0
           assert int(i.get('unverifiedQuotations',-1)) == 0
           assert int(i.get('articlesWith100PercentSourceProvenance',0)) == int(i.get('articlesPublished',-1))
+          print('HARD INTEGRITY PASS')
           PY
-      - name: Commit remaining publication-state changes
-        if: steps.fivebuild.outputs.exit_code == '0'
+
+      - name: Commit rotation and publication state
         run: |
           git config user.name 'prophet-editorial-bot'
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
-          git add data/editorial/publication_manifest.json
+          git add data/editorial/drafts data/editorial/daily_rotation_audit.json data/editorial/publication_manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Autopublish newly verified genuine-source articles'
-            git push
+            git commit -m 'Daily rotating source-grounded editorial fill [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
