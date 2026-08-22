@@ -1,13 +1,13 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:12:52.572982+00:00",
-  "gitCommit": "7667b75a3f914853029aa2805782e23b8eb4a43a",
+  "generatedAt": "2026-08-22T01:30:13.766783+00:00",
+  "gitCommit": "d88790d4cc206c4ce01bd6e61d978c1d1db40587",
   "github": {
-    "trackedFileCount": 768,
+    "trackedFileCount": 776,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 195,
-      "NON_PUBLIC_WORKSPACE_OR_REJECTED": 126,
-      "PUBLIC_OR_SOURCE_ASSET": 44,
+      "TECHNICAL_REPOSITORY_FILE": 201,
+      "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
+      "PUBLIC_OR_SOURCE_ASSET": 45,
       "PUBLIC_SITE_ASSET": 100,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
       "CONTENT_OR_PUBLICATION_REGISTRY": 295
@@ -35,7 +35,7 @@
       },
       {
         "path": ".github/workflows/book-ingest.yml",
-        "size": 4931,
+        "size": 5912,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -60,7 +60,7 @@
       },
       {
         "path": ".github/workflows/editorial-autopublish.yml",
-        "size": 2540,
+        "size": 5410,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -81,6 +81,11 @@
       {
         "path": ".github/workflows/export-archive-pdf-epub.yml",
         "size": 2135,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".github/workflows/extract-five-sections-500.yml",
+        "size": 2015,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -244,13 +249,18 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": ".github/workflows/resolve-native-gaps.yml",
+        "size": 1854,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": ".github/workflows/rotation-ingest.yml",
         "size": 8180,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
         "path": ".github/workflows/source-first-fulltext.yml",
-        "size": 3778,
+        "size": 4048,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -281,6 +291,11 @@
       {
         "path": "EDITORIAL-GENUINE-SOURCE-POLICY.md",
         "size": 5045,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "MASTER-FIVE-SECTIONS-EXTRACTION-PROMPT.md",
+        "size": 2864,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
       },
       {
@@ -760,7 +775,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 847113,
+        "size": 847166,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -902,6 +917,11 @@
         "path": "data/editorial/ali_life_biographies_1000_audit.json",
         "size": 2292,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/audits/five-sections-build.log",
+        "size": 2119,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
         "path": "data/editorial/biography-extensions/abd-al-muttalib.json",
@@ -2724,6 +2744,11 @@
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
+        "path": "data/editorial/drafts/2026-08-22/restored-five-slots.json",
+        "size": 9045,
+        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
+      },
+      {
         "path": "data/editorial/expanded_biographies_135_local_audit.json",
         "size": 4114,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
@@ -3619,6 +3644,11 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": "scripts/discover_native_open_sources.py",
+        "size": 4905,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": "scripts/editorial_autopublish.py",
         "size": 9433,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -3641,6 +3671,11 @@
       {
         "path": "scripts/export_archive_pdf_epub.py",
         "size": 5821,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/extract_five_sections_500_v2.py",
+        "size": 10651,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -3711,6 +3746,11 @@
       {
         "path": "scripts/ingest_retained_batch.py",
         "size": 6031,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/live_native_catalog_resolver.py",
+        "size": 5604,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -25874,7 +25914,7 @@
   },
   "externalBaseline": {
     "schema": "prophet-exhaustive-publication-audit-v2",
-    "generatedAt": "2026-08-22T01:12:51.995103+00:00",
+    "generatedAt": "2026-08-22T01:13:26.274303+00:00",
     "auditScope": {
       "resourceQueue": 724,
       "priorityQueue": 500,
