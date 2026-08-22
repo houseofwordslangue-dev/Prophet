@@ -1,6 +1,6 @@
 {
-  "schema": "short-biography-source-extension-index-v7",
-  "generatedAt": "2026-08-22T03:03:01.858914Z",
+  "schema": "short-biography-source-extension-index-v8",
+  "generatedAt": "2026-08-22T03:07:05.721018Z",
   "targetWords": 500,
   "policy": {
     "directPersonOwnershipOnly": true,
@@ -83,14 +83,23 @@
       "status": "EXTENDED_TO_500",
       "file": "data/editorial/short-biography-extensions/jabir-ibn-abdullah.json"
     },
-    "usama-ibn-zaid": {
-      "id": "usama-ibn-zaid",
-      "nameAr": "أسامة بن زيد",
+    "siyar-e5c031400b268c": {
+      "id": "siyar-e5c031400b268c",
+      "nameAr": "علي بن عبد الله بن العباس",
+      "beforeWords": 222,
+      "addedWords": 239,
+      "finalWords": 461,
+      "status": "SOURCE_LIMITED",
+      "file": "data/editorial/short-biography-extensions/siyar-e5c031400b268c.json"
+    },
+    "talha-ibn-ubaydullah": {
+      "id": "talha-ibn-ubaydullah",
+      "nameAr": "طلحة بن عبيد الله",
       "beforeWords": 0,
-      "addedWords": 809,
-      "finalWords": 809,
+      "addedWords": 2508,
+      "finalWords": 2508,
       "status": "EXTENDED_TO_500",
-      "file": "data/editorial/short-biography-extensions/usama-ibn-zaid.json"
+      "file": "data/editorial/short-biography-extensions/talha-ibn-ubaydullah.json"
     }
   }
 }

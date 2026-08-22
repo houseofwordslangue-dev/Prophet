@@ -1,6 +1,6 @@
 {
-  "schema": "short-biographies-500-audit-v7",
-  "generatedAt": "2026-08-22T03:03:01.858889Z",
+  "schema": "short-biographies-500-audit-v8",
+  "generatedAt": "2026-08-22T03:07:05.720977Z",
   "targetWords": 500,
   "indexedPeople": 514,
   "below500Before": 362,
@@ -2802,16 +2802,16 @@
       "missingWords": 334
     },
     {
-      "id": "talha-ibn-ubaydullah",
-      "nameAr": "طلحة بن عبيد الله",
+      "id": "umar-ibn-al-khattab",
+      "nameAr": "عمر بن الخطاب",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
       "missingWords": 500
     },
     {
-      "id": "umar-ibn-al-khattab",
-      "nameAr": "عمر بن الخطاب",
+      "id": "usama-ibn-zaid",
+      "nameAr": "أسامة بن زيد",
       "beforeWords": 0,
       "addedWords": 0,
       "finalWords": 0,
@@ -2839,19 +2839,19 @@
   "directSiyarPagesAdded": 7,
   "directSiyarWordsAdded": 23457,
   "duplicateCanonicalSiyarPagesSkipped": 0,
-  "onlineSource": "Approved Arabic Wikisource direct biographical works",
+  "siyarCatalogueSize": 0,
   "latestRequestedExtensionBatch": 50,
   "latestCompletedExtensionBatch": 1,
   "latestBatchPeople": [
     {
-      "id": "usama-ibn-zaid",
-      "nameAr": "أسامة بن زيد",
-      "finalWords": 809,
-      "file": "data/editorial/short-biography-extensions/usama-ibn-zaid.json"
+      "id": "talha-ibn-ubaydullah",
+      "nameAr": "طلحة بن عبيد الله",
+      "finalWords": 2508,
+      "file": "data/editorial/short-biography-extensions/talha-ibn-ubaydullah.json"
     }
   ],
-  "latestBatchAttempted": 228,
-  "latestBatchPagesAdded": 1,
-  "latestBatchSourceWordsAdded": 809,
+  "latestBatchAttempted": 230,
+  "latestBatchPagesAdded": 2,
+  "latestBatchSourceWordsAdded": 2747,
   "onlineExtractionErrors": []
 }
