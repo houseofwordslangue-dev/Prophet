@@ -15,12 +15,18 @@ on:
       - 'data/editorial/publication_supplement.json'
       - 'resources/library/processed/**'
       - 'data/ingested_library.json'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/extract_five_sections_500_v2.py'
+      - 'data/editorial/drafts/**'
+      - 'data/editorial/publication_supplement.json'
 
 permissions:
   contents: write
 
 concurrency:
-  group: genuine-source-editorial-autopublish
+  group: genuine-source-editorial-autopublish-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -31,6 +37,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref || github.ref_name }}
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
