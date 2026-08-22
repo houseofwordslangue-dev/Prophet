@@ -1,0 +1,61 @@
+name: Enforce ar-MA master audio locale
+
+on:
+  push:
+    paths:
+      - '.github/workflows/enforce-ar-ma-master.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-master-rule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Append global Moroccan Arabic audio rule safely
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p = Path('MASTER-OVERRIDING-SITE-INSTRUCTION.md')
+          text = p.read_text(encoding='utf-8')
+          marker = 'GLOBAL ARABIC AUDIO AND SPEECH LOCALE — ar-MA'
+          rule = r'''
+
+
+==================================================
+GLOBAL ARABIC AUDIO AND SPEECH LOCALE — ar-MA
+==================================================
+
+This is a permanent site-wide localization and audio governance rule.
+
+- All Arabic speech, text-to-speech, narration, read-aloud, chatbot audio, story audio, accessibility speech, voice-selection systems and any other locale-controlled Arabic audio feature across the entire site MUST use `ar-MA` as the primary Arabic locale.
+- `ar-SA` MUST NOT be used as the configured Arabic speech/TTS locale anywhere on the site.
+- This rule applies to the main site, أحباب الله, chatbots, players, stories, articles, biographies, library/readers, media interfaces, accessibility features, existing code, future code and automated/generated components.
+- Arabic voice selection MUST prefer an explicitly identified male `ar-MA` voice whenever male output is required by the governing voice policy.
+- If an exact male `ar-MA` browser/device voice is unavailable, a clearly identified male Arabic (`ar-*`) voice may be considered only as a compatibility fallback; never silently substitute a female or unidentified voice where male output is required.
+- External or fallback TTS providers MUST request Moroccan Arabic / `ar-MA` whenever locale selection is supported.
+- Prerecorded audio that has no locale-controlled speech synthesis setting is not altered merely to attach a locale tag; however, all generated or synthesized Arabic speech must follow this rule.
+- Every new audio/TTS implementation inherits this rule automatically unless this MASTER OVERRIDING INSTRUCTION explicitly supersedes it later.
+'''
+          if marker not in text:
+              text = text.rstrip() + rule + '\n'
+          text = text.replace('ar-SA', 'ar-MA')
+          p.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Commit master governance migration
+        shell: bash
+        run: |
+          git config user.name 'Prophet Site Governance Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add MASTER-OVERRIDING-SITE-INSTRUCTION.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Make ar-MA the global Arabic audio locale'
+            git push
+          fi
