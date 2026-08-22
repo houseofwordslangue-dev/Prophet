@@ -1,7 +1,7 @@
 {
-  "schema":"prophet-drive-native-assets-v1",
-  "generatedAt":"2026-08-22T02:01:00+01:00",
-  "source":"connected Google Drive EPUB folder",
+  "schema":"prophet-drive-native-assets-v2",
+  "generatedAt":"2026-08-22T05:56:00+01:00",
+  "source":"connected Google Drive EPUB/PDF extraction assets",
   "priority":"native-before-ocr",
   "items":[
     {"title":"روح البيان في تفسير القرآن — المجلد 2 — الجزء 2","format":"epub","driveId":"1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ","size":45424918},
@@ -28,6 +28,18 @@
     {"title":"السيرة النبوية — ابن هشام — volume-4","format":"epub","driveId":"10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS","size":502104},
     {"title":"السيرة النبوية — ابن هشام — volume-3","format":"epub","driveId":"1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23","size":483336},
     {"title":"السيرة النبوية — ابن هشام — volume-2","format":"epub","driveId":"1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6","size":582923},
-    {"title":"السيرة النبوية — ابن هشام — volume-1","format":"epub","driveId":"1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh","size":609891}
+    {"title":"السيرة النبوية — ابن هشام — volume-1","format":"epub","driveId":"1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh","size":609891},
+    {"title":"الطبقات الكبرى — الجزء 1","format":"pdf","driveId":"1fQiZz4_lpvgXKmSrv9yzo02dFjjTZWAB","size":7041118},
+    {"title":"الطبقات الكبرى — الجزء 2","format":"pdf","driveId":"1QZVHlPOhJrKYL_SUX6Bm2eGyODeio8ln","size":5691285},
+    {"title":"الطبقات الكبرى — الجزء 3","format":"pdf","driveId":"1FyXr9dB_G-QKyQ5vMoegj8rMLdccdiCn","size":8330946},
+    {"title":"الطبقات الكبرى — الجزء 4","format":"pdf","driveId":"1Xjpa14O7yB7agJAQlhxC5b4Cdb8HQMNM","size":5074080},
+    {"title":"الطبقات الكبرى — الجزء 5","format":"pdf","driveId":"1ULAb9ufQ_joex94FcckikHazwxnkGnKh","size":8794799},
+    {"title":"الطبقات الكبرى — الجزء 6","format":"pdf","driveId":"1BUlSVlXYPPZrvra2_WWKNF8HUH2GGTsf","size":6435020},
+    {"title":"الطبقات الكبرى — الجزء 7","format":"pdf","driveId":"1IVl-VEslumdqURP2wIQygq9vyouKkfWb","size":6312105},
+    {"title":"الطبقات الكبرى — الجزء 8","format":"pdf","driveId":"1IEPXoKqIdyDWnCORJyUiV6Ao9qd9eLuh","size":6186601},
+    {"title":"الطبقات الكبرى — الجزء 10","format":"pdf","driveId":"16FeLjSIBhd_NXK6YetqtIwXoauVMv_co","size":7784955},
+    {"title":"الطبقات الكبرى — الجزء 11","format":"pdf","driveId":"1UnUpwYxvAnRSvG4mJ9_x-3pbHzjuhXM-","size":3445610},
+    {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 3","format":"pdf","driveId":"1MBJFwKC1fuzvRKVuuS2yPua5J3LtewI9","size":8274410},
+    {"title":"السيرة النبوية — ابن هشام — volume-4 PDF","format":"pdf","driveId":"1EhVlvFM6nB_KVQYvgoGYb8pgJiJ8LO11","size":6834177}
   ]
 }
