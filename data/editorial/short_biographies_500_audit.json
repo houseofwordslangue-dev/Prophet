@@ -1,11 +1,11 @@
 {
-  "schema": "short-biographies-500-audit-v4",
-  "generatedAt": "2026-08-22T02:48:08.052507Z",
+  "schema": "short-biographies-500-audit-v5",
+  "generatedAt": "2026-08-22T02:50:32.230111Z",
   "targetWords": 500,
   "indexedPeople": 514,
   "below500Before": 362,
-  "extendedTo500": 13,
-  "sourceLimitedAfter": 349,
+  "extendedTo500": 8,
+  "sourceLimitedAfter": 354,
   "addedSourceWords": 230,
   "rejectedUnreadableExistingOcrPassages": 17,
   "residualUnder500": [
@@ -2018,44 +2018,84 @@
       "missingWords": 500
     },
     {
+      "id": "siyar-04f9e317c939a0",
+      "nameAr": "إبراهيم بن الوليد",
+      "beforeWords": 251,
+      "addedWords": 0,
+      "finalWords": 251,
+      "missingWords": 249
+    },
+    {
+      "id": "siyar-05cfaae5380457",
+      "nameAr": "النعمان بن مقرن",
+      "beforeWords": 404,
+      "addedWords": 0,
+      "finalWords": 404,
+      "missingWords": 96
+    },
+    {
       "id": "siyar-08b3b7632a671f",
       "nameAr": "القاسم بن عبد الرحمن الكوفي",
       "beforeWords": 125,
-      "addedWords": 186,
-      "finalWords": 311,
-      "missingWords": 189
+      "addedWords": 0,
+      "finalWords": 125,
+      "missingWords": 375
+    },
+    {
+      "id": "siyar-099f0304de00f1",
+      "nameAr": "ابن عبد الله بن سعد",
+      "beforeWords": 428,
+      "addedWords": 0,
+      "finalWords": 428,
+      "missingWords": 72
     },
     {
       "id": "siyar-0f41cd233d1228",
       "nameAr": "ابن الغسيل",
       "beforeWords": 194,
-      "addedWords": 246,
-      "finalWords": 440,
-      "missingWords": 60
+      "addedWords": 0,
+      "finalWords": 194,
+      "missingWords": 306
     },
     {
       "id": "siyar-113a0d727d14a2",
       "nameAr": "عبد الله بن يزيد",
       "beforeWords": 170,
-      "addedWords": 231,
-      "finalWords": 401,
-      "missingWords": 99
+      "addedWords": 0,
+      "finalWords": 170,
+      "missingWords": 330
     },
     {
       "id": "siyar-11cc14f9fff4d1",
       "nameAr": "أبو بكر بن محمد بن عمرو",
       "beforeWords": 191,
-      "addedWords": 257,
-      "finalWords": 448,
-      "missingWords": 52
+      "addedWords": 0,
+      "finalWords": 191,
+      "missingWords": 309
+    },
+    {
+      "id": "siyar-13cbe81ffcd263",
+      "nameAr": "أبو إسحاق الشيباني",
+      "beforeWords": 486,
+      "addedWords": 0,
+      "finalWords": 486,
+      "missingWords": 14
     },
     {
       "id": "siyar-15227424bae8b7",
       "nameAr": "أبو أسماء الرحبي",
       "beforeWords": 123,
-      "addedWords": 178,
-      "finalWords": 301,
-      "missingWords": 199
+      "addedWords": 0,
+      "finalWords": 123,
+      "missingWords": 377
+    },
+    {
+      "id": "siyar-171d97e4e4b731",
+      "nameAr": "الوحاظي",
+      "beforeWords": 421,
+      "addedWords": 0,
+      "finalWords": 421,
+      "missingWords": 79
     },
     {
       "id": "siyar-1a662c18a744ee",
@@ -2804,6 +2844,7 @@
   ],
   "complete": false,
   "interpretation": "Only readable direct person-owned source-backed Arabic counts. Collapsed OCR and related documentary context are excluded.",
-  "directSiyarPagesAdded": 17,
-  "directSiyarWordsAdded": 26843
+  "directSiyarPagesAdded": 7,
+  "directSiyarWordsAdded": 23457,
+  "duplicateCanonicalSiyarPagesSkipped": 0
 }
