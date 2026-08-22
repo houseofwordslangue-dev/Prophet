@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/extend-short-biographies-500.yml'
       - 'scripts/extend_short_biographies_500.py'
       - 'data/people.json'
       - 'data/family_people.json'
