@@ -7,6 +7,12 @@ on:
     paths:
       - scripts/extract_five_sections_500.py
       - .github/workflows/extract-five-sections-500.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - scripts/extract_five_sections_500.py
+      - .github/workflows/extract-five-sections-500.yml
   workflow_dispatch:
 
 permissions:
@@ -37,6 +43,7 @@ jobs:
           print(c)
           PY
       - name: Commit generated publication corpus
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "prophet-editorial-bot"
           git config user.email "actions@users.noreply.github.com"
