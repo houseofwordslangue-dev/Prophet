@@ -69,3 +69,7 @@ def install(handler_cls):
    except Exception as e:return _json(self,{'ok':False,'error':str(e)},400)
   return old_post(self)
  handler_cls.do_GET=do_GET;handler_cls.do_POST=do_POST
+ try:
+  from chat_services import install as _install_chat
+  _install_chat(handler_cls)
+ except Exception as exc:print('chat services warning:',exc)
