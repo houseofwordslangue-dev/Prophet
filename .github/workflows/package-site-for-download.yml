@@ -1,0 +1,33 @@
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+name: Package Site For Download
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/package-site-for-download.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build complete site ZIP
+        run: |
+          zip -qr Prophet-Muhammad-site-latest.zip . \
+            -x '.git/*' \
+            -x 'Prophet-Muhammad-site-latest.zip'
+      - name: Upload packaged site
+        uses: actions/upload-artifact@v4
+        with:
+          name: Prophet-Muhammad-site-latest
+          path: Prophet-Muhammad-site-latest.zip
+          if-no-files-found: error
+          retention-days: 1
