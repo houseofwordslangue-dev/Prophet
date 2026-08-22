@@ -1,10 +1,20 @@
 name: Daily Prophet generation control
 # GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
-# Only automatic workflow; one scheduled run per UTC day.
+# Only automatic workflow; one scheduled run per UTC day plus resource-layer repair pushes.
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 5 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-generative-control.yml'
+      - 'scripts/source_first_fulltext_resolver.py'
+      - 'scripts/enforce_resource_extraction_readiness.py'
+      - 'scripts/force_complete_resource_extraction.py'
+      - 'data/drive_native_assets_20260822.json'
+      - 'data/drive_verified_assets_20260822.json'
+      - 'data/public_catalog_all.generated.json'
 permissions:
   contents: write
   issues: write
@@ -23,6 +33,8 @@ jobs:
       PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
       PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      GENERATION_RESOURCE_ALLOWLIST: data/editorial/generation_resource_allowlist.json
+      RESOURCE_EXTRACTION_GATE: data/editorial/resource_extraction_readiness_gate.json
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 0}
@@ -36,13 +48,14 @@ jobs:
           rm -f /tmp/prophet-publication-blocked
           run_one(){ label="$1"; shift; echo "===== $label =====" | tee -a /tmp/prophet-daily.log; "$@" >>/tmp/prophet-daily.log 2>&1; rc=$?; echo "RESULT $label = $rc" | tee -a /tmp/prophet-daily.log; return 0; }
           hard_gate(){ label="$1"; shift; echo "===== $label =====" | tee -a /tmp/prophet-daily.log; "$@" >>/tmp/prophet-daily.log 2>&1; rc=$?; echo "RESULT $label = $rc" | tee -a /tmp/prophet-daily.log; [ "$rc" -ne 0 ] && touch /tmp/prophet-publication-blocked; return 0; }
+          guarded(){ label="$1"; shift; if [ ! -s "$GENERATION_RESOURCE_ALLOWLIST" ]; then echo "RESULT $label = BLOCKED_NO_RESOURCE_ALLOWLIST" | tee -a /tmp/prophet-daily.log; return 0; fi; run_one "$label" env GENERATION_RESOURCE_ALLOWLIST="$GENERATION_RESOURCE_ALLOWLIST" RESOURCE_EXTRACTION_GATE="$RESOURCE_EXTRACTION_GATE" "$@"; }
 
           # Governance / safe repair
           [ -f scripts/system_gap_audit_and_repair.py ] && run_one 'system gap audit before cycle' python scripts/system_gap_audit_and_repair.py --repair
           [ -f scripts/audit_current_instructions.py ] && run_one 'instruction audit' python scripts/audit_current_instructions.py
           [ -f scripts/check_master_governance.py ] && run_one 'master governance' python scripts/check_master_governance.py
 
-          # Source-first recovery. OCR-derived text remains explicitly OCR-derived.
+          # Exhaust current extraction routes. Catalogue presence alone never counts.
           for pass in 1 2 3 4; do
             [ -f scripts/source_first_fulltext_resolver.py ] && run_one "resource resolver pass $pass" python scripts/source_first_fulltext_resolver.py
             [ -f scripts/live_native_catalog_resolver.py ] && run_one "live native catalog pass $pass" python scripts/live_native_catalog_resolver.py
@@ -51,19 +64,25 @@ jobs:
           done
           [ -f scripts/force_complete_resource_extraction.py ] && run_one 'force complete verified extraction routes' python scripts/force_complete_resource_extraction.py
           [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource resolver final' python scripts/source_first_fulltext_resolver.py
-          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'resource extraction backlog audit' python scripts/enforce_resource_extraction_readiness.py
+          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'materialize generation resource allowlist' python scripts/enforce_resource_extraction_readiness.py
 
-          # Editorial rotation / underfilled slots
+          # Optional OCR repair stages. Raw OCR/PDF remains excluded from synthesis until verified.
+          [ -f scripts/repair_quarantined_arabic_ocr.py ] && run_one 'OCR repair' python scripts/repair_quarantined_arabic_ocr.py
+          [ -f scripts/proofread_repaired_ocr.py ] && run_one 'OCR proofreading' python scripts/proofread_repaired_ocr.py
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource resolver after OCR repair' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'refresh generation allowlist after OCR' python scripts/enforce_resource_extraction_readiness.py
+
+          # Editorial generation receives the authoritative resource allowlist.
           if [ -f scripts/daily_rotating_editorial_fill.py ]; then
-            for section in light prophet messenger human mercy family companions media; do run_one "editorial-$section" python scripts/daily_rotating_editorial_fill.py --section "$section"; done
+            for section in light prophet messenger human mercy family companions media; do guarded "editorial-$section" python scripts/daily_rotating_editorial_fill.py --section "$section"; done
           fi
-          [ -f scripts/daily_completion_batch.py ] && run_one 'all underfilled editorial slots' python scripts/daily_completion_batch.py
+          [ -f scripts/daily_completion_batch.py ] && guarded 'all underfilled editorial slots' python scripts/daily_completion_batch.py
 
-          # Biographies
-          [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'biography source mining' python scripts/mine_all_missing_biography_sources.py
-          [ -f scripts/extend_short_biographies_500.py ] && run_one 'short biography source extraction' python scripts/extend_short_biographies_500.py
-          [ -f scripts/enrich_short_biographies_siyar_direct.py ] && run_one 'Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
-          [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction' python scripts/enrich_short_biographies_wikisource.py
+          # Biographies: extraction + source-grounded synthesis only.
+          [ -f scripts/mine_all_missing_biography_sources.py ] && guarded 'biography source mining' python scripts/mine_all_missing_biography_sources.py
+          [ -f scripts/extend_short_biographies_500.py ] && guarded 'short biography source extraction' python scripts/extend_short_biographies_500.py
+          [ -f scripts/enrich_short_biographies_siyar_direct.py ] && guarded 'Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
+          [ -f scripts/enrich_short_biographies_wikisource.py ] && guarded 'classical biography extraction/synthesis' python scripts/enrich_short_biographies_wikisource.py
           [ -f scripts/complete_required_biographies.py ] && run_one 'canonical biography registry' python scripts/complete_required_biographies.py
           [ -f scripts/biography_coverage_status.py ] && run_one 'biography coverage status' python scripts/biography_coverage_status.py
 
@@ -72,10 +91,10 @@ jobs:
           [ -f scripts/animated_children_pipeline.py ] && run_one 'animated children integrity' python scripts/animated_children_pipeline.py --validate-only
           if [ -n "${OPENAI_API_KEY:-}" ] && [ -f scripts/generate_children_artwork.py ]; then run_one 'children artwork repair/generation' python scripts/generate_children_artwork.py; else echo 'RESULT children artwork = SKIPPED_NO_CREDENTIAL_OR_SCRIPT' | tee -a /tmp/prophet-daily.log; fi
 
-          # Hard publication gates. Failure blocks autopublish and live deploy.
+          # Hard publication gates.
           [ -f scripts/professional_release_gate.py ] && hard_gate 'professional release gate' python scripts/professional_release_gate.py
-          [ -f scripts/editorial_autopublish.py ] && hard_gate 'editorial provenance gate' python scripts/editorial_autopublish.py --check
-          if [ ! -e /tmp/prophet-publication-blocked ] && [ -f scripts/editorial_autopublish.py ]; then run_one 'editorial autopublish' python scripts/editorial_autopublish.py; else echo 'PUBLICATION_BLOCKED_BY_HARD_GATE' | tee -a /tmp/prophet-daily.log; fi
+          [ -f scripts/editorial_autopublish.py ] && hard_gate 'editorial provenance gate' env GENERATION_RESOURCE_ALLOWLIST="$GENERATION_RESOURCE_ALLOWLIST" python scripts/editorial_autopublish.py --check
+          if [ ! -e /tmp/prophet-publication-blocked ] && [ -f scripts/editorial_autopublish.py ]; then guarded 'editorial autopublish' python scripts/editorial_autopublish.py; else echo 'PUBLICATION_BLOCKED_BY_HARD_GATE' | tee -a /tmp/prophet-daily.log; fi
 
           # Final machine-readable ledgers
           [ -f scripts/system_gap_audit_and_repair.py ] && run_one 'system gap audit after cycle' python scripts/system_gap_audit_and_repair.py --repair
@@ -119,7 +138,7 @@ jobs:
           set +e
           day="$(date -u +%F)"; marker="<!-- prophet-daily-report:$day -->"
           if gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$REPORT_ISSUE/comments?per_page=100" --jq '.[].body' 2>/dev/null | grep -Fq "$marker"; then exit 0; fi
-          successes=$(grep -c 'RESULT .* = 0' /tmp/prophet-daily.log 2>/dev/null || true); recoverable=$(grep -Ec 'RESULT .* = [1-9]|NEEDS_SOURCE|RETRYABLE|DEPLOYMENT_NOT_CONFIGURED' /tmp/prophet-daily.log 2>/dev/null || true); gate=$(grep 'PUBLICATION_GATE_STATUS=' /tmp/prophet-daily.log | tail -1 || true); tailtext=$(tail -n 50 /tmp/prophet-daily.log | sed 's/`/'"'"'/g')
+          successes=$(grep -c 'RESULT .* = 0' /tmp/prophet-daily.log 2>/dev/null || true); recoverable=$(grep -Ec 'RESULT .* = [1-9]|NEEDS_SOURCE|RETRYABLE|DEPLOYMENT_NOT_CONFIGURED|BLOCKED_' /tmp/prophet-daily.log 2>/dev/null || true); gate=$(grep 'PUBLICATION_GATE_STATUS=' /tmp/prophet-daily.log | tail -1 || true); tailtext=$(tail -n 50 /tmp/prophet-daily.log | sed 's/`/'"'"'/g')
           cat >/tmp/report.md <<EOF
           $marker
           ## Daily Prophet generation report — $day
@@ -128,6 +147,8 @@ jobs:
           - Automatic workflow count: **1**
           - $gate
           - Governing master: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+          - Generation resource allowlist: data/editorial/generation_resource_allowlist.json
+          - Catalogue-only and unverified OCR/PDF resources cannot feed source-grounded generation.
           - Source truth, provenance, rights, and integrity override numerical targets.
           <details><summary>Last runtime lines</summary>
 
