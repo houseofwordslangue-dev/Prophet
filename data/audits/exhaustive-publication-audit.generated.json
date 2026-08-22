@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:05:38.190843+00:00",
-  "gitCommit": "592f1c53cdf460bec2f589c5fdcd25ed427c6fbb",
+  "generatedAt": "2026-08-22T01:06:48.272606+00:00",
+  "gitCommit": "25c3b8cbb26a71b4b3dfe541db6439e1c6376bdc",
   "github": {
-    "trackedFileCount": 765,
+    "trackedFileCount": 767,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 194,
-      "NON_PUBLIC_WORKSPACE_OR_REJECTED": 125,
+      "NON_PUBLIC_WORKSPACE_OR_REJECTED": 126,
       "PUBLIC_OR_SOURCE_ASSET": 44,
       "PUBLIC_SITE_ASSET": 100,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 294
+      "CONTENT_OR_PUBLICATION_REGISTRY": 295
     },
     "files": [
       {
@@ -35,7 +35,7 @@
       },
       {
         "path": ".github/workflows/book-ingest.yml",
-        "size": 4075,
+        "size": 4931,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -760,7 +760,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 839818,
+        "size": 840122,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -871,6 +871,11 @@
       {
         "path": "data/children/taxonomy.json",
         "size": 5792,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/drive_native_assets_20260822.json",
+        "size": 4018,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3339,6 +3344,11 @@
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
+        "path": "private/source_first_resolution.json",
+        "size": 176760,
+        "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
+      },
+      {
         "path": "private/source_import_config.json",
         "size": 12377,
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
@@ -3841,10 +3851,10 @@
     ]
   },
   "registries": {
-    "registryFileCount": 57,
-    "recordCount": 3085,
+    "registryFileCount": 58,
+    "recordCount": 3110,
     "recordDispositionCounts": {
-      "CATALOGUED_OR_METADATA_RECORD": 1258,
+      "CATALOGUED_OR_METADATA_RECORD": 1283,
       "ATTACHED_RECORD": 689,
       "PUBLISHED_RECORD": 1090,
       "ASSET_OR_SOURCE_RECORD": 47,
@@ -3918,6 +3928,10 @@
       {
         "path": "data/children/media-sources.json",
         "recordCount": 11
+      },
+      {
+        "path": "data/drive_native_assets_20260822.json",
+        "recordCount": 25
       },
       {
         "path": "data/editorial/biography_repairs_20260821.json",
@@ -9092,6 +9106,181 @@
         "collection": "sources",
         "index": 10,
         "disposition": "ASSET_OR_SOURCE_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:0:baff09628db0",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 0,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:1:99f2b1d27bcb",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 1,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:2:aac6807c56ab",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 2,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:3:bbf166c40d74",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 3,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:4:c488dfa4a6c9",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 4,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:5:78fbceb20ab8",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 5,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:6:9c1489581e59",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 6,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:7:cd27651ed7b8",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 7,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:8:f4fb2f024d5f",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 8,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:9:440b951080a0",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 9,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:10:987d407f463c",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 10,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:11:002997d39d96",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 11,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:12:7b1fa2123229",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 12,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:13:38ab3dcea663",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 13,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:14:e52491a95a0b",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 14,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:15:5e83e3ffb8c4",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 15,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:16:488435ec760a",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 16,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:17:3232b97155a7",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 17,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:18:5e2125b9b37c",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 18,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:19:0c1d2117de2e",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 19,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:20:767c68460caa",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 20,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:21:004ab2e74f7e",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 21,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:22:454bd58ba5d5",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 22,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:23:cbc82253f549",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 23,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "data/drive_native_assets_20260822.json:items:24:5bc0ad79dc15",
+        "registry": "data/drive_native_assets_20260822.json",
+        "collection": "items",
+        "index": 24,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
       },
       {
         "id": "amina-bint-wahb",
