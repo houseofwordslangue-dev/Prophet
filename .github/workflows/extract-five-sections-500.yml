@@ -6,12 +6,14 @@ on:
       - menu/add-wives-mothers-believers-20260821
     paths:
       - scripts/extract_five_sections_500.py
+      - scripts/extract_five_sections_500_v2.py
       - .github/workflows/extract-five-sections-500.yml
   pull_request:
     branches:
       - main
     paths:
       - scripts/extract_five_sections_500.py
+      - scripts/extract_five_sections_500_v2.py
       - .github/workflows/extract-five-sections-500.yml
   workflow_dispatch:
 
@@ -30,7 +32,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Extract and validate 500 source-derived articles
-        run: python scripts/extract_five_sections_500.py
+        run: python scripts/extract_five_sections_500_v2.py
       - name: Verify exact distribution
         run: |
           python - <<'PY'
@@ -40,6 +42,7 @@ jobs:
           c=Counter(x['section'] for x in p['drafts'])
           assert len(p['drafts'])==500, len(p['drafts'])
           assert c==Counter({'light':100,'prophet':100,'messenger':100,'human':100,'mercy':100}), c
+          assert min(x['sourceWordCount'] for x in p['drafts']) >= 1000
           print(c)
           PY
       - name: Commit generated publication corpus
