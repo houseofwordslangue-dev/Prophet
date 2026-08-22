@@ -4,8 +4,6 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'scripts/reconcile_cross_session_updates.py'
-      - 'scripts/reconcile_cross_session_push_safe.py'
       - 'scripts/post_reconcile_canonical_routing.py'
       - '.github/workflows/reconcile-cross-session-updates.yml'
 permissions:
@@ -19,21 +17,19 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
-      - name: Apply reconciliation
+      - name: Confirm canonical family routing
+        run: python scripts/post_reconcile_canonical_routing.py
+      - name: Syntax check governance audits
         run: |
-          python scripts/reconcile_cross_session_push_safe.py
-          python scripts/post_reconcile_canonical_routing.py
-      - name: Syntax check reconciliation and governance audits
-        run: |
-          python -m py_compile scripts/reconcile_cross_session_updates.py scripts/reconcile_cross_session_push_safe.py scripts/post_reconcile_canonical_routing.py scripts/audit_current_instructions.py scripts/check_master_governance.py
-      - name: Commit reconciled project state
+          python -m py_compile scripts/post_reconcile_canonical_routing.py scripts/audit_current_instructions.py scripts/check_master_governance.py
+      - name: Commit final canonical routing fix
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
           if git diff --cached --quiet; then
-            echo 'No reconciliation changes needed.'
+            echo 'Canonical routing already correct.'
           else
-            git commit -m 'Reconcile master, menu, family, Drive and process governance'
+            git commit -m 'Route family collections to canonical person biographies'
             git push origin HEAD:${{ github.head_ref }}
           fi
