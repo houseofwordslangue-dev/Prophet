@@ -8,26 +8,48 @@ This is a standing automation instruction for the Prophet Muhammad biography web
 
 Continuously discover, import/index, classify, revise, proofread, audit and publish child-appropriate media and source material on a rotating basis, while continuously extracting/adapting/generating stories according to the controlling master instruction.
 
-The children section includes media, verified readings, illustrated stories, very short stories and animated stories. Use the live taxonomy in `data/children/taxonomy.json`; do not hard-code a taxonomy that can become stale.
+Always read the live children taxonomy from `data/children/taxonomy.json`. Every current and future active children content section must be included automatically; do not hard-code a permanently closed list.
 
-## 2. Rotating acquisition queues
+Current children content sections include:
 
-Maintain independent resumable queues for:
+1. `verified-readings` — قراءات موثقة / Verified readings;
+2. `illustrated-stories` — قصص مصوّرة / Illustrated stories;
+3. `very-short-stories` — قصص قصيرة جدًا / Very short stories;
+4. `animated-stories` — قصص متحركة / Animated stories;
+5. `media` — فيديو وصوت / Video & audio.
 
-1. channels;
-2. videos;
-3. audio;
-4. books;
-5. articles/research/verified readings;
-6. transcripts;
-7. source-derived historical/religious stories;
-8. original educational fiction allowed by the master instruction.
+Any later children content type added to the live taxonomy automatically becomes part of this rotating system.
 
-Rotate between queues so one unavailable source never blocks the others.
+## 2. All-children-section rotation
+
+Maintain independent resumable queues for every children content section and every source/media class.
+
+Required rotating queues include at least:
+
+1. verified readings;
+2. illustrated stories;
+3. very short stories;
+4. animated stories;
+5. videos;
+6. audio;
+7. channels;
+8. books;
+9. articles/research;
+10. transcripts/captions;
+11. source-derived historical/religious stories;
+12. source-adapted educational stories;
+13. original educational fiction allowed by the master instruction;
+14. localization;
+15. Arabic tashkīl/proofreading;
+16. TTS/audio preparation;
+17. artwork/animation metadata and functional-player validation;
+18. audit/publication.
+
+Rotate between queues so one unavailable source or unfinished content type never blocks the others.
 
 Recommended cycle:
 
-`CHANNELS -> VIDEOS -> AUDIO -> BOOKS -> ARTICLES -> TRANSCRIPTS -> SOURCE STORIES -> EDUCATIONAL FICTION -> AUDIT -> PUBLISH -> REPEAT`
+`CHANNELS -> VIDEOS -> AUDIO -> BOOKS -> ARTICLES -> TRANSCRIPTS -> VERIFIED READINGS -> ILLUSTRATED STORIES -> VERY SHORT STORIES -> ANIMATED STORIES -> LOCALIZATION/TASHKIL -> PLAYER/TTS CHECK -> AUDIT -> PUBLISH -> REPEAT`
 
 ## 3. Channel target
 
@@ -72,11 +94,11 @@ Videos must be playable through the site's real player/approved embed path or cl
 
 Stop new-video target acquisition when `verifiedVideoCount >= 1000`, while continuing availability checks and replacement of dead/removed items.
 
-## 5. Audio, books and articles
+## 5. Audio, books, articles, transcripts and verified readings
 
-Import/index child-relevant audio, books and articles continuously on the same rotating basis.
+Import/index child-relevant audio, books, articles, transcripts and verified readings continuously on the same rotating basis.
 
-No arbitrary numerical quota is imposed on these three media types unless a later instruction defines one.
+No arbitrary numerical quota is imposed on these media/source types unless a later instruction defines one.
 
 Prefer:
 
@@ -90,32 +112,110 @@ For books/articles, extract child-appropriate passages only when the relationshi
 
 For audio/video transcripts, distinguish official captions/transcripts, verified human transcription and machine transcription.
 
-## 6. Story matrix target
+Verified readings must remain source-grounded and should be classified by live subject category and age suitability where applicable.
+
+## 6. Story-bearing children sections
+
+Every story-bearing children content type is an independent completion dimension.
+
+Current story-bearing types are:
+
+- `illustrated-stories`;
+- `very-short-stories`;
+- `animated-stories`.
+
+If another story-bearing content type is later added to `data/children/taxonomy.json`, automatically include it.
+
+Do not count the same story record simultaneously as several completed story types unless it genuinely has distinct, validated manifestations for those types. For example, a source story may have a separate illustrated adaptation and animated adaptation, but each manifestation must have its own validated content-type record and functional assets/metadata.
+
+## 7. Story matrix target
 
 Use the live children taxonomy. Treat every combination of:
 
-`SUBJECT CATEGORY × AGE GROUP`
+`STORY-BEARING CONTENT TYPE × SUBJECT CATEGORY × AGE GROUP`
 
 as an independent story target cell.
 
-Current taxonomy contains 12 subject categories and 8 age-group entries, therefore the present matrix contains 96 target cells. With a target of 5,000 stories per cell, the current maximum completion target is **480,000 story records**, subject to future taxonomy changes.
-
 Target per cell: **5,000 unique publishable stories**.
 
-The controller must recalculate this matrix from `data/children/taxonomy.json` on every cycle rather than assuming 96 forever.
+The current taxonomy contains 3 story-bearing content types, 12 subject categories and 8 age-group entries. Therefore the current matrix contains 288 independent story cells and the present maximum completion target is:
+
+**3 × 12 × 8 × 5,000 = 1,440,000 story manifestations**
+
+subject to future taxonomy changes.
+
+The controller must recalculate this matrix from `data/children/taxonomy.json` on every cycle rather than assuming the current counts forever.
 
 Prioritize:
 
-1. empty cells;
+1. empty content-type × subject × age cells;
 2. lowest-count cells;
-3. underrepresented age groups;
-4. underrepresented subjects;
-5. source-derived historical/religious stories with verified evidence;
-6. allowed original educational fiction for general values/learning.
+3. empty/short existing stories that can be safely enriched;
+4. underrepresented age groups;
+5. underrepresented subjects;
+6. source-derived historical/religious stories with verified evidence;
+7. allowed original educational fiction for general values/learning.
 
 Never create filler merely to reach 5,000.
 
-## 7. Story origin classes
+## 8. Content-type requirements
+
+### Illustrated stories
+
+Each publishable illustrated-story record should include, as applicable:
+
+- complete age-adapted story text;
+- Arabic/English/French localization;
+- verified Arabic tashkīl;
+- cover/illustration metadata or usable illustration assets;
+- accessibility text;
+- source/origin class;
+- subject and age classification;
+- source provenance when source-derived;
+- duplicate/story fingerprint;
+- real reader/display behavior.
+
+### Very short stories
+
+Each publishable very-short-story record should include:
+
+- genuinely concise age-appropriate narrative rather than a truncated long story;
+- complete AR/EN/FR localization;
+- verified Arabic tashkīl;
+- clear value/learning objective;
+- origin/provenance class;
+- subject and age classification;
+- duplicate fingerprint;
+- no invented historical/religious detail.
+
+### Animated stories
+
+Each publishable animated-story record should include, as applicable:
+
+- complete story/script;
+- scene structure/storyboard;
+- age-adaptive pacing;
+- AR/EN/FR localization;
+- verified vocalized Arabic for display and TTS;
+- character/setting/scene metadata;
+- animation/visual instructions or validated local assets;
+- narration/TTS metadata;
+- accessibility metadata;
+- functional watch/listen behavior or an explicit availability state;
+- origin/provenance class;
+- duplicate/episode fingerprint.
+
+Do not mark `animationReady`, `audioReady`, `watchMode`, or equivalent fields as ready if the actual function/assets do not support that claim.
+
+### Verified readings
+
+Continuously extract and publish child-appropriate verified readings from project sources. Preserve citations/provenance, adapt explanation to age without altering quotations or facts, and apply mandatory Arabic tashkīl to child-facing Arabic.
+
+### Video & audio media
+
+Continuously index/import qualified channels, videos and audio, classify them by age/subject/language, validate real playback paths, and extract transcripts/source material where lawful and useful.
+
+## 9. Story origin classes
 
 Every story must be explicitly classified internally as one of:
 
@@ -130,7 +230,7 @@ Never relabel generated/original fiction as sourced history.
 
 Legacy unsourced stories may remain but do not count as source-backed historical evidence.
 
-## 8. Sacred/historical safety
+## 10. Sacred/historical safety
 
 For Seerah, Prophet Muhammad ﷺ, Prophets, Ahl al-Bayt, Companions, Followers, Followers of Followers and other historical/religious figures:
 
@@ -141,15 +241,15 @@ For Seerah, Prophet Muhammad ﷺ, Prophets, Ahl al-Bayt, Companions, Followers, 
 
 Original educational fiction is permitted only for general values, family, cooperation, curiosity, learning, responsibility, nature, language and similar non-historical themes allowed by the master instruction.
 
-## 9. Age adaptation
+## 11. Age adaptation
 
 Use the live age groups in `data/children/taxonomy.json` and apply the age-adaptive rules from the overriding master.
 
 Age adaptation changes presentation, sentence length, vocabulary, pacing, visual complexity and interaction depth; it must never alter source truth.
 
-Each story must carry an explicit `ageGroup` and `subjectCategory` matching a live taxonomy cell.
+Each story must carry explicit `contentType`, `ageGroup` and `subjectCategory` values matching a live taxonomy cell.
 
-## 10. Arabic tashkīl requirement
+## 12. Arabic tashkīl requirement
 
 All child-facing Arabic must satisfy the master instruction's mandatory vocalization rule.
 
@@ -164,18 +264,19 @@ Maintain:
 
 Never publish insufficiently vocalized Arabic child content merely to satisfy story targets.
 
-## 11. Localization
+## 13. Localization
 
-Every publishable story should support Arabic, English and French according to the master localization rules.
+Every publishable child story/content record should support Arabic, English and French according to the master localization rules.
 
-Do not mark a locale complete when substantial story content remains untranslated.
+Do not mark a locale complete when substantial content remains untranslated.
 
 For source quotations, preserve authentic wording and clearly distinguish translation from original text.
 
-## 12. Uniqueness and duplication control
+## 14. Uniqueness and duplication control
 
 Before creating a story, compare:
 
+- content type;
 - source fingerprint;
 - plot/episode fingerprint;
 - title/slug;
@@ -190,39 +291,42 @@ Merge/enrich instead of duplicating substantially identical source stories.
 
 For original educational fiction, require a distinct narrative identity; template permutations do not count as unique stories.
 
-## 13. Media-to-story extraction
+## 15. Media-to-story extraction
 
-When a video/audio/book/article contains usable child material:
+When a video/audio/book/article/verified reading contains usable child material:
 
 1. register the source;
 2. obtain lawful/usable transcript or text;
 3. retain provenance;
 4. classify factual vs educational/fictional material;
 5. extract source-supported facts/episodes;
-6. adapt to the appropriate age group;
-7. apply Arabic tashkīl;
-8. localize;
-9. proofread;
-10. audit historical/source fidelity;
-11. publish only after passing the children publication gate.
+6. determine eligible story content types;
+7. adapt independently for the appropriate story type and age group;
+8. apply Arabic tashkīl;
+9. localize;
+10. proofread;
+11. audit historical/source fidelity;
+12. validate reader/player/animation metadata where relevant;
+13. publish only after passing the children publication gate.
 
 Do not treat a secondary children's cartoon invention as historical evidence merely because it mentions a historical figure.
 
-## 14. Rotating batch behavior
+## 16. Rotating batch behavior
 
 Use small resumable batches rather than attempting the entire target in one run.
 
 Recommended priorities per scheduled run:
 
 - one acquisition/media queue;
-- one or more lowest-count story cells;
+- one lowest-count children content section;
+- one or more lowest-count story-type × subject × age cells;
 - deterministic checkpoint;
 - strict validation;
 - commit/publish only verified output.
 
 If a source/network/API is unavailable, mark it retryable and continue with another queue. Ordinary acquisition misses must not create notification storms.
 
-## 15. Publication states
+## 17. Publication states
 
 Use explicit states:
 
@@ -233,6 +337,9 @@ Use explicit states:
 `ADAPTATION_READY`
 `TASHKIL_REQUIRED`
 `PROOFREAD`
+`ASSET_REQUIRED`
+`AUDIO_REQUIRED`
+`ANIMATION_REQUIRED`
 `READY_TO_PUBLISH`
 `PUBLISHED`
 `NEEDS_SOURCE`
@@ -242,7 +349,7 @@ Use explicit states:
 
 Do not call an item published unless it is at the publication stage defined by the overriding master.
 
-## 16. Machine-readable state
+## 18. Machine-readable state
 
 Maintain a status ledger with at least:
 
@@ -252,15 +359,18 @@ Maintain a status ledger with at least:
 - `verifiedVideoCount`
 - `videoTarget = 1000`
 - `VIDEO_TARGET_COMPLETE`
-- counts for audio/books/articles/transcripts
+- counts for audio/books/articles/transcripts/verified readings
+- live children content types
+- live story-bearing content types
+- counts by children content type
 - live subject categories
 - live age groups
 - `storyTargetPerCell = 5000`
-- `storyCountsBySubjectAgeCell`
+- `storyCountsByContentTypeSubjectAgeCell`
 - `underTargetStoryCells`
 - `emptyStoryCells`
 - `nextStoryTargetCell`
-- `totalStoryCount`
+- `totalStoryManifestationCount`
 - `calculatedStoryMatrixTarget`
 - `STORY_TARGET_COMPLETE`
 - `CHILDREN_MEDIA_STORY_COMPLETION_COMPLETE`
@@ -269,12 +379,13 @@ Maintain a status ledger with at least:
 
 - at least 100 verified channels exist;
 - at least 1,000 verified videos exist;
-- every live subject × age-group story cell has at least 5,000 qualifying stories;
+- every live story-bearing content type × subject × age-group cell has at least 5,000 qualifying stories;
+- all current children content sections are represented and functional according to their type;
 - all publication/integrity requirements remain satisfied.
 
 Even after target completion, lightweight availability/provenance maintenance may continue without creating filler.
 
-## 17. Absolute hierarchy
+## 19. Absolute hierarchy
 
 Targets are operational goals only.
 
@@ -282,4 +393,4 @@ The controlling order remains:
 
 `AUTHENTICITY -> SOURCE FIDELITY -> PROVENANCE -> CHILD SAFETY/TASHKIL -> LOCALIZATION -> RIGHTS -> FUNCTIONALITY -> QUALITY -> NUMERICAL TARGETS`
 
-Never reduce a higher-priority requirement to reach 100 channels, 1,000 videos or 5,000 stories per taxonomy cell.
+Never reduce a higher-priority requirement to reach 100 channels, 1,000 videos or 5,000 stories per story-content-type × taxonomy cell.
