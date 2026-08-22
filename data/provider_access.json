@@ -1,7 +1,17 @@
 {
-  "schema": "provider-access-v1",
+  "schema": "provider-access-v2",
   "governedBy": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
-  "policy": "Relevant verified resources remain publicly catalogued even when access is borrow-only, controlled-lending, login-gated, preview-only, or otherwise provider-restricted. A provider URL permits only lawful external access and never implies local redistribution, unrestricted full text, or bypass of provider controls.",
+  "policy": "Every resource with a verified Internet Archive record is published in the bookstore catalogue with no catalogue-level exception. Open/unrestricted copies may use the internal reader. Borrow-only, controlled-lending, login-gated, preview-only, or otherwise provider-restricted records remain published with direct provider access under the provider's actual controls. Publication never implies bypassing access controls or falsely representing restricted material as unrestricted local full text.",
+  "archivePublicationMode": "ALL_ARCHIVE_RECORDS_PUBLICLY_LISTED_NO_CATALOGUE_EXCEPTION",
+  "autoDiscovery": {
+    "enabled": true,
+    "sources": [
+      "data/public_catalog_all.generated.json",
+      "data/catalogue/chunk-01.json through data/catalogue/chunk-14.json"
+    ],
+    "providerHost": "archive.org",
+    "rule": "Any catalogue item carrying an archive.org source URL is provider-visible in the bookstore even when it is not manually listed below."
+  },
   "items": [
     {"catalogueId":"family-companions-029","archiveId":"fp5294_202505","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp5294_202505","accessMode":"external-provider","title":"الاستيعاب في معرفة الأصحاب — ابن عبد البر"},
     {"catalogueId":"family-companions-031","archiveId":"fp37408_202504","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp37408_202504","accessMode":"external-provider","title":"معرفة الصحابة — أبو نعيم الأصبهاني"},
