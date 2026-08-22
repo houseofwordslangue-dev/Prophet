@@ -3,14 +3,8 @@ name: Build five exclusive sections — 500 articles
 on:
   push:
     branches:
-      - menu/add-wives-mothers-believers-20260821
-    paths:
-      - scripts/extract_five_sections_500.py
-      - scripts/extract_five_sections_500_v2.py
-      - .github/workflows/extract-five-sections-500.yml
-  pull_request:
-    branches:
       - main
+      - menu/add-wives-mothers-believers-20260821
     paths:
       - scripts/extract_five_sections_500.py
       - scripts/extract_five_sections_500_v2.py
@@ -27,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: menu/add-wives-mothers-believers-20260821
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -43,18 +37,18 @@ jobs:
           assert len(p['drafts'])==500, len(p['drafts'])
           assert c==Counter({'light':100,'prophet':100,'messenger':100,'human':100,'mercy':100}), c
           assert min(x['sourceWordCount'] for x in p['drafts']) >= 1000
+          assert len({x['sourceFingerprint'] for x in p['drafts']}) == 500
           print(c)
           PY
       - name: Commit generated publication corpus
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "prophet-editorial-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.email "prophet-editorial-bot@users.noreply.github.com"
           git add data/editorial/drafts/2026-08-22/five-sections-500.json \
                   data/editorial/audits/five-sections-500-audit.json \
                   data/editorial/publication_manifest.json \
                   data/editorial/publication_supplement.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish 100 exclusive articles per Muhammad section [skip ci]"
-            git push origin HEAD:menu/add-wives-mothers-believers-20260821
+            git push
           fi
