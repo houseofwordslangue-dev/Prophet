@@ -1,0 +1,35 @@
+name: Reconcile cross-session project updates
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/reconcile_cross_session_updates.py'
+      - '.github/workflows/reconcile-cross-session-updates.yml'
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    if: github.head_ref == 'reconcile/all-sessions-master-drive-20260822'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Apply reconciliation
+        run: python scripts/reconcile_cross_session_updates.py
+      - name: Syntax check reconciliation and governance audits
+        run: |
+          python -m py_compile scripts/reconcile_cross_session_updates.py scripts/audit_current_instructions.py scripts/check_master_governance.py
+      - name: Commit reconciled project state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No reconciliation changes needed.'
+          else
+            git commit -m 'Reconcile master, menu, family, Drive and process governance'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
