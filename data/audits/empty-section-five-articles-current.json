@@ -1,0 +1,29 @@
+{
+  "schema": "prophet-empty-section-five-articles-v1",
+  "generatedAt": "2026-08-22T02:15:00Z",
+  "status": "PASS",
+  "method": "reclassify existing verified canonical source articles without duplicating bodies",
+  "activeEditorialRegistryChanged": false,
+  "activeEditorialRegistryBaseline": "39/39",
+  "supplementalMenuSectionsFilled": 10,
+  "articlesExposedPerSection": 5,
+  "totalSupplementalPlacements": 50,
+  "bodyDuplication": false,
+  "sourceCoverageRequirement": 100,
+  "routes": [
+    "prophetic-family/parents",
+    "prophetic-family/ancestors",
+    "prophetic-family/paternal-relatives",
+    "prophetic-family/maternal-relatives",
+    "prophetic-family/cousins",
+    "prophetic-family/in-laws",
+    "prophetic-family/relatives",
+    "companions/biographies",
+    "companions/knowledge",
+    "companions/events"
+  ],
+  "config": "data/editorial/empty_section_five_articles.json",
+  "publicRenderer": "assets/empty-section-five.js",
+  "publicFeed": "editorial.html",
+  "result": "PASS_10_MENU_SUBSECTIONS_HAVE_5_SOURCE_ARTICLES_EACH"
+}
