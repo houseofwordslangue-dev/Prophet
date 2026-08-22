@@ -1,14 +1,14 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:59:04.259143+00:00",
-  "gitCommit": "330237445319bf3cbd7b80ebf7d09002fc6e7011",
+  "generatedAt": "2026-08-22T02:59:18.453245+00:00",
+  "gitCommit": "d2d75ba9e4eef29d55fa71a2b1cfd8da23afcd31",
   "github": {
-    "trackedFileCount": 826,
+    "trackedFileCount": 827,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 220,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 51,
-      "PUBLIC_SITE_ASSET": 107,
+      "PUBLIC_SITE_ASSET": 108,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
       "CONTENT_OR_PUBLICATION_REGISTRY": 313
     },
@@ -446,6 +446,11 @@
       {
         "path": "assets/children-chat.css",
         "size": 2608,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
+        "path": "assets/children-chat.js",
+        "size": 4383,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -900,7 +905,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 856291,
+        "size": 858285,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {

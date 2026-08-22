@@ -1,9 +1,9 @@
 # Exhaustive publication audit
 
-Generated: 2026-08-22T02:59:04.259143+00:00
-Commit: `330237445319bf3cbd7b80ebf7d09002fc6e7011`
+Generated: 2026-08-22T02:59:18.453245+00:00
+Commit: `d2d75ba9e4eef29d55fa71a2b1cfd8da23afcd31`
 
-- GitHub tracked files: **826**
+- GitHub tracked files: **827**
 - JSON content/resource records: **3119**
 - External Drive resource union: **730**
 - Audit result: **FAIL_NOT_EVERY_RESOURCE_FULLY_PUBLISHED**
@@ -13,7 +13,7 @@ Commit: `330237445319bf3cbd7b80ebf7d09002fc6e7011`
 - DERIVATIVE_ATTACHED_TO_PARENT: 8
 - NON_PUBLIC_WORKSPACE_OR_REJECTED: 127
 - PUBLIC_OR_SOURCE_ASSET: 51
-- PUBLIC_SITE_ASSET: 107
+- PUBLIC_SITE_ASSET: 108
 - TECHNICAL_REPOSITORY_FILE: 220
 
 ## Resource dispositions
