@@ -1,14 +1,14 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:45:11.995815+00:00",
-  "gitCommit": "9b1aea929e8f18a39f30f5d7072a81054d14a843",
+  "generatedAt": "2026-08-22T02:45:56.432300+00:00",
+  "gitCommit": "276a45bed7c8f27211af3737e41d51d4e662b0f1",
   "github": {
-    "trackedFileCount": 809,
+    "trackedFileCount": 813,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 215,
+      "TECHNICAL_REPOSITORY_FILE": 216,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
-      "PUBLIC_OR_SOURCE_ASSET": 50,
-      "PUBLIC_SITE_ASSET": 104,
+      "PUBLIC_OR_SOURCE_ASSET": 51,
+      "PUBLIC_SITE_ASSET": 106,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
       "CONTENT_OR_PUBLICATION_REGISTRY": 305
     },
@@ -444,6 +444,16 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "assets/children-experience.css",
+        "size": 5671,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
+        "path": "assets/children-experience.js",
+        "size": 8577,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
         "path": "assets/children-hub.css",
         "size": 5363,
         "disposition": "PUBLIC_SITE_ASSET"
@@ -790,7 +800,7 @@
       },
       {
         "path": "assets/site-menu.js",
-        "size": 7456,
+        "size": 7724,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -820,22 +830,22 @@
       },
       {
         "path": "children-animated.html",
-        "size": 3113,
+        "size": 5858,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
         "path": "children-stories.html",
-        "size": 2514,
+        "size": 3019,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
         "path": "children-very-short.html",
-        "size": 2104,
+        "size": 2862,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
         "path": "children-videos.html",
-        "size": 5184,
+        "size": 4795,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -3279,6 +3289,11 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "functions/api/children-chat.js",
+        "size": 7712,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
         "path": "library-all.html",
         "size": 5113,
         "disposition": "PUBLIC_SITE_ASSET"
@@ -3741,6 +3756,11 @@
       {
         "path": "scripts/build_remaining_family_life_5_each_v2.py",
         "size": 10401,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/build_rijal_biography_batches.py",
+        "size": 4306,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
