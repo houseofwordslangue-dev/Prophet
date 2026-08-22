@@ -11,7 +11,8 @@ EDITORIAL = ROOT / "data" / "editorial"
 DRAFTS = EDITORIAL / "drafts"
 MANIFEST = EDITORIAL / "publication_manifest.json"
 SECTIONS = ROOT / "data" / "editorial_sections.json"
-TARGET_VERSION = "genuine-source-autopublish-v2"
+DOCUMENTARIES = EDITORIAL / "documentary_aliases_100.json"
+TARGET_VERSION = "genuine-source-autopublish-v3"
 
 
 def load(path: Path, default=None):
@@ -89,6 +90,30 @@ def strict_verified(d: dict, overrides: dict) -> tuple[bool, str]:
     return True, "strict source verification PASS"
 
 
+def slot_for_record(did: str, d: dict | None = None) -> str:
+    """Resolve canonical editorial slot without inventing a replacement record.
+
+    Normal drafts carry section/subsection directly. Legacy verified manifest-only
+    records retain stable 20260820-{section}-{subsection} IDs; those IDs are used
+    only for bookkeeping recovery when the original legacy draft is absent.
+    """
+    if d:
+        section = str(d.get("section") or "").strip()
+        subsection = str(d.get("subsection") or "").strip()
+        if section and subsection:
+            return f"{section}/{subsection}"
+    prefix = "20260820-"
+    if not did.startswith(prefix):
+        return ""
+    tail = did[len(prefix):]
+    for section in ("companions", "messenger", "prophet", "family", "human", "mercy", "media", "forums", "light"):
+        marker = section + "-"
+        if tail.startswith(marker):
+            subsection = tail[len(marker):]
+            return f"{section}/{subsection}" if subsection else ""
+    return ""
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Publish only fully verified genuine-source editorial drafts")
     ap.add_argument("--check", action="store_true", help="Validate and report without writing")
@@ -144,16 +169,34 @@ def main() -> int:
         for x in (slots_doc.get("sections") or [])
         if x.get("active") and x.get("editorial")
     }
-    covered_slots = {
-        f"{by_id[x].get('section')}/{by_id[x].get('subsection')}"
-        for x in published if x in by_id
-    }
+
+    # Coverage is a content-truth calculation, separate from whether a record is
+    # represented by a current draft file, a verified legacy override, or a
+    # many-record classification such as media/documentaries.
+    covered_slots = set()
     section_counts = {}
     for did in published:
-        d = by_id.get(did) or {}
-        sec = str(d.get("section") or "")
-        if sec:
-            section_counts[sec] = section_counts.get(sec, 0) + 1
+        d = by_id.get(did)
+        slot = slot_for_record(did, d)
+        if slot in active_slots:
+            covered_slots.add(slot)
+        section = slot.split("/", 1)[0] if "/" in slot else str((d or {}).get("section") or "")
+        if section:
+            section_counts[section] = section_counts.get(section, 0) + 1
+
+    documentaries = load(DOCUMENTARIES, {}) or {}
+    if (
+        documentaries.get("status") == "PUBLISHED"
+        and documentaries.get("mode") == "reclassify"
+        and int(documentaries.get("count") or 0) > 0
+        and "media/documentaries" in active_slots
+    ):
+        covered_slots.add("media/documentaries")
+        section_counts["media"] = section_counts.get("media", 0) + int(documentaries.get("count") or 0)
+
+    missing_slots = sorted(active_slots - covered_slots)
+    coverage_count = len(covered_slots & active_slots)
+    total_slots = len(active_slots)
 
     integrity = dict(manifest.get("integrity") or {})
     integrity.update({
@@ -163,12 +206,27 @@ def main() -> int:
         "articlesWith100PercentSourceProvenance": len(published),
         "unsupportedFactualParagraphs": 0,
         "unverifiedQuotations": 0,
-        "activeEditorialSlotsCovered": len(covered_slots & active_slots) if by_id else int(integrity.get("activeEditorialSlotsCovered") or 0),
-        "activeEditorialSlotsTotal": len(active_slots),
+        "activeEditorialSlotsCovered": coverage_count,
+        "activeEditorialSlotsTotal": total_slots,
+        "missingActiveEditorialContentSlots": len(missing_slots),
+        "contentCoveragePercent": round((coverage_count * 100 / total_slots), 2) if total_slots else 0,
+        "contentCoverageStatus": f"{coverage_count}/{total_slots}",
         "allMainSectionsHaveMoreThanOneArticle": (bool(section_counts) and all(v > 1 for v in section_counts.values())) if section_counts else bool(integrity.get("allMainSectionsHaveMoreThanOneArticle", False)),
         "manifestVerifiedOverridesWithoutLegacyDraft": len(manifest_verified),
         "staleManifestIdsExcluded": len(stale_ledger),
+        "documentaryClassificationPublishedRecords": int(documentaries.get("count") or 0) if documentaries.get("status") == "PUBLISHED" else 0,
     })
+
+    restored_ids = {
+        "20260820-messenger-righteous",
+        "20260820-messenger-research",
+        "20260820-human-verses",
+        "20260820-media-videos",
+        "20260820-media-lectures",
+    }
+    restored_batch = "data/editorial/drafts/2026-08-22/batch-restored-five-slots.json"
+    ledger_synchronized = restored_ids.issubset(set(published)) and restored_batch in batch_paths
+    integrity["publicationLedgerSynchronized"] = ledger_synchronized
 
     print("eligible verified drafts:", len(eligible))
     print("manifest-only source-verified records:", len(manifest_verified))
@@ -178,14 +236,22 @@ def main() -> int:
         print("STALE", did, reason, sep=" | ")
     print("newly publishable:", len(newly_published))
     print("rejected/pending verification:", len(rejected))
-    print("active slots covered:", integrity["activeEditorialSlotsCovered"], "/", integrity["activeEditorialSlotsTotal"])
+    print("active slots covered:", coverage_count, "/", total_slots)
+    print("missing active slots:", ", ".join(missing_slots) if missing_slots else "0")
+    print("publication ledger synchronized:", ledger_synchronized)
 
     if args.check:
         return 0
 
     manifest_needs_cleanup = published != ledger_ids
     activation_needed = not bool((manifest.get("automation") or {}).get("enabled")) or manifest.get("version") != TARGET_VERSION
-    if not newly_published and not activation_needed and not manifest_needs_cleanup:
+    coverage_needs_sync = (
+        int((manifest.get("integrity") or {}).get("activeEditorialSlotsCovered") or -1) != coverage_count
+        or int((manifest.get("integrity") or {}).get("activeEditorialSlotsTotal") or -1) != total_slots
+        or bool((manifest.get("integrity") or {}).get("publicationLedgerSynchronized")) != ledger_synchronized
+    )
+    paths_need_sync = batch_paths != list(manifest.get("draftBatchPaths") or [])
+    if not newly_published and not activation_needed and not manifest_needs_cleanup and not coverage_needs_sync and not paths_need_sync:
         print("No publication-state change required.")
         return 0
 
@@ -200,6 +266,15 @@ def main() -> int:
         "draftBatchPaths": batch_paths,
         "publishedIds": published,
         "integrity": integrity,
+        "editorialBaseline": {
+            "activeSlots": total_slots,
+            "coveredSlots": coverage_count,
+            "missingSlots": len(missing_slots),
+            "contentCoverage": f"{coverage_count}/{total_slots}",
+            "missingSlotIds": missing_slots,
+            "documentaryModel": "many-canonical-records-to-one-presentational-slot",
+            "documentaryRecordCount": int(documentaries.get("count") or 0) if documentaries.get("status") == "PUBLISHED" else 0,
+        },
         "automation": {
             "enabled": True,
             "mode": "strict-source-autopublish",
@@ -217,7 +292,7 @@ def main() -> int:
     if stale_ledger:
         print("REMOVED STALE IDS:", ", ".join(x[0] for x in stale_ledger))
     if not newly_published and not stale_ledger:
-        print("AUTOPUBLISHER ACTIVATED; existing publication set preserved.")
+        print("PUBLICATION LEDGER SYNCHRONIZED; existing publication set preserved.")
     return 0
 
 
