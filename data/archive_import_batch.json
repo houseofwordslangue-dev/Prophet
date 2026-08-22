@@ -4,7 +4,13 @@
     "fallback_format": "pdf",
     "validate_downloads": true,
     "skip_valid_existing": true,
-    "respect_restricted_items": true
+    "respect_restricted_items": true,
+    "publish_restricted_catalogue_entries": true,
+    "publish_borrow_only": true,
+    "restricted_publication_mode": "catalogue-plus-lawful-provider-access",
+    "do_not_bypass_provider_controls": true,
+    "do_not_redistribute_restricted_files": true,
+    "provider_access_map": "data/provider_access.json"
   },
   "items": [
     {"catalogue_id":"family-companions-029","archive_id":"fp5294_202505","title":"الاستيعاب في معرفة الأصحاب — ابن عبد البر"},
