@@ -70,10 +70,8 @@ jobs:
             done
           fi
 
-          # 4. EMPTY/SHORT SECTION COMPLETION UNTIL EVERY ACTIVE SLOT >= 50
-          [ -f scripts/content_completion_status.py ] && run_one 'content completion status before fill' python scripts/content_completion_status.py
-          [ -f scripts/completion_slot_fill.py ] && run_one 'underfilled exact-slot completion' python scripts/completion_slot_fill.py
-          [ -f scripts/content_completion_status.py ] && run_one 'content completion status after fill' python scripts/content_completion_status.py
+          # 4. EMPTY/SHORT SECTION COMPLETION — TRY EVERY ELIGIBLE ACTIVE SLOT DAILY
+          [ -f scripts/daily_completion_batch.py ] && run_one 'all underfilled editorial slots' python scripts/daily_completion_batch.py
 
           # 5. BIOGRAPHY COMPLETION / ENRICHMENT
           [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'biography source mining' python scripts/mine_all_missing_biography_sources.py
@@ -81,6 +79,7 @@ jobs:
           [ -f scripts/enrich_short_biographies_siyar_direct.py ] && run_one 'Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
           [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction' python scripts/enrich_short_biographies_wikisource.py
           [ -f scripts/complete_required_biographies.py ] && run_one 'canonical biography registry' python scripts/complete_required_biographies.py
+          [ -f scripts/biography_coverage_status.py ] && run_one 'biography coverage status' python scripts/biography_coverage_status.py
 
           # 6. CHILDREN COMPLETION ACCOUNTING / VALIDATION
           [ -f scripts/children_completion_status.py ] && run_one 'children completion status' python scripts/children_completion_status.py
@@ -99,6 +98,7 @@ jobs:
           [ -f scripts/system_gap_audit_and_repair.py ] && run_one 'system gap audit/repair after cycle' python scripts/system_gap_audit_and_repair.py --repair
           [ -f scripts/children_completion_status.py ] && run_one 'children final status' python scripts/children_completion_status.py
           [ -f scripts/content_completion_status.py ] && run_one 'content final status' python scripts/content_completion_status.py
+          [ -f scripts/biography_coverage_status.py ] && run_one 'biography final status' python scripts/biography_coverage_status.py
           echo 'Daily consolidated cycle complete.' | tee -a /tmp/prophet-daily.log
 
       - name: Commit valid generated state once
