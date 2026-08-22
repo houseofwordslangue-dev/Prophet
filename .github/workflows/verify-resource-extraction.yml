@@ -1,0 +1,47 @@
+name: Verify resource extraction readiness
+
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/drive_native_assets_20260822.json'
+      - 'data/drive_verified_assets_20260822.json'
+      - 'data/ingested_library.json'
+      - 'data/public_catalog_all.generated.json'
+      - 'private/acquisition_candidates.json'
+      - 'private/native_source_overrides.json'
+      - 'scripts/source_first_fulltext_resolver.py'
+      - '.github/workflows/verify-resource-extraction.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Resolve extraction paths
+        run: python scripts/source_first_fulltext_resolver.py
+      - name: Commit verified availability and acquisition queue
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/editorial/resource_extraction_availability.json private/source_first_resolution.json private/resource_extraction_queue.json
+          if git diff --cached --quiet; then
+            echo 'No extraction readiness changes.'
+          else
+            git commit -m 'Refresh verified resource extraction readiness [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
