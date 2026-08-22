@@ -1,0 +1,72 @@
+{
+  "version": "2026-08-22-empty-section-five-source-extracts-v1",
+  "status": "PUBLISHED",
+  "mode": "extract-source-passages",
+  "countPerSection": 5,
+  "publishedAt": "2026-08-22T02:15:00Z",
+  "sections": [
+    {
+      "section": "prophetic-family",
+      "subsection": "parents",
+      "labelAr": "الوالدان",
+      "titlePrefix": "من المصادر في الوالدين",
+      "seedIds": ["20260820-family-parents", "20260820-family-ancestors", "20260820-family-relatives"]
+    },
+    {
+      "section": "prophetic-family",
+      "subsection": "ancestors",
+      "labelAr": "الأجداد",
+      "titlePrefix": "من المصادر في الأجداد والنسب",
+      "seedIds": ["20260820-family-ancestors", "20260820-family-parents", "20260820-family-paternal-uncles", "20260820-family-relatives"]
+    },
+    {
+      "section": "prophetic-family",
+      "subsection": "paternal-relatives",
+      "labelAr": "الأعمام والعمات",
+      "titlePrefix": "من المصادر في قرابة الأب",
+      "seedIds": ["20260820-family-paternal-uncles", "20260820-family-paternal-cousins", "20260820-family-relatives", "20260820-family-ancestors"]
+    },
+    {
+      "section": "prophetic-family",
+      "subsection": "maternal-relatives",
+      "labelAr": "الأخوال والخالات",
+      "titlePrefix": "من المصادر في قرابة الأم",
+      "seedIds": ["20260820-family-maternal-uncles", "20260820-family-maternal-cousins", "20260820-family-relatives", "20260820-family-parents"]
+    },
+    {
+      "section": "prophetic-family",
+      "subsection": "cousins",
+      "labelAr": "أبناء العمومة",
+      "titlePrefix": "من المصادر في أبناء العمومة",
+      "seedIds": ["20260820-family-paternal-cousins", "20260820-family-maternal-cousins", "20260820-family-paternal-uncles", "20260820-family-relatives"]
+    },
+    {
+      "section": "prophetic-family",
+      "subsection": "in-laws",
+      "labelAr": "الأصهار",
+      "titlePrefix": "من المصادر في الأصهار والبيت",
+      "seedIds": ["20260820-family-wives", "20260820-family-children", "20260820-family-grandchildren", "20260820-human-hadith", "20260820-mercy-love-stories", "20260820-family-relatives"]
+    },
+    {
+      "section": "prophetic-family",
+      "subsection": "relatives",
+      "labelAr": "سائر الأقارب",
+      "titlePrefix": "من المصادر في سائر الأقارب",
+      "seedIds": ["20260820-family-relatives", "20260820-family-paternal-uncles", "20260820-family-maternal-uncles", "20260820-family-paternal-cousins", "20260820-family-maternal-cousins", "20260820-family-ancestors"]
+    },
+    {
+      "section": "companions",
+      "subsection": "knowledge",
+      "labelAr": "العلم والأقوال",
+      "titlePrefix": "من المصادر في علم الصحابة وأقوالهم",
+      "seedIds": ["20260820-companions-sayings", "20260820-companions-biographies", "20260820-light-hadith", "20260820-prophet-hadith", "20260820-messenger-hadith"]
+    },
+    {
+      "section": "companions",
+      "subsection": "events",
+      "labelAr": "المواقف والأحداث",
+      "titlePrefix": "من المصادر في مواقف الصحابة وأحداث السيرة",
+      "seedIds": ["20260820-companions-stories", "20260820-mercy-strength-stories", "20260820-mercy-aspiration-stories", "20260820-messenger-seerah", "20260820-human-seerah"]
+    }
+  ]
+}
