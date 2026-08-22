@@ -1,0 +1,26 @@
+name: Final review ZIP
+on:
+  pull_request:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Remove temporary packaging workflow
+        run: rm -f .github/workflows/final-review-zip.yml
+      - name: Create review archive
+        run: |
+          zip -qr Prophet-final-review.zip . -x '.git/*' -x 'Prophet-final-review.zip'
+      - name: Upload review ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: Prophet-final-review
+          path: Prophet-final-review.zip
+          if-no-files-found: error
+          retention-days: 7
