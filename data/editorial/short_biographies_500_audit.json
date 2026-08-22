@@ -1,0 +1,2118 @@
+{
+  "schema": "short-biographies-500-audit-v1",
+  "generatedAt": "2026-08-22T02:39:33.318454Z",
+  "targetWords": 500,
+  "indexedPeople": 379,
+  "below500Before": 263,
+  "extendedTo500": 0,
+  "sourceLimitedAfter": 263,
+  "addedSourceWords": 0,
+  "residualUnder500": [
+    {
+      "id": "abdullah-ibn-umar",
+      "nameAr": "عبد الله بن عمر",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "abu-bakr",
+      "nameAr": "أبو بكر الصديق",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "abu-hurayra",
+      "nameAr": "أبو هريرة",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "abu-ubayda-ibn-al-jarrah",
+      "nameAr": "أبو عبيدة بن الجراح",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "anas-ibn-malik",
+      "nameAr": "أنس بن مالك",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "bilal-ibn-rabah",
+      "nameAr": "بلال بن رباح",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "fatima-al-zahra",
+      "nameAr": "فاطمة الزهراء",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "jabir-ibn-abdullah",
+      "nameAr": "جابر بن عبد الله",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "khalid-ibn-al-walid",
+      "nameAr": "خالد بن الوليد",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "muadh-ibn-jabal",
+      "nameAr": "معاذ بن جبل",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-006fd158c464",
+      "nameAr": "abdullah-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-00a9c504ca70",
+      "nameAr": "ابن هشام",
+      "beforeWords": 59,
+      "addedWords": 0,
+      "finalWords": 59,
+      "missingWords": 441
+    },
+    {
+      "id": "person-02b4389a4dab",
+      "nameAr": "ali-al-akbar-ibn-al-husayn",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-02b9ea4b736a",
+      "nameAr": "ابن دحية",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-040170814f57",
+      "nameAr": "mudar-ibn-nizar",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-04c5aa88d621",
+      "nameAr": "umm-habiba",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-051301ccb5bf",
+      "nameAr": "al-husayn-ibn-ali",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-052f28b35cf9",
+      "nameAr": "abu-lahab-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0632526f4f61",
+      "nameAr": "jafar-ibn-abi-talib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-06395667d06a",
+      "nameAr": "روزبهان البقلي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-067ca8ae48d1",
+      "nameAr": "Omar Khayyam",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-07a0b39e40ea",
+      "nameAr": "abdullah-ibn-uthman",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-07d1e01c910b",
+      "nameAr": "محمد بن عيسى الترمذي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-09381934754c",
+      "nameAr": "ghalib-ibn-fihr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0a354d1fa9aa",
+      "nameAr": "Muhammad ibn Qasim Jassus al-Fasi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0adcb4db1e7c",
+      "nameAr": "محمد متولي الشعراوي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0b7f7e3f99f5",
+      "nameAr": "محيي الدين ابن عربي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0cc8963df4cd",
+      "nameAr": "uthman-ibn-affan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0e0a4d95cc7b",
+      "nameAr": "Sibt Ibn al-Jawzi; use with source-critical notes",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-0f1c7cf0bc88",
+      "nameAr": "maymuna-bint-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1010e90bd3ea",
+      "nameAr": "Ahmad ibn al-Mubarak al-Lamati",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-117ca7ce1c07",
+      "nameAr": "ilyas-ibn-mudar",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1194707df3c0",
+      "nameAr": "halima-al-sadiyya",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-11b83394b891",
+      "nameAr": "al-Zurqani",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1328eba3c05e",
+      "nameAr": "C. Snouck Hurgronje",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-14012c5b0c0d",
+      "nameAr": "abdullah-ibn-al-hasan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-14301a19d094",
+      "nameAr": "fihr-ibn-malik",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-14eb40ab2054",
+      "nameAr": "arwa-bint-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-16123c5eb12a",
+      "nameAr": "محمد بن أحمد القرطبي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-177f75bd083c",
+      "nameAr": "kinana-ibn-khuzayma",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-17d1ec48ee96",
+      "nameAr": "Sunan and Musnad traditions",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-17e283c6df81",
+      "nameAr": "Muhammad al-Sibaʿi al-Marrakushi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1887897a1661",
+      "nameAr": "الحارث المحاسبي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1a26b914289b",
+      "nameAr": "murra-ibn-kab",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1a613275126e",
+      "nameAr": "urwa-ibn-al-zubayr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1a9174be20e0",
+      "nameAr": "عبد الله بن علوي الحداد",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1b0d04da31c5",
+      "nameAr": "Richard Francis Burton",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1c404da1a824",
+      "nameAr": "al-qasim-ibn-al-hasan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1dc89c11702b",
+      "nameAr": "zayd-ibn-al-hasan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1e10028e1b70",
+      "nameAr": "Herbert E. E. Hayes",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-1f376d826cca",
+      "nameAr": "Stanley Lane-Poole (editor)",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-21099c986427",
+      "nameAr": "Ibn Hibban",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-2204d32f7044",
+      "nameAr": "abu-al-as-ibn-al-rabi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-224da2bd3aec",
+      "nameAr": "luayy-ibn-ghalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-22d0813a70ca",
+      "nameAr": "أحمد ابن عجيبة",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-230f261ef5b4",
+      "nameAr": "Ibn Abi ʿAsim",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-23cac69f0784",
+      "nameAr": "abd-yaghuth-ibn-wahb",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-248fde5641d4",
+      "nameAr": "safiyya-bint-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-27040d99eb01",
+      "nameAr": "sawda-bint-zama",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-27ff11fdc44f",
+      "nameAr": "salma-bint-amr-al-najjariyya",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-2b7b4eb4f7c6",
+      "nameAr": "traditional scholarship",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-2c5e6ee6995a",
+      "nameAr": "ابن حجر العسقلاني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-31d79fc1c191",
+      "nameAr": "wahb-ibn-abd-manaf-zuhra",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-32892c663d87",
+      "nameAr": "nawfal-ibn-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-355807c0957a",
+      "nameAr": "سهل التستري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-359034d29335",
+      "nameAr": "al-zubayr-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-35fe83b608f9",
+      "nameAr": "علي القاري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3afd4bc4b4e8",
+      "nameAr": "abu-sufyan-ibn-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3b1c8fb6a9a5",
+      "nameAr": "abu-salama-abdullah-ibn-abd-al-asad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3bcb0d0f9465",
+      "nameAr": "أبو عبد الرحمن السلمي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3c78dd611e4f",
+      "nameAr": "Theodore R. W. Lunt",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3d4354988ba1",
+      "nameAr": "عبد الوهاب بن أحمد الشعراني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3dede3bf2dc6",
+      "nameAr": "al-harith-ibn-abd-al-uzza-al-sadi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-3e9fa77b169c",
+      "nameAr": "sukayna-bint-al-husayn",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4012ffaed8d9",
+      "nameAr": "al-Fasi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4126a82c34ee",
+      "nameAr": "zaynab-bint-khuzayma",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-42363f863a52",
+      "nameAr": "عبد الوهاب الشعراني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-455c52fecad3",
+      "nameAr": "عبد الرحمن الديبع",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4600a94b5047",
+      "nameAr": "ابن عطاء الله السكندري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-46a650211ca9",
+      "nameAr": "Prophet Muhammad; Stanley Lane-Poole (editor)",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4965ee4b4a2e",
+      "nameAr": "ابن حزم",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4966196992e5",
+      "nameAr": "anisa-bint-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4970fb596979",
+      "nameAr": "محمد بن جرير الطبري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4a5072973b07",
+      "nameAr": "al-Ghazali, theological basis for understanding prophetic perfection",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4a659b864e94",
+      "nameAr": "عبد الرحمن بن علي ابن الجوزي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4ac75455dc72",
+      "nameAr": "ali-ibn-abi-talib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4aec839c57c4",
+      "nameAr": "mawlid scholarship",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4c7fe50bc447",
+      "nameAr": "Michael Sells",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-4c80649dd63b",
+      "nameAr": "الذهبي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-505ff3c05d4b",
+      "nameAr": "أحمد بن حنبل",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-50737456ace2",
+      "nameAr": "abdullah-ibn-muhammad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-53f4613557d0",
+      "nameAr": "علي بن محمد الحبشي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-54c4ff5148a3",
+      "nameAr": "malik-ibn-al-nadr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-55e9499722ba",
+      "nameAr": "جلال الدين السيوطي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-571b761eff72",
+      "nameAr": "Dabbagh tradition",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-57678ce6684a",
+      "nameAr": "جلال الدين الرومي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-59487b80ae9d",
+      "nameAr": "al-zubayr-ibn-al-awwam",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-5bf9bfa93e63",
+      "nameAr": "talib-ibn-abi-talib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-5ce725d212ff",
+      "nameAr": "prophetic-name literature",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-5cfce66e8914",
+      "nameAr": "محب الدين الطبري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-5dad76e8ac3a",
+      "nameAr": "أحمد ابن حجر الهيتمي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-5fa90258506c",
+      "nameAr": "Syed Ameer Ali",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-62887674c6fa",
+      "nameAr": "attributed in the Ibn al-Jawzi tradition",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-62fc96ff1e57",
+      "nameAr": "kilab-ibn-murra",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6378b4e18412",
+      "nameAr": "ابن علان الصديقي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6502aac967a6",
+      "nameAr": "jafar-ibn-al-husayn",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-65c58c1c5087",
+      "nameAr": "أبو حامد الغزالي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-660752c54bbb",
+      "nameAr": "Reynold Alleyne Nicholson",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-661f1067fe00",
+      "nameAr": "al-Razi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6716c3570ffe",
+      "nameAr": "dubaa-bint-al-zubayr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-676cc4e05ab1",
+      "nameAr": "Samuel Marinus Zwemer",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-67d2e5495d8a",
+      "nameAr": "ابن الأثير",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6800f90aa7c8",
+      "nameAr": "ibrahim-ibn-muhammad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-691061ac93a5",
+      "nameAr": "fatima-bint-al-husayn",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-69bc01fbc242",
+      "nameAr": "hafsa-bint-umar",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6a2fb0e55aef",
+      "nameAr": "مؤلف غير محسوم",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6a31a9a8cd4d",
+      "nameAr": "mariya-al-qibtiyya",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6c232a477c16",
+      "nameAr": "أبو نعيم الأصبهاني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6d7855bad715",
+      "nameAr": "sayings/counsels of al-Haddad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6dd9beba77d4",
+      "nameAr": "مغلطاي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-6f9bc4267d74",
+      "nameAr": "umm-salama",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7060e68d653d",
+      "nameAr": "khuzayma-ibn-mudrika",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-729ad2f4f28d",
+      "nameAr": "supplementary tradition around al-Suhayli",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-74cc7918c881",
+      "nameAr": "maadd-ibn-adnan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-763766a4c305",
+      "nameAr": "atika-bint-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-76a31e49044e",
+      "nameAr": "Gladys M. Draycott",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7752e2dfa848",
+      "nameAr": "mudrika-ibn-ilyas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-77982ed9d8d5",
+      "nameAr": "aisha-bint-abi-bakr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-786870b1fbc8",
+      "nameAr": "محمد بن قاسم جسوس",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7b6fbbad7591",
+      "nameAr": "abu-ahmad-ibn-jahsh",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7bf0cc08a810",
+      "nameAr": "Ibn al-Hajj, relevant discussions of Mawlid practice",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7f0f346662e7",
+      "nameAr": "fatima-al-zahra",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7f6e18811365",
+      "nameAr": "يوسف النبهاني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-7fa9a6a78510",
+      "nameAr": "Shibli Nuʿmani and Sulayman Nadwi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-80a82c553008",
+      "nameAr": "musab-ibn-al-zubayr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-80e620e0e338",
+      "nameAr": "جعفر البرزنجي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-811aa1739b23",
+      "nameAr": "thuwayba",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-82944daa4ac3",
+      "nameAr": "Muhammad ibn Muhammad al-Basri al-Miknasi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8365c67f7e7c",
+      "nameAr": "abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-844bcf88aff0",
+      "nameAr": "al-harith-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-85710f169008",
+      "nameAr": "Paul Marty",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-85bf007d8aa7",
+      "nameAr": "al-Baladhuri",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-861bff3c6f17",
+      "nameAr": "burra-bint-abd-al-uzza",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-872432cece41",
+      "nameAr": "abdullah-ibn-al-zubayr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8886a07bd085",
+      "nameAr": "فخر الدين الرازي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-88b5877e73df",
+      "nameAr": "hamna-bint-jahsh",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8a8258289287",
+      "nameAr": "al-muqawwim-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8af0983aab9c",
+      "nameAr": "al-hasan-ibn-ali",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8c13ceaa6b49",
+      "nameAr": "أبو الفرج عبد الرحمن بن علي ابن الجوزي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8cc3da213ec5",
+      "nameAr": "al-shayma-bint-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-8e178668f4e6",
+      "nameAr": "ali-ibn-abi-al-as",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-9030f2f1722c",
+      "nameAr": "abd-al-rahman-ibn-al-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-90fab59851fb",
+      "nameAr": "traditional Yemeni Seerah/Mawlid literature",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-915c567a5cf7",
+      "nameAr": "ubaydullah-ibn-al-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-919ef631490f",
+      "nameAr": "القاضي عياض",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-933505e3bc5b",
+      "nameAr": "Marmaduke William Pickthall",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-934d4c5ae390",
+      "nameAr": "abdullah-ibn-al-zubayr-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-950261ac6f78",
+      "nameAr": "abu-talib-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-95aa67be1d14",
+      "nameAr": "aqil-ibn-abi-talib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-977132eddfdb",
+      "nameAr": "councils of Imam al-Haddad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-99149c5c072c",
+      "nameAr": "hashim-ibn-abd-manaf",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-9aa1d179564d",
+      "nameAr": "traditional Sunni devotional Seerah",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-9e1bfc879954",
+      "nameAr": "muhsin-ibn-ali",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-9e5b72e62f72",
+      "nameAr": "ابن حزم الأندلسي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-9f11225bb49e",
+      "nameAr": "محمد بن سليمان بن عبد الرحمن الجزولي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-9f306fc0aaba",
+      "nameAr": "ابن الجوزي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a0b900526d5c",
+      "nameAr": "dirar-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a0f03dd7e445",
+      "nameAr": "محمد الخضري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a186c392d1f5",
+      "nameAr": "al-hasan-al-muthanna",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a3bde46b676f",
+      "nameAr": "umm-al-hakam-bint-al-zubayr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a43b4587691d",
+      "nameAr": "أبو الفداء إسماعيل بن كثير",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a5e59b399abf",
+      "nameAr": "عبد الكريم القشيري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a6fb499cb017",
+      "nameAr": "Bernard Carra de Vaux",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a968a3a37f0a",
+      "nameAr": "al-Suyuti, including Mawlid discussions",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-a9e1922c3561",
+      "nameAr": "umama-bint-abi-al-as",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-ac314fbc9c50",
+      "nameAr": "al-fadl-ibn-al-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-adbde611157a",
+      "nameAr": "biographies",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-ae42105e09d0",
+      "nameAr": "zaynab-bint-muhammad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-aeac823cb26f",
+      "nameAr": "umm-kulthum-bint-ali",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b045b9599049",
+      "nameAr": "abdullah-ibn-jahsh",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b1ae024eae93",
+      "nameAr": "Arthur Glyn Leonard",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b2e0e59ca2d5",
+      "nameAr": "al-Darimi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b43b087d34f4",
+      "nameAr": "mabad-ibn-al-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b56032f32663",
+      "nameAr": "T. W. Arnold",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b758f13b7aca",
+      "nameAr": "amina-bint-wahb",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b7646245ab3f",
+      "nameAr": "traditions collected by Sunni hadith scholars",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b77d9c2729c5",
+      "nameAr": "abdullah-ibn-al-husayn",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-b90d97e3a5a2",
+      "nameAr": "safiyya-bint-huyayy",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-ba9aa4959497",
+      "nameAr": "محمد بن سعيد البوصيري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-bbcfbdc8aad3",
+      "nameAr": "محمد بن جعفر الكتاني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-bbfa75f54701",
+      "nameAr": "Thomas Patrick Hughes",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-bcfb029afdac",
+      "nameAr": "al-Suyuti, especially verses concerning Ahl al-Bayt",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-bd9f4f9ec113",
+      "nameAr": "qusayy-ibn-kilab",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c032eca5a0cb",
+      "nameAr": "أبو الحسن علي بن خليل المسفّر السبتي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c0e0a70563a1",
+      "nameAr": "عبد القادر الجيلاني",
+      "beforeWords": 24,
+      "addedWords": 0,
+      "finalWords": 24,
+      "missingWords": 476
+    },
+    {
+      "id": "person-c29a1c5c546c",
+      "nameAr": "إسماعيل حقي البروسوي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c3b2d03973de",
+      "nameAr": "رشيد الدين الميبدي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c4c3e71eb9ee",
+      "nameAr": "qutham-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c759e8bf046b",
+      "nameAr": "zaynab-bint-ali",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c7e768de4e3c",
+      "nameAr": "Edward Sell",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c8e327497264",
+      "nameAr": "al-nadr-ibn-kinana",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c90046a44f73",
+      "nameAr": "البلاذري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-c941009dd1b1",
+      "nameAr": "al-Tabrizi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-cb74d5b34b30",
+      "nameAr": "sayings",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-cbdc7b5c1650",
+      "nameAr": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-cd930e66e935",
+      "nameAr": "S. Khuda Bukhsh",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d0266deef0c7",
+      "nameAr": "umm-hakim-al-bayda-bint-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d3f51877a09f",
+      "nameAr": "al-abbas-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d7fb32a15dcd",
+      "nameAr": "زين الدين العراقي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d84a6d5e98e2",
+      "nameAr": "abdullah-ibn-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d8f537ceafdd",
+      "nameAr": "ali-zayn-al-abidin",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d9028df96d00",
+      "nameAr": "J. M. Rodwell (translator)",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-d9fcdf4ff0cd",
+      "nameAr": "أحمد بن قاسم البخاري",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-da06e27a85e4",
+      "nameAr": "al-qasim-ibn-muhammad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-da8e2ffd90a2",
+      "nameAr": "juwayriya-bint-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-daa015e39f20",
+      "nameAr": "qutham-ibn-al-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dbcd649a2ade",
+      "nameAr": "Roy F. Dibble",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dbf3b8a9f2de",
+      "nameAr": "ابن حجر الهيتمي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dc0f587e3dc2",
+      "nameAr": "الواحدي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dc73d447031d",
+      "nameAr": "fatima-bint-amr",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dceef162f644",
+      "nameAr": "traditional mawlid literature",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dd0f80536552",
+      "nameAr": "al-Harith al-Muhasibi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-dd9b45c017ac",
+      "nameAr": "umm-kulthum-bint-muhammad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-df9870d23dd4",
+      "nameAr": "Ibn al-Dibaʿ",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e03e97656dec",
+      "nameAr": "أحمد القسطلاني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e096df1cc9ad",
+      "nameAr": "ابن كثير",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e18e64936084",
+      "nameAr": "أبو حامد محمد الغزالي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e2f3b87898f9",
+      "nameAr": "الطبراني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e2fe99cdb8cd",
+      "nameAr": "ubaydullah-ibn-jahsh",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e463a9fc7970",
+      "nameAr": "barra-bint-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e4e3b97ca9e1",
+      "nameAr": "غير مذكور / مجهول في بعض الفهارس",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e53922df741b",
+      "nameAr": "stories",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e59d18e68796",
+      "nameAr": "abdullah-ibn-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e60283d67ffd",
+      "nameAr": "zaynab-bint-jahsh",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e72a89df3f2d",
+      "nameAr": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e74f63f2faac",
+      "nameAr": "Imam Malik",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e757d74ff462",
+      "nameAr": "nizar-ibn-maadd",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-e8a4a2468176",
+      "nameAr": "kab-ibn-luayy",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-eb5591d002e8",
+      "nameAr": "Etienne Dinet; Sliman Ben Ibrahim",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-ee9533da8a95",
+      "nameAr": "ruqayya-bint-muhammad",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-eec2b7f83c29",
+      "nameAr": "مؤمن الشبلنجي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f1016b29563a",
+      "nameAr": "Rumi, especially passages concerning Prophetic love and imitation",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f54b80d2d221",
+      "nameAr": "hamza-ibn-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f74b84253e4b",
+      "nameAr": "rabia-ibn-al-harith",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f8216ef01954",
+      "nameAr": "saad-ibn-abi-waqqas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f8e34f0835c0",
+      "nameAr": "Ibn al-Qattan al-Fasi",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f95ed2a0a66a",
+      "nameAr": "khadija-bint-khuwaylid",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-f974ed62e10c",
+      "nameAr": "عبد الملك بن هشام",
+      "beforeWords": 154,
+      "addedWords": 0,
+      "finalWords": 154,
+      "missingWords": 346
+    },
+    {
+      "id": "person-faa3642614c7",
+      "nameAr": "tamam-ibn-al-abbas",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-facd06c50592",
+      "nameAr": "abd-manaf-ibn-qusayy",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-fb5e1bf60415",
+      "nameAr": "Sunni hadith compilations",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-fbae8cebf367",
+      "nameAr": "amr-ibn-al-hasan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-fbee51f1401c",
+      "nameAr": "umayma-bint-abd-al-muttalib",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-fe2e22ec110a",
+      "nameAr": "عبد الحي الكتاني",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "person-fe841d654665",
+      "nameAr": "abu-bakr-ibn-al-hasan",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "prophet-muhammad",
+      "nameAr": "محمد ﷺ",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "saeed-ibn-zayd",
+      "nameAr": "سعيد بن زيد",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "salman-al-farisi",
+      "nameAr": "سلمان الفارسي",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "talha-ibn-ubaydullah",
+      "nameAr": "طلحة بن عبيد الله",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "umar-ibn-al-khattab",
+      "nameAr": "عمر بن الخطاب",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "usama-ibn-zaid",
+      "nameAr": "أسامة بن زيد",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "zaid-ibn-haritha",
+      "nameAr": "زيد بن حارثة",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    },
+    {
+      "id": "zaid-ibn-thabit",
+      "nameAr": "زيد بن ثابت",
+      "beforeWords": 0,
+      "addedWords": 0,
+      "finalWords": 0,
+      "missingWords": 500
+    }
+  ],
+  "complete": false,
+  "interpretation": "Only direct, explicitly person-owned, source-backed Arabic text counts. Related documentary context is excluded from the 500-word threshold."
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "short-biography-source-extension-index-v1",
+  "generatedAt": "2026-08-22T02:39:33.318302Z",
+  "targetWords": 500,
+  "policy": {
+    "directPersonOwnershipOnly": true,
+    "sourceBackedOnly": true,
+    "documentaryContextCountsTowardTarget": false,
+    "inventedFactualFillIn": false
+  },
+  "people": {}
+}
