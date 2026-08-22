@@ -7,6 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 CRITICAL_PAGES=[ROOT/x for x in ('library.html','library-all.html','reader.html','media.html','children.html','children-stories.html','children-very-short.html','children-animated.html','children-videos.html','people.html','person.html','family.html')]
 REQUIRED_CHILDREN=[ROOT/'data/children/taxonomy.json',ROOT/'data/children/media-sources.json',ROOT/'data/children/stories/manifest.json',ROOT/'data/children/stories/index.json',ROOT/'data/children/animated/manifest.json',ROOT/'data/children/animated/index.json',ROOT/'data/children/animated/status.json',ROOT/'data/children/very-short/index.json',ROOT/'data/children/very-short/status.json']
 REQUIRED_BOOKSTORE=[ROOT/'assets/bookstore-catalogue-bridge.js',ROOT/'assets/bookstore.js',ROOT/'assets/prophet-bookreader.js',ROOT/'assets/provider-access-ui.js',ROOT/'data/bookstore_publication_policy.json']
+OCR_LEDGER=ROOT/'data/editorial/ocr_verification_ledger.json'
 MAX_HTML_BYTES=180_000;MAX_STYLESHEETS=18;MAX_SCRIPTS=20
 def load(p):
  try:return json.loads(p.read_text(encoding='utf-8'))
@@ -51,6 +52,17 @@ def main():
   rc=subprocess.run([sys.executable,str(audit_script)],cwd=ROOT,check=False).returncode
   audit=load(ROOT/'data/audits/bookstore-publication-audit-current.json') or {}
   if rc!=0 or not audit.get('complete'):errors.append(f"published resources missing from bookstore: {audit.get('publishedMissingFromBookstoreCount','audit-failed')}")
+ # OCR ledger may be empty, but every non-empty record must be structurally valid and explicitly VERIFIED.
+ ledger=load(OCR_LEDGER)
+ if ledger is None:errors.append('missing or invalid OCR verification ledger')
+ else:
+  seen=set()
+  for i,r in enumerate(ledger.get('records') or []):
+   if not isinstance(r,dict):errors.append(f'OCR verification record {i} is not an object');continue
+   wid=str(r.get('resourceId') or '').strip();status=str(r.get('status') or '').upper();repaired=str(r.get('repairedArtifact') or '').strip();original=str(r.get('originalOcrArtifact') or '').strip();basis=r.get('verificationBasis') or []
+   if not wid or status!='VERIFIED' or not repaired or not original or not isinstance(basis,list) or not basis:errors.append(f'OCR verification record {i} is incomplete or not VERIFIED')
+   if wid and wid in seen:errors.append(f'duplicate OCR verification resourceId: {wid}')
+   seen.add(wid)
  print('PROFESSIONAL RELEASE GATE:', 'FAIL' if errors else 'PASS')
  for x in errors:print('- HARD:',x)
  for x in warnings:print('- REVIEW:',x)
