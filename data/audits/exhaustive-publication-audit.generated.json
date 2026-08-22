@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:45:56.432300+00:00",
-  "gitCommit": "276a45bed7c8f27211af3737e41d51d4e662b0f1",
+  "generatedAt": "2026-08-22T02:46:37.949546+00:00",
+  "gitCommit": "b6e64fa8dfe5f88ec0efaefdca8a51825e1c6bd6",
   "github": {
-    "trackedFileCount": 813,
+    "trackedFileCount": 814,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 216,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 51,
       "PUBLIC_SITE_ASSET": 106,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 305
+      "CONTENT_OR_PUBLICATION_REGISTRY": 306
     },
     "files": [
       {
@@ -890,12 +890,17 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 854303,
+        "size": 854853,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.md",
         "size": 853,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/audits/quran-native-deep-search-20260822.json",
+        "size": 3086,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -4045,7 +4050,7 @@
       },
       {
         "path": "scripts/source_first_fulltext_resolver.py",
-        "size": 6039,
+        "size": 6344,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -4081,10 +4086,10 @@
     ]
   },
   "registries": {
-    "registryFileCount": 59,
-    "recordCount": 3114,
+    "registryFileCount": 60,
+    "recordCount": 3119,
     "recordDispositionCounts": {
-      "CATALOGUED_OR_METADATA_RECORD": 1287,
+      "CATALOGUED_OR_METADATA_RECORD": 1292,
       "ATTACHED_RECORD": 689,
       "PUBLISHED_RECORD": 1090,
       "ASSET_OR_SOURCE_RECORD": 47,
@@ -4094,6 +4099,10 @@
       {
         "path": "data/archive_import_batch.json",
         "recordCount": 10
+      },
+      {
+        "path": "data/audits/quran-native-deep-search-20260822.json",
+        "recordCount": 5
       },
       {
         "path": "data/catalogue/chunk-01.json",
@@ -4397,6 +4406,41 @@
         "registry": "data/archive_import_batch.json",
         "collection": "items",
         "index": 9,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "quran-meaning-001",
+        "registry": "data/audits/quran-native-deep-search-20260822.json",
+        "collection": "items",
+        "index": 0,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "quran-meaning-003",
+        "registry": "data/audits/quran-native-deep-search-20260822.json",
+        "collection": "items",
+        "index": 1,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "quran-meaning-013",
+        "registry": "data/audits/quran-native-deep-search-20260822.json",
+        "collection": "items",
+        "index": 2,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "quran-meaning-015",
+        "registry": "data/audits/quran-native-deep-search-20260822.json",
+        "collection": "items",
+        "index": 3,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "quran-meaning-017",
+        "registry": "data/audits/quran-native-deep-search-20260822.json",
+        "collection": "items",
+        "index": 4,
         "disposition": "CATALOGUED_OR_METADATA_RECORD"
       },
       {
