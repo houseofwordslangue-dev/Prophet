@@ -1,11 +1,11 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:04:58.691220+00:00",
-  "gitCommit": "55be2f4053b7c7819bbc9ac56c44a0b313c25a81",
+  "generatedAt": "2026-08-22T01:05:38.190843+00:00",
+  "gitCommit": "592f1c53cdf460bec2f589c5fdcd25ed427c6fbb",
   "github": {
-    "trackedFileCount": 763,
+    "trackedFileCount": 765,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 192,
+      "TECHNICAL_REPOSITORY_FILE": 194,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 125,
       "PUBLIC_OR_SOURCE_ASSET": 44,
       "PUBLIC_SITE_ASSET": 100,
@@ -246,6 +246,11 @@
       {
         "path": ".github/workflows/rotation-ingest.yml",
         "size": 8180,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".github/workflows/source-first-fulltext.yml",
+        "size": 1864,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -755,7 +760,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 839666,
+        "size": 839818,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3796,6 +3801,11 @@
       {
         "path": "scripts/run_ali_1000_resilient.py",
         "size": 3272,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/source_first_fulltext_resolver.py",
+        "size": 5514,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
