@@ -1,0 +1,48 @@
+name: Source-first full-text enablement
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/public_catalog_all.generated.json'
+      - 'data/source_first_fulltext_policy.json'
+      - 'private/acquisition_candidates.json'
+      - 'scripts/source_first_fulltext_resolver.py'
+      - 'scripts/acquire_unrestricted_library.py'
+      - '.github/workflows/source-first-fulltext.yml'
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: prophet-source-first-fulltext
+  cancel-in-progress: false
+jobs:
+  resolve-and-acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Search native digital formats before OCR
+        run: python scripts/source_first_fulltext_resolver.py
+      - name: Acquire verified unrestricted native copies
+        run: python scripts/acquire_unrestricted_library.py --limit 40
+      - name: Rebuild public reader index
+        run: python scripts/build_ingested_library.py
+      - name: Re-run publication audit
+        continue-on-error: true
+        run: python scripts/exhaustive_publication_audit.py
+      - name: Commit resolver state and updated index
+        run: |
+          git config user.name 'prophet-source-first-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -- private/source_first_resolution.json private/acquisition_state.json data/ingested_library.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Resolve native full-text sources before OCR'
+            git push
+          fi
