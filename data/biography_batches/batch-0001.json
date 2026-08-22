@@ -1,0 +1,18 @@
+{
+  "schema": "prophet-biography-batch-v1",
+  "batchNumber": 1,
+  "ordinalStart": 1,
+  "ordinalEnd": 50,
+  "count": 50,
+  "sourcePartition": "profiles_companion.json",
+  "sourceGrade": "companion",
+  "sourcePartitionOrdinalStart": 1,
+  "sourcePartitionOrdinalEnd": 50,
+  "selectionOrder": "stable lexicographic source-profile id order",
+  "status": "SOURCE_SLICE_ASSIGNED",
+  "canonicalBiographyRoute": "person.html?rijal=1&id={sourceId}&group=rijal&lang={lang}",
+  "materializationScript": "scripts/build_biography_batches.py",
+  "biographyPolicy": "Each of these 50 source profiles maps to one canonical biography page. Biography content is assembled only from non-empty source-backed profile fields and verified source extensions; no missing historical detail may be invented.",
+  "sourceProfileBodiesDuplicated": false,
+  "publicMetaCommentary": false
+}
