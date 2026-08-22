@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:44:35.748727+00:00",
-  "gitCommit": "0856d206f678b09abea0a0e0fd5c760dee8e4d4a",
+  "generatedAt": "2026-08-22T02:45:11.995815+00:00",
+  "gitCommit": "9b1aea929e8f18a39f30f5d7072a81054d14a843",
   "github": {
     "trackedFileCount": 809,
     "fileDispositionCounts": {
@@ -675,7 +675,7 @@
       },
       {
         "path": "assets/person-rijal.js",
-        "size": 9894,
+        "size": 9353,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -880,7 +880,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 852969,
+        "size": 854303,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
