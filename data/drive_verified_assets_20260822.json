@@ -1,6 +1,6 @@
 {
-  "schema": "prophet-drive-verified-assets-v2",
-  "generatedAt": "2026-08-22T06:24:00+01:00",
+  "schema": "prophet-drive-verified-assets-v3",
+  "generatedAt": "2026-08-22T06:48:00+01:00",
   "source": "connected Google Drive verification",
   "policy": "Verified Drive assets usable for extraction; EPUB/TXT preferred, PDF routed through text layer or OCR as needed. Verification distinguishes work/file identity from edition-level provenance when the EPUB wrapper does not declare a source edition.",
   "items": [
@@ -38,6 +38,7 @@
     {"title":"الطبقات الكبرى — الجزء 6","format":"pdf","driveId":"1BUlSVlXYPPZrvra2_WWKNF8HUH2GGTsf","size":6435020,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 7","format":"pdf","driveId":"1IVl-VEslumdqURP2wIQygq9vyouKkfWb","size":6312105,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 8","format":"pdf","driveId":"1IEPXoKqIdyDWnCORJyUiV6Ao9qd9eLuh","size":6186601,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
+    {"title":"الطبقات الكبرى — الجزء 9","format":"pdf","driveId":"1YHVDJ7kSe8hVL9W2Dyi0gt_KiTyER93S","sourceTitle":"الطبقات الکبیر لإبن سعد ـ الجز 9_text.pdf","extractionReady":true,"extractionMode":"text-bearing-pdf","verificationLevel":"direct-drive-file-match","verificationNote":"Located directly in connected Drive and inserted into the canonical 11-part Tabaqat series."},
     {"title":"الطبقات الكبرى — الجزء 10","format":"pdf","driveId":"16FeLjSIBhd_NXK6YetqtIwXoauVMv_co","size":7784955,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 11","format":"pdf","driveId":"1UnUpwYxvAnRSvG4mJ9_x-3pbHzjuhXM-","size":3445610,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 1","format":"pdf","driveId":"1c5faI9DRUZJ_pQGI3J8U-QoJ8IucpdSG","size":11194383,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
