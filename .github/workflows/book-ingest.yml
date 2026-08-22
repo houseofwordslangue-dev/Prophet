@@ -7,6 +7,8 @@ on:
       - '.github/workflows/book-ingest.yml'
       - 'private/acquisition_candidates.json'
       - 'scripts/acquire_unrestricted_library.py'
+      - 'scripts/source_first_fulltext_resolver.py'
+      - 'data/source_first_fulltext_policy.json'
       - 'scripts/promote_verified_catalogue_candidates.py'
       - 'scripts/discover_gutenberg_resources.py'
       - 'scripts/build_ingested_library.py'
@@ -18,7 +20,7 @@ on:
       books:
         description: Books to acquire per cycle
         required: false
-        default: '4'
+        default: '40'
 
 permissions:
   contents: write
@@ -31,9 +33,9 @@ jobs:
   books:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 45
     env:
-      PM_BOOK_BATCH: ${{ inputs.books || '4' }}
+      PM_BOOK_BATCH: ${{ inputs.books || '40' }}
       GITHUB_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
@@ -44,15 +46,18 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Resolve EPUB text Word and native formats before OCR
+        run: python scripts/source_first_fulltext_resolver.py
+
       - name: Discover additional official Gutenberg resources
         continue-on-error: true
-        run: python scripts/discover_gutenberg_resources.py --limit 12
+        run: python scripts/discover_gutenberg_resources.py --limit 40
 
       - name: Promote rights-cleared exact catalogue sources
         continue-on-error: true
-        run: python scripts/promote_verified_catalogue_candidates.py --limit 25
+        run: python scripts/promote_verified_catalogue_candidates.py --limit 100
 
-      - name: Acquire next unpublished book batch on GitHub runner
+      - name: Acquire next unpublished native book batch on GitHub runner
         run: python scripts/acquire_unrestricted_library.py --limit "$PM_BOOK_BATCH"
 
       - name: Build cumulative reader/search/listen index
@@ -64,22 +69,29 @@ jobs:
           import json, pathlib
           state=pathlib.Path('private/acquisition_state.json')
           index=pathlib.Path('data/ingested_library.json')
+          resolution=pathlib.Path('private/source_first_resolution.json')
+          if not resolution.exists(): raise SystemExit('FAIL: native-source search did not run')
           if not state.exists(): raise SystemExit('FAIL: acquisition state missing')
           if not index.exists(): raise SystemExit('FAIL: ingested library index missing')
+          r=json.loads(resolution.read_text(encoding='utf-8'))
           s=json.loads(state.read_text(encoding='utf-8'))
           d=json.loads(index.read_text(encoding='utf-8'))
+          if any(not x.get('nativeSearchCompleted') for x in r.get('items',[])):
+              raise SystemExit('FAIL: OCR/full-text pipeline attempted before native-source search completed')
+          print('native-source records:',len(r.get('items',[])))
+          print('native text found:',r.get('nativeTextFound',0))
           print('state records:',len(s.get('items',[])))
           print('published index:',d.get('count',0))
           print('current batch:',d.get('currentBatchCount',0))
           PY
 
-      - name: Commit cumulative queue, state and public index
+      - name: Commit cumulative queue, source-first state and public index
         run: |
           git config user.name 'prophet-ingestion-bot'
           git config user.email 'prophet-ingestion-bot@users.noreply.github.com'
-          git add -- private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json
+          git add -- private/acquisition_candidates.json private/acquisition_state.json private/source_first_resolution.json data/ingested_library.json
           if ! git diff --cached --quiet; then
-            git commit -m "Acquire next verified book rotation"
+            git commit -m "Acquire verified native-format book rotation"
             git push
           fi
 
