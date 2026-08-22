@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
 import argparse, importlib.util, json
 from datetime import datetime, timezone
@@ -107,7 +107,7 @@ def main():
   audit['slots'][slot]={'status':'NEEDS_SOURCE','at':now.isoformat(),'reason':'No unused source-grounded candidate matched exact slot semantics; no filler fabricated.'};save(AUDIT,audit);print('NEEDS_SOURCE',slot);return 0
  cand.sort(key=lambda z:(-z[0],str((z[1].get('source') or {}).get('workId') or ''),str(z[1].get('fingerprint') or '')))
  chosen=cand[0][1];seq=int(now.timestamp());rec=b.build_record(chosen,seq,{(section,sub)})
- rec['id']=f'completion-{now.date().isoformat()}-{section}-{sub}-{seq}';rec['section']=section;rec['subsection']=sub;rec['publicationStatus']='READY';rec['publishedAt']=now.isoformat();rec['completionPrompt']={'targetSlot':slot,'targetMinimum':50,'governedBy':'MASTER_OVERRIDING_INSTRUCTION.md'}
+ rec['id']=f'completion-{now.date().isoformat()}-{section}-{sub}-{seq}';rec['section']=section;rec['subsection']=sub;rec['publicationStatus']='READY';rec['publishedAt']=now.isoformat();rec['completionPrompt']={'targetSlot':slot,'targetMinimum':50,'governedBy':'MASTER-OVERRIDING-SITE-INSTRUCTION.md'}
  ref=rec['id']+'-source'
  for i,p in enumerate(rec.get('paragraphs') or [],1):p['id']=f"{rec['id']}-p{i:02d}";p['sourceRefs']=[ref]
  for s in rec.get('sources') or []:s['ref']=ref

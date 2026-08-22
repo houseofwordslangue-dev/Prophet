@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
 import concurrent.futures,hashlib,json,os,re,unicodedata,urllib.parse,urllib.request
 from pathlib import Path

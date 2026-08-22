@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 import json,re,hashlib,html,urllib.request
 from pathlib import Path
 from collections import Counter

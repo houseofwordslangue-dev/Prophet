@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Build deterministic source-grounded rijal biography batches.
 
 Each batch contains at most 50 source profiles. No missing biographical fact is

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 import hashlib, json, os, pathlib, urllib.parse, urllib.request
 from datetime import datetime, timezone
 

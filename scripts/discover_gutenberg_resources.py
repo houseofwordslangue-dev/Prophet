@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Conservatively discover more public-domain Islam/Prophet research works on Project Gutenberg.
 
 Discovery is intentionally narrow:

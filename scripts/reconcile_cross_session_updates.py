@@ -6,8 +6,8 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 MASTER=ROOT/'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
-BASE=ROOT/'MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md'
-ALIAS=ROOT/'MASTER_OVERRIDING_INSTRUCTION.md'
+BASE=ROOT/'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
+ALIAS=ROOT/'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
 DECL='GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md'
 END='END OF MASTER OVERRIDING INSTRUCTION'
 
@@ -21,7 +21,7 @@ This file, `MASTER-OVERRIDING-SITE-INSTRUCTION.md`, is the ONE and ONLY controll
 
 It MUST contain the complete controlling instruction in one file. The controlling instruction MUST NOT be split across a base file, addendum, wrapper, incorporated-by-reference file, or competing master document.
 
-Any earlier or later file named like `MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md`, `MASTER_OVERRIDING_INSTRUCTION.md`, any specialized MASTER prompt, automation prompt, editorial/source/children/ingestion policy, or similar document is subordinate to this file and MUST NOT independently claim controlling authority.
+Any earlier or later file named like `MASTER-OVERRIDING-SITE-INSTRUCTION.md`, `MASTER-OVERRIDING-SITE-INSTRUCTION.md`, any specialized MASTER prompt, automation prompt, editorial/source/children/ingestion policy, or similar document is subordinate to this file and MUST NOT independently claim controlling authority.
 
 Compatibility pointer files may exist only when technically necessary. Such files must explicitly state that they are non-authoritative pointers to `MASTER-OVERRIDING-SITE-INSTRUCTION.md`.
 
@@ -31,7 +31,7 @@ Every such process MUST declare exactly:
 
 `GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md`
 
-The underscore alias `MASTER_OVERRIDING_INSTRUCTION.md` is not a valid governing declaration.
+The underscore alias `MASTER-OVERRIDING-SITE-INSTRUCTION.md` is not a valid governing declaration.
 
 A subordinate prompt may set operational targets or implementation details only when compatible with this master. It may never weaken source truth, provenance, rights, canonical ownership, public-page purity, localization, functionality, accessibility or any higher-priority rule in this file.
 
@@ -120,8 +120,8 @@ def normalize_processes():
             if not p.is_file() or p.suffix.lower() not in suffix: continue
             try:s=p.read_text(encoding='utf-8')
             except UnicodeDecodeError:continue
-            s=s.replace('MASTER_OVERRIDING_INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
-            s=s.replace('MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
+            s=s.replace('MASTER-OVERRIDING-SITE-INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
+            s=s.replace('MASTER-OVERRIDING-SITE-INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
             if DECL not in s:
                 marker=('# '+DECL+'\n') if p.suffix.lower() in {'.yml','.yaml','.py','.sh'} else ('// '+DECL+'\n')
                 if s.startswith('#!'):
@@ -129,7 +129,7 @@ def normalize_processes():
                 else:s=marker+s
             p.write_text(s,encoding='utf-8')
     for p in ROOT.glob('AUTO*.md'):
-        s=p.read_text(encoding='utf-8').replace('MASTER_OVERRIDING_INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md').replace('MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
+        s=p.read_text(encoding='utf-8').replace('MASTER-OVERRIDING-SITE-INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md').replace('MASTER-OVERRIDING-SITE-INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
         p.write_text(s,encoding='utf-8')
 
 def update_menu():
@@ -174,14 +174,14 @@ def update_drive_manifest():
 
 def write_audit_script():
     p=ROOT/'scripts/audit_current_instructions.py'
-    code='''#!/usr/bin/env python3\n"""GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md\nDeterministic acceptance audit for the unified controlling instruction.\n"""\nfrom pathlib import Path\nimport json,sys\nROOT=Path(__file__).resolve().parents[1]\nM=ROOT/"MASTER-OVERRIDING-SITE-INSTRUCTION.md"\nD="GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md"\ndef main():\n e=[]\n if not M.is_file():e.append("missing canonical master")\n else:\n  s=M.read_text(encoding="utf-8")\n  for x in ("1. PRIMARY OBJECTIVE","88.","101.","102. SINGLE-FILE MASTER AUTHORITY","103. CANONICAL FAMILY NAVIGATION","104. CANONICAL SOURCES AND STUDIES","105. GLOBAL ARABIC SPEECH","106. CROSS-SESSION / REPOSITORY / DRIVE RECONCILIATION RULE","END OF MASTER OVERRIDING INSTRUCTION"):\n   if x not in s:e.append("master missing marker: "+x)\n  if len(s)<65000:e.append("canonical master is unexpectedly short")\n  if "MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md" in s:e.append("canonical master still depends on split BASE")\n if (ROOT/"MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md").exists():e.append("split BASE master still exists")\n menu=(ROOT/"assets/site-menu.js").read_text(encoding="utf-8")\n for x in ("الزوجات / أمهات المؤمنين","family.html?group=wives","المصادر والدراسات","المقالات والموضوعات"):\n  if x not in menu:e.append("menu missing: "+x)\n if "['العائلة النبوية'" in menu:e.append("competing top-level family taxonomy remains")\n if "loadChildrenChat()" in menu:e.append("duplicate child assistant loader remains")\n fam=(ROOT/"assets/family.js").read_text(encoding="utf-8")\n for x in ("requestedGroup=P.get('group')","'wives'","groupMatches"):\n  if x not in fam:e.append("family routing missing: "+x)\n tax=json.loads((ROOT/"data/content_taxonomy_policy.json").read_text(encoding="utf-8"))\n cs=tax.get("canonicalSections",{})\n if cs.get("family",{}).get("wivesLabelAr")!="الزوجات / أمهات المؤمنين":e.append("taxonomy missing wives collection")\n if cs.get("library",{}).get("labelAr")!="المصادر والدراسات":e.append("taxonomy library label mismatch")\n for root in (ROOT/".github/workflows",ROOT/"scripts"):\n  for q in root.rglob("*"):\n   if not q.is_file() or q.suffix.lower() not in {".yml",".yaml",".py",".js",".mjs",".cjs",".sh",".ts"}:continue\n   try:t=q.read_text(encoding="utf-8")\n   except UnicodeDecodeError:continue\n   if D not in t:e.append("process lacks canonical declaration: "+str(q.relative_to(ROOT)))\n   if "GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md" in t:e.append("stale governing alias: "+str(q.relative_to(ROOT)))\n for q in ROOT.rglob("*"):\n  if not q.is_file() or q.suffix.lower() not in {".html",".js",".mjs",".cjs",".json",".webmanifest",".toml",".ini",".cfg"}:continue\n  if any(x in q.parts for x in (".git","node_modules","vendor","dist","build","runtime_cache")):continue\n  try:t=q.read_text(encoding="utf-8")\n  except UnicodeDecodeError:continue\n  if "ar-SA" in t:e.append("configured runtime ar-SA: "+str(q.relative_to(ROOT)))\n if e:\n  print("CURRENT-INSTRUCTIONS AUDIT FAIL",file=sys.stderr);[print(" - "+x,file=sys.stderr) for x in e];return 1\n print("CURRENT-INSTRUCTIONS AUDIT PASS");return 0\nif __name__=="__main__":raise SystemExit(main())\n'''
+    code='''#!/usr/bin/env python3\n"""GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md\nDeterministic acceptance audit for the unified controlling instruction.\n"""\nfrom pathlib import Path\nimport json,sys\nROOT=Path(__file__).resolve().parents[1]\nM=ROOT/"MASTER-OVERRIDING-SITE-INSTRUCTION.md"\nD="GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md"\ndef main():\n e=[]\n if not M.is_file():e.append("missing canonical master")\n else:\n  s=M.read_text(encoding="utf-8")\n  for x in ("1. PRIMARY OBJECTIVE","88.","101.","102. SINGLE-FILE MASTER AUTHORITY","103. CANONICAL FAMILY NAVIGATION","104. CANONICAL SOURCES AND STUDIES","105. GLOBAL ARABIC SPEECH","106. CROSS-SESSION / REPOSITORY / DRIVE RECONCILIATION RULE","END OF MASTER OVERRIDING INSTRUCTION"):\n   if x not in s:e.append("master missing marker: "+x)\n  if len(s)<65000:e.append("canonical master is unexpectedly short")\n  if "MASTER-OVERRIDING-SITE-INSTRUCTION.md" in s:e.append("canonical master still depends on split BASE")\n if (ROOT/"MASTER-OVERRIDING-SITE-INSTRUCTION.md").exists():e.append("split BASE master still exists")\n menu=(ROOT/"assets/site-menu.js").read_text(encoding="utf-8")\n for x in ("الزوجات / أمهات المؤمنين","family.html?group=wives","المصادر والدراسات","المقالات والموضوعات"):\n  if x not in menu:e.append("menu missing: "+x)\n if "['العائلة النبوية'" in menu:e.append("competing top-level family taxonomy remains")\n if "loadChildrenChat()" in menu:e.append("duplicate child assistant loader remains")\n fam=(ROOT/"assets/family.js").read_text(encoding="utf-8")\n for x in ("requestedGroup=P.get('group')","'wives'","groupMatches"):\n  if x not in fam:e.append("family routing missing: "+x)\n tax=json.loads((ROOT/"data/content_taxonomy_policy.json").read_text(encoding="utf-8"))\n cs=tax.get("canonicalSections",{})\n if cs.get("family",{}).get("wivesLabelAr")!="الزوجات / أمهات المؤمنين":e.append("taxonomy missing wives collection")\n if cs.get("library",{}).get("labelAr")!="المصادر والدراسات":e.append("taxonomy library label mismatch")\n for root in (ROOT/".github/workflows",ROOT/"scripts"):\n  for q in root.rglob("*"):\n   if not q.is_file() or q.suffix.lower() not in {".yml",".yaml",".py",".js",".mjs",".cjs",".sh",".ts"}:continue\n   try:t=q.read_text(encoding="utf-8")\n   except UnicodeDecodeError:continue\n   if D not in t:e.append("process lacks canonical declaration: "+str(q.relative_to(ROOT)))\n   if "GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md" in t:e.append("stale governing alias: "+str(q.relative_to(ROOT)))\n for q in ROOT.rglob("*"):\n  if not q.is_file() or q.suffix.lower() not in {".html",".js",".mjs",".cjs",".json",".webmanifest",".toml",".ini",".cfg"}:continue\n  if any(x in q.parts for x in (".git","node_modules","vendor","dist","build","runtime_cache")):continue\n  try:t=q.read_text(encoding="utf-8")\n  except UnicodeDecodeError:continue\n  if "ar-SA" in t:e.append("configured runtime ar-SA: "+str(q.relative_to(ROOT)))\n if e:\n  print("CURRENT-INSTRUCTIONS AUDIT FAIL",file=sys.stderr);[print(" - "+x,file=sys.stderr) for x in e];return 1\n print("CURRENT-INSTRUCTIONS AUDIT PASS");return 0\nif __name__=="__main__":raise SystemExit(main())\n'''
     p.write_text(code,encoding='utf-8')
 
 def update_readme():
     p=ROOT/'README.md'
     if not p.exists():return
     s=p.read_text(encoding='utf-8')
-    s=s.replace('MASTER_OVERRIDING_INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md').replace('MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
+    s=s.replace('MASTER-OVERRIDING-SITE-INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md').replace('MASTER-OVERRIDING-SITE-INSTRUCTION.md','MASTER-OVERRIDING-SITE-INSTRUCTION.md')
     marker='## Canonical governance and information architecture'
     if marker not in s:
         s+='\n\n'+marker+'\n\n- Sole controlling instruction: `MASTER-OVERRIDING-SITE-INSTRUCTION.md`.\n- Canonical family area: **الأسرة النبوية**, including **الزوجات / أمهات المؤمنين** as a collection that links to canonical person biographies.\n- **السير والتراجم** remains an independent canonical biography section; one person = one canonical biography.\n- Canonical resource area: **المصادر والدراسات**.\n- Children/young-person content belongs in **أحباب الله**.\n- Arabic generated/synthesized speech uses `ar-MA`.\n'

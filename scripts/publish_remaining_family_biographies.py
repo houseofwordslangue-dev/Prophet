@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 import glob, json, pathlib, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]

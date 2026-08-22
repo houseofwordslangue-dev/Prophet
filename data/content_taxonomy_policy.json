@@ -6,7 +6,14 @@
       "labelAr": "أحباب الله",
       "landing": "children.html",
       "exclusiveAudienceRule": "All content specifically directed to children or young people belongs under this section regardless of media format or historical subject.",
-      "contentTypes": ["verified-readings", "illustrated-stories", "very-short-stories", "animated-stories", "video", "audio"],
+      "contentTypes": [
+        "verified-readings",
+        "illustrated-stories",
+        "very-short-stories",
+        "animated-stories",
+        "video",
+        "audio"
+      ],
       "mayReferenceCanonicalPeople": true
     },
     "people": {
@@ -14,7 +21,15 @@
       "landing": "people.html",
       "canonicalPage": "person.html",
       "independentMenuSection": true,
-      "groups": ["prophetic-family", "companions", "narrators", "tabiin", "atba_tabiin", "ancestors", "other-biographical-people"],
+      "groups": [
+        "prophetic-family",
+        "companions",
+        "narrators",
+        "tabiin",
+        "atba_tabiin",
+        "ancestors",
+        "other-biographical-people"
+      ],
       "onePersonOneCanonicalBiography": true,
       "narratorCatalogue": "people.html?group=rijal"
     },
@@ -27,6 +42,27 @@
       "labelAr": "المقالات والموضوعات",
       "landing": "editorial.html",
       "rule": "Thematic articles remain in the section determined by their actual subject. Mentioning a person does not convert a thematic article into that person's biography."
+    },
+    "family": {
+      "labelAr": "الأسرة النبوية",
+      "landing": "family.html",
+      "collectionOnly": true,
+      "canonicalBiographyOwner": "people",
+      "groups": [
+        "wives",
+        "children",
+        "grandchildren",
+        "parents",
+        "ancestors",
+        "paternal-relatives",
+        "maternal-relatives",
+        "cousins",
+        "in-laws",
+        "foster",
+        "relatives"
+      ],
+      "wivesLabelAr": "الزوجات / أمهات المؤمنين",
+      "onePersonOneCanonicalBiography": true
     }
   },
   "ownershipRules": {

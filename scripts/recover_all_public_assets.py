@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Recover every rights-cleared, verifiable asset from the retained failed-download corpus.
 
 This script understands the compact professional catalogue chunks plus unresolved records in

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
 
 # Natural-language components are combined by mixed-radix indexing. The first

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
 import json,re
 from pathlib import Path
@@ -66,6 +66,6 @@ def main():
    k=(x['path'],x.get('recordId'),x.get('title'))
    if k not in uniq or x['score']>uniq[k]['score']:uniq[k]=x
   candidates[pid]=sorted(uniq.values(),key=lambda x:(x['score'],x['wordCount']),reverse=True)[:25]
- out={'schema':'all-missing-biography-source-candidates-v1','targetCount':len(targets),'targetsWithCandidates':sum(bool(v) for v in candidates.values()),'targetsWithoutCandidates':[k for k,v in candidates.items() if not v],'targets':targets,'candidates':candidates,'governedBy':'MASTER_OVERRIDING_INSTRUCTION.md'}
+ out={'schema':'all-missing-biography-source-candidates-v1','targetCount':len(targets),'targetsWithCandidates':sum(bool(v) for v in candidates.values()),'targetsWithoutCandidates':[k for k,v in candidates.items() if not v],'targets':targets,'candidates':candidates,'governedBy':'MASTER-OVERRIDING-SITE-INSTRUCTION.md'}
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps({'targetCount':out['targetCount'],'targetsWithCandidates':out['targetsWithCandidates'],'targetsWithoutCandidates':len(out['targetsWithoutCandidates'])},ensure_ascii=False));return 0
 if __name__=='__main__':raise SystemExit(main())

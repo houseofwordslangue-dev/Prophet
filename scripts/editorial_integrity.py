@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Validate the genuine-source editorial corpus and rolling coverage."""
 from __future__ import annotations
 import argparse, datetime as dt, difflib, json, re

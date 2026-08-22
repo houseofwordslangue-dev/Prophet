@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from pathlib import Path
 from urllib.parse import quote_plus
 from urllib.request import Request,urlopen
