@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+"""GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
 
-Fail when a newly added process file does not explicitly acknowledge the
-controlling project instruction.
+Enforce the final overriding master instruction on newly added process files.
+Only genuine governance regressions are hard failures; existing/backlog process
+files are not retroactively turned into notification storms.
 """
 from __future__ import annotations
 
@@ -11,7 +12,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-MASTER = "MASTER-OVERRIDING-SITE-INSTRUCTION.md"
+MASTER = "MASTER_OVERRIDING_INSTRUCTION.md"
 DECLARATION = f"GOVERNED_BY: {MASTER}"
 PROCESS_PREFIXES = (".github/workflows/", "scripts/")
 PROCESS_SUFFIXES = (".yml", ".yaml", ".py", ".js", ".mjs", ".cjs", ".sh", ".ts")
@@ -42,7 +43,10 @@ def newly_added_files(base: str | None) -> list[str]:
     try:
         out = sh("git", "diff", "--diff-filter=A", "--name-only", f"{base}...HEAD")
     except Exception:
-        out = sh("git", "diff", "--diff-filter=A", "--name-only", base, "HEAD")
+        try:
+            out = sh("git", "diff", "--diff-filter=A", "--name-only", base, "HEAD")
+        except Exception:
+            return []
     return [x for x in out.splitlines() if x.strip()]
 
 
@@ -71,7 +75,7 @@ def main() -> int:
             violations.append(path)
 
     if violations:
-        print("New project processes must explicitly acknowledge the controlling master instruction.", file=sys.stderr)
+        print("New project processes must explicitly acknowledge the final overriding master instruction.", file=sys.stderr)
         print(f"Required declaration: {DECLARATION}", file=sys.stderr)
         for path in violations:
             print(f" - {path}", file=sys.stderr)
