@@ -1,0 +1,11 @@
+{
+  "schema": "resource-extraction-availability-v2",
+  "generatedAt": "2026-08-22T05:18:06Z",
+  "catalogResources": 449,
+  "extractionReady": 121,
+  "acquisitionRequired": 328,
+  "coveragePercent": 26.95,
+  "driveVerifiedMatched": 7,
+  "allResourcesExtractionReady": false,
+  "policy": "Generation may use only resources with extractionReady=true. Verified Drive EPUB/PDF/TXT assets are first-class extraction sources; PDFs require text-layer validation or OCR. Missing resources remain queued for acquisition/resolution and never silently count as usable sources."
+}
