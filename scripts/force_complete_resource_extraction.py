@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
-# FORCE_RESOLUTION_TRIGGER: 2026-08-22T06:27Z — execute all extraction readiness routes now.
+# FORCE_RESOLUTION_TRIGGER: 2026-08-22T06:30Z — exhaustive extraction/acquisition/generation gate execution NOW.
 from __future__ import annotations
 import json, subprocess, sys, time
 from pathlib import Path
@@ -41,7 +41,7 @@ def py(name, *args):
 def snapshot():
     a = load(AVAIL, {})
     return {
-        'catalogResources': int(a.get('catalogResources') or 0),
+        'catalogResources': int(a.get('catalogResources') or a.get('cataloguedResources') or 0),
         'extractionReady': int(a.get('extractionReady') or 0),
         'acquisitionRequired': int(a.get('acquisitionRequired') or 0),
         'coveragePercent': float(a.get('coveragePercent') or 0),
@@ -76,6 +76,8 @@ def main():
         if s['acquisitionRequired'] == 0 or stable_rounds >= STABLE_ROUNDS_BEFORE_STOP:
             break
 
+    # Final resolver + strict manifests before any downstream generation.
+    final_resolver = py('source_first_fulltext_resolver.py')
     final = snapshot()
     resolution = load(RESOLUTION, {'items': []})
     unresolved = [x for x in resolution.get('items', []) if not x.get('extractionReady')]
@@ -90,8 +92,11 @@ def main():
         'retryOnNewSource': True,
     } for x in unresolved]
 
+    gate = py('enforce_resource_extraction_readiness.py')
+    manifest = py('build_extraction_ready_manifest.py')
+
     report = {
-        'schema': 'resource-extraction-force-report-v5',
+        'schema': 'resource-extraction-force-report-v6',
         'governedBy': 'MASTER-OVERRIDING-SITE-INSTRUCTION.md',
         'generatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'forceCompleteStateMachine': True,
@@ -99,22 +104,21 @@ def main():
         'maxRounds': MAX_ROUNDS,
         'acquisitionBatch': int(ACQUISITION_BATCH),
         'exhaustiveResolver': exhaustive,
+        'finalResolver': final_resolver,
         'catalogResources': final['catalogResources'],
         'extractionReady': final['extractionReady'],
         'researchRequired': len(research_required),
         'hardBlocked': 0,
         'coveragePercent': final['coveragePercent'],
         'allResourcesExtractionReady': len(research_required) == 0,
-        'generationPolicy': 'Only extractionReady resources may feed extraction or SOURCE_GROUNDED_SYNTHESIS. RESEARCH_REQUIRED resources remain public/catalogued and are retried; they are never silently substituted or used as evidence until verified.',
+        'generationPolicy': 'Only extractionReady resources in the generated allowlist/manifest may feed extraction or SOURCE_GROUNDED_SYNTHESIS. RESEARCH_REQUIRED resources remain catalogued and are retried; they are never silently substituted or used as evidence until verified.',
+        'readinessGate': gate,
+        'readyManifest': manifest,
         'rounds': rounds,
         'researchRequiredItems': research_required,
         'hardBlockedItems': [],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-    gate = py('enforce_resource_extraction_readiness.py')
-    report['readinessGate'] = gate
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({k: report[k] for k in ('catalogResources','extractionReady','researchRequired','hardBlocked','coveragePercent','allResourcesExtractionReady')}, ensure_ascii=False))
     return 0
