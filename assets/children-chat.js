@@ -1,0 +1,21 @@
+// GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+(()=>{'use strict';
+const COPY={
+ ar:{launch:'اسأل عادل',title:'عادل',sub:'مساعد أحباب الله',hello:'مرحبًا! اسألني عن المواد الموجودة في أحباب الله.',placeholder:'اكتب سؤالك…',send:'إرسال',thinking:'أبحث في مواد الموقع…',error:'تعذر تقديم الإجابة الآن.',note:'الإجابات من مواد الموقع المتاحة.',close:'إغلاق'},
+ fr:{launch:'Demander à Adel',title:'Adel',sub:"Assistant d’Ahbab Allah",hello:'Bonjour ! Pose-moi une question sur les contenus disponibles dans Ahbab Allah.',placeholder:'Écris ta question…',send:'Envoyer',thinking:'Je cherche dans les contenus du site…',error:"La réponse n’est pas disponible maintenant.",note:'Réponses fondées sur les contenus du site.',close:'Fermer'},
+ en:{launch:'Ask Adel',title:'Adel',sub:'Ahbab Allah assistant',hello:'Hello! Ask me about the materials available in Ahbab Allah.',placeholder:'Type your question…',send:'Send',thinking:'Searching the site materials…',error:'The answer is unavailable right now.',note:'Answers are grounded in site materials.',close:'Close'}
+};
+function language(){const h=(document.documentElement.lang||'ar').toLowerCase();return h.startsWith('fr')?'fr':h.startsWith('en')?'en':'ar'}
+function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!=null)x.textContent=text;return x}
+function mount(){if(document.querySelector('.ch-chat-launch'))return;const lang=language(),L=COPY[lang];
+ const launch=el('button','ch-chat-launch',L.launch);launch.type='button';launch.setAttribute('aria-expanded','false');launch.setAttribute('aria-controls','childrenChatPanel');
+ const panel=el('section','ch-chat');panel.id='childrenChatPanel';panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','false');panel.setAttribute('aria-label',L.sub);
+ const head=el('header','ch-chat-head');const ht=el('div');ht.append(el('strong','',L.title),el('small','',L.sub));const close=el('button','ch-chat-close','×');close.type='button';close.setAttribute('aria-label',L.close);head.append(ht,close);
+ const log=el('div','ch-chat-log');log.setAttribute('role','log');log.setAttribute('aria-live','polite');log.append(el('div','ch-chat-msg bot',L.hello));
+ const form=el('form','ch-chat-form');const input=el('textarea');input.rows=2;input.maxLength=1800;input.placeholder=L.placeholder;input.setAttribute('aria-label',L.placeholder);const actions=el('div','ch-chat-actions');actions.append(el('small','ch-chat-note',L.note));const send=el('button','ch-chat-send',L.send);send.type='submit';actions.append(send);form.append(input,actions);panel.append(head,log,form);document.body.append(launch,panel);
+ const open=()=>{panel.classList.add('open');launch.setAttribute('aria-expanded','true');input.focus()};const shut=()=>{panel.classList.remove('open');launch.setAttribute('aria-expanded','false');launch.focus()};launch.addEventListener('click',()=>panel.classList.contains('open')?shut():open());close.addEventListener('click',shut);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.classList.contains('open'))shut()});
+ const add=(text,kind)=>{const m=el('div','ch-chat-msg '+kind,text);log.append(m);log.scrollTop=log.scrollHeight;return m};
+ form.addEventListener('submit',async e=>{e.preventDefault();const message=input.value.trim();if(!message||send.disabled)return;add(message,'user');input.value='';send.disabled=true;const status=add(L.thinking,'status');try{const main=document.querySelector('main');const context={title:document.title,excerpt:(main?.innerText||'').replace(/\s+/g,' ').trim().slice(0,7000)};const r=await fetch('/api/children-chat',{method:'POST',headers:{'content-type':'application/json','accept':'application/json'},body:JSON.stringify({message,language:lang,context})});const d=await r.json().catch(()=>({}));status.remove();add(r.ok&&typeof d.answer==='string'&&d.answer.trim()?d.answer.trim():L.error,'bot')}catch{status.remove();add(L.error,'bot')}finally{send.disabled=false;input.focus()}});
+ input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();form.requestSubmit()}})}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();
+})();
