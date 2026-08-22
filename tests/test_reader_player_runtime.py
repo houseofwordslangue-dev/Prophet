@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json, os, subprocess, sys, time, unittest, urllib.request
+import json, os, subprocess, sys, time, unittest, urllib.parse, urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 PORT=18991
@@ -7,7 +7,10 @@ PORT=18991
 def req(path,method='GET',data=None,headers=None):
     body=None if data is None else json.dumps(data).encode()
     h={'Content-Type':'application/json',**(headers or {})}
-    with urllib.request.urlopen(urllib.request.Request(f'http://127.0.0.1:{PORT}{path}',data=body,method=method,headers=h),timeout=8) as r:return json.loads(r.read().decode())
+    # HTTP request targets must be ASCII. Preserve URL separators while
+    # percent-encoding Arabic and other non-ASCII query/path characters.
+    safe_path=urllib.parse.quote(path,safe='/?=&%:+')
+    with urllib.request.urlopen(urllib.request.Request(f'http://127.0.0.1:{PORT}{safe_path}',data=body,method=method,headers=h),timeout=8) as r:return json.loads(r.read().decode())
 
 class StaticRegression(unittest.TestCase):
     def test_arabic_normalization(self):
