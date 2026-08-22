@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/extend-short-biographies-500.yml'
       - 'scripts/extend_short_biographies_500.py'
+      - 'scripts/enrich_short_biographies_wikisource.py'
       - 'data/people.json'
       - 'data/family_people.json'
       - 'data/family_groups.json'
@@ -30,8 +31,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build strict 500-word source extensions
+      - name: Build strict local 500-word source extensions
         run: python scripts/extend_short_biographies_500.py
+      - name: Extend from approved direct Wikisource biography pages
+        run: python scripts/enrich_short_biographies_wikisource.py
       - name: Commit materialized extensions and audit
         run: |
           git config user.name 'github-actions[bot]'
@@ -40,6 +43,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No generated changes.'
           else
-            git commit -m 'Materialize strict 500-word biography extensions'
+            git commit -m 'Materialize approved-source 500-word biography extensions'
+            git pull --rebase origin main
             git push
           fi
