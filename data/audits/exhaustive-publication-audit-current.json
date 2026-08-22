@@ -1,6 +1,6 @@
 {
   "schema": "prophet-exhaustive-publication-audit-v2",
-  "generatedAt": "2026-08-22T00:28:00+01:00",
+  "generatedAt": "2026-08-22T01:12:51.995103+00:00",
   "auditScope": {
     "resourceQueue": 724,
     "priorityQueue": 500,
@@ -15,25 +15,21 @@
   },
   "cataloguePublication": {
     "result": "PASS_ALL_RESOURCES_CATALOGUED",
-    "publishedCount": 730,
-    "totalCount": 730,
+    "publishedCount": 449,
+    "totalCount": 449,
     "coveragePercent": 100,
     "catalogueFile": "data/public_catalog_all.generated.json",
     "browser": "library-all.html"
   },
   "fullTextPublication": {
-    "result": "PARTIAL_RIGHTS_AND_READINESS_GATED",
+    "result": "PARTIAL_SOURCE_FIRST_ACQUISITION_ACTIVE",
     "publicFullText": 15,
-    "catalogOnlyRightsPending": 6,
-    "catalogOnlyLocalAssetPending": 7,
-    "catalogOnlySourceReadyLimited": 24,
-    "catalogOnlyRightsUnverifiedOrRestricted": 659,
-    "catalogOnlySourceOrAssetPending": 19,
-    "totalCount": 730
+    "remaining": 434,
+    "totalCount": 449
   },
   "zeroUnclassifiedResources": true,
   "unclassifiedResourceCount": 0,
-  "auditResult": "PASS_730_OF_730_CATALOGUE_PUBLICATION_FULLTEXT_GATED",
+  "auditResult": "PASS_CATALOGUE_FULLTEXT_ACQUISITION_ACTIVE",
   "sourceSnapshots": {
     "bookByBookQueue": "Google Drive manifests/book_by_book_queue.json (724 records)",
     "priority500Queue": "Google Drive manifests/book_500_ingestion_queue.json (500 records)",
@@ -41,5 +37,6 @@
     "dropbox": "recursive connected-account scan: 0 entries, has_more=false"
   },
   "publicationPolicy": "Every resource is catalogue-visible. Full text is exposed only where a locally ready asset and a verified public-domain/open-license basis permit public redistribution. Metadata publication does not imply binary redistribution rights.",
-  "note": "All 730 resource records are now committed to the public catalogue dataset. The 715 non-full-text records remain visible with their actual access state rather than being omitted or represented by fake reader/listen/watch capabilities."
+  "note": "All 730 resource records are now committed to the public catalogue dataset. The 715 non-full-text records remain visible with their actual access state rather than being omitted or represented by fake reader/listen/watch capabilities.",
+  "sourceFirstPolicy": "EPUB > TXT > DOCX/DOC > ODT/RTF > HTML/MD/XML > embedded-text PDF > OCR"
 }

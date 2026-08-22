@@ -1,9 +1,9 @@
 # Exhaustive publication audit
 
-Generated: 2026-08-22T01:11:29.187456+00:00
-Commit: `bea07a543c155dadc8d5bd5f111dbaa0c7d9d81d`
+Generated: 2026-08-22T01:12:52.572982+00:00
+Commit: `7667b75a3f914853029aa2805782e23b8eb4a43a`
 
-- GitHub tracked files: **767**
+- GitHub tracked files: **768**
 - JSON content/resource records: **3110**
 - External Drive resource union: **730**
 - Audit result: **FAIL_NOT_EVERY_RESOURCE_FULLY_PUBLISHED**
@@ -14,7 +14,7 @@ Commit: `bea07a543c155dadc8d5bd5f111dbaa0c7d9d81d`
 - NON_PUBLIC_WORKSPACE_OR_REJECTED: 126
 - PUBLIC_OR_SOURCE_ASSET: 44
 - PUBLIC_SITE_ASSET: 100
-- TECHNICAL_REPOSITORY_FILE: 194
+- TECHNICAL_REPOSITORY_FILE: 195
 
 ## Resource dispositions
 - ASSET_OR_SOURCE_RECORD: 47
