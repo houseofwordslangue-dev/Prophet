@@ -1,0 +1,53 @@
+{
+  "id": "very-short-368",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "animals",
+  "valueAr": "الرفق بالحيوان",
+  "valueEn": "Caring for animals",
+  "valueFr": "Respect des animaux",
+  "titleAr": "رامي وقلم أزرق — الممر",
+  "titleEn": "Rami and a blue pencil — the hallway",
+  "titleFr": "Rami et le crayon bleu — le couloir",
+  "cover": "assets/children-very-short/scenes/very-short-368-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كان رامي في الممر. رأى قلم أزرق قريبًا، ثم ابتسم بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Rami was in the hallway and noticed a blue pencil nearby. With a smile, Rami moved closer. It felt like a good day to do something kind.",
+      "textFr": "Rami était dans le couloir et remarqua le crayon bleu tout près. Avec un sourire, Rami s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-368-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ رامي أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة الرفق بالحيوان، ثم فكر في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Rami noticed a young friend who needed help. Thinking about the value of caring for animals, Rami paused and chose one simple way to make things better.",
+      "textFr": "Rami vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — respect des animaux — Rami chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-368-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك رامي قلم أزرق بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Rami shared a blue pencil gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Rami partagea le crayon bleu avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-368-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد رامي سعيدًا. عرف أن الرفق بالحيوان يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Rami went home smiling. One small act inspired by caring for animals had made a warm difference.",
+      "textFr": "À la fin de la journée, Rami rentra avec le sourire. Un petit geste inspiré par cette valeur — respect des animaux — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-368-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

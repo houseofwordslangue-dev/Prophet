@@ -1,0 +1,53 @@
+{
+  "id": "very-short-187",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "helping",
+  "valueAr": "المساعدة",
+  "valueEn": "Helping",
+  "valueFr": "Entraide",
+  "titleAr": "أمين وسلة تفاح — الفصل",
+  "titleEn": "Amin and a basket of apples — the classroom",
+  "titleFr": "Amin et le panier de pommes — la classe",
+  "cover": "assets/children-very-short/scenes/very-short-187-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كان أمين في الفصل. رأى سلة تفاح قريبًا، ثم ابتسم بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Amin was in the classroom and noticed a basket of apples nearby. With a smile, Amin moved closer. It felt like a good day to do something kind.",
+      "textFr": "Amin était dans la classe et remarqua le panier de pommes tout près. Avec un sourire, Amin s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-187-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ أمين أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة المساعدة، ثم فكر في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Amin noticed a young friend who needed help. Thinking about the value of helping, Amin paused and chose one simple way to make things better.",
+      "textFr": "Amin vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — entraide — Amin chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-187-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك أمين سلة تفاح بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Amin shared a basket of apples gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Amin partagea le panier de pommes avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-187-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد أمين سعيدًا. عرف أن المساعدة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Amin went home smiling. One small act inspired by helping had made a warm difference.",
+      "textFr": "À la fin de la journée, Amin rentra avec le sourire. Un petit geste inspiré par cette valeur — entraide — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-187-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

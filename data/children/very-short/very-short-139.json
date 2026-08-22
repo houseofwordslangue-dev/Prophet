@@ -1,0 +1,53 @@
+{
+  "id": "very-short-139",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "nature",
+  "valueAr": "العناية بالطبيعة",
+  "valueEn": "Caring for nature",
+  "valueFr": "Respect de la nature",
+  "titleAr": "آدم وكتاب مصور — الفصل",
+  "titleEn": "Adam and a picture book — the classroom",
+  "titleFr": "Adam et le livre illustré — la classe",
+  "cover": "assets/children-very-short/scenes/very-short-139-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كان آدم في الفصل. رأى كتاب مصور قريبًا، ثم ابتسم بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Adam was in the classroom and noticed a picture book nearby. With a smile, Adam moved closer. It felt like a good day to do something kind.",
+      "textFr": "Adam était dans la classe et remarqua le livre illustré tout près. Avec un sourire, Adam s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-139-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ آدم أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة العناية بالطبيعة، ثم فكر في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Adam noticed a young friend who needed help. Thinking about the value of caring for nature, Adam paused and chose one simple way to make things better.",
+      "textFr": "Adam vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — respect de la nature — Adam chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-139-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك آدم كتاب مصور بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Adam shared a picture book gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Adam partagea le livre illustré avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-139-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد آدم سعيدًا. عرف أن العناية بالطبيعة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Adam went home smiling. One small act inspired by caring for nature had made a warm difference.",
+      "textFr": "À la fin de la journée, Adam rentra avec le sourire. Un petit geste inspiré par cette valeur — respect de la nature — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-139-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

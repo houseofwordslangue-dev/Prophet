@@ -1,0 +1,53 @@
+{
+  "id": "very-short-219",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "nature",
+  "valueAr": "العناية بالطبيعة",
+  "valueEn": "Caring for nature",
+  "valueFr": "Respect de la nature",
+  "titleAr": "سليم وكرة حمراء — المكتبة",
+  "titleEn": "Salim and a red ball — the library",
+  "titleFr": "Salim et la balle rouge — la bibliothèque",
+  "cover": "assets/children-very-short/scenes/very-short-219-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كان سليم في المكتبة. رأى كرة حمراء قريبًا، ثم ابتسم بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Salim was in the library and noticed a red ball nearby. With a smile, Salim moved closer. It felt like a good day to do something kind.",
+      "textFr": "Salim était dans la bibliothèque et remarqua la balle rouge tout près. Avec un sourire, Salim s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-219-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ سليم أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة العناية بالطبيعة، ثم فكر في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Salim noticed a young friend who needed help. Thinking about the value of caring for nature, Salim paused and chose one simple way to make things better.",
+      "textFr": "Salim vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — respect de la nature — Salim chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-219-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك سليم كرة حمراء بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Salim shared a red ball gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Salim partagea la balle rouge avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-219-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد سليم سعيدًا. عرف أن العناية بالطبيعة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Salim went home smiling. One small act inspired by caring for nature had made a warm difference.",
+      "textFr": "À la fin de la journée, Salim rentra avec le sourire. Un petit geste inspiré par cette valeur — respect de la nature — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-219-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

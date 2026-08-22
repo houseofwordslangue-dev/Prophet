@@ -1,0 +1,53 @@
+{
+  "id": "very-short-304",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "gratitude",
+  "valueAr": "الشكر",
+  "valueEn": "Gratitude",
+  "valueFr": "Gratitude",
+  "titleAr": "ليلى وكرة حمراء — الممر",
+  "titleEn": "Layla and a red ball — the hallway",
+  "titleFr": "Layla et la balle rouge — le couloir",
+  "cover": "assets/children-very-short/scenes/very-short-304-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كانت ليلى في الممر. رأت كرة حمراء قريبًا، ثم ابتسمت بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Layla was in the hallway and noticed a red ball nearby. With a smile, Layla moved closer. It felt like a good day to do something kind.",
+      "textFr": "Layla était dans le couloir et remarqua la balle rouge tout près. Avec un sourire, Layla s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-304-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظت ليلى أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكرت قيمة الشكر، ثم فكرت في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Layla noticed a young friend who needed help. Thinking about the value of gratitude, Layla paused and chose one simple way to make things better.",
+      "textFr": "Layla vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — gratitude — Layla chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-304-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شاركت ليلى كرة حمراء بلطف، وقالت كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Layla shared a red ball gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Layla partagea la balle rouge avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-304-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عادت ليلى سعيدة. عرفت أن الشكر يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Layla went home smiling. One small act inspired by gratitude had made a warm difference.",
+      "textFr": "À la fin de la journée, Layla rentra avec le sourire. Un petit geste inspiré par cette valeur — gratitude — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-304-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

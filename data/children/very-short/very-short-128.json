@@ -1,0 +1,53 @@
+{
+  "id": "very-short-128",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "animals",
+  "valueAr": "الرفق بالحيوان",
+  "valueEn": "Caring for animals",
+  "valueFr": "Respect des animaux",
+  "titleAr": "هبة وكتاب مصور — المزرعة الصغيرة",
+  "titleEn": "Hiba and a picture book — the little farm",
+  "titleFr": "Hiba et le livre illustré — la petite ferme",
+  "cover": "assets/children-very-short/scenes/very-short-128-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كانت هبة في المزرعة الصغيرة. رأت كتاب مصور قريبًا، ثم ابتسمت بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Hiba was at the little farm and noticed a picture book nearby. With a smile, Hiba moved closer. It felt like a good day to do something kind.",
+      "textFr": "Hiba était dans la petite ferme et remarqua le livre illustré tout près. Avec un sourire, Hiba s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-128-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظت هبة أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكرت قيمة الرفق بالحيوان، ثم فكرت في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Hiba noticed a young friend who needed help. Thinking about the value of caring for animals, Hiba paused and chose one simple way to make things better.",
+      "textFr": "Hiba vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — respect des animaux — Hiba chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-128-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شاركت هبة كتاب مصور بلطف، وقالت كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Hiba shared a picture book gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Hiba partagea le livre illustré avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-128-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عادت هبة سعيدة. عرفت أن الرفق بالحيوان يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Hiba went home smiling. One small act inspired by caring for animals had made a warm difference.",
+      "textFr": "À la fin de la journée, Hiba rentra avec le sourire. Un petit geste inspiré par cette valeur — respect des animaux — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-128-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

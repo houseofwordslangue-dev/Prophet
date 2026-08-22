@@ -1,0 +1,53 @@
+{
+  "id": "very-short-343",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "sharing",
+  "valueAr": "المشاركة",
+  "valueEn": "Sharing",
+  "valueFr": "Partage",
+  "titleAr": "نور ونبتة صغيرة — الساحة",
+  "titleEn": "Nour and a little plant — the courtyard",
+  "titleFr": "Nour et la petite plante — la cour",
+  "cover": "assets/children-very-short/scenes/very-short-343-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كانت نور في الساحة. رأت نبتة صغيرة قريبًا، ثم ابتسمت بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Nour was in the courtyard and noticed a little plant nearby. With a smile, Nour moved closer. It felt like a good day to do something kind.",
+      "textFr": "Nour était dans la cour et remarqua la petite plante tout près. Avec un sourire, Nour s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-343-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظت نور أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكرت قيمة المشاركة، ثم فكرت في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Nour noticed a young friend who needed help. Thinking about the value of sharing, Nour paused and chose one simple way to make things better.",
+      "textFr": "Nour vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — partage — Nour chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-343-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شاركت نور نبتة صغيرة بلطف، وقالت كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Nour shared a little plant gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Nour partagea la petite plante avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-343-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عادت نور سعيدة. عرفت أن المشاركة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Nour went home smiling. One small act inspired by sharing had made a warm difference.",
+      "textFr": "À la fin de la journée, Nour rentra avec le sourire. Un petit geste inspiré par cette valeur — partage — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-343-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

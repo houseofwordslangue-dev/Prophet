@@ -1,0 +1,53 @@
+{
+  "id": "very-short-054",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "gratitude",
+  "valueAr": "الشكر",
+  "valueEn": "Gratitude",
+  "valueFr": "Gratitude",
+  "titleAr": "ياسمين ونبتة صغيرة — الشرفة",
+  "titleEn": "Yasmine and a little plant — the balcony",
+  "titleFr": "Yasmine et la petite plante — le balcon",
+  "cover": "assets/children-very-short/scenes/very-short-054-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كانت ياسمين في الشرفة. رأت نبتة صغيرة قريبًا، ثم ابتسمت بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Yasmine was on the balcony and noticed a little plant nearby. With a smile, Yasmine moved closer. It felt like a good day to do something kind.",
+      "textFr": "Yasmine était dans le balcon et remarqua la petite plante tout près. Avec un sourire, Yasmine s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-054-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظت ياسمين أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكرت قيمة الشكر، ثم فكرت في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Yasmine noticed a young friend who needed help. Thinking about the value of gratitude, Yasmine paused and chose one simple way to make things better.",
+      "textFr": "Yasmine vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — gratitude — Yasmine chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-054-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شاركت ياسمين نبتة صغيرة بلطف، وقالت كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Yasmine shared a little plant gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Yasmine partagea la petite plante avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-054-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عادت ياسمين سعيدة. عرفت أن الشكر يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Yasmine went home smiling. One small act inspired by gratitude had made a warm difference.",
+      "textFr": "À la fin de la journée, Yasmine rentra avec le sourire. Un petit geste inspiré par cette valeur — gratitude — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-054-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}

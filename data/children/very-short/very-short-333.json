@@ -1,0 +1,53 @@
+{
+  "id": "very-short-333",
+  "ageGroup": "5-7",
+  "length": "very-short",
+  "value": "sharing",
+  "valueAr": "المشاركة",
+  "valueEn": "Sharing",
+  "valueFr": "Partage",
+  "titleAr": "آدم وكتاب مصور — الساحة",
+  "titleEn": "Adam and a picture book — the courtyard",
+  "titleFr": "Adam et le livre illustré — la cour",
+  "cover": "assets/children-very-short/scenes/very-short-333-1.svg",
+  "scenes": [
+    {
+      "number": 1,
+      "textAr": "كان آدم في الساحة. رأى كتاب مصور قريبًا، ثم ابتسم بهدوء. كان اليوم مناسبًا لفعل شيء جميل.",
+      "textEn": "Adam was in the courtyard and noticed a picture book nearby. With a smile, Adam moved closer. It felt like a good day to do something kind.",
+      "textFr": "Adam était dans la cour et remarqua le livre illustré tout près. Avec un sourire, Adam s’approcha doucement. C’était un bon moment pour faire une belle action.",
+      "image": "assets/children-very-short/scenes/very-short-333-1.svg"
+    },
+    {
+      "number": 2,
+      "textAr": "لاحظ آدم أن صديقًا صغيرًا يحتاج إلى المساعدة. تذكّر قيمة المشاركة، ثم فكر في طريقة بسيطة تجعل الموقف أفضل.",
+      "textEn": "Adam noticed a young friend who needed help. Thinking about the value of sharing, Adam paused and chose one simple way to make things better.",
+      "textFr": "Adam vit qu’un jeune ami avait besoin d’aide. En pensant à cette valeur — partage — Adam chercha une manière simple d’améliorer la situation.",
+      "image": "assets/children-very-short/scenes/very-short-333-2.svg"
+    },
+    {
+      "number": 3,
+      "textAr": "شارك آدم كتاب مصور بلطف، وقال كلمات قصيرة طيبة. شعر الصديق بالراحة، وصار المكان أكثر فرحًا وهدوءًا.",
+      "textEn": "Adam shared a picture book gently and used a few kind words. The friend felt better, and the place became happier and calmer.",
+      "textFr": "Adam partagea le livre illustré avec douceur et dit quelques mots gentils. L’ami se sentit mieux, et l’endroit devint plus joyeux et calme.",
+      "image": "assets/children-very-short/scenes/very-short-333-3.svg"
+    },
+    {
+      "number": 4,
+      "textAr": "في نهاية اليوم، عاد آدم سعيدًا. عرف أن المشاركة يبدأ بفعل صغير، وأن القلب الطيب يجعل اليوم أجمل.",
+      "textEn": "At the end of the day, Adam went home smiling. One small act inspired by sharing had made a warm difference.",
+      "textFr": "À la fin de la journée, Adam rentra avec le sourire. Un petit geste inspiré par cette valeur — partage — avait apporté beaucoup de chaleur.",
+      "image": "assets/children-very-short/scenes/very-short-333-4.svg"
+    }
+  ],
+  "fictional": true,
+  "historicalClaim": false,
+  "locales": [
+    "ar",
+    "en",
+    "fr"
+  ],
+  "readingMode": "large-type",
+  "listenMode": "browser-tts",
+  "publicationStatus": "READY"
+}
