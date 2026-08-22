@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/editorial-autopublish.yml'
       - 'scripts/editorial_autopublish.py'
+      - 'scripts/extract_five_sections_500_v2.py'
       - 'data/editorial/drafts/**'
       - 'data/editorial_sections.json'
       - 'data/editorial/publication_supplement.json'
@@ -26,7 +27,7 @@ jobs:
   publish:
     if: github.actor != 'prophet-editorial-bot'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,6 +36,39 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Build five exclusive Muhammad sections
+        run: python scripts/extract_five_sections_500_v2.py
+
+      - name: Validate exact five-section corpus
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          p=json.load(open('data/editorial/drafts/2026-08-22/five-sections-500.json',encoding='utf-8'))
+          a=json.load(open('data/editorial/audits/five-sections-500-audit.json',encoding='utf-8'))
+          c=Counter(x['section'] for x in p['drafts'])
+          assert len(p['drafts']) == 500
+          assert c == Counter({'light':100,'prophet':100,'messenger':100,'human':100,'mercy':100}), c
+          assert min(x['sourceWordCount'] for x in p['drafts']) >= 1000
+          assert len({x['sourceFingerprint'] for x in p['drafts']}) == 500
+          assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in p['drafts'])
+          assert a['status']=='PASS' and a['publishedArticles']==500
+          print('PASS five sections:',c)
+          PY
+
+      - name: Commit five-section publication corpus
+        run: |
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add data/editorial/drafts/2026-08-22/five-sections-500.json \
+                  data/editorial/audits/five-sections-500-audit.json \
+                  data/editorial/publication_manifest.json \
+                  data/editorial/publication_supplement.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish 100 exclusive articles per Muhammad section [skip ci]'
+            git push
+          fi
 
       - name: Validate genuine-source publication candidates
         run: python scripts/editorial_autopublish.py --check
@@ -61,7 +95,7 @@ jobs:
           print('coverage:', i.get('activeEditorialSlotsCovered'), '/', i.get('activeEditorialSlotsTotal'))
           PY
 
-      - name: Commit publication-state changes
+      - name: Commit remaining publication-state changes
         run: |
           git config user.name 'prophet-editorial-bot'
           git config user.email 'prophet-editorial-bot@users.noreply.github.com'
@@ -70,5 +104,5 @@ jobs:
             git commit -m 'Autopublish newly verified genuine-source articles'
             git push
           else
-            echo 'No newly verified articles to publish.'
+            echo 'No additional publication-state changes.'
           fi
