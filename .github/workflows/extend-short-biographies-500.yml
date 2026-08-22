@@ -1,0 +1,44 @@
+name: Extend short biographies to 500 words
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/extend_short_biographies_500.py'
+      - 'data/people.json'
+      - 'data/family_people.json'
+      - 'data/family_groups.json'
+      - 'data/family_biographies.json'
+      - 'data/expanded_biographies_135_full.json'
+      - 'data/editorial/canonical_biographies.json'
+      - 'data/editorial/biography_repairs_20260821.json'
+      - 'data/editorial/canonical-life/**'
+      - 'data/editorial/biography-extensions/**'
+      - 'data/editorial/drafts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  extend:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build strict 500-word source extensions
+        run: python scripts/extend_short_biographies_500.py
+      - name: Commit materialized extensions and audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/editorial/short-biography-extensions data/editorial/short_biography_extensions.json data/editorial/short_biographies_500_audit.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+          else
+            git commit -m 'Materialize strict 500-word biography extensions'
+            git push
+          fi
