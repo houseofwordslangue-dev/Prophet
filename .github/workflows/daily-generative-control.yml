@@ -8,6 +8,15 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 5 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/source_first_fulltext_resolver.py'
+      - 'data/drive_native_assets_20260822.json'
+      - 'data/drive_verified_assets_20260822.json'
+      - 'data/ingested_library.json'
+      - 'data/public_catalog_all.generated.json'
+      - 'private/native_source_overrides.json'
 
 permissions:
   contents: write
