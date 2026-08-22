@@ -1,16 +1,11 @@
 name: Reader Player Regression
+
+# Manual diagnostic workflow only.
+# Push-time reader/player regression is already enforced by reader-player-ops.yml.
+# Keeping this workflow manual avoids duplicate CI runs and duplicate failure emails.
 on:
-  push:
-    paths:
-      - 'reader.html'
-      - 'media.html'
-      - 'server.py'
-      - 'platform_services.py'
-      - 'assets/**'
-      - 'scripts/**'
-      - 'tests/**'
-      - '.github/workflows/reader-player-regression.yml'
   workflow_dispatch:
+
 jobs:
   regression:
     runs-on: ubuntu-latest
