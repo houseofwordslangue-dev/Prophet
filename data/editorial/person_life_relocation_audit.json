@@ -1,7 +1,7 @@
 {
   "schema": "person-life-relocation-audit-v3",
-  "generatedAt": "2026-08-22T01:31:19.982153Z",
-  "recordsScanned": 4707,
+  "generatedAt": "2026-08-22T01:32:41.040550Z",
+  "recordsScanned": 4702,
   "peopleAffected": 116,
   "lifeRecordsRelocated": 1575,
   "totalRelocatedWords": 932930,
@@ -427,11 +427,6 @@
     },
     {
       "path": "data/editorial/drafts/2026-08-22/batch-restored-five-slots.json",
-      "id": "20260820-media-lectures",
-      "title": "واثلة بن الأسقع في درس سيرة مكتوب"
-    },
-    {
-      "path": "data/editorial/drafts/2026-08-22/restored-five-slots.json",
       "id": "20260820-media-lectures",
       "title": "واثلة بن الأسقع في درس سيرة مكتوب"
     }
