@@ -10,6 +10,7 @@ on:
       - 'scripts/source_first_fulltext_resolver.py'
       - 'scripts/acquire_unrestricted_library.py'
       - 'scripts/promote_verified_catalogue_candidates.py'
+      - 'scripts/reconcile_fulltext_catalog.py'
       - '.github/workflows/source-first-fulltext.yml'
   schedule:
     - cron: '7,22,37,52 * * * *'
@@ -41,16 +42,18 @@ jobs:
         run: python scripts/acquire_unrestricted_library.py --limit 40
       - name: Rebuild public reader index
         run: python scripts/build_ingested_library.py
+      - name: Enable full text for newly acquired resources
+        run: python scripts/reconcile_fulltext_catalog.py
       - name: Re-run publication audit
         continue-on-error: true
         run: python scripts/exhaustive_publication_audit.py
-      - name: Commit resolver state and updated index
+      - name: Commit resolver state and updated catalogue
         run: |
           git config user.name 'prophet-source-first-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add -- private/source_first_resolution.json private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
+          git add -- private/source_first_resolution.json private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json data/public_catalog_all.generated.json data/audits/exhaustive-publication-audit-current.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
           if ! git diff --cached --quiet; then
-            git commit -m 'Resolve native full-text sources before OCR'
+            git commit -m 'Enable newly verified source-first full text'
             git push
           fi
       - name: Deploy acquired full-text assets to production
@@ -69,7 +72,7 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
           ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH/data' '$PM_DEPLOY_PATH/library/works'"
-          rsync -az data/ingested_library.json "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/data/ingested_library.json"
+          rsync -az data/ingested_library.json data/public_catalog_all.generated.json data/audits/exhaustive-publication-audit-current.json "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/data/"
           if [ -d library/works ]; then
             rsync -az library/works/ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/library/works/"
           fi
