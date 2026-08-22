@@ -124,3 +124,5 @@ jobs:
           EOF
           gh issue comment "$REPORT_ISSUE" --repo "$GITHUB_REPOSITORY" --body-file /tmp/report.md >/dev/null 2>&1 || true
           exit 0
+
+# Manual resume trigger: 2026-08-22
