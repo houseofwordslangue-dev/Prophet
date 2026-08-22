@@ -1,9 +1,11 @@
 {
-  "version": "2026-08-21.1",
+  "version": "2026-08-22.1",
   "section": "children",
+  "sectionLabelAr": "أحباب الله",
   "contentTypes": [
     {"id":"verified-readings","labelAr":"قراءات موثقة","labelEn":"Verified readings","labelFr":"Lectures vérifiées","href":"children.html#verified-readings"},
     {"id":"illustrated-stories","labelAr":"قصص مصوّرة","labelEn":"Illustrated stories","labelFr":"Histoires illustrées","href":"children-stories.html"},
+    {"id":"very-short-stories","labelAr":"قصص قصيرة جدًا","labelEn":"Very short stories","labelFr":"Histoires très courtes","href":"children-very-short.html"},
     {"id":"animated-stories","labelAr":"قصص متحركة","labelEn":"Animated stories","labelFr":"Histoires animées","href":"children-animated.html"},
     {"id":"media","labelAr":"فيديو وصوت","labelEn":"Video & audio","labelFr":"Vidéo et audio","href":"children-videos.html"}
   ],
@@ -35,7 +37,8 @@
   ],
   "ageGroups": [
     {"id":"4-6","labelAr":"4–6 سنوات","href":"children-stories.html?age=4-6"},
-    {"id":"5-7","labelAr":"5–7 سنوات","href":"children-animated.html?age=5-7"},
+    {"id":"5-7","labelAr":"5–7 سنوات","href":"children-very-short.html?age=5-7"},
+    {"id":"5-7-animated","labelAr":"5–7 سنوات · متحركة","href":"children-animated.html?age=5-7"},
     {"id":"7-9","labelAr":"7–9 سنوات","href":"children-stories.html?age=7-9"},
     {"id":"8-10","labelAr":"8–10 سنوات","href":"children-animated.html?age=8-10"},
     {"id":"10-12","labelAr":"10–12 سنة","href":"children-stories.html?age=10-12"},
