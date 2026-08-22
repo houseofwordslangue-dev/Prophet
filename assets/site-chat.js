@@ -16,7 +16,7 @@ const FEMALE_HINTS={
  en:['samantha','victoria','karen','moira','serena','zira','susan','female','woman']
 };
 function language(){const q=new URLSearchParams(location.search).get('lang');const saved=localStorage.getItem('pm-lang');const h=(q||saved||document.documentElement.lang||'ar').toLowerCase();return h.startsWith('fr')?'fr':h.startsWith('en')?'en':'ar'}
-function localeFor(l){return l==='ar'?'ar-SA':l==='fr'?'fr-FR':'en-US'}
+function localeFor(l){return l==='ar'?'ar-MA':l==='fr'?'fr-FR':'en-US'}
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!=null)x.textContent=text;return x}
 function mount(){if(document.querySelector('.site-chat-launch'))return;const lang=language(),L=COPY[lang];let voices=[];let speechToken=0;
  const loadVoices=()=>{voices=('speechSynthesis'in window)?speechSynthesis.getVoices():[]};if('speechSynthesis'in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices}
