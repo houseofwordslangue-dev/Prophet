@@ -16,9 +16,9 @@
     "exactClassicalNameMatchOnly": true
   },
   "indexedPeople": 429,
-  "peopleExtended": 187,
-  "passageCount": 1082,
-  "wordCount": 486271,
+  "peopleExtended": 190,
+  "passageCount": 1087,
+  "wordCount": 492365,
   "people": {
     "abd-al-muttalib": {
       "id": "abd-al-muttalib",
@@ -504,8 +504,8 @@
       "id": "hamza-ibn-abd-al-muttalib",
       "nameAr": "حمزة بن عبد المطلب",
       "category": "companion",
-      "passageCount": 11,
-      "wordCount": 6919,
+      "passageCount": 12,
+      "wordCount": 6939,
       "file": "data/editorial/biography-extensions/hamza-ibn-abd-al-muttalib.json"
     },
     "hashim-ibn-abd-manaf": {
@@ -1515,6 +1515,30 @@
       "passageCount": 1,
       "wordCount": 2200,
       "file": "data/editorial/biography-extensions/muadh-ibn-jabal.json"
+    },
+    "person-e74f63f2faac": {
+      "id": "person-e74f63f2faac",
+      "nameAr": "مالك بن أنس",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 2200,
+      "file": "data/editorial/biography-extensions/person-e74f63f2faac.json"
+    },
+    "person-d3f51877a09f": {
+      "id": "person-d3f51877a09f",
+      "nameAr": "العباس بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 1,
+      "wordCount": 2200,
+      "file": "data/editorial/biography-extensions/person-d3f51877a09f.json"
+    },
+    "person-f54b80d2d221": {
+      "id": "person-f54b80d2d221",
+      "nameAr": "حمزة بن عبد المطلب",
+      "category": "source-person",
+      "passageCount": 2,
+      "wordCount": 1674,
+      "file": "data/editorial/biography-extensions/person-f54b80d2d221.json"
     }
   }
 }

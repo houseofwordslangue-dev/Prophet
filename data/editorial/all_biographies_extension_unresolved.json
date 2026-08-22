@@ -1,10 +1,10 @@
 {
   "schema": "all-biographies-extension-unresolved-v1",
-  "count": 243,
+  "count": 228,
   "people": [
     {
       "id": "person-1010e90bd3ea",
-      "nameAr": "Ahmad ibn al-Mubarak al-Lamati",
+      "nameAr": "أحمد بن المبارك اللمطي",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -14,27 +14,17 @@
     },
     {
       "id": "person-a6fb499cb017",
-      "nameAr": "Bernard Carra de Vaux",
+      "nameAr": "كرا دي فو",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-1328eba3c05e",
-      "nameAr": "C. Snouck Hurgronje",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-571b761eff72",
-      "nameAr": "Dabbagh tradition",
+      "nameAr": "سنوك هرخرونيه",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-c7e768de4e3c",
-      "nameAr": "Edward Sell",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-eb5591d002e8",
-      "nameAr": "Etienne Dinet; Sliman Ben Ibrahim",
+      "nameAr": "إدورد سل",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -49,37 +39,27 @@
     },
     {
       "id": "person-230f261ef5b4",
-      "nameAr": "Ibn Abi ʿAsim",
+      "nameAr": "ابن أبي عاصم",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-21099c986427",
-      "nameAr": "Ibn Hibban",
+      "nameAr": "ابن حبان",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-df9870d23dd4",
-      "nameAr": "Ibn al-Dibaʿ",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-7bf0cc08a810",
-      "nameAr": "Ibn al-Hajj, relevant discussions of Mawlid practice",
+      "nameAr": "ابن الديبع",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-f8e34f0835c0",
-      "nameAr": "Ibn al-Qattan al-Fasi",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-e74f63f2faac",
-      "nameAr": "Imam Malik",
+      "nameAr": "ابن القطان الفاسي",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-d9028df96d00",
-      "nameAr": "J. M. Rodwell (translator)",
+      "nameAr": "J. M. Rodwell",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -94,7 +74,7 @@
     },
     {
       "id": "person-17e283c6df81",
-      "nameAr": "Muhammad al-Sibaʿi al-Marrakushi",
+      "nameAr": "محمد السباعي المراكشي",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -104,22 +84,17 @@
     },
     {
       "id": "person-0a354d1fa9aa",
-      "nameAr": "Muhammad ibn Qasim Jassus al-Fasi",
+      "nameAr": "محمد بن قاسم جسوس الفاسي",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-067ca8ae48d1",
-      "nameAr": "Omar Khayyam",
+      "nameAr": "عمر الخيام",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-85710f169008",
       "nameAr": "Paul Marty",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-46a650211ca9",
-      "nameAr": "Prophet Muhammad; Stanley Lane-Poole (editor)",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -138,11 +113,6 @@
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
-      "id": "person-f1016b29563a",
-      "nameAr": "Rumi, especially passages concerning Prophetic love and imitation",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
       "id": "person-cd930e66e935",
       "nameAr": "S. Khuda Bukhsh",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
@@ -158,28 +128,8 @@
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
-      "id": "person-0e0a4d95cc7b",
-      "nameAr": "Sibt Ibn al-Jawzi; use with source-critical notes",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-cbdc7b5c1650",
-      "nameAr": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
       "id": "person-1f376d826cca",
-      "nameAr": "Stanley Lane-Poole (editor)",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-17d1ec48ee96",
-      "nameAr": "Sunan and Musnad traditions",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-fb5e1bf60415",
-      "nameAr": "Sunni hadith compilations",
+      "nameAr": "Stanley Lane-Poole",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -219,7 +169,7 @@
     },
     {
       "id": "person-23cac69f0784",
-      "nameAr": "abd-yaghuth-ibn-wahb",
+      "nameAr": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -289,7 +239,7 @@
     },
     {
       "id": "person-052f28b35cf9",
-      "nameAr": "abu-lahab-ibn-abd-al-muttalib",
+      "nameAr": "أبو لهب بن عبد المطلب (عبد العزى)",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -304,7 +254,7 @@
     },
     {
       "id": "person-950261ac6f78",
-      "nameAr": "abu-talib-ibn-abd-al-muttalib",
+      "nameAr": "أبو طالب بن عبد المطلب (عبد مناف)",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -314,12 +264,12 @@
     },
     {
       "id": "person-85bf007d8aa7",
-      "nameAr": "al-Baladhuri",
+      "nameAr": "البلاذري",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-b2e0e59ca2d5",
-      "nameAr": "al-Darimi",
+      "nameAr": "الدارمي",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -363,18 +313,13 @@
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
-      "id": "person-d3f51877a09f",
-      "nameAr": "al-abbas-ibn-abd-al-muttalib",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
       "id": "person-ac314fbc9c50",
       "nameAr": "al-fadl-ibn-al-abbas",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
       "id": "person-844bcf88aff0",
-      "nameAr": "al-harith-ibn-abd-al-muttalib",
+      "nameAr": "الحارث بن عبد المطلب",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -399,7 +344,7 @@
     },
     {
       "id": "person-8a8258289287",
-      "nameAr": "al-muqawwim-ibn-abd-al-muttalib",
+      "nameAr": "المقوّم بن عبد المطلب",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -424,7 +369,7 @@
     },
     {
       "id": "person-359034d29335",
-      "nameAr": "al-zubayr-ibn-abd-al-muttalib",
+      "nameAr": "الزبير بن عبد المطلب",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -483,11 +428,6 @@
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
-      "id": "person-62887674c6fa",
-      "nameAr": "attributed in the Ibn al-Jawzi tradition",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
       "id": "person-e463a9fc7970",
       "nameAr": "barra-bint-abd-al-muttalib",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
@@ -509,7 +449,7 @@
     },
     {
       "id": "person-a0b900526d5c",
-      "nameAr": "dirar-ibn-abd-al-muttalib",
+      "nameAr": "ضرار بن عبد المطلب",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -549,7 +489,7 @@
     },
     {
       "id": "person-e72a89df3f2d",
-      "nameAr": "hajl-al-mughira-ibn-abd-al-muttalib",
+      "nameAr": "حَجْل بن عبد المطلب (المغيرة)",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -560,11 +500,6 @@
     {
       "id": "person-88b5877e73df",
       "nameAr": "hamna-bint-jahsh",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-f54b80d2d221",
-      "nameAr": "hamza-ibn-abd-al-muttalib",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -704,7 +639,7 @@
     },
     {
       "id": "person-c4c3e71eb9ee",
-      "nameAr": "qutham-ibn-abd-al-muttalib",
+      "nameAr": "قُثَم بن عبد المطلب",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -739,7 +674,7 @@
     },
     {
       "id": "person-27ff11fdc44f",
-      "nameAr": "salma-bint-amr-al-najjariyya",
+      "nameAr": "سلمى بنت عمرو النجارية",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -765,11 +700,6 @@
     {
       "id": "person-3e9fa77b169c",
       "nameAr": "sukayna-bint-al-husayn",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-729ad2f4f28d",
-      "nameAr": "supplementary tradition around al-Suhayli",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {
@@ -805,11 +735,6 @@
     {
       "id": "person-2b7b4eb4f7c6",
       "nameAr": "traditional scholarship",
-      "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
-    },
-    {
-      "id": "person-b7646245ab3f",
-      "nameAr": "traditions collected by Sunni hadith scholars",
       "reason": "no-verified-person-owned-or-exact-classical-source-passage-found"
     },
     {

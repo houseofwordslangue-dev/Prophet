@@ -1,0 +1,11 @@
+{
+  "schema": "biography-gap-repair-audit-v1",
+  "beforeCount": 362,
+  "afterValidPersonCount": 350,
+  "quarantinedNonPersonOrCompoundCount": 12,
+  "familyCanonicalRecordsMerged": 14,
+  "canonicalLabelsCleaned": 13,
+  "wikidataArabicLabelsAdded": 3,
+  "remainingLatinOnlyNameCount": 142,
+  "complete": true
+}

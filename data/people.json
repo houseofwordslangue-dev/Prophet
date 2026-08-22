@@ -10,13 +10,13 @@
       "fr"
     ]
   },
-  "count": 362,
+  "count": 350,
   "people": [
     {
       "id": "person-1010e90bd3ea",
       "slug": "person-1010e90bd3ea",
       "name": {
-        "ar": "Ahmad ibn al-Mubarak al-Lamati",
+        "ar": "أحمد بن المبارك اللمطي",
         "en": "Ahmad ibn al-Mubarak al-Lamati",
         "fr": "Ahmad ibn al-Mubarak al-Lamati"
       },
@@ -32,7 +32,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Ahmad ibn al-Mubarak al-Lamati",
+          "to": "أحمد بن المبارك اللمطي"
+        }
+      ]
     },
     {
       "id": "person-b1ae024eae93",
@@ -60,7 +67,7 @@
       "id": "person-a6fb499cb017",
       "slug": "person-a6fb499cb017",
       "name": {
-        "ar": "Bernard Carra de Vaux",
+        "ar": "كرا دي فو",
         "en": "Bernard Carra de Vaux",
         "fr": "Bernard Carra de Vaux"
       },
@@ -76,13 +83,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "wikidata-ar-label",
+          "from": "Bernard Carra de Vaux",
+          "to": "كرا دي فو"
+        }
+      ]
     },
     {
       "id": "person-1328eba3c05e",
       "slug": "person-1328eba3c05e",
       "name": {
-        "ar": "C. Snouck Hurgronje",
+        "ar": "سنوك هرخرونيه",
         "en": "C. Snouck Hurgronje",
         "fr": "C. Snouck Hurgronje"
       },
@@ -98,35 +112,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-571b761eff72",
-      "slug": "person-571b761eff72",
-      "name": {
-        "ar": "Dabbagh tradition",
-        "en": "Dabbagh tradition",
-        "fr": "Dabbagh tradition"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "wikidata-ar-label",
+          "from": "C. Snouck Hurgronje",
+          "to": "سنوك هرخرونيه"
+        }
+      ]
     },
     {
       "id": "person-c7e768de4e3c",
       "slug": "person-c7e768de4e3c",
       "name": {
-        "ar": "Edward Sell",
+        "ar": "إدورد سل",
         "en": "Edward Sell",
         "fr": "Edward Sell"
       },
@@ -142,29 +141,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-eb5591d002e8",
-      "slug": "person-eb5591d002e8",
-      "name": {
-        "ar": "Etienne Dinet; Sliman Ben Ibrahim",
-        "en": "Etienne Dinet; Sliman Ben Ibrahim",
-        "fr": "Etienne Dinet; Sliman Ben Ibrahim"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "wikidata-ar-label",
+          "from": "Edward Sell",
+          "to": "إدورد سل"
+        }
+      ]
     },
     {
       "id": "person-76a31e49044e",
@@ -214,7 +198,7 @@
       "id": "person-230f261ef5b4",
       "slug": "person-230f261ef5b4",
       "name": {
-        "ar": "Ibn Abi ʿAsim",
+        "ar": "ابن أبي عاصم",
         "en": "Ibn Abi ʿAsim",
         "fr": "Ibn Abi ʿAsim"
       },
@@ -230,13 +214,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Ibn Abi ʿAsim",
+          "to": "ابن أبي عاصم"
+        }
+      ]
     },
     {
       "id": "person-21099c986427",
       "slug": "person-21099c986427",
       "name": {
-        "ar": "Ibn Hibban",
+        "ar": "ابن حبان",
         "en": "Ibn Hibban",
         "fr": "Ibn Hibban"
       },
@@ -252,13 +243,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Ibn Hibban",
+          "to": "ابن حبان"
+        }
+      ]
     },
     {
       "id": "person-df9870d23dd4",
       "slug": "person-df9870d23dd4",
       "name": {
-        "ar": "Ibn al-Dibaʿ",
+        "ar": "ابن الديبع",
         "en": "Ibn al-Dibaʿ",
         "fr": "Ibn al-Dibaʿ"
       },
@@ -274,35 +272,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-7bf0cc08a810",
-      "slug": "person-7bf0cc08a810",
-      "name": {
-        "ar": "Ibn al-Hajj, relevant discussions of Mawlid practice",
-        "en": "Ibn al-Hajj, relevant discussions of Mawlid practice",
-        "fr": "Ibn al-Hajj, relevant discussions of Mawlid practice"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Ibn al-Dibaʿ",
+          "to": "ابن الديبع"
+        }
+      ]
     },
     {
       "id": "person-f8e34f0835c0",
       "slug": "person-f8e34f0835c0",
       "name": {
-        "ar": "Ibn al-Qattan al-Fasi",
+        "ar": "ابن القطان الفاسي",
         "en": "Ibn al-Qattan al-Fasi",
         "fr": "Ibn al-Qattan al-Fasi"
       },
@@ -318,13 +301,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Ibn al-Qattan al-Fasi",
+          "to": "ابن القطان الفاسي"
+        }
+      ]
     },
     {
       "id": "person-e74f63f2faac",
       "slug": "person-e74f63f2faac",
       "name": {
-        "ar": "Imam Malik",
+        "ar": "مالك بن أنس",
         "en": "Imam Malik",
         "fr": "Imam Malik"
       },
@@ -340,13 +330,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Imam Malik",
+          "to": "مالك بن أنس"
+        }
+      ]
     },
     {
       "id": "person-d9028df96d00",
       "slug": "person-d9028df96d00",
       "name": {
-        "ar": "J. M. Rodwell (translator)",
+        "ar": "J. M. Rodwell",
         "en": "J. M. Rodwell (translator)",
         "fr": "J. M. Rodwell (translator)"
       },
@@ -362,7 +359,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "J. M. Rodwell (translator)",
+          "to": "J. M. Rodwell"
+        }
+      ]
     },
     {
       "id": "person-933505e3bc5b",
@@ -450,7 +454,7 @@
       "id": "person-17e283c6df81",
       "slug": "person-17e283c6df81",
       "name": {
-        "ar": "Muhammad al-Sibaʿi al-Marrakushi",
+        "ar": "محمد السباعي المراكشي",
         "en": "Muhammad al-Sibaʿi al-Marrakushi",
         "fr": "Muhammad al-Sibaʿi al-Marrakushi"
       },
@@ -466,7 +470,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Muhammad al-Sibaʿi al-Marrakushi",
+          "to": "محمد السباعي المراكشي"
+        }
+      ]
     },
     {
       "id": "person-82944daa4ac3",
@@ -494,7 +505,7 @@
       "id": "person-0a354d1fa9aa",
       "slug": "person-0a354d1fa9aa",
       "name": {
-        "ar": "Muhammad ibn Qasim Jassus al-Fasi",
+        "ar": "محمد بن قاسم جسوس الفاسي",
         "en": "Muhammad ibn Qasim Jassus al-Fasi",
         "fr": "Muhammad ibn Qasim Jassus al-Fasi"
       },
@@ -510,13 +521,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Muhammad ibn Qasim Jassus al-Fasi",
+          "to": "محمد بن قاسم جسوس الفاسي"
+        }
+      ]
     },
     {
       "id": "person-067ca8ae48d1",
       "slug": "person-067ca8ae48d1",
       "name": {
-        "ar": "Omar Khayyam",
+        "ar": "عمر الخيام",
         "en": "Omar Khayyam",
         "fr": "Omar Khayyam"
       },
@@ -532,7 +550,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Omar Khayyam",
+          "to": "عمر الخيام"
+        }
+      ]
     },
     {
       "id": "person-85710f169008",
@@ -541,28 +566,6 @@
         "ar": "Paul Marty",
         "en": "Paul Marty",
         "fr": "Paul Marty"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-46a650211ca9",
-      "slug": "person-46a650211ca9",
-      "name": {
-        "ar": "Prophet Muhammad; Stanley Lane-Poole (editor)",
-        "en": "Prophet Muhammad; Stanley Lane-Poole (editor)",
-        "fr": "Prophet Muhammad; Stanley Lane-Poole (editor)"
       },
       "category": "source-person",
       "biography": {
@@ -645,28 +648,6 @@
       "provenance": "source-only"
     },
     {
-      "id": "person-f1016b29563a",
-      "slug": "person-f1016b29563a",
-      "name": {
-        "ar": "Rumi, especially passages concerning Prophetic love and imitation",
-        "en": "Rumi, especially passages concerning Prophetic love and imitation",
-        "fr": "Rumi, especially passages concerning Prophetic love and imitation"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
       "id": "person-cd930e66e935",
       "slug": "person-cd930e66e935",
       "name": {
@@ -733,54 +714,10 @@
       "provenance": "source-only"
     },
     {
-      "id": "person-0e0a4d95cc7b",
-      "slug": "person-0e0a4d95cc7b",
-      "name": {
-        "ar": "Sibt Ibn al-Jawzi; use with source-critical notes",
-        "en": "Sibt Ibn al-Jawzi; use with source-critical notes",
-        "fr": "Sibt Ibn al-Jawzi; use with source-critical notes"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-cbdc7b5c1650",
-      "slug": "person-cbdc7b5c1650",
-      "name": {
-        "ar": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
-        "en": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)",
-        "fr": "Sir Ahmed Hussain; Khaja Muhammad Hussain (editor)"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
       "id": "person-1f376d826cca",
       "slug": "person-1f376d826cca",
       "name": {
-        "ar": "Stanley Lane-Poole (editor)",
+        "ar": "Stanley Lane-Poole",
         "en": "Stanley Lane-Poole (editor)",
         "fr": "Stanley Lane-Poole (editor)"
       },
@@ -796,51 +733,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-17d1ec48ee96",
-      "slug": "person-17d1ec48ee96",
-      "name": {
-        "ar": "Sunan and Musnad traditions",
-        "en": "Sunan and Musnad traditions",
-        "fr": "Sunan and Musnad traditions"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-fb5e1bf60415",
-      "slug": "person-fb5e1bf60415",
-      "name": {
-        "ar": "Sunni hadith compilations",
-        "en": "Sunni hadith compilations",
-        "fr": "Sunni hadith compilations"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "Stanley Lane-Poole (editor)",
+          "to": "Stanley Lane-Poole"
+        }
+      ]
     },
     {
       "id": "person-5fa90258506c",
@@ -1000,7 +900,7 @@
       "id": "person-23cac69f0784",
       "slug": "person-23cac69f0784",
       "name": {
-        "ar": "abd-yaghuth-ibn-wahb",
+        "ar": "عبد يغوث بن وهب بن عبد مناف بن زهرة",
         "en": "abd-yaghuth-ibn-wahb",
         "fr": "abd-yaghuth-ibn-wahb"
       },
@@ -1016,7 +916,8 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "canonicalFamilySourceId": "abd-yaghuth-ibn-wahb"
     },
     {
       "id": "person-e59d18e68796",
@@ -1308,7 +1209,7 @@
       "id": "person-052f28b35cf9",
       "slug": "person-052f28b35cf9",
       "name": {
-        "ar": "abu-lahab-ibn-abd-al-muttalib",
+        "ar": "أبو لهب بن عبد المطلب (عبد العزى)",
         "en": "abu-lahab-ibn-abd-al-muttalib",
         "fr": "abu-lahab-ibn-abd-al-muttalib"
       },
@@ -1323,8 +1224,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "وكان من أشد الناس عليه عمه أبو لهب، واسمه عبد العزى بن عبد المطلب.",
+          "sources": [
+            {
+              "title": "البداية والنهاية",
+              "author": "ابن كثير",
+              "url": "https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_الثالث/باب_الأمر_بابلاغ_الرسالة",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "abu-lahab-ibn-abd-al-muttalib"
     },
     {
       "id": "person-3b1c8fb6a9a5",
@@ -1374,7 +1290,7 @@
       "id": "person-950261ac6f78",
       "slug": "person-950261ac6f78",
       "name": {
-        "ar": "abu-talib-ibn-abd-al-muttalib",
+        "ar": "أبو طالب بن عبد المطلب (عبد مناف)",
         "en": "abu-talib-ibn-abd-al-muttalib",
         "fr": "abu-talib-ibn-abd-al-muttalib"
       },
@@ -1389,8 +1305,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "وكان رسول الله ﷺ أحب خلق الله إليه طبعا، وكان يحنو عليه ويحسن إليه ويدافع عنه ويحامي.",
+          "sources": [
+            {
+              "title": "البداية والنهاية",
+              "author": "ابن كثير",
+              "url": "https://ar.wikisource.org/wiki/البداية_والنهاية/الجزء_الثالث/باب_الأمر_بابلاغ_الرسالة",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "abu-talib-ibn-abd-al-muttalib"
     },
     {
       "id": "person-77982ed9d8d5",
@@ -1418,7 +1349,7 @@
       "id": "person-85bf007d8aa7",
       "slug": "person-85bf007d8aa7",
       "name": {
-        "ar": "al-Baladhuri",
+        "ar": "البلاذري",
         "en": "al-Baladhuri",
         "fr": "al-Baladhuri"
       },
@@ -1434,13 +1365,20 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "al-Baladhuri",
+          "to": "البلاذري"
+        }
+      ]
     },
     {
       "id": "person-b2e0e59ca2d5",
       "slug": "person-b2e0e59ca2d5",
       "name": {
-        "ar": "al-Darimi",
+        "ar": "الدارمي",
         "en": "al-Darimi",
         "fr": "al-Darimi"
       },
@@ -1456,7 +1394,14 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "registryRepairs": [
+        {
+          "type": "canonical-name-cleanup",
+          "from": "al-Darimi",
+          "to": "الدارمي"
+        }
+      ]
     },
     {
       "id": "person-4012ffaed8d9",
@@ -1638,7 +1583,7 @@
       "id": "person-d3f51877a09f",
       "slug": "person-d3f51877a09f",
       "name": {
-        "ar": "al-abbas-ibn-abd-al-muttalib",
+        "ar": "العباس بن عبد المطلب",
         "en": "al-abbas-ibn-abd-al-muttalib",
         "fr": "al-abbas-ibn-abd-al-muttalib"
       },
@@ -1653,8 +1598,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "القرشي الهاشمي أبو الفضل المكي عم رسول الله ﷺ، وكان أسن من رسول الله ﷺ بسنتين أو ثلاث.",
+          "sources": [
+            {
+              "title": "البداية والنهاية",
+              "author": "ابن كثير",
+              "url": "https://ar.wikisource.org/wiki/البداية_والنهاية_(ط._السعادة)/ثم_دخلت_سنه_ثنتين_وثلاثين/العباس_بن_عبد_المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "al-abbas-ibn-abd-al-muttalib"
     },
     {
       "id": "person-ac314fbc9c50",
@@ -1682,7 +1642,7 @@
       "id": "person-844bcf88aff0",
       "slug": "person-844bcf88aff0",
       "name": {
-        "ar": "al-harith-ibn-abd-al-muttalib",
+        "ar": "الحارث بن عبد المطلب",
         "en": "al-harith-ibn-abd-al-muttalib",
         "fr": "al-harith-ibn-abd-al-muttalib"
       },
@@ -1697,8 +1657,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "وأما الحارث بن عبد المطلب فمات في الجاهلية.",
+          "sources": [
+            {
+              "title": "الإصابة في تمييز الصحابة",
+              "author": "ابن حجر العسقلاني",
+              "url": "https://www.taraajem.com/persons/42697/الحارث-بن-عبد-المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "al-harith-ibn-abd-al-muttalib"
     },
     {
       "id": "person-3dede3bf2dc6",
@@ -1792,7 +1767,7 @@
       "id": "person-8a8258289287",
       "slug": "person-8a8258289287",
       "name": {
-        "ar": "al-muqawwim-ibn-abd-al-muttalib",
+        "ar": "المقوّم بن عبد المطلب",
         "en": "al-muqawwim-ibn-abd-al-muttalib",
         "fr": "al-muqawwim-ibn-abd-al-muttalib"
       },
@@ -1807,8 +1782,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "ولد المقوم بن عبد المطلب: بكر؛ وعبد الله. فولد بكر بن المقوم: عبد الله ولا عقب للمقوم.",
+          "sources": [
+            {
+              "title": "جمهرة أنساب العرب",
+              "author": "ابن حزم الأندلسي",
+              "url": "https://ar.wikisource.org/wiki/جمهرة_أنساب_العرب/ولد_المقوم_بن_عبد_المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "al-muqawwim-ibn-abd-al-muttalib"
     },
     {
       "id": "person-c8e327497264",
@@ -1902,7 +1892,7 @@
       "id": "person-359034d29335",
       "slug": "person-359034d29335",
       "name": {
-        "ar": "al-zubayr-ibn-abd-al-muttalib",
+        "ar": "الزبير بن عبد المطلب",
         "en": "al-zubayr-ibn-abd-al-muttalib",
         "fr": "al-zubayr-ibn-abd-al-muttalib"
       },
@@ -1917,8 +1907,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "ولد الزبير بن عبد المطلب: الطاهر؛ وحجل؛ وقرة؛ وعبد الله، وله صحبة قتل يوم أجنادين.",
+          "sources": [
+            {
+              "title": "جمهرة أنساب العرب",
+              "author": "ابن حزم الأندلسي",
+              "url": "https://ar.wikisource.org/wiki/جمهرة_أنساب_العرب/ولد_الزبير_بن_عبد_المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "al-zubayr-ibn-abd-al-muttalib"
     },
     {
       "id": "person-59487b80ae9d",
@@ -2163,28 +2168,6 @@
       "provenance": "source-only"
     },
     {
-      "id": "person-62887674c6fa",
-      "slug": "person-62887674c6fa",
-      "name": {
-        "ar": "attributed in the Ibn al-Jawzi tradition",
-        "en": "attributed in the Ibn al-Jawzi tradition",
-        "fr": "attributed in the Ibn al-Jawzi tradition"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
       "id": "person-e463a9fc7970",
       "slug": "person-e463a9fc7970",
       "name": {
@@ -2276,7 +2259,7 @@
       "id": "person-a0b900526d5c",
       "slug": "person-a0b900526d5c",
       "name": {
-        "ar": "dirar-ibn-abd-al-muttalib",
+        "ar": "ضرار بن عبد المطلب",
         "en": "dirar-ibn-abd-al-muttalib",
         "fr": "dirar-ibn-abd-al-muttalib"
       },
@@ -2291,8 +2274,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "وأم العباس وضرار: نتيلة بنت جناب بن كليب بن مالك بن عمرو بن عامر بن النمر بن قاسط.",
+          "sources": [
+            {
+              "title": "جمهرة أنساب العرب",
+              "author": "ابن حزم الأندلسي",
+              "url": "https://www.masaha.org/book/view/1960/page/418",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "dirar-ibn-abd-al-muttalib"
     },
     {
       "id": "person-6716c3570ffe",
@@ -2452,7 +2450,7 @@
       "id": "person-e72a89df3f2d",
       "slug": "person-e72a89df3f2d",
       "name": {
-        "ar": "hajl-al-mughira-ibn-abd-al-muttalib",
+        "ar": "حَجْل بن عبد المطلب (المغيرة)",
         "en": "hajl-al-mughira-ibn-abd-al-muttalib",
         "fr": "hajl-al-mughira-ibn-abd-al-muttalib"
       },
@@ -2467,8 +2465,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "وحجل واسمه المغيرة، والغيداق وهو كبير الجود، واسمه نوفل، ويقال إنه حجل.",
+          "sources": [
+            {
+              "title": "البداية والنهاية",
+              "author": "ابن كثير",
+              "url": "https://ar.wikisource.org/wiki/البداية_والنهاية_(ط._السعادة)/باب_ذكر_نسبه_الشريف_وطيب_أصله_المنيف",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "hajl-al-mughira-ibn-abd-al-muttalib"
     },
     {
       "id": "person-1194707df3c0",
@@ -2518,7 +2531,7 @@
       "id": "person-f54b80d2d221",
       "slug": "person-f54b80d2d221",
       "name": {
-        "ar": "hamza-ibn-abd-al-muttalib",
+        "ar": "حمزة بن عبد المطلب",
         "en": "hamza-ibn-abd-al-muttalib",
         "fr": "hamza-ibn-abd-al-muttalib"
       },
@@ -2533,8 +2546,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "أسد الله أبو عمارة وأبو يعلى القرشي الهاشمي المكي ثم المدني البدري الشهيد عم رسول الله ﷺ وأخوه من الرضاعة.",
+          "sources": [
+            {
+              "title": "سير أعلام النبلاء",
+              "author": "الذهبي",
+              "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/حمزة_بن_عبد_المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "hamza-ibn-abd-al-muttalib"
     },
     {
       "id": "person-99149c5c072c",
@@ -3134,7 +3162,7 @@
       "id": "person-c4c3e71eb9ee",
       "slug": "person-c4c3e71eb9ee",
       "name": {
-        "ar": "qutham-ibn-abd-al-muttalib",
+        "ar": "قُثَم بن عبد المطلب",
         "en": "qutham-ibn-abd-al-muttalib",
         "fr": "qutham-ibn-abd-al-muttalib"
       },
@@ -3149,8 +3177,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "وقثم بن عبد المطلب هلك صغيرا، وأمه صفية بنت جنيدب أيضا.",
+          "sources": [
+            {
+              "title": "أنساب الأشراف",
+              "author": "البلاذري",
+              "url": "https://ablibrary.net/book_content/516/123",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "qutham-ibn-abd-al-muttalib"
     },
     {
       "id": "person-daa015e39f20",
@@ -3288,7 +3331,7 @@
       "id": "person-27ff11fdc44f",
       "slug": "person-27ff11fdc44f",
       "name": {
-        "ar": "salma-bint-amr-al-najjariyya",
+        "ar": "سلمى بنت عمرو النجارية",
         "en": "salma-bint-amr-al-najjariyya",
         "fr": "salma-bint-amr-al-najjariyya"
       },
@@ -3304,7 +3347,8 @@
         "fr": []
       },
       "sourcePassages": [],
-      "provenance": "source-only"
+      "provenance": "source-only",
+      "canonicalFamilySourceId": "salma-bint-amr-al-najjariyya"
     },
     {
       "id": "person-27040d99eb01",
@@ -3401,28 +3445,6 @@
         "ar": "sukayna-bint-al-husayn",
         "en": "sukayna-bint-al-husayn",
         "fr": "sukayna-bint-al-husayn"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-729ad2f4f28d",
-      "slug": "person-729ad2f4f28d",
-      "name": {
-        "ar": "supplementary tradition around al-Suhayli",
-        "en": "supplementary tradition around al-Suhayli",
-        "fr": "supplementary tradition around al-Suhayli"
       },
       "category": "source-person",
       "biography": {
@@ -3577,28 +3599,6 @@
         "ar": "traditional scholarship",
         "en": "traditional scholarship",
         "fr": "traditional scholarship"
-      },
-      "category": "source-person",
-      "biography": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sayings": {
-        "ar": [],
-        "en": [],
-        "fr": []
-      },
-      "sourcePassages": [],
-      "provenance": "source-only"
-    },
-    {
-      "id": "person-b7646245ab3f",
-      "slug": "person-b7646245ab3f",
-      "name": {
-        "ar": "traditions collected by Sunni hadith scholars",
-        "en": "traditions collected by Sunni hadith scholars",
-        "fr": "traditions collected by Sunni hadith scholars"
       },
       "category": "source-person",
       "biography": {
@@ -5027,8 +5027,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "القرشي الهاشمي أبو الفضل المكي عم رسول الله ﷺ، وكان أسن من رسول الله ﷺ بسنتين أو ثلاث.",
+          "sources": [
+            {
+              "title": "البداية والنهاية",
+              "author": "ابن كثير",
+              "url": "https://ar.wikisource.org/wiki/البداية_والنهاية_(ط._السعادة)/ثم_دخلت_سنه_ثنتين_وثلاثين/العباس_بن_عبد_المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "al-abbas-ibn-abd-al-muttalib"
     },
     {
       "id": "al-qasim-ibn-muhammad",
@@ -5291,8 +5306,23 @@
         "en": [],
         "fr": []
       },
-      "sourcePassages": [],
-      "provenance": "source-only"
+      "sourcePassages": [
+        {
+          "language": "ar",
+          "relation": "biography-source",
+          "text": "أسد الله أبو عمارة وأبو يعلى القرشي الهاشمي المكي ثم المدني البدري الشهيد عم رسول الله ﷺ وأخوه من الرضاعة.",
+          "sources": [
+            {
+              "title": "سير أعلام النبلاء",
+              "author": "الذهبي",
+              "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/حمزة_بن_عبد_المطلب",
+              "verifiedAgainstOriginal": true
+            }
+          ]
+        }
+      ],
+      "provenance": "verified-source-excerpt",
+      "canonicalFamilySourceId": "hamza-ibn-abd-al-muttalib"
     },
     {
       "id": "khalid-ibn-al-walid",
