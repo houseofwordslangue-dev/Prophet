@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T03:08:51.886440+00:00",
-  "gitCommit": "ca1cd252cbb1197864b792b1d0f712037b2e8d5b",
+  "generatedAt": "2026-08-22T03:09:05.941277+00:00",
+  "gitCommit": "85a84842bc2f214387039c7493b177c5432247f0",
   "github": {
     "trackedFileCount": 839,
     "fileDispositionCounts": {
@@ -810,7 +810,7 @@
       },
       {
         "path": "assets/site-chat.css",
-        "size": 2419,
+        "size": 2768,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
