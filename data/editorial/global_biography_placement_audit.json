@@ -1,11 +1,11 @@
 {
   "schema": "global-biography-placement-audit-v1",
-  "generatedAt": "2026-08-22T01:30:19.196559Z",
+  "generatedAt": "2026-08-22T01:31:23.831981Z",
   "indexedPeople": 379,
   "canonicalPageRule": "person.html?id=<person-id>",
   "canonicalBiographyPagesPerIndexedPerson": 1,
-  "editorialRecordsScanned": 4702,
-  "lifeBiographyRecordsScanned": 1658,
+  "editorialRecordsScanned": 4707,
+  "lifeBiographyRecordsScanned": 1659,
   "misplacedBiographyLifeRecords": [],
   "misplacedBiographyLifeRecordCount": 0,
   "unresolvedLifeIntentRecords": [
@@ -420,6 +420,11 @@
       "title": "مقتطف موثّق من «The Life of Mohammad, the Prophet of Allah»: THE BATTLE OF UHUD (_Year III of the Hegira, A.D. 625_ — 100"
     },
     {
+      "path": "data/editorial/drafts/2026-08-22/batch-restored-five-slots.json",
+      "id": "20260820-media-lectures",
+      "title": "واثلة بن الأسقع في درس سيرة مكتوب"
+    },
+    {
       "path": "data/editorial/drafts/2026-08-22/restored-five-slots.json",
       "id": "20260820-media-lectures",
       "title": "واثلة بن الأسقع في درس سيرة مكتوب"
@@ -512,7 +517,7 @@
   ],
   "completePlacementForExplicitPeople": true,
   "biographyExtensionOwnershipPolicy": "explicit-person-link-before-ranking-and-cap",
-  "sourceRecordsScannedForStrictExtensions": 4702,
+  "sourceRecordsScannedForStrictExtensions": 4707,
   "explicitPersonOwnedSourceRecords": 4575,
   "peopleExtendedAfterStrictRebuild": 117,
   "extensionPassagesAfterStrictRebuild": 629,
