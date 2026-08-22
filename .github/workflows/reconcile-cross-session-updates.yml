@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/post_reconcile_canonical_routing.py'
+      - 'scripts/audit_current_instructions.py'
       - '.github/workflows/reconcile-cross-session-updates.yml'
 permissions:
   contents: write
@@ -22,6 +23,10 @@ jobs:
       - name: Syntax check governance audits
         run: |
           python -m py_compile scripts/post_reconcile_canonical_routing.py scripts/audit_current_instructions.py scripts/check_master_governance.py
+      - name: Run unified current-instructions audit
+        run: |
+          python scripts/audit_current_instructions.py
+          python scripts/check_master_governance.py
       - name: Commit final canonical routing fix
         run: |
           git config user.name 'github-actions[bot]'
