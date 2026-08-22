@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:30:13.766783+00:00",
-  "gitCommit": "d88790d4cc206c4ce01bd6e61d978c1d1db40587",
+  "generatedAt": "2026-08-22T01:31:24.841956+00:00",
+  "gitCommit": "b4032914bfa90bbfee7ab911826b3f2dcf0c48cd",
   "github": {
     "trackedFileCount": 776,
     "fileDispositionCounts": {
@@ -775,7 +775,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 847166,
+        "size": 848399,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2744,8 +2744,8 @@
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
-        "path": "data/editorial/drafts/2026-08-22/restored-five-slots.json",
-        "size": 9045,
+        "path": "data/editorial/drafts/2026-08-22/batch-restored-five-slots.json",
+        "size": 7146,
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
@@ -2785,7 +2785,7 @@
       },
       {
         "path": "data/editorial/global_biography_placement_audit.json",
-        "size": 47201,
+        "size": 24114,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2810,7 +2810,7 @@
       },
       {
         "path": "data/editorial/person_life_relocation_audit.json",
-        "size": 45022,
+        "size": 21935,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
