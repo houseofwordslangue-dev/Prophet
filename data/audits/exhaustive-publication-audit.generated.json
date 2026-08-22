@@ -1,14 +1,14 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:33:19.835712+00:00",
-  "gitCommit": "d4b8c09844123a624f660e106323ad4fb74eb974",
+  "generatedAt": "2026-08-22T01:34:07.049788+00:00",
+  "gitCommit": "4b915add9baaf6c78e8dacb29d5993971999d78c",
   "github": {
-    "trackedFileCount": 778,
+    "trackedFileCount": 779,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 201,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 45,
-      "PUBLIC_SITE_ASSET": 101,
+      "PUBLIC_SITE_ASSET": 102,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
       "CONTENT_OR_PUBLICATION_REGISTRY": 296
     },
@@ -439,6 +439,11 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "assets/editorial-restored-five-bootstrap.js",
+        "size": 1121,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
         "path": "assets/epub-status.js",
         "size": 1591,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -780,7 +785,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 848528,
+        "size": 848677,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3120,7 +3125,7 @@
       },
       {
         "path": "editorial.html",
-        "size": 2817,
+        "size": 2885,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -3135,7 +3140,7 @@
       },
       {
         "path": "feature.html",
-        "size": 1588,
+        "size": 1655,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
