@@ -1,0 +1,140 @@
+# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+name: Content completion rotation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'AUTO_CONTENT_COMPLETION_PROMPT.md'
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - 'scripts/content_completion_status.py'
+      - 'scripts/completion_slot_fill.py'
+      - 'scripts/mine_all_missing_biography_sources.py'
+      - '.github/workflows/content-completion.yml'
+      - 'data/editorial_sections.json'
+      - 'data/people.json'
+      - 'data/family_people.json'
+      - 'data/family_groups.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-content-completion
+  cancel-in-progress: false
+
+jobs:
+  complete:
+    if: github.actor != 'prophet-completion-bot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild canonical biography requirements
+        id: bioreq
+        continue-on-error: true
+        run: python scripts/complete_required_biographies.py
+
+      - name: Audit currently empty biography pages
+        continue-on-error: true
+        run: python scripts/audit_empty_person_biographies.py
+
+      - name: Mine source candidates for every missing biography
+        continue-on-error: true
+        run: python scripts/mine_all_missing_biography_sources.py
+
+      - name: Run source-backed biography enrichment passes
+        continue-on-error: true
+        shell: bash
+        run: |
+          for script in \
+            scripts/audit_and_enrich_canonical_biographies.py \
+            scripts/enrich_short_biographies_siyar_direct.py \
+            scripts/enrich_short_biographies_wikisource.py \
+            scripts/consolidate_canonical_biographies.py; do
+            if [ -f "$script" ]; then
+              python "$script" || true
+            fi
+          done
+
+      - name: Refresh completion state
+        run: python scripts/content_completion_status.py
+
+      - name: Resolve next exact under-50 slot
+        id: state
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          d=json.load(open('data/editorial/content_completion_state.json',encoding='utf-8'))
+          print('article_complete=' + ('true' if d.get('ARTICLE_FILL_COMPLETE') else 'false'))
+          print('bio_complete=' + ('true' if d.get('BIOGRAPHY_FILL_COMPLETE') else 'false'))
+          print('complete=' + ('true' if d.get('COMPLETION_PROMPT_COMPLETE') else 'false'))
+          print('next_slot=' + str(d.get('nextTargetSlot') or ''))
+          PY
+
+      - name: Fill next under-target editorial slot from verified sources
+        if: steps.state.outputs.article_complete != 'true' && steps.state.outputs.next_slot != ''
+        id: fill
+        continue-on-error: true
+        run: python scripts/completion_slot_fill.py --slot '${{ steps.state.outputs.next_slot }}'
+
+      - name: Validate source-grounded publication candidates
+        run: python scripts/editorial_autopublish.py --check
+
+      - name: Publish newly verified completion records
+        run: python scripts/editorial_autopublish.py
+
+      - name: Refresh final completion state
+        run: python scripts/content_completion_status.py
+
+      - name: Commit completion state and verified outputs
+        run: |
+          git config user.name 'prophet-completion-bot'
+          git config user.email 'prophet-completion-bot@users.noreply.github.com'
+          git add -- \
+            data/editorial/content_completion_state.json \
+            data/editorial/content_completion_slot_audit.json \
+            data/editorial/required_biographies.json \
+            data/editorial/required_biographies_audit.json \
+            data/editorial/empty_biographies_audit.json \
+            data/editorial/missing_biography_source_candidates.json \
+            data/editorial/canonical_biographies.json \
+            data/editorial/publication_manifest.json \
+            data/editorial/drafts
+          if ! git diff --cached --quiet; then
+            git commit -m 'Advance section and biography completion [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Completion summary
+        if: always()
+        shell: bash
+        run: |
+          echo '### Content completion rotation' >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          p=pathlib.Path('data/editorial/content_completion_state.json')
+          if not p.exists():
+              print('State unavailable; next scheduled cycle will retry.')
+              raise SystemExit(0)
+          d=json.loads(p.read_text(encoding='utf-8'))
+          print(f"Active slots: {d.get('activeEditorialSlotCount')} | target: {d.get('targetArticlesPerSlot')} each")
+          print(f"Under target: {len(d.get('underTargetSlots') or [])} | empty: {len(d.get('emptySlots') or [])}")
+          print(f"Missing canonical biographies: {d.get('missingCanonicalBiographyCount')}")
+          print(f"Article fill complete: {d.get('ARTICLE_FILL_COMPLETE')}")
+          print(f"Biography fill complete: {d.get('BIOGRAPHY_FILL_COMPLETE')}")
+          print(f"Completion prompt complete: {d.get('COMPLETION_PROMPT_COMPLETE')}")
+          if d.get('COMPLETION_PROMPT_COMPLETE'):
+              print('Completion target reached: future scheduled runs exit without creating filler.')
+          PY
