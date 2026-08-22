@@ -77,6 +77,9 @@ jobs:
             for section in light prophet messenger human mercy family companions media; do guarded "editorial-$section" python scripts/daily_rotating_editorial_fill.py --section "$section"; done
           fi
           [ -f scripts/daily_completion_batch.py ] && guarded 'all underfilled editorial slots' python scripts/daily_completion_batch.py
+          if [ -f scripts/build_next_500_extended_articles.py ] && [ ! -f data/editorial/source_extract_500_extended_20260822_audit.json ]; then
+            guarded '500 extended source article extraction' python scripts/build_next_500_extended_articles.py
+          fi
 
           # Biographies: extraction + source-grounded synthesis only.
           [ -f scripts/mine_all_missing_biography_sources.py ] && guarded 'biography source mining' python scripts/mine_all_missing_biography_sources.py
