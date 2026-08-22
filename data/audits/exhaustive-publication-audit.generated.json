@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:42:33.305364+00:00",
-  "gitCommit": "49b30d0d1adfda61097521b3ff2d2d0390402e3d",
+  "generatedAt": "2026-08-22T02:44:35.748727+00:00",
+  "gitCommit": "0856d206f678b09abea0a0e0fd5c760dee8e4d4a",
   "github": {
-    "trackedFileCount": 807,
+    "trackedFileCount": 809,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 214,
+      "TECHNICAL_REPOSITORY_FILE": 215,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 50,
       "PUBLIC_SITE_ASSET": 104,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 304
+      "CONTENT_OR_PUBLICATION_REGISTRY": 305
     },
     "files": [
       {
@@ -85,7 +85,7 @@
       },
       {
         "path": ".github/workflows/extend-short-biographies-500.yml",
-        "size": 1585,
+        "size": 1835,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -880,7 +880,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 852324,
+        "size": 852969,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2994,6 +2994,11 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "size": 1644,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/short-biography-extensions/ali-ibn-abi-talib.json",
         "size": 5036,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
@@ -3809,6 +3814,11 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": "scripts/enrich_short_biographies_wikisource.py",
+        "size": 9662,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": "scripts/exhaustive_publication_audit.py",
         "size": 6467,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -4051,10 +4061,10 @@
     ]
   },
   "registries": {
-    "registryFileCount": 58,
-    "recordCount": 3110,
+    "registryFileCount": 59,
+    "recordCount": 3114,
     "recordDispositionCounts": {
-      "CATALOGUED_OR_METADATA_RECORD": 1283,
+      "CATALOGUED_OR_METADATA_RECORD": 1287,
       "ATTACHED_RECORD": 689,
       "PUBLISHED_RECORD": 1090,
       "ASSET_OR_SOURCE_RECORD": 47,
@@ -4220,6 +4230,10 @@
       {
         "path": "data/editorial/khadija_drive_sources.json",
         "recordCount": 9
+      },
+      {
+        "path": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "recordCount": 4
       },
       {
         "path": "data/expanded_biographies_135_full.json",
@@ -16746,6 +16760,34 @@
         "registry": "data/editorial/khadija_drive_sources.json",
         "collection": "sources",
         "index": 8,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "18",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 0,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "32",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 1,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "58",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 2,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "98",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 3,
         "disposition": "CATALOGUED_OR_METADATA_RECORD"
       },
       {
