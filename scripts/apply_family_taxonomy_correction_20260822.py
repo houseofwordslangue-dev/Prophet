@@ -4,6 +4,7 @@ from pathlib import Path
 import json,re
 ROOT=Path(__file__).resolve().parents[1]
 
+# One-time canonical correction requested 2026-08-22.
 # 1) Correct the controlling master, including the canonical IA list and section 103.
 p=ROOT/'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
 s=p.read_text(encoding='utf-8')
@@ -62,23 +63,9 @@ p.write_text(s,encoding='utf-8')
 p=ROOT/'data/content_taxonomy_policy.json';d=json.loads(p.read_text(encoding='utf-8'))
 d['version']='2026-08-22.2'
 cs=d.setdefault('canonicalSections',{})
-cs['family']={
- 'labelAr':'الأسرة النبوية','landing':'family.html','collectionOnly':True,'canonicalBiographyOwner':'people',
- 'groups':['wives','children','grandchildren'],'wivesLabelAr':'الزوجات / أمهات المؤمنين','onePersonOneCanonicalBiography':True,
- 'scope':'Immediate Prophetic household only: spouses/Mothers of the Believers, children, grandchildren and descendants.'
-}
-cs['extendedFamily']={
- 'labelAr':'العائلة النبوية','landing':'family.html','collectionOnly':True,'canonicalBiographyOwner':'people','independentMenuSection':True,
- 'groups':['parents','ancestors','paternal-relatives','maternal-relatives','cousins','in-laws','foster','family-tree'],
- 'onePersonOneCanonicalBiography':True,
- 'scope':'Wider Prophetic family, lineage, kinship, in-laws, foster/guardianship relations and family tree.'
-}
+cs['family']={'labelAr':'الأسرة النبوية','landing':'family.html','collectionOnly':True,'canonicalBiographyOwner':'people','groups':['wives','children','grandchildren'],'wivesLabelAr':'الزوجات / أمهات المؤمنين','onePersonOneCanonicalBiography':True,'scope':'Immediate Prophetic household only: spouses/Mothers of the Believers, children, grandchildren and descendants.'}
+cs['extendedFamily']={'labelAr':'العائلة النبوية','landing':'family.html','collectionOnly':True,'canonicalBiographyOwner':'people','independentMenuSection':True,'groups':['parents','ancestors','paternal-relatives','maternal-relatives','cousins','in-laws','foster','family-tree'],'onePersonOneCanonicalBiography':True,'scope':'Wider Prophetic family, lineage, kinship, in-laws, foster/guardianship relations and family tree.'}
 p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
-# 4) Update the deterministic audit so later sessions enforce the split instead of rejecting it.
-p=ROOT/'scripts/audit_current_instructions.py';s=p.read_text(encoding='utf-8')
-s=s.replace('for x in ("الزوجات / أمهات المؤمنين","family.html?group=wives","المصادر والدراسات","المقالات والموضوعات"):', 'for x in ("الأسرة النبوية","الزوجات / أمهات المؤمنين","family.html?group=wives","العائلة النبوية","family.html?group=parents","family.html?group=ancestors","المصادر والدراسات","المقالات والموضوعات"):')
-s=s.replace(' if "[\'العائلة النبوية\'" in menu:e.append("competing top-level family taxonomy remains")\n','')
-s=s.replace(' if cs.get("family",{}).get("wivesLabelAr")!="الزوجات / أمهات المؤمنين":e.append("taxonomy missing wives collection")\n', ' if cs.get("family",{}).get("groups")!=["wives","children","grandchildren"]:e.append("الأسرة النبوية scope mismatch")\n if cs.get("family",{}).get("wivesLabelAr")!="الزوجات / أمهات المؤمنين":e.append("taxonomy missing wives collection")\n if cs.get("extendedFamily",{}).get("labelAr")!="العائلة النبوية":e.append("taxonomy missing independent العائلة النبوية")\n if cs.get("extendedFamily",{}).get("groups")!=["parents","ancestors","paternal-relatives","maternal-relatives","cousins","in-laws","foster","family-tree"]:e.append("العائلة النبوية scope mismatch")\n')
-p.write_text(s,encoding='utf-8')
+# 4) The audit file is maintained separately and must pass after this correction.
 print('family taxonomy correction applied')
