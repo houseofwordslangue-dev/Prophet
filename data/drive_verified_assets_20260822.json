@@ -1,9 +1,19 @@
 {
-  "schema": "prophet-drive-verified-assets-v1",
-  "generatedAt": "2026-08-22T06:04:00+01:00",
+  "schema": "prophet-drive-verified-assets-v2",
+  "generatedAt": "2026-08-22T06:24:00+01:00",
   "source": "connected Google Drive verification",
-  "policy": "verified Drive assets usable for extraction; EPUB/TXT preferred, PDF routed through text layer or OCR as needed",
+  "policy": "Verified Drive assets usable for extraction; EPUB/TXT preferred, PDF routed through text layer or OCR as needed. Verification distinguishes work/file identity from edition-level provenance when the EPUB wrapper does not declare a source edition.",
   "items": [
+    {"title":"روح البيان في تفسير القرآن — المجلد 1 — الجزء 1","author":"إسماعيل حقي البروسوي","format":"epub","driveId":"1BhK0xtQl7MP6KuKtGE9HYOSr2vKaRURA","size":61320848,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata declares the matching title, creator إسماعيل حقي البروسوي, and Arabic language; bibliographic identity independently corroborated."},
+    {"title":"روح البيان في تفسير القرآن — المجلد 1 — الجزء 2","author":"إسماعيل حقي البروسوي","format":"epub","driveId":"18Q1JwNdWDsU9OY4WeYl0IEZxWbAjU5qN","size":44135886,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata declares the matching title, creator إسماعيل حقي البروسوي, and Arabic language; bibliographic identity independently corroborated."},
+    {"title":"روح البيان في تفسير القرآن — المجلد 2 — الجزء 1","author":"إسماعيل حقي البروسوي","format":"epub","driveId":"1u0eMhG6_8K74jbRUspZf8OaKJgGBSv1v","size":62086724,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata declares the matching title, creator إسماعيل حقي البروسوي, and Arabic language; bibliographic identity independently corroborated."},
+    {"title":"روح البيان في تفسير القرآن — المجلد 2 — الجزء 2","author":"إسماعيل حقي البروسوي","format":"epub","driveId":"1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ","size":45424918,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata declares the matching title, creator إسماعيل حقي البروسوي, and Arabic language; bibliographic identity independently corroborated."},
+    {"title":"روح البيان في تفسير القرآن — المجلد 3","author":"إسماعيل حقي البروسوي","format":"epub","driveId":"1DtFXvykTD0b7q6ucYEfUdlZSqrgd1jIQ","size":84122343,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata declares the matching title, creator إسماعيل حقي البروسوي, and Arabic language; bibliographic identity independently corroborated."},
+    {"title":"روح البيان في تفسير القرآن — المجلد 4","author":"إسماعيل حقي البروسوي","format":"epub","driveId":"1ehUWHmIGTXRtptd5KPpRFTw8quBn84fv","size":84040874,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata declares the matching title, creator إسماعيل حقي البروسوي, and Arabic language; bibliographic identity independently corroborated."},
+    {"title":"مشارق الأنوار على صحاح الآثار","author":"القاضي عياض","format":"epub","driveId":"10il9gpkEaCmyQG6FmdlCUrR6IwaeFItD","size":12826672,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata identifies the title and القاضي عياض; independent manuscript/catalogue witnesses match the attribution."},
+    {"title":"ترتيب المدارك وتقريب المسالك","author":"القاضي عياض","format":"epub","driveId":"17pjnx1fWixb61gxoowBBcLxqHxdWI4zE","size":247413,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+bibliographic-identity","verificationNote":"EPUB metadata identifies the title and القاضي عياض; independent national-library/catalogue witnesses match the attribution."},
+    {"title":"الجامع لأحكام القرآن","author":"القرطبي","format":"epub","driveId":"18JNekLH3kzJBapHCQmQQdDJmmKSODAsP","size":982476,"extractionReady":true,"extractionMode":"epub-native","verificationLevel":"package-metadata+declared-source+bibliographic-identity","sourceUrl":"https://ar.wikisource.org/wiki/الجامع_لأحكام_القرآن","verificationNote":"EPUB metadata identifies the work and القرطبي and declares the Arabic Wikisource page as its source; the live Wikisource work page matches."},
+
     {"title":"الشفا بتعريف حقوق المصطفى — القاضي عياض — Wikimedia Wikisource","format":"pdf","driveId":"167364MVD1v8JYch5kmL9bOhbC9Xg4tGr","size":27477809,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"نور الأبصار في مناقب آل بيت النبي المختار — مؤمن الشبلنجي — AUB ACO","format":"pdf","driveId":"1AVVJfU_LksUC-7xR16rFgzLaxEYfaDdO","size":62845758,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الصواعق المحرقة — ابن حجر الهيتمي — AUB ACO","format":"pdf","driveId":"1R0yU-oIJPGT_XZi0skuBXUx3UiFcEElT","size":56332849,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
@@ -20,7 +30,6 @@
     {"title":"لطائف الإشارات — القشيري — 02","format":"pdf","driveId":"1fk6Hiz79VLjKEjNTxXNzU3CpmV_bts5y","size":8200508,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"لطائف الإشارات — القشيري — 03","format":"pdf","driveId":"1eacKga9PSFN2SAJGTg6GexLUp6RtcaKd","size":8211335,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"لطائف الإشارات — القشيري — 04","format":"pdf","driveId":"1uKbGt2-Zrdz-xSrEoOoNSRpt3X7vjeBB","size":7302954,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
-
     {"title":"الطبقات الكبرى — الجزء 1","format":"pdf","driveId":"1fQiZz4_lpvgXKmSrv9yzo02dFjjTZWAB","size":7041118,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 2","format":"pdf","driveId":"1QZVHlPOhJrKYL_SUX6Bm2eGyODeio8ln","size":5691285,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 3","format":"pdf","driveId":"1FyXr9dB_G-QKyQ5vMoegj8rMLdccdiCn","size":8330946,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
@@ -31,7 +40,6 @@
     {"title":"الطبقات الكبرى — الجزء 8","format":"pdf","driveId":"1IEPXoKqIdyDWnCORJyUiV6Ao9qd9eLuh","size":6186601,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 10","format":"pdf","driveId":"16FeLjSIBhd_NXK6YetqtIwXoauVMv_co","size":7784955,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"الطبقات الكبرى — الجزء 11","format":"pdf","driveId":"1UnUpwYxvAnRSvG4mJ9_x-3pbHzjuhXM-","size":3445610,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
-
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 1","format":"pdf","driveId":"1c5faI9DRUZJ_pQGI3J8U-QoJ8IucpdSG","size":11194383,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 2","format":"pdf","driveId":"1p-286rhs9vDmamtxqjY_Tel4Dpe8iMbu","size":9415206,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 3","format":"pdf","driveId":"1MBJFwKC1fuzvRKVuuS2yPua5J3LtewI9","size":8274410,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
@@ -44,7 +52,6 @@
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 10","format":"pdf","driveId":"1U11CxWnTz4ul6XGeUqEutA2ZvHnRFgm3","size":10643688,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 11","format":"pdf","driveId":"1gFLSeaSG5NfF7YCDZ--ubxEEkqIzEaK4","size":9495774,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"سبل الهدى والرشاد في سيرة خير العباد — الجزء 12","format":"pdf","driveId":"11lIeL-IkuncmwglMxwE1-JfcAx44lqkG","size":9495774,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
-
     {"title":"السيرة النبوية — ابن هشام — volume-1","format":"pdf","driveId":"1qO_HeJPRMDDif1jn3k3N6F8F0PvFgVB1","size":7491311,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"السيرة النبوية — ابن هشام — volume-2","format":"pdf","driveId":"1c3v43uC8Pl_qRi6wYFj5Sm_4UohzUeS1","size":7677116,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
     {"title":"السيرة النبوية — ابن هشام — volume-3","format":"pdf","driveId":"1lerL85B5OTH2OBQWcXs5TY5eUwT0i07V","size":6308319,"extractionReady":true,"extractionMode":"pdf-text-or-ocr"},
