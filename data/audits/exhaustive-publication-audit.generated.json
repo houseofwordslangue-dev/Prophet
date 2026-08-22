@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:06:48.272606+00:00",
-  "gitCommit": "25c3b8cbb26a71b4b3dfe541db6439e1c6376bdc",
+  "generatedAt": "2026-08-22T01:07:24.482980+00:00",
+  "gitCommit": "abe9e9ee90c39a2a28515acda9f0214e01a6f189",
   "github": {
     "trackedFileCount": 767,
     "fileDispositionCounts": {
@@ -760,7 +760,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 840122,
+        "size": 847112,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3345,7 +3345,7 @@
       },
       {
         "path": "private/source_first_resolution.json",
-        "size": 176760,
+        "size": 214732,
         "disposition": "NON_PUBLIC_WORKSPACE_OR_REJECTED"
       },
       {
@@ -3815,7 +3815,7 @@
       },
       {
         "path": "scripts/source_first_fulltext_resolver.py",
-        "size": 5514,
+        "size": 6039,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {

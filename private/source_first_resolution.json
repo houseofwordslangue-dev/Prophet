@@ -1,6 +1,6 @@
 {
-  "schema": "source-first-resolution-v1",
-  "generatedAt": "2026-08-22T01:05:37Z",
+  "schema": "source-first-resolution-v2",
+  "generatedAt": "2026-08-22T01:07:23Z",
   "priority": [
     "epub",
     "txt",
@@ -14,7 +14,8 @@
     "pdf"
   ],
   "remainingScanned": 434,
-  "nativeTextFound": 1,
+  "nativeTextFound": 47,
+  "driveNativeMatched": 47,
   "pdfOnlyAfterNativeSearch": 0,
   "items": [
     {
@@ -88,11 +89,27 @@
       "title": "نور الأبصار في مناقب آل بيت النبي المختار",
       "author": "مؤمن الشبلنجي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1TRnHbDuUDsOBmNdhIyzkrrC7kmSXssC5",
+        "name": "نور الأبصار في مناقب آل بيت النبي المختار",
+        "size": 392262,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1TRnHbDuUDsOBmNdhIyzkrrC7kmSXssC5/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1TRnHbDuUDsOBmNdhIyzkrrC7kmSXssC5",
+          "name": "نور الأبصار في مناقب آل بيت النبي المختار",
+          "size": 392262,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1TRnHbDuUDsOBmNdhIyzkrrC7kmSXssC5/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "family-companions-010",
@@ -341,11 +358,27 @@
       "title": "صحيح البخاري",
       "author": "محمد بن إسماعيل البخاري",
       "previousAccess": "CATALOG_ONLY_SOURCE_READY_LIMITED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH",
+        "name": "إرشاد الساري لشرح صحيح البخاري",
+        "size": 373711,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH",
+          "name": "إرشاد الساري لشرح صحيح البخاري",
+          "size": 373711,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "hadith-commentary-002",
@@ -396,11 +429,27 @@
       "title": "شرح صحيح البخاري",
       "author": "ابن بطال",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH",
+        "name": "إرشاد الساري لشرح صحيح البخاري",
+        "size": 373711,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH",
+          "name": "إرشاد الساري لشرح صحيح البخاري",
+          "size": 373711,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1qifUhsvGZsfOTVX8qRPq3KLlvgGAdYyH/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "hadith-commentary-008",
@@ -1188,22 +1237,54 @@
       "title": "الشفا بتعريف حقوق المصطفى",
       "author": "القاضي عياض",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+        "name": "الشفا بتعريف حقوق المصطفى",
+        "size": 27480220,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+          "name": "الشفا بتعريف حقوق المصطفى",
+          "size": 27480220,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "hadith-commentary-081",
       "title": "شرح الشفا",
       "author": "علي القاري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+        "name": "شرح الشفا",
+        "size": 2106585,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+          "name": "شرح الشفا",
+          "size": 2106585,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "hadith-commentary-082",
@@ -1397,22 +1478,102 @@
       "title": "السيرة النبوية",
       "author": "ابن إسحاق - رواية ابن هشام",
       "previousAccess": "CATALOG_ONLY_SOURCE_READY_LIMITED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+        "name": "السيرة النبوية — ابن هشام — volume-4",
+        "size": 502104,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+          "name": "السيرة النبوية — ابن هشام — volume-4",
+          "size": 502104,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23",
+          "name": "السيرة النبوية — ابن هشام — volume-3",
+          "size": 483336,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6",
+          "name": "السيرة النبوية — ابن هشام — volume-2",
+          "size": 582923,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh",
+          "name": "السيرة النبوية — ابن هشام — volume-1",
+          "size": 609891,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-002",
       "title": "السيرة النبوية",
       "author": "عبد الملك بن هشام",
       "previousAccess": "CATALOG_ONLY_RIGHTS_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+        "name": "السيرة النبوية — ابن هشام — volume-4",
+        "size": 502104,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+          "name": "السيرة النبوية — ابن هشام — volume-4",
+          "size": 502104,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23",
+          "name": "السيرة النبوية — ابن هشام — volume-3",
+          "size": 483336,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6",
+          "name": "السيرة النبوية — ابن هشام — volume-2",
+          "size": 582923,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh",
+          "name": "السيرة النبوية — ابن هشام — volume-1",
+          "size": 609891,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-003",
@@ -1441,11 +1602,27 @@
       "title": "الشفا بتعريف حقوق المصطفى",
       "author": "القاضي عياض",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+        "name": "الشفا بتعريف حقوق المصطفى",
+        "size": 27480220,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+          "name": "الشفا بتعريف حقوق المصطفى",
+          "size": 27480220,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-006",
@@ -1540,11 +1717,51 @@
       "title": "السيرة النبوية",
       "author": "ابن كثير",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+        "name": "السيرة النبوية — ابن هشام — volume-4",
+        "size": 502104,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+          "name": "السيرة النبوية — ابن هشام — volume-4",
+          "size": 502104,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23",
+          "name": "السيرة النبوية — ابن هشام — volume-3",
+          "size": 483336,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6",
+          "name": "السيرة النبوية — ابن هشام — volume-2",
+          "size": 582923,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh",
+          "name": "السيرة النبوية — ابن هشام — volume-1",
+          "size": 609891,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-015",
@@ -1804,11 +2021,27 @@
       "title": "دلائل الخيرات وشوارق الأنوار",
       "author": "محمد بن سليمان الجزولي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+        "name": "دلائل الخيرات وشوارق الأنوار",
+        "size": 30556936,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+          "name": "دلائل الخيرات وشوارق الأنوار",
+          "size": 30556936,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-039",
@@ -1848,11 +2081,27 @@
       "title": "الأنوار المحمدية من المواهب اللدنية",
       "author": "يوسف النبهاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-043",
@@ -1936,22 +2185,54 @@
       "title": "الشفا بتعريف حقوق المصطفى",
       "author": "القاضي عياض",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+        "name": "الشفا بتعريف حقوق المصطفى",
+        "size": 27480220,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+          "name": "الشفا بتعريف حقوق المصطفى",
+          "size": 27480220,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-051",
       "title": "شرح الشفا",
       "author": "علي القاري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+        "name": "شرح الشفا",
+        "size": 2106585,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+          "name": "شرح الشفا",
+          "size": 2106585,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-052",
@@ -2002,11 +2283,27 @@
       "title": "دلائل الخيرات وشوارق الأنوار",
       "author": "محمد بن سليمان الجزولي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+        "name": "دلائل الخيرات وشوارق الأنوار",
+        "size": 30556936,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+          "name": "دلائل الخيرات وشوارق الأنوار",
+          "size": 30556936,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-057",
@@ -2068,11 +2365,27 @@
       "title": "الأنوار المحمدية من المواهب اللدنية",
       "author": "يوسف النبهاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-064",
@@ -2156,11 +2469,27 @@
       "title": "الأنوار المحمدية",
       "author": "يوسف النبهاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-072",
@@ -2189,11 +2518,51 @@
       "title": "السيرة النبوية",
       "author": "ابن هشام",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+        "name": "السيرة النبوية — ابن هشام — volume-4",
+        "size": 502104,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+          "name": "السيرة النبوية — ابن هشام — volume-4",
+          "size": 502104,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23",
+          "name": "السيرة النبوية — ابن هشام — volume-3",
+          "size": 483336,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6",
+          "name": "السيرة النبوية — ابن هشام — volume-2",
+          "size": 582923,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh",
+          "name": "السيرة النبوية — ابن هشام — volume-1",
+          "size": 609891,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-075",
@@ -2211,11 +2580,51 @@
       "title": "السيرة النبوية",
       "author": "ابن كثير",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+        "name": "السيرة النبوية — ابن هشام — volume-4",
+        "size": 502104,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+          "name": "السيرة النبوية — ابن هشام — volume-4",
+          "size": 502104,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23",
+          "name": "السيرة النبوية — ابن هشام — volume-3",
+          "size": 483336,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6",
+          "name": "السيرة النبوية — ابن هشام — volume-2",
+          "size": 582923,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh",
+          "name": "السيرة النبوية — ابن هشام — volume-1",
+          "size": 609891,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-077",
@@ -2255,22 +2664,54 @@
       "title": "الشفا بتعريف حقوق المصطفى",
       "author": "القاضي عياض",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+        "name": "الشفا بتعريف حقوق المصطفى",
+        "size": 27480220,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+          "name": "الشفا بتعريف حقوق المصطفى",
+          "size": 27480220,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-081",
       "title": "المواهب اللدنية",
       "author": "القسطلاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-082",
@@ -2310,11 +2751,27 @@
       "title": "الأنوار المحمدية",
       "author": "يوسف النبهاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-086",
@@ -2409,44 +2866,116 @@
       "title": "الأنوار المحمدية",
       "author": "يوسف النبهاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-095",
       "title": "الشفا",
       "author": "القاضي عياض",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+        "name": "الشفا بتعريف حقوق المصطفى",
+        "size": 27480220,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M",
+          "name": "الشفا بتعريف حقوق المصطفى",
+          "size": 27480220,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1vjpS5SXXv5D7doD-BrKGMCbvJwj_q22M/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+          "name": "شرح الشفا",
+          "size": 2106585,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-096",
       "title": "شرح الشفا",
       "author": "علي القاري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+        "name": "شرح الشفا",
+        "size": 2106585,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf",
+          "name": "شرح الشفا",
+          "size": 2106585,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1q0rA1amw_b8LOQi6JmkAk8CAJy0pq_Pf/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-097",
       "title": "المواهب اللدنية",
       "author": "القسطلاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-098",
@@ -2464,11 +2993,27 @@
       "title": "دلائل الخيرات",
       "author": "محمد بن سليمان الجزولي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+        "name": "دلائل الخيرات وشوارق الأنوار",
+        "size": 30556936,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+          "name": "دلائل الخيرات وشوارق الأنوار",
+          "size": 30556936,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "life-seerah-100",
@@ -2486,11 +3031,51 @@
       "title": "السيرة النبوية",
       "author": "ابن هشام",
       "previousAccess": "CATALOG_ONLY_SOURCE_OR_ASSET_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+        "name": "السيرة النبوية — ابن هشام — volume-4",
+        "size": 502104,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS",
+          "name": "السيرة النبوية — ابن هشام — volume-4",
+          "size": 502104,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/10M-1TZ-axGnbMyWAe1thq3JQ9FCyK0SS/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23",
+          "name": "السيرة النبوية — ابن هشام — volume-3",
+          "size": 483336,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1wmZq2DNVX6XSBO5-7WrUKUUg7JVxaK23/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6",
+          "name": "السيرة النبوية — ابن هشام — volume-2",
+          "size": 582923,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1oLHvAGzeV6OVd72uQVWEdl4upjb53Cr6/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh",
+          "name": "السيرة النبوية — ابن هشام — volume-1",
+          "size": 609891,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1fwlY6pYsgNTH20EQ2m9kLwJQpgxioqRh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-002",
@@ -2511,11 +3096,61 @@
       "state": "NATIVE_TEXT_FOUND",
       "preferred": {
         "format": "epub",
-        "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%201.epub",
-        "name": "روح البيان - طبعة بولاق 1.epub",
-        "source": "archive-metadata"
+        "driveId": "1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ",
+        "name": "روح البيان في تفسير القرآن — المجلد 2 — الجزء 2",
+        "size": 45424918,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ/view"
       },
       "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ",
+          "name": "روح البيان في تفسير القرآن — المجلد 2 — الجزء 2",
+          "size": 45424918,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1u0eMhG6_8K74jbRUspZf8OaKJgGBSv1v",
+          "name": "روح البيان في تفسير القرآن — المجلد 2 — الجزء 1",
+          "size": 62086724,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1u0eMhG6_8K74jbRUspZf8OaKJgGBSv1v/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "18Q1JwNdWDsU9OY4WeYl0IEZxWbAjU5qN",
+          "name": "روح البيان في تفسير القرآن — المجلد 1 — الجزء 2",
+          "size": 44135886,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18Q1JwNdWDsU9OY4WeYl0IEZxWbAjU5qN/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1BhK0xtQl7MP6KuKtGE9HYOSr2vKaRURA",
+          "name": "روح البيان في تفسير القرآن — المجلد 1 — الجزء 1",
+          "size": 61320848,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1BhK0xtQl7MP6KuKtGE9HYOSr2vKaRURA/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1ehUWHmIGTXRtptd5KPpRFTw8quBn84fv",
+          "name": "روح البيان في تفسير القرآن — المجلد 4",
+          "size": 84040874,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1ehUWHmIGTXRtptd5KPpRFTw8quBn84fv/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1DtFXvykTD0b7q6ucYEfUdlZSqrgd1jIQ",
+          "name": "روح البيان في تفسير القرآن — المجلد 3",
+          "size": 84122343,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1DtFXvykTD0b7q6ucYEfUdlZSqrgd1jIQ/view"
+        },
         {
           "format": "epub",
           "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%201.epub",
@@ -2598,42 +3233,6 @@
           "format": "xml",
           "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%202_djvu.xml",
           "name": "روح البيان - طبعة بولاق 2_djvu.xml",
-          "source": "archive-metadata"
-        },
-        {
-          "format": "xml",
-          "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%202_scandata.xml",
-          "name": "روح البيان - طبعة بولاق 2_scandata.xml",
-          "source": "archive-metadata"
-        },
-        {
-          "format": "xml",
-          "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%203_djvu.xml",
-          "name": "روح البيان - طبعة بولاق 3_djvu.xml",
-          "source": "archive-metadata"
-        },
-        {
-          "format": "xml",
-          "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%203_scandata.xml",
-          "name": "روح البيان - طبعة بولاق 3_scandata.xml",
-          "source": "archive-metadata"
-        },
-        {
-          "format": "xml",
-          "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%204_djvu.xml",
-          "name": "روح البيان - طبعة بولاق 4_djvu.xml",
-          "source": "archive-metadata"
-        },
-        {
-          "format": "xml",
-          "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%204_scandata.xml",
-          "name": "روح البيان - طبعة بولاق 4_scandata.xml",
-          "source": "archive-metadata"
-        },
-        {
-          "format": "pdf",
-          "url": "https://archive.org/download/2_20230615_20230615_2028/%D8%B1%D9%88%D8%AD%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%20-%20%D8%B7%D8%A8%D8%B9%D8%A9%20%D8%A8%D9%88%D9%84%D8%A7%D9%82%201.pdf",
-          "name": "روح البيان - طبعة بولاق 1.pdf",
           "source": "archive-metadata"
         }
       ],
@@ -2788,11 +3387,27 @@
       "title": "الجامع لأحكام القرآن",
       "author": "محمد بن أحمد القرطبي",
       "previousAccess": "CATALOG_ONLY_SOURCE_READY_LIMITED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+        "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+        "size": 982476,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+          "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+          "size": 982476,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-018",
@@ -3195,33 +3810,81 @@
       "title": "أحكام القرآن",
       "author": "الجصاص",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+        "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+        "size": 982476,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+          "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+          "size": 982476,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-055",
       "title": "أحكام القرآن",
       "author": "ابن العربي المعافري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+        "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+        "size": 982476,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+          "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+          "size": 982476,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-056",
       "title": "أحكام القرآن",
       "author": "الكيا الهراسي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+        "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+        "size": 982476,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+          "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+          "size": 982476,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-057",
@@ -3294,22 +3957,54 @@
       "title": "إحياء علوم الدين",
       "author": "أبو حامد الغزالي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh",
+        "name": "إحياء علوم الدين",
+        "size": 244576,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh",
+          "name": "إحياء علوم الدين",
+          "size": 244576,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-064",
       "title": "الرسالة القشيرية",
       "author": "عبد الكريم القشيري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+        "name": "الرسالة القشيرية",
+        "size": 139949,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+          "name": "الرسالة القشيرية",
+          "size": 139949,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-065",
@@ -3360,11 +4055,27 @@
       "title": "الرسالة القشيرية",
       "author": "عبد الكريم القشيري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+        "name": "الرسالة القشيرية",
+        "size": 139949,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+          "name": "الرسالة القشيرية",
+          "size": 139949,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-070",
@@ -3393,22 +4104,54 @@
       "title": "الجامع لأحكام القرآن",
       "author": "القرطبي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+        "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+        "size": 982476,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+          "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+          "size": 982476,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-073",
       "title": "الجامع لأحكام القرآن",
       "author": "القرطبي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+        "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+        "size": 982476,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "18JNekLH3kzJBapHCQmQQdDJmmKSODAsP",
+          "name": "الجامع لأحكام القرآن — القرطبي — Wikisource Arabic",
+          "size": 982476,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18JNekLH3kzJBapHCQmQQdDJmmKSODAsP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-074",
@@ -3712,11 +4455,67 @@
       "title": "روح البيان في تفسير القرآن — Wikisource العربية",
       "author": "إسماعيل حقي البروسوي",
       "previousAccess": "CATALOG_ONLY_SOURCE_OR_ASSET_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ",
+        "name": "روح البيان في تفسير القرآن — المجلد 2 — الجزء 2",
+        "size": 45424918,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ",
+          "name": "روح البيان في تفسير القرآن — المجلد 2 — الجزء 2",
+          "size": 45424918,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1lpizXaudYLQoXM_d22Llz5Tk-YTJRaUQ/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1u0eMhG6_8K74jbRUspZf8OaKJgGBSv1v",
+          "name": "روح البيان في تفسير القرآن — المجلد 2 — الجزء 1",
+          "size": 62086724,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1u0eMhG6_8K74jbRUspZf8OaKJgGBSv1v/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "18Q1JwNdWDsU9OY4WeYl0IEZxWbAjU5qN",
+          "name": "روح البيان في تفسير القرآن — المجلد 1 — الجزء 2",
+          "size": 44135886,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/18Q1JwNdWDsU9OY4WeYl0IEZxWbAjU5qN/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1BhK0xtQl7MP6KuKtGE9HYOSr2vKaRURA",
+          "name": "روح البيان في تفسير القرآن — المجلد 1 — الجزء 1",
+          "size": 61320848,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1BhK0xtQl7MP6KuKtGE9HYOSr2vKaRURA/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1ehUWHmIGTXRtptd5KPpRFTw8quBn84fv",
+          "name": "روح البيان في تفسير القرآن — المجلد 4",
+          "size": 84040874,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1ehUWHmIGTXRtptd5KPpRFTw8quBn84fv/view"
+        },
+        {
+          "format": "epub",
+          "driveId": "1DtFXvykTD0b7q6ucYEfUdlZSqrgd1jIQ",
+          "name": "روح البيان في تفسير القرآن — المجلد 3",
+          "size": 84122343,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1DtFXvykTD0b7q6ucYEfUdlZSqrgd1jIQ/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "quran-meaning-102",
@@ -3745,33 +4544,81 @@
       "title": "لطائف الإشارات — Wikisource العربية",
       "author": "عبد الكريم القشيري",
       "previousAccess": "CATALOG_ONLY_SOURCE_OR_ASSET_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP",
+        "name": "لطائف الإشارات",
+        "size": 1480355,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP",
+          "name": "لطائف الإشارات",
+          "size": 1480355,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "spirituality-conduct-001",
       "title": "الرسالة القشيرية",
       "author": "عبد الكريم القشيري",
       "previousAccess": "CATALOG_ONLY_SOURCE_OR_ASSET_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+        "name": "الرسالة القشيرية",
+        "size": 139949,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+          "name": "الرسالة القشيرية",
+          "size": 139949,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "spirituality-conduct-002",
       "title": "إحياء علوم الدين",
       "author": "أبو حامد الغزالي",
       "previousAccess": "CATALOG_ONLY_SOURCE_OR_ASSET_PENDING",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh",
+        "name": "إحياء علوم الدين",
+        "size": 244576,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh",
+          "name": "إحياء علوم الدين",
+          "size": 244576,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "spirituality-conduct-003",
@@ -3800,11 +4647,27 @@
       "title": "إحياء علوم الدين",
       "author": "أبو حامد الغزالي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh",
+        "name": "إحياء علوم الدين",
+        "size": 244576,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh",
+          "name": "إحياء علوم الدين",
+          "size": 244576,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1lcb5rKA-JbaxXGygC1g0eUxP8LdNKxYh/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "teachings-wisdom-002",
@@ -3833,11 +4696,27 @@
       "title": "الرسالة القشيرية",
       "author": "عبد الكريم القشيري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+        "name": "الرسالة القشيرية",
+        "size": 139949,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB",
+          "name": "الرسالة القشيرية",
+          "size": 139949,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1BuDLNoZdxOwQjAbBrC2J9l3d215TAtFB/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "teachings-wisdom-005",
@@ -3932,11 +4811,27 @@
       "title": "دلائل الخيرات",
       "author": "محمد بن سليمان الجزولي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+        "name": "دلائل الخيرات وشوارق الأنوار",
+        "size": 30556936,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+          "name": "دلائل الخيرات وشوارق الأنوار",
+          "size": 30556936,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "teachings-wisdom-014",
@@ -4614,11 +5509,27 @@
       "title": "لطائف الإشارات",
       "author": "عبد الكريم القشيري",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP",
+        "name": "لطائف الإشارات",
+        "size": 1480355,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP",
+          "name": "لطائف الإشارات",
+          "size": 1480355,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1L1tJKDU9lO8a9AauJIUGFwThtgOeuDLP/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "teachings-wisdom-076",
@@ -4713,11 +5624,27 @@
       "title": "الأنوار المحمدية",
       "author": "يوسف النبهاني",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+        "name": "الأنوار المحمدية من المواهب اللدنية",
+        "size": 22383634,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6",
+          "name": "الأنوار المحمدية من المواهب اللدنية",
+          "size": 22383634,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1r7jMSeNUR8vfcxvcFBR-PMWZBCRKBkH6/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "teachings-wisdom-085",
@@ -4790,11 +5717,27 @@
       "title": "دلائل الخيرات",
       "author": "محمد بن سليمان الجزولي",
       "previousAccess": "CATALOG_ONLY_RIGHTS_UNVERIFIED_OR_RESTRICTED",
-      "state": "NO_SOURCE_FOUND_NATIVE_SEARCH_COMPLETE",
-      "preferred": null,
-      "candidates": [],
+      "state": "NATIVE_TEXT_FOUND",
+      "preferred": {
+        "format": "epub",
+        "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+        "name": "دلائل الخيرات وشوارق الأنوار",
+        "size": 30556936,
+        "source": "google-drive-native",
+        "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+      },
+      "candidates": [
+        {
+          "format": "epub",
+          "driveId": "1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8",
+          "name": "دلائل الخيرات وشوارق الأنوار",
+          "size": 30556936,
+          "source": "google-drive-native",
+          "url": "https://drive.google.com/file/d/1SoMY6Tj2RezRuQgcmBnugqpvYpZ9giR8/view"
+        }
+      ],
       "nativeSearchCompleted": true,
-      "ocrAllowed": true
+      "ocrAllowed": false
     },
     {
       "id": "teachings-wisdom-092",
