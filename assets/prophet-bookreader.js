@@ -65,7 +65,7 @@ function bindShell(){
  $('#readerInfoClose')?.addEventListener('click',()=>{$('#readerInfoPanel').hidden=true});
  $('#textSize')?.addEventListener('input',e=>{$('#textContent').style.fontSize=`${e.target.value}px`});
  $('#textSearch')?.addEventListener('click',()=>{const q=prompt('اكتب كلمة أو عبارة للبحث داخل الكتاب:');if(!q)return;const t=$('#textContent').textContent||'',i=t.indexOf(q);if(i<0)return alert('لم يتم العثور على العبارة.');const before=t.slice(Math.max(0,i-180),i),hit=t.slice(i,i+q.length),after=t.slice(i+q.length,i+q.length+260);$('#textExcerpt').innerHTML=`${esc(before)}<mark>${esc(hit)}</mark>${esc(after)}`;$('#textExcerpt').hidden=false});
- $('#textListen')?.addEventListener('click',()=>{const text=$('#textContent').textContent||'';speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text.slice(0,15000));u.lang='ar-SA';speechSynthesis.speak(u)});
+ $('#textListen')?.addEventListener('click',()=>{const text=$('#textContent').textContent||'';speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text.slice(0,15000));u.lang='ar-MA';speechSynthesis.speak(u)});
 }
 bindShell();resolveAndStart();
 })();
