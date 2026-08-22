@@ -1,0 +1,30 @@
+{
+  "schema": "prophet-source-first-fulltext-v1",
+  "policy": "Always search for native digital text before OCR.",
+  "priority": [
+    "epub",
+    "txt",
+    "docx",
+    "doc",
+    "odt",
+    "rtf",
+    "html",
+    "md",
+    "xml",
+    "pdf-with-embedded-text",
+    "pdf-ocr-last-resort"
+  ],
+  "rules": {
+    "ocrMayStartOnlyAfterNativeSearch": true,
+    "nativeSearchMustRecordOutcome": true,
+    "preferCompleteEdition": true,
+    "preferSearchableText": true,
+    "preferUserDriveAssetWhenAvailable": true,
+    "preferVerifiedOpenOnlineAssetOtherwise": true,
+    "neverGenerateMissingHistoricalText": true,
+    "neverExposeFakeReadSearchListenWatch": true
+  },
+  "fullTextTarget": 730,
+  "currentPublicFullTextBaseline": 15,
+  "remainingTarget": 715
+}
