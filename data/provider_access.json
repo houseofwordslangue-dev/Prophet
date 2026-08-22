@@ -1,8 +1,15 @@
 {
-  "schema": "provider-access-v2",
+  "schema": "provider-access-v3-all-listed-archive-resources",
   "governedBy": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
-  "policy": "Every resource with a verified Internet Archive record is published in the bookstore catalogue with no catalogue-level exception. Open/unrestricted copies may use the internal reader. Borrow-only, controlled-lending, login-gated, preview-only, or otherwise provider-restricted records remain published with direct provider access under the provider's actual controls. Publication never implies bypassing access controls or falsely representing restricted material as unrestricted local full text.",
-  "archivePublicationMode": "ALL_ARCHIVE_RECORDS_PUBLICLY_LISTED_NO_CATALOGUE_EXCEPTION",
+  "policy": "Publish all Archive.org resources listed in the site resources list with no exception. Every listed Archive.org resource must be publicly visible in the bookstore/resource catalogue and must expose its verified Archive.org provider access path. No listed Archive.org record may be omitted merely because access is borrow-only, controlled-lending, login-gated, preview-only, stream-only, metadata-only, or otherwise provider-restricted. Access capabilities must remain truthful: provider publication does not imply unrestricted local redistribution, downloadable full text, or bypass of Archive.org controls.",
+  "archivePublicationMode": "ALL_LISTED_ARCHIVE_RESOURCES_PUBLIC_WITH_NO_CATALOGUE_EXCEPTION",
+  "archivePublicationRule": {
+    "publishAllArchiveResourcesListedInSiteResources": true,
+    "allowCatalogueOmission": false,
+    "requireProviderAccessWhenArchiveUrlKnown": true,
+    "preserveProviderRestrictions": true,
+    "neverFakeFullTextCapability": true
+  },
   "autoDiscovery": {
     "enabled": true,
     "sources": [
@@ -10,7 +17,7 @@
       "data/catalogue/chunk-01.json through data/catalogue/chunk-14.json"
     ],
     "providerHost": "archive.org",
-    "rule": "Any catalogue item carrying an archive.org source URL is provider-visible in the bookstore even when it is not manually listed below."
+    "rule": "Any site resource-list item carrying an archive.org URL is provider-visible in the bookstore with no catalogue exception, whether or not it is manually listed below."
   },
   "items": [
     {"catalogueId":"family-companions-029","archiveId":"fp5294_202505","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp5294_202505","accessMode":"external-provider","title":"الاستيعاب في معرفة الأصحاب — ابن عبد البر"},
