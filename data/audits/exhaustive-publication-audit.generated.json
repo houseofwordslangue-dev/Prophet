@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:46:37.949546+00:00",
-  "gitCommit": "b6e64fa8dfe5f88ec0efaefdca8a51825e1c6bd6",
+  "generatedAt": "2026-08-22T02:59:04.259143+00:00",
+  "gitCommit": "330237445319bf3cbd7b80ebf7d09002fc6e7011",
   "github": {
-    "trackedFileCount": 814,
+    "trackedFileCount": 826,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 216,
+      "TECHNICAL_REPOSITORY_FILE": 220,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 51,
-      "PUBLIC_SITE_ASSET": 106,
+      "PUBLIC_SITE_ASSET": 107,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 306
+      "CONTENT_OR_PUBLICATION_REGISTRY": 313
     },
     "files": [
       {
@@ -85,7 +85,7 @@
       },
       {
         "path": ".github/workflows/extend-short-biographies-500.yml",
-        "size": 1835,
+        "size": 2033,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -115,12 +115,17 @@
       },
       {
         "path": ".github/workflows/generate-animated-children-stories.yml",
-        "size": 391,
+        "size": 2616,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
         "path": ".github/workflows/generate-children-5000.yml",
         "size": 363,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".github/workflows/generate-children-images.yml",
+        "size": 1682,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -436,6 +441,11 @@
       {
         "path": "assets/children-animated.js",
         "size": 23090,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
+        "path": "assets/children-chat.css",
+        "size": 2608,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -890,7 +900,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 854853,
+        "size": 856291,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3014,18 +3024,53 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/short-biography-extensions/abdullah-ibn-umar.json",
+        "size": 56725,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short-biography-extensions/abu-hurayra.json",
+        "size": 70660,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short-biography-extensions/abu-ubayda-ibn-al-jarrah.json",
+        "size": 25234,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/short-biography-extensions/ali-ibn-abi-talib.json",
         "size": 5036,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/short-biography-extensions/anas-ibn-malik.json",
+        "size": 15106,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short-biography-extensions/bilal-ibn-rabah.json",
+        "size": 17424,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short-biography-extensions/fatima-al-zahra.json",
+        "size": 19974,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short-biography-extensions/jabir-ibn-abdullah.json",
+        "size": 8876,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/short_biographies_500_audit.json",
-        "size": 69068,
+        "size": 87012,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/editorial/short_biography_extensions.json",
-        "size": 694,
+        "size": 2805,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3839,6 +3884,11 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": "scripts/enrich_short_biographies_siyar_direct.py",
+        "size": 7100,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": "scripts/enrich_short_biographies_wikisource.py",
         "size": 9662,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -3891,6 +3941,16 @@
       {
         "path": "scripts/generate_animated_children_stories.py",
         "size": 25800,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/generate_children_artwork.py",
+        "size": 9527,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/generate_children_images.py",
+        "size": 9320,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
