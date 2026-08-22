@@ -11,9 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 1
-      - name: Remove temporary packaging files
-        run: rm -f .github/workflows/final-review-zip.yml REVIEW-PACKAGE-NOTE.txt REVIEW-PACKAGE-TRIGGER-2.txt
+      - name: Record packaged commit
+        run: git rev-parse HEAD > FINAL-REVIEW-COMMIT.txt
       - name: Create review archive
         run: |
           zip -qr Prophet-final-review.zip . -x '.git/*' -x 'Prophet-final-review.zip'
