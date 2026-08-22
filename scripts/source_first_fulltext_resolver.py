@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
 import json,re,time,urllib.parse,urllib.request
 from pathlib import Path
@@ -9,11 +9,12 @@ CAT=ROOT/'data'/'public_catalog_all.generated.json'
 CAND=ROOT/'private'/'acquisition_candidates.json'
 OVERRIDES=ROOT/'private'/'native_source_overrides.json'
 DRIVE=ROOT/'data'/'drive_native_assets_20260822.json'
+DRIVE_VERIFIED=ROOT/'data'/'drive_verified_assets_20260822.json'
 OUT=ROOT/'private'/'source_first_resolution.json'
 QUEUE=ROOT/'private'/'resource_extraction_queue.json'
 AVAIL=ROOT/'data'/'editorial'/'resource_extraction_availability.json'
 INGESTED=ROOT/'data'/'ingested_library.json'
-UA='ProphetBiographyLibrary/8.1-extraction-first'
+UA='ProphetBiographyLibrary/8.2-extraction-first-drive-verified'
 PRIORITY=['epub','txt','docx','doc','odt','rtf','html','md','xml','pdf']
 ALLOW={'archive.org','www.archive.org','gutenberg.org','www.gutenberg.org','api.github.com','raw.githubusercontent.com','upload.wikimedia.org','commons.wikimedia.org','wikisource.org','en.wikisource.org','fr.wikisource.org','ar.wikisource.org'}
 
@@ -109,11 +110,16 @@ def discover_web(row):
     return found
 
 def drive_map():
-    d=load(DRIVE,{'items':[]});out={}
-    for x in d.get('items',[]):
-        if x.get('derivative'):continue
-        n=normalize(x.get('title'))
-        if n:out.setdefault(n,[]).append({'format':x.get('format','epub'),'driveId':x.get('driveId'),'name':x.get('title'),'size':x.get('size'),'source':'google-drive-native','url':f"https://drive.google.com/file/d/{x.get('driveId')}/view"})
+    out={}
+    for source_file in (DRIVE,DRIVE_VERIFIED):
+        d=load(source_file,{'items':[]})
+        for x in d.get('items',[]):
+            if x.get('derivative'):continue
+            n=normalize(x.get('title'))
+            if not n:continue
+            fmt=str(x.get('format') or 'epub').lower()
+            rec={'format':fmt,'driveId':x.get('driveId'),'name':x.get('title'),'size':x.get('size'),'source':'google-drive-verified' if source_file==DRIVE_VERIFIED else 'google-drive-native','url':f"https://drive.google.com/file/d/{x.get('driveId')}/view",'extractionReady':x.get('extractionReady',True),'extractionMode':x.get('extractionMode','native' if fmt!='pdf' else 'pdf-text-or-ocr')}
+            out.setdefault(n,[]).append(rec)
     return out
 
 def ingested_map():
@@ -139,7 +145,7 @@ def main():
     cat=load(CAT,{'items':[]});cand=load(CAND,{'items':[]});over=load(OVERRIDES,{'items':[]})
     cmap={str(x.get('workId') or x.get('catalogueId') or ''):x for x in cand.get('items',[]) if isinstance(x,dict)}
     omap={str(x.get('workId') or x.get('catalogueId') or ''):x for x in over.get('items',[]) if isinstance(x,dict)}
-    dmap=drive_map();imap=ingested_map();rows=[];native=drive_native=needs_pdf=public_local=remote_extractable=0;queue=[]
+    dmap=drive_map();imap=ingested_map();rows=[];native=drive_native=drive_verified=needs_pdf=public_local=remote_extractable=0;queue=[]
     for x in cat.get('items',[]):
         wid=str(x.get('id') or '');merged=dict(x);merged.update(cmap.get(wid,{}));merged.update(omap.get(wid,{}));found=[]
         found+=match_title_map(x.get('title'),imap);found+=match_title_map(x.get('title'),dmap);found+=discover_web(merged)
@@ -147,15 +153,16 @@ def main():
         if not found and x.get('access')!='PUBLIC_FULL_TEXT':found+=archive_search(str(x.get('title') or ''),str(x.get('author') or ''))
         found=dedup(found);preferred=next((z for z in found if z.get('format')!='pdf'),None)
         if preferred:
-            native+=1;drive_native+=1 if preferred.get('source')=='google-drive-native' else 0;public_local+=1 if preferred.get('source')=='local-ingested' else 0;remote_extractable+=1 if preferred.get('source') in {'arabic-wikisource','archive-metadata','gutenberg','direct','verified-catalog'} else 0;state='EXTRACTION_READY_NATIVE_OR_TEXT'
-        elif found:needs_pdf+=1;preferred=found[0];state='EXTRACTION_READY_PDF_OCR'
+            native+=1;drive_native+=1 if preferred.get('source')=='google-drive-native' else 0;drive_verified+=1 if preferred.get('source')=='google-drive-verified' else 0;public_local+=1 if preferred.get('source')=='local-ingested' else 0;remote_extractable+=1 if preferred.get('source') in {'arabic-wikisource','archive-metadata','gutenberg','direct','verified-catalog'} else 0;state='EXTRACTION_READY_NATIVE_OR_TEXT'
+        elif found:
+            needs_pdf+=1;preferred=found[0];drive_verified+=1 if preferred.get('source')=='google-drive-verified' else 0;state='EXTRACTION_READY_PDF_OCR'
         elif x.get('access')=='PUBLIC_FULL_TEXT' and (x.get('sources') or x.get('formats')):
             preferred={'format':'txt','url':(x.get('sources') or [''])[0],'name':x.get('title'),'source':'public-catalog-fulltext'};state='EXTRACTION_READY_PUBLIC_FULL_TEXT';public_local+=1
         else:
             preferred=None;state='ACQUISITION_REQUIRED';queue.append({'id':wid,'title':x.get('title'),'author':x.get('author'),'reason':'No verified extraction-capable local, Drive, native override, Wikisource, Archive.org, Gutenberg, or catalog fulltext path found.','ocrAllowed':True})
         rows.append({'id':wid,'title':x.get('title'),'author':x.get('author'),'previousAccess':x.get('access'),'state':state,'extractionReady':state.startswith('EXTRACTION_READY'),'preferred':preferred,'candidates':found[:20],'nativeSearchCompleted':True,'ocrAllowed':state in {'EXTRACTION_READY_PDF_OCR','ACQUISITION_REQUIRED'}})
     ready=sum(1 for r in rows if r['extractionReady']);total=len(rows);unavailable=total-ready
-    out={'schema':'source-first-resolution-v4','governedBy':'MASTER_OVERRIDING_INSTRUCTION.md','generatedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'priority':PRIORITY,'catalogResources':total,'extractionReady':ready,'acquisitionRequired':unavailable,'nativeOrTextReady':native,'driveNativeMatched':drive_native,'localIngestedMatched':public_local,'remoteExtractionMatched':remote_extractable,'pdfOcrReady':needs_pdf,'allResourcesExtractionReady':unavailable==0,'items':rows}
-    save(OUT,out);save(QUEUE,{'schema':'resource-extraction-queue-v1','generatedAt':out['generatedAt'],'count':len(queue),'items':queue});save(AVAIL,{'schema':'resource-extraction-availability-v1','generatedAt':out['generatedAt'],'catalogResources':total,'extractionReady':ready,'acquisitionRequired':unavailable,'coveragePercent':round((100*ready/total),2) if total else 100,'allResourcesExtractionReady':unavailable==0,'policy':'Generation may use only resources with extractionReady=true. Missing resources remain queued for acquisition/resolution and never silently count as usable sources.'})
-    print(json.dumps({k:out[k] for k in ('catalogResources','extractionReady','acquisitionRequired','nativeOrTextReady','driveNativeMatched','localIngestedMatched','remoteExtractionMatched','pdfOcrReady','allResourcesExtractionReady')},ensure_ascii=False))
+    out={'schema':'source-first-resolution-v5','governedBy':'MASTER-OVERRIDING-SITE-INSTRUCTION.md','generatedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'priority':PRIORITY,'catalogResources':total,'extractionReady':ready,'acquisitionRequired':unavailable,'nativeOrTextReady':native,'driveNativeMatched':drive_native,'driveVerifiedMatched':drive_verified,'localIngestedMatched':public_local,'remoteExtractionMatched':remote_extractable,'pdfOcrReady':needs_pdf,'allResourcesExtractionReady':unavailable==0,'items':rows}
+    save(OUT,out);save(QUEUE,{'schema':'resource-extraction-queue-v2','generatedAt':out['generatedAt'],'count':len(queue),'items':queue});save(AVAIL,{'schema':'resource-extraction-availability-v2','generatedAt':out['generatedAt'],'catalogResources':total,'extractionReady':ready,'acquisitionRequired':unavailable,'coveragePercent':round((100*ready/total),2) if total else 100,'driveVerifiedMatched':drive_verified,'allResourcesExtractionReady':unavailable==0,'policy':'Generation may use only resources with extractionReady=true. Verified Drive EPUB/PDF/TXT assets are first-class extraction sources; PDFs require text-layer validation or OCR. Missing resources remain queued for acquisition/resolution and never silently count as usable sources.'})
+    print(json.dumps({k:out[k] for k in ('catalogResources','extractionReady','acquisitionRequired','nativeOrTextReady','driveNativeMatched','driveVerifiedMatched','localIngestedMatched','remoteExtractionMatched','pdfOcrReady','allResourcesExtractionReady')},ensure_ascii=False))
 if __name__=='__main__':main()
