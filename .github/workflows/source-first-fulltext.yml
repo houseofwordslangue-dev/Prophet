@@ -8,6 +8,7 @@ on:
       - 'data/drive_native_assets_20260822.json'
       - 'private/acquisition_candidates.json'
       - 'scripts/source_first_fulltext_resolver.py'
+      - 'scripts/discover_native_open_sources.py'
       - 'scripts/acquire_unrestricted_library.py'
       - 'scripts/promote_verified_catalogue_candidates.py'
       - 'scripts/reconcile_fulltext_catalog.py'
@@ -33,8 +34,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Search native digital formats before OCR
+      - name: Search known EPUB text Word and other native formats before OCR
         run: python scripts/source_first_fulltext_resolver.py
+      - name: Deep-search open native editions before OCR
+        continue-on-error: true
+        run: python scripts/discover_native_open_sources.py --limit 80
       - name: Promote verified native sources with EPUB text Word priority
         continue-on-error: true
         run: python scripts/promote_verified_catalogue_candidates.py --limit 150
@@ -51,7 +55,7 @@ jobs:
         run: |
           git config user.name 'prophet-source-first-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add -- private/source_first_resolution.json private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json data/public_catalog_all.generated.json data/audits/exhaustive-publication-audit-current.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
+          git add -- private/source_first_resolution.json private/native_discovery_state.json private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json data/public_catalog_all.generated.json data/audits/exhaustive-publication-audit-current.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
           if ! git diff --cached --quiet; then
             git commit -m 'Enable newly verified source-first full text'
             git push
