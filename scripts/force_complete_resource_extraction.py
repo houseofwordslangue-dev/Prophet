@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
-# FORCE_RESOLUTION_TRIGGER: 2026-08-22T05:53Z — explicit full-catalogue retry requested by admin.
+# FORCE_RESOLUTION_TRIGGER: 2026-08-22T05:54Z — maximum-priority full-catalogue retry requested by admin.
 from __future__ import annotations
 import json, subprocess, sys, time
 from pathlib import Path
@@ -9,7 +9,9 @@ ROOT = Path(__file__).resolve().parents[1]
 AVAIL = ROOT / 'data/editorial/resource_extraction_availability.json'
 OUT = ROOT / 'data/editorial/resource_extraction_force_report.json'
 RESOLUTION = ROOT / 'private/source_first_resolution.json'
-MAX_ROUNDS = 12
+MAX_ROUNDS = 30
+ACQUISITION_BATCH = '1000'
+STABLE_ROUNDS_BEFORE_STOP = 6
 
 
 def load(path, default):
@@ -24,8 +26,8 @@ def run(label, args):
     return {
         'label': label,
         'returnCode': p.returncode,
-        'stdoutTail': (p.stdout or '')[-4000:],
-        'stderrTail': (p.stderr or '')[-4000:],
+        'stdoutTail': (p.stdout or '')[-6000:],
+        'stderrTail': (p.stderr or '')[-6000:],
     }
 
 
@@ -51,14 +53,14 @@ def main():
     previous_ready = -1
     stable_rounds = 0
 
-    # Exhaustive, parallel, identity-checked resolution pass against the full catalogue.
     exhaustive = py('force_resolve_unresolved_content.py')
 
     for n in range(1, MAX_ROUNDS + 1):
         steps = [
             py('source_first_fulltext_resolver.py'),
             py('live_native_catalog_resolver.py'),
-            py('acquire_unrestricted_library.py', '--limit', '500'),
+            py('force_resolve_unresolved_content.py'),
+            py('acquire_unrestricted_library.py', '--limit', ACQUISITION_BATCH),
             py('build_ingested_library.py'),
             py('source_first_fulltext_resolver.py'),
             py('force_resolve_unresolved_content.py'),
@@ -71,9 +73,8 @@ def main():
         else:
             stable_rounds = 0
         previous_ready = ready
-        if s['acquisitionRequired'] == 0 or stable_rounds >= 3:
+        if s['acquisitionRequired'] == 0 or stable_rounds >= STABLE_ROUNDS_BEFORE_STOP:
             break
-        time.sleep(1)
 
     final = snapshot()
     resolution = load(RESOLUTION, {'items': []})
@@ -83,17 +84,20 @@ def main():
         'title': x.get('title'),
         'author': x.get('author'),
         'state': 'RESEARCH_REQUIRED',
-        'reason': 'No verified extraction path after exhaustive current resolver/acquisition rounds.',
+        'reason': 'No verified extraction path after maximum-priority exhaustive resolver/acquisition rounds.',
         'generationAllowed': False,
         'catalogueVisible': True,
         'retryOnNewSource': True,
     } for x in unresolved]
 
     report = {
-        'schema': 'resource-extraction-force-report-v4',
+        'schema': 'resource-extraction-force-report-v5',
         'governedBy': 'MASTER-OVERRIDING-SITE-INSTRUCTION.md',
         'generatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'forceCompleteStateMachine': True,
+        'priorityMode': 'MAXIMUM_ASAP',
+        'maxRounds': MAX_ROUNDS,
+        'acquisitionBatch': int(ACQUISITION_BATCH),
         'exhaustiveResolver': exhaustive,
         'catalogResources': final['catalogResources'],
         'extractionReady': final['extractionReady'],
