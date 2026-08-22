@@ -1,0 +1,17 @@
+{
+  "schema": "provider-access-v1",
+  "governedBy": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
+  "policy": "Relevant verified resources remain publicly catalogued even when access is borrow-only, controlled-lending, login-gated, preview-only, or otherwise provider-restricted. A provider URL permits only lawful external access and never implies local redistribution, unrestricted full text, or bypass of provider controls.",
+  "items": [
+    {"catalogueId":"family-companions-029","archiveId":"fp5294_202505","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp5294_202505","accessMode":"external-provider","title":"الاستيعاب في معرفة الأصحاب — ابن عبد البر"},
+    {"catalogueId":"family-companions-031","archiveId":"fp37408_202504","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp37408_202504","accessMode":"external-provider","title":"معرفة الصحابة — أبو نعيم الأصبهاني"},
+    {"catalogueId":"family-companions-010","archiveId":"FP26057","provider":"Internet Archive","providerUrl":"https://archive.org/details/FP26057","accessMode":"external-provider","title":"خصائص أمير المؤمنين علي بن أبي طالب — النسائي"},
+    {"catalogueId":"family-companions-006","archiveId":"FP17105","provider":"Internet Archive","providerUrl":"https://archive.org/details/FP17105","accessMode":"external-provider","title":"الرياض النضرة في مناقب العشرة — محب الدين الطبري"},
+    {"catalogueId":"life-seerah-009","archiveId":"FP100511","provider":"Internet Archive","providerUrl":"https://archive.org/details/FP100511","accessMode":"external-provider","title":"دلائل النبوة ومعرفة أحوال صاحب الشريعة — البيهقي"},
+    {"catalogueId":"teachings-wisdom-012","archiveId":"3840waq","provider":"Internet Archive","providerUrl":"https://archive.org/details/3840waq","accessMode":"external-provider","title":"الشمائل المحمدية — الترمذي"},
+    {"catalogueId":"life-seerah-018","archiveId":"FPoafmssoafmss","provider":"Internet Archive","providerUrl":"https://archive.org/details/FPoafmssoafmss","accessMode":"external-provider","title":"عيون الأثر في فنون المغازي والشمائل والسير — ابن سيد الناس"},
+    {"catalogueId":"life-seerah-020","archiveId":"fp9583_202507","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp9583_202507","accessMode":"external-provider","title":"الوفا بأحوال المصطفى — ابن الجوزي"},
+    {"catalogueId":"life-seerah-024","archiveId":"waq9670","provider":"Internet Archive","providerUrl":"https://archive.org/details/waq9670","accessMode":"external-provider","title":"الخصائص الكبرى — السيوطي"},
+    {"catalogueId":"life-seerah-033","archiveId":"fp37672_202501","provider":"Internet Archive","providerUrl":"https://archive.org/details/fp37672_202501","accessMode":"external-provider","title":"زاد المعاد في هدي خير العباد — ابن قيم الجوزية"}
+  ]
+}
