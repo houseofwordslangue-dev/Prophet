@@ -1,0 +1,56 @@
+name: Resolve native-readable resource gaps
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/live_native_catalog_resolver.py'
+      - '.github/workflows/resolve-native-gaps.yml'
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prophet-live-native-resolution
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Search live public catalogs for native-readable copies
+        run: python scripts/live_native_catalog_resolver.py
+
+      - name: Re-run source-first resolver with newly discovered candidates
+        run: python scripts/source_first_fulltext_resolver.py
+
+      - name: Acquire resolved native-readable books
+        continue-on-error: true
+        run: python scripts/acquire_unrestricted_library.py --limit 80
+
+      - name: Rebuild cumulative library index
+        continue-on-error: true
+        run: python scripts/build_ingested_library.py
+
+      - name: Commit resolution and acquisition progress
+        run: |
+          git config user.name 'prophet-native-resolution-bot'
+          git config user.email 'prophet-native-resolution-bot@users.noreply.github.com'
+          git add -- private/acquisition_candidates.json private/live_native_catalog_resolution.json private/source_first_resolution.json private/acquisition_state.json data/ingested_library.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Resolve additional native-readable resource gaps"
+            git pull --rebase origin main
+            git push origin main
+          fi
