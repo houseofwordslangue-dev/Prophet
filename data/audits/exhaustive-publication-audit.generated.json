@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:31:24.841956+00:00",
-  "gitCommit": "b4032914bfa90bbfee7ab911826b3f2dcf0c48cd",
+  "generatedAt": "2026-08-22T01:32:05.284712+00:00",
+  "gitCommit": "29830f332d667157240414267fdd66e9be987c5c",
   "github": {
     "trackedFileCount": 776,
     "fileDispositionCounts": {
@@ -60,7 +60,7 @@
       },
       {
         "path": ".github/workflows/editorial-autopublish.yml",
-        "size": 5410,
+        "size": 6263,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -480,7 +480,7 @@
       },
       {
         "path": "assets/generation-people.js",
-        "size": 5866,
+        "size": 6002,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -775,7 +775,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 848399,
+        "size": 848405,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2785,7 +2785,7 @@
       },
       {
         "path": "data/editorial/global_biography_placement_audit.json",
-        "size": 24114,
+        "size": 24325,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2810,7 +2810,7 @@
       },
       {
         "path": "data/editorial/person_life_relocation_audit.json",
-        "size": 21935,
+        "size": 22146,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3325,7 +3325,7 @@
       },
       {
         "path": "people.html",
-        "size": 2245,
+        "size": 2839,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
