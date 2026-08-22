@@ -1,0 +1,76 @@
+{
+  "schema": "short-biography-source-extension-v2",
+  "generatedAt": "2026-08-22T02:42:00.357461Z",
+  "personId": "ali-ibn-abi-talib",
+  "personNameAr": "علي بن أبي طالب",
+  "targetWords": 500,
+  "policy": "Readable, direct, person-owned, source-backed Arabic only; no documentary-context padding and no invented factual fill-in.",
+  "beforeWords": 340,
+  "addedWords": 230,
+  "finalWords": 570,
+  "status": "EXTENDED_TO_500",
+  "passages": [
+    {
+      "text": "إلاأن يمأهداعيى 5 ا م ا ران حيةن امد 0 / ,فضله نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١",
+      "wordCount": 115,
+      "kind": "source-owned-direct-extract",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-01.json",
+        "recordId": "20260821-ali-source-0002",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0002",
+        "source": null,
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0002-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-91–F-1-92",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.91",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ],
+        "references": null,
+        "provenance": null
+      }
+    },
+    {
+      "text": "نضير ومالدق, ذا كتبوه و ْ ار -- إل حية: ها القنتا2[ يمكزين مرا ذكرماتجرى إلى آخرالميرٌ | 5 0 5 6 (أمها) ناطمة ويا ُ) 5 2 قمر ل 'تزال مدامعى ه لدى ذكرهانجرى [| 7 || الرحة والففران اه ١ عأ رجية 0 2 2 0 2 0 - مناقبالسيدةزينب بنت الإمام علي كرم الله و. تهعنهم (تزوجها) ابنعمهاعبداقه احتضر قال لآاخيه ! ا 2 4 0 0 عظ القدر ا( سل وذ كه 2 335 يتين والنين رفت 0 وعباساوحدار مكاتوم الحسينياأخى أو صيك ! ا 3 واولاعافة التطر 0 مال 0 رجوئاة ك9 3 0 - 0 ا ١ وه وال سوقم رسي و ار لغرشرمناا راض وترك | ابنجفر رضي",
+      "wordCount": 115,
+      "kind": "source-owned-direct-extract",
+      "source": {
+        "repositoryPath": "data/editorial/drafts/2026-08-21/ali-batch-01.json",
+        "recordId": "20260821-ali-source-0003",
+        "recordTitle": "سيدنا علي بن أبي طالب — مادة مصدرية موثقة 0003",
+        "source": null,
+        "sources": [
+          {
+            "ref": "20260821-ali-source-0003-qdl-source",
+            "title": "نور الأبصار في مناقب آل بيت النبي المختار",
+            "author": "مؤمن بن حسن مؤمن الشبلنجي",
+            "record": "Qatar National Library 12969",
+            "recordUrl": "https://www.qdl.qa/en/archive/qnlhc/12969",
+            "manifestUrl": "https://www.qdl.qa/en/iiif/qnlhc/12969/manifest (page IDs resolved from the public record)",
+            "date": "1873/1877",
+            "language": "ar",
+            "rights": "Public Domain",
+            "rightsEvidence": "Qatar Digital Library record 12969 explicitly states Usage terms: Public Domain.",
+            "pages": "F-1-91–F-1-92",
+            "originalUrl": "https://www.qdl.qa/en/archive/qnlhc/12969.91",
+            "verifiedAgainstOriginal": true,
+            "verificationBasis": "OCR extracted directly from the public-domain QDL IIIF scan; source word order preserved."
+          }
+        ],
+        "references": null,
+        "provenance": null
+      }
+    }
+  ]
+}

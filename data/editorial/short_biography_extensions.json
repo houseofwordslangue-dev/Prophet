@@ -1,12 +1,24 @@
 {
-  "schema": "short-biography-source-extension-index-v1",
-  "generatedAt": "2026-08-22T02:39:33.318302Z",
+  "schema": "short-biography-source-extension-index-v2",
+  "generatedAt": "2026-08-22T02:42:00.358094Z",
   "targetWords": 500,
   "policy": {
     "directPersonOwnershipOnly": true,
     "sourceBackedOnly": true,
+    "readableArabicOnly": true,
+    "collapsedOcrRejected": true,
     "documentaryContextCountsTowardTarget": false,
     "inventedFactualFillIn": false
   },
-  "people": {}
+  "people": {
+    "ali-ibn-abi-talib": {
+      "id": "ali-ibn-abi-talib",
+      "nameAr": "علي بن أبي طالب",
+      "beforeWords": 340,
+      "addedWords": 230,
+      "finalWords": 570,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/ali-ibn-abi-talib.json"
+    }
+  }
 }

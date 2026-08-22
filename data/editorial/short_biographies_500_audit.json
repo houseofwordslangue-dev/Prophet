@@ -1,12 +1,13 @@
 {
-  "schema": "short-biographies-500-audit-v1",
-  "generatedAt": "2026-08-22T02:39:33.318454Z",
+  "schema": "short-biographies-500-audit-v2",
+  "generatedAt": "2026-08-22T02:42:00.358274Z",
   "targetWords": 500,
-  "indexedPeople": 379,
-  "below500Before": 263,
-  "extendedTo500": 0,
-  "sourceLimitedAfter": 263,
-  "addedSourceWords": 0,
+  "indexedPeople": 514,
+  "below500Before": 362,
+  "extendedTo500": 1,
+  "sourceLimitedAfter": 361,
+  "addedSourceWords": 230,
+  "rejectedUnreadableExistingOcrPassages": 17,
   "residualUnder500": [
     {
       "id": "abdullah-ibn-umar",
@@ -2073,6 +2074,790 @@
       "missingWords": 500
     },
     {
+      "id": "siyar-04f9e317c939a0",
+      "nameAr": "إبراهيم بن الوليد",
+      "beforeWords": 251,
+      "addedWords": 0,
+      "finalWords": 251,
+      "missingWords": 249
+    },
+    {
+      "id": "siyar-05cfaae5380457",
+      "nameAr": "النعمان بن مقرن",
+      "beforeWords": 404,
+      "addedWords": 0,
+      "finalWords": 404,
+      "missingWords": 96
+    },
+    {
+      "id": "siyar-08b3b7632a671f",
+      "nameAr": "القاسم بن عبد الرحمن الكوفي",
+      "beforeWords": 125,
+      "addedWords": 0,
+      "finalWords": 125,
+      "missingWords": 375
+    },
+    {
+      "id": "siyar-099f0304de00f1",
+      "nameAr": "ابن عبد الله بن سعد",
+      "beforeWords": 428,
+      "addedWords": 0,
+      "finalWords": 428,
+      "missingWords": 72
+    },
+    {
+      "id": "siyar-0f41cd233d1228",
+      "nameAr": "ابن الغسيل",
+      "beforeWords": 194,
+      "addedWords": 0,
+      "finalWords": 194,
+      "missingWords": 306
+    },
+    {
+      "id": "siyar-113a0d727d14a2",
+      "nameAr": "عبد الله بن يزيد",
+      "beforeWords": 170,
+      "addedWords": 0,
+      "finalWords": 170,
+      "missingWords": 330
+    },
+    {
+      "id": "siyar-11cc14f9fff4d1",
+      "nameAr": "أبو بكر بن محمد بن عمرو",
+      "beforeWords": 191,
+      "addedWords": 0,
+      "finalWords": 191,
+      "missingWords": 309
+    },
+    {
+      "id": "siyar-13cbe81ffcd263",
+      "nameAr": "أبو إسحاق الشيباني",
+      "beforeWords": 486,
+      "addedWords": 0,
+      "finalWords": 486,
+      "missingWords": 14
+    },
+    {
+      "id": "siyar-15227424bae8b7",
+      "nameAr": "أبو أسماء الرحبي",
+      "beforeWords": 123,
+      "addedWords": 0,
+      "finalWords": 123,
+      "missingWords": 377
+    },
+    {
+      "id": "siyar-171d97e4e4b731",
+      "nameAr": "الوحاظي",
+      "beforeWords": 421,
+      "addedWords": 0,
+      "finalWords": 421,
+      "missingWords": 79
+    },
+    {
+      "id": "siyar-1a662c18a744ee",
+      "nameAr": "أبو أحمد المؤدب",
+      "beforeWords": 140,
+      "addedWords": 0,
+      "finalWords": 140,
+      "missingWords": 360
+    },
+    {
+      "id": "siyar-1e76fa2844f1c6",
+      "nameAr": "أبان بن عثمان",
+      "beforeWords": 241,
+      "addedWords": 0,
+      "finalWords": 241,
+      "missingWords": 259
+    },
+    {
+      "id": "siyar-279b8d8836fc3a",
+      "nameAr": "مطر الوراق",
+      "beforeWords": 197,
+      "addedWords": 0,
+      "finalWords": 197,
+      "missingWords": 303
+    },
+    {
+      "id": "siyar-2c3d3cf396995d",
+      "nameAr": "أبو خالد الفراء",
+      "beforeWords": 205,
+      "addedWords": 0,
+      "finalWords": 205,
+      "missingWords": 295
+    },
+    {
+      "id": "siyar-326f82ef430946",
+      "nameAr": "أبو حذيفة إسحاق بن بشر",
+      "beforeWords": 216,
+      "addedWords": 0,
+      "finalWords": 216,
+      "missingWords": 284
+    },
+    {
+      "id": "siyar-3547adc973ce72",
+      "nameAr": "أبان",
+      "beforeWords": 201,
+      "addedWords": 0,
+      "finalWords": 201,
+      "missingWords": 299
+    },
+    {
+      "id": "siyar-35b27fbf5cb2e8",
+      "nameAr": "أبو أسامة",
+      "beforeWords": 462,
+      "addedWords": 0,
+      "finalWords": 462,
+      "missingWords": 38
+    },
+    {
+      "id": "siyar-38daad2c849c16",
+      "nameAr": "أبو الهذيل العلاف",
+      "beforeWords": 159,
+      "addedWords": 0,
+      "finalWords": 159,
+      "missingWords": 341
+    },
+    {
+      "id": "siyar-394c0cad6387cd",
+      "nameAr": "ابن الماجشون",
+      "beforeWords": 194,
+      "addedWords": 0,
+      "finalWords": 194,
+      "missingWords": 306
+    },
+    {
+      "id": "siyar-3b14990986ac21",
+      "nameAr": "ابن الأشعث",
+      "beforeWords": 298,
+      "addedWords": 0,
+      "finalWords": 298,
+      "missingWords": 202
+    },
+    {
+      "id": "siyar-3dcd087f4a8fda",
+      "nameAr": "أبو بردة بن أبي موسى",
+      "beforeWords": 373,
+      "addedWords": 0,
+      "finalWords": 373,
+      "missingWords": 127
+    },
+    {
+      "id": "siyar-3f698ce1e124c3",
+      "nameAr": "أبان بن صمعة",
+      "beforeWords": 133,
+      "addedWords": 0,
+      "finalWords": 133,
+      "missingWords": 367
+    },
+    {
+      "id": "siyar-402c4ee7c95f78",
+      "nameAr": "أبو الأحوص",
+      "beforeWords": 422,
+      "addedWords": 0,
+      "finalWords": 422,
+      "missingWords": 78
+    },
+    {
+      "id": "siyar-49838a4529f16b",
+      "nameAr": "ابن أبي الزناد",
+      "beforeWords": 367,
+      "addedWords": 0,
+      "finalWords": 367,
+      "missingWords": 133
+    },
+    {
+      "id": "siyar-4ca87676cb4fc7",
+      "nameAr": "يزيد بن الوليد",
+      "beforeWords": 472,
+      "addedWords": 0,
+      "finalWords": 472,
+      "missingWords": 28
+    },
+    {
+      "id": "siyar-4dad92e99544d1",
+      "nameAr": "أبو أيوب المورياني",
+      "beforeWords": 129,
+      "addedWords": 0,
+      "finalWords": 129,
+      "missingWords": 371
+    },
+    {
+      "id": "siyar-4e0eb32c7c735b",
+      "nameAr": "أبو الجوزاء",
+      "beforeWords": 128,
+      "addedWords": 0,
+      "finalWords": 128,
+      "missingWords": 372
+    },
+    {
+      "id": "siyar-4e418af58e3ad1",
+      "nameAr": "أبو دلف",
+      "beforeWords": 144,
+      "addedWords": 0,
+      "finalWords": 144,
+      "missingWords": 356
+    },
+    {
+      "id": "siyar-5283ac067ad346",
+      "nameAr": "ابن الطباع",
+      "beforeWords": 377,
+      "addedWords": 0,
+      "finalWords": 377,
+      "missingWords": 123
+    },
+    {
+      "id": "siyar-52af6293c7ffbb",
+      "nameAr": "أبو توبة الحلبي",
+      "beforeWords": 207,
+      "addedWords": 0,
+      "finalWords": 207,
+      "missingWords": 293
+    },
+    {
+      "id": "siyar-551c36999c9cd5",
+      "nameAr": "ابن أبي فديك",
+      "beforeWords": 145,
+      "addedWords": 0,
+      "finalWords": 145,
+      "missingWords": 355
+    },
+    {
+      "id": "siyar-5abca776b74a77",
+      "nameAr": "أبو شهاب",
+      "beforeWords": 128,
+      "addedWords": 0,
+      "finalWords": 128,
+      "missingWords": 372
+    },
+    {
+      "id": "siyar-5b33711ef05ea2",
+      "nameAr": "أبو بلال الأشعري",
+      "beforeWords": 130,
+      "addedWords": 0,
+      "finalWords": 130,
+      "missingWords": 370
+    },
+    {
+      "id": "siyar-5ceb9752ef1812",
+      "nameAr": "أبو المعتمر",
+      "beforeWords": 136,
+      "addedWords": 0,
+      "finalWords": 136,
+      "missingWords": 364
+    },
+    {
+      "id": "siyar-5dca156a370ac0",
+      "nameAr": "أبو سنان البرجمي",
+      "beforeWords": 144,
+      "addedWords": 0,
+      "finalWords": 144,
+      "missingWords": 356
+    },
+    {
+      "id": "siyar-5f35613b3e5c95",
+      "nameAr": "أبو الزاهرية",
+      "beforeWords": 132,
+      "addedWords": 0,
+      "finalWords": 132,
+      "missingWords": 368
+    },
+    {
+      "id": "siyar-613fbfa6f50a88",
+      "nameAr": "أبو الشعثاء جابر بن زيد",
+      "beforeWords": 190,
+      "addedWords": 0,
+      "finalWords": 190,
+      "missingWords": 310
+    },
+    {
+      "id": "siyar-616fff7b30c066",
+      "nameAr": "إبراهيم بن ميسرة",
+      "beforeWords": 126,
+      "addedWords": 0,
+      "finalWords": 126,
+      "missingWords": 374
+    },
+    {
+      "id": "siyar-61e84dddfd0958",
+      "nameAr": "حجاج بن محمد",
+      "beforeWords": 404,
+      "addedWords": 0,
+      "finalWords": 404,
+      "missingWords": 96
+    },
+    {
+      "id": "siyar-63d0ce76b60653",
+      "nameAr": "أبو الجهم",
+      "beforeWords": 197,
+      "addedWords": 0,
+      "finalWords": 197,
+      "missingWords": 303
+    },
+    {
+      "id": "siyar-650833749a0609",
+      "nameAr": "أبو بكر النهشلي",
+      "beforeWords": 144,
+      "addedWords": 0,
+      "finalWords": 144,
+      "missingWords": 356
+    },
+    {
+      "id": "siyar-6527cd1a23c123",
+      "nameAr": "ابن سماعة",
+      "beforeWords": 123,
+      "addedWords": 0,
+      "finalWords": 123,
+      "missingWords": 377
+    },
+    {
+      "id": "siyar-67041a3a9f522a",
+      "nameAr": "أبو جعفر الرازي",
+      "beforeWords": 315,
+      "addedWords": 0,
+      "finalWords": 315,
+      "missingWords": 185
+    },
+    {
+      "id": "siyar-672990ff13d0fc",
+      "nameAr": "أبو ضمرة",
+      "beforeWords": 185,
+      "addedWords": 0,
+      "finalWords": 185,
+      "missingWords": 315
+    },
+    {
+      "id": "siyar-6834ddcfe7dc11",
+      "nameAr": "عبد الكريم بن مالك",
+      "beforeWords": 382,
+      "addedWords": 0,
+      "finalWords": 382,
+      "missingWords": 118
+    },
+    {
+      "id": "siyar-685fbb260c411a",
+      "nameAr": "أبو خالد الأحمر",
+      "beforeWords": 195,
+      "addedWords": 0,
+      "finalWords": 195,
+      "missingWords": 305
+    },
+    {
+      "id": "siyar-69e282ec9ed6eb",
+      "nameAr": "ابن مغراء",
+      "beforeWords": 126,
+      "addedWords": 0,
+      "finalWords": 126,
+      "missingWords": 374
+    },
+    {
+      "id": "siyar-6ae87d2827fea2",
+      "nameAr": "أبان بن تغلب",
+      "beforeWords": 168,
+      "addedWords": 0,
+      "finalWords": 168,
+      "missingWords": 332
+    },
+    {
+      "id": "siyar-6ec5785f4c1370",
+      "nameAr": "عبد الملك بن مسلمة",
+      "beforeWords": 137,
+      "addedWords": 0,
+      "finalWords": 137,
+      "missingWords": 363
+    },
+    {
+      "id": "siyar-799711959ab5cb",
+      "nameAr": "سيار بن وردان",
+      "beforeWords": 135,
+      "addedWords": 0,
+      "finalWords": 135,
+      "missingWords": 365
+    },
+    {
+      "id": "siyar-7bf1d96e9fdb50",
+      "nameAr": "أبو بردة",
+      "beforeWords": 432,
+      "addedWords": 0,
+      "finalWords": 432,
+      "missingWords": 68
+    },
+    {
+      "id": "siyar-7cd614e5b8c7c8",
+      "nameAr": "أبو المغيرة",
+      "beforeWords": 189,
+      "addedWords": 0,
+      "finalWords": 189,
+      "missingWords": 311
+    },
+    {
+      "id": "siyar-804b1ca870305c",
+      "nameAr": "إبراهيم بن صالح بن علي بن عبد الله",
+      "beforeWords": 167,
+      "addedWords": 0,
+      "finalWords": 167,
+      "missingWords": 333
+    },
+    {
+      "id": "siyar-823125047477b2",
+      "nameAr": "أبو حمزة السكري",
+      "beforeWords": 392,
+      "addedWords": 0,
+      "finalWords": 392,
+      "missingWords": 108
+    },
+    {
+      "id": "siyar-85413cbc24e4a2",
+      "nameAr": "ابن هبيرة",
+      "beforeWords": 171,
+      "addedWords": 0,
+      "finalWords": 171,
+      "missingWords": 329
+    },
+    {
+      "id": "siyar-8718c62c55cc3b",
+      "nameAr": "أبو تميم الجيشاني",
+      "beforeWords": 125,
+      "addedWords": 0,
+      "finalWords": 125,
+      "missingWords": 375
+    },
+    {
+      "id": "siyar-89c320bc5c9713",
+      "nameAr": "أشعث بن عبد الملك",
+      "beforeWords": 438,
+      "addedWords": 0,
+      "finalWords": 438,
+      "missingWords": 62
+    },
+    {
+      "id": "siyar-8a0887f314382f",
+      "nameAr": "أبو زيد",
+      "beforeWords": 130,
+      "addedWords": 0,
+      "finalWords": 130,
+      "missingWords": 370
+    },
+    {
+      "id": "siyar-8cd695db871c17",
+      "nameAr": "إبراهيم بن يزيد التيمي",
+      "beforeWords": 319,
+      "addedWords": 0,
+      "finalWords": 319,
+      "missingWords": 181
+    },
+    {
+      "id": "siyar-930393b054e126",
+      "nameAr": "كريب ابن أبي مسلم",
+      "beforeWords": 174,
+      "addedWords": 0,
+      "finalWords": 174,
+      "missingWords": 326
+    },
+    {
+      "id": "siyar-964281e803b219",
+      "nameAr": "أبو الغصن",
+      "beforeWords": 152,
+      "addedWords": 0,
+      "finalWords": 152,
+      "missingWords": 348
+    },
+    {
+      "id": "siyar-9b5c9098f06028",
+      "nameAr": "أبو أحمد الزبيري",
+      "beforeWords": 453,
+      "addedWords": 0,
+      "finalWords": 453,
+      "missingWords": 47
+    },
+    {
+      "id": "siyar-a0219da81022f1",
+      "nameAr": "أسلم مولى عمر",
+      "beforeWords": 444,
+      "addedWords": 0,
+      "finalWords": 444,
+      "missingWords": 56
+    },
+    {
+      "id": "siyar-a160045174d2f3",
+      "nameAr": "ابن أبي المهاجر",
+      "beforeWords": 140,
+      "addedWords": 0,
+      "finalWords": 140,
+      "missingWords": 360
+    },
+    {
+      "id": "siyar-a4f214d408d76b",
+      "nameAr": "الجريري",
+      "beforeWords": 285,
+      "addedWords": 0,
+      "finalWords": 285,
+      "missingWords": 215
+    },
+    {
+      "id": "siyar-aacc75acd8d472",
+      "nameAr": "ابن أبي مريم",
+      "beforeWords": 201,
+      "addedWords": 0,
+      "finalWords": 201,
+      "missingWords": 299
+    },
+    {
+      "id": "siyar-abe7640be1cbef",
+      "nameAr": "إبراهيم بن أبي عبلة",
+      "beforeWords": 404,
+      "addedWords": 0,
+      "finalWords": 404,
+      "missingWords": 96
+    },
+    {
+      "id": "siyar-ac55124c4c900a",
+      "nameAr": "أبو شجاع القتباني",
+      "beforeWords": 124,
+      "addedWords": 0,
+      "finalWords": 124,
+      "missingWords": 376
+    },
+    {
+      "id": "siyar-b180f4f0cd9e2d",
+      "nameAr": "عكرمة بن أبي جهل",
+      "beforeWords": 168,
+      "addedWords": 0,
+      "finalWords": 168,
+      "missingWords": 332
+    },
+    {
+      "id": "siyar-b3f2697e318232",
+      "nameAr": "أبو العتاهية",
+      "beforeWords": 318,
+      "addedWords": 0,
+      "finalWords": 318,
+      "missingWords": 182
+    },
+    {
+      "id": "siyar-baedc8630f3e40",
+      "nameAr": "أبو زكير",
+      "beforeWords": 317,
+      "addedWords": 0,
+      "finalWords": 317,
+      "missingWords": 183
+    },
+    {
+      "id": "siyar-bc83e05da1aec0",
+      "nameAr": "زائدة",
+      "beforeWords": 475,
+      "addedWords": 0,
+      "finalWords": 475,
+      "missingWords": 25
+    },
+    {
+      "id": "siyar-be55cf3bc9312e",
+      "nameAr": "الحسن بن الحر",
+      "beforeWords": 189,
+      "addedWords": 0,
+      "finalWords": 189,
+      "missingWords": 311
+    },
+    {
+      "id": "siyar-c23090af64680b",
+      "nameAr": "ابن السماك",
+      "beforeWords": 383,
+      "addedWords": 0,
+      "finalWords": 383,
+      "missingWords": 117
+    },
+    {
+      "id": "siyar-c657dc0ca76196",
+      "nameAr": "ابن أبي الأسود",
+      "beforeWords": 159,
+      "addedWords": 0,
+      "finalWords": 159,
+      "missingWords": 341
+    },
+    {
+      "id": "siyar-c6f96f2ab91fa5",
+      "nameAr": "ابن هرمز",
+      "beforeWords": 193,
+      "addedWords": 0,
+      "finalWords": 193,
+      "missingWords": 307
+    },
+    {
+      "id": "siyar-cc630cd5d3df01",
+      "nameAr": "ابن أم برثن",
+      "beforeWords": 208,
+      "addedWords": 0,
+      "finalWords": 208,
+      "missingWords": 292
+    },
+    {
+      "id": "siyar-cd46ef15642968",
+      "nameAr": "ابن أبي سمينة",
+      "beforeWords": 175,
+      "addedWords": 0,
+      "finalWords": 175,
+      "missingWords": 325
+    },
+    {
+      "id": "siyar-ced52a0474994b",
+      "nameAr": "ابن أبي مليكة",
+      "beforeWords": 370,
+      "addedWords": 0,
+      "finalWords": 370,
+      "missingWords": 130
+    },
+    {
+      "id": "siyar-cf8e3bd27324dc",
+      "nameAr": "أبو الأشعث الصنعاني",
+      "beforeWords": 168,
+      "addedWords": 0,
+      "finalWords": 168,
+      "missingWords": 332
+    },
+    {
+      "id": "siyar-d3c6441d091d40",
+      "nameAr": "إسحاق بن الفرات",
+      "beforeWords": 245,
+      "addedWords": 0,
+      "finalWords": 245,
+      "missingWords": 255
+    },
+    {
+      "id": "siyar-d7023abf43bbab",
+      "nameAr": "أبو صالح السمان",
+      "beforeWords": 201,
+      "addedWords": 0,
+      "finalWords": 201,
+      "missingWords": 299
+    },
+    {
+      "id": "siyar-d85cb984a2787f",
+      "nameAr": "أشعث بن عبد الله الأزدي",
+      "beforeWords": 142,
+      "addedWords": 0,
+      "finalWords": 142,
+      "missingWords": 358
+    },
+    {
+      "id": "siyar-dae680d82f9e82",
+      "nameAr": "أبو الجماهر",
+      "beforeWords": 174,
+      "addedWords": 0,
+      "finalWords": 174,
+      "missingWords": 326
+    },
+    {
+      "id": "siyar-dfbb2c5b41017d",
+      "nameAr": "إبراهيم بن المنذر",
+      "beforeWords": 449,
+      "addedWords": 0,
+      "finalWords": 449,
+      "missingWords": 51
+    },
+    {
+      "id": "siyar-e569188959ebba",
+      "nameAr": "ابن عقيل",
+      "beforeWords": 171,
+      "addedWords": 0,
+      "finalWords": 171,
+      "missingWords": 329
+    },
+    {
+      "id": "siyar-e5c031400b268c",
+      "nameAr": "علي بن عبد الله بن العباس",
+      "beforeWords": 222,
+      "addedWords": 0,
+      "finalWords": 222,
+      "missingWords": 278
+    },
+    {
+      "id": "siyar-e5f1b0df19c890",
+      "nameAr": "أبو جعفر القارىء",
+      "beforeWords": 366,
+      "addedWords": 0,
+      "finalWords": 366,
+      "missingWords": 134
+    },
+    {
+      "id": "siyar-ea955eccaac101",
+      "nameAr": "ابن كناسة",
+      "beforeWords": 318,
+      "addedWords": 0,
+      "finalWords": 318,
+      "missingWords": 182
+    },
+    {
+      "id": "siyar-ee753cecfc185b",
+      "nameAr": "أبو جمرة",
+      "beforeWords": 180,
+      "addedWords": 0,
+      "finalWords": 180,
+      "missingWords": 320
+    },
+    {
+      "id": "siyar-ef79103eb3a862",
+      "nameAr": "أبو التياح",
+      "beforeWords": 163,
+      "addedWords": 0,
+      "finalWords": 163,
+      "missingWords": 337
+    },
+    {
+      "id": "siyar-efa623ab9b4ee0",
+      "nameAr": "ابن الأعرابي",
+      "beforeWords": 171,
+      "addedWords": 0,
+      "finalWords": 171,
+      "missingWords": 329
+    },
+    {
+      "id": "siyar-f12f6382c9527b",
+      "nameAr": "أبو الأشهب",
+      "beforeWords": 192,
+      "addedWords": 0,
+      "finalWords": 192,
+      "missingWords": 308
+    },
+    {
+      "id": "siyar-f64526d92b4653",
+      "nameAr": "مروان بن معاوية بن الحارث",
+      "beforeWords": 486,
+      "addedWords": 0,
+      "finalWords": 486,
+      "missingWords": 14
+    },
+    {
+      "id": "siyar-f90f187a357d8e",
+      "nameAr": "ابن زبر",
+      "beforeWords": 190,
+      "addedWords": 0,
+      "finalWords": 190,
+      "missingWords": 310
+    },
+    {
+      "id": "siyar-fcb4fd816f4ece",
+      "nameAr": "ابن ثوبان",
+      "beforeWords": 319,
+      "addedWords": 0,
+      "finalWords": 319,
+      "missingWords": 181
+    },
+    {
+      "id": "siyar-fcc04040950e78",
+      "nameAr": "الخلال",
+      "beforeWords": 145,
+      "addedWords": 0,
+      "finalWords": 145,
+      "missingWords": 355
+    },
+    {
+      "id": "siyar-fd0e321ff68b9d",
+      "nameAr": "ابن الكلبي",
+      "beforeWords": 166,
+      "addedWords": 0,
+      "finalWords": 166,
+      "missingWords": 334
+    },
+    {
       "id": "talha-ibn-ubaydullah",
       "nameAr": "طلحة بن عبيد الله",
       "beforeWords": 0,
@@ -2114,5 +2899,5 @@
     }
   ],
   "complete": false,
-  "interpretation": "Only direct, explicitly person-owned, source-backed Arabic text counts. Related documentary context is excluded from the 500-word threshold."
+  "interpretation": "Only readable direct person-owned source-backed Arabic counts. Collapsed OCR and related documentary context are excluded."
 }
