@@ -1,0 +1,21 @@
+// GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+(()=>{'use strict';
+const COPY={
+ ar:{launch:'اسأل المساعد',title:'المساعد',sub:'مساعد الموسوعة',hello:'مرحبًا! اسألني عن مواد الموسوعة ومصادرها.',placeholder:'اكتب سؤالك…',send:'إرسال',thinking:'أبحث في مواد الموقع…',error:'تعذر تقديم الإجابة الآن.',note:'الإجابات مستندة إلى مواد الموقع المتاحة.',close:'إغلاق'},
+ fr:{launch:"Demander à l’assistant",title:'Assistant',sub:'Assistant de l’encyclopédie',hello:'Bonjour ! Posez une question sur les contenus et les sources du site.',placeholder:'Écrivez votre question…',send:'Envoyer',thinking:'Recherche dans les contenus du site…',error:"La réponse n’est pas disponible maintenant.",note:'Réponses fondées sur les contenus disponibles du site.',close:'Fermer'},
+ en:{launch:'Ask the assistant',title:'Assistant',sub:'Site research assistant',hello:'Hello! Ask a question about the site’s content and sources.',placeholder:'Type your question…',send:'Send',thinking:'Searching the site materials…',error:'The answer is unavailable right now.',note:'Answers are grounded in available site materials.',close:'Close'}
+};
+function language(){const h=(document.documentElement.lang||'ar').toLowerCase();return h.startsWith('fr')?'fr':h.startsWith('en')?'en':'ar'}
+function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!=null)x.textContent=text;return x}
+function mount(){if(document.querySelector('.site-chat-launch'))return;const lang=language(),L=COPY[lang];
+ const launch=el('button','site-chat-launch',L.launch);launch.type='button';launch.setAttribute('aria-expanded','false');launch.setAttribute('aria-controls','siteChatPanel');
+ const panel=el('section','site-chat');panel.id='siteChatPanel';panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','false');panel.setAttribute('aria-label',L.sub);
+ const head=el('header','site-chat-head');const ht=el('div');ht.append(el('strong','',L.title),el('small','',L.sub));const close=el('button','site-chat-close','×');close.type='button';close.setAttribute('aria-label',L.close);head.append(ht,close);
+ const log=el('div','site-chat-log');log.setAttribute('role','log');log.setAttribute('aria-live','polite');log.append(el('div','site-chat-msg bot',L.hello));
+ const form=el('form','site-chat-form');const input=el('textarea');input.rows=2;input.maxLength=2200;input.placeholder=L.placeholder;input.setAttribute('aria-label',L.placeholder);const actions=el('div','site-chat-actions');actions.append(el('small','site-chat-note',L.note));const send=el('button','site-chat-send',L.send);send.type='submit';actions.append(send);form.append(input,actions);panel.append(head,log,form);document.body.append(launch,panel);
+ const open=()=>{panel.classList.add('open');launch.setAttribute('aria-expanded','true');input.focus()};const shut=()=>{panel.classList.remove('open');launch.setAttribute('aria-expanded','false');launch.focus()};launch.addEventListener('click',()=>panel.classList.contains('open')?shut():open());close.addEventListener('click',shut);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.classList.contains('open'))shut()});
+ const add=(text,kind)=>{const m=el('div','site-chat-msg '+kind,text);log.append(m);log.scrollTop=log.scrollHeight;return m};
+ form.addEventListener('submit',async e=>{e.preventDefault();const message=input.value.trim();if(!message||send.disabled)return;add(message,'user');input.value='';send.disabled=true;const status=add(L.thinking,'status');try{const main=document.querySelector('main');const context={title:document.title,excerpt:(main?.innerText||'').replace(/\s+/g,' ').trim().slice(0,9000)};const r=await fetch('/api/site-chat',{method:'POST',headers:{'content-type':'application/json','accept':'application/json'},body:JSON.stringify({message,language:lang,context})});const d=await r.json().catch(()=>({}));status.remove();add(r.ok&&typeof d.answer==='string'&&d.answer.trim()?d.answer.trim():L.error,'bot')}catch{status.remove();add(L.error,'bot')}finally{send.disabled=false;input.focus()}});
+ input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();form.requestSubmit()}})}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();
+})();
