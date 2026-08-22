@@ -1,14 +1,14 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T01:34:07.049788+00:00",
-  "gitCommit": "4b915add9baaf6c78e8dacb29d5993971999d78c",
+  "generatedAt": "2026-08-22T01:49:28.626620+00:00",
+  "gitCommit": "852dda66f8873a2d0efe4738aad6d67cf0a4e3c6",
   "github": {
-    "trackedFileCount": 779,
+    "trackedFileCount": 782,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 201,
+      "TECHNICAL_REPOSITORY_FILE": 202,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
-      "PUBLIC_OR_SOURCE_ASSET": 45,
-      "PUBLIC_SITE_ASSET": 102,
+      "PUBLIC_OR_SOURCE_ASSET": 46,
+      "PUBLIC_SITE_ASSET": 103,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
       "CONTENT_OR_PUBLICATION_REGISTRY": 296
     },
@@ -214,6 +214,11 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": ".github/workflows/publish-repository-content.yml",
+        "size": 5610,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": ".github/workflows/reader-player-ops.yml",
         "size": 1781,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -296,6 +301,11 @@
       {
         "path": "MASTER-FIVE-SECTIONS-EXTRACTION-PROMPT.md",
         "size": 2864,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "MASTER-PUBLIC-PAGE-CONTENT-PURITY-RULE.md",
+        "size": 10845,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
       },
       {
@@ -639,6 +649,11 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "assets/public-page-purity.js",
+        "size": 3970,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
         "path": "assets/reader-futurist.css",
         "size": 6313,
         "disposition": "PUBLIC_SITE_ASSET"
@@ -785,7 +800,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 848677,
+        "size": 848822,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2840,7 +2855,7 @@
       },
       {
         "path": "data/editorial/publication_manifest.json",
-        "size": 17975,
+        "size": 18581,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3665,7 +3680,7 @@
       },
       {
         "path": "scripts/editorial_autopublish.py",
-        "size": 9433,
+        "size": 13205,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
