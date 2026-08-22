@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MASTER = ROOT / "MASTER-OVERRIDING-SITE-INSTRUCTION.md"
 BASE = ROOT / "MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md"
 README = ROOT / "README.md"
+CONTENT_TAXONOMY = ROOT / "data/content_taxonomy_policy.json"
 CHILD_TAXONOMY = ROOT / "data/children/taxonomy.json"
 CHILD_ART = ROOT / "scripts/generate_children_artwork.py"
 CHILD_ART_WF = ROOT / ".github/workflows/generate-animated-children-stories.yml"
@@ -49,6 +50,7 @@ def main() -> int:
         MASTER,
         BASE,
         README,
+        CONTENT_TAXONOMY,
         CHILD_TAXONOMY,
         CHILD_ART,
         CHILD_ART_WF,
@@ -72,6 +74,26 @@ def main() -> int:
     readme = read_text(README)
     if "MASTER-OVERRIDING-SITE-INSTRUCTION.md" not in readme:
         fail(errors, "README does not identify the canonical master instruction")
+
+    content_taxonomy = json.loads(read_text(CONTENT_TAXONOMY))
+    sections = content_taxonomy.get("canonicalSections") or {}
+    people = sections.get("people") or {}
+    children_section = sections.get("children") or {}
+    library = sections.get("library") or {}
+    story_corpora = content_taxonomy.get("storyCorpora") or {}
+
+    if people.get("labelAr") != "السير والتراجم" or people.get("independentMenuSection") is not True:
+        fail(errors, "السير والتراجم must remain an independent menu section")
+    if children_section.get("labelAr") != "أحباب الله":
+        fail(errors, "children canonical section must remain أحباب الله")
+    if library.get("labelAr") != "المصادر والدراسات":
+        fail(errors, "library canonical section must remain المصادر والدراسات")
+    if not (story_corpora.get("sourced") or {}).get("provenanceRequired"):
+        fail(errors, "sourced story corpus must require provenance")
+    if not (story_corpora.get("unsourcedGenerated") or {}).get("mustRemainDistinguishableFromSourced"):
+        fail(errors, "generated/unsourced story corpus must remain distinguishable from sourced corpus")
+    if not (content_taxonomy.get("qualityRules") or {}).get("noInventedHistoricalFacts"):
+        fail(errors, "historical content must forbid invented facts")
 
     taxonomy = json.loads(read_text(CHILD_TAXONOMY))
     if taxonomy.get("sectionLabelAr") != "أحباب الله":
@@ -150,6 +172,9 @@ def main() -> int:
     print(f"children subjects: {len(taxonomy.get('subjects') or [])}")
     print(f"children age groups: {len(taxonomy.get('ageGroups') or [])}")
     print("canonical governance: PASS")
+    print("independent السير والتراجم menu ownership: PASS")
+    print("المصادر والدراسات canonical ownership: PASS")
+    print("sourced/unsourced corpus separation: PASS")
     print("trilingual children taxonomy: PASS")
     print("children replacement artwork pipeline: PASS")
     print("source/provenance policy presence: PASS")
