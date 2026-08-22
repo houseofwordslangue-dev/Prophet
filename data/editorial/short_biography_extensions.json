@@ -1,6 +1,6 @@
 {
-  "schema": "short-biography-source-extension-index-v3",
-  "generatedAt": "2026-08-22T02:51:36.802275Z",
+  "schema": "short-biography-source-extension-index-v7",
+  "generatedAt": "2026-08-22T03:03:01.858914Z",
   "targetWords": 500,
   "policy": {
     "directPersonOwnershipOnly": true,
@@ -82,6 +82,15 @@
       "finalWords": 868,
       "status": "EXTENDED_TO_500",
       "file": "data/editorial/short-biography-extensions/jabir-ibn-abdullah.json"
+    },
+    "usama-ibn-zaid": {
+      "id": "usama-ibn-zaid",
+      "nameAr": "أسامة بن زيد",
+      "beforeWords": 0,
+      "addedWords": 809,
+      "finalWords": 809,
+      "status": "EXTENDED_TO_500",
+      "file": "data/editorial/short-biography-extensions/usama-ibn-zaid.json"
     }
   }
 }
