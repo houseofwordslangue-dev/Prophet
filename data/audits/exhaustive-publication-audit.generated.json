@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T03:07:03.533461+00:00",
-  "gitCommit": "9fcaab4060843ecd2bdae87128c33c008337b332",
+  "generatedAt": "2026-08-22T03:07:17.786751+00:00",
+  "gitCommit": "b49cd3c0df5fc3428e8df4f81fffd263304fd64b",
   "github": {
-    "trackedFileCount": 836,
+    "trackedFileCount": 838,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 225,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 52,
-      "PUBLIC_SITE_ASSET": 109,
+      "PUBLIC_SITE_ASSET": 110,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 315
+      "CONTENT_OR_PUBLICATION_REGISTRY": 316
     },
     "files": [
       {
@@ -809,6 +809,11 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "assets/site-chat.css",
+        "size": 2419,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
         "path": "assets/site-chat.js",
         "size": 4462,
         "disposition": "PUBLIC_SITE_ASSET"
@@ -920,7 +925,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 858410,
+        "size": 870126,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3089,18 +3094,23 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
-        "path": "data/editorial/short-biography-extensions/usama-ibn-zaid.json",
-        "size": 9056,
+        "path": "data/editorial/short-biography-extensions/siyar-e5c031400b268c.json",
+        "size": 3514,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short-biography-extensions/talha-ibn-ubaydullah.json",
+        "size": 22930,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/editorial/short_biographies_500_audit.json",
-        "size": 68190,
+        "size": 68151,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/editorial/short_biography_extensions.json",
-        "size": 3095,
+        "size": 3456,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
