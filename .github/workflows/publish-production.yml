@@ -1,0 +1,75 @@
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+name: Publish production site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'library.html'
+      - 'library-all.html'
+      - 'reader.html'
+      - 'assets/bookstore-catalogue-bridge.js'
+      - 'assets/bookstore.js'
+      - 'assets/prophet-bookreader.js'
+      - 'data/catalogue/**'
+      - 'data/public_catalog_all.generated.json'
+      - 'data/ingested_library.json'
+      - '.github/workflows/publish-production.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prophet-production-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+      PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+      PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+      PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Validate bookstore publication inputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          assert Path('library.html').exists()
+          assert Path('library-all.html').exists()
+          assert Path('assets/bookstore-catalogue-bridge.js').exists()
+          chunks=sorted(Path('data/catalogue').glob('chunk-*.json'))
+          assert len(chunks) == 14, len(chunks)
+          total=0
+          for p in chunks:
+              total += len(json.loads(p.read_text(encoding='utf-8')).get('items',[]))
+          assert total >= 650, total
+          print('Bookstore catalogue rows:', total)
+          PY
+      - name: Require production deployment contract
+        run: |
+          test -n "$PM_DEPLOY_HOST" || { echo 'PM_DEPLOY_HOST missing'; exit 1; }
+          test -n "$PM_DEPLOY_USER" || { echo 'PM_DEPLOY_USER missing'; exit 1; }
+          test -n "$PM_DEPLOY_PATH" || { echo 'PM_DEPLOY_PATH missing'; exit 1; }
+          test -n "$PM_DEPLOY_SSH_KEY" || { echo 'PM_DEPLOY_SSH_KEY missing'; exit 1; }
+      - name: Configure SSH
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+      - name: Publish site files
+        run: |
+          ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH' '$PM_DEPLOY_PATH/data' '$PM_DEPLOY_PATH/assets'"
+          rsync -az --exclude '.git/' --exclude '.github/' --exclude '.env' --exclude 'backups/' --exclude 'media-cache/' --exclude 'private/' --exclude '__pycache__/' --exclude '*.pyc' ./ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/"
+      - name: Verify bookstore deployment
+        run: |
+          ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "test -f '$PM_DEPLOY_PATH/library.html' && test -f '$PM_DEPLOY_PATH/library-all.html' && test -f '$PM_DEPLOY_PATH/assets/bookstore-catalogue-bridge.js' && test -f '$PM_DEPLOY_PATH/reader.html'"
+          echo 'Unified bookstore published successfully.'
