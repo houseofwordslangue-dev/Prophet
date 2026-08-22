@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+# FORCE_RESOLUTION_TRIGGER: 2026-08-22T05:53Z — explicit full-catalogue retry requested by admin.
 from __future__ import annotations
 import json, subprocess, sys, time
 from pathlib import Path
@@ -8,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 AVAIL = ROOT / 'data/editorial/resource_extraction_availability.json'
 OUT = ROOT / 'data/editorial/resource_extraction_force_report.json'
 RESOLUTION = ROOT / 'private/source_first_resolution.json'
-MAX_ROUNDS = 8
+MAX_ROUNDS = 12
 
 
 def load(path, default):
@@ -50,17 +51,17 @@ def main():
     previous_ready = -1
     stable_rounds = 0
 
-    # First perform the exhaustive, parallel, identity-checked resolution pass.
-    # It writes verified discoveries to native_source_overrides and refreshes the authoritative queue.
+    # Exhaustive, parallel, identity-checked resolution pass against the full catalogue.
     exhaustive = py('force_resolve_unresolved_content.py')
 
     for n in range(1, MAX_ROUNDS + 1):
         steps = [
             py('source_first_fulltext_resolver.py'),
             py('live_native_catalog_resolver.py'),
-            py('acquire_unrestricted_library.py', '--limit', '200'),
+            py('acquire_unrestricted_library.py', '--limit', '500'),
             py('build_ingested_library.py'),
             py('source_first_fulltext_resolver.py'),
+            py('force_resolve_unresolved_content.py'),
         ]
         s = snapshot()
         rounds.append({'round': n, 'steps': steps, 'snapshot': s})
@@ -70,7 +71,7 @@ def main():
         else:
             stable_rounds = 0
         previous_ready = ready
-        if s['acquisitionRequired'] == 0 or stable_rounds >= 2:
+        if s['acquisitionRequired'] == 0 or stable_rounds >= 3:
             break
         time.sleep(1)
 
@@ -89,7 +90,7 @@ def main():
     } for x in unresolved]
 
     report = {
-        'schema': 'resource-extraction-force-report-v3',
+        'schema': 'resource-extraction-force-report-v4',
         'governedBy': 'MASTER-OVERRIDING-SITE-INSTRUCTION.md',
         'generatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'forceCompleteStateMachine': True,
@@ -108,7 +109,6 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-    # Always materialize the authoritative downstream allowlist after the final pass.
     gate = py('enforce_resource_extraction_readiness.py')
     report['readinessGate'] = gate
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
