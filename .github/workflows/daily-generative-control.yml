@@ -69,8 +69,15 @@ jobs:
 
           [ -f scripts/content_completion_status.py ] && run_one 'content completion status' python scripts/content_completion_status.py
           [ -f scripts/completion_slot_fill.py ] && run_one 'underfilled slot completion' python scripts/completion_slot_fill.py
-          [ -f scripts/complete_required_biographies.py ] && run_one 'biography registry refresh' python scripts/complete_required_biographies.py
-          [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'missing biography source mining' python scripts/mine_all_missing_biography_sources.py
+
+          # Biography enrichment is EXTRACT + SOURCE-GROUNDED GENERATION/ASSEMBLY,
+          # not quota padding. The master instruction permits SOURCE_GROUNDED_SYNTHESIS
+          # only when every substantive historical assertion is traceable to sources.
+          [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'biography source mining' python scripts/mine_all_missing_biography_sources.py
+          [ -f scripts/extend_short_biographies_500.py ] && run_one 'strict local short-biography extraction' python scripts/extend_short_biographies_500.py
+          [ -f scripts/enrich_short_biographies_siyar_direct.py ] && run_one 'direct Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
+          [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction and source-grounded assembly' python scripts/enrich_short_biographies_wikisource.py
+          [ -f scripts/complete_required_biographies.py ] && run_one 'biography canonical registry refresh' python scripts/complete_required_biographies.py
 
           [ -f scripts/editorial_autopublish.py ] && run_one 'editorial provenance check' python scripts/editorial_autopublish.py --check
           [ -f scripts/editorial_autopublish.py ] && run_one 'editorial autopublish' python scripts/editorial_autopublish.py
@@ -112,6 +119,7 @@ jobs:
           - Successful pipeline stages: $successes
           - Recoverable/non-zero stages: $recoverable
           - Governance/security/acceptance workflows remain enabled.
+          - Biography mode: extract sources first, then source-grounded synthesis/assembly; no unsupported historical fill.
           - Notification policy: one report per UTC day.
           - Master rule: source truth and provenance override quotas; retryable gaps do not fail the daily run.
 
@@ -126,3 +134,4 @@ jobs:
           exit 0
 
 # Manual resume trigger: 2026-08-22
+# Biography extract/generate mode: 2026-08-22
