@@ -24,5 +24,15 @@
     }
   ],
   "lastRunAt": "2026-08-22T03:15:00Z",
-  "lastSection": "prophet"
+  "lastSection": "prophet",
+  "sections": {
+    "prophet": {
+      "status": "READY_TO_PUBLISH",
+      "at": "2026-08-22T03:18:59.447425+00:00",
+      "id": "daily-2026-08-22-prophet-1787368739",
+      "path": "data/editorial/drafts/2026-08-22/daily-prophet-1787368739.json",
+      "sourceFingerprint": "328b7b5c198509f479af17d1e7556bc712064afc7a2093d01adad1d19b2242a0"
+    }
+  },
+  "lastRun": "2026-08-22T03:18:59.447425+00:00"
 }
