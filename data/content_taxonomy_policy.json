@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-22.1",
+  "version": "2026-08-22.2",
   "purpose": "Canonical categorization and ownership rules for all public and ingested content.",
   "canonicalSections": {
     "children": {
@@ -51,7 +51,19 @@
       "groups": [
         "wives",
         "children",
-        "grandchildren",
+        "grandchildren"
+      ],
+      "wivesLabelAr": "الزوجات / أمهات المؤمنين",
+      "onePersonOneCanonicalBiography": true,
+      "scope": "Immediate Prophetic household only: spouses/Mothers of the Believers, children, grandchildren and descendants."
+    },
+    "extendedFamily": {
+      "labelAr": "العائلة النبوية",
+      "landing": "family.html",
+      "collectionOnly": true,
+      "canonicalBiographyOwner": "people",
+      "independentMenuSection": true,
+      "groups": [
         "parents",
         "ancestors",
         "paternal-relatives",
@@ -59,10 +71,10 @@
         "cousins",
         "in-laws",
         "foster",
-        "relatives"
+        "family-tree"
       ],
-      "wivesLabelAr": "الزوجات / أمهات المؤمنين",
-      "onePersonOneCanonicalBiography": true
+      "onePersonOneCanonicalBiography": true,
+      "scope": "Wider Prophetic family, lineage, kinship, in-laws, foster/guardianship relations and family tree."
     }
   },
   "ownershipRules": {
