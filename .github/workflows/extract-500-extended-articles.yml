@@ -1,0 +1,52 @@
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+name: Extract 500 extended source articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_next_500_extended_articles.py'
+      - '.github/workflows/extract-500-extended-articles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build 500 extended source-grounded articles
+        run: python scripts/build_next_500_extended_articles.py
+      - name: Validate generated batches
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('.')
+          audit=json.loads((root/'data/editorial/source_extract_500_extended_20260822_audit.json').read_text(encoding='utf-8'))
+          assert audit['publishedArticles']==500
+          assert audit['sourceCoveragePercent']==100
+          assert audit['aiOriginalSubstantiveContentPercent']==0
+          assert audit['duplicateSourceBodies']==0
+          assert len(audit['publicationBatchPaths'])==10
+          assert sum(len(json.loads((root/p).read_text(encoding='utf-8'))['drafts']) for p in audit['publicationBatchPaths'])==500
+          print('validated 500 extended articles')
+          PY
+      - name: Commit publication batch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/editorial/drafts/2026-08-22/batch-31.json data/editorial/drafts/2026-08-22/batch-32.json data/editorial/drafts/2026-08-22/batch-33.json data/editorial/drafts/2026-08-22/batch-34.json data/editorial/drafts/2026-08-22/batch-35.json data/editorial/drafts/2026-08-22/batch-36.json data/editorial/drafts/2026-08-22/batch-37.json data/editorial/drafts/2026-08-22/batch-38.json data/editorial/drafts/2026-08-22/batch-39.json data/editorial/drafts/2026-08-22/batch-40.json data/editorial/publication_supplement.json data/editorial/source_extract_500_extended_20260822_audit.json service-worker.js
+          if git diff --cached --quiet; then
+            echo 'No new publication changes.'
+          else
+            git commit -m 'Publish 500 extended source-grounded articles'
+            git push
+          fi
