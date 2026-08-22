@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:41:37.961446+00:00",
-  "gitCommit": "65d5e09c5d540ff1693f1baec72c3ed7da540194",
+  "generatedAt": "2026-08-22T02:42:33.305364+00:00",
+  "gitCommit": "49b30d0d1adfda61097521b3ff2d2d0390402e3d",
   "github": {
-    "trackedFileCount": 803,
+    "trackedFileCount": 807,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 213,
+      "TECHNICAL_REPOSITORY_FILE": 214,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 50,
       "PUBLIC_SITE_ASSET": 104,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 301
+      "CONTENT_OR_PUBLICATION_REGISTRY": 304
     },
     "files": [
       {
@@ -864,6 +864,11 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/audits/biography-batch-assignment-current.json",
+        "size": 1143,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/audits/empty-section-five-articles-current.json",
         "size": 1047,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
@@ -875,7 +880,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 852172,
+        "size": 852324,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -886,6 +891,11 @@
       {
         "path": "data/biography_500_policy.json",
         "size": 1761,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/biography_batches/batch-0001.json",
+        "size": 858,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2984,13 +2994,18 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/short-biography-extensions/ali-ibn-abi-talib.json",
+        "size": 5036,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/short_biographies_500_audit.json",
-        "size": 50003,
+        "size": 69068,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/editorial/short_biography_extensions.json",
-        "size": 320,
+        "size": 694,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3684,6 +3699,11 @@
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
+        "path": "scripts/build_biography_batches.py",
+        "size": 4765,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": "scripts/build_ingested_library.py",
         "size": 10846,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
@@ -3805,7 +3825,7 @@
       },
       {
         "path": "scripts/extend_short_biographies_500.py",
-        "size": 8830,
+        "size": 12593,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
