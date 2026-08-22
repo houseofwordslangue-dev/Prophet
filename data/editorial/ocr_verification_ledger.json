@@ -1,0 +1,6 @@
+{
+  "schema": "ocr-verification-ledger-v1",
+  "governedBy": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
+  "policy": "A raw OCR/PDF extraction becomes eligible for source-grounded generation only after an explicit VERIFIED record tied to the exact resource and repaired text artifact. Original OCR remains preserved for audit.",
+  "records": []
+}
