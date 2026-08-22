@@ -1,7 +1,7 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:19:06.106849+00:00",
-  "gitCommit": "f9247104897e5a72c341ea2c2d97529715b55620",
+  "generatedAt": "2026-08-22T02:19:19.033791+00:00",
+  "gitCommit": "6d313117fe3b4190238b25adeeab8fa9c5703036",
   "github": {
     "trackedFileCount": 797,
     "fileDispositionCounts": {
@@ -515,7 +515,7 @@
       },
       {
         "path": "assets/empty-section-five.js",
-        "size": 2304,
+        "size": 2429,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
