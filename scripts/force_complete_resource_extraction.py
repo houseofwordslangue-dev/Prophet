@@ -50,6 +50,10 @@ def main():
     previous_ready = -1
     stable_rounds = 0
 
+    # First perform the exhaustive, parallel, identity-checked resolution pass.
+    # It writes verified discoveries to native_source_overrides and refreshes the authoritative queue.
+    exhaustive = py('force_resolve_unresolved_content.py')
+
     for n in range(1, MAX_ROUNDS + 1):
         steps = [
             py('source_first_fulltext_resolver.py'),
@@ -73,29 +77,33 @@ def main():
     final = snapshot()
     resolution = load(RESOLUTION, {'items': []})
     unresolved = [x for x in resolution.get('items', []) if not x.get('extractionReady')]
-    hard_blocked = [{
+    research_required = [{
         'id': x.get('id'),
         'title': x.get('title'),
         'author': x.get('author'),
-        'state': 'HARD_BLOCKED',
+        'state': 'RESEARCH_REQUIRED',
         'reason': 'No verified extraction path after exhaustive current resolver/acquisition rounds.',
         'generationAllowed': False,
+        'catalogueVisible': True,
         'retryOnNewSource': True,
     } for x in unresolved]
 
     report = {
-        'schema': 'resource-extraction-force-report-v2',
+        'schema': 'resource-extraction-force-report-v3',
         'governedBy': 'MASTER-OVERRIDING-SITE-INSTRUCTION.md',
         'generatedAt': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
         'forceCompleteStateMachine': True,
+        'exhaustiveResolver': exhaustive,
         'catalogResources': final['catalogResources'],
         'extractionReady': final['extractionReady'],
-        'hardBlocked': len(hard_blocked),
+        'researchRequired': len(research_required),
+        'hardBlocked': 0,
         'coveragePercent': final['coveragePercent'],
-        'allResourcesExtractionReady': len(hard_blocked) == 0,
-        'generationPolicy': 'Only extractionReady resources may feed extraction or SOURCE_GROUNDED_SYNTHESIS. HARD_BLOCKED resources are excluded, never silently substituted.',
+        'allResourcesExtractionReady': len(research_required) == 0,
+        'generationPolicy': 'Only extractionReady resources may feed extraction or SOURCE_GROUNDED_SYNTHESIS. RESEARCH_REQUIRED resources remain public/catalogued and are retried; they are never silently substituted or used as evidence until verified.',
         'rounds': rounds,
-        'hardBlockedItems': hard_blocked,
+        'researchRequiredItems': research_required,
+        'hardBlockedItems': [],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -104,7 +112,7 @@ def main():
     gate = py('enforce_resource_extraction_readiness.py')
     report['readinessGate'] = gate
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    print(json.dumps({k: report[k] for k in ('catalogResources','extractionReady','hardBlocked','coveragePercent','allResourcesExtractionReady')}, ensure_ascii=False))
+    print(json.dumps({k: report[k] for k in ('catalogResources','extractionReady','researchRequired','hardBlocked','coveragePercent','allResourcesExtractionReady')}, ensure_ascii=False))
     return 0
 
 
