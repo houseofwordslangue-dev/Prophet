@@ -23,15 +23,23 @@ function overlayItem(x){
   const cap=x.capabilities||{};
   return {id,workId:id,titleAr:x.titleAr||x.title||'',titleOriginal:x.title||x.titleOriginal||'',titleEn:x.titleEn||'',author:x.author||x.authorAr||'',language:x.language||(/[\u0600-\u06ff]/.test(x.title||'')?'ar':'en'),subjects:[x.category||'غير مصنف'],siteSections:[x.category||'غير مصنف'],format:(x.formats&&x.formats[0])||x.format||'catalogue',catalogueVisible:true,access:x.access,state:x.state,publicationLabelAr:x.access==='PUBLIC_FULL_TEXT'?'نص كامل متاح':(x.state||'مدرج في المكتبة'),sourceUrl:src,readerUrl:reader,localUrl:reader,capabilities:{readable:full&&cap.read!==false,searchable:full&&cap.search!==false,listenable:full&&!!cap.listen,watchable:full&&!!cap.watch}};
 }
+function applyProviderAccess(item,provider){
+  if(!provider)return item;
+  const mode=String(provider.accessMode||'external-provider');
+  const borrowOnly=mode==='borrow-only'||mode==='controlled-lending';
+  return {...item,catalogueVisible:true,provider:provider.provider||'',providerUrl:provider.providerUrl||'',borrowUrl:borrowOnly?(provider.providerUrl||''):'',archiveId:provider.archiveId||'',accessMode:mode,publicationLabelAr:borrowOnly?'متاح بالاستعارة عبر المصدر':'متاح عبر المصدر',publicationNoteAr:item.publicationNoteAr||'الوصول يتم عبر المصدر وفق شروطه. إدراج المورد لا يعني إعادة توزيع الملف أو تجاوز قيود الوصول.',capabilities:{readable:false,searchable:false,listenable:false,watchable:false}};
+}
 async function build(original){
-  const [overlay,...chunks]=await Promise.all([
+  const [overlay,providers,...chunks]=await Promise.all([
     nativeFetch('data/public_catalog_all.generated.json',{cache:'no-store'}).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]})),
+    nativeFetch('data/provider_access.json',{cache:'no-store'}).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]})),
     ...chunkUrls.map(u=>nativeFetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]})))
   ]);
   const m=new Map();
   (original.items||[]).forEach(x=>{const k=String(x.id||x.workId||'');if(k)m.set(k,x)});
   chunks.flatMap(j=>j.items||[]).map(compact).forEach(x=>{if(!x.id)return;const old=m.get(x.id)||{};m.set(x.id,{...x,...old,subjects:[...new Set([...(x.subjects||[]),...(old.subjects||[])])],siteSections:[...new Set([...(x.siteSections||[]),...(old.siteSections||[])])]})});
   (overlay.items||[]).map(overlayItem).forEach(x=>{if(!x.id)return;const old=m.get(x.id)||{};m.set(x.id,{...old,...x,subjects:[...new Set([...(old.subjects||[]),...(x.subjects||[])])],siteSections:[...new Set([...(old.siteSections||[]),...(x.siteSections||[])])]})});
+  (providers.items||[]).forEach(p=>{const id=String(p.catalogueId||p.id||'');if(!id)return;const old=m.get(id)||{id,workId:id,titleAr:p.title||'',titleOriginal:p.title||'',subjects:['المصادر والدراسات'],siteSections:['المصادر والدراسات'],format:'catalogue',catalogueVisible:true,capabilities:{readable:false,searchable:false,listenable:false,watchable:false}};m.set(id,applyProviderAccess(old,p))});
   const items=[...m.values()].filter(x=>x.id||x.workId);
   return {...original,schema:'ingested-library-v3-plus-unified-bookstore-catalogue',count:items.length,items};
 }
