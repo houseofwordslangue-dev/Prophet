@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
-import json,re
+import json,re,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 CRITICAL_PAGES=[ROOT/x for x in ('library.html','library-all.html','reader.html','media.html','children.html','children-stories.html','children-very-short.html','children-animated.html','children-videos.html','people.html','person.html','family.html')]
 REQUIRED_CHILDREN=[ROOT/'data/children/taxonomy.json',ROOT/'data/children/media-sources.json',ROOT/'data/children/stories/manifest.json',ROOT/'data/children/stories/index.json',ROOT/'data/children/animated/manifest.json',ROOT/'data/children/animated/index.json',ROOT/'data/children/animated/status.json',ROOT/'data/children/very-short/index.json',ROOT/'data/children/very-short/status.json']
-REQUIRED_BOOKSTORE=[ROOT/'assets/bookstore-catalogue-bridge.js',ROOT/'assets/bookstore.js',ROOT/'assets/prophet-bookreader.js']
+REQUIRED_BOOKSTORE=[ROOT/'assets/bookstore-catalogue-bridge.js',ROOT/'assets/bookstore.js',ROOT/'assets/prophet-bookreader.js',ROOT/'assets/provider-access-ui.js',ROOT/'data/bookstore_publication_policy.json']
 MAX_HTML_BYTES=180_000;MAX_STYLESHEETS=18;MAX_SCRIPTS=20
 def load(p):
  try:return json.loads(p.read_text(encoding='utf-8'))
@@ -36,7 +36,7 @@ def main():
  if len(taxonomy.get('subjects') or [])<12:warnings.append(f"children taxonomy subject coverage below baseline: {len(taxonomy.get('subjects') or [])}/12")
  if int(animated.get('audioReady') or 0)==0:warnings.append('animated stories use TTS/browser narration fallback; native prerecorded narration backlog remains')
  for p in REQUIRED_BOOKSTORE:
-  if not p.exists():errors.append(f'missing bookstore runtime: {p.relative_to(ROOT)}')
+  if not p.exists():errors.append(f'missing bookstore runtime/policy: {p.relative_to(ROOT)}')
  chunks=sorted((ROOT/'data/catalogue').glob('chunk-*.json'))
  if len(chunks)<14:errors.append(f'bookstore catalogue chunk count below baseline: {len(chunks)} < 14')
  total=0
@@ -45,6 +45,12 @@ def main():
   if d is None:errors.append(f'invalid catalogue JSON: {p.relative_to(ROOT)}')
   else:total+=len(d.get('items') or [])
  if total<650:errors.append(f'bookstore catalogue rows below published baseline: {total} < 650')
+ audit_script=ROOT/'scripts/audit_bookstore_publication.py'
+ if not audit_script.exists():errors.append('missing bookstore publication audit script')
+ else:
+  rc=subprocess.run([sys.executable,str(audit_script)],cwd=ROOT,check=False).returncode
+  audit=load(ROOT/'data/audits/bookstore-publication-audit-current.json') or {}
+  if rc!=0 or not audit.get('complete'):errors.append(f"published resources missing from bookstore: {audit.get('publishedMissingFromBookstoreCount','audit-failed')}")
  print('PROFESSIONAL RELEASE GATE:', 'FAIL' if errors else 'PASS')
  for x in errors:print('- HARD:',x)
  for x in warnings:print('- REVIEW:',x)
