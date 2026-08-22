@@ -2,11 +2,8 @@
 name: Apply corrected household and family taxonomy
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/apply_family_taxonomy_correction_20260822.py'
-      - '.github/workflows/apply-family-taxonomy-correction-20260822.yml'
+  issues:
+    types: [opened]
   workflow_dispatch:
 
 permissions:
@@ -14,6 +11,7 @@ permissions:
 
 jobs:
   apply:
+    if: github.event_name == 'workflow_dispatch' || github.event.issue.title == '[governance] apply family taxonomy correction 20260822'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
