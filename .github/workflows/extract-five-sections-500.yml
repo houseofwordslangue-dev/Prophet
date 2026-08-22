@@ -1,0 +1,50 @@
+name: Build five exclusive sections — 500 articles
+
+on:
+  push:
+    branches:
+      - menu/add-wives-mothers-believers-20260821
+    paths:
+      - scripts/extract_five_sections_500.py
+      - .github/workflows/extract-five-sections-500.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: menu/add-wives-mothers-believers-20260821
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract and validate 500 source-derived articles
+        run: python scripts/extract_five_sections_500.py
+      - name: Verify exact distribution
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          p=json.load(open('data/editorial/drafts/2026-08-22/five-sections-500.json',encoding='utf-8'))
+          c=Counter(x['section'] for x in p['drafts'])
+          assert len(p['drafts'])==500, len(p['drafts'])
+          assert c==Counter({'light':100,'prophet':100,'messenger':100,'human':100,'mercy':100}), c
+          print(c)
+          PY
+      - name: Commit generated publication corpus
+        run: |
+          git config user.name "prophet-editorial-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/editorial/drafts/2026-08-22/five-sections-500.json \
+                  data/editorial/audits/five-sections-500-audit.json \
+                  data/editorial/publication_manifest.json \
+                  data/editorial/publication_supplement.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish 100 exclusive articles per Muhammad section [skip ci]"
+            git push origin HEAD:menu/add-wives-mothers-believers-20260821
+          fi
