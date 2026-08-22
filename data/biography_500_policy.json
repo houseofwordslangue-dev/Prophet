@@ -1,17 +1,23 @@
 {
-  "version":"2026-08-21-biography-500-v2-published",
-  "status":"PUBLISHED",
-  "scope":"Every indexed person page assembled from people.json, family_people.json and family_groups.json",
+  "version":"2026-08-22-biography-500-v3-strict",
+  "status":"ENFORCED",
+  "scope":"Every indexed canonical person page",
   "minimumDisplayedBiographyWords":500,
-  "sourcePolicy":"No unsupported personal fact may be invented to meet the word target. Each page prioritizes verified direct biography material and direct source passages mentioning the person. If direct evidence remains below 500 words, additional material may appear only in a separately labelled documentary-context section and must never be converted into personal events.",
-  "directEvidencePreferred":true,
-  "exactArabicNameMatchingPreferred":true,
-  "sparseEvidenceRule":"When direct evidence is insufficient, the page must state the limitation and separate source context from direct biography evidence.",
-  "provenance":"100% of reproduced source text must retain source/extract identifiers.",
-  "locales":["ar","en","fr"],
+  "countingLanguage":"ar",
+  "sourcePolicy":"Only direct, explicitly person-owned, source-backed Arabic biography material counts toward the 500-word threshold. Documentary context, incidental name matches, metadata, navigation text and unrelated source passages do not count.",
+  "directEvidenceRequired":true,
+  "explicitPersonOwnershipRequired":true,
+  "documentaryContextCountsTowardTarget":false,
+  "incidentalNameMatchesCountTowardTarget":false,
+  "inventedFactualFillIn":false,
+  "sparseEvidenceRule":"If verified direct evidence remains below 500 words after repository/Drive-derived extraction, retain SOURCE_LIMITED status and the exact residual count; never pad the biography with unrelated context or invented history.",
+  "provenance":"Every added passage must retain repository/source/extract identifiers and remain auditable.",
+  "localizationRule":"The strict 500-word audit is Arabic-first. Arabic source extensions must not be injected into English or French pages as a substitute for localization.",
+  "continuousPipeline":"scripts/extend_short_biographies_500.py",
+  "audit":"data/editorial/short_biographies_500_audit.json",
+  "index":"data/editorial/short_biography_extensions.json",
   "driveSourcesVerified":[
     {"title":"السيرة النبوية — ابن هشام — text.txt","author":"عبد الملك بن هشام","driveFileId":"1_GJqYBXGy3nMsb9uc4R4i4YKdYbLbBSb"},
-    {"title":"الطبقات الكبرى — ابن سعد","author":"محمد بن سعد","availability":"multiple volumes/PDFs in connected Drive"}
-  ],
-  "batchPaths":["data/editorial/drafts/2026-08-21/batch-21.json","data/editorial/drafts/2026-08-21/batch-22.json","data/editorial/drafts/2026-08-21/batch-23.json","data/editorial/drafts/2026-08-21/batch-24.json","data/editorial/drafts/2026-08-21/batch-25.json","data/editorial/drafts/2026-08-21/batch-26.json","data/editorial/drafts/2026-08-21/batch-27.json","data/editorial/drafts/2026-08-21/batch-28.json","data/editorial/drafts/2026-08-21/batch-29.json","data/editorial/drafts/2026-08-21/batch-30.json"]
+    {"title":"الطبقات الكبرى — ابن سعد","author":"محمد بن سعد","availability":"multiple volumes/PDFs in connected Drive and derived repository extractions"}
+  ]
 }
