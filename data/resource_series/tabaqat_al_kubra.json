@@ -1,0 +1,25 @@
+{
+  "schema": "resource-series-v1",
+  "seriesId": "tabaqat-al-kubra-ibn-sad",
+  "titleAr": "الطبقات الكبرى",
+  "authorAr": "محمد بن سعد",
+  "workCatalogIds": ["family-companions-015","family-companions-016","family-companions-017"],
+  "source": "connected-google-drive",
+  "extractionPolicy": "Prefer verified text-bearing PDF/native text; OCR repair and proofreading required where scan/OCR quality is uncertain.",
+  "parts": [
+    {"part":1,"title":"الطبقات الكبرى — الجزء 1","format":"pdf","driveId":"1fQiZz4_lpvgXKmSrv9yzo02dFjjTZWAB","size":7041118,"extractionMode":"pdf-text-or-ocr"},
+    {"part":2,"title":"الطبقات الكبرى — الجزء 2","format":"pdf","driveId":"1QZVHlPOhJrKYL_SUX6Bm2eGyODeio8ln","size":5691285,"extractionMode":"pdf-text-or-ocr"},
+    {"part":3,"title":"الطبقات الكبرى — الجزء 3","format":"pdf","driveId":"1FyXr9dB_G-QKyQ5vMoegj8rMLdccdiCn","size":8330946,"extractionMode":"pdf-text-or-ocr"},
+    {"part":4,"title":"الطبقات الكبرى — الجزء 4","format":"pdf","driveId":"1Xjpa14O7yB7agJAQlhxC5b4Cdb8HQMNM","size":5074080,"extractionMode":"pdf-text-or-ocr"},
+    {"part":5,"title":"الطبقات الكبرى — الجزء 5","format":"pdf","driveId":"1ULAb9ufQ_joex94FcckikHazwxnkGnKh","size":8794799,"extractionMode":"pdf-text-or-ocr"},
+    {"part":6,"title":"الطبقات الكبرى — الجزء 6","format":"pdf","driveId":"1BUlSVlXYPPZrvra2_WWKNF8HUH2GGTsf","size":6435020,"extractionMode":"pdf-text-or-ocr"},
+    {"part":7,"title":"الطبقات الكبرى — الجزء 7","format":"pdf","driveId":"1IVl-VEslumdqURP2wIQygq9vyouKkfWb","size":6312105,"extractionMode":"pdf-text-or-ocr"},
+    {"part":8,"title":"الطبقات الكبرى — الجزء 8","format":"pdf","driveId":"1IEPXoKqIdyDWnCORJyUiV6Ao9qd9eLuh","size":6186601,"extractionMode":"pdf-text-or-ocr"},
+    {"part":9,"title":"الطبقات الكبرى — الجزء 9","format":"pdf","driveId":"1YHVDJ7kSe8hVL9W2Dyi0gt_KiTyER93S","sourceTitle":"الطبقات الکبیر لإبن سعد ـ الجز 9_text.pdf","extractionMode":"text-bearing-pdf","verifiedInDrive":true},
+    {"part":10,"title":"الطبقات الكبرى — الجزء 10","format":"pdf","driveId":"16FeLjSIBhd_NXK6YetqtIwXoauVMv_co","size":7784955,"extractionMode":"pdf-text-or-ocr"},
+    {"part":11,"title":"الطبقات الكبرى — الجزء 11","format":"pdf","driveId":"1UnUpwYxvAnRSvG4mJ9_x-3pbHzjuhXM-","size":3445610,"extractionMode":"pdf-text-or-ocr"}
+  ],
+  "completePartSequence": true,
+  "partCount": 11,
+  "missingParts": []
+}
