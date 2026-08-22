@@ -50,3 +50,5 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+# manual materialization trigger: 2026-08-22 batch 3
