@@ -43,6 +43,23 @@ jobs:
         with:
           python-version: '3.12'
 
+      # Publish every independently verified source record first. A failure in
+      # the larger five-section corpus build must never suppress otherwise
+      # publishable material.
+      - name: Validate immediate genuine-source publication candidates
+        run: python scripts/editorial_autopublish.py --check
+
+      - name: Publish immediate genuine-source records
+        run: |
+          python scripts/editorial_autopublish.py
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add data/editorial/publication_manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Autopublish newly verified genuine-source articles [skip ci]'
+            git push
+          fi
+
       - name: Build five exclusive Muhammad sections
         id: fivebuild
         shell: bash
@@ -98,10 +115,10 @@ jobs:
             git push
           fi
 
-      - name: Validate genuine-source publication candidates
+      - name: Validate genuine-source publication candidates after five-section build
         if: steps.fivebuild.outputs.exit_code == '0'
         run: python scripts/editorial_autopublish.py --check
-      - name: Publish all newly verified genuine-source drafts
+      - name: Publish all newly verified genuine-source drafts after five-section build
         if: steps.fivebuild.outputs.exit_code == '0'
         run: python scripts/editorial_autopublish.py
       - name: Validate public editorial manifest
