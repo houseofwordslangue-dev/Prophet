@@ -1,0 +1,220 @@
+{
+  "version": "2026-08-22-restored-five-source-slots-v1",
+  "draftedAt": "2026-08-22T02:28:00+01:00",
+  "publicationStatus": "PUBLISHED",
+  "policy": "genuine-source-only; latest exclusive semantic classification",
+  "drafts": [
+    {
+      "id": "20260820-messenger-righteous",
+      "title": "دعوات الأنبياء واتباع منهجهم",
+      "language": "source-language-preserved",
+      "contentType": "SOURCE ARTICLE",
+      "section": "messenger",
+      "subsection": "righteous",
+      "canonicalEditorialSlot": true,
+      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "paragraphs": [
+        {
+          "id": "strict-messenger-habibumar-02",
+          "text": "فدعوات الأنبياء غير دعوات سواهم، فليكن أتباعهم على قدمهم.",
+          "language": "ar",
+          "sourceRefs": ["strict-messenger-habibumar-02"],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": true,
+          "quotationVerified": true,
+          "editorialOperations": []
+        }
+      ],
+      "sources": [
+        {
+          "ref": "strict-messenger-habibumar-02",
+          "title": "القدوة الحسنة في منهج الدعوة إلى الله",
+          "author": "الحبيب عمر بن محمد بن سالم بن حفيظ",
+          "originalUrl": "https://alhabibumar.com/المواد-التعليمية/الدروس-العلمية/شرح-كتاب-القدوة-الحسنة/القدوة-الحسنة-في-منهج-الدعوة-إلى-الله-3",
+          "resourceId": "habib-umar-sirah",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "existing strict imported exact-passage record"
+        }
+      ],
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS"
+    },
+    {
+      "id": "20260820-messenger-research",
+      "title": "مراحل الدعوة النبوية",
+      "language": "source-language-preserved",
+      "contentType": "SOURCE ARTICLE",
+      "section": "messenger",
+      "subsection": "research",
+      "canonicalEditorialSlot": true,
+      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "paragraphs": [
+        {
+          "id": "strict-messenger-habibumar-01",
+          "text": "لقد مرّت الدعوة الإسلامية منذ بعثة النبي ﷺ إلى أن ارتحل إلى الرفيق الأعلى بمراحل مختلفة.",
+          "language": "ar",
+          "sourceRefs": ["strict-messenger-habibumar-01"],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": true,
+          "quotationVerified": true,
+          "editorialOperations": []
+        }
+      ],
+      "sources": [
+        {
+          "ref": "strict-messenger-habibumar-01",
+          "title": "القدوة الحسنة في منهج الدعوة إلى الله",
+          "author": "الحبيب عمر بن محمد بن سالم بن حفيظ",
+          "originalUrl": "https://alhabibumar.com/المواد-التعليمية/الدروس-العلمية/شرح-كتاب-القدوة-الحسنة/القدوة-الحسنة-في-منهج-الدعوة-إلى-الله-1",
+          "resourceId": "habib-umar-sirah",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "existing strict imported exact-passage record"
+        }
+      ],
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS"
+    },
+    {
+      "id": "20260820-human-verses",
+      "title": "البشرية والوحي",
+      "language": "ar",
+      "contentType": "SOURCE ARTICLE",
+      "section": "human",
+      "subsection": "verses",
+      "canonicalEditorialSlot": true,
+      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "paragraphs": [
+        {
+          "id": "q-human-18110",
+          "text": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ",
+          "language": "ar",
+          "sourceRefs": ["q-human-18110"],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": true,
+          "quotationVerified": true,
+          "editorialOperations": ["exclusive-human-classification"]
+        }
+      ],
+      "sources": [
+        {
+          "ref": "q-human-18110",
+          "title": "القرآن الكريم — الكهف 110",
+          "author": "",
+          "originalUrl": "https://quran.com/18/110",
+          "resourceId": "quran",
+          "chapter": "الكهف:110",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "existing strict imported exact-passage record"
+        }
+      ],
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS",
+      "notes": ["The mercy-focused verse previously bundled into this record was intentionally excluded under the latest exclusive semantic classification rule."]
+    },
+    {
+      "id": "20260820-media-videos",
+      "title": "الإنسانية في مادة مرئية موثقة",
+      "language": "source-language-preserved",
+      "contentType": "SOURCE ARTICLE",
+      "section": "media",
+      "subsection": "videos",
+      "canonicalEditorialSlot": true,
+      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "paragraphs": [
+        {
+          "id": "x-mercy-humanity",
+          "text": "المحبة إذا رسخت في القلب وقويت أصبحت صمام الأمان للحفاظ على إنسانيتنا وآدميتنا.",
+          "language": "ar",
+          "sourceRefs": ["x-mercy-humanity"],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": true,
+          "quotationVerified": true,
+          "editorialOperations": []
+        }
+      ],
+      "sources": [
+        {
+          "ref": "x-mercy-humanity",
+          "title": "مادة مرئية موثقة حول الإنسانية",
+          "author": "",
+          "originalUrl": "https://www.alhabibali.com/audiovideo/insanyah7/",
+          "resourceId": "habib-ali-humanity",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "existing strict imported exact-passage record"
+        }
+      ],
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS"
+    },
+    {
+      "id": "20260820-media-lectures",
+      "title": "واثلة بن الأسقع في درس سيرة مكتوب",
+      "language": "source-language-preserved",
+      "contentType": "SOURCE ARTICLE",
+      "section": "media",
+      "subsection": "lectures",
+      "canonicalEditorialSlot": true,
+      "draftStatus": "SOURCE_VERIFIED",
+      "publicationStatus": "PUBLISHED",
+      "paragraphs": [
+        {
+          "id": "media-lecture-wathila",
+          "text": "أسلم قبيل غزوة تبوك، واختار الهجرة الباتّة إلى المدينة، ولحق بالنبي ﷺ في تبوك.",
+          "language": "ar",
+          "sourceRefs": ["media-lecture-wathila"],
+          "substantive": true,
+          "aiOriginal": false,
+          "quotation": true,
+          "quotationVerified": true,
+          "editorialOperations": []
+        }
+      ],
+      "sources": [
+        {
+          "ref": "media-lecture-wathila",
+          "title": "درس السيرة النبوية - رُسُل رسول الله ﷺ: واثلة بن الأسقع - 2",
+          "author": "الحبيب عمر بن محمد بن سالم بن حفيظ",
+          "originalUrl": "https://alhabibumar.com/المواد-التعليمية/الدروس-العلمية/السيرة-النبوية/درس-السيرة-النبوية-رسل-رسول-الله-ﷺ-واثلة-بن-الأسقع-2",
+          "resourceId": "habib-umar-wathila-2",
+          "verifiedAgainstOriginal": true,
+          "verificationBasis": "exact short extract from approved source page"
+        }
+      ],
+      "sourceCoveragePercent": 100,
+      "aiOriginalSubstantiveContentPercent": 0,
+      "unsupportedFactualParagraphs": 0,
+      "unverifiedQuotations": 0,
+      "quotationVerification": "PASS",
+      "provenanceStatus": "PASS",
+      "duplicateCheck": "PASS"
+    }
+  ]
+}
