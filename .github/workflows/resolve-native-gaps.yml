@@ -54,3 +54,5 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
+# Manual trigger marker: 2026-08-22
