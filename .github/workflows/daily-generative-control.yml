@@ -1,6 +1,6 @@
 name: Daily Prophet generation control
 
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 # This is the ONLY automatic GitHub Actions workflow for this repository.
 # Recoverable gaps are recorded, not exploded into separate failure notifications.
 
@@ -107,8 +107,8 @@ jobs:
           set +e
           git config user.name 'prophet-daily-bot'
           git config user.email 'prophet-daily-bot@users.noreply.github.com'
-          git add -A data scripts 2>/dev/null || true
-          git add -f private/acquisition_candidates.json private/acquisition_state.json private/source_first_resolution.json private/resource_extraction_queue.json 2>/dev/null || true
+          git add -A data scripts docs AUTO_*.md 2>/dev/null || true
+          git add -f private/acquisition_candidates.json private/acquisition_state.json private/source_first_resolution.json private/resource_extraction_queue.json private/native_source_overrides.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m 'Daily consolidated generation, repair and publication [skip ci]' || true
             git pull --rebase origin main || true
@@ -167,6 +167,7 @@ jobs:
           - Successful stages: $successes
           - Recoverable/backlog signals: $recoverable
           - Automatic workflow count: **1**
+          - Governing master: MASTER-OVERRIDING-SITE-INSTRUCTION.md
           - Source truth/provenance override numerical targets.
           - Missing sources, network misses, enrichment deficits and unavailable deployment configuration are retried/recorded rather than spawning failure notifications.
 
