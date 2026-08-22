@@ -1,0 +1,43 @@
+name: Reconcile cross-session project updates
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/post_reconcile_canonical_routing.py'
+      - 'scripts/migrate_remaining_ar_ma_runtime.py'
+      - 'scripts/audit_current_instructions.py'
+      - '.github/workflows/reconcile-cross-session-updates.yml'
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    if: github.head_ref == 'reconcile/all-sessions-master-drive-20260822'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - name: Confirm canonical routing and Arabic runtime locale
+        run: |
+          python scripts/post_reconcile_canonical_routing.py
+          python scripts/migrate_remaining_ar_ma_runtime.py
+      - name: Syntax check governance audits
+        run: |
+          python -m py_compile scripts/post_reconcile_canonical_routing.py scripts/migrate_remaining_ar_ma_runtime.py scripts/audit_current_instructions.py scripts/check_master_governance.py
+      - name: Run unified current-instructions audit
+        run: |
+          python scripts/audit_current_instructions.py
+          python scripts/check_master_governance.py
+      - name: Commit final reconciliation fixes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Unified reconciliation already correct.'
+          else
+            git commit -m 'Finalize unified routing and ar-MA runtime migration'
+            git push origin HEAD:${{ github.head_ref }}
+          fi

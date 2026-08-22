@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Strict acquisition engine for unrestricted/public-domain assets.
 MASTER RULE: EPUB/text/Word/native formats are tried before PDF/OCR.
 """

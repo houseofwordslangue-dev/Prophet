@@ -1,8 +1,8 @@
 # AUTO CONTENT COMPLETION PROMPT
 
-GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 
-This is a standing automation instruction for the Prophet Muhammad biography website. It is subordinate to `MASTER_OVERRIDING_INSTRUCTION.md`; when any rule conflicts, the overriding master instruction wins.
+This is a standing automation instruction for the Prophet Muhammad biography website. It is subordinate to `MASTER-OVERRIDING-SITE-INSTRUCTION.md`; when any rule conflicts, the overriding master instruction wins.
 
 ## Objective
 
@@ -53,7 +53,7 @@ For existing pages and articles:
 
 ## Publication and quality gate
 
-Before publication, require the rules of `MASTER_OVERRIDING_INSTRUCTION.md`, including authenticity, provenance, verified OCR repair, canonical person placement, localization, rights, no-degradation and functional publication status.
+Before publication, require the rules of `MASTER-OVERRIDING-SITE-INSTRUCTION.md`, including authenticity, provenance, verified OCR repair, canonical person placement, localization, rights, no-degradation and functional publication status.
 
 Numerical targets are operational goals only. They never override source truth.
 

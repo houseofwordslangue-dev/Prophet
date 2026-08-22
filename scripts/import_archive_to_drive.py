@@ -1,3 +1,4 @@
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 # Archive.org -> Prophet-Library-Ingestion/Drive importer
 # Run in Google Colab. It mounts Drive, verifies public Archive.org files,
 # prefers EPUB, falls back to PDF, validates downloads, and writes a report.

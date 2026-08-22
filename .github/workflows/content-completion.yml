@@ -1,4 +1,4 @@
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 name: Content completion rotation
 
 on:
@@ -9,7 +9,7 @@ on:
     branches: [main]
     paths:
       - 'AUTO_CONTENT_COMPLETION_PROMPT.md'
-      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
       - 'scripts/content_completion_status.py'
       - 'scripts/completion_slot_fill.py'
       - 'scripts/mine_all_missing_biography_sources.py'
@@ -38,6 +38,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Enforce controlling master
+        run: python scripts/audit_current_instructions.py
 
       - name: Rebuild canonical biography requirements
         id: bioreq

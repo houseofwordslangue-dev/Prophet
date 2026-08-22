@@ -5,14 +5,14 @@ on:
   pull_request:
     paths:
       - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
-      - 'MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md'
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
       - 'scripts/**'
       - '.github/workflows/**'
   push:
     branches: [main]
     paths:
       - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
-      - 'MASTER-OVERRIDING-SITE-INSTRUCTION-BASE.md'
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
       - 'scripts/**'
       - '.github/workflows/**'
   workflow_dispatch:
@@ -30,3 +30,5 @@ jobs:
           fetch-depth: 0
       - name: Enforce controlling master instruction on new processes
         run: python3 scripts/check_master_governance.py
+      - name: Audit unified current instructions
+        run: python3 scripts/audit_current_instructions.py

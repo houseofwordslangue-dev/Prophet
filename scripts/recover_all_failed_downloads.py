@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Recover every verifiable public asset referenced by unresolved project catalogue records.
 
 The resolver is deliberately conservative: it downloads exact direct URLs and high-confidence

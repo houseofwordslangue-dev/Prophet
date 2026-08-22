@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 from __future__ import annotations
 import html,json,re,hashlib,urllib.parse,urllib.request
 from html.parser import HTMLParser

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Build deterministic 50-person canonical biography assignment batches.
 
 The script does not generate historical prose. It assigns source-backed rijal

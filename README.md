@@ -21,3 +21,13 @@ Repository enforcement is defined in `PROJECT-PROCESS-GOVERNANCE.md`, checked by
 `EDITORIAL-GENUINE-SOURCE-POLICY.md`, `CONTENT_SOURCE_POLICY.md`, `data/editorial_policy.json`, and other specialized policies are subordinate implementation policies and apply only where compatible with the controlling master instruction.
 
 The non-negotiable rule is: **AI serves the source; it never substitutes for source evidence.** Historical/source truth, provenance, canonical ownership, legal/security requirements, and the public-page rules in the controlling master instruction take priority over quotas or automation speed.
+
+
+## Canonical governance and information architecture
+
+- Sole controlling instruction: `MASTER-OVERRIDING-SITE-INSTRUCTION.md`.
+- Canonical family area: **الأسرة النبوية**, including **الزوجات / أمهات المؤمنين** as a collection that links to canonical person biographies.
+- **السير والتراجم** remains an independent canonical biography section; one person = one canonical biography.
+- Canonical resource area: **المصادر والدراسات**.
+- Children/young-person content belongs in **أحباب الله**.
+- Arabic generated/synthesized speech uses `ar-MA`.

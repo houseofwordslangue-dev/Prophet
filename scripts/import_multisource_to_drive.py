@@ -1,3 +1,4 @@
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Multi-source importer for Prophet-Library-Ingestion.
 
 Designed for Google Colab + mounted Google Drive.

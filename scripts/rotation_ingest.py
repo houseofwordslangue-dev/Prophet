@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Persistent round-robin ingestion orchestrator.
 
 Each invocation advances durable cursors across independent queues instead of starting

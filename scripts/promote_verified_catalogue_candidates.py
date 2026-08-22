@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Promote rights-cleared exact catalogue sources into the acquisition queue.
 
 MASTER RULE: native digital text is always searched and preferred before OCR.

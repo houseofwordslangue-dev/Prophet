@@ -1,4 +1,4 @@
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 name: Public content source integrity
 
 # This workflow inventories legacy/public source-integrity gaps without turning
@@ -14,7 +14,7 @@ on:
       - 'data/children/**'
       - 'scripts/public_content_source_audit.py'
       - 'scripts/editorial_autopublish.py'
-      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
       - '.github/workflows/public-content-source-audit.yml'
   push:
     branches: [main]
@@ -25,7 +25,7 @@ on:
       - 'data/children/**'
       - 'scripts/public_content_source_audit.py'
       - 'scripts/editorial_autopublish.py'
-      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
       - '.github/workflows/public-content-source-audit.yml'
   schedule:
     - cron: '41 2 * * *'
@@ -39,6 +39,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Enforce controlling master
+        run: python scripts/audit_current_instructions.py
       - name: Audit public process language and provenance backlog
         id: publicaudit
         continue-on-error: true

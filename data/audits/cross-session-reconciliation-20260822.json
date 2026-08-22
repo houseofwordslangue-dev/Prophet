@@ -1,0 +1,28 @@
+{
+  "schema": "cross-session-reconciliation-v1",
+  "governedBy": "MASTER-OVERRIDING-SITE-INSTRUCTION.md",
+  "repositoryBaseline": "9ed39b3b48f68e80f3813d839dece4df56e18a45",
+  "preservedBranchReviewed": "menu/add-wives-mothers-believers-20260821",
+  "driveProductionManifestRecords": 335,
+  "driveEvidenceReviewed": [
+    "Prophet Muhammad Resources — Archive.org",
+    "الطبقات الكبرى-ج4.pdf",
+    "سبل الهدى و الرشاد في سيرة خير العباد-ج8.pdf",
+    "سبل الهدى و الرشاد في سيرة خير العباد-ج10.pdf"
+  ],
+  "recoveredUpdates": [
+    "single full master authority",
+    "الزوجات / أمهات المؤمنين family collection",
+    "family group query routing",
+    "المصادر والدراسات canonical public label",
+    "ar-MA global synthesized Arabic locale",
+    "canonical governing declaration for active processes",
+    "single children Adel loader",
+    "Drive rights-aware publication policy"
+  ],
+  "notBlindlyMerged": [
+    "legacy family-person duplicate routing",
+    "disputed spouse classification not promoted merely from branch metadata"
+  ],
+  "principle": "Recovered compatible work into current architecture; historical/source truth and one-person-one-canonical-biography remain controlling."
+}

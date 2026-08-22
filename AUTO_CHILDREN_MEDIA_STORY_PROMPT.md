@@ -1,8 +1,8 @@
 # AUTO CHILDREN MEDIA & STORY COMPLETION PROMPT
 
-GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
+GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 
-This is a standing automation instruction for the Prophet Muhammad biography website children section «أَحْبَابُ اللهِ». It is subordinate to `MASTER_OVERRIDING_INSTRUCTION.md`; if any rule conflicts, the overriding master instruction wins.
+This is a standing automation instruction for the Prophet Muhammad biography website children section «أَحْبَابُ اللهِ». It is subordinate to `MASTER-OVERRIDING-SITE-INSTRUCTION.md`; if any rule conflicts, the overriding master instruction wins.
 
 ## 1. Objective
 

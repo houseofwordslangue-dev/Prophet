@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
 """Build source-extracted Tābiʿīn and Atbāʿ al-Tābiʿīn biography shards.
 
 The source is Al-Itqan's open structured rijāl corpus. The script never creates
