@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-21T23:46:16.984144+00:00",
-  "gitCommit": "8fcc053411ae03f0da726ee1481721e87d3cb781",
+  "generatedAt": "2026-08-22T01:04:58.691220+00:00",
+  "gitCommit": "55be2f4053b7c7819bbc9ac56c44a0b313c25a81",
   "github": {
-    "trackedFileCount": 762,
+    "trackedFileCount": 763,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 192,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 125,
       "PUBLIC_OR_SOURCE_ASSET": 44,
       "PUBLIC_SITE_ASSET": 100,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 293
+      "CONTENT_OR_PUBLICATION_REGISTRY": 294
     },
     "files": [
       {
@@ -755,12 +755,12 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 4842965,
+        "size": 839666,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.md",
-        "size": 861,
+        "size": 853,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2790,7 +2790,7 @@
       },
       {
         "path": "data/editorial/publication_manifest.json",
-        "size": 14082,
+        "size": 17975,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3051,6 +3051,11 @@
       {
         "path": "data/site_sections.json",
         "size": 7546,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/source_first_fulltext_policy.json",
+        "size": 756,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
