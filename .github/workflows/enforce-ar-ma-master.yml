@@ -1,5 +1,6 @@
 name: Enforce ar-MA master audio locale
 
+# One-time governance migration. A workflow-file push intentionally triggers this job.
 on:
   push:
     paths:
