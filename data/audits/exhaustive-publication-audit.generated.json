@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:20:15.153175+00:00",
-  "gitCommit": "7adf906cd93d950de5df8e8f1aa37825bf495b77",
+  "generatedAt": "2026-08-22T02:39:59.835610+00:00",
+  "gitCommit": "ce3c9abfcf0387e2da055223f1c18b799120e361",
   "github": {
-    "trackedFileCount": 798,
+    "trackedFileCount": 802,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 211,
+      "TECHNICAL_REPOSITORY_FILE": 213,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 50,
       "PUBLIC_SITE_ASSET": 104,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 298
+      "CONTENT_OR_PUBLICATION_REGISTRY": 300
     },
     "files": [
       {
@@ -81,6 +81,11 @@
       {
         "path": ".github/workflows/export-archive-pdf-epub.yml",
         "size": 2135,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".github/workflows/extend-short-biographies-500.yml",
+        "size": 1585,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -870,7 +875,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 851370,
+        "size": 851538,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -880,7 +885,7 @@
       },
       {
         "path": "data/biography_500_policy.json",
-        "size": 1826,
+        "size": 1761,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -2974,6 +2979,16 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/short_biographies_500_audit.json",
+        "size": 50003,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/editorial/short_biography_extensions.json",
+        "size": 320,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/source_extract_100_audit.json",
         "size": 6124,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
@@ -3781,6 +3796,11 @@
       {
         "path": "scripts/export_archive_pdf_epub.py",
         "size": 5821,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/extend_short_biographies_500.py",
+        "size": 8830,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
