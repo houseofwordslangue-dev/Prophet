@@ -1,9 +1,31 @@
 name: Public content source integrity
 
+# Governed by MASTER_OVERRIDING_INSTRUCTION.md.
+# Run only when public historical/editorial content or its provenance logic changes.
+# This preserves hard source/provenance gates without generating failure emails for
+# unrelated CSS, player, UI, or infrastructure commits.
 on:
   pull_request:
+    paths:
+      - '*.html'
+      - '*.json'
+      - 'data/editorial/**'
+      - 'data/children/**'
+      - 'scripts/public_content_source_audit.py'
+      - 'scripts/editorial_autopublish.py'
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - '.github/workflows/public-content-source-audit.yml'
   push:
     branches: [main]
+    paths:
+      - '*.html'
+      - '*.json'
+      - 'data/editorial/**'
+      - 'data/children/**'
+      - 'scripts/public_content_source_audit.py'
+      - 'scripts/editorial_autopublish.py'
+      - 'MASTER_OVERRIDING_INSTRUCTION.md'
+      - '.github/workflows/public-content-source-audit.yml'
   workflow_dispatch:
 
 jobs:
