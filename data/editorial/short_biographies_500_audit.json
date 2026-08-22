@@ -1,6 +1,6 @@
 {
-  "schema": "short-biographies-500-audit-v5",
-  "generatedAt": "2026-08-22T02:50:32.230111Z",
+  "schema": "short-biographies-500-audit-v3",
+  "generatedAt": "2026-08-22T02:51:36.802246Z",
   "targetWords": 500,
   "indexedPeople": 514,
   "below500Before": 362,
@@ -2846,5 +2846,510 @@
   "interpretation": "Only readable direct person-owned source-backed Arabic counts. Collapsed OCR and related documentary context are excluded.",
   "directSiyarPagesAdded": 7,
   "directSiyarWordsAdded": 23457,
-  "duplicateCanonicalSiyarPagesSkipped": 0
+  "duplicateCanonicalSiyarPagesSkipped": 0,
+  "onlineSource": "Arabic Wikisource direct biographical pages from approved biographical works",
+  "onlineWikisourcePagesAdded": 0,
+  "onlineSourceWordsAdded": 0,
+  "onlineExtractionErrors": [
+    {
+      "id": "abu-bakr",
+      "title": "سير أعلام النبلاء/أبو بكر الصديق",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "khalid-ibn-al-walid",
+      "title": "سير أعلام النبلاء/خالد بن الوليد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "muadh-ibn-jabal",
+      "title": "سير أعلام النبلاء/معاذ بن جبل",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-00a9c504ca70",
+      "title": "سير أعلام النبلاء/ابن هشام",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-02b9ea4b736a",
+      "title": "سير أعلام النبلاء/ابن دحية",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-06395667d06a",
+      "title": "سير أعلام النبلاء/روزبهان البقلي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-07d1e01c910b",
+      "title": "سير أعلام النبلاء/محمد بن عيسى الترمذي",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "person-0adcb4db1e7c",
+      "title": "سير أعلام النبلاء/محمد متولي الشعراوي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-0b7f7e3f99f5",
+      "title": "سير أعلام النبلاء/محيي الدين ابن عربي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-16123c5eb12a",
+      "title": "سير أعلام النبلاء/محمد بن أحمد القرطبي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-1887897a1661",
+      "title": "سير أعلام النبلاء/الحارث المحاسبي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-1a9174be20e0",
+      "title": "سير أعلام النبلاء/عبد الله بن علوي الحداد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-22d0813a70ca",
+      "title": "سير أعلام النبلاء/أحمد ابن عجيبة",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-2c5e6ee6995a",
+      "title": "سير أعلام النبلاء/ابن حجر العسقلاني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-355807c0957a",
+      "title": "سير أعلام النبلاء/سهل التستري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-35fe83b608f9",
+      "title": "سير أعلام النبلاء/علي القاري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-3bcb0d0f9465",
+      "title": "سير أعلام النبلاء/أبو عبد الرحمن السلمي",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "person-3d4354988ba1",
+      "title": "سير أعلام النبلاء/عبد الوهاب بن أحمد الشعراني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-42363f863a52",
+      "title": "سير أعلام النبلاء/عبد الوهاب الشعراني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-455c52fecad3",
+      "title": "سير أعلام النبلاء/عبد الرحمن الديبع",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-4600a94b5047",
+      "title": "سير أعلام النبلاء/ابن عطاء الله السكندري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-4965ee4b4a2e",
+      "title": "سير أعلام النبلاء/ابن حزم",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-4970fb596979",
+      "title": "سير أعلام النبلاء/محمد بن جرير الطبري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-4a659b864e94",
+      "title": "سير أعلام النبلاء/عبد الرحمن بن علي ابن الجوزي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-4c80649dd63b",
+      "title": "سير أعلام النبلاء/الذهبي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-505ff3c05d4b",
+      "title": "سير أعلام النبلاء/أحمد بن حنبل",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-53f4613557d0",
+      "title": "سير أعلام النبلاء/علي بن محمد الحبشي",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "person-55e9499722ba",
+      "title": "سير أعلام النبلاء/جلال الدين السيوطي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-57678ce6684a",
+      "title": "سير أعلام النبلاء/جلال الدين الرومي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-5cfce66e8914",
+      "title": "سير أعلام النبلاء/محب الدين الطبري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-5dad76e8ac3a",
+      "title": "سير أعلام النبلاء/أحمد ابن حجر الهيتمي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-6378b4e18412",
+      "title": "سير أعلام النبلاء/ابن علان الصديقي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-65c58c1c5087",
+      "title": "سير أعلام النبلاء/أبو حامد الغزالي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-67d2e5495d8a",
+      "title": "سير أعلام النبلاء/ابن الأثير",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-6a2fb0e55aef",
+      "title": "سير أعلام النبلاء/مؤلف غير محسوم",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-6c232a477c16",
+      "title": "سير أعلام النبلاء/أبو نعيم الأصبهاني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-6dd9beba77d4",
+      "title": "سير أعلام النبلاء/مغلطاي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-786870b1fbc8",
+      "title": "سير أعلام النبلاء/محمد بن قاسم جسوس",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-7f6e18811365",
+      "title": "سير أعلام النبلاء/يوسف النبهاني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-80e620e0e338",
+      "title": "سير أعلام النبلاء/جعفر البرزنجي",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "person-8886a07bd085",
+      "title": "سير أعلام النبلاء/فخر الدين الرازي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-8c13ceaa6b49",
+      "title": "سير أعلام النبلاء/أبو الفرج عبد الرحمن بن علي ابن الجوزي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-919ef631490f",
+      "title": "سير أعلام النبلاء/القاضي عياض",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-9e5b72e62f72",
+      "title": "سير أعلام النبلاء/ابن حزم الأندلسي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-9f11225bb49e",
+      "title": "سير أعلام النبلاء/محمد بن سليمان بن عبد الرحمن الجزولي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-9f306fc0aaba",
+      "title": "سير أعلام النبلاء/ابن الجوزي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-a0f03dd7e445",
+      "title": "سير أعلام النبلاء/محمد الخضري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-a43b4587691d",
+      "title": "سير أعلام النبلاء/أبو الفداء إسماعيل بن كثير",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-a5e59b399abf",
+      "title": "سير أعلام النبلاء/عبد الكريم القشيري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-ba9aa4959497",
+      "title": "سير أعلام النبلاء/محمد بن سعيد البوصيري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-bbcfbdc8aad3",
+      "title": "سير أعلام النبلاء/محمد بن جعفر الكتاني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-c032eca5a0cb",
+      "title": "سير أعلام النبلاء/أبو الحسن علي بن خليل المسفّر السبتي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-c0e0a70563a1",
+      "title": "سير أعلام النبلاء/عبد القادر الجيلاني",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "person-c29a1c5c546c",
+      "title": "سير أعلام النبلاء/إسماعيل حقي البروسوي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-c3b2d03973de",
+      "title": "سير أعلام النبلاء/رشيد الدين الميبدي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-c90046a44f73",
+      "title": "سير أعلام النبلاء/البلاذري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-d7fb32a15dcd",
+      "title": "سير أعلام النبلاء/زين الدين العراقي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-d9fcdf4ff0cd",
+      "title": "سير أعلام النبلاء/أحمد بن قاسم البخاري",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-dbf3b8a9f2de",
+      "title": "سير أعلام النبلاء/ابن حجر الهيتمي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-dc0f587e3dc2",
+      "title": "سير أعلام النبلاء/الواحدي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-e03e97656dec",
+      "title": "سير أعلام النبلاء/أحمد القسطلاني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-e096df1cc9ad",
+      "title": "سير أعلام النبلاء/ابن كثير",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-e18e64936084",
+      "title": "سير أعلام النبلاء/أبو حامد محمد الغزالي",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "person-e2f3b87898f9",
+      "title": "سير أعلام النبلاء/الطبراني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-e4e3b97ca9e1",
+      "title": "سير أعلام النبلاء/غير مذكور / مجهول في بعض الفهارس",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-eec2b7f83c29",
+      "title": "سير أعلام النبلاء/مؤمن الشبلنجي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-f974ed62e10c",
+      "title": "سير أعلام النبلاء/عبد الملك بن هشام",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "person-fe2e22ec110a",
+      "title": "سير أعلام النبلاء/عبد الحي الكتاني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "prophet-muhammad",
+      "title": "سير أعلام النبلاء/محمد ﷺ",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "saeed-ibn-zayd",
+      "title": "سير أعلام النبلاء/سعيد بن زيد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "salman-al-farisi",
+      "title": "سير أعلام النبلاء/سلمان الفارسي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-04f9e317c939a0",
+      "title": "سير أعلام النبلاء/إبراهيم بن الوليد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-05cfaae5380457",
+      "title": "سير أعلام النبلاء/النعمان بن مقرن",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "siyar-08b3b7632a671f",
+      "title": "سير أعلام النبلاء/القاسم بن عبد الرحمن الكوفي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-099f0304de00f1",
+      "title": "سير أعلام النبلاء/ابن عبد الله بن سعد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-0f41cd233d1228",
+      "title": "سير أعلام النبلاء/ابن الغسيل",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "siyar-113a0d727d14a2",
+      "title": "سير أعلام النبلاء/عبد الله بن يزيد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-11cc14f9fff4d1",
+      "title": "سير أعلام النبلاء/أبو بكر بن محمد بن عمرو",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-13cbe81ffcd263",
+      "title": "سير أعلام النبلاء/أبو إسحاق الشيباني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-15227424bae8b7",
+      "title": "سير أعلام النبلاء/أبو أسماء الرحبي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-171d97e4e4b731",
+      "title": "سير أعلام النبلاء/الوحاظي",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-1a662c18a744ee",
+      "title": "سير أعلام النبلاء/أبو أحمد المؤدب",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-1e76fa2844f1c6",
+      "title": "سير أعلام النبلاء/أبان بن عثمان",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-279b8d8836fc3a",
+      "title": "سير أعلام النبلاء/مطر الوراق",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-2c3d3cf396995d",
+      "title": "سير أعلام النبلاء/أبو خالد الفراء",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-326f82ef430946",
+      "title": "سير أعلام النبلاء/أبو حذيفة إسحاق بن بشر",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "siyar-3547adc973ce72",
+      "title": "سير أعلام النبلاء/أبان",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-35b27fbf5cb2e8",
+      "title": "سير أعلام النبلاء/أبو أسامة",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-38daad2c849c16",
+      "title": "سير أعلام النبلاء/أبو الهذيل العلاف",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "siyar-394c0cad6387cd",
+      "title": "سير أعلام النبلاء/ابن الماجشون",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-3b14990986ac21",
+      "title": "سير أعلام النبلاء/ابن الأشعث",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-3dcd087f4a8fda",
+      "title": "سير أعلام النبلاء/أبو بردة بن أبي موسى",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-3f698ce1e124c3",
+      "title": "سير أعلام النبلاء/أبان بن صمعة",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-402c4ee7c95f78",
+      "title": "سير أعلام النبلاء/أبو الأحوص",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-49838a4529f16b",
+      "title": "سير أعلام النبلاء/ابن أبي الزناد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-4ca87676cb4fc7",
+      "title": "سير أعلام النبلاء/يزيد بن الوليد",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-4dad92e99544d1",
+      "title": "سير أعلام النبلاء/أبو أيوب المورياني",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-4e0eb32c7c735b",
+      "title": "سير أعلام النبلاء/أبو الجوزاء",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "siyar-4e418af58e3ad1",
+      "title": "سير أعلام النبلاء/أبو دلف",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "siyar-5283ac067ad346",
+      "title": "سير أعلام النبلاء/ابن الطباع",
+      "error": "HTTP Error 429: Too many requests (f061ab2)"
+    }
+  ]
 }
