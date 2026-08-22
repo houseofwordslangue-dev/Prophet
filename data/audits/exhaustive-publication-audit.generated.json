@@ -1,14 +1,14 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:18:35.316960+00:00",
-  "gitCommit": "3495bf80935e9cf1cfd3e2c44799ec225ee9b426",
+  "generatedAt": "2026-08-22T02:18:52.306904+00:00",
+  "gitCommit": "3707747605201bad1f283b1c27f4f162092d4e7d",
   "github": {
-    "trackedFileCount": 796,
+    "trackedFileCount": 797,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 211,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 50,
-      "PUBLIC_SITE_ASSET": 103,
+      "PUBLIC_SITE_ASSET": 104,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
       "CONTENT_OR_PUBLICATION_REGISTRY": 297
     },
@@ -511,6 +511,11 @@
       {
         "path": "assets/editorial-restored-five-bootstrap.js",
         "size": 1121,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
+        "path": "assets/empty-section-five.js",
+        "size": 2304,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
