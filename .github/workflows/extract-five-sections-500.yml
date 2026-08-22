@@ -1,0 +1,52 @@
+name: Build five exclusive sections — 500 articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/extract_five_sections_500_v2.py
+      - .github/workflows/extract-five-sections-500.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract and validate 500 source-derived articles
+        run: python scripts/extract_five_sections_500_v2.py
+      - name: Verify exact distribution and article floor
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          p=json.load(open('data/editorial/drafts/2026-08-22/five-sections-500.json',encoding='utf-8'))
+          c=Counter(x['section'] for x in p['drafts'])
+          assert len(p['drafts'])==500
+          assert c==Counter({'light':100,'prophet':100,'messenger':100,'human':100,'mercy':100}), c
+          assert min(x['sourceWordCount'] for x in p['drafts']) >= 1000
+          assert len({x['sourceFingerprint'] for x in p['drafts']}) == 500
+          assert all(x['sourceCoveragePercent']==100 and x['aiOriginalSubstantiveContentPercent']==0 for x in p['drafts'])
+          print('PASS',c)
+          PY
+      - name: Commit publication corpus
+        run: |
+          git config user.name 'prophet-editorial-bot'
+          git config user.email 'prophet-editorial-bot@users.noreply.github.com'
+          git add data/editorial/drafts/2026-08-22/five-sections-500.json \
+                  data/editorial/audits/five-sections-500-audit.json \
+                  data/editorial/publication_manifest.json \
+                  data/editorial/publication_supplement.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish 100 exclusive articles per Muhammad section [skip ci]'
+            git push
+          fi
