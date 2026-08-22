@@ -14,6 +14,7 @@ on:
       - '.github/workflows/daily-generative-control.yml'
       - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
       - 'scripts/source_first_fulltext_resolver.py'
+      - 'scripts/check_resource_extraction_availability.py'
       - 'data/drive_native_assets_20260822.json'
       - 'data/public_catalog_all.generated.json'
 
@@ -59,19 +60,18 @@ jobs:
             return 0
           }
 
-          # RESOURCE AVAILABILITY PASS 1: resolve every catalog item to a real extraction path
-          # (local text/EPUB, Drive native asset, verified remote fulltext, or PDF+OCR).
-          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver pass 1' python scripts/source_first_fulltext_resolver.py
-          [ -f scripts/live_native_catalog_resolver.py ] && run_one 'live native catalog resolver' python scripts/live_native_catalog_resolver.py
+          # RESOURCE AVAILABILITY: every catalogue resource must resolve to an extraction path.
+          # Resolution priority: local/ingested -> Drive EPUB/text -> verified remote native text -> PDF+OCR.
+          for pass in 1 2 3; do
+            [ -f scripts/source_first_fulltext_resolver.py ] && run_one "resource extraction resolver pass $pass" python scripts/source_first_fulltext_resolver.py
+            [ -f scripts/live_native_catalog_resolver.py ] && run_one "live native catalog resolver pass $pass" python scripts/live_native_catalog_resolver.py
+            [ -f scripts/acquire_unrestricted_library.py ] && run_one "library acquisition pass $pass" python scripts/acquire_unrestricted_library.py --limit 500
+            [ -f scripts/build_ingested_library.py ] && run_one "library index rebuild pass $pass" python scripts/build_ingested_library.py
+          done
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver final' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/check_resource_extraction_availability.py ] && run_one 'strict resource extraction availability gate' python scripts/check_resource_extraction_availability.py
 
-          # ACQUISITION: work the unresolved queue aggressively, then rebuild indexes.
-          [ -f scripts/acquire_unrestricted_library.py ] && run_one 'library acquisition' python scripts/acquire_unrestricted_library.py --limit 200
-          [ -f scripts/build_ingested_library.py ] && run_one 'library index rebuild' python scripts/build_ingested_library.py
-
-          # RESOURCE AVAILABILITY PASS 2: re-resolve after acquisition so generation sees the
-          # newest local/remote extraction routes and never consumes a catalog-only record.
-          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver pass 2' python scripts/source_first_fulltext_resolver.py
-
+          # Editorial generation may consume ONLY resource records marked extractionReady=true.
           if [ -f scripts/daily_rotating_editorial_fill.py ]; then
             for section in light prophet messenger human mercy family companions media; do
               run_one "editorial-$section" python scripts/daily_rotating_editorial_fill.py --section "$section"
@@ -81,8 +81,8 @@ jobs:
           [ -f scripts/content_completion_status.py ] && run_one 'content completion status' python scripts/content_completion_status.py
           [ -f scripts/completion_slot_fill.py ] && run_one 'underfilled slot completion' python scripts/completion_slot_fill.py
 
-          # Biography enrichment is EXTRACT + SOURCE-GROUNDED GENERATION/ASSEMBLY.
-          # Only sources recorded extractionReady=true by the resolver are eligible evidence.
+          # Biography enrichment = extraction + source-grounded synthesis/assembly.
+          # Catalog-only resources without extractionReady=true are never eligible evidence.
           [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'biography source mining' python scripts/mine_all_missing_biography_sources.py
           [ -f scripts/extend_short_biographies_500.py ] && run_one 'strict local short-biography extraction' python scripts/extend_short_biographies_500.py
           [ -f scripts/enrich_short_biographies_siyar_direct.py ] && run_one 'direct Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
@@ -129,11 +129,12 @@ jobs:
           - Successful pipeline stages: $successes
           - Recoverable/non-zero stages: $recoverable
           - Resource policy: generation uses only verified extractionReady resources.
-          - Missing resources remain in the acquisition/retry queue until an extraction path exists.
-          - Biography mode: extract sources first, then source-grounded synthesis/assembly; no unsupported historical fill.
+          - Resolver/acquisition runs three passes per cycle, followed by a strict final availability audit.
+          - Missing resources remain in acquisition/retry until an extraction path exists; they are never silently treated as usable.
+          - Biography mode: extract first, then source-grounded synthesis/assembly; no unsupported historical fill.
           - Governance/security/acceptance workflows remain enabled.
           - Notification policy: one report per UTC day.
-          - Master rule: source truth and provenance override quotas; retryable gaps do not fail the daily run.
+          - Master rule: source truth and provenance override quotas.
 
           <details><summary>Last runtime lines</summary>
 
@@ -145,6 +146,4 @@ jobs:
           gh issue comment "$REPORT_ISSUE" --repo "$GITHUB_REPOSITORY" --body-file /tmp/report.md >/dev/null 2>&1 || true
           exit 0
 
-# Manual resume trigger: 2026-08-22
-# Biography extract/generate mode: 2026-08-22
-# Resource extraction availability gate: 2026-08-22
+# Resource extraction availability hardening: 2026-08-22
