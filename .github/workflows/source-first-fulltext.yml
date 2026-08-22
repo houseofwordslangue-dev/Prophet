@@ -5,9 +5,11 @@ on:
     paths:
       - 'data/public_catalog_all.generated.json'
       - 'data/source_first_fulltext_policy.json'
+      - 'data/drive_native_assets_20260822.json'
       - 'private/acquisition_candidates.json'
       - 'scripts/source_first_fulltext_resolver.py'
       - 'scripts/acquire_unrestricted_library.py'
+      - 'scripts/promote_verified_catalogue_candidates.py'
       - '.github/workflows/source-first-fulltext.yml'
   schedule:
     - cron: '7,22,37,52 * * * *'
@@ -21,6 +23,8 @@ jobs:
   resolve-and-acquire:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,6 +34,9 @@ jobs:
           python-version: '3.12'
       - name: Search native digital formats before OCR
         run: python scripts/source_first_fulltext_resolver.py
+      - name: Promote verified native sources with EPUB text Word priority
+        continue-on-error: true
+        run: python scripts/promote_verified_catalogue_candidates.py --limit 150
       - name: Acquire verified unrestricted native copies
         run: python scripts/acquire_unrestricted_library.py --limit 40
       - name: Rebuild public reader index
@@ -41,8 +48,28 @@ jobs:
         run: |
           git config user.name 'prophet-source-first-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add -- private/source_first_resolution.json private/acquisition_state.json data/ingested_library.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
+          git add -- private/source_first_resolution.json private/acquisition_candidates.json private/acquisition_state.json data/ingested_library.json data/audits/exhaustive-publication-audit.generated.json data/audits/exhaustive-publication-audit.generated.md || true
           if ! git diff --cached --quiet; then
             git commit -m 'Resolve native full-text sources before OCR'
             git push
+          fi
+      - name: Deploy acquired full-text assets to production
+        env:
+          PM_DEPLOY_HOST: ${{ secrets.PM_DEPLOY_HOST }}
+          PM_DEPLOY_USER: ${{ secrets.PM_DEPLOY_USER }}
+          PM_DEPLOY_PATH: ${{ secrets.PM_DEPLOY_PATH }}
+          PM_DEPLOY_SSH_KEY: ${{ secrets.PM_DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$PM_DEPLOY_HOST" ] || [ -z "$PM_DEPLOY_USER" ] || [ -z "$PM_DEPLOY_PATH" ] || [ -z "$PM_DEPLOY_SSH_KEY" ]; then
+            echo 'Deployment secrets not configured; acquisition/index state committed but binary deployment skipped.'
+            exit 0
+          fi
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$PM_DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$PM_DEPLOY_HOST" >> ~/.ssh/known_hosts
+          ssh "$PM_DEPLOY_USER@$PM_DEPLOY_HOST" "mkdir -p '$PM_DEPLOY_PATH/data' '$PM_DEPLOY_PATH/library/works'"
+          rsync -az data/ingested_library.json "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/data/ingested_library.json"
+          if [ -d library/works ]; then
+            rsync -az library/works/ "$PM_DEPLOY_USER@$PM_DEPLOY_HOST:$PM_DEPLOY_PATH/library/works/"
           fi
