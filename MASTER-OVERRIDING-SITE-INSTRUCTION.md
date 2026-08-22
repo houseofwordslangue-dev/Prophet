@@ -165,6 +165,7 @@ Major canonical areas include:
 - الإنسان
 - الرحمة العظمى
 - الأسرة النبوية
+- العائلة النبوية
 - الصحابة
 - السير والتراجم
 - أحباب الله
@@ -2667,22 +2668,43 @@ A subordinate prompt may set operational targets or implementation details only 
 When project state is reconciled across sessions, branches, Drive, generated artifacts or older releases, preserve useful compatible work, migrate it to the current canonical architecture, and remove obsolete competing wiring only after its useful content has been retained.
 
 ==================================================
-103. CANONICAL FAMILY NAVIGATION AND SPOUSE COLLECTION
+103. CANONICAL PROPHETIC HOUSEHOLD AND FAMILY NAVIGATION
 ==================================================
 
-`الأسرة النبوية` is the canonical public family area.
+The public information architecture MUST maintain TWO distinct top-level family areas. They are complementary and MUST NOT be collapsed into one another.
 
-It MUST provide a clear collection/filter entry for `الزوجات / أمهات المؤمنين`, resolving through the family interface such as `family.html?group=wives` or an equivalent canonical collection route.
+A. `الأسرة النبوية`
 
-This collection is navigation and grouping only. It MUST NOT create duplicate biographies. Every individual wife/Mother of the Believers remains ONE canonical person in `السير والتراجم` and resolves to the single canonical biography page for that person.
+This section is limited to the Prophet’s immediate household collections:
 
-The family area should also expose, where applicable and supported by the live family registry: الوالدان; الأجداد والنسب; الأبناء والبنات; الأحفاد والذرية; الأعمام والعمات; الأخوال والخالات; أبناء العمومة وسائر القرابة; الأصهار; وعلاقات الرضاعة والكفالة.
+- `الزوجات / أمهات المؤمنين`;
+- `الأبناء والبنات`;
+- `الأحفاد والذرية`.
 
-Do not maintain a competing top-level `العائلة النبوية` architecture when the same material can be represented as collections within `الأسرة النبوية` and canonical person biographies.
+The spouse collection resolves through the family interface such as `family.html?group=wives` or an equivalent canonical collection route. Children and descendants resolve through their corresponding family collections.
 
-Historical classification must remain source-sensitive. Do not place a person into the public `أمهات المؤمنين` collection merely to satisfy a menu or quantity target when that classification is disputed or not supported by the project's adopted sources. Such a person may remain in the broader family system under the most accurate supported relationship classification.
+B. `العائلة النبوية`
 
-==================================================
+This is an independent top-level family section for the wider family and lineage structure. It contains:
+
+- `الوالدان`;
+- `الأجداد والنسب`;
+- `الأعمام والعمات`;
+- `الأخوال والخالات`;
+- `أبناء العمومة`;
+- `الأصهار`;
+- `الرضاعة والكفالة`;
+- `الشجرة العائلية`.
+
+These two top-level sections are navigation and grouping systems only. They MUST NOT create duplicate biographies.
+
+Every individual person represented in either `الأسرة النبوية` or `العائلة النبوية` remains ONE canonical person in `السير والتراجم` and resolves to that single canonical biography page.
+
+Do not move the wider-family categories into `الأسرة النبوية`, and do not move the immediate-household categories into `العائلة النبوية`.
+
+Historical classification remains source-sensitive. Do not place a person into `أمهات المؤمنين`, a lineage group, or another family relationship merely to satisfy a menu or quantity target when that classification is disputed or unsupported by the project's adopted sources. Use the most accurate supported relationship classification.
+
+=================================================
 104. CANONICAL SOURCES AND STUDIES PUBLIC LABEL
 ==================================================
 
