@@ -1,16 +1,16 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:19:59.843892+00:00",
-  "gitCommit": "25b26782a2e8361396f141ea2ba9cdfbcaff6cb3",
+  "generatedAt": "2026-08-22T02:20:15.153175+00:00",
+  "gitCommit": "7adf906cd93d950de5df8e8f1aa37825bf495b77",
   "github": {
-    "trackedFileCount": 797,
+    "trackedFileCount": 798,
     "fileDispositionCounts": {
       "TECHNICAL_REPOSITORY_FILE": 211,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 50,
       "PUBLIC_SITE_ASSET": 104,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 297
+      "CONTENT_OR_PUBLICATION_REGISTRY": 298
     },
     "files": [
       {
@@ -856,6 +856,11 @@
       {
         "path": "data/archive_import_batch.json",
         "size": 1756,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
+        "path": "data/audits/empty-section-five-articles-current.json",
+        "size": 1047,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
