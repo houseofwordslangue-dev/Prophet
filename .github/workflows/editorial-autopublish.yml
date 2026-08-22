@@ -1,9 +1,10 @@
+# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
 name: Genuine-source editorial autopublish
 
-# Controlled by MASTER_OVERRIDING_INSTRUCTION.md.
 # Eight main editorial sections rotate across each 24-hour UTC cycle.
 # One section is processed every three hours. Only source-grounded candidates
-# that pass the strict provenance gate are published.
+# that pass the strict provenance gate are published. Cadence/volume misses are
+# recoverable diagnostics and never override source truth.
 on:
   workflow_dispatch:
   schedule:
