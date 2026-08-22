@@ -1,10 +1,8 @@
 name: Daily Prophet generation control
 
-# GOVERNED_BY: MASTER_OVERRIDING_INSTRUCTION.md
-# BOOTSTRAP: 2026-08-22 notification-consolidation
-# Single automatic workflow. It disables all other repository workflows, runs
-# the main generative/recovery pipelines in recoverable mode, and posts at most
-# one daily report to issue #94.
+# GOVERNED_BY: MASTER-OVERRIDING-SITE-INSTRUCTION.md
+# Single consolidated generative cycle. Governance, security, restoration,
+# integrity and acceptance workflows remain enabled and are never cancelled here.
 
 on:
   workflow_dispatch:
@@ -14,9 +12,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/daily-generative-control.yml'
+      - 'MASTER-OVERRIDING-SITE-INSTRUCTION.md'
 
 permissions:
-  actions: write
   contents: write
   issues: write
 
@@ -39,27 +37,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Disable every other GitHub Actions workflow
-        shell: bash
+      - name: Enforce controlling master before generation
         run: |
-          set +e
-          keep='.github/workflows/daily-generative-control.yml'
-          gh api --paginate "repos/$GITHUB_REPOSITORY/actions/workflows?per_page=100" --jq '.workflows[] | [.id,.path] | @tsv' | while IFS=$'\t' read -r id path; do
-            [ "$path" = "$keep" ] && continue
-            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$id/disable" >/dev/null 2>&1 || true
-          done
-          echo 'All other workflows disabled.'
-
-      - name: Cancel queued or running legacy workflow runs
-        shell: bash
-        run: |
-          set +e
-          for status in queued in_progress; do
-            gh api --paginate "repos/$GITHUB_REPOSITORY/actions/runs?status=$status&per_page=100" --jq '.workflow_runs[].id' | while read -r rid; do
-              [ "$rid" = "$GITHUB_RUN_ID" ] && continue
-              gh api -X POST "repos/$GITHUB_REPOSITORY/actions/runs/$rid/cancel" >/dev/null 2>&1 || true
-            done
-          done
+          python scripts/audit_current_instructions.py
+          python scripts/check_master_governance.py
 
       - name: Run one consolidated daily generative cycle
         shell: bash
@@ -130,8 +111,8 @@ jobs:
 
           - Successful pipeline stages: $successes
           - Recoverable/non-zero stages: $recoverable
-          - All legacy automatic workflows: disabled
-          - Notification policy: one report per UTC day
+          - Governance/security/acceptance workflows remain enabled.
+          - Notification policy: one report per UTC day.
           - Master rule: source truth and provenance override quotas; retryable gaps do not fail the daily run.
 
           <details><summary>Last runtime lines</summary>
