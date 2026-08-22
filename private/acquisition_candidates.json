@@ -1285,6 +1285,98 @@
         "المصادر والدراسات"
       ],
       "discoveredBy": "official-gutenberg-relevant-subjects"
+    },
+    {
+      "workId": "character-shamail-001",
+      "catalogueId": "character-shamail-001",
+      "titleOriginal": "الشمائل المحمدية",
+      "titleAr": "الشمائل المحمدية",
+      "author": "محمد بن عيسى الترمذي",
+      "language": "ar",
+      "format": "epub",
+      "sourceRepository": "Internet Archive",
+      "sourceIdentifier": "Library.mmn_201510",
+      "sourceUrl": "https://archive.org/details/Library.mmn_201510",
+      "downloadUrl": "https://archive.org/download/Library.mmn_201510/%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D8%A6%D9%84%20%D8%A7%D9%84%D9%85%D8%AD%D9%85%D8%AF%D9%8A%D8%A9.epub",
+      "rightsEvidence": "Public/open rights metadata: http://creativecommons.org/publicdomain/mark/1.0/    ",
+      "rightsEvidenceUrl": "https://archive.org/metadata/Library.mmn_201510",
+      "subjects": [
+        "الشمائل"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "nativeSearchCompleted": true,
+      "selectedByPriority": "epub"
+    },
+    {
+      "workId": "family-companions-001",
+      "catalogueId": "family-companions-001",
+      "titleOriginal": "فضائل الصحابة",
+      "titleAr": "فضائل الصحابة",
+      "author": "أحمد بن حنبل",
+      "language": "ar",
+      "format": "txt",
+      "sourceRepository": "Internet Archive",
+      "sourceIdentifier": "Nader.Al-Imam.Al-Mahdi",
+      "sourceUrl": "https://archive.org/details/Nader.Al-Imam.Al-Mahdi",
+      "downloadUrl": "https://archive.org/download/Nader.Al-Imam.Al-Mahdi/%D9%83%D8%AA%D8%A7%D8%A8%20%D9%81%D8%B6%D8%A7%D8%A6%D9%84%20%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%A8%D8%A9_djvu.txt",
+      "rightsEvidence": "Public/open rights metadata: http://creativecommons.org/publicdomain/mark/1.0/    ",
+      "rightsEvidenceUrl": "https://archive.org/metadata/Nader.Al-Imam.Al-Mahdi",
+      "subjects": [
+        "الأسرة والصحابة"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "nativeSearchCompleted": true,
+      "selectedByPriority": "txt"
+    },
+    {
+      "workId": "hadith-commentary-005",
+      "catalogueId": "hadith-commentary-005",
+      "titleOriginal": "عمدة القاري شرح صحيح البخاري",
+      "titleAr": "عمدة القاري شرح صحيح البخاري",
+      "author": "بدر الدين العيني",
+      "language": "ar",
+      "format": "txt",
+      "sourceRepository": "Internet Archive",
+      "sourceIdentifier": "13_20200913_20200913_2114",
+      "sourceUrl": "https://archive.org/details/13_20200913_20200913_2114",
+      "downloadUrl": "https://archive.org/download/13_20200913_20200913_2114/%D8%B9%D9%85%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D9%8A%20%D8%B4%D8%B1%D8%AD%20%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A13_djvu.txt",
+      "rightsEvidence": "Public/open rights metadata: http://creativecommons.org/publicdomain/mark/1.0/    ",
+      "rightsEvidenceUrl": "https://archive.org/metadata/13_20200913_20200913_2114",
+      "subjects": [
+        "الحديث وشروحه"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "nativeSearchCompleted": true,
+      "selectedByPriority": "txt"
+    },
+    {
+      "workId": "hadith-commentary-052",
+      "catalogueId": "hadith-commentary-052",
+      "titleOriginal": "شرح معاني الآثار",
+      "titleAr": "شرح معاني الآثار",
+      "author": "الطحاوي",
+      "language": "ar",
+      "format": "txt",
+      "sourceRepository": "Internet Archive",
+      "sourceIdentifier": "20200720_20200720_1322",
+      "sourceUrl": "https://archive.org/details/20200720_20200720_1322",
+      "downloadUrl": "https://archive.org/download/20200720_20200720_1322/%D8%B4%D8%B1%D8%AD%20%D9%85%D8%B9%D8%A7%D9%86%D9%8A%20%D8%A7%D9%84%D8%A2%D8%AB%D8%A7%D8%B1_djvu.txt",
+      "rightsEvidence": "Public/open rights metadata: http://creativecommons.org/publicdomain/mark/1.0/    ",
+      "rightsEvidenceUrl": "https://archive.org/metadata/20200720_20200720_1322",
+      "subjects": [
+        "الحديث وشروحه"
+      ],
+      "siteSections": [
+        "المصادر والدراسات"
+      ],
+      "nativeSearchCompleted": true,
+      "selectedByPriority": "txt"
     }
   ],
   "lastGITenbergDiscoveryAt": "2026-08-20T09:39:01Z",

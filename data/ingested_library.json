@@ -1,6 +1,6 @@
 {
   "schema": "ingested-library-v3",
-  "generatedAt": "2026-08-22T01:13:26.208767+00:00",
+  "generatedAt": "2026-08-22T03:22:13.087004+00:00",
   "count": 66,
   "currentBatchCount": 0,
   "items": [
@@ -2446,10 +2446,10 @@
       "ready/epub": 12,
       "ready/pdf": 0,
       "ready/source": 0,
-      "processing/import": 9,
+      "processing/import": 12,
       "processing/conversion": 0,
       "processing/revision": 0,
-      "incoming/source-pending": 661,
+      "incoming/source-pending": 658,
       "failed/retry": 0
     },
     "totalTracked": 748,
@@ -3361,10 +3361,28 @@
           "folder": "processing/import"
         },
         {
+          "id": "hadith-commentary-052",
+          "titleAr": "شرح معاني الآثار",
+          "status": "REJECTED",
+          "folder": "processing/import"
+        },
+        {
+          "id": "hadith-commentary-005",
+          "titleAr": "عمدة القاري شرح صحيح البخاري",
+          "status": "REJECTED",
+          "folder": "processing/import"
+        },
+        {
           "id": "life-seerah-018",
           "titleAr": "عيون الأثر في فنون المغازي والشمائل والسير — ابن سيد الناس",
           "archiveId": "FPoafmssoafmss",
           "status": "IMPORT_QUEUED",
+          "folder": "processing/import"
+        },
+        {
+          "id": "family-companions-001",
+          "titleAr": "فضائل الصحابة",
+          "status": "REJECTED",
           "folder": "processing/import"
         },
         {
@@ -6031,18 +6049,6 @@
           "folder": "incoming/source-pending"
         },
         {
-          "id": "family-companions-001",
-          "section": "family-companions",
-          "titleAr": "إحياء الميت بفضائل أهل البيت",
-          "titleEn": "Iḥyāʾ al-Mayt bi-Faḍāʾil Ahl al-Bayt",
-          "authorAr": "جلال الدين السيوطي",
-          "authorEn": "Jalal al-Din al-Suyuti",
-          "rights": "unknown",
-          "sourceUrl": "",
-          "catalogueStatus": "catalogued-awaiting-source",
-          "folder": "incoming/source-pending"
-        },
-        {
           "id": "character-shamail-049",
           "section": "character-shamail",
           "titleAr": "إحياء علوم الدين",
@@ -6301,18 +6307,6 @@
           "titleEn": "Al-Adhkār",
           "authorAr": "يحيى بن شرف النووي",
           "authorEn": "al-Nawawi",
-          "rights": "unknown",
-          "sourceUrl": "",
-          "catalogueStatus": "catalogued-awaiting-source",
-          "folder": "incoming/source-pending"
-        },
-        {
-          "id": "hadith-commentary-052",
-          "section": "hadith-commentary",
-          "titleAr": "الأذكار",
-          "titleEn": "Al-Adhkār",
-          "authorAr": "يحيى بن شرف النووي",
-          "authorEn": "Imam al-Nawawi",
           "rights": "unknown",
           "sourceUrl": "",
           "catalogueStatus": "catalogued-awaiting-source",
@@ -6817,18 +6811,6 @@
           "titleEn": "Al-Tanwīr fī Isqāṭ al-Tadbīr",
           "authorAr": "ابن عطاء الله السكندري",
           "authorEn": "Ibn ʿAtaʾ Allah",
-          "rights": "unknown",
-          "sourceUrl": "",
-          "catalogueStatus": "catalogued-awaiting-source",
-          "folder": "incoming/source-pending"
-        },
-        {
-          "id": "hadith-commentary-005",
-          "section": "hadith-commentary",
-          "titleAr": "التوضيح لشرح الجامع الصحيح",
-          "titleEn": "Al-Tawḍīḥ li-Sharḥ al-Jāmiʿ al-Ṣaḥīḥ",
-          "authorAr": "ابن الملقن",
-          "authorEn": "Ibn al-Mulaqqin",
           "rights": "unknown",
           "sourceUrl": "",
           "catalogueStatus": "catalogued-awaiting-source",
