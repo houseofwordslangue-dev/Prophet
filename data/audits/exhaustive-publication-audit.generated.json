@@ -1,11 +1,11 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T03:07:17.786751+00:00",
-  "gitCommit": "b49cd3c0df5fc3428e8df4f81fffd263304fd64b",
+  "generatedAt": "2026-08-22T03:07:54.648172+00:00",
+  "gitCommit": "2ccb54bdb594779366ded4b7f41fb06b5a527f9f",
   "github": {
-    "trackedFileCount": 838,
+    "trackedFileCount": 839,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 225,
+      "TECHNICAL_REPOSITORY_FILE": 226,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
       "PUBLIC_OR_SOURCE_ASSET": 52,
       "PUBLIC_SITE_ASSET": 110,
@@ -830,7 +830,7 @@
       },
       {
         "path": "assets/site-menu.js",
-        "size": 7927,
+        "size": 8062,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -925,7 +925,7 @@
       },
       {
         "path": "data/audits/exhaustive-publication-audit.generated.json",
-        "size": 870126,
+        "size": 870438,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -4192,6 +4192,11 @@
         "path": "service-worker.js",
         "size": 7251,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "site_chat_services.py",
+        "size": 6083,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
         "path": "telemetry.html",
