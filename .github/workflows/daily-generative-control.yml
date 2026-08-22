@@ -11,7 +11,9 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/daily-generative-control.yml'
       - 'scripts/source_first_fulltext_resolver.py'
+      - 'scripts/enforce_resource_extraction_readiness.py'
       - 'data/drive_native_assets_20260822.json'
       - 'data/drive_verified_assets_20260822.json'
       - 'data/ingested_library.json'
@@ -29,7 +31,7 @@ concurrency:
 jobs:
   daily:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     env:
       GH_TOKEN: ${{ github.token }}
       REPORT_ISSUE: '94'
@@ -65,12 +67,15 @@ jobs:
           [ -f scripts/audit_current_instructions.py ] && run_one 'instruction audit' python scripts/audit_current_instructions.py
           [ -f scripts/check_master_governance.py ] && run_one 'master governance' python scripts/check_master_governance.py
 
-          # 2. SOURCE-FIRST RECOVERY / LIBRARY INGESTION
-          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver pass 1' python scripts/source_first_fulltext_resolver.py
-          [ -f scripts/live_native_catalog_resolver.py ] && run_one 'live native catalog resolver' python scripts/live_native_catalog_resolver.py
-          [ -f scripts/acquire_unrestricted_library.py ] && run_one 'library acquisition' python scripts/acquire_unrestricted_library.py --limit 200
-          [ -f scripts/build_ingested_library.py ] && run_one 'library index rebuild' python scripts/build_ingested_library.py
-          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver pass 2' python scripts/source_first_fulltext_resolver.py
+          # 2. FORCE SOURCE-FIRST RECOVERY / LIBRARY INGESTION
+          for pass in 1 2 3 4; do
+            [ -f scripts/source_first_fulltext_resolver.py ] && run_one "resource extraction resolver pass $pass" python scripts/source_first_fulltext_resolver.py
+            [ -f scripts/live_native_catalog_resolver.py ] && run_one "live native catalog resolver pass $pass" python scripts/live_native_catalog_resolver.py
+            [ -f scripts/acquire_unrestricted_library.py ] && run_one "library acquisition pass $pass" python scripts/acquire_unrestricted_library.py --limit 200
+            [ -f scripts/build_ingested_library.py ] && run_one "library index rebuild pass $pass" python scripts/build_ingested_library.py
+          done
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver final' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'strict all-resource extraction readiness gate' python scripts/enforce_resource_extraction_readiness.py
 
           # 3. DAILY MAIN-SECTION ARTICLE ROTATION
           if [ -f scripts/daily_rotating_editorial_fill.py ]; then
@@ -79,14 +84,14 @@ jobs:
             done
           fi
 
-          # 4. EMPTY/SHORT SECTION COMPLETION — TRY EVERY ELIGIBLE ACTIVE SLOT DAILY
+          # 4. EMPTY/SHORT SECTION COMPLETION
           [ -f scripts/daily_completion_batch.py ] && run_one 'all underfilled editorial slots' python scripts/daily_completion_batch.py
 
           # 5. BIOGRAPHY COMPLETION / ENRICHMENT
           [ -f scripts/mine_all_missing_biography_sources.py ] && run_one 'biography source mining' python scripts/mine_all_missing_biography_sources.py
           [ -f scripts/extend_short_biographies_500.py ] && run_one 'short biography source extraction' python scripts/extend_short_biographies_500.py
           [ -f scripts/enrich_short_biographies_siyar_direct.py ] && run_one 'Siyar biography extraction' python scripts/enrich_short_biographies_siyar_direct.py
-          [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction' python scripts/enrich_short_biographies_wikisource.py
+          [ -f scripts/enrich_short_biographies_wikisource.py ] && run_one 'classical biography extraction/source-grounded assembly' python scripts/enrich_short_biographies_wikisource.py
           [ -f scripts/complete_required_biographies.py ] && run_one 'canonical biography registry' python scripts/complete_required_biographies.py
           [ -f scripts/biography_coverage_status.py ] && run_one 'biography coverage status' python scripts/biography_coverage_status.py
 
@@ -105,6 +110,8 @@ jobs:
 
           # 8. FINAL GAP SNAPSHOT
           [ -f scripts/system_gap_audit_and_repair.py ] && run_one 'system gap audit/repair after cycle' python scripts/system_gap_audit_and_repair.py --repair
+          [ -f scripts/source_first_fulltext_resolver.py ] && run_one 'resource extraction resolver post-generation' python scripts/source_first_fulltext_resolver.py
+          [ -f scripts/enforce_resource_extraction_readiness.py ] && run_one 'resource extraction readiness final gate' python scripts/enforce_resource_extraction_readiness.py
           [ -f scripts/children_completion_status.py ] && run_one 'children final status' python scripts/children_completion_status.py
           [ -f scripts/content_completion_status.py ] && run_one 'content final status' python scripts/content_completion_status.py
           [ -f scripts/biography_coverage_status.py ] && run_one 'biography final status' python scripts/biography_coverage_status.py
@@ -168,7 +175,8 @@ jobs:
           fi
           successes=$(grep -c 'RESULT .* = 0' /tmp/prophet-daily.log 2>/dev/null || true)
           recoverable=$(grep -Ec 'RESULT .* = [1-9]|NEEDS_SOURCE|RETRYABLE|DEPLOYMENT_NOT_CONFIGURED|DEPLOY_RETRYABLE' /tmp/prophet-daily.log 2>/dev/null || true)
-          tailtext=$(tail -n 40 /tmp/prophet-daily.log 2>/dev/null | sed 's/`/'"'"'/g')
+          resource_gate=$(grep 'RESULT resource extraction readiness final gate' /tmp/prophet-daily.log 2>/dev/null | tail -n 1 || true)
+          tailtext=$(tail -n 50 /tmp/prophet-daily.log 2>/dev/null | sed 's/`/'"'"'/g')
           cat > /tmp/report.md <<EOF
           $marker
           ## Daily Prophet generation report — $day
@@ -177,8 +185,9 @@ jobs:
           - Recoverable/backlog signals: $recoverable
           - Automatic workflow count: **1**
           - Governing master: MASTER-OVERRIDING-SITE-INSTRUCTION.md
-          - Source truth/provenance override numerical targets.
-          - Missing sources, network misses, enrichment deficits and unavailable deployment configuration are retried/recorded rather than spawning failure notifications.
+          - Resource gate: $resource_gate
+          - Source truth/provenance/rights override numerical targets.
+          - Missing extraction paths are forced through repeated resolution/acquisition passes and remain explicit blockers until verified.
 
           <details><summary>Last runtime lines</summary>
 
