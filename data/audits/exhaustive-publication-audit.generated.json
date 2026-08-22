@@ -1,21 +1,21 @@
 {
   "schema": "prophet-exhaustive-file-resource-audit-v2",
-  "generatedAt": "2026-08-22T02:59:36.018365+00:00",
-  "gitCommit": "d2129eaa17258488931e7f8bc34ab4cb804553ad",
+  "generatedAt": "2026-08-22T03:07:03.533461+00:00",
+  "gitCommit": "9fcaab4060843ecd2bdae87128c33c008337b332",
   "github": {
-    "trackedFileCount": 827,
+    "trackedFileCount": 836,
     "fileDispositionCounts": {
-      "TECHNICAL_REPOSITORY_FILE": 220,
+      "TECHNICAL_REPOSITORY_FILE": 225,
       "NON_PUBLIC_WORKSPACE_OR_REJECTED": 127,
-      "PUBLIC_OR_SOURCE_ASSET": 51,
-      "PUBLIC_SITE_ASSET": 108,
+      "PUBLIC_OR_SOURCE_ASSET": 52,
+      "PUBLIC_SITE_ASSET": 109,
       "DERIVATIVE_ATTACHED_TO_PARENT": 8,
-      "CONTENT_OR_PUBLICATION_REGISTRY": 313
+      "CONTENT_OR_PUBLICATION_REGISTRY": 315
     },
     "files": [
       {
         "path": ".env.example",
-        "size": 1827,
+        "size": 1989,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -186,6 +186,11 @@
       {
         "path": ".github/workflows/materialize-master-overriding-instruction.yml",
         "size": 4104,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": ".github/workflows/materialize-rijal-biography-batch.yml",
+        "size": 2292,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -804,6 +809,11 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "assets/site-chat.js",
+        "size": 4462,
+        "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
         "path": "assets/site-launch-audio.js",
         "size": 5230,
         "disposition": "PUBLIC_SITE_ASSET"
@@ -815,7 +825,7 @@
       },
       {
         "path": "assets/site-menu.js",
-        "size": 7926,
+        "size": 7927,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
@@ -842,6 +852,11 @@
         "path": "assets/youtube-start-offset.js",
         "size": 1369,
         "disposition": "PUBLIC_SITE_ASSET"
+      },
+      {
+        "path": "chat_services.py",
+        "size": 5725,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
         "path": "children-animated.html",
@@ -3024,8 +3039,13 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/rijal-biography-batches/batch-0001.audit.json",
+        "size": 202,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/rijal-biography-batches/batch-0001.json",
-        "size": 1644,
+        "size": 329186,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3069,13 +3089,18 @@
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
+        "path": "data/editorial/short-biography-extensions/usama-ibn-zaid.json",
+        "size": 9056,
+        "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
+      },
+      {
         "path": "data/editorial/short_biographies_500_audit.json",
-        "size": 87012,
+        "size": 68190,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
         "path": "data/editorial/short_biography_extensions.json",
-        "size": 2805,
+        "size": 3095,
         "disposition": "CONTENT_OR_PUBLICATION_REGISTRY"
       },
       {
@@ -3345,7 +3370,12 @@
       },
       {
         "path": "functions/api/children-chat.js",
-        "size": 7712,
+        "size": 7887,
+        "disposition": "PUBLIC_OR_SOURCE_ASSET"
+      },
+      {
+        "path": "functions/api/site-chat.js",
+        "size": 8172,
         "disposition": "PUBLIC_OR_SOURCE_ASSET"
       },
       {
@@ -3529,13 +3559,18 @@
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
+        "path": "notebooks/Prophet_Parallel_Runtime_A_Quran.ipynb",
+        "size": 5469,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
         "path": "ops.html",
         "size": 1984,
         "disposition": "PUBLIC_SITE_ASSET"
       },
       {
         "path": "ops_services.py",
-        "size": 4169,
+        "size": 4318,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -3895,7 +3930,7 @@
       },
       {
         "path": "scripts/enrich_short_biographies_wikisource.py",
-        "size": 9662,
+        "size": 12384,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -3911,6 +3946,11 @@
       {
         "path": "scripts/export_archive_pdf_epub.py",
         "size": 5821,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/extend_next_50_historical_biographies.py",
+        "size": 12625,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -4026,6 +4066,11 @@
       {
         "path": "scripts/materialize_khadija_1000_compiled.py",
         "size": 17745,
+        "disposition": "TECHNICAL_REPOSITORY_FILE"
+      },
+      {
+        "path": "scripts/materialize_rijal_biography_batch.py",
+        "size": 5757,
         "disposition": "TECHNICAL_REPOSITORY_FILE"
       },
       {
@@ -4152,9 +4197,9 @@
   },
   "registries": {
     "registryFileCount": 60,
-    "recordCount": 3119,
+    "recordCount": 3165,
     "recordDispositionCounts": {
-      "CATALOGUED_OR_METADATA_RECORD": 1292,
+      "CATALOGUED_OR_METADATA_RECORD": 1338,
       "ATTACHED_RECORD": 689,
       "PUBLISHED_RECORD": 1090,
       "ASSET_OR_SOURCE_RECORD": 47,
@@ -4327,7 +4372,7 @@
       },
       {
         "path": "data/editorial/rijal-biography-batches/batch-0001.json",
-        "recordCount": 4
+        "recordCount": 50
       },
       {
         "path": "data/expanded_biographies_135_full.json",
@@ -16917,6 +16962,328 @@
         "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
         "collection": "records",
         "index": 3,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "106",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 4,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "120",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 5,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "121",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 6,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "148",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 7,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "151",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 8,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "164",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 9,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "181",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 10,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "185",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 11,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "186",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 12,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "195",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 13,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "210",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 14,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "216",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 15,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "237",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 16,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "251",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 17,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "266",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 18,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "275",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 19,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "276",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 20,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "290",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 21,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "291",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 22,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "303",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 23,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "304",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 24,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "342",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 25,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "349",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 26,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "350",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 27,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "363",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 28,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "368",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 29,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "376",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 30,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "377",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 31,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "389",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 32,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "397",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 33,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "403",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 34,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "407",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 35,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "449",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 36,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "455",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 37,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "456",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 38,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "485",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 39,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "487",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 40,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "498",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 41,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "499",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 42,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "513",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 43,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "529",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 44,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "545",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 45,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "556",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 46,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "559",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 47,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "572",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 48,
+        "disposition": "CATALOGUED_OR_METADATA_RECORD"
+      },
+      {
+        "id": "601",
+        "registry": "data/editorial/rijal-biography-batches/batch-0001.json",
+        "collection": "records",
+        "index": 49,
         "disposition": "CATALOGUED_OR_METADATA_RECORD"
       },
       {
